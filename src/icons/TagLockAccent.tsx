@@ -3,7 +3,8 @@ import TagLockAccent20FilledSvg from "@fluentui/svg-icons/icons/tag_lock_accent_
 import TagLockAccent24FilledSvg from "@fluentui/svg-icons/icons/tag_lock_accent_24_filled.svg" with { type: "text" }
 import TagLockAccent32FilledSvg from "@fluentui/svg-icons/icons/tag_lock_accent_32_filled.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TagLockAccent16Filled = createIcon("TagLockAccent16Filled", TagLockAccent16FilledSvg);
-export const TagLockAccent20Filled = createIcon("TagLockAccent20Filled", TagLockAccent20FilledSvg);
-export const TagLockAccent24Filled = createIcon("TagLockAccent24Filled", TagLockAccent24FilledSvg);
-export const TagLockAccent32Filled = createIcon("TagLockAccent32Filled", TagLockAccent32FilledSvg);
+export const TagLockAccent16Filled = /** #__PURE__ */ createIcon("TagLockAccent16Filled", "16", TagLockAccent16FilledSvg);
+export const TagLockAccent20Filled = /** #__PURE__ */ createIcon("TagLockAccent20Filled", "20", TagLockAccent20FilledSvg);
+export const TagLockAccentFilled = /** #__PURE__ */ createIcon("TagLockAccentFilled", "1em", TagLockAccent20FilledSvg);
+export const TagLockAccent24Filled = /** #__PURE__ */ createIcon("TagLockAccent24Filled", "24", TagLockAccent24FilledSvg);
+export const TagLockAccent32Filled = /** #__PURE__ */ createIcon("TagLockAccent32Filled", "32", TagLockAccent32FilledSvg);

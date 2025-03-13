@@ -3,7 +3,9 @@ import TextLineSpacing20RegularSvg from "@fluentui/svg-icons/icons/text_line_spa
 import TextLineSpacing24FilledSvg from "@fluentui/svg-icons/icons/text_line_spacing_24_filled.svg" with { type: "text" }
 import TextLineSpacing24RegularSvg from "@fluentui/svg-icons/icons/text_line_spacing_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TextLineSpacing20Filled = createIcon("TextLineSpacing20Filled", TextLineSpacing20FilledSvg);
-export const TextLineSpacing20Regular = createIcon("TextLineSpacing20Regular", TextLineSpacing20RegularSvg);
-export const TextLineSpacing24Filled = createIcon("TextLineSpacing24Filled", TextLineSpacing24FilledSvg);
-export const TextLineSpacing24Regular = createIcon("TextLineSpacing24Regular", TextLineSpacing24RegularSvg);
+export const TextLineSpacing20Filled = /** #__PURE__ */ createIcon("TextLineSpacing20Filled", "20", TextLineSpacing20FilledSvg);
+export const TextLineSpacingFilled = /** #__PURE__ */ createIcon("TextLineSpacingFilled", "1em", TextLineSpacing20FilledSvg);
+export const TextLineSpacing20Regular = /** #__PURE__ */ createIcon("TextLineSpacing20Regular", "20", TextLineSpacing20RegularSvg);
+export const TextLineSpacingRegular = /** #__PURE__ */ createIcon("TextLineSpacingRegular", "1em", TextLineSpacing20RegularSvg);
+export const TextLineSpacing24Filled = /** #__PURE__ */ createIcon("TextLineSpacing24Filled", "24", TextLineSpacing24FilledSvg);
+export const TextLineSpacing24Regular = /** #__PURE__ */ createIcon("TextLineSpacing24Regular", "24", TextLineSpacing24RegularSvg);

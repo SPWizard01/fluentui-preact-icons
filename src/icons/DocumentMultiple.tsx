@@ -5,9 +5,11 @@ import DocumentMultiple20RegularSvg from "@fluentui/svg-icons/icons/document_mul
 import DocumentMultiple24FilledSvg from "@fluentui/svg-icons/icons/document_multiple_24_filled.svg" with { type: "text" }
 import DocumentMultiple24RegularSvg from "@fluentui/svg-icons/icons/document_multiple_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const DocumentMultiple16Filled = createIcon("DocumentMultiple16Filled", DocumentMultiple16FilledSvg);
-export const DocumentMultiple16Regular = createIcon("DocumentMultiple16Regular", DocumentMultiple16RegularSvg);
-export const DocumentMultiple20Filled = createIcon("DocumentMultiple20Filled", DocumentMultiple20FilledSvg);
-export const DocumentMultiple20Regular = createIcon("DocumentMultiple20Regular", DocumentMultiple20RegularSvg);
-export const DocumentMultiple24Filled = createIcon("DocumentMultiple24Filled", DocumentMultiple24FilledSvg);
-export const DocumentMultiple24Regular = createIcon("DocumentMultiple24Regular", DocumentMultiple24RegularSvg);
+export const DocumentMultiple16Filled = /** #__PURE__ */ createIcon("DocumentMultiple16Filled", "16", DocumentMultiple16FilledSvg);
+export const DocumentMultiple16Regular = /** #__PURE__ */ createIcon("DocumentMultiple16Regular", "16", DocumentMultiple16RegularSvg);
+export const DocumentMultiple20Filled = /** #__PURE__ */ createIcon("DocumentMultiple20Filled", "20", DocumentMultiple20FilledSvg);
+export const DocumentMultipleFilled = /** #__PURE__ */ createIcon("DocumentMultipleFilled", "1em", DocumentMultiple20FilledSvg);
+export const DocumentMultiple20Regular = /** #__PURE__ */ createIcon("DocumentMultiple20Regular", "20", DocumentMultiple20RegularSvg);
+export const DocumentMultipleRegular = /** #__PURE__ */ createIcon("DocumentMultipleRegular", "1em", DocumentMultiple20RegularSvg);
+export const DocumentMultiple24Filled = /** #__PURE__ */ createIcon("DocumentMultiple24Filled", "24", DocumentMultiple24FilledSvg);
+export const DocumentMultiple24Regular = /** #__PURE__ */ createIcon("DocumentMultiple24Regular", "24", DocumentMultiple24RegularSvg);

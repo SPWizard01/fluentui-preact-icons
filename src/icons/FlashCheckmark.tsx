@@ -7,11 +7,13 @@ import FlashCheckmark24RegularSvg from "@fluentui/svg-icons/icons/flash_checkmar
 import FlashCheckmark28FilledSvg from "@fluentui/svg-icons/icons/flash_checkmark_28_filled.svg" with { type: "text" }
 import FlashCheckmark28RegularSvg from "@fluentui/svg-icons/icons/flash_checkmark_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const FlashCheckmark16Filled = createIcon("FlashCheckmark16Filled", FlashCheckmark16FilledSvg);
-export const FlashCheckmark16Regular = createIcon("FlashCheckmark16Regular", FlashCheckmark16RegularSvg);
-export const FlashCheckmark20Filled = createIcon("FlashCheckmark20Filled", FlashCheckmark20FilledSvg);
-export const FlashCheckmark20Regular = createIcon("FlashCheckmark20Regular", FlashCheckmark20RegularSvg);
-export const FlashCheckmark24Filled = createIcon("FlashCheckmark24Filled", FlashCheckmark24FilledSvg);
-export const FlashCheckmark24Regular = createIcon("FlashCheckmark24Regular", FlashCheckmark24RegularSvg);
-export const FlashCheckmark28Filled = createIcon("FlashCheckmark28Filled", FlashCheckmark28FilledSvg);
-export const FlashCheckmark28Regular = createIcon("FlashCheckmark28Regular", FlashCheckmark28RegularSvg);
+export const FlashCheckmark16Filled = /** #__PURE__ */ createIcon("FlashCheckmark16Filled", "16", FlashCheckmark16FilledSvg);
+export const FlashCheckmark16Regular = /** #__PURE__ */ createIcon("FlashCheckmark16Regular", "16", FlashCheckmark16RegularSvg);
+export const FlashCheckmark20Filled = /** #__PURE__ */ createIcon("FlashCheckmark20Filled", "20", FlashCheckmark20FilledSvg);
+export const FlashCheckmarkFilled = /** #__PURE__ */ createIcon("FlashCheckmarkFilled", "1em", FlashCheckmark20FilledSvg);
+export const FlashCheckmark20Regular = /** #__PURE__ */ createIcon("FlashCheckmark20Regular", "20", FlashCheckmark20RegularSvg);
+export const FlashCheckmarkRegular = /** #__PURE__ */ createIcon("FlashCheckmarkRegular", "1em", FlashCheckmark20RegularSvg);
+export const FlashCheckmark24Filled = /** #__PURE__ */ createIcon("FlashCheckmark24Filled", "24", FlashCheckmark24FilledSvg);
+export const FlashCheckmark24Regular = /** #__PURE__ */ createIcon("FlashCheckmark24Regular", "24", FlashCheckmark24RegularSvg);
+export const FlashCheckmark28Filled = /** #__PURE__ */ createIcon("FlashCheckmark28Filled", "28", FlashCheckmark28FilledSvg);
+export const FlashCheckmark28Regular = /** #__PURE__ */ createIcon("FlashCheckmark28Regular", "28", FlashCheckmark28RegularSvg);

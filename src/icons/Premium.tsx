@@ -16,20 +16,23 @@ import Premium32ColorSvg from "@fluentui/svg-icons/icons/premium_32_color.svg" w
 import Premium32FilledSvg from "@fluentui/svg-icons/icons/premium_32_filled.svg" with { type: "text" }
 import Premium32RegularSvg from "@fluentui/svg-icons/icons/premium_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Premium12Filled = createIcon("Premium12Filled", Premium12FilledSvg);
-export const Premium12Regular = createIcon("Premium12Regular", Premium12RegularSvg);
-export const Premium16Color = createIcon("Premium16Color", Premium16ColorSvg);
-export const Premium16Filled = createIcon("Premium16Filled", Premium16FilledSvg);
-export const Premium16Regular = createIcon("Premium16Regular", Premium16RegularSvg);
-export const Premium20Color = createIcon("Premium20Color", Premium20ColorSvg);
-export const Premium20Filled = createIcon("Premium20Filled", Premium20FilledSvg);
-export const Premium20Regular = createIcon("Premium20Regular", Premium20RegularSvg);
-export const Premium24Color = createIcon("Premium24Color", Premium24ColorSvg);
-export const Premium24Filled = createIcon("Premium24Filled", Premium24FilledSvg);
-export const Premium24Regular = createIcon("Premium24Regular", Premium24RegularSvg);
-export const Premium28Color = createIcon("Premium28Color", Premium28ColorSvg);
-export const Premium28Filled = createIcon("Premium28Filled", Premium28FilledSvg);
-export const Premium28Regular = createIcon("Premium28Regular", Premium28RegularSvg);
-export const Premium32Color = createIcon("Premium32Color", Premium32ColorSvg);
-export const Premium32Filled = createIcon("Premium32Filled", Premium32FilledSvg);
-export const Premium32Regular = createIcon("Premium32Regular", Premium32RegularSvg);
+export const Premium12Filled = /** #__PURE__ */ createIcon("Premium12Filled", "12", Premium12FilledSvg);
+export const Premium12Regular = /** #__PURE__ */ createIcon("Premium12Regular", "12", Premium12RegularSvg);
+export const Premium16Color = /** #__PURE__ */ createIcon("Premium16Color", "16", Premium16ColorSvg);
+export const Premium16Filled = /** #__PURE__ */ createIcon("Premium16Filled", "16", Premium16FilledSvg);
+export const Premium16Regular = /** #__PURE__ */ createIcon("Premium16Regular", "16", Premium16RegularSvg);
+export const Premium20Color = /** #__PURE__ */ createIcon("Premium20Color", "20", Premium20ColorSvg);
+export const PremiumColor = /** #__PURE__ */ createIcon("PremiumColor", "1em", Premium20ColorSvg);
+export const Premium20Filled = /** #__PURE__ */ createIcon("Premium20Filled", "20", Premium20FilledSvg);
+export const PremiumFilled = /** #__PURE__ */ createIcon("PremiumFilled", "1em", Premium20FilledSvg);
+export const Premium20Regular = /** #__PURE__ */ createIcon("Premium20Regular", "20", Premium20RegularSvg);
+export const PremiumRegular = /** #__PURE__ */ createIcon("PremiumRegular", "1em", Premium20RegularSvg);
+export const Premium24Color = /** #__PURE__ */ createIcon("Premium24Color", "24", Premium24ColorSvg);
+export const Premium24Filled = /** #__PURE__ */ createIcon("Premium24Filled", "24", Premium24FilledSvg);
+export const Premium24Regular = /** #__PURE__ */ createIcon("Premium24Regular", "24", Premium24RegularSvg);
+export const Premium28Color = /** #__PURE__ */ createIcon("Premium28Color", "28", Premium28ColorSvg);
+export const Premium28Filled = /** #__PURE__ */ createIcon("Premium28Filled", "28", Premium28FilledSvg);
+export const Premium28Regular = /** #__PURE__ */ createIcon("Premium28Regular", "28", Premium28RegularSvg);
+export const Premium32Color = /** #__PURE__ */ createIcon("Premium32Color", "32", Premium32ColorSvg);
+export const Premium32Filled = /** #__PURE__ */ createIcon("Premium32Filled", "32", Premium32FilledSvg);
+export const Premium32Regular = /** #__PURE__ */ createIcon("Premium32Regular", "32", Premium32RegularSvg);

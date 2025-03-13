@@ -18,22 +18,25 @@ import Edit32RegularSvg from "@fluentui/svg-icons/icons/edit_32_regular.svg" wit
 import Edit48FilledSvg from "@fluentui/svg-icons/icons/edit_48_filled.svg" with { type: "text" }
 import Edit48RegularSvg from "@fluentui/svg-icons/icons/edit_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Edit12Filled = createIcon("Edit12Filled", Edit12FilledSvg);
-export const Edit12Regular = createIcon("Edit12Regular", Edit12RegularSvg);
-export const Edit16Color = createIcon("Edit16Color", Edit16ColorSvg);
-export const Edit16Filled = createIcon("Edit16Filled", Edit16FilledSvg);
-export const Edit16Regular = createIcon("Edit16Regular", Edit16RegularSvg);
-export const Edit20Color = createIcon("Edit20Color", Edit20ColorSvg);
-export const Edit20Filled = createIcon("Edit20Filled", Edit20FilledSvg);
-export const Edit20Regular = createIcon("Edit20Regular", Edit20RegularSvg);
-export const Edit24Color = createIcon("Edit24Color", Edit24ColorSvg);
-export const Edit24Filled = createIcon("Edit24Filled", Edit24FilledSvg);
-export const Edit24Regular = createIcon("Edit24Regular", Edit24RegularSvg);
-export const Edit28Filled = createIcon("Edit28Filled", Edit28FilledSvg);
-export const Edit28Regular = createIcon("Edit28Regular", Edit28RegularSvg);
-export const Edit32Color = createIcon("Edit32Color", Edit32ColorSvg);
-export const Edit32Filled = createIcon("Edit32Filled", Edit32FilledSvg);
-export const Edit32Light = createIcon("Edit32Light", Edit32LightSvg);
-export const Edit32Regular = createIcon("Edit32Regular", Edit32RegularSvg);
-export const Edit48Filled = createIcon("Edit48Filled", Edit48FilledSvg);
-export const Edit48Regular = createIcon("Edit48Regular", Edit48RegularSvg);
+export const Edit12Filled = /** #__PURE__ */ createIcon("Edit12Filled", "12", Edit12FilledSvg);
+export const Edit12Regular = /** #__PURE__ */ createIcon("Edit12Regular", "12", Edit12RegularSvg);
+export const Edit16Color = /** #__PURE__ */ createIcon("Edit16Color", "16", Edit16ColorSvg);
+export const Edit16Filled = /** #__PURE__ */ createIcon("Edit16Filled", "16", Edit16FilledSvg);
+export const Edit16Regular = /** #__PURE__ */ createIcon("Edit16Regular", "16", Edit16RegularSvg);
+export const Edit20Color = /** #__PURE__ */ createIcon("Edit20Color", "20", Edit20ColorSvg);
+export const EditColor = /** #__PURE__ */ createIcon("EditColor", "1em", Edit20ColorSvg);
+export const Edit20Filled = /** #__PURE__ */ createIcon("Edit20Filled", "20", Edit20FilledSvg);
+export const EditFilled = /** #__PURE__ */ createIcon("EditFilled", "1em", Edit20FilledSvg);
+export const Edit20Regular = /** #__PURE__ */ createIcon("Edit20Regular", "20", Edit20RegularSvg);
+export const EditRegular = /** #__PURE__ */ createIcon("EditRegular", "1em", Edit20RegularSvg);
+export const Edit24Color = /** #__PURE__ */ createIcon("Edit24Color", "24", Edit24ColorSvg);
+export const Edit24Filled = /** #__PURE__ */ createIcon("Edit24Filled", "24", Edit24FilledSvg);
+export const Edit24Regular = /** #__PURE__ */ createIcon("Edit24Regular", "24", Edit24RegularSvg);
+export const Edit28Filled = /** #__PURE__ */ createIcon("Edit28Filled", "28", Edit28FilledSvg);
+export const Edit28Regular = /** #__PURE__ */ createIcon("Edit28Regular", "28", Edit28RegularSvg);
+export const Edit32Color = /** #__PURE__ */ createIcon("Edit32Color", "32", Edit32ColorSvg);
+export const Edit32Filled = /** #__PURE__ */ createIcon("Edit32Filled", "32", Edit32FilledSvg);
+export const Edit32Light = /** #__PURE__ */ createIcon("Edit32Light", "32", Edit32LightSvg);
+export const Edit32Regular = /** #__PURE__ */ createIcon("Edit32Regular", "32", Edit32RegularSvg);
+export const Edit48Filled = /** #__PURE__ */ createIcon("Edit48Filled", "48", Edit48FilledSvg);
+export const Edit48Regular = /** #__PURE__ */ createIcon("Edit48Regular", "48", Edit48RegularSvg);

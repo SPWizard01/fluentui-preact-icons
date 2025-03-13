@@ -1,6 +1,5 @@
 import { $, build, type BuildOutput, write } from "bun";
 import { readdir, } from "fs/promises";
-import { console } from "inspector/promises";
 await $`rm -rf dist`;
 interface IconDefinition {
     Name: string;
@@ -9,7 +8,6 @@ interface IconDefinition {
     Variant: string;
     FileName: string;
 }
-console.log("Building icons", new DOMParser())
 function toCamelCase(str: string) {
     return str
         .split('_') // Split the string by underscores
@@ -54,15 +52,23 @@ for (const key in grouped) {
     const icons = grouped[key]!;
     const camelCaseName = icons[0]!.Name;
     let content = icons.map(icon => `import ${icon.Name}${icon.Size}${icon.Variant}Svg from "@fluentui/svg-icons/icons/${icon.FileName}" with { type: "text" }`).join("\n")
+    //let content = "";
     content += `\nimport { createIcon } from "../utils/createIcon"`
     const createIconCalls = icons.map(icon => {
         const iconName = `${icon.Name}${icon.Size}${icon.Variant}`
-        return `export const ${iconName} = createIcon("${iconName}", ${iconName}Svg);`
+        const iconNameNoSize = `${icon.Name}${icon.Variant}`;
+        // const content `export const ${iconName} = createIcon("${iconName}", "${icon.Size}", import("@fluentui/svg-icons/icons/${icon.FileName}", { with: { type: "text" }}));`
+        let exportContent = `export const ${iconName} = /** #__PURE__ */ createIcon("${iconName}", "${icon.Size}", ${iconName}Svg);`;
+        if (icon.Size === "20") {
+            exportContent += `\nexport const ${iconNameNoSize} = /** #__PURE__ */ createIcon("${iconNameNoSize}", "1em", ${iconName}Svg);`
+        }
+        return exportContent
     }).join("\n")
     content += `\n${createIconCalls}`
     await write(`src/icons/${camelCaseName}.tsx`, content)
 }
 // write index.ts
+
 let indexTsContent = "";
 for (const key in grouped) {
     const icons = grouped[key]!;
@@ -71,12 +77,48 @@ for (const key in grouped) {
 }
 await write(`src/index.ts`, indexTsContent)
 
+// let indexTsContent = "";
+// let chunkedCount = 0;
+// let chunkIndex = 0;
+// const entryPointChunks: string[] = [];
+// let indexExports = ``
+// for (const key in grouped) {
+//     const icons = grouped[key]!;
+//     chunkedCount += icons.length;
+//     const camelCaseName = icons[0]!.Name;
+//     const exp = `export * from "./icons/${camelCaseName}";`
+//     indexTsContent += `${exp}\n`
+//     if(chunkedCount >= 1000) {
+//         const chunkName = `chunk-${chunkIndex}.ts`;
+//         indexExports += `export * from "./${chunkName}";\n`
+//         const epChunk = `src/${chunkName}`;
+//         await write(epChunk, indexTsContent)
+//         entryPointChunks.push(epChunk);
+//         indexTsContent = "";
+//         chunkedCount = 0;
+//         chunkIndex++;
+//     }
+// }
+// if(chunkedCount > 0) {
+//     const chunkName = `chunk-${chunkIndex}.ts`;
+//     indexExports += `export * from "./${chunkName}";\n`
+//     const epChunk = `src/${chunkName}`;
+//     await write(epChunk, indexTsContent)
+//     entryPointChunks.push(epChunk);
+//     indexTsContent = "";
+//     chunkedCount = 0;
+// }
+
+// //await write(`dist/index.js`, indexExports.replaceAll(`.ts";`, `.js";`))
+// await write(`src/index.ts`, indexExports)
+// // entryPointChunks.push("src/index.ts")
+
 let AppTsxContent = `import React from "preact";\n`
 let AppTsxRenderContent = ``
 for (const key in grouped) {
     const icons = grouped[key]!;
     const camelCaseName = icons[0]!.Name;
-    AppTsxContent += `import { ${icons.map(i => (`${i.Name}${i.Size}${i.Variant}`)).join(", ")} } from "./icons/${camelCaseName}";\n`
+    AppTsxContent += `import { ${icons.map(i => (`${i.Name}${i.Size}${i.Variant}`)).join(", ")} } from "../src/icons/${camelCaseName}";\n`
     AppTsxRenderContent += icons.map(i => (`<${i.Name}${i.Size}${i.Variant} />`)).join("\n")
 }
 AppTsxContent += `
@@ -89,8 +131,11 @@ export function App() {
 }`
 await write(`showcase/App.tsx`, AppTsxContent)
 
+
+
 const result = await build({
-    entrypoints: ["./src/index.ts"],
+    // entrypoints: entryPointChunks,
+    entrypoints: ["src/index.ts"],
     sourcemap: "none",
     outdir: "./dist",
     naming: {
@@ -99,13 +144,8 @@ const result = await build({
     target: "browser",
     splitting: true,
     minify: false,
-
     format: "esm",
-    define: {
-        "BUILD_DATE": JSON.stringify(new Date().toISOString()),
-    },
-    drop: ["console.debug", "console.log"],
-    external: ["preact"]
+    external: ["preact"],
 })
 function printOutput(result: BuildOutput) {
     console.table(result.outputs.map((bldArt) => {
@@ -115,5 +155,5 @@ function printOutput(result: BuildOutput) {
         }
     }));
 }
-
+await $`tsc -p tsconfig.json`
 printOutput(result);

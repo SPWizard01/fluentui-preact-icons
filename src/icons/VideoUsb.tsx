@@ -11,15 +11,17 @@ import VideoUsb32RegularSvg from "@fluentui/svg-icons/icons/video_usb_32_regular
 import VideoUsb48FilledSvg from "@fluentui/svg-icons/icons/video_usb_48_filled.svg" with { type: "text" }
 import VideoUsb48RegularSvg from "@fluentui/svg-icons/icons/video_usb_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const VideoUsb16Filled = createIcon("VideoUsb16Filled", VideoUsb16FilledSvg);
-export const VideoUsb16Regular = createIcon("VideoUsb16Regular", VideoUsb16RegularSvg);
-export const VideoUsb20Filled = createIcon("VideoUsb20Filled", VideoUsb20FilledSvg);
-export const VideoUsb20Regular = createIcon("VideoUsb20Regular", VideoUsb20RegularSvg);
-export const VideoUsb24Filled = createIcon("VideoUsb24Filled", VideoUsb24FilledSvg);
-export const VideoUsb24Regular = createIcon("VideoUsb24Regular", VideoUsb24RegularSvg);
-export const VideoUsb28Filled = createIcon("VideoUsb28Filled", VideoUsb28FilledSvg);
-export const VideoUsb28Regular = createIcon("VideoUsb28Regular", VideoUsb28RegularSvg);
-export const VideoUsb32Filled = createIcon("VideoUsb32Filled", VideoUsb32FilledSvg);
-export const VideoUsb32Regular = createIcon("VideoUsb32Regular", VideoUsb32RegularSvg);
-export const VideoUsb48Filled = createIcon("VideoUsb48Filled", VideoUsb48FilledSvg);
-export const VideoUsb48Regular = createIcon("VideoUsb48Regular", VideoUsb48RegularSvg);
+export const VideoUsb16Filled = /** #__PURE__ */ createIcon("VideoUsb16Filled", "16", VideoUsb16FilledSvg);
+export const VideoUsb16Regular = /** #__PURE__ */ createIcon("VideoUsb16Regular", "16", VideoUsb16RegularSvg);
+export const VideoUsb20Filled = /** #__PURE__ */ createIcon("VideoUsb20Filled", "20", VideoUsb20FilledSvg);
+export const VideoUsbFilled = /** #__PURE__ */ createIcon("VideoUsbFilled", "1em", VideoUsb20FilledSvg);
+export const VideoUsb20Regular = /** #__PURE__ */ createIcon("VideoUsb20Regular", "20", VideoUsb20RegularSvg);
+export const VideoUsbRegular = /** #__PURE__ */ createIcon("VideoUsbRegular", "1em", VideoUsb20RegularSvg);
+export const VideoUsb24Filled = /** #__PURE__ */ createIcon("VideoUsb24Filled", "24", VideoUsb24FilledSvg);
+export const VideoUsb24Regular = /** #__PURE__ */ createIcon("VideoUsb24Regular", "24", VideoUsb24RegularSvg);
+export const VideoUsb28Filled = /** #__PURE__ */ createIcon("VideoUsb28Filled", "28", VideoUsb28FilledSvg);
+export const VideoUsb28Regular = /** #__PURE__ */ createIcon("VideoUsb28Regular", "28", VideoUsb28RegularSvg);
+export const VideoUsb32Filled = /** #__PURE__ */ createIcon("VideoUsb32Filled", "32", VideoUsb32FilledSvg);
+export const VideoUsb32Regular = /** #__PURE__ */ createIcon("VideoUsb32Regular", "32", VideoUsb32RegularSvg);
+export const VideoUsb48Filled = /** #__PURE__ */ createIcon("VideoUsb48Filled", "48", VideoUsb48FilledSvg);
+export const VideoUsb48Regular = /** #__PURE__ */ createIcon("VideoUsb48Regular", "48", VideoUsb48RegularSvg);

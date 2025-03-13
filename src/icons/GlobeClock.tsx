@@ -5,9 +5,11 @@ import GlobeClock20RegularSvg from "@fluentui/svg-icons/icons/globe_clock_20_reg
 import GlobeClock24FilledSvg from "@fluentui/svg-icons/icons/globe_clock_24_filled.svg" with { type: "text" }
 import GlobeClock24RegularSvg from "@fluentui/svg-icons/icons/globe_clock_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const GlobeClock16Filled = createIcon("GlobeClock16Filled", GlobeClock16FilledSvg);
-export const GlobeClock16Regular = createIcon("GlobeClock16Regular", GlobeClock16RegularSvg);
-export const GlobeClock20Filled = createIcon("GlobeClock20Filled", GlobeClock20FilledSvg);
-export const GlobeClock20Regular = createIcon("GlobeClock20Regular", GlobeClock20RegularSvg);
-export const GlobeClock24Filled = createIcon("GlobeClock24Filled", GlobeClock24FilledSvg);
-export const GlobeClock24Regular = createIcon("GlobeClock24Regular", GlobeClock24RegularSvg);
+export const GlobeClock16Filled = /** #__PURE__ */ createIcon("GlobeClock16Filled", "16", GlobeClock16FilledSvg);
+export const GlobeClock16Regular = /** #__PURE__ */ createIcon("GlobeClock16Regular", "16", GlobeClock16RegularSvg);
+export const GlobeClock20Filled = /** #__PURE__ */ createIcon("GlobeClock20Filled", "20", GlobeClock20FilledSvg);
+export const GlobeClockFilled = /** #__PURE__ */ createIcon("GlobeClockFilled", "1em", GlobeClock20FilledSvg);
+export const GlobeClock20Regular = /** #__PURE__ */ createIcon("GlobeClock20Regular", "20", GlobeClock20RegularSvg);
+export const GlobeClockRegular = /** #__PURE__ */ createIcon("GlobeClockRegular", "1em", GlobeClock20RegularSvg);
+export const GlobeClock24Filled = /** #__PURE__ */ createIcon("GlobeClock24Filled", "24", GlobeClock24FilledSvg);
+export const GlobeClock24Regular = /** #__PURE__ */ createIcon("GlobeClock24Regular", "24", GlobeClock24RegularSvg);

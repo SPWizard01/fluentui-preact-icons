@@ -3,7 +3,9 @@ import ImageArrowCounterclockwise20RegularSvg from "@fluentui/svg-icons/icons/im
 import ImageArrowCounterclockwise24FilledSvg from "@fluentui/svg-icons/icons/image_arrow_counterclockwise_24_filled.svg" with { type: "text" }
 import ImageArrowCounterclockwise24RegularSvg from "@fluentui/svg-icons/icons/image_arrow_counterclockwise_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ImageArrowCounterclockwise20Filled = createIcon("ImageArrowCounterclockwise20Filled", ImageArrowCounterclockwise20FilledSvg);
-export const ImageArrowCounterclockwise20Regular = createIcon("ImageArrowCounterclockwise20Regular", ImageArrowCounterclockwise20RegularSvg);
-export const ImageArrowCounterclockwise24Filled = createIcon("ImageArrowCounterclockwise24Filled", ImageArrowCounterclockwise24FilledSvg);
-export const ImageArrowCounterclockwise24Regular = createIcon("ImageArrowCounterclockwise24Regular", ImageArrowCounterclockwise24RegularSvg);
+export const ImageArrowCounterclockwise20Filled = /** #__PURE__ */ createIcon("ImageArrowCounterclockwise20Filled", "20", ImageArrowCounterclockwise20FilledSvg);
+export const ImageArrowCounterclockwiseFilled = /** #__PURE__ */ createIcon("ImageArrowCounterclockwiseFilled", "1em", ImageArrowCounterclockwise20FilledSvg);
+export const ImageArrowCounterclockwise20Regular = /** #__PURE__ */ createIcon("ImageArrowCounterclockwise20Regular", "20", ImageArrowCounterclockwise20RegularSvg);
+export const ImageArrowCounterclockwiseRegular = /** #__PURE__ */ createIcon("ImageArrowCounterclockwiseRegular", "1em", ImageArrowCounterclockwise20RegularSvg);
+export const ImageArrowCounterclockwise24Filled = /** #__PURE__ */ createIcon("ImageArrowCounterclockwise24Filled", "24", ImageArrowCounterclockwise24FilledSvg);
+export const ImageArrowCounterclockwise24Regular = /** #__PURE__ */ createIcon("ImageArrowCounterclockwise24Regular", "24", ImageArrowCounterclockwise24RegularSvg);

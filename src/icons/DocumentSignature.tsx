@@ -12,16 +12,18 @@ import DocumentSignature32RegularSvg from "@fluentui/svg-icons/icons/document_si
 import DocumentSignature48FilledSvg from "@fluentui/svg-icons/icons/document_signature_48_filled.svg" with { type: "text" }
 import DocumentSignature48RegularSvg from "@fluentui/svg-icons/icons/document_signature_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const DocumentSignature16Filled = createIcon("DocumentSignature16Filled", DocumentSignature16FilledSvg);
-export const DocumentSignature16Regular = createIcon("DocumentSignature16Regular", DocumentSignature16RegularSvg);
-export const DocumentSignature20Filled = createIcon("DocumentSignature20Filled", DocumentSignature20FilledSvg);
-export const DocumentSignature20Regular = createIcon("DocumentSignature20Regular", DocumentSignature20RegularSvg);
-export const DocumentSignature24Filled = createIcon("DocumentSignature24Filled", DocumentSignature24FilledSvg);
-export const DocumentSignature24Regular = createIcon("DocumentSignature24Regular", DocumentSignature24RegularSvg);
-export const DocumentSignature28Filled = createIcon("DocumentSignature28Filled", DocumentSignature28FilledSvg);
-export const DocumentSignature28Regular = createIcon("DocumentSignature28Regular", DocumentSignature28RegularSvg);
-export const DocumentSignature32Filled = createIcon("DocumentSignature32Filled", DocumentSignature32FilledSvg);
-export const DocumentSignature32Light = createIcon("DocumentSignature32Light", DocumentSignature32LightSvg);
-export const DocumentSignature32Regular = createIcon("DocumentSignature32Regular", DocumentSignature32RegularSvg);
-export const DocumentSignature48Filled = createIcon("DocumentSignature48Filled", DocumentSignature48FilledSvg);
-export const DocumentSignature48Regular = createIcon("DocumentSignature48Regular", DocumentSignature48RegularSvg);
+export const DocumentSignature16Filled = /** #__PURE__ */ createIcon("DocumentSignature16Filled", "16", DocumentSignature16FilledSvg);
+export const DocumentSignature16Regular = /** #__PURE__ */ createIcon("DocumentSignature16Regular", "16", DocumentSignature16RegularSvg);
+export const DocumentSignature20Filled = /** #__PURE__ */ createIcon("DocumentSignature20Filled", "20", DocumentSignature20FilledSvg);
+export const DocumentSignatureFilled = /** #__PURE__ */ createIcon("DocumentSignatureFilled", "1em", DocumentSignature20FilledSvg);
+export const DocumentSignature20Regular = /** #__PURE__ */ createIcon("DocumentSignature20Regular", "20", DocumentSignature20RegularSvg);
+export const DocumentSignatureRegular = /** #__PURE__ */ createIcon("DocumentSignatureRegular", "1em", DocumentSignature20RegularSvg);
+export const DocumentSignature24Filled = /** #__PURE__ */ createIcon("DocumentSignature24Filled", "24", DocumentSignature24FilledSvg);
+export const DocumentSignature24Regular = /** #__PURE__ */ createIcon("DocumentSignature24Regular", "24", DocumentSignature24RegularSvg);
+export const DocumentSignature28Filled = /** #__PURE__ */ createIcon("DocumentSignature28Filled", "28", DocumentSignature28FilledSvg);
+export const DocumentSignature28Regular = /** #__PURE__ */ createIcon("DocumentSignature28Regular", "28", DocumentSignature28RegularSvg);
+export const DocumentSignature32Filled = /** #__PURE__ */ createIcon("DocumentSignature32Filled", "32", DocumentSignature32FilledSvg);
+export const DocumentSignature32Light = /** #__PURE__ */ createIcon("DocumentSignature32Light", "32", DocumentSignature32LightSvg);
+export const DocumentSignature32Regular = /** #__PURE__ */ createIcon("DocumentSignature32Regular", "32", DocumentSignature32RegularSvg);
+export const DocumentSignature48Filled = /** #__PURE__ */ createIcon("DocumentSignature48Filled", "48", DocumentSignature48FilledSvg);
+export const DocumentSignature48Regular = /** #__PURE__ */ createIcon("DocumentSignature48Regular", "48", DocumentSignature48RegularSvg);

@@ -5,9 +5,11 @@ import HeartBroken20RegularSvg from "@fluentui/svg-icons/icons/heart_broken_20_r
 import HeartBroken24FilledSvg from "@fluentui/svg-icons/icons/heart_broken_24_filled.svg" with { type: "text" }
 import HeartBroken24RegularSvg from "@fluentui/svg-icons/icons/heart_broken_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const HeartBroken16Filled = createIcon("HeartBroken16Filled", HeartBroken16FilledSvg);
-export const HeartBroken16Regular = createIcon("HeartBroken16Regular", HeartBroken16RegularSvg);
-export const HeartBroken20Filled = createIcon("HeartBroken20Filled", HeartBroken20FilledSvg);
-export const HeartBroken20Regular = createIcon("HeartBroken20Regular", HeartBroken20RegularSvg);
-export const HeartBroken24Filled = createIcon("HeartBroken24Filled", HeartBroken24FilledSvg);
-export const HeartBroken24Regular = createIcon("HeartBroken24Regular", HeartBroken24RegularSvg);
+export const HeartBroken16Filled = /** #__PURE__ */ createIcon("HeartBroken16Filled", "16", HeartBroken16FilledSvg);
+export const HeartBroken16Regular = /** #__PURE__ */ createIcon("HeartBroken16Regular", "16", HeartBroken16RegularSvg);
+export const HeartBroken20Filled = /** #__PURE__ */ createIcon("HeartBroken20Filled", "20", HeartBroken20FilledSvg);
+export const HeartBrokenFilled = /** #__PURE__ */ createIcon("HeartBrokenFilled", "1em", HeartBroken20FilledSvg);
+export const HeartBroken20Regular = /** #__PURE__ */ createIcon("HeartBroken20Regular", "20", HeartBroken20RegularSvg);
+export const HeartBrokenRegular = /** #__PURE__ */ createIcon("HeartBrokenRegular", "1em", HeartBroken20RegularSvg);
+export const HeartBroken24Filled = /** #__PURE__ */ createIcon("HeartBroken24Filled", "24", HeartBroken24FilledSvg);
+export const HeartBroken24Regular = /** #__PURE__ */ createIcon("HeartBroken24Regular", "24", HeartBroken24RegularSvg);

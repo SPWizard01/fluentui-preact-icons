@@ -11,15 +11,17 @@ import Pen32RegularSvg from "@fluentui/svg-icons/icons/pen_32_regular.svg" with 
 import Pen48FilledSvg from "@fluentui/svg-icons/icons/pen_48_filled.svg" with { type: "text" }
 import Pen48RegularSvg from "@fluentui/svg-icons/icons/pen_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Pen16Filled = createIcon("Pen16Filled", Pen16FilledSvg);
-export const Pen16Regular = createIcon("Pen16Regular", Pen16RegularSvg);
-export const Pen20Filled = createIcon("Pen20Filled", Pen20FilledSvg);
-export const Pen20Regular = createIcon("Pen20Regular", Pen20RegularSvg);
-export const Pen24Filled = createIcon("Pen24Filled", Pen24FilledSvg);
-export const Pen24Regular = createIcon("Pen24Regular", Pen24RegularSvg);
-export const Pen28Filled = createIcon("Pen28Filled", Pen28FilledSvg);
-export const Pen28Regular = createIcon("Pen28Regular", Pen28RegularSvg);
-export const Pen32Filled = createIcon("Pen32Filled", Pen32FilledSvg);
-export const Pen32Regular = createIcon("Pen32Regular", Pen32RegularSvg);
-export const Pen48Filled = createIcon("Pen48Filled", Pen48FilledSvg);
-export const Pen48Regular = createIcon("Pen48Regular", Pen48RegularSvg);
+export const Pen16Filled = /** #__PURE__ */ createIcon("Pen16Filled", "16", Pen16FilledSvg);
+export const Pen16Regular = /** #__PURE__ */ createIcon("Pen16Regular", "16", Pen16RegularSvg);
+export const Pen20Filled = /** #__PURE__ */ createIcon("Pen20Filled", "20", Pen20FilledSvg);
+export const PenFilled = /** #__PURE__ */ createIcon("PenFilled", "1em", Pen20FilledSvg);
+export const Pen20Regular = /** #__PURE__ */ createIcon("Pen20Regular", "20", Pen20RegularSvg);
+export const PenRegular = /** #__PURE__ */ createIcon("PenRegular", "1em", Pen20RegularSvg);
+export const Pen24Filled = /** #__PURE__ */ createIcon("Pen24Filled", "24", Pen24FilledSvg);
+export const Pen24Regular = /** #__PURE__ */ createIcon("Pen24Regular", "24", Pen24RegularSvg);
+export const Pen28Filled = /** #__PURE__ */ createIcon("Pen28Filled", "28", Pen28FilledSvg);
+export const Pen28Regular = /** #__PURE__ */ createIcon("Pen28Regular", "28", Pen28RegularSvg);
+export const Pen32Filled = /** #__PURE__ */ createIcon("Pen32Filled", "32", Pen32FilledSvg);
+export const Pen32Regular = /** #__PURE__ */ createIcon("Pen32Regular", "32", Pen32RegularSvg);
+export const Pen48Filled = /** #__PURE__ */ createIcon("Pen48Filled", "48", Pen48FilledSvg);
+export const Pen48Regular = /** #__PURE__ */ createIcon("Pen48Regular", "48", Pen48RegularSvg);

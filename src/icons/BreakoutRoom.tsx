@@ -8,12 +8,14 @@ import BreakoutRoom32FilledSvg from "@fluentui/svg-icons/icons/breakout_room_32_
 import BreakoutRoom32LightSvg from "@fluentui/svg-icons/icons/breakout_room_32_light.svg" with { type: "text" }
 import BreakoutRoom32RegularSvg from "@fluentui/svg-icons/icons/breakout_room_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const BreakoutRoom20Filled = createIcon("BreakoutRoom20Filled", BreakoutRoom20FilledSvg);
-export const BreakoutRoom20Regular = createIcon("BreakoutRoom20Regular", BreakoutRoom20RegularSvg);
-export const BreakoutRoom24Filled = createIcon("BreakoutRoom24Filled", BreakoutRoom24FilledSvg);
-export const BreakoutRoom24Regular = createIcon("BreakoutRoom24Regular", BreakoutRoom24RegularSvg);
-export const BreakoutRoom28Filled = createIcon("BreakoutRoom28Filled", BreakoutRoom28FilledSvg);
-export const BreakoutRoom28Regular = createIcon("BreakoutRoom28Regular", BreakoutRoom28RegularSvg);
-export const BreakoutRoom32Filled = createIcon("BreakoutRoom32Filled", BreakoutRoom32FilledSvg);
-export const BreakoutRoom32Light = createIcon("BreakoutRoom32Light", BreakoutRoom32LightSvg);
-export const BreakoutRoom32Regular = createIcon("BreakoutRoom32Regular", BreakoutRoom32RegularSvg);
+export const BreakoutRoom20Filled = /** #__PURE__ */ createIcon("BreakoutRoom20Filled", "20", BreakoutRoom20FilledSvg);
+export const BreakoutRoomFilled = /** #__PURE__ */ createIcon("BreakoutRoomFilled", "1em", BreakoutRoom20FilledSvg);
+export const BreakoutRoom20Regular = /** #__PURE__ */ createIcon("BreakoutRoom20Regular", "20", BreakoutRoom20RegularSvg);
+export const BreakoutRoomRegular = /** #__PURE__ */ createIcon("BreakoutRoomRegular", "1em", BreakoutRoom20RegularSvg);
+export const BreakoutRoom24Filled = /** #__PURE__ */ createIcon("BreakoutRoom24Filled", "24", BreakoutRoom24FilledSvg);
+export const BreakoutRoom24Regular = /** #__PURE__ */ createIcon("BreakoutRoom24Regular", "24", BreakoutRoom24RegularSvg);
+export const BreakoutRoom28Filled = /** #__PURE__ */ createIcon("BreakoutRoom28Filled", "28", BreakoutRoom28FilledSvg);
+export const BreakoutRoom28Regular = /** #__PURE__ */ createIcon("BreakoutRoom28Regular", "28", BreakoutRoom28RegularSvg);
+export const BreakoutRoom32Filled = /** #__PURE__ */ createIcon("BreakoutRoom32Filled", "32", BreakoutRoom32FilledSvg);
+export const BreakoutRoom32Light = /** #__PURE__ */ createIcon("BreakoutRoom32Light", "32", BreakoutRoom32LightSvg);
+export const BreakoutRoom32Regular = /** #__PURE__ */ createIcon("BreakoutRoom32Regular", "32", BreakoutRoom32RegularSvg);

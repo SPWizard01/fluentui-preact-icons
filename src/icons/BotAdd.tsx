@@ -11,15 +11,17 @@ import BotAdd32RegularSvg from "@fluentui/svg-icons/icons/bot_add_32_regular.svg
 import BotAdd48FilledSvg from "@fluentui/svg-icons/icons/bot_add_48_filled.svg" with { type: "text" }
 import BotAdd48RegularSvg from "@fluentui/svg-icons/icons/bot_add_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const BotAdd16Filled = createIcon("BotAdd16Filled", BotAdd16FilledSvg);
-export const BotAdd16Regular = createIcon("BotAdd16Regular", BotAdd16RegularSvg);
-export const BotAdd20Filled = createIcon("BotAdd20Filled", BotAdd20FilledSvg);
-export const BotAdd20Regular = createIcon("BotAdd20Regular", BotAdd20RegularSvg);
-export const BotAdd24Filled = createIcon("BotAdd24Filled", BotAdd24FilledSvg);
-export const BotAdd24Regular = createIcon("BotAdd24Regular", BotAdd24RegularSvg);
-export const BotAdd28Filled = createIcon("BotAdd28Filled", BotAdd28FilledSvg);
-export const BotAdd28Regular = createIcon("BotAdd28Regular", BotAdd28RegularSvg);
-export const BotAdd32Filled = createIcon("BotAdd32Filled", BotAdd32FilledSvg);
-export const BotAdd32Regular = createIcon("BotAdd32Regular", BotAdd32RegularSvg);
-export const BotAdd48Filled = createIcon("BotAdd48Filled", BotAdd48FilledSvg);
-export const BotAdd48Regular = createIcon("BotAdd48Regular", BotAdd48RegularSvg);
+export const BotAdd16Filled = /** #__PURE__ */ createIcon("BotAdd16Filled", "16", BotAdd16FilledSvg);
+export const BotAdd16Regular = /** #__PURE__ */ createIcon("BotAdd16Regular", "16", BotAdd16RegularSvg);
+export const BotAdd20Filled = /** #__PURE__ */ createIcon("BotAdd20Filled", "20", BotAdd20FilledSvg);
+export const BotAddFilled = /** #__PURE__ */ createIcon("BotAddFilled", "1em", BotAdd20FilledSvg);
+export const BotAdd20Regular = /** #__PURE__ */ createIcon("BotAdd20Regular", "20", BotAdd20RegularSvg);
+export const BotAddRegular = /** #__PURE__ */ createIcon("BotAddRegular", "1em", BotAdd20RegularSvg);
+export const BotAdd24Filled = /** #__PURE__ */ createIcon("BotAdd24Filled", "24", BotAdd24FilledSvg);
+export const BotAdd24Regular = /** #__PURE__ */ createIcon("BotAdd24Regular", "24", BotAdd24RegularSvg);
+export const BotAdd28Filled = /** #__PURE__ */ createIcon("BotAdd28Filled", "28", BotAdd28FilledSvg);
+export const BotAdd28Regular = /** #__PURE__ */ createIcon("BotAdd28Regular", "28", BotAdd28RegularSvg);
+export const BotAdd32Filled = /** #__PURE__ */ createIcon("BotAdd32Filled", "32", BotAdd32FilledSvg);
+export const BotAdd32Regular = /** #__PURE__ */ createIcon("BotAdd32Regular", "32", BotAdd32RegularSvg);
+export const BotAdd48Filled = /** #__PURE__ */ createIcon("BotAdd48Filled", "48", BotAdd48FilledSvg);
+export const BotAdd48Regular = /** #__PURE__ */ createIcon("BotAdd48Regular", "48", BotAdd48RegularSvg);

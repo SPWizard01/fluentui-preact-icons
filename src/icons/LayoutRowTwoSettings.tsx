@@ -8,12 +8,14 @@ import LayoutRowTwoSettings32FilledSvg from "@fluentui/svg-icons/icons/layout_ro
 import LayoutRowTwoSettings32LightSvg from "@fluentui/svg-icons/icons/layout_row_two_settings_32_light.svg" with { type: "text" }
 import LayoutRowTwoSettings32RegularSvg from "@fluentui/svg-icons/icons/layout_row_two_settings_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const LayoutRowTwoSettings20Filled = createIcon("LayoutRowTwoSettings20Filled", LayoutRowTwoSettings20FilledSvg);
-export const LayoutRowTwoSettings20Regular = createIcon("LayoutRowTwoSettings20Regular", LayoutRowTwoSettings20RegularSvg);
-export const LayoutRowTwoSettings24Filled = createIcon("LayoutRowTwoSettings24Filled", LayoutRowTwoSettings24FilledSvg);
-export const LayoutRowTwoSettings24Regular = createIcon("LayoutRowTwoSettings24Regular", LayoutRowTwoSettings24RegularSvg);
-export const LayoutRowTwoSettings28Filled = createIcon("LayoutRowTwoSettings28Filled", LayoutRowTwoSettings28FilledSvg);
-export const LayoutRowTwoSettings28Regular = createIcon("LayoutRowTwoSettings28Regular", LayoutRowTwoSettings28RegularSvg);
-export const LayoutRowTwoSettings32Filled = createIcon("LayoutRowTwoSettings32Filled", LayoutRowTwoSettings32FilledSvg);
-export const LayoutRowTwoSettings32Light = createIcon("LayoutRowTwoSettings32Light", LayoutRowTwoSettings32LightSvg);
-export const LayoutRowTwoSettings32Regular = createIcon("LayoutRowTwoSettings32Regular", LayoutRowTwoSettings32RegularSvg);
+export const LayoutRowTwoSettings20Filled = /** #__PURE__ */ createIcon("LayoutRowTwoSettings20Filled", "20", LayoutRowTwoSettings20FilledSvg);
+export const LayoutRowTwoSettingsFilled = /** #__PURE__ */ createIcon("LayoutRowTwoSettingsFilled", "1em", LayoutRowTwoSettings20FilledSvg);
+export const LayoutRowTwoSettings20Regular = /** #__PURE__ */ createIcon("LayoutRowTwoSettings20Regular", "20", LayoutRowTwoSettings20RegularSvg);
+export const LayoutRowTwoSettingsRegular = /** #__PURE__ */ createIcon("LayoutRowTwoSettingsRegular", "1em", LayoutRowTwoSettings20RegularSvg);
+export const LayoutRowTwoSettings24Filled = /** #__PURE__ */ createIcon("LayoutRowTwoSettings24Filled", "24", LayoutRowTwoSettings24FilledSvg);
+export const LayoutRowTwoSettings24Regular = /** #__PURE__ */ createIcon("LayoutRowTwoSettings24Regular", "24", LayoutRowTwoSettings24RegularSvg);
+export const LayoutRowTwoSettings28Filled = /** #__PURE__ */ createIcon("LayoutRowTwoSettings28Filled", "28", LayoutRowTwoSettings28FilledSvg);
+export const LayoutRowTwoSettings28Regular = /** #__PURE__ */ createIcon("LayoutRowTwoSettings28Regular", "28", LayoutRowTwoSettings28RegularSvg);
+export const LayoutRowTwoSettings32Filled = /** #__PURE__ */ createIcon("LayoutRowTwoSettings32Filled", "32", LayoutRowTwoSettings32FilledSvg);
+export const LayoutRowTwoSettings32Light = /** #__PURE__ */ createIcon("LayoutRowTwoSettings32Light", "32", LayoutRowTwoSettings32LightSvg);
+export const LayoutRowTwoSettings32Regular = /** #__PURE__ */ createIcon("LayoutRowTwoSettings32Regular", "32", LayoutRowTwoSettings32RegularSvg);

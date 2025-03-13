@@ -11,15 +11,17 @@ import FolderLink32RegularSvg from "@fluentui/svg-icons/icons/folder_link_32_reg
 import FolderLink48FilledSvg from "@fluentui/svg-icons/icons/folder_link_48_filled.svg" with { type: "text" }
 import FolderLink48RegularSvg from "@fluentui/svg-icons/icons/folder_link_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const FolderLink16Filled = createIcon("FolderLink16Filled", FolderLink16FilledSvg);
-export const FolderLink16Regular = createIcon("FolderLink16Regular", FolderLink16RegularSvg);
-export const FolderLink20Filled = createIcon("FolderLink20Filled", FolderLink20FilledSvg);
-export const FolderLink20Regular = createIcon("FolderLink20Regular", FolderLink20RegularSvg);
-export const FolderLink24Filled = createIcon("FolderLink24Filled", FolderLink24FilledSvg);
-export const FolderLink24Regular = createIcon("FolderLink24Regular", FolderLink24RegularSvg);
-export const FolderLink28Filled = createIcon("FolderLink28Filled", FolderLink28FilledSvg);
-export const FolderLink28Regular = createIcon("FolderLink28Regular", FolderLink28RegularSvg);
-export const FolderLink32Filled = createIcon("FolderLink32Filled", FolderLink32FilledSvg);
-export const FolderLink32Regular = createIcon("FolderLink32Regular", FolderLink32RegularSvg);
-export const FolderLink48Filled = createIcon("FolderLink48Filled", FolderLink48FilledSvg);
-export const FolderLink48Regular = createIcon("FolderLink48Regular", FolderLink48RegularSvg);
+export const FolderLink16Filled = /** #__PURE__ */ createIcon("FolderLink16Filled", "16", FolderLink16FilledSvg);
+export const FolderLink16Regular = /** #__PURE__ */ createIcon("FolderLink16Regular", "16", FolderLink16RegularSvg);
+export const FolderLink20Filled = /** #__PURE__ */ createIcon("FolderLink20Filled", "20", FolderLink20FilledSvg);
+export const FolderLinkFilled = /** #__PURE__ */ createIcon("FolderLinkFilled", "1em", FolderLink20FilledSvg);
+export const FolderLink20Regular = /** #__PURE__ */ createIcon("FolderLink20Regular", "20", FolderLink20RegularSvg);
+export const FolderLinkRegular = /** #__PURE__ */ createIcon("FolderLinkRegular", "1em", FolderLink20RegularSvg);
+export const FolderLink24Filled = /** #__PURE__ */ createIcon("FolderLink24Filled", "24", FolderLink24FilledSvg);
+export const FolderLink24Regular = /** #__PURE__ */ createIcon("FolderLink24Regular", "24", FolderLink24RegularSvg);
+export const FolderLink28Filled = /** #__PURE__ */ createIcon("FolderLink28Filled", "28", FolderLink28FilledSvg);
+export const FolderLink28Regular = /** #__PURE__ */ createIcon("FolderLink28Regular", "28", FolderLink28RegularSvg);
+export const FolderLink32Filled = /** #__PURE__ */ createIcon("FolderLink32Filled", "32", FolderLink32FilledSvg);
+export const FolderLink32Regular = /** #__PURE__ */ createIcon("FolderLink32Regular", "32", FolderLink32RegularSvg);
+export const FolderLink48Filled = /** #__PURE__ */ createIcon("FolderLink48Filled", "48", FolderLink48FilledSvg);
+export const FolderLink48Regular = /** #__PURE__ */ createIcon("FolderLink48Regular", "48", FolderLink48RegularSvg);

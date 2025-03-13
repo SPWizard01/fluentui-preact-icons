@@ -12,16 +12,18 @@ import Question32RegularSvg from "@fluentui/svg-icons/icons/question_32_regular.
 import Question48FilledSvg from "@fluentui/svg-icons/icons/question_48_filled.svg" with { type: "text" }
 import Question48RegularSvg from "@fluentui/svg-icons/icons/question_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Question16Filled = createIcon("Question16Filled", Question16FilledSvg);
-export const Question16Regular = createIcon("Question16Regular", Question16RegularSvg);
-export const Question20Filled = createIcon("Question20Filled", Question20FilledSvg);
-export const Question20Regular = createIcon("Question20Regular", Question20RegularSvg);
-export const Question24Filled = createIcon("Question24Filled", Question24FilledSvg);
-export const Question24Regular = createIcon("Question24Regular", Question24RegularSvg);
-export const Question28Filled = createIcon("Question28Filled", Question28FilledSvg);
-export const Question28Regular = createIcon("Question28Regular", Question28RegularSvg);
-export const Question32Filled = createIcon("Question32Filled", Question32FilledSvg);
-export const Question32Light = createIcon("Question32Light", Question32LightSvg);
-export const Question32Regular = createIcon("Question32Regular", Question32RegularSvg);
-export const Question48Filled = createIcon("Question48Filled", Question48FilledSvg);
-export const Question48Regular = createIcon("Question48Regular", Question48RegularSvg);
+export const Question16Filled = /** #__PURE__ */ createIcon("Question16Filled", "16", Question16FilledSvg);
+export const Question16Regular = /** #__PURE__ */ createIcon("Question16Regular", "16", Question16RegularSvg);
+export const Question20Filled = /** #__PURE__ */ createIcon("Question20Filled", "20", Question20FilledSvg);
+export const QuestionFilled = /** #__PURE__ */ createIcon("QuestionFilled", "1em", Question20FilledSvg);
+export const Question20Regular = /** #__PURE__ */ createIcon("Question20Regular", "20", Question20RegularSvg);
+export const QuestionRegular = /** #__PURE__ */ createIcon("QuestionRegular", "1em", Question20RegularSvg);
+export const Question24Filled = /** #__PURE__ */ createIcon("Question24Filled", "24", Question24FilledSvg);
+export const Question24Regular = /** #__PURE__ */ createIcon("Question24Regular", "24", Question24RegularSvg);
+export const Question28Filled = /** #__PURE__ */ createIcon("Question28Filled", "28", Question28FilledSvg);
+export const Question28Regular = /** #__PURE__ */ createIcon("Question28Regular", "28", Question28RegularSvg);
+export const Question32Filled = /** #__PURE__ */ createIcon("Question32Filled", "32", Question32FilledSvg);
+export const Question32Light = /** #__PURE__ */ createIcon("Question32Light", "32", Question32LightSvg);
+export const Question32Regular = /** #__PURE__ */ createIcon("Question32Regular", "32", Question32RegularSvg);
+export const Question48Filled = /** #__PURE__ */ createIcon("Question48Filled", "48", Question48FilledSvg);
+export const Question48Regular = /** #__PURE__ */ createIcon("Question48Regular", "48", Question48RegularSvg);

@@ -7,11 +7,13 @@ import Oven32RegularSvg from "@fluentui/svg-icons/icons/oven_32_regular.svg" wit
 import Oven48FilledSvg from "@fluentui/svg-icons/icons/oven_48_filled.svg" with { type: "text" }
 import Oven48RegularSvg from "@fluentui/svg-icons/icons/oven_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Oven20Filled = createIcon("Oven20Filled", Oven20FilledSvg);
-export const Oven20Regular = createIcon("Oven20Regular", Oven20RegularSvg);
-export const Oven24Filled = createIcon("Oven24Filled", Oven24FilledSvg);
-export const Oven24Regular = createIcon("Oven24Regular", Oven24RegularSvg);
-export const Oven32Filled = createIcon("Oven32Filled", Oven32FilledSvg);
-export const Oven32Regular = createIcon("Oven32Regular", Oven32RegularSvg);
-export const Oven48Filled = createIcon("Oven48Filled", Oven48FilledSvg);
-export const Oven48Regular = createIcon("Oven48Regular", Oven48RegularSvg);
+export const Oven20Filled = /** #__PURE__ */ createIcon("Oven20Filled", "20", Oven20FilledSvg);
+export const OvenFilled = /** #__PURE__ */ createIcon("OvenFilled", "1em", Oven20FilledSvg);
+export const Oven20Regular = /** #__PURE__ */ createIcon("Oven20Regular", "20", Oven20RegularSvg);
+export const OvenRegular = /** #__PURE__ */ createIcon("OvenRegular", "1em", Oven20RegularSvg);
+export const Oven24Filled = /** #__PURE__ */ createIcon("Oven24Filled", "24", Oven24FilledSvg);
+export const Oven24Regular = /** #__PURE__ */ createIcon("Oven24Regular", "24", Oven24RegularSvg);
+export const Oven32Filled = /** #__PURE__ */ createIcon("Oven32Filled", "32", Oven32FilledSvg);
+export const Oven32Regular = /** #__PURE__ */ createIcon("Oven32Regular", "32", Oven32RegularSvg);
+export const Oven48Filled = /** #__PURE__ */ createIcon("Oven48Filled", "48", Oven48FilledSvg);
+export const Oven48Regular = /** #__PURE__ */ createIcon("Oven48Regular", "48", Oven48RegularSvg);

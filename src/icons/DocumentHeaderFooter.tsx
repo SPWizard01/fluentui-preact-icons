@@ -5,9 +5,11 @@ import DocumentHeaderFooter20RegularSvg from "@fluentui/svg-icons/icons/document
 import DocumentHeaderFooter24FilledSvg from "@fluentui/svg-icons/icons/document_header_footer_24_filled.svg" with { type: "text" }
 import DocumentHeaderFooter24RegularSvg from "@fluentui/svg-icons/icons/document_header_footer_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const DocumentHeaderFooter16Filled = createIcon("DocumentHeaderFooter16Filled", DocumentHeaderFooter16FilledSvg);
-export const DocumentHeaderFooter16Regular = createIcon("DocumentHeaderFooter16Regular", DocumentHeaderFooter16RegularSvg);
-export const DocumentHeaderFooter20Filled = createIcon("DocumentHeaderFooter20Filled", DocumentHeaderFooter20FilledSvg);
-export const DocumentHeaderFooter20Regular = createIcon("DocumentHeaderFooter20Regular", DocumentHeaderFooter20RegularSvg);
-export const DocumentHeaderFooter24Filled = createIcon("DocumentHeaderFooter24Filled", DocumentHeaderFooter24FilledSvg);
-export const DocumentHeaderFooter24Regular = createIcon("DocumentHeaderFooter24Regular", DocumentHeaderFooter24RegularSvg);
+export const DocumentHeaderFooter16Filled = /** #__PURE__ */ createIcon("DocumentHeaderFooter16Filled", "16", DocumentHeaderFooter16FilledSvg);
+export const DocumentHeaderFooter16Regular = /** #__PURE__ */ createIcon("DocumentHeaderFooter16Regular", "16", DocumentHeaderFooter16RegularSvg);
+export const DocumentHeaderFooter20Filled = /** #__PURE__ */ createIcon("DocumentHeaderFooter20Filled", "20", DocumentHeaderFooter20FilledSvg);
+export const DocumentHeaderFooterFilled = /** #__PURE__ */ createIcon("DocumentHeaderFooterFilled", "1em", DocumentHeaderFooter20FilledSvg);
+export const DocumentHeaderFooter20Regular = /** #__PURE__ */ createIcon("DocumentHeaderFooter20Regular", "20", DocumentHeaderFooter20RegularSvg);
+export const DocumentHeaderFooterRegular = /** #__PURE__ */ createIcon("DocumentHeaderFooterRegular", "1em", DocumentHeaderFooter20RegularSvg);
+export const DocumentHeaderFooter24Filled = /** #__PURE__ */ createIcon("DocumentHeaderFooter24Filled", "24", DocumentHeaderFooter24FilledSvg);
+export const DocumentHeaderFooter24Regular = /** #__PURE__ */ createIcon("DocumentHeaderFooter24Regular", "24", DocumentHeaderFooter24RegularSvg);

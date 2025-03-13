@@ -11,15 +11,17 @@ import Run32RegularSvg from "@fluentui/svg-icons/icons/run_32_regular.svg" with 
 import Run48FilledSvg from "@fluentui/svg-icons/icons/run_48_filled.svg" with { type: "text" }
 import Run48RegularSvg from "@fluentui/svg-icons/icons/run_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Run16Filled = createIcon("Run16Filled", Run16FilledSvg);
-export const Run16Regular = createIcon("Run16Regular", Run16RegularSvg);
-export const Run20Filled = createIcon("Run20Filled", Run20FilledSvg);
-export const Run20Regular = createIcon("Run20Regular", Run20RegularSvg);
-export const Run24Filled = createIcon("Run24Filled", Run24FilledSvg);
-export const Run24Regular = createIcon("Run24Regular", Run24RegularSvg);
-export const Run28Filled = createIcon("Run28Filled", Run28FilledSvg);
-export const Run28Regular = createIcon("Run28Regular", Run28RegularSvg);
-export const Run32Filled = createIcon("Run32Filled", Run32FilledSvg);
-export const Run32Regular = createIcon("Run32Regular", Run32RegularSvg);
-export const Run48Filled = createIcon("Run48Filled", Run48FilledSvg);
-export const Run48Regular = createIcon("Run48Regular", Run48RegularSvg);
+export const Run16Filled = /** #__PURE__ */ createIcon("Run16Filled", "16", Run16FilledSvg);
+export const Run16Regular = /** #__PURE__ */ createIcon("Run16Regular", "16", Run16RegularSvg);
+export const Run20Filled = /** #__PURE__ */ createIcon("Run20Filled", "20", Run20FilledSvg);
+export const RunFilled = /** #__PURE__ */ createIcon("RunFilled", "1em", Run20FilledSvg);
+export const Run20Regular = /** #__PURE__ */ createIcon("Run20Regular", "20", Run20RegularSvg);
+export const RunRegular = /** #__PURE__ */ createIcon("RunRegular", "1em", Run20RegularSvg);
+export const Run24Filled = /** #__PURE__ */ createIcon("Run24Filled", "24", Run24FilledSvg);
+export const Run24Regular = /** #__PURE__ */ createIcon("Run24Regular", "24", Run24RegularSvg);
+export const Run28Filled = /** #__PURE__ */ createIcon("Run28Filled", "28", Run28FilledSvg);
+export const Run28Regular = /** #__PURE__ */ createIcon("Run28Regular", "28", Run28RegularSvg);
+export const Run32Filled = /** #__PURE__ */ createIcon("Run32Filled", "32", Run32FilledSvg);
+export const Run32Regular = /** #__PURE__ */ createIcon("Run32Regular", "32", Run32RegularSvg);
+export const Run48Filled = /** #__PURE__ */ createIcon("Run48Filled", "48", Run48FilledSvg);
+export const Run48Regular = /** #__PURE__ */ createIcon("Run48Regular", "48", Run48RegularSvg);

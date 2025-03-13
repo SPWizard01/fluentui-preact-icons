@@ -9,13 +9,15 @@ import PresenceAvailable20RegularSvg from "@fluentui/svg-icons/icons/presence_av
 import PresenceAvailable24FilledSvg from "@fluentui/svg-icons/icons/presence_available_24_filled.svg" with { type: "text" }
 import PresenceAvailable24RegularSvg from "@fluentui/svg-icons/icons/presence_available_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PresenceAvailable10Filled = createIcon("PresenceAvailable10Filled", PresenceAvailable10FilledSvg);
-export const PresenceAvailable10Regular = createIcon("PresenceAvailable10Regular", PresenceAvailable10RegularSvg);
-export const PresenceAvailable12Filled = createIcon("PresenceAvailable12Filled", PresenceAvailable12FilledSvg);
-export const PresenceAvailable12Regular = createIcon("PresenceAvailable12Regular", PresenceAvailable12RegularSvg);
-export const PresenceAvailable16Filled = createIcon("PresenceAvailable16Filled", PresenceAvailable16FilledSvg);
-export const PresenceAvailable16Regular = createIcon("PresenceAvailable16Regular", PresenceAvailable16RegularSvg);
-export const PresenceAvailable20Filled = createIcon("PresenceAvailable20Filled", PresenceAvailable20FilledSvg);
-export const PresenceAvailable20Regular = createIcon("PresenceAvailable20Regular", PresenceAvailable20RegularSvg);
-export const PresenceAvailable24Filled = createIcon("PresenceAvailable24Filled", PresenceAvailable24FilledSvg);
-export const PresenceAvailable24Regular = createIcon("PresenceAvailable24Regular", PresenceAvailable24RegularSvg);
+export const PresenceAvailable10Filled = /** #__PURE__ */ createIcon("PresenceAvailable10Filled", "10", PresenceAvailable10FilledSvg);
+export const PresenceAvailable10Regular = /** #__PURE__ */ createIcon("PresenceAvailable10Regular", "10", PresenceAvailable10RegularSvg);
+export const PresenceAvailable12Filled = /** #__PURE__ */ createIcon("PresenceAvailable12Filled", "12", PresenceAvailable12FilledSvg);
+export const PresenceAvailable12Regular = /** #__PURE__ */ createIcon("PresenceAvailable12Regular", "12", PresenceAvailable12RegularSvg);
+export const PresenceAvailable16Filled = /** #__PURE__ */ createIcon("PresenceAvailable16Filled", "16", PresenceAvailable16FilledSvg);
+export const PresenceAvailable16Regular = /** #__PURE__ */ createIcon("PresenceAvailable16Regular", "16", PresenceAvailable16RegularSvg);
+export const PresenceAvailable20Filled = /** #__PURE__ */ createIcon("PresenceAvailable20Filled", "20", PresenceAvailable20FilledSvg);
+export const PresenceAvailableFilled = /** #__PURE__ */ createIcon("PresenceAvailableFilled", "1em", PresenceAvailable20FilledSvg);
+export const PresenceAvailable20Regular = /** #__PURE__ */ createIcon("PresenceAvailable20Regular", "20", PresenceAvailable20RegularSvg);
+export const PresenceAvailableRegular = /** #__PURE__ */ createIcon("PresenceAvailableRegular", "1em", PresenceAvailable20RegularSvg);
+export const PresenceAvailable24Filled = /** #__PURE__ */ createIcon("PresenceAvailable24Filled", "24", PresenceAvailable24FilledSvg);
+export const PresenceAvailable24Regular = /** #__PURE__ */ createIcon("PresenceAvailable24Regular", "24", PresenceAvailable24RegularSvg);

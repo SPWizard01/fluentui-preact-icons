@@ -11,15 +11,17 @@ import VehicleCar32RegularSvg from "@fluentui/svg-icons/icons/vehicle_car_32_reg
 import VehicleCar48FilledSvg from "@fluentui/svg-icons/icons/vehicle_car_48_filled.svg" with { type: "text" }
 import VehicleCar48RegularSvg from "@fluentui/svg-icons/icons/vehicle_car_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const VehicleCar16Filled = createIcon("VehicleCar16Filled", VehicleCar16FilledSvg);
-export const VehicleCar16Regular = createIcon("VehicleCar16Regular", VehicleCar16RegularSvg);
-export const VehicleCar20Filled = createIcon("VehicleCar20Filled", VehicleCar20FilledSvg);
-export const VehicleCar20Regular = createIcon("VehicleCar20Regular", VehicleCar20RegularSvg);
-export const VehicleCar24Filled = createIcon("VehicleCar24Filled", VehicleCar24FilledSvg);
-export const VehicleCar24Regular = createIcon("VehicleCar24Regular", VehicleCar24RegularSvg);
-export const VehicleCar28Filled = createIcon("VehicleCar28Filled", VehicleCar28FilledSvg);
-export const VehicleCar28Regular = createIcon("VehicleCar28Regular", VehicleCar28RegularSvg);
-export const VehicleCar32Filled = createIcon("VehicleCar32Filled", VehicleCar32FilledSvg);
-export const VehicleCar32Regular = createIcon("VehicleCar32Regular", VehicleCar32RegularSvg);
-export const VehicleCar48Filled = createIcon("VehicleCar48Filled", VehicleCar48FilledSvg);
-export const VehicleCar48Regular = createIcon("VehicleCar48Regular", VehicleCar48RegularSvg);
+export const VehicleCar16Filled = /** #__PURE__ */ createIcon("VehicleCar16Filled", "16", VehicleCar16FilledSvg);
+export const VehicleCar16Regular = /** #__PURE__ */ createIcon("VehicleCar16Regular", "16", VehicleCar16RegularSvg);
+export const VehicleCar20Filled = /** #__PURE__ */ createIcon("VehicleCar20Filled", "20", VehicleCar20FilledSvg);
+export const VehicleCarFilled = /** #__PURE__ */ createIcon("VehicleCarFilled", "1em", VehicleCar20FilledSvg);
+export const VehicleCar20Regular = /** #__PURE__ */ createIcon("VehicleCar20Regular", "20", VehicleCar20RegularSvg);
+export const VehicleCarRegular = /** #__PURE__ */ createIcon("VehicleCarRegular", "1em", VehicleCar20RegularSvg);
+export const VehicleCar24Filled = /** #__PURE__ */ createIcon("VehicleCar24Filled", "24", VehicleCar24FilledSvg);
+export const VehicleCar24Regular = /** #__PURE__ */ createIcon("VehicleCar24Regular", "24", VehicleCar24RegularSvg);
+export const VehicleCar28Filled = /** #__PURE__ */ createIcon("VehicleCar28Filled", "28", VehicleCar28FilledSvg);
+export const VehicleCar28Regular = /** #__PURE__ */ createIcon("VehicleCar28Regular", "28", VehicleCar28RegularSvg);
+export const VehicleCar32Filled = /** #__PURE__ */ createIcon("VehicleCar32Filled", "32", VehicleCar32FilledSvg);
+export const VehicleCar32Regular = /** #__PURE__ */ createIcon("VehicleCar32Regular", "32", VehicleCar32RegularSvg);
+export const VehicleCar48Filled = /** #__PURE__ */ createIcon("VehicleCar48Filled", "48", VehicleCar48FilledSvg);
+export const VehicleCar48Regular = /** #__PURE__ */ createIcon("VehicleCar48Regular", "48", VehicleCar48RegularSvg);

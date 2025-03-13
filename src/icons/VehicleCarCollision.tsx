@@ -11,15 +11,17 @@ import VehicleCarCollision32RegularSvg from "@fluentui/svg-icons/icons/vehicle_c
 import VehicleCarCollision48FilledSvg from "@fluentui/svg-icons/icons/vehicle_car_collision_48_filled.svg" with { type: "text" }
 import VehicleCarCollision48RegularSvg from "@fluentui/svg-icons/icons/vehicle_car_collision_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const VehicleCarCollision16Filled = createIcon("VehicleCarCollision16Filled", VehicleCarCollision16FilledSvg);
-export const VehicleCarCollision16Regular = createIcon("VehicleCarCollision16Regular", VehicleCarCollision16RegularSvg);
-export const VehicleCarCollision20Filled = createIcon("VehicleCarCollision20Filled", VehicleCarCollision20FilledSvg);
-export const VehicleCarCollision20Regular = createIcon("VehicleCarCollision20Regular", VehicleCarCollision20RegularSvg);
-export const VehicleCarCollision24Filled = createIcon("VehicleCarCollision24Filled", VehicleCarCollision24FilledSvg);
-export const VehicleCarCollision24Regular = createIcon("VehicleCarCollision24Regular", VehicleCarCollision24RegularSvg);
-export const VehicleCarCollision28Filled = createIcon("VehicleCarCollision28Filled", VehicleCarCollision28FilledSvg);
-export const VehicleCarCollision28Regular = createIcon("VehicleCarCollision28Regular", VehicleCarCollision28RegularSvg);
-export const VehicleCarCollision32Filled = createIcon("VehicleCarCollision32Filled", VehicleCarCollision32FilledSvg);
-export const VehicleCarCollision32Regular = createIcon("VehicleCarCollision32Regular", VehicleCarCollision32RegularSvg);
-export const VehicleCarCollision48Filled = createIcon("VehicleCarCollision48Filled", VehicleCarCollision48FilledSvg);
-export const VehicleCarCollision48Regular = createIcon("VehicleCarCollision48Regular", VehicleCarCollision48RegularSvg);
+export const VehicleCarCollision16Filled = /** #__PURE__ */ createIcon("VehicleCarCollision16Filled", "16", VehicleCarCollision16FilledSvg);
+export const VehicleCarCollision16Regular = /** #__PURE__ */ createIcon("VehicleCarCollision16Regular", "16", VehicleCarCollision16RegularSvg);
+export const VehicleCarCollision20Filled = /** #__PURE__ */ createIcon("VehicleCarCollision20Filled", "20", VehicleCarCollision20FilledSvg);
+export const VehicleCarCollisionFilled = /** #__PURE__ */ createIcon("VehicleCarCollisionFilled", "1em", VehicleCarCollision20FilledSvg);
+export const VehicleCarCollision20Regular = /** #__PURE__ */ createIcon("VehicleCarCollision20Regular", "20", VehicleCarCollision20RegularSvg);
+export const VehicleCarCollisionRegular = /** #__PURE__ */ createIcon("VehicleCarCollisionRegular", "1em", VehicleCarCollision20RegularSvg);
+export const VehicleCarCollision24Filled = /** #__PURE__ */ createIcon("VehicleCarCollision24Filled", "24", VehicleCarCollision24FilledSvg);
+export const VehicleCarCollision24Regular = /** #__PURE__ */ createIcon("VehicleCarCollision24Regular", "24", VehicleCarCollision24RegularSvg);
+export const VehicleCarCollision28Filled = /** #__PURE__ */ createIcon("VehicleCarCollision28Filled", "28", VehicleCarCollision28FilledSvg);
+export const VehicleCarCollision28Regular = /** #__PURE__ */ createIcon("VehicleCarCollision28Regular", "28", VehicleCarCollision28RegularSvg);
+export const VehicleCarCollision32Filled = /** #__PURE__ */ createIcon("VehicleCarCollision32Filled", "32", VehicleCarCollision32FilledSvg);
+export const VehicleCarCollision32Regular = /** #__PURE__ */ createIcon("VehicleCarCollision32Regular", "32", VehicleCarCollision32RegularSvg);
+export const VehicleCarCollision48Filled = /** #__PURE__ */ createIcon("VehicleCarCollision48Filled", "48", VehicleCarCollision48FilledSvg);
+export const VehicleCarCollision48Regular = /** #__PURE__ */ createIcon("VehicleCarCollision48Regular", "48", VehicleCarCollision48RegularSvg);

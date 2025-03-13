@@ -5,9 +5,11 @@ import LockClosedKey20RegularSvg from "@fluentui/svg-icons/icons/lock_closed_key
 import LockClosedKey24FilledSvg from "@fluentui/svg-icons/icons/lock_closed_key_24_filled.svg" with { type: "text" }
 import LockClosedKey24RegularSvg from "@fluentui/svg-icons/icons/lock_closed_key_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const LockClosedKey16Filled = createIcon("LockClosedKey16Filled", LockClosedKey16FilledSvg);
-export const LockClosedKey16Regular = createIcon("LockClosedKey16Regular", LockClosedKey16RegularSvg);
-export const LockClosedKey20Filled = createIcon("LockClosedKey20Filled", LockClosedKey20FilledSvg);
-export const LockClosedKey20Regular = createIcon("LockClosedKey20Regular", LockClosedKey20RegularSvg);
-export const LockClosedKey24Filled = createIcon("LockClosedKey24Filled", LockClosedKey24FilledSvg);
-export const LockClosedKey24Regular = createIcon("LockClosedKey24Regular", LockClosedKey24RegularSvg);
+export const LockClosedKey16Filled = /** #__PURE__ */ createIcon("LockClosedKey16Filled", "16", LockClosedKey16FilledSvg);
+export const LockClosedKey16Regular = /** #__PURE__ */ createIcon("LockClosedKey16Regular", "16", LockClosedKey16RegularSvg);
+export const LockClosedKey20Filled = /** #__PURE__ */ createIcon("LockClosedKey20Filled", "20", LockClosedKey20FilledSvg);
+export const LockClosedKeyFilled = /** #__PURE__ */ createIcon("LockClosedKeyFilled", "1em", LockClosedKey20FilledSvg);
+export const LockClosedKey20Regular = /** #__PURE__ */ createIcon("LockClosedKey20Regular", "20", LockClosedKey20RegularSvg);
+export const LockClosedKeyRegular = /** #__PURE__ */ createIcon("LockClosedKeyRegular", "1em", LockClosedKey20RegularSvg);
+export const LockClosedKey24Filled = /** #__PURE__ */ createIcon("LockClosedKey24Filled", "24", LockClosedKey24FilledSvg);
+export const LockClosedKey24Regular = /** #__PURE__ */ createIcon("LockClosedKey24Regular", "24", LockClosedKey24RegularSvg);

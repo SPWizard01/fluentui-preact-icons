@@ -11,15 +11,17 @@ import Braces32RegularSvg from "@fluentui/svg-icons/icons/braces_32_regular.svg"
 import Braces48FilledSvg from "@fluentui/svg-icons/icons/braces_48_filled.svg" with { type: "text" }
 import Braces48RegularSvg from "@fluentui/svg-icons/icons/braces_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Braces16Filled = createIcon("Braces16Filled", Braces16FilledSvg);
-export const Braces16Regular = createIcon("Braces16Regular", Braces16RegularSvg);
-export const Braces20Filled = createIcon("Braces20Filled", Braces20FilledSvg);
-export const Braces20Regular = createIcon("Braces20Regular", Braces20RegularSvg);
-export const Braces24Filled = createIcon("Braces24Filled", Braces24FilledSvg);
-export const Braces24Regular = createIcon("Braces24Regular", Braces24RegularSvg);
-export const Braces28Filled = createIcon("Braces28Filled", Braces28FilledSvg);
-export const Braces28Regular = createIcon("Braces28Regular", Braces28RegularSvg);
-export const Braces32Filled = createIcon("Braces32Filled", Braces32FilledSvg);
-export const Braces32Regular = createIcon("Braces32Regular", Braces32RegularSvg);
-export const Braces48Filled = createIcon("Braces48Filled", Braces48FilledSvg);
-export const Braces48Regular = createIcon("Braces48Regular", Braces48RegularSvg);
+export const Braces16Filled = /** #__PURE__ */ createIcon("Braces16Filled", "16", Braces16FilledSvg);
+export const Braces16Regular = /** #__PURE__ */ createIcon("Braces16Regular", "16", Braces16RegularSvg);
+export const Braces20Filled = /** #__PURE__ */ createIcon("Braces20Filled", "20", Braces20FilledSvg);
+export const BracesFilled = /** #__PURE__ */ createIcon("BracesFilled", "1em", Braces20FilledSvg);
+export const Braces20Regular = /** #__PURE__ */ createIcon("Braces20Regular", "20", Braces20RegularSvg);
+export const BracesRegular = /** #__PURE__ */ createIcon("BracesRegular", "1em", Braces20RegularSvg);
+export const Braces24Filled = /** #__PURE__ */ createIcon("Braces24Filled", "24", Braces24FilledSvg);
+export const Braces24Regular = /** #__PURE__ */ createIcon("Braces24Regular", "24", Braces24RegularSvg);
+export const Braces28Filled = /** #__PURE__ */ createIcon("Braces28Filled", "28", Braces28FilledSvg);
+export const Braces28Regular = /** #__PURE__ */ createIcon("Braces28Regular", "28", Braces28RegularSvg);
+export const Braces32Filled = /** #__PURE__ */ createIcon("Braces32Filled", "32", Braces32FilledSvg);
+export const Braces32Regular = /** #__PURE__ */ createIcon("Braces32Regular", "32", Braces32RegularSvg);
+export const Braces48Filled = /** #__PURE__ */ createIcon("Braces48Filled", "48", Braces48FilledSvg);
+export const Braces48Regular = /** #__PURE__ */ createIcon("Braces48Regular", "48", Braces48RegularSvg);

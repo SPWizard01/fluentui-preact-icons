@@ -7,11 +7,13 @@ import Battery128RegularSvg from "@fluentui/svg-icons/icons/battery_1_28_regular
 import Battery132FilledSvg from "@fluentui/svg-icons/icons/battery_1_32_filled.svg" with { type: "text" }
 import Battery132RegularSvg from "@fluentui/svg-icons/icons/battery_1_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Battery120Filled = createIcon("Battery120Filled", Battery120FilledSvg);
-export const Battery120Regular = createIcon("Battery120Regular", Battery120RegularSvg);
-export const Battery124Filled = createIcon("Battery124Filled", Battery124FilledSvg);
-export const Battery124Regular = createIcon("Battery124Regular", Battery124RegularSvg);
-export const Battery128Filled = createIcon("Battery128Filled", Battery128FilledSvg);
-export const Battery128Regular = createIcon("Battery128Regular", Battery128RegularSvg);
-export const Battery132Filled = createIcon("Battery132Filled", Battery132FilledSvg);
-export const Battery132Regular = createIcon("Battery132Regular", Battery132RegularSvg);
+export const Battery120Filled = /** #__PURE__ */ createIcon("Battery120Filled", "20", Battery120FilledSvg);
+export const Battery1Filled = /** #__PURE__ */ createIcon("Battery1Filled", "1em", Battery120FilledSvg);
+export const Battery120Regular = /** #__PURE__ */ createIcon("Battery120Regular", "20", Battery120RegularSvg);
+export const Battery1Regular = /** #__PURE__ */ createIcon("Battery1Regular", "1em", Battery120RegularSvg);
+export const Battery124Filled = /** #__PURE__ */ createIcon("Battery124Filled", "24", Battery124FilledSvg);
+export const Battery124Regular = /** #__PURE__ */ createIcon("Battery124Regular", "24", Battery124RegularSvg);
+export const Battery128Filled = /** #__PURE__ */ createIcon("Battery128Filled", "28", Battery128FilledSvg);
+export const Battery128Regular = /** #__PURE__ */ createIcon("Battery128Regular", "28", Battery128RegularSvg);
+export const Battery132Filled = /** #__PURE__ */ createIcon("Battery132Filled", "32", Battery132FilledSvg);
+export const Battery132Regular = /** #__PURE__ */ createIcon("Battery132Regular", "32", Battery132RegularSvg);

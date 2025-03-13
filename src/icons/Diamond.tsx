@@ -11,15 +11,17 @@ import Diamond32RegularSvg from "@fluentui/svg-icons/icons/diamond_32_regular.sv
 import Diamond48FilledSvg from "@fluentui/svg-icons/icons/diamond_48_filled.svg" with { type: "text" }
 import Diamond48RegularSvg from "@fluentui/svg-icons/icons/diamond_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Diamond16Filled = createIcon("Diamond16Filled", Diamond16FilledSvg);
-export const Diamond16Regular = createIcon("Diamond16Regular", Diamond16RegularSvg);
-export const Diamond20Filled = createIcon("Diamond20Filled", Diamond20FilledSvg);
-export const Diamond20Regular = createIcon("Diamond20Regular", Diamond20RegularSvg);
-export const Diamond24Filled = createIcon("Diamond24Filled", Diamond24FilledSvg);
-export const Diamond24Regular = createIcon("Diamond24Regular", Diamond24RegularSvg);
-export const Diamond28Filled = createIcon("Diamond28Filled", Diamond28FilledSvg);
-export const Diamond28Regular = createIcon("Diamond28Regular", Diamond28RegularSvg);
-export const Diamond32Filled = createIcon("Diamond32Filled", Diamond32FilledSvg);
-export const Diamond32Regular = createIcon("Diamond32Regular", Diamond32RegularSvg);
-export const Diamond48Filled = createIcon("Diamond48Filled", Diamond48FilledSvg);
-export const Diamond48Regular = createIcon("Diamond48Regular", Diamond48RegularSvg);
+export const Diamond16Filled = /** #__PURE__ */ createIcon("Diamond16Filled", "16", Diamond16FilledSvg);
+export const Diamond16Regular = /** #__PURE__ */ createIcon("Diamond16Regular", "16", Diamond16RegularSvg);
+export const Diamond20Filled = /** #__PURE__ */ createIcon("Diamond20Filled", "20", Diamond20FilledSvg);
+export const DiamondFilled = /** #__PURE__ */ createIcon("DiamondFilled", "1em", Diamond20FilledSvg);
+export const Diamond20Regular = /** #__PURE__ */ createIcon("Diamond20Regular", "20", Diamond20RegularSvg);
+export const DiamondRegular = /** #__PURE__ */ createIcon("DiamondRegular", "1em", Diamond20RegularSvg);
+export const Diamond24Filled = /** #__PURE__ */ createIcon("Diamond24Filled", "24", Diamond24FilledSvg);
+export const Diamond24Regular = /** #__PURE__ */ createIcon("Diamond24Regular", "24", Diamond24RegularSvg);
+export const Diamond28Filled = /** #__PURE__ */ createIcon("Diamond28Filled", "28", Diamond28FilledSvg);
+export const Diamond28Regular = /** #__PURE__ */ createIcon("Diamond28Regular", "28", Diamond28RegularSvg);
+export const Diamond32Filled = /** #__PURE__ */ createIcon("Diamond32Filled", "32", Diamond32FilledSvg);
+export const Diamond32Regular = /** #__PURE__ */ createIcon("Diamond32Regular", "32", Diamond32RegularSvg);
+export const Diamond48Filled = /** #__PURE__ */ createIcon("Diamond48Filled", "48", Diamond48FilledSvg);
+export const Diamond48Regular = /** #__PURE__ */ createIcon("Diamond48Regular", "48", Diamond48RegularSvg);

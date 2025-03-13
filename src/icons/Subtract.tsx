@@ -11,15 +11,17 @@ import Subtract28RegularSvg from "@fluentui/svg-icons/icons/subtract_28_regular.
 import Subtract48FilledSvg from "@fluentui/svg-icons/icons/subtract_48_filled.svg" with { type: "text" }
 import Subtract48RegularSvg from "@fluentui/svg-icons/icons/subtract_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Subtract12Filled = createIcon("Subtract12Filled", Subtract12FilledSvg);
-export const Subtract12Regular = createIcon("Subtract12Regular", Subtract12RegularSvg);
-export const Subtract16Filled = createIcon("Subtract16Filled", Subtract16FilledSvg);
-export const Subtract16Regular = createIcon("Subtract16Regular", Subtract16RegularSvg);
-export const Subtract20Filled = createIcon("Subtract20Filled", Subtract20FilledSvg);
-export const Subtract20Regular = createIcon("Subtract20Regular", Subtract20RegularSvg);
-export const Subtract24Filled = createIcon("Subtract24Filled", Subtract24FilledSvg);
-export const Subtract24Regular = createIcon("Subtract24Regular", Subtract24RegularSvg);
-export const Subtract28Filled = createIcon("Subtract28Filled", Subtract28FilledSvg);
-export const Subtract28Regular = createIcon("Subtract28Regular", Subtract28RegularSvg);
-export const Subtract48Filled = createIcon("Subtract48Filled", Subtract48FilledSvg);
-export const Subtract48Regular = createIcon("Subtract48Regular", Subtract48RegularSvg);
+export const Subtract12Filled = /** #__PURE__ */ createIcon("Subtract12Filled", "12", Subtract12FilledSvg);
+export const Subtract12Regular = /** #__PURE__ */ createIcon("Subtract12Regular", "12", Subtract12RegularSvg);
+export const Subtract16Filled = /** #__PURE__ */ createIcon("Subtract16Filled", "16", Subtract16FilledSvg);
+export const Subtract16Regular = /** #__PURE__ */ createIcon("Subtract16Regular", "16", Subtract16RegularSvg);
+export const Subtract20Filled = /** #__PURE__ */ createIcon("Subtract20Filled", "20", Subtract20FilledSvg);
+export const SubtractFilled = /** #__PURE__ */ createIcon("SubtractFilled", "1em", Subtract20FilledSvg);
+export const Subtract20Regular = /** #__PURE__ */ createIcon("Subtract20Regular", "20", Subtract20RegularSvg);
+export const SubtractRegular = /** #__PURE__ */ createIcon("SubtractRegular", "1em", Subtract20RegularSvg);
+export const Subtract24Filled = /** #__PURE__ */ createIcon("Subtract24Filled", "24", Subtract24FilledSvg);
+export const Subtract24Regular = /** #__PURE__ */ createIcon("Subtract24Regular", "24", Subtract24RegularSvg);
+export const Subtract28Filled = /** #__PURE__ */ createIcon("Subtract28Filled", "28", Subtract28FilledSvg);
+export const Subtract28Regular = /** #__PURE__ */ createIcon("Subtract28Regular", "28", Subtract28RegularSvg);
+export const Subtract48Filled = /** #__PURE__ */ createIcon("Subtract48Filled", "48", Subtract48FilledSvg);
+export const Subtract48Regular = /** #__PURE__ */ createIcon("Subtract48Regular", "48", Subtract48RegularSvg);

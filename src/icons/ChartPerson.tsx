@@ -7,11 +7,13 @@ import ChartPerson28RegularSvg from "@fluentui/svg-icons/icons/chart_person_28_r
 import ChartPerson48FilledSvg from "@fluentui/svg-icons/icons/chart_person_48_filled.svg" with { type: "text" }
 import ChartPerson48RegularSvg from "@fluentui/svg-icons/icons/chart_person_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ChartPerson20Filled = createIcon("ChartPerson20Filled", ChartPerson20FilledSvg);
-export const ChartPerson20Regular = createIcon("ChartPerson20Regular", ChartPerson20RegularSvg);
-export const ChartPerson24Filled = createIcon("ChartPerson24Filled", ChartPerson24FilledSvg);
-export const ChartPerson24Regular = createIcon("ChartPerson24Regular", ChartPerson24RegularSvg);
-export const ChartPerson28Filled = createIcon("ChartPerson28Filled", ChartPerson28FilledSvg);
-export const ChartPerson28Regular = createIcon("ChartPerson28Regular", ChartPerson28RegularSvg);
-export const ChartPerson48Filled = createIcon("ChartPerson48Filled", ChartPerson48FilledSvg);
-export const ChartPerson48Regular = createIcon("ChartPerson48Regular", ChartPerson48RegularSvg);
+export const ChartPerson20Filled = /** #__PURE__ */ createIcon("ChartPerson20Filled", "20", ChartPerson20FilledSvg);
+export const ChartPersonFilled = /** #__PURE__ */ createIcon("ChartPersonFilled", "1em", ChartPerson20FilledSvg);
+export const ChartPerson20Regular = /** #__PURE__ */ createIcon("ChartPerson20Regular", "20", ChartPerson20RegularSvg);
+export const ChartPersonRegular = /** #__PURE__ */ createIcon("ChartPersonRegular", "1em", ChartPerson20RegularSvg);
+export const ChartPerson24Filled = /** #__PURE__ */ createIcon("ChartPerson24Filled", "24", ChartPerson24FilledSvg);
+export const ChartPerson24Regular = /** #__PURE__ */ createIcon("ChartPerson24Regular", "24", ChartPerson24RegularSvg);
+export const ChartPerson28Filled = /** #__PURE__ */ createIcon("ChartPerson28Filled", "28", ChartPerson28FilledSvg);
+export const ChartPerson28Regular = /** #__PURE__ */ createIcon("ChartPerson28Regular", "28", ChartPerson28RegularSvg);
+export const ChartPerson48Filled = /** #__PURE__ */ createIcon("ChartPerson48Filled", "48", ChartPerson48FilledSvg);
+export const ChartPerson48Regular = /** #__PURE__ */ createIcon("ChartPerson48Regular", "48", ChartPerson48RegularSvg);

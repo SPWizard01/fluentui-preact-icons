@@ -3,7 +3,9 @@ import Vote20RegularSvg from "@fluentui/svg-icons/icons/vote_20_regular.svg" wit
 import Vote24FilledSvg from "@fluentui/svg-icons/icons/vote_24_filled.svg" with { type: "text" }
 import Vote24RegularSvg from "@fluentui/svg-icons/icons/vote_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Vote20Filled = createIcon("Vote20Filled", Vote20FilledSvg);
-export const Vote20Regular = createIcon("Vote20Regular", Vote20RegularSvg);
-export const Vote24Filled = createIcon("Vote24Filled", Vote24FilledSvg);
-export const Vote24Regular = createIcon("Vote24Regular", Vote24RegularSvg);
+export const Vote20Filled = /** #__PURE__ */ createIcon("Vote20Filled", "20", Vote20FilledSvg);
+export const VoteFilled = /** #__PURE__ */ createIcon("VoteFilled", "1em", Vote20FilledSvg);
+export const Vote20Regular = /** #__PURE__ */ createIcon("Vote20Regular", "20", Vote20RegularSvg);
+export const VoteRegular = /** #__PURE__ */ createIcon("VoteRegular", "1em", Vote20RegularSvg);
+export const Vote24Filled = /** #__PURE__ */ createIcon("Vote24Filled", "24", Vote24FilledSvg);
+export const Vote24Regular = /** #__PURE__ */ createIcon("Vote24Regular", "24", Vote24RegularSvg);

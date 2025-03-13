@@ -7,11 +7,13 @@ import FormNew28RegularSvg from "@fluentui/svg-icons/icons/form_new_28_regular.s
 import FormNew48FilledSvg from "@fluentui/svg-icons/icons/form_new_48_filled.svg" with { type: "text" }
 import FormNew48RegularSvg from "@fluentui/svg-icons/icons/form_new_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const FormNew20Filled = createIcon("FormNew20Filled", FormNew20FilledSvg);
-export const FormNew20Regular = createIcon("FormNew20Regular", FormNew20RegularSvg);
-export const FormNew24Filled = createIcon("FormNew24Filled", FormNew24FilledSvg);
-export const FormNew24Regular = createIcon("FormNew24Regular", FormNew24RegularSvg);
-export const FormNew28Filled = createIcon("FormNew28Filled", FormNew28FilledSvg);
-export const FormNew28Regular = createIcon("FormNew28Regular", FormNew28RegularSvg);
-export const FormNew48Filled = createIcon("FormNew48Filled", FormNew48FilledSvg);
-export const FormNew48Regular = createIcon("FormNew48Regular", FormNew48RegularSvg);
+export const FormNew20Filled = /** #__PURE__ */ createIcon("FormNew20Filled", "20", FormNew20FilledSvg);
+export const FormNewFilled = /** #__PURE__ */ createIcon("FormNewFilled", "1em", FormNew20FilledSvg);
+export const FormNew20Regular = /** #__PURE__ */ createIcon("FormNew20Regular", "20", FormNew20RegularSvg);
+export const FormNewRegular = /** #__PURE__ */ createIcon("FormNewRegular", "1em", FormNew20RegularSvg);
+export const FormNew24Filled = /** #__PURE__ */ createIcon("FormNew24Filled", "24", FormNew24FilledSvg);
+export const FormNew24Regular = /** #__PURE__ */ createIcon("FormNew24Regular", "24", FormNew24RegularSvg);
+export const FormNew28Filled = /** #__PURE__ */ createIcon("FormNew28Filled", "28", FormNew28FilledSvg);
+export const FormNew28Regular = /** #__PURE__ */ createIcon("FormNew28Regular", "28", FormNew28RegularSvg);
+export const FormNew48Filled = /** #__PURE__ */ createIcon("FormNew48Filled", "48", FormNew48FilledSvg);
+export const FormNew48Regular = /** #__PURE__ */ createIcon("FormNew48Regular", "48", FormNew48RegularSvg);

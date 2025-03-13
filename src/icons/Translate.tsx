@@ -8,12 +8,14 @@ import Translate32FilledSvg from "@fluentui/svg-icons/icons/translate_32_filled.
 import Translate32LightSvg from "@fluentui/svg-icons/icons/translate_32_light.svg" with { type: "text" }
 import Translate32RegularSvg from "@fluentui/svg-icons/icons/translate_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Translate16Filled = createIcon("Translate16Filled", Translate16FilledSvg);
-export const Translate16Regular = createIcon("Translate16Regular", Translate16RegularSvg);
-export const Translate20Filled = createIcon("Translate20Filled", Translate20FilledSvg);
-export const Translate20Regular = createIcon("Translate20Regular", Translate20RegularSvg);
-export const Translate24Filled = createIcon("Translate24Filled", Translate24FilledSvg);
-export const Translate24Regular = createIcon("Translate24Regular", Translate24RegularSvg);
-export const Translate32Filled = createIcon("Translate32Filled", Translate32FilledSvg);
-export const Translate32Light = createIcon("Translate32Light", Translate32LightSvg);
-export const Translate32Regular = createIcon("Translate32Regular", Translate32RegularSvg);
+export const Translate16Filled = /** #__PURE__ */ createIcon("Translate16Filled", "16", Translate16FilledSvg);
+export const Translate16Regular = /** #__PURE__ */ createIcon("Translate16Regular", "16", Translate16RegularSvg);
+export const Translate20Filled = /** #__PURE__ */ createIcon("Translate20Filled", "20", Translate20FilledSvg);
+export const TranslateFilled = /** #__PURE__ */ createIcon("TranslateFilled", "1em", Translate20FilledSvg);
+export const Translate20Regular = /** #__PURE__ */ createIcon("Translate20Regular", "20", Translate20RegularSvg);
+export const TranslateRegular = /** #__PURE__ */ createIcon("TranslateRegular", "1em", Translate20RegularSvg);
+export const Translate24Filled = /** #__PURE__ */ createIcon("Translate24Filled", "24", Translate24FilledSvg);
+export const Translate24Regular = /** #__PURE__ */ createIcon("Translate24Regular", "24", Translate24RegularSvg);
+export const Translate32Filled = /** #__PURE__ */ createIcon("Translate32Filled", "32", Translate32FilledSvg);
+export const Translate32Light = /** #__PURE__ */ createIcon("Translate32Light", "32", Translate32LightSvg);
+export const Translate32Regular = /** #__PURE__ */ createIcon("Translate32Regular", "32", Translate32RegularSvg);

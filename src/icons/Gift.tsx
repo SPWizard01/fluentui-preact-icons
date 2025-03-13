@@ -8,12 +8,15 @@ import Gift24ColorSvg from "@fluentui/svg-icons/icons/gift_24_color.svg" with { 
 import Gift24FilledSvg from "@fluentui/svg-icons/icons/gift_24_filled.svg" with { type: "text" }
 import Gift24RegularSvg from "@fluentui/svg-icons/icons/gift_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Gift16Color = createIcon("Gift16Color", Gift16ColorSvg);
-export const Gift16Filled = createIcon("Gift16Filled", Gift16FilledSvg);
-export const Gift16Regular = createIcon("Gift16Regular", Gift16RegularSvg);
-export const Gift20Color = createIcon("Gift20Color", Gift20ColorSvg);
-export const Gift20Filled = createIcon("Gift20Filled", Gift20FilledSvg);
-export const Gift20Regular = createIcon("Gift20Regular", Gift20RegularSvg);
-export const Gift24Color = createIcon("Gift24Color", Gift24ColorSvg);
-export const Gift24Filled = createIcon("Gift24Filled", Gift24FilledSvg);
-export const Gift24Regular = createIcon("Gift24Regular", Gift24RegularSvg);
+export const Gift16Color = /** #__PURE__ */ createIcon("Gift16Color", "16", Gift16ColorSvg);
+export const Gift16Filled = /** #__PURE__ */ createIcon("Gift16Filled", "16", Gift16FilledSvg);
+export const Gift16Regular = /** #__PURE__ */ createIcon("Gift16Regular", "16", Gift16RegularSvg);
+export const Gift20Color = /** #__PURE__ */ createIcon("Gift20Color", "20", Gift20ColorSvg);
+export const GiftColor = /** #__PURE__ */ createIcon("GiftColor", "1em", Gift20ColorSvg);
+export const Gift20Filled = /** #__PURE__ */ createIcon("Gift20Filled", "20", Gift20FilledSvg);
+export const GiftFilled = /** #__PURE__ */ createIcon("GiftFilled", "1em", Gift20FilledSvg);
+export const Gift20Regular = /** #__PURE__ */ createIcon("Gift20Regular", "20", Gift20RegularSvg);
+export const GiftRegular = /** #__PURE__ */ createIcon("GiftRegular", "1em", Gift20RegularSvg);
+export const Gift24Color = /** #__PURE__ */ createIcon("Gift24Color", "24", Gift24ColorSvg);
+export const Gift24Filled = /** #__PURE__ */ createIcon("Gift24Filled", "24", Gift24FilledSvg);
+export const Gift24Regular = /** #__PURE__ */ createIcon("Gift24Regular", "24", Gift24RegularSvg);

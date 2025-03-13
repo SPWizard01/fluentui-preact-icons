@@ -11,15 +11,17 @@ import Tablet32RegularSvg from "@fluentui/svg-icons/icons/tablet_32_regular.svg"
 import Tablet48FilledSvg from "@fluentui/svg-icons/icons/tablet_48_filled.svg" with { type: "text" }
 import Tablet48RegularSvg from "@fluentui/svg-icons/icons/tablet_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Tablet12Filled = createIcon("Tablet12Filled", Tablet12FilledSvg);
-export const Tablet12Regular = createIcon("Tablet12Regular", Tablet12RegularSvg);
-export const Tablet16Filled = createIcon("Tablet16Filled", Tablet16FilledSvg);
-export const Tablet16Regular = createIcon("Tablet16Regular", Tablet16RegularSvg);
-export const Tablet20Filled = createIcon("Tablet20Filled", Tablet20FilledSvg);
-export const Tablet20Regular = createIcon("Tablet20Regular", Tablet20RegularSvg);
-export const Tablet24Filled = createIcon("Tablet24Filled", Tablet24FilledSvg);
-export const Tablet24Regular = createIcon("Tablet24Regular", Tablet24RegularSvg);
-export const Tablet32Filled = createIcon("Tablet32Filled", Tablet32FilledSvg);
-export const Tablet32Regular = createIcon("Tablet32Regular", Tablet32RegularSvg);
-export const Tablet48Filled = createIcon("Tablet48Filled", Tablet48FilledSvg);
-export const Tablet48Regular = createIcon("Tablet48Regular", Tablet48RegularSvg);
+export const Tablet12Filled = /** #__PURE__ */ createIcon("Tablet12Filled", "12", Tablet12FilledSvg);
+export const Tablet12Regular = /** #__PURE__ */ createIcon("Tablet12Regular", "12", Tablet12RegularSvg);
+export const Tablet16Filled = /** #__PURE__ */ createIcon("Tablet16Filled", "16", Tablet16FilledSvg);
+export const Tablet16Regular = /** #__PURE__ */ createIcon("Tablet16Regular", "16", Tablet16RegularSvg);
+export const Tablet20Filled = /** #__PURE__ */ createIcon("Tablet20Filled", "20", Tablet20FilledSvg);
+export const TabletFilled = /** #__PURE__ */ createIcon("TabletFilled", "1em", Tablet20FilledSvg);
+export const Tablet20Regular = /** #__PURE__ */ createIcon("Tablet20Regular", "20", Tablet20RegularSvg);
+export const TabletRegular = /** #__PURE__ */ createIcon("TabletRegular", "1em", Tablet20RegularSvg);
+export const Tablet24Filled = /** #__PURE__ */ createIcon("Tablet24Filled", "24", Tablet24FilledSvg);
+export const Tablet24Regular = /** #__PURE__ */ createIcon("Tablet24Regular", "24", Tablet24RegularSvg);
+export const Tablet32Filled = /** #__PURE__ */ createIcon("Tablet32Filled", "32", Tablet32FilledSvg);
+export const Tablet32Regular = /** #__PURE__ */ createIcon("Tablet32Regular", "32", Tablet32RegularSvg);
+export const Tablet48Filled = /** #__PURE__ */ createIcon("Tablet48Filled", "48", Tablet48FilledSvg);
+export const Tablet48Regular = /** #__PURE__ */ createIcon("Tablet48Regular", "48", Tablet48RegularSvg);

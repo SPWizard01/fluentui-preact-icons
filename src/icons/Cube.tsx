@@ -11,15 +11,17 @@ import Cube32RegularSvg from "@fluentui/svg-icons/icons/cube_32_regular.svg" wit
 import Cube48FilledSvg from "@fluentui/svg-icons/icons/cube_48_filled.svg" with { type: "text" }
 import Cube48RegularSvg from "@fluentui/svg-icons/icons/cube_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Cube12Filled = createIcon("Cube12Filled", Cube12FilledSvg);
-export const Cube12Regular = createIcon("Cube12Regular", Cube12RegularSvg);
-export const Cube16Filled = createIcon("Cube16Filled", Cube16FilledSvg);
-export const Cube16Regular = createIcon("Cube16Regular", Cube16RegularSvg);
-export const Cube20Filled = createIcon("Cube20Filled", Cube20FilledSvg);
-export const Cube20Regular = createIcon("Cube20Regular", Cube20RegularSvg);
-export const Cube24Filled = createIcon("Cube24Filled", Cube24FilledSvg);
-export const Cube24Regular = createIcon("Cube24Regular", Cube24RegularSvg);
-export const Cube32Filled = createIcon("Cube32Filled", Cube32FilledSvg);
-export const Cube32Regular = createIcon("Cube32Regular", Cube32RegularSvg);
-export const Cube48Filled = createIcon("Cube48Filled", Cube48FilledSvg);
-export const Cube48Regular = createIcon("Cube48Regular", Cube48RegularSvg);
+export const Cube12Filled = /** #__PURE__ */ createIcon("Cube12Filled", "12", Cube12FilledSvg);
+export const Cube12Regular = /** #__PURE__ */ createIcon("Cube12Regular", "12", Cube12RegularSvg);
+export const Cube16Filled = /** #__PURE__ */ createIcon("Cube16Filled", "16", Cube16FilledSvg);
+export const Cube16Regular = /** #__PURE__ */ createIcon("Cube16Regular", "16", Cube16RegularSvg);
+export const Cube20Filled = /** #__PURE__ */ createIcon("Cube20Filled", "20", Cube20FilledSvg);
+export const CubeFilled = /** #__PURE__ */ createIcon("CubeFilled", "1em", Cube20FilledSvg);
+export const Cube20Regular = /** #__PURE__ */ createIcon("Cube20Regular", "20", Cube20RegularSvg);
+export const CubeRegular = /** #__PURE__ */ createIcon("CubeRegular", "1em", Cube20RegularSvg);
+export const Cube24Filled = /** #__PURE__ */ createIcon("Cube24Filled", "24", Cube24FilledSvg);
+export const Cube24Regular = /** #__PURE__ */ createIcon("Cube24Regular", "24", Cube24RegularSvg);
+export const Cube32Filled = /** #__PURE__ */ createIcon("Cube32Filled", "32", Cube32FilledSvg);
+export const Cube32Regular = /** #__PURE__ */ createIcon("Cube32Regular", "32", Cube32RegularSvg);
+export const Cube48Filled = /** #__PURE__ */ createIcon("Cube48Filled", "48", Cube48FilledSvg);
+export const Cube48Regular = /** #__PURE__ */ createIcon("Cube48Regular", "48", Cube48RegularSvg);

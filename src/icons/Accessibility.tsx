@@ -11,15 +11,17 @@ import Accessibility32RegularSvg from "@fluentui/svg-icons/icons/accessibility_3
 import Accessibility48FilledSvg from "@fluentui/svg-icons/icons/accessibility_48_filled.svg" with { type: "text" }
 import Accessibility48RegularSvg from "@fluentui/svg-icons/icons/accessibility_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Accessibility16Filled = createIcon("Accessibility16Filled", Accessibility16FilledSvg);
-export const Accessibility16Regular = createIcon("Accessibility16Regular", Accessibility16RegularSvg);
-export const Accessibility20Filled = createIcon("Accessibility20Filled", Accessibility20FilledSvg);
-export const Accessibility20Regular = createIcon("Accessibility20Regular", Accessibility20RegularSvg);
-export const Accessibility24Filled = createIcon("Accessibility24Filled", Accessibility24FilledSvg);
-export const Accessibility24Regular = createIcon("Accessibility24Regular", Accessibility24RegularSvg);
-export const Accessibility28Filled = createIcon("Accessibility28Filled", Accessibility28FilledSvg);
-export const Accessibility28Regular = createIcon("Accessibility28Regular", Accessibility28RegularSvg);
-export const Accessibility32Filled = createIcon("Accessibility32Filled", Accessibility32FilledSvg);
-export const Accessibility32Regular = createIcon("Accessibility32Regular", Accessibility32RegularSvg);
-export const Accessibility48Filled = createIcon("Accessibility48Filled", Accessibility48FilledSvg);
-export const Accessibility48Regular = createIcon("Accessibility48Regular", Accessibility48RegularSvg);
+export const Accessibility16Filled = /** #__PURE__ */ createIcon("Accessibility16Filled", "16", Accessibility16FilledSvg);
+export const Accessibility16Regular = /** #__PURE__ */ createIcon("Accessibility16Regular", "16", Accessibility16RegularSvg);
+export const Accessibility20Filled = /** #__PURE__ */ createIcon("Accessibility20Filled", "20", Accessibility20FilledSvg);
+export const AccessibilityFilled = /** #__PURE__ */ createIcon("AccessibilityFilled", "1em", Accessibility20FilledSvg);
+export const Accessibility20Regular = /** #__PURE__ */ createIcon("Accessibility20Regular", "20", Accessibility20RegularSvg);
+export const AccessibilityRegular = /** #__PURE__ */ createIcon("AccessibilityRegular", "1em", Accessibility20RegularSvg);
+export const Accessibility24Filled = /** #__PURE__ */ createIcon("Accessibility24Filled", "24", Accessibility24FilledSvg);
+export const Accessibility24Regular = /** #__PURE__ */ createIcon("Accessibility24Regular", "24", Accessibility24RegularSvg);
+export const Accessibility28Filled = /** #__PURE__ */ createIcon("Accessibility28Filled", "28", Accessibility28FilledSvg);
+export const Accessibility28Regular = /** #__PURE__ */ createIcon("Accessibility28Regular", "28", Accessibility28RegularSvg);
+export const Accessibility32Filled = /** #__PURE__ */ createIcon("Accessibility32Filled", "32", Accessibility32FilledSvg);
+export const Accessibility32Regular = /** #__PURE__ */ createIcon("Accessibility32Regular", "32", Accessibility32RegularSvg);
+export const Accessibility48Filled = /** #__PURE__ */ createIcon("Accessibility48Filled", "48", Accessibility48FilledSvg);
+export const Accessibility48Regular = /** #__PURE__ */ createIcon("Accessibility48Regular", "48", Accessibility48RegularSvg);

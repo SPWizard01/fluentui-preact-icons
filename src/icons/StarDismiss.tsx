@@ -7,11 +7,13 @@ import StarDismiss24RegularSvg from "@fluentui/svg-icons/icons/star_dismiss_24_r
 import StarDismiss28FilledSvg from "@fluentui/svg-icons/icons/star_dismiss_28_filled.svg" with { type: "text" }
 import StarDismiss28RegularSvg from "@fluentui/svg-icons/icons/star_dismiss_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const StarDismiss16Filled = createIcon("StarDismiss16Filled", StarDismiss16FilledSvg);
-export const StarDismiss16Regular = createIcon("StarDismiss16Regular", StarDismiss16RegularSvg);
-export const StarDismiss20Filled = createIcon("StarDismiss20Filled", StarDismiss20FilledSvg);
-export const StarDismiss20Regular = createIcon("StarDismiss20Regular", StarDismiss20RegularSvg);
-export const StarDismiss24Filled = createIcon("StarDismiss24Filled", StarDismiss24FilledSvg);
-export const StarDismiss24Regular = createIcon("StarDismiss24Regular", StarDismiss24RegularSvg);
-export const StarDismiss28Filled = createIcon("StarDismiss28Filled", StarDismiss28FilledSvg);
-export const StarDismiss28Regular = createIcon("StarDismiss28Regular", StarDismiss28RegularSvg);
+export const StarDismiss16Filled = /** #__PURE__ */ createIcon("StarDismiss16Filled", "16", StarDismiss16FilledSvg);
+export const StarDismiss16Regular = /** #__PURE__ */ createIcon("StarDismiss16Regular", "16", StarDismiss16RegularSvg);
+export const StarDismiss20Filled = /** #__PURE__ */ createIcon("StarDismiss20Filled", "20", StarDismiss20FilledSvg);
+export const StarDismissFilled = /** #__PURE__ */ createIcon("StarDismissFilled", "1em", StarDismiss20FilledSvg);
+export const StarDismiss20Regular = /** #__PURE__ */ createIcon("StarDismiss20Regular", "20", StarDismiss20RegularSvg);
+export const StarDismissRegular = /** #__PURE__ */ createIcon("StarDismissRegular", "1em", StarDismiss20RegularSvg);
+export const StarDismiss24Filled = /** #__PURE__ */ createIcon("StarDismiss24Filled", "24", StarDismiss24FilledSvg);
+export const StarDismiss24Regular = /** #__PURE__ */ createIcon("StarDismiss24Regular", "24", StarDismiss24RegularSvg);
+export const StarDismiss28Filled = /** #__PURE__ */ createIcon("StarDismiss28Filled", "28", StarDismiss28FilledSvg);
+export const StarDismiss28Regular = /** #__PURE__ */ createIcon("StarDismiss28Regular", "28", StarDismiss28RegularSvg);

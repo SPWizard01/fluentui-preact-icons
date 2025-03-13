@@ -7,11 +7,13 @@ import ContentViewGalleryLightning24RegularSvg from "@fluentui/svg-icons/icons/c
 import ContentViewGalleryLightning28FilledSvg from "@fluentui/svg-icons/icons/content_view_gallery_lightning_28_filled.svg" with { type: "text" }
 import ContentViewGalleryLightning28RegularSvg from "@fluentui/svg-icons/icons/content_view_gallery_lightning_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ContentViewGalleryLightning16Filled = createIcon("ContentViewGalleryLightning16Filled", ContentViewGalleryLightning16FilledSvg);
-export const ContentViewGalleryLightning16Regular = createIcon("ContentViewGalleryLightning16Regular", ContentViewGalleryLightning16RegularSvg);
-export const ContentViewGalleryLightning20Filled = createIcon("ContentViewGalleryLightning20Filled", ContentViewGalleryLightning20FilledSvg);
-export const ContentViewGalleryLightning20Regular = createIcon("ContentViewGalleryLightning20Regular", ContentViewGalleryLightning20RegularSvg);
-export const ContentViewGalleryLightning24Filled = createIcon("ContentViewGalleryLightning24Filled", ContentViewGalleryLightning24FilledSvg);
-export const ContentViewGalleryLightning24Regular = createIcon("ContentViewGalleryLightning24Regular", ContentViewGalleryLightning24RegularSvg);
-export const ContentViewGalleryLightning28Filled = createIcon("ContentViewGalleryLightning28Filled", ContentViewGalleryLightning28FilledSvg);
-export const ContentViewGalleryLightning28Regular = createIcon("ContentViewGalleryLightning28Regular", ContentViewGalleryLightning28RegularSvg);
+export const ContentViewGalleryLightning16Filled = /** #__PURE__ */ createIcon("ContentViewGalleryLightning16Filled", "16", ContentViewGalleryLightning16FilledSvg);
+export const ContentViewGalleryLightning16Regular = /** #__PURE__ */ createIcon("ContentViewGalleryLightning16Regular", "16", ContentViewGalleryLightning16RegularSvg);
+export const ContentViewGalleryLightning20Filled = /** #__PURE__ */ createIcon("ContentViewGalleryLightning20Filled", "20", ContentViewGalleryLightning20FilledSvg);
+export const ContentViewGalleryLightningFilled = /** #__PURE__ */ createIcon("ContentViewGalleryLightningFilled", "1em", ContentViewGalleryLightning20FilledSvg);
+export const ContentViewGalleryLightning20Regular = /** #__PURE__ */ createIcon("ContentViewGalleryLightning20Regular", "20", ContentViewGalleryLightning20RegularSvg);
+export const ContentViewGalleryLightningRegular = /** #__PURE__ */ createIcon("ContentViewGalleryLightningRegular", "1em", ContentViewGalleryLightning20RegularSvg);
+export const ContentViewGalleryLightning24Filled = /** #__PURE__ */ createIcon("ContentViewGalleryLightning24Filled", "24", ContentViewGalleryLightning24FilledSvg);
+export const ContentViewGalleryLightning24Regular = /** #__PURE__ */ createIcon("ContentViewGalleryLightning24Regular", "24", ContentViewGalleryLightning24RegularSvg);
+export const ContentViewGalleryLightning28Filled = /** #__PURE__ */ createIcon("ContentViewGalleryLightning28Filled", "28", ContentViewGalleryLightning28FilledSvg);
+export const ContentViewGalleryLightning28Regular = /** #__PURE__ */ createIcon("ContentViewGalleryLightning28Regular", "28", ContentViewGalleryLightning28RegularSvg);

@@ -9,13 +9,15 @@ import TriangleRight32RegularSvg from "@fluentui/svg-icons/icons/triangle_right_
 import TriangleRight48FilledSvg from "@fluentui/svg-icons/icons/triangle_right_48_filled.svg" with { type: "text" }
 import TriangleRight48RegularSvg from "@fluentui/svg-icons/icons/triangle_right_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TriangleRight12Filled = createIcon("TriangleRight12Filled", TriangleRight12FilledSvg);
-export const TriangleRight12Regular = createIcon("TriangleRight12Regular", TriangleRight12RegularSvg);
-export const TriangleRight16Filled = createIcon("TriangleRight16Filled", TriangleRight16FilledSvg);
-export const TriangleRight16Regular = createIcon("TriangleRight16Regular", TriangleRight16RegularSvg);
-export const TriangleRight20Filled = createIcon("TriangleRight20Filled", TriangleRight20FilledSvg);
-export const TriangleRight20Regular = createIcon("TriangleRight20Regular", TriangleRight20RegularSvg);
-export const TriangleRight32Filled = createIcon("TriangleRight32Filled", TriangleRight32FilledSvg);
-export const TriangleRight32Regular = createIcon("TriangleRight32Regular", TriangleRight32RegularSvg);
-export const TriangleRight48Filled = createIcon("TriangleRight48Filled", TriangleRight48FilledSvg);
-export const TriangleRight48Regular = createIcon("TriangleRight48Regular", TriangleRight48RegularSvg);
+export const TriangleRight12Filled = /** #__PURE__ */ createIcon("TriangleRight12Filled", "12", TriangleRight12FilledSvg);
+export const TriangleRight12Regular = /** #__PURE__ */ createIcon("TriangleRight12Regular", "12", TriangleRight12RegularSvg);
+export const TriangleRight16Filled = /** #__PURE__ */ createIcon("TriangleRight16Filled", "16", TriangleRight16FilledSvg);
+export const TriangleRight16Regular = /** #__PURE__ */ createIcon("TriangleRight16Regular", "16", TriangleRight16RegularSvg);
+export const TriangleRight20Filled = /** #__PURE__ */ createIcon("TriangleRight20Filled", "20", TriangleRight20FilledSvg);
+export const TriangleRightFilled = /** #__PURE__ */ createIcon("TriangleRightFilled", "1em", TriangleRight20FilledSvg);
+export const TriangleRight20Regular = /** #__PURE__ */ createIcon("TriangleRight20Regular", "20", TriangleRight20RegularSvg);
+export const TriangleRightRegular = /** #__PURE__ */ createIcon("TriangleRightRegular", "1em", TriangleRight20RegularSvg);
+export const TriangleRight32Filled = /** #__PURE__ */ createIcon("TriangleRight32Filled", "32", TriangleRight32FilledSvg);
+export const TriangleRight32Regular = /** #__PURE__ */ createIcon("TriangleRight32Regular", "32", TriangleRight32RegularSvg);
+export const TriangleRight48Filled = /** #__PURE__ */ createIcon("TriangleRight48Filled", "48", TriangleRight48FilledSvg);
+export const TriangleRight48Regular = /** #__PURE__ */ createIcon("TriangleRight48Regular", "48", TriangleRight48RegularSvg);

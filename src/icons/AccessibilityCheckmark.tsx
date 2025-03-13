@@ -10,14 +10,16 @@ import AccessibilityCheckmark32RegularSvg from "@fluentui/svg-icons/icons/access
 import AccessibilityCheckmark48FilledSvg from "@fluentui/svg-icons/icons/accessibility_checkmark_48_filled.svg" with { type: "text" }
 import AccessibilityCheckmark48RegularSvg from "@fluentui/svg-icons/icons/accessibility_checkmark_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const AccessibilityCheckmark20Filled = createIcon("AccessibilityCheckmark20Filled", AccessibilityCheckmark20FilledSvg);
-export const AccessibilityCheckmark20Regular = createIcon("AccessibilityCheckmark20Regular", AccessibilityCheckmark20RegularSvg);
-export const AccessibilityCheckmark24Filled = createIcon("AccessibilityCheckmark24Filled", AccessibilityCheckmark24FilledSvg);
-export const AccessibilityCheckmark24Regular = createIcon("AccessibilityCheckmark24Regular", AccessibilityCheckmark24RegularSvg);
-export const AccessibilityCheckmark28Filled = createIcon("AccessibilityCheckmark28Filled", AccessibilityCheckmark28FilledSvg);
-export const AccessibilityCheckmark28Regular = createIcon("AccessibilityCheckmark28Regular", AccessibilityCheckmark28RegularSvg);
-export const AccessibilityCheckmark32Filled = createIcon("AccessibilityCheckmark32Filled", AccessibilityCheckmark32FilledSvg);
-export const AccessibilityCheckmark32Light = createIcon("AccessibilityCheckmark32Light", AccessibilityCheckmark32LightSvg);
-export const AccessibilityCheckmark32Regular = createIcon("AccessibilityCheckmark32Regular", AccessibilityCheckmark32RegularSvg);
-export const AccessibilityCheckmark48Filled = createIcon("AccessibilityCheckmark48Filled", AccessibilityCheckmark48FilledSvg);
-export const AccessibilityCheckmark48Regular = createIcon("AccessibilityCheckmark48Regular", AccessibilityCheckmark48RegularSvg);
+export const AccessibilityCheckmark20Filled = /** #__PURE__ */ createIcon("AccessibilityCheckmark20Filled", "20", AccessibilityCheckmark20FilledSvg);
+export const AccessibilityCheckmarkFilled = /** #__PURE__ */ createIcon("AccessibilityCheckmarkFilled", "1em", AccessibilityCheckmark20FilledSvg);
+export const AccessibilityCheckmark20Regular = /** #__PURE__ */ createIcon("AccessibilityCheckmark20Regular", "20", AccessibilityCheckmark20RegularSvg);
+export const AccessibilityCheckmarkRegular = /** #__PURE__ */ createIcon("AccessibilityCheckmarkRegular", "1em", AccessibilityCheckmark20RegularSvg);
+export const AccessibilityCheckmark24Filled = /** #__PURE__ */ createIcon("AccessibilityCheckmark24Filled", "24", AccessibilityCheckmark24FilledSvg);
+export const AccessibilityCheckmark24Regular = /** #__PURE__ */ createIcon("AccessibilityCheckmark24Regular", "24", AccessibilityCheckmark24RegularSvg);
+export const AccessibilityCheckmark28Filled = /** #__PURE__ */ createIcon("AccessibilityCheckmark28Filled", "28", AccessibilityCheckmark28FilledSvg);
+export const AccessibilityCheckmark28Regular = /** #__PURE__ */ createIcon("AccessibilityCheckmark28Regular", "28", AccessibilityCheckmark28RegularSvg);
+export const AccessibilityCheckmark32Filled = /** #__PURE__ */ createIcon("AccessibilityCheckmark32Filled", "32", AccessibilityCheckmark32FilledSvg);
+export const AccessibilityCheckmark32Light = /** #__PURE__ */ createIcon("AccessibilityCheckmark32Light", "32", AccessibilityCheckmark32LightSvg);
+export const AccessibilityCheckmark32Regular = /** #__PURE__ */ createIcon("AccessibilityCheckmark32Regular", "32", AccessibilityCheckmark32RegularSvg);
+export const AccessibilityCheckmark48Filled = /** #__PURE__ */ createIcon("AccessibilityCheckmark48Filled", "48", AccessibilityCheckmark48FilledSvg);
+export const AccessibilityCheckmark48Regular = /** #__PURE__ */ createIcon("AccessibilityCheckmark48Regular", "48", AccessibilityCheckmark48RegularSvg);

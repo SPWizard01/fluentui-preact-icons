@@ -5,9 +5,11 @@ import KeyboardShift20RegularSvg from "@fluentui/svg-icons/icons/keyboard_shift_
 import KeyboardShift24FilledSvg from "@fluentui/svg-icons/icons/keyboard_shift_24_filled.svg" with { type: "text" }
 import KeyboardShift24RegularSvg from "@fluentui/svg-icons/icons/keyboard_shift_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const KeyboardShift16Filled = createIcon("KeyboardShift16Filled", KeyboardShift16FilledSvg);
-export const KeyboardShift16Regular = createIcon("KeyboardShift16Regular", KeyboardShift16RegularSvg);
-export const KeyboardShift20Filled = createIcon("KeyboardShift20Filled", KeyboardShift20FilledSvg);
-export const KeyboardShift20Regular = createIcon("KeyboardShift20Regular", KeyboardShift20RegularSvg);
-export const KeyboardShift24Filled = createIcon("KeyboardShift24Filled", KeyboardShift24FilledSvg);
-export const KeyboardShift24Regular = createIcon("KeyboardShift24Regular", KeyboardShift24RegularSvg);
+export const KeyboardShift16Filled = /** #__PURE__ */ createIcon("KeyboardShift16Filled", "16", KeyboardShift16FilledSvg);
+export const KeyboardShift16Regular = /** #__PURE__ */ createIcon("KeyboardShift16Regular", "16", KeyboardShift16RegularSvg);
+export const KeyboardShift20Filled = /** #__PURE__ */ createIcon("KeyboardShift20Filled", "20", KeyboardShift20FilledSvg);
+export const KeyboardShiftFilled = /** #__PURE__ */ createIcon("KeyboardShiftFilled", "1em", KeyboardShift20FilledSvg);
+export const KeyboardShift20Regular = /** #__PURE__ */ createIcon("KeyboardShift20Regular", "20", KeyboardShift20RegularSvg);
+export const KeyboardShiftRegular = /** #__PURE__ */ createIcon("KeyboardShiftRegular", "1em", KeyboardShift20RegularSvg);
+export const KeyboardShift24Filled = /** #__PURE__ */ createIcon("KeyboardShift24Filled", "24", KeyboardShift24FilledSvg);
+export const KeyboardShift24Regular = /** #__PURE__ */ createIcon("KeyboardShift24Regular", "24", KeyboardShift24RegularSvg);

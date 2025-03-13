@@ -13,17 +13,19 @@ import RecordStop32RegularSvg from "@fluentui/svg-icons/icons/record_stop_32_reg
 import RecordStop48FilledSvg from "@fluentui/svg-icons/icons/record_stop_48_filled.svg" with { type: "text" }
 import RecordStop48RegularSvg from "@fluentui/svg-icons/icons/record_stop_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const RecordStop12Filled = createIcon("RecordStop12Filled", RecordStop12FilledSvg);
-export const RecordStop12Regular = createIcon("RecordStop12Regular", RecordStop12RegularSvg);
-export const RecordStop16Filled = createIcon("RecordStop16Filled", RecordStop16FilledSvg);
-export const RecordStop16Regular = createIcon("RecordStop16Regular", RecordStop16RegularSvg);
-export const RecordStop20Filled = createIcon("RecordStop20Filled", RecordStop20FilledSvg);
-export const RecordStop20Regular = createIcon("RecordStop20Regular", RecordStop20RegularSvg);
-export const RecordStop24Filled = createIcon("RecordStop24Filled", RecordStop24FilledSvg);
-export const RecordStop24Regular = createIcon("RecordStop24Regular", RecordStop24RegularSvg);
-export const RecordStop28Filled = createIcon("RecordStop28Filled", RecordStop28FilledSvg);
-export const RecordStop28Regular = createIcon("RecordStop28Regular", RecordStop28RegularSvg);
-export const RecordStop32Filled = createIcon("RecordStop32Filled", RecordStop32FilledSvg);
-export const RecordStop32Regular = createIcon("RecordStop32Regular", RecordStop32RegularSvg);
-export const RecordStop48Filled = createIcon("RecordStop48Filled", RecordStop48FilledSvg);
-export const RecordStop48Regular = createIcon("RecordStop48Regular", RecordStop48RegularSvg);
+export const RecordStop12Filled = /** #__PURE__ */ createIcon("RecordStop12Filled", "12", RecordStop12FilledSvg);
+export const RecordStop12Regular = /** #__PURE__ */ createIcon("RecordStop12Regular", "12", RecordStop12RegularSvg);
+export const RecordStop16Filled = /** #__PURE__ */ createIcon("RecordStop16Filled", "16", RecordStop16FilledSvg);
+export const RecordStop16Regular = /** #__PURE__ */ createIcon("RecordStop16Regular", "16", RecordStop16RegularSvg);
+export const RecordStop20Filled = /** #__PURE__ */ createIcon("RecordStop20Filled", "20", RecordStop20FilledSvg);
+export const RecordStopFilled = /** #__PURE__ */ createIcon("RecordStopFilled", "1em", RecordStop20FilledSvg);
+export const RecordStop20Regular = /** #__PURE__ */ createIcon("RecordStop20Regular", "20", RecordStop20RegularSvg);
+export const RecordStopRegular = /** #__PURE__ */ createIcon("RecordStopRegular", "1em", RecordStop20RegularSvg);
+export const RecordStop24Filled = /** #__PURE__ */ createIcon("RecordStop24Filled", "24", RecordStop24FilledSvg);
+export const RecordStop24Regular = /** #__PURE__ */ createIcon("RecordStop24Regular", "24", RecordStop24RegularSvg);
+export const RecordStop28Filled = /** #__PURE__ */ createIcon("RecordStop28Filled", "28", RecordStop28FilledSvg);
+export const RecordStop28Regular = /** #__PURE__ */ createIcon("RecordStop28Regular", "28", RecordStop28RegularSvg);
+export const RecordStop32Filled = /** #__PURE__ */ createIcon("RecordStop32Filled", "32", RecordStop32FilledSvg);
+export const RecordStop32Regular = /** #__PURE__ */ createIcon("RecordStop32Regular", "32", RecordStop32RegularSvg);
+export const RecordStop48Filled = /** #__PURE__ */ createIcon("RecordStop48Filled", "48", RecordStop48FilledSvg);
+export const RecordStop48Regular = /** #__PURE__ */ createIcon("RecordStop48Regular", "48", RecordStop48RegularSvg);

@@ -7,11 +7,13 @@ import Pill24RegularSvg from "@fluentui/svg-icons/icons/pill_24_regular.svg" wit
 import Pill28FilledSvg from "@fluentui/svg-icons/icons/pill_28_filled.svg" with { type: "text" }
 import Pill28RegularSvg from "@fluentui/svg-icons/icons/pill_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Pill16Filled = createIcon("Pill16Filled", Pill16FilledSvg);
-export const Pill16Regular = createIcon("Pill16Regular", Pill16RegularSvg);
-export const Pill20Filled = createIcon("Pill20Filled", Pill20FilledSvg);
-export const Pill20Regular = createIcon("Pill20Regular", Pill20RegularSvg);
-export const Pill24Filled = createIcon("Pill24Filled", Pill24FilledSvg);
-export const Pill24Regular = createIcon("Pill24Regular", Pill24RegularSvg);
-export const Pill28Filled = createIcon("Pill28Filled", Pill28FilledSvg);
-export const Pill28Regular = createIcon("Pill28Regular", Pill28RegularSvg);
+export const Pill16Filled = /** #__PURE__ */ createIcon("Pill16Filled", "16", Pill16FilledSvg);
+export const Pill16Regular = /** #__PURE__ */ createIcon("Pill16Regular", "16", Pill16RegularSvg);
+export const Pill20Filled = /** #__PURE__ */ createIcon("Pill20Filled", "20", Pill20FilledSvg);
+export const PillFilled = /** #__PURE__ */ createIcon("PillFilled", "1em", Pill20FilledSvg);
+export const Pill20Regular = /** #__PURE__ */ createIcon("Pill20Regular", "20", Pill20RegularSvg);
+export const PillRegular = /** #__PURE__ */ createIcon("PillRegular", "1em", Pill20RegularSvg);
+export const Pill24Filled = /** #__PURE__ */ createIcon("Pill24Filled", "24", Pill24FilledSvg);
+export const Pill24Regular = /** #__PURE__ */ createIcon("Pill24Regular", "24", Pill24RegularSvg);
+export const Pill28Filled = /** #__PURE__ */ createIcon("Pill28Filled", "28", Pill28FilledSvg);
+export const Pill28Regular = /** #__PURE__ */ createIcon("Pill28Regular", "28", Pill28RegularSvg);

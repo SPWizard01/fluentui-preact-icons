@@ -8,12 +8,15 @@ import DataBarVerticalAscending24ColorSvg from "@fluentui/svg-icons/icons/data_b
 import DataBarVerticalAscending24FilledSvg from "@fluentui/svg-icons/icons/data_bar_vertical_ascending_24_filled.svg" with { type: "text" }
 import DataBarVerticalAscending24RegularSvg from "@fluentui/svg-icons/icons/data_bar_vertical_ascending_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const DataBarVerticalAscending16Color = createIcon("DataBarVerticalAscending16Color", DataBarVerticalAscending16ColorSvg);
-export const DataBarVerticalAscending16Filled = createIcon("DataBarVerticalAscending16Filled", DataBarVerticalAscending16FilledSvg);
-export const DataBarVerticalAscending16Regular = createIcon("DataBarVerticalAscending16Regular", DataBarVerticalAscending16RegularSvg);
-export const DataBarVerticalAscending20Color = createIcon("DataBarVerticalAscending20Color", DataBarVerticalAscending20ColorSvg);
-export const DataBarVerticalAscending20Filled = createIcon("DataBarVerticalAscending20Filled", DataBarVerticalAscending20FilledSvg);
-export const DataBarVerticalAscending20Regular = createIcon("DataBarVerticalAscending20Regular", DataBarVerticalAscending20RegularSvg);
-export const DataBarVerticalAscending24Color = createIcon("DataBarVerticalAscending24Color", DataBarVerticalAscending24ColorSvg);
-export const DataBarVerticalAscending24Filled = createIcon("DataBarVerticalAscending24Filled", DataBarVerticalAscending24FilledSvg);
-export const DataBarVerticalAscending24Regular = createIcon("DataBarVerticalAscending24Regular", DataBarVerticalAscending24RegularSvg);
+export const DataBarVerticalAscending16Color = /** #__PURE__ */ createIcon("DataBarVerticalAscending16Color", "16", DataBarVerticalAscending16ColorSvg);
+export const DataBarVerticalAscending16Filled = /** #__PURE__ */ createIcon("DataBarVerticalAscending16Filled", "16", DataBarVerticalAscending16FilledSvg);
+export const DataBarVerticalAscending16Regular = /** #__PURE__ */ createIcon("DataBarVerticalAscending16Regular", "16", DataBarVerticalAscending16RegularSvg);
+export const DataBarVerticalAscending20Color = /** #__PURE__ */ createIcon("DataBarVerticalAscending20Color", "20", DataBarVerticalAscending20ColorSvg);
+export const DataBarVerticalAscendingColor = /** #__PURE__ */ createIcon("DataBarVerticalAscendingColor", "1em", DataBarVerticalAscending20ColorSvg);
+export const DataBarVerticalAscending20Filled = /** #__PURE__ */ createIcon("DataBarVerticalAscending20Filled", "20", DataBarVerticalAscending20FilledSvg);
+export const DataBarVerticalAscendingFilled = /** #__PURE__ */ createIcon("DataBarVerticalAscendingFilled", "1em", DataBarVerticalAscending20FilledSvg);
+export const DataBarVerticalAscending20Regular = /** #__PURE__ */ createIcon("DataBarVerticalAscending20Regular", "20", DataBarVerticalAscending20RegularSvg);
+export const DataBarVerticalAscendingRegular = /** #__PURE__ */ createIcon("DataBarVerticalAscendingRegular", "1em", DataBarVerticalAscending20RegularSvg);
+export const DataBarVerticalAscending24Color = /** #__PURE__ */ createIcon("DataBarVerticalAscending24Color", "24", DataBarVerticalAscending24ColorSvg);
+export const DataBarVerticalAscending24Filled = /** #__PURE__ */ createIcon("DataBarVerticalAscending24Filled", "24", DataBarVerticalAscending24FilledSvg);
+export const DataBarVerticalAscending24Regular = /** #__PURE__ */ createIcon("DataBarVerticalAscending24Regular", "24", DataBarVerticalAscending24RegularSvg);

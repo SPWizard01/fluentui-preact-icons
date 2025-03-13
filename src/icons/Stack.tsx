@@ -11,15 +11,17 @@ import Stack32RegularSvg from "@fluentui/svg-icons/icons/stack_32_regular.svg" w
 import Stack48FilledSvg from "@fluentui/svg-icons/icons/stack_48_filled.svg" with { type: "text" }
 import Stack48RegularSvg from "@fluentui/svg-icons/icons/stack_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Stack16Filled = createIcon("Stack16Filled", Stack16FilledSvg);
-export const Stack16Regular = createIcon("Stack16Regular", Stack16RegularSvg);
-export const Stack20Filled = createIcon("Stack20Filled", Stack20FilledSvg);
-export const Stack20Regular = createIcon("Stack20Regular", Stack20RegularSvg);
-export const Stack24Filled = createIcon("Stack24Filled", Stack24FilledSvg);
-export const Stack24Regular = createIcon("Stack24Regular", Stack24RegularSvg);
-export const Stack28Filled = createIcon("Stack28Filled", Stack28FilledSvg);
-export const Stack28Regular = createIcon("Stack28Regular", Stack28RegularSvg);
-export const Stack32Filled = createIcon("Stack32Filled", Stack32FilledSvg);
-export const Stack32Regular = createIcon("Stack32Regular", Stack32RegularSvg);
-export const Stack48Filled = createIcon("Stack48Filled", Stack48FilledSvg);
-export const Stack48Regular = createIcon("Stack48Regular", Stack48RegularSvg);
+export const Stack16Filled = /** #__PURE__ */ createIcon("Stack16Filled", "16", Stack16FilledSvg);
+export const Stack16Regular = /** #__PURE__ */ createIcon("Stack16Regular", "16", Stack16RegularSvg);
+export const Stack20Filled = /** #__PURE__ */ createIcon("Stack20Filled", "20", Stack20FilledSvg);
+export const StackFilled = /** #__PURE__ */ createIcon("StackFilled", "1em", Stack20FilledSvg);
+export const Stack20Regular = /** #__PURE__ */ createIcon("Stack20Regular", "20", Stack20RegularSvg);
+export const StackRegular = /** #__PURE__ */ createIcon("StackRegular", "1em", Stack20RegularSvg);
+export const Stack24Filled = /** #__PURE__ */ createIcon("Stack24Filled", "24", Stack24FilledSvg);
+export const Stack24Regular = /** #__PURE__ */ createIcon("Stack24Regular", "24", Stack24RegularSvg);
+export const Stack28Filled = /** #__PURE__ */ createIcon("Stack28Filled", "28", Stack28FilledSvg);
+export const Stack28Regular = /** #__PURE__ */ createIcon("Stack28Regular", "28", Stack28RegularSvg);
+export const Stack32Filled = /** #__PURE__ */ createIcon("Stack32Filled", "32", Stack32FilledSvg);
+export const Stack32Regular = /** #__PURE__ */ createIcon("Stack32Regular", "32", Stack32RegularSvg);
+export const Stack48Filled = /** #__PURE__ */ createIcon("Stack48Filled", "48", Stack48FilledSvg);
+export const Stack48Regular = /** #__PURE__ */ createIcon("Stack48Regular", "48", Stack48RegularSvg);

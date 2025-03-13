@@ -5,9 +5,11 @@ import PersonRibbon20RegularSvg from "@fluentui/svg-icons/icons/person_ribbon_20
 import PersonRibbon24FilledSvg from "@fluentui/svg-icons/icons/person_ribbon_24_filled.svg" with { type: "text" }
 import PersonRibbon24RegularSvg from "@fluentui/svg-icons/icons/person_ribbon_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PersonRibbon16Filled = createIcon("PersonRibbon16Filled", PersonRibbon16FilledSvg);
-export const PersonRibbon16Regular = createIcon("PersonRibbon16Regular", PersonRibbon16RegularSvg);
-export const PersonRibbon20Filled = createIcon("PersonRibbon20Filled", PersonRibbon20FilledSvg);
-export const PersonRibbon20Regular = createIcon("PersonRibbon20Regular", PersonRibbon20RegularSvg);
-export const PersonRibbon24Filled = createIcon("PersonRibbon24Filled", PersonRibbon24FilledSvg);
-export const PersonRibbon24Regular = createIcon("PersonRibbon24Regular", PersonRibbon24RegularSvg);
+export const PersonRibbon16Filled = /** #__PURE__ */ createIcon("PersonRibbon16Filled", "16", PersonRibbon16FilledSvg);
+export const PersonRibbon16Regular = /** #__PURE__ */ createIcon("PersonRibbon16Regular", "16", PersonRibbon16RegularSvg);
+export const PersonRibbon20Filled = /** #__PURE__ */ createIcon("PersonRibbon20Filled", "20", PersonRibbon20FilledSvg);
+export const PersonRibbonFilled = /** #__PURE__ */ createIcon("PersonRibbonFilled", "1em", PersonRibbon20FilledSvg);
+export const PersonRibbon20Regular = /** #__PURE__ */ createIcon("PersonRibbon20Regular", "20", PersonRibbon20RegularSvg);
+export const PersonRibbonRegular = /** #__PURE__ */ createIcon("PersonRibbonRegular", "1em", PersonRibbon20RegularSvg);
+export const PersonRibbon24Filled = /** #__PURE__ */ createIcon("PersonRibbon24Filled", "24", PersonRibbon24FilledSvg);
+export const PersonRibbon24Regular = /** #__PURE__ */ createIcon("PersonRibbon24Regular", "24", PersonRibbon24RegularSvg);

@@ -3,7 +3,9 @@ import BluetoothSearching20RegularSvg from "@fluentui/svg-icons/icons/bluetooth_
 import BluetoothSearching24FilledSvg from "@fluentui/svg-icons/icons/bluetooth_searching_24_filled.svg" with { type: "text" }
 import BluetoothSearching24RegularSvg from "@fluentui/svg-icons/icons/bluetooth_searching_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const BluetoothSearching20Filled = createIcon("BluetoothSearching20Filled", BluetoothSearching20FilledSvg);
-export const BluetoothSearching20Regular = createIcon("BluetoothSearching20Regular", BluetoothSearching20RegularSvg);
-export const BluetoothSearching24Filled = createIcon("BluetoothSearching24Filled", BluetoothSearching24FilledSvg);
-export const BluetoothSearching24Regular = createIcon("BluetoothSearching24Regular", BluetoothSearching24RegularSvg);
+export const BluetoothSearching20Filled = /** #__PURE__ */ createIcon("BluetoothSearching20Filled", "20", BluetoothSearching20FilledSvg);
+export const BluetoothSearchingFilled = /** #__PURE__ */ createIcon("BluetoothSearchingFilled", "1em", BluetoothSearching20FilledSvg);
+export const BluetoothSearching20Regular = /** #__PURE__ */ createIcon("BluetoothSearching20Regular", "20", BluetoothSearching20RegularSvg);
+export const BluetoothSearchingRegular = /** #__PURE__ */ createIcon("BluetoothSearchingRegular", "1em", BluetoothSearching20RegularSvg);
+export const BluetoothSearching24Filled = /** #__PURE__ */ createIcon("BluetoothSearching24Filled", "24", BluetoothSearching24FilledSvg);
+export const BluetoothSearching24Regular = /** #__PURE__ */ createIcon("BluetoothSearching24Regular", "24", BluetoothSearching24RegularSvg);

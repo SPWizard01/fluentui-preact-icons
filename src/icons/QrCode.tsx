@@ -5,9 +5,11 @@ import QrCode24RegularSvg from "@fluentui/svg-icons/icons/qr_code_24_regular.svg
 import QrCode28FilledSvg from "@fluentui/svg-icons/icons/qr_code_28_filled.svg" with { type: "text" }
 import QrCode28RegularSvg from "@fluentui/svg-icons/icons/qr_code_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const QrCode20Filled = createIcon("QrCode20Filled", QrCode20FilledSvg);
-export const QrCode20Regular = createIcon("QrCode20Regular", QrCode20RegularSvg);
-export const QrCode24Filled = createIcon("QrCode24Filled", QrCode24FilledSvg);
-export const QrCode24Regular = createIcon("QrCode24Regular", QrCode24RegularSvg);
-export const QrCode28Filled = createIcon("QrCode28Filled", QrCode28FilledSvg);
-export const QrCode28Regular = createIcon("QrCode28Regular", QrCode28RegularSvg);
+export const QrCode20Filled = /** #__PURE__ */ createIcon("QrCode20Filled", "20", QrCode20FilledSvg);
+export const QrCodeFilled = /** #__PURE__ */ createIcon("QrCodeFilled", "1em", QrCode20FilledSvg);
+export const QrCode20Regular = /** #__PURE__ */ createIcon("QrCode20Regular", "20", QrCode20RegularSvg);
+export const QrCodeRegular = /** #__PURE__ */ createIcon("QrCodeRegular", "1em", QrCode20RegularSvg);
+export const QrCode24Filled = /** #__PURE__ */ createIcon("QrCode24Filled", "24", QrCode24FilledSvg);
+export const QrCode24Regular = /** #__PURE__ */ createIcon("QrCode24Regular", "24", QrCode24RegularSvg);
+export const QrCode28Filled = /** #__PURE__ */ createIcon("QrCode28Filled", "28", QrCode28FilledSvg);
+export const QrCode28Regular = /** #__PURE__ */ createIcon("QrCode28Regular", "28", QrCode28RegularSvg);

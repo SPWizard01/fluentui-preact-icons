@@ -8,12 +8,14 @@ import TableMoveBelow28FilledSvg from "@fluentui/svg-icons/icons/table_move_belo
 import TableMoveBelow28RegularSvg from "@fluentui/svg-icons/icons/table_move_below_28_regular.svg" with { type: "text" }
 import TableMoveBelow32LightSvg from "@fluentui/svg-icons/icons/table_move_below_32_light.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TableMoveBelow16Filled = createIcon("TableMoveBelow16Filled", TableMoveBelow16FilledSvg);
-export const TableMoveBelow16Regular = createIcon("TableMoveBelow16Regular", TableMoveBelow16RegularSvg);
-export const TableMoveBelow20Filled = createIcon("TableMoveBelow20Filled", TableMoveBelow20FilledSvg);
-export const TableMoveBelow20Regular = createIcon("TableMoveBelow20Regular", TableMoveBelow20RegularSvg);
-export const TableMoveBelow24Filled = createIcon("TableMoveBelow24Filled", TableMoveBelow24FilledSvg);
-export const TableMoveBelow24Regular = createIcon("TableMoveBelow24Regular", TableMoveBelow24RegularSvg);
-export const TableMoveBelow28Filled = createIcon("TableMoveBelow28Filled", TableMoveBelow28FilledSvg);
-export const TableMoveBelow28Regular = createIcon("TableMoveBelow28Regular", TableMoveBelow28RegularSvg);
-export const TableMoveBelow32Light = createIcon("TableMoveBelow32Light", TableMoveBelow32LightSvg);
+export const TableMoveBelow16Filled = /** #__PURE__ */ createIcon("TableMoveBelow16Filled", "16", TableMoveBelow16FilledSvg);
+export const TableMoveBelow16Regular = /** #__PURE__ */ createIcon("TableMoveBelow16Regular", "16", TableMoveBelow16RegularSvg);
+export const TableMoveBelow20Filled = /** #__PURE__ */ createIcon("TableMoveBelow20Filled", "20", TableMoveBelow20FilledSvg);
+export const TableMoveBelowFilled = /** #__PURE__ */ createIcon("TableMoveBelowFilled", "1em", TableMoveBelow20FilledSvg);
+export const TableMoveBelow20Regular = /** #__PURE__ */ createIcon("TableMoveBelow20Regular", "20", TableMoveBelow20RegularSvg);
+export const TableMoveBelowRegular = /** #__PURE__ */ createIcon("TableMoveBelowRegular", "1em", TableMoveBelow20RegularSvg);
+export const TableMoveBelow24Filled = /** #__PURE__ */ createIcon("TableMoveBelow24Filled", "24", TableMoveBelow24FilledSvg);
+export const TableMoveBelow24Regular = /** #__PURE__ */ createIcon("TableMoveBelow24Regular", "24", TableMoveBelow24RegularSvg);
+export const TableMoveBelow28Filled = /** #__PURE__ */ createIcon("TableMoveBelow28Filled", "28", TableMoveBelow28FilledSvg);
+export const TableMoveBelow28Regular = /** #__PURE__ */ createIcon("TableMoveBelow28Regular", "28", TableMoveBelow28RegularSvg);
+export const TableMoveBelow32Light = /** #__PURE__ */ createIcon("TableMoveBelow32Light", "32", TableMoveBelow32LightSvg);

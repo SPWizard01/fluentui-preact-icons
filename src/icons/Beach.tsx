@@ -17,21 +17,24 @@ import Beach48ColorSvg from "@fluentui/svg-icons/icons/beach_48_color.svg" with 
 import Beach48FilledSvg from "@fluentui/svg-icons/icons/beach_48_filled.svg" with { type: "text" }
 import Beach48RegularSvg from "@fluentui/svg-icons/icons/beach_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Beach16Color = createIcon("Beach16Color", Beach16ColorSvg);
-export const Beach16Filled = createIcon("Beach16Filled", Beach16FilledSvg);
-export const Beach16Regular = createIcon("Beach16Regular", Beach16RegularSvg);
-export const Beach20Color = createIcon("Beach20Color", Beach20ColorSvg);
-export const Beach20Filled = createIcon("Beach20Filled", Beach20FilledSvg);
-export const Beach20Regular = createIcon("Beach20Regular", Beach20RegularSvg);
-export const Beach24Color = createIcon("Beach24Color", Beach24ColorSvg);
-export const Beach24Filled = createIcon("Beach24Filled", Beach24FilledSvg);
-export const Beach24Regular = createIcon("Beach24Regular", Beach24RegularSvg);
-export const Beach28Color = createIcon("Beach28Color", Beach28ColorSvg);
-export const Beach28Filled = createIcon("Beach28Filled", Beach28FilledSvg);
-export const Beach28Regular = createIcon("Beach28Regular", Beach28RegularSvg);
-export const Beach32Color = createIcon("Beach32Color", Beach32ColorSvg);
-export const Beach32Filled = createIcon("Beach32Filled", Beach32FilledSvg);
-export const Beach32Regular = createIcon("Beach32Regular", Beach32RegularSvg);
-export const Beach48Color = createIcon("Beach48Color", Beach48ColorSvg);
-export const Beach48Filled = createIcon("Beach48Filled", Beach48FilledSvg);
-export const Beach48Regular = createIcon("Beach48Regular", Beach48RegularSvg);
+export const Beach16Color = /** #__PURE__ */ createIcon("Beach16Color", "16", Beach16ColorSvg);
+export const Beach16Filled = /** #__PURE__ */ createIcon("Beach16Filled", "16", Beach16FilledSvg);
+export const Beach16Regular = /** #__PURE__ */ createIcon("Beach16Regular", "16", Beach16RegularSvg);
+export const Beach20Color = /** #__PURE__ */ createIcon("Beach20Color", "20", Beach20ColorSvg);
+export const BeachColor = /** #__PURE__ */ createIcon("BeachColor", "1em", Beach20ColorSvg);
+export const Beach20Filled = /** #__PURE__ */ createIcon("Beach20Filled", "20", Beach20FilledSvg);
+export const BeachFilled = /** #__PURE__ */ createIcon("BeachFilled", "1em", Beach20FilledSvg);
+export const Beach20Regular = /** #__PURE__ */ createIcon("Beach20Regular", "20", Beach20RegularSvg);
+export const BeachRegular = /** #__PURE__ */ createIcon("BeachRegular", "1em", Beach20RegularSvg);
+export const Beach24Color = /** #__PURE__ */ createIcon("Beach24Color", "24", Beach24ColorSvg);
+export const Beach24Filled = /** #__PURE__ */ createIcon("Beach24Filled", "24", Beach24FilledSvg);
+export const Beach24Regular = /** #__PURE__ */ createIcon("Beach24Regular", "24", Beach24RegularSvg);
+export const Beach28Color = /** #__PURE__ */ createIcon("Beach28Color", "28", Beach28ColorSvg);
+export const Beach28Filled = /** #__PURE__ */ createIcon("Beach28Filled", "28", Beach28FilledSvg);
+export const Beach28Regular = /** #__PURE__ */ createIcon("Beach28Regular", "28", Beach28RegularSvg);
+export const Beach32Color = /** #__PURE__ */ createIcon("Beach32Color", "32", Beach32ColorSvg);
+export const Beach32Filled = /** #__PURE__ */ createIcon("Beach32Filled", "32", Beach32FilledSvg);
+export const Beach32Regular = /** #__PURE__ */ createIcon("Beach32Regular", "32", Beach32RegularSvg);
+export const Beach48Color = /** #__PURE__ */ createIcon("Beach48Color", "48", Beach48ColorSvg);
+export const Beach48Filled = /** #__PURE__ */ createIcon("Beach48Filled", "48", Beach48FilledSvg);
+export const Beach48Regular = /** #__PURE__ */ createIcon("Beach48Regular", "48", Beach48RegularSvg);

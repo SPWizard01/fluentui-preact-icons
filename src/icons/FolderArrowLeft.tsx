@@ -11,15 +11,17 @@ import FolderArrowLeft32RegularSvg from "@fluentui/svg-icons/icons/folder_arrow_
 import FolderArrowLeft48FilledSvg from "@fluentui/svg-icons/icons/folder_arrow_left_48_filled.svg" with { type: "text" }
 import FolderArrowLeft48RegularSvg from "@fluentui/svg-icons/icons/folder_arrow_left_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const FolderArrowLeft16Filled = createIcon("FolderArrowLeft16Filled", FolderArrowLeft16FilledSvg);
-export const FolderArrowLeft16Regular = createIcon("FolderArrowLeft16Regular", FolderArrowLeft16RegularSvg);
-export const FolderArrowLeft20Filled = createIcon("FolderArrowLeft20Filled", FolderArrowLeft20FilledSvg);
-export const FolderArrowLeft20Regular = createIcon("FolderArrowLeft20Regular", FolderArrowLeft20RegularSvg);
-export const FolderArrowLeft24Filled = createIcon("FolderArrowLeft24Filled", FolderArrowLeft24FilledSvg);
-export const FolderArrowLeft24Regular = createIcon("FolderArrowLeft24Regular", FolderArrowLeft24RegularSvg);
-export const FolderArrowLeft28Filled = createIcon("FolderArrowLeft28Filled", FolderArrowLeft28FilledSvg);
-export const FolderArrowLeft28Regular = createIcon("FolderArrowLeft28Regular", FolderArrowLeft28RegularSvg);
-export const FolderArrowLeft32Filled = createIcon("FolderArrowLeft32Filled", FolderArrowLeft32FilledSvg);
-export const FolderArrowLeft32Regular = createIcon("FolderArrowLeft32Regular", FolderArrowLeft32RegularSvg);
-export const FolderArrowLeft48Filled = createIcon("FolderArrowLeft48Filled", FolderArrowLeft48FilledSvg);
-export const FolderArrowLeft48Regular = createIcon("FolderArrowLeft48Regular", FolderArrowLeft48RegularSvg);
+export const FolderArrowLeft16Filled = /** #__PURE__ */ createIcon("FolderArrowLeft16Filled", "16", FolderArrowLeft16FilledSvg);
+export const FolderArrowLeft16Regular = /** #__PURE__ */ createIcon("FolderArrowLeft16Regular", "16", FolderArrowLeft16RegularSvg);
+export const FolderArrowLeft20Filled = /** #__PURE__ */ createIcon("FolderArrowLeft20Filled", "20", FolderArrowLeft20FilledSvg);
+export const FolderArrowLeftFilled = /** #__PURE__ */ createIcon("FolderArrowLeftFilled", "1em", FolderArrowLeft20FilledSvg);
+export const FolderArrowLeft20Regular = /** #__PURE__ */ createIcon("FolderArrowLeft20Regular", "20", FolderArrowLeft20RegularSvg);
+export const FolderArrowLeftRegular = /** #__PURE__ */ createIcon("FolderArrowLeftRegular", "1em", FolderArrowLeft20RegularSvg);
+export const FolderArrowLeft24Filled = /** #__PURE__ */ createIcon("FolderArrowLeft24Filled", "24", FolderArrowLeft24FilledSvg);
+export const FolderArrowLeft24Regular = /** #__PURE__ */ createIcon("FolderArrowLeft24Regular", "24", FolderArrowLeft24RegularSvg);
+export const FolderArrowLeft28Filled = /** #__PURE__ */ createIcon("FolderArrowLeft28Filled", "28", FolderArrowLeft28FilledSvg);
+export const FolderArrowLeft28Regular = /** #__PURE__ */ createIcon("FolderArrowLeft28Regular", "28", FolderArrowLeft28RegularSvg);
+export const FolderArrowLeft32Filled = /** #__PURE__ */ createIcon("FolderArrowLeft32Filled", "32", FolderArrowLeft32FilledSvg);
+export const FolderArrowLeft32Regular = /** #__PURE__ */ createIcon("FolderArrowLeft32Regular", "32", FolderArrowLeft32RegularSvg);
+export const FolderArrowLeft48Filled = /** #__PURE__ */ createIcon("FolderArrowLeft48Filled", "48", FolderArrowLeft48FilledSvg);
+export const FolderArrowLeft48Regular = /** #__PURE__ */ createIcon("FolderArrowLeft48Regular", "48", FolderArrowLeft48RegularSvg);

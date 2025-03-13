@@ -9,13 +9,15 @@ import PeopleQueue32RegularSvg from "@fluentui/svg-icons/icons/people_queue_32_r
 import PeopleQueue48FilledSvg from "@fluentui/svg-icons/icons/people_queue_48_filled.svg" with { type: "text" }
 import PeopleQueue48RegularSvg from "@fluentui/svg-icons/icons/people_queue_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PeopleQueue20Filled = createIcon("PeopleQueue20Filled", PeopleQueue20FilledSvg);
-export const PeopleQueue20Regular = createIcon("PeopleQueue20Regular", PeopleQueue20RegularSvg);
-export const PeopleQueue24Filled = createIcon("PeopleQueue24Filled", PeopleQueue24FilledSvg);
-export const PeopleQueue24Regular = createIcon("PeopleQueue24Regular", PeopleQueue24RegularSvg);
-export const PeopleQueue28Filled = createIcon("PeopleQueue28Filled", PeopleQueue28FilledSvg);
-export const PeopleQueue28Regular = createIcon("PeopleQueue28Regular", PeopleQueue28RegularSvg);
-export const PeopleQueue32Filled = createIcon("PeopleQueue32Filled", PeopleQueue32FilledSvg);
-export const PeopleQueue32Regular = createIcon("PeopleQueue32Regular", PeopleQueue32RegularSvg);
-export const PeopleQueue48Filled = createIcon("PeopleQueue48Filled", PeopleQueue48FilledSvg);
-export const PeopleQueue48Regular = createIcon("PeopleQueue48Regular", PeopleQueue48RegularSvg);
+export const PeopleQueue20Filled = /** #__PURE__ */ createIcon("PeopleQueue20Filled", "20", PeopleQueue20FilledSvg);
+export const PeopleQueueFilled = /** #__PURE__ */ createIcon("PeopleQueueFilled", "1em", PeopleQueue20FilledSvg);
+export const PeopleQueue20Regular = /** #__PURE__ */ createIcon("PeopleQueue20Regular", "20", PeopleQueue20RegularSvg);
+export const PeopleQueueRegular = /** #__PURE__ */ createIcon("PeopleQueueRegular", "1em", PeopleQueue20RegularSvg);
+export const PeopleQueue24Filled = /** #__PURE__ */ createIcon("PeopleQueue24Filled", "24", PeopleQueue24FilledSvg);
+export const PeopleQueue24Regular = /** #__PURE__ */ createIcon("PeopleQueue24Regular", "24", PeopleQueue24RegularSvg);
+export const PeopleQueue28Filled = /** #__PURE__ */ createIcon("PeopleQueue28Filled", "28", PeopleQueue28FilledSvg);
+export const PeopleQueue28Regular = /** #__PURE__ */ createIcon("PeopleQueue28Regular", "28", PeopleQueue28RegularSvg);
+export const PeopleQueue32Filled = /** #__PURE__ */ createIcon("PeopleQueue32Filled", "32", PeopleQueue32FilledSvg);
+export const PeopleQueue32Regular = /** #__PURE__ */ createIcon("PeopleQueue32Regular", "32", PeopleQueue32RegularSvg);
+export const PeopleQueue48Filled = /** #__PURE__ */ createIcon("PeopleQueue48Filled", "48", PeopleQueue48FilledSvg);
+export const PeopleQueue48Regular = /** #__PURE__ */ createIcon("PeopleQueue48Regular", "48", PeopleQueue48RegularSvg);

@@ -11,15 +11,17 @@ import InfoSparkle32RegularSvg from "@fluentui/svg-icons/icons/info_sparkle_32_r
 import InfoSparkle48FilledSvg from "@fluentui/svg-icons/icons/info_sparkle_48_filled.svg" with { type: "text" }
 import InfoSparkle48RegularSvg from "@fluentui/svg-icons/icons/info_sparkle_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const InfoSparkle16Filled = createIcon("InfoSparkle16Filled", InfoSparkle16FilledSvg);
-export const InfoSparkle16Regular = createIcon("InfoSparkle16Regular", InfoSparkle16RegularSvg);
-export const InfoSparkle20Filled = createIcon("InfoSparkle20Filled", InfoSparkle20FilledSvg);
-export const InfoSparkle20Regular = createIcon("InfoSparkle20Regular", InfoSparkle20RegularSvg);
-export const InfoSparkle24Filled = createIcon("InfoSparkle24Filled", InfoSparkle24FilledSvg);
-export const InfoSparkle24Regular = createIcon("InfoSparkle24Regular", InfoSparkle24RegularSvg);
-export const InfoSparkle28Filled = createIcon("InfoSparkle28Filled", InfoSparkle28FilledSvg);
-export const InfoSparkle28Regular = createIcon("InfoSparkle28Regular", InfoSparkle28RegularSvg);
-export const InfoSparkle32Filled = createIcon("InfoSparkle32Filled", InfoSparkle32FilledSvg);
-export const InfoSparkle32Regular = createIcon("InfoSparkle32Regular", InfoSparkle32RegularSvg);
-export const InfoSparkle48Filled = createIcon("InfoSparkle48Filled", InfoSparkle48FilledSvg);
-export const InfoSparkle48Regular = createIcon("InfoSparkle48Regular", InfoSparkle48RegularSvg);
+export const InfoSparkle16Filled = /** #__PURE__ */ createIcon("InfoSparkle16Filled", "16", InfoSparkle16FilledSvg);
+export const InfoSparkle16Regular = /** #__PURE__ */ createIcon("InfoSparkle16Regular", "16", InfoSparkle16RegularSvg);
+export const InfoSparkle20Filled = /** #__PURE__ */ createIcon("InfoSparkle20Filled", "20", InfoSparkle20FilledSvg);
+export const InfoSparkleFilled = /** #__PURE__ */ createIcon("InfoSparkleFilled", "1em", InfoSparkle20FilledSvg);
+export const InfoSparkle20Regular = /** #__PURE__ */ createIcon("InfoSparkle20Regular", "20", InfoSparkle20RegularSvg);
+export const InfoSparkleRegular = /** #__PURE__ */ createIcon("InfoSparkleRegular", "1em", InfoSparkle20RegularSvg);
+export const InfoSparkle24Filled = /** #__PURE__ */ createIcon("InfoSparkle24Filled", "24", InfoSparkle24FilledSvg);
+export const InfoSparkle24Regular = /** #__PURE__ */ createIcon("InfoSparkle24Regular", "24", InfoSparkle24RegularSvg);
+export const InfoSparkle28Filled = /** #__PURE__ */ createIcon("InfoSparkle28Filled", "28", InfoSparkle28FilledSvg);
+export const InfoSparkle28Regular = /** #__PURE__ */ createIcon("InfoSparkle28Regular", "28", InfoSparkle28RegularSvg);
+export const InfoSparkle32Filled = /** #__PURE__ */ createIcon("InfoSparkle32Filled", "32", InfoSparkle32FilledSvg);
+export const InfoSparkle32Regular = /** #__PURE__ */ createIcon("InfoSparkle32Regular", "32", InfoSparkle32RegularSvg);
+export const InfoSparkle48Filled = /** #__PURE__ */ createIcon("InfoSparkle48Filled", "48", InfoSparkle48FilledSvg);
+export const InfoSparkle48Regular = /** #__PURE__ */ createIcon("InfoSparkle48Regular", "48", InfoSparkle48RegularSvg);

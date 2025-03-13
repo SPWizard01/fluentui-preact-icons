@@ -5,9 +5,11 @@ import MailOpenPerson20RegularSvg from "@fluentui/svg-icons/icons/mail_open_pers
 import MailOpenPerson24FilledSvg from "@fluentui/svg-icons/icons/mail_open_person_24_filled.svg" with { type: "text" }
 import MailOpenPerson24RegularSvg from "@fluentui/svg-icons/icons/mail_open_person_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const MailOpenPerson16Filled = createIcon("MailOpenPerson16Filled", MailOpenPerson16FilledSvg);
-export const MailOpenPerson16Regular = createIcon("MailOpenPerson16Regular", MailOpenPerson16RegularSvg);
-export const MailOpenPerson20Filled = createIcon("MailOpenPerson20Filled", MailOpenPerson20FilledSvg);
-export const MailOpenPerson20Regular = createIcon("MailOpenPerson20Regular", MailOpenPerson20RegularSvg);
-export const MailOpenPerson24Filled = createIcon("MailOpenPerson24Filled", MailOpenPerson24FilledSvg);
-export const MailOpenPerson24Regular = createIcon("MailOpenPerson24Regular", MailOpenPerson24RegularSvg);
+export const MailOpenPerson16Filled = /** #__PURE__ */ createIcon("MailOpenPerson16Filled", "16", MailOpenPerson16FilledSvg);
+export const MailOpenPerson16Regular = /** #__PURE__ */ createIcon("MailOpenPerson16Regular", "16", MailOpenPerson16RegularSvg);
+export const MailOpenPerson20Filled = /** #__PURE__ */ createIcon("MailOpenPerson20Filled", "20", MailOpenPerson20FilledSvg);
+export const MailOpenPersonFilled = /** #__PURE__ */ createIcon("MailOpenPersonFilled", "1em", MailOpenPerson20FilledSvg);
+export const MailOpenPerson20Regular = /** #__PURE__ */ createIcon("MailOpenPerson20Regular", "20", MailOpenPerson20RegularSvg);
+export const MailOpenPersonRegular = /** #__PURE__ */ createIcon("MailOpenPersonRegular", "1em", MailOpenPerson20RegularSvg);
+export const MailOpenPerson24Filled = /** #__PURE__ */ createIcon("MailOpenPerson24Filled", "24", MailOpenPerson24FilledSvg);
+export const MailOpenPerson24Regular = /** #__PURE__ */ createIcon("MailOpenPerson24Regular", "24", MailOpenPerson24RegularSvg);

@@ -5,9 +5,11 @@ import TextColumnOneWideLightning20RegularSvg from "@fluentui/svg-icons/icons/te
 import TextColumnOneWideLightning24FilledSvg from "@fluentui/svg-icons/icons/text_column_one_wide_lightning_24_filled.svg" with { type: "text" }
 import TextColumnOneWideLightning24RegularSvg from "@fluentui/svg-icons/icons/text_column_one_wide_lightning_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TextColumnOneWideLightning16Filled = createIcon("TextColumnOneWideLightning16Filled", TextColumnOneWideLightning16FilledSvg);
-export const TextColumnOneWideLightning16Regular = createIcon("TextColumnOneWideLightning16Regular", TextColumnOneWideLightning16RegularSvg);
-export const TextColumnOneWideLightning20Filled = createIcon("TextColumnOneWideLightning20Filled", TextColumnOneWideLightning20FilledSvg);
-export const TextColumnOneWideLightning20Regular = createIcon("TextColumnOneWideLightning20Regular", TextColumnOneWideLightning20RegularSvg);
-export const TextColumnOneWideLightning24Filled = createIcon("TextColumnOneWideLightning24Filled", TextColumnOneWideLightning24FilledSvg);
-export const TextColumnOneWideLightning24Regular = createIcon("TextColumnOneWideLightning24Regular", TextColumnOneWideLightning24RegularSvg);
+export const TextColumnOneWideLightning16Filled = /** #__PURE__ */ createIcon("TextColumnOneWideLightning16Filled", "16", TextColumnOneWideLightning16FilledSvg);
+export const TextColumnOneWideLightning16Regular = /** #__PURE__ */ createIcon("TextColumnOneWideLightning16Regular", "16", TextColumnOneWideLightning16RegularSvg);
+export const TextColumnOneWideLightning20Filled = /** #__PURE__ */ createIcon("TextColumnOneWideLightning20Filled", "20", TextColumnOneWideLightning20FilledSvg);
+export const TextColumnOneWideLightningFilled = /** #__PURE__ */ createIcon("TextColumnOneWideLightningFilled", "1em", TextColumnOneWideLightning20FilledSvg);
+export const TextColumnOneWideLightning20Regular = /** #__PURE__ */ createIcon("TextColumnOneWideLightning20Regular", "20", TextColumnOneWideLightning20RegularSvg);
+export const TextColumnOneWideLightningRegular = /** #__PURE__ */ createIcon("TextColumnOneWideLightningRegular", "1em", TextColumnOneWideLightning20RegularSvg);
+export const TextColumnOneWideLightning24Filled = /** #__PURE__ */ createIcon("TextColumnOneWideLightning24Filled", "24", TextColumnOneWideLightning24FilledSvg);
+export const TextColumnOneWideLightning24Regular = /** #__PURE__ */ createIcon("TextColumnOneWideLightning24Regular", "24", TextColumnOneWideLightning24RegularSvg);

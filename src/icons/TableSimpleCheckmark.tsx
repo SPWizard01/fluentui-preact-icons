@@ -11,15 +11,17 @@ import TableSimpleCheckmark32RegularSvg from "@fluentui/svg-icons/icons/table_si
 import TableSimpleCheckmark48FilledSvg from "@fluentui/svg-icons/icons/table_simple_checkmark_48_filled.svg" with { type: "text" }
 import TableSimpleCheckmark48RegularSvg from "@fluentui/svg-icons/icons/table_simple_checkmark_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TableSimpleCheckmark16Filled = createIcon("TableSimpleCheckmark16Filled", TableSimpleCheckmark16FilledSvg);
-export const TableSimpleCheckmark16Regular = createIcon("TableSimpleCheckmark16Regular", TableSimpleCheckmark16RegularSvg);
-export const TableSimpleCheckmark20Filled = createIcon("TableSimpleCheckmark20Filled", TableSimpleCheckmark20FilledSvg);
-export const TableSimpleCheckmark20Regular = createIcon("TableSimpleCheckmark20Regular", TableSimpleCheckmark20RegularSvg);
-export const TableSimpleCheckmark24Filled = createIcon("TableSimpleCheckmark24Filled", TableSimpleCheckmark24FilledSvg);
-export const TableSimpleCheckmark24Regular = createIcon("TableSimpleCheckmark24Regular", TableSimpleCheckmark24RegularSvg);
-export const TableSimpleCheckmark28Filled = createIcon("TableSimpleCheckmark28Filled", TableSimpleCheckmark28FilledSvg);
-export const TableSimpleCheckmark28Regular = createIcon("TableSimpleCheckmark28Regular", TableSimpleCheckmark28RegularSvg);
-export const TableSimpleCheckmark32Filled = createIcon("TableSimpleCheckmark32Filled", TableSimpleCheckmark32FilledSvg);
-export const TableSimpleCheckmark32Regular = createIcon("TableSimpleCheckmark32Regular", TableSimpleCheckmark32RegularSvg);
-export const TableSimpleCheckmark48Filled = createIcon("TableSimpleCheckmark48Filled", TableSimpleCheckmark48FilledSvg);
-export const TableSimpleCheckmark48Regular = createIcon("TableSimpleCheckmark48Regular", TableSimpleCheckmark48RegularSvg);
+export const TableSimpleCheckmark16Filled = /** #__PURE__ */ createIcon("TableSimpleCheckmark16Filled", "16", TableSimpleCheckmark16FilledSvg);
+export const TableSimpleCheckmark16Regular = /** #__PURE__ */ createIcon("TableSimpleCheckmark16Regular", "16", TableSimpleCheckmark16RegularSvg);
+export const TableSimpleCheckmark20Filled = /** #__PURE__ */ createIcon("TableSimpleCheckmark20Filled", "20", TableSimpleCheckmark20FilledSvg);
+export const TableSimpleCheckmarkFilled = /** #__PURE__ */ createIcon("TableSimpleCheckmarkFilled", "1em", TableSimpleCheckmark20FilledSvg);
+export const TableSimpleCheckmark20Regular = /** #__PURE__ */ createIcon("TableSimpleCheckmark20Regular", "20", TableSimpleCheckmark20RegularSvg);
+export const TableSimpleCheckmarkRegular = /** #__PURE__ */ createIcon("TableSimpleCheckmarkRegular", "1em", TableSimpleCheckmark20RegularSvg);
+export const TableSimpleCheckmark24Filled = /** #__PURE__ */ createIcon("TableSimpleCheckmark24Filled", "24", TableSimpleCheckmark24FilledSvg);
+export const TableSimpleCheckmark24Regular = /** #__PURE__ */ createIcon("TableSimpleCheckmark24Regular", "24", TableSimpleCheckmark24RegularSvg);
+export const TableSimpleCheckmark28Filled = /** #__PURE__ */ createIcon("TableSimpleCheckmark28Filled", "28", TableSimpleCheckmark28FilledSvg);
+export const TableSimpleCheckmark28Regular = /** #__PURE__ */ createIcon("TableSimpleCheckmark28Regular", "28", TableSimpleCheckmark28RegularSvg);
+export const TableSimpleCheckmark32Filled = /** #__PURE__ */ createIcon("TableSimpleCheckmark32Filled", "32", TableSimpleCheckmark32FilledSvg);
+export const TableSimpleCheckmark32Regular = /** #__PURE__ */ createIcon("TableSimpleCheckmark32Regular", "32", TableSimpleCheckmark32RegularSvg);
+export const TableSimpleCheckmark48Filled = /** #__PURE__ */ createIcon("TableSimpleCheckmark48Filled", "48", TableSimpleCheckmark48FilledSvg);
+export const TableSimpleCheckmark48Regular = /** #__PURE__ */ createIcon("TableSimpleCheckmark48Regular", "48", TableSimpleCheckmark48RegularSvg);

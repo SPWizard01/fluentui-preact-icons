@@ -5,9 +5,11 @@ import CloudAdd20RegularSvg from "@fluentui/svg-icons/icons/cloud_add_20_regular
 import CloudAdd24FilledSvg from "@fluentui/svg-icons/icons/cloud_add_24_filled.svg" with { type: "text" }
 import CloudAdd24RegularSvg from "@fluentui/svg-icons/icons/cloud_add_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CloudAdd16Filled = createIcon("CloudAdd16Filled", CloudAdd16FilledSvg);
-export const CloudAdd16Regular = createIcon("CloudAdd16Regular", CloudAdd16RegularSvg);
-export const CloudAdd20Filled = createIcon("CloudAdd20Filled", CloudAdd20FilledSvg);
-export const CloudAdd20Regular = createIcon("CloudAdd20Regular", CloudAdd20RegularSvg);
-export const CloudAdd24Filled = createIcon("CloudAdd24Filled", CloudAdd24FilledSvg);
-export const CloudAdd24Regular = createIcon("CloudAdd24Regular", CloudAdd24RegularSvg);
+export const CloudAdd16Filled = /** #__PURE__ */ createIcon("CloudAdd16Filled", "16", CloudAdd16FilledSvg);
+export const CloudAdd16Regular = /** #__PURE__ */ createIcon("CloudAdd16Regular", "16", CloudAdd16RegularSvg);
+export const CloudAdd20Filled = /** #__PURE__ */ createIcon("CloudAdd20Filled", "20", CloudAdd20FilledSvg);
+export const CloudAddFilled = /** #__PURE__ */ createIcon("CloudAddFilled", "1em", CloudAdd20FilledSvg);
+export const CloudAdd20Regular = /** #__PURE__ */ createIcon("CloudAdd20Regular", "20", CloudAdd20RegularSvg);
+export const CloudAddRegular = /** #__PURE__ */ createIcon("CloudAddRegular", "1em", CloudAdd20RegularSvg);
+export const CloudAdd24Filled = /** #__PURE__ */ createIcon("CloudAdd24Filled", "24", CloudAdd24FilledSvg);
+export const CloudAdd24Regular = /** #__PURE__ */ createIcon("CloudAdd24Regular", "24", CloudAdd24RegularSvg);

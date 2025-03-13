@@ -10,14 +10,17 @@ import ArrowSync24ColorSvg from "@fluentui/svg-icons/icons/arrow_sync_24_color.s
 import ArrowSync24FilledSvg from "@fluentui/svg-icons/icons/arrow_sync_24_filled.svg" with { type: "text" }
 import ArrowSync24RegularSvg from "@fluentui/svg-icons/icons/arrow_sync_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ArrowSync12Filled = createIcon("ArrowSync12Filled", ArrowSync12FilledSvg);
-export const ArrowSync12Regular = createIcon("ArrowSync12Regular", ArrowSync12RegularSvg);
-export const ArrowSync16Color = createIcon("ArrowSync16Color", ArrowSync16ColorSvg);
-export const ArrowSync16Filled = createIcon("ArrowSync16Filled", ArrowSync16FilledSvg);
-export const ArrowSync16Regular = createIcon("ArrowSync16Regular", ArrowSync16RegularSvg);
-export const ArrowSync20Color = createIcon("ArrowSync20Color", ArrowSync20ColorSvg);
-export const ArrowSync20Filled = createIcon("ArrowSync20Filled", ArrowSync20FilledSvg);
-export const ArrowSync20Regular = createIcon("ArrowSync20Regular", ArrowSync20RegularSvg);
-export const ArrowSync24Color = createIcon("ArrowSync24Color", ArrowSync24ColorSvg);
-export const ArrowSync24Filled = createIcon("ArrowSync24Filled", ArrowSync24FilledSvg);
-export const ArrowSync24Regular = createIcon("ArrowSync24Regular", ArrowSync24RegularSvg);
+export const ArrowSync12Filled = /** #__PURE__ */ createIcon("ArrowSync12Filled", "12", ArrowSync12FilledSvg);
+export const ArrowSync12Regular = /** #__PURE__ */ createIcon("ArrowSync12Regular", "12", ArrowSync12RegularSvg);
+export const ArrowSync16Color = /** #__PURE__ */ createIcon("ArrowSync16Color", "16", ArrowSync16ColorSvg);
+export const ArrowSync16Filled = /** #__PURE__ */ createIcon("ArrowSync16Filled", "16", ArrowSync16FilledSvg);
+export const ArrowSync16Regular = /** #__PURE__ */ createIcon("ArrowSync16Regular", "16", ArrowSync16RegularSvg);
+export const ArrowSync20Color = /** #__PURE__ */ createIcon("ArrowSync20Color", "20", ArrowSync20ColorSvg);
+export const ArrowSyncColor = /** #__PURE__ */ createIcon("ArrowSyncColor", "1em", ArrowSync20ColorSvg);
+export const ArrowSync20Filled = /** #__PURE__ */ createIcon("ArrowSync20Filled", "20", ArrowSync20FilledSvg);
+export const ArrowSyncFilled = /** #__PURE__ */ createIcon("ArrowSyncFilled", "1em", ArrowSync20FilledSvg);
+export const ArrowSync20Regular = /** #__PURE__ */ createIcon("ArrowSync20Regular", "20", ArrowSync20RegularSvg);
+export const ArrowSyncRegular = /** #__PURE__ */ createIcon("ArrowSyncRegular", "1em", ArrowSync20RegularSvg);
+export const ArrowSync24Color = /** #__PURE__ */ createIcon("ArrowSync24Color", "24", ArrowSync24ColorSvg);
+export const ArrowSync24Filled = /** #__PURE__ */ createIcon("ArrowSync24Filled", "24", ArrowSync24FilledSvg);
+export const ArrowSync24Regular = /** #__PURE__ */ createIcon("ArrowSync24Regular", "24", ArrowSync24RegularSvg);

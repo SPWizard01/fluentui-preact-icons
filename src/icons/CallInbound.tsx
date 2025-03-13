@@ -9,13 +9,15 @@ import CallInbound28RegularSvg from "@fluentui/svg-icons/icons/call_inbound_28_r
 import CallInbound48FilledSvg from "@fluentui/svg-icons/icons/call_inbound_48_filled.svg" with { type: "text" }
 import CallInbound48RegularSvg from "@fluentui/svg-icons/icons/call_inbound_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CallInbound16Filled = createIcon("CallInbound16Filled", CallInbound16FilledSvg);
-export const CallInbound16Regular = createIcon("CallInbound16Regular", CallInbound16RegularSvg);
-export const CallInbound20Filled = createIcon("CallInbound20Filled", CallInbound20FilledSvg);
-export const CallInbound20Regular = createIcon("CallInbound20Regular", CallInbound20RegularSvg);
-export const CallInbound24Filled = createIcon("CallInbound24Filled", CallInbound24FilledSvg);
-export const CallInbound24Regular = createIcon("CallInbound24Regular", CallInbound24RegularSvg);
-export const CallInbound28Filled = createIcon("CallInbound28Filled", CallInbound28FilledSvg);
-export const CallInbound28Regular = createIcon("CallInbound28Regular", CallInbound28RegularSvg);
-export const CallInbound48Filled = createIcon("CallInbound48Filled", CallInbound48FilledSvg);
-export const CallInbound48Regular = createIcon("CallInbound48Regular", CallInbound48RegularSvg);
+export const CallInbound16Filled = /** #__PURE__ */ createIcon("CallInbound16Filled", "16", CallInbound16FilledSvg);
+export const CallInbound16Regular = /** #__PURE__ */ createIcon("CallInbound16Regular", "16", CallInbound16RegularSvg);
+export const CallInbound20Filled = /** #__PURE__ */ createIcon("CallInbound20Filled", "20", CallInbound20FilledSvg);
+export const CallInboundFilled = /** #__PURE__ */ createIcon("CallInboundFilled", "1em", CallInbound20FilledSvg);
+export const CallInbound20Regular = /** #__PURE__ */ createIcon("CallInbound20Regular", "20", CallInbound20RegularSvg);
+export const CallInboundRegular = /** #__PURE__ */ createIcon("CallInboundRegular", "1em", CallInbound20RegularSvg);
+export const CallInbound24Filled = /** #__PURE__ */ createIcon("CallInbound24Filled", "24", CallInbound24FilledSvg);
+export const CallInbound24Regular = /** #__PURE__ */ createIcon("CallInbound24Regular", "24", CallInbound24RegularSvg);
+export const CallInbound28Filled = /** #__PURE__ */ createIcon("CallInbound28Filled", "28", CallInbound28FilledSvg);
+export const CallInbound28Regular = /** #__PURE__ */ createIcon("CallInbound28Regular", "28", CallInbound28RegularSvg);
+export const CallInbound48Filled = /** #__PURE__ */ createIcon("CallInbound48Filled", "48", CallInbound48FilledSvg);
+export const CallInbound48Regular = /** #__PURE__ */ createIcon("CallInbound48Regular", "48", CallInbound48RegularSvg);

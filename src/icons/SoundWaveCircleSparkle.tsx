@@ -11,15 +11,17 @@ import SoundWaveCircleSparkle32RegularSvg from "@fluentui/svg-icons/icons/sound_
 import SoundWaveCircleSparkle48FilledSvg from "@fluentui/svg-icons/icons/sound_wave_circle_sparkle_48_filled.svg" with { type: "text" }
 import SoundWaveCircleSparkle48RegularSvg from "@fluentui/svg-icons/icons/sound_wave_circle_sparkle_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const SoundWaveCircleSparkle16Filled = createIcon("SoundWaveCircleSparkle16Filled", SoundWaveCircleSparkle16FilledSvg);
-export const SoundWaveCircleSparkle16Regular = createIcon("SoundWaveCircleSparkle16Regular", SoundWaveCircleSparkle16RegularSvg);
-export const SoundWaveCircleSparkle20Filled = createIcon("SoundWaveCircleSparkle20Filled", SoundWaveCircleSparkle20FilledSvg);
-export const SoundWaveCircleSparkle20Regular = createIcon("SoundWaveCircleSparkle20Regular", SoundWaveCircleSparkle20RegularSvg);
-export const SoundWaveCircleSparkle24Filled = createIcon("SoundWaveCircleSparkle24Filled", SoundWaveCircleSparkle24FilledSvg);
-export const SoundWaveCircleSparkle24Regular = createIcon("SoundWaveCircleSparkle24Regular", SoundWaveCircleSparkle24RegularSvg);
-export const SoundWaveCircleSparkle28Filled = createIcon("SoundWaveCircleSparkle28Filled", SoundWaveCircleSparkle28FilledSvg);
-export const SoundWaveCircleSparkle28Regular = createIcon("SoundWaveCircleSparkle28Regular", SoundWaveCircleSparkle28RegularSvg);
-export const SoundWaveCircleSparkle32Filled = createIcon("SoundWaveCircleSparkle32Filled", SoundWaveCircleSparkle32FilledSvg);
-export const SoundWaveCircleSparkle32Regular = createIcon("SoundWaveCircleSparkle32Regular", SoundWaveCircleSparkle32RegularSvg);
-export const SoundWaveCircleSparkle48Filled = createIcon("SoundWaveCircleSparkle48Filled", SoundWaveCircleSparkle48FilledSvg);
-export const SoundWaveCircleSparkle48Regular = createIcon("SoundWaveCircleSparkle48Regular", SoundWaveCircleSparkle48RegularSvg);
+export const SoundWaveCircleSparkle16Filled = /** #__PURE__ */ createIcon("SoundWaveCircleSparkle16Filled", "16", SoundWaveCircleSparkle16FilledSvg);
+export const SoundWaveCircleSparkle16Regular = /** #__PURE__ */ createIcon("SoundWaveCircleSparkle16Regular", "16", SoundWaveCircleSparkle16RegularSvg);
+export const SoundWaveCircleSparkle20Filled = /** #__PURE__ */ createIcon("SoundWaveCircleSparkle20Filled", "20", SoundWaveCircleSparkle20FilledSvg);
+export const SoundWaveCircleSparkleFilled = /** #__PURE__ */ createIcon("SoundWaveCircleSparkleFilled", "1em", SoundWaveCircleSparkle20FilledSvg);
+export const SoundWaveCircleSparkle20Regular = /** #__PURE__ */ createIcon("SoundWaveCircleSparkle20Regular", "20", SoundWaveCircleSparkle20RegularSvg);
+export const SoundWaveCircleSparkleRegular = /** #__PURE__ */ createIcon("SoundWaveCircleSparkleRegular", "1em", SoundWaveCircleSparkle20RegularSvg);
+export const SoundWaveCircleSparkle24Filled = /** #__PURE__ */ createIcon("SoundWaveCircleSparkle24Filled", "24", SoundWaveCircleSparkle24FilledSvg);
+export const SoundWaveCircleSparkle24Regular = /** #__PURE__ */ createIcon("SoundWaveCircleSparkle24Regular", "24", SoundWaveCircleSparkle24RegularSvg);
+export const SoundWaveCircleSparkle28Filled = /** #__PURE__ */ createIcon("SoundWaveCircleSparkle28Filled", "28", SoundWaveCircleSparkle28FilledSvg);
+export const SoundWaveCircleSparkle28Regular = /** #__PURE__ */ createIcon("SoundWaveCircleSparkle28Regular", "28", SoundWaveCircleSparkle28RegularSvg);
+export const SoundWaveCircleSparkle32Filled = /** #__PURE__ */ createIcon("SoundWaveCircleSparkle32Filled", "32", SoundWaveCircleSparkle32FilledSvg);
+export const SoundWaveCircleSparkle32Regular = /** #__PURE__ */ createIcon("SoundWaveCircleSparkle32Regular", "32", SoundWaveCircleSparkle32RegularSvg);
+export const SoundWaveCircleSparkle48Filled = /** #__PURE__ */ createIcon("SoundWaveCircleSparkle48Filled", "48", SoundWaveCircleSparkle48FilledSvg);
+export const SoundWaveCircleSparkle48Regular = /** #__PURE__ */ createIcon("SoundWaveCircleSparkle48Regular", "48", SoundWaveCircleSparkle48RegularSvg);

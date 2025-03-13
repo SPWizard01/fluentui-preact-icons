@@ -9,13 +9,15 @@ import VideoPersonSparkle28RegularSvg from "@fluentui/svg-icons/icons/video_pers
 import VideoPersonSparkle48FilledSvg from "@fluentui/svg-icons/icons/video_person_sparkle_48_filled.svg" with { type: "text" }
 import VideoPersonSparkle48RegularSvg from "@fluentui/svg-icons/icons/video_person_sparkle_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const VideoPersonSparkle16Filled = createIcon("VideoPersonSparkle16Filled", VideoPersonSparkle16FilledSvg);
-export const VideoPersonSparkle16Regular = createIcon("VideoPersonSparkle16Regular", VideoPersonSparkle16RegularSvg);
-export const VideoPersonSparkle20Filled = createIcon("VideoPersonSparkle20Filled", VideoPersonSparkle20FilledSvg);
-export const VideoPersonSparkle20Regular = createIcon("VideoPersonSparkle20Regular", VideoPersonSparkle20RegularSvg);
-export const VideoPersonSparkle24Filled = createIcon("VideoPersonSparkle24Filled", VideoPersonSparkle24FilledSvg);
-export const VideoPersonSparkle24Regular = createIcon("VideoPersonSparkle24Regular", VideoPersonSparkle24RegularSvg);
-export const VideoPersonSparkle28Filled = createIcon("VideoPersonSparkle28Filled", VideoPersonSparkle28FilledSvg);
-export const VideoPersonSparkle28Regular = createIcon("VideoPersonSparkle28Regular", VideoPersonSparkle28RegularSvg);
-export const VideoPersonSparkle48Filled = createIcon("VideoPersonSparkle48Filled", VideoPersonSparkle48FilledSvg);
-export const VideoPersonSparkle48Regular = createIcon("VideoPersonSparkle48Regular", VideoPersonSparkle48RegularSvg);
+export const VideoPersonSparkle16Filled = /** #__PURE__ */ createIcon("VideoPersonSparkle16Filled", "16", VideoPersonSparkle16FilledSvg);
+export const VideoPersonSparkle16Regular = /** #__PURE__ */ createIcon("VideoPersonSparkle16Regular", "16", VideoPersonSparkle16RegularSvg);
+export const VideoPersonSparkle20Filled = /** #__PURE__ */ createIcon("VideoPersonSparkle20Filled", "20", VideoPersonSparkle20FilledSvg);
+export const VideoPersonSparkleFilled = /** #__PURE__ */ createIcon("VideoPersonSparkleFilled", "1em", VideoPersonSparkle20FilledSvg);
+export const VideoPersonSparkle20Regular = /** #__PURE__ */ createIcon("VideoPersonSparkle20Regular", "20", VideoPersonSparkle20RegularSvg);
+export const VideoPersonSparkleRegular = /** #__PURE__ */ createIcon("VideoPersonSparkleRegular", "1em", VideoPersonSparkle20RegularSvg);
+export const VideoPersonSparkle24Filled = /** #__PURE__ */ createIcon("VideoPersonSparkle24Filled", "24", VideoPersonSparkle24FilledSvg);
+export const VideoPersonSparkle24Regular = /** #__PURE__ */ createIcon("VideoPersonSparkle24Regular", "24", VideoPersonSparkle24RegularSvg);
+export const VideoPersonSparkle28Filled = /** #__PURE__ */ createIcon("VideoPersonSparkle28Filled", "28", VideoPersonSparkle28FilledSvg);
+export const VideoPersonSparkle28Regular = /** #__PURE__ */ createIcon("VideoPersonSparkle28Regular", "28", VideoPersonSparkle28RegularSvg);
+export const VideoPersonSparkle48Filled = /** #__PURE__ */ createIcon("VideoPersonSparkle48Filled", "48", VideoPersonSparkle48FilledSvg);
+export const VideoPersonSparkle48Regular = /** #__PURE__ */ createIcon("VideoPersonSparkle48Regular", "48", VideoPersonSparkle48RegularSvg);

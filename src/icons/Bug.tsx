@@ -5,9 +5,11 @@ import Bug20RegularSvg from "@fluentui/svg-icons/icons/bug_20_regular.svg" with 
 import Bug24FilledSvg from "@fluentui/svg-icons/icons/bug_24_filled.svg" with { type: "text" }
 import Bug24RegularSvg from "@fluentui/svg-icons/icons/bug_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Bug16Filled = createIcon("Bug16Filled", Bug16FilledSvg);
-export const Bug16Regular = createIcon("Bug16Regular", Bug16RegularSvg);
-export const Bug20Filled = createIcon("Bug20Filled", Bug20FilledSvg);
-export const Bug20Regular = createIcon("Bug20Regular", Bug20RegularSvg);
-export const Bug24Filled = createIcon("Bug24Filled", Bug24FilledSvg);
-export const Bug24Regular = createIcon("Bug24Regular", Bug24RegularSvg);
+export const Bug16Filled = /** #__PURE__ */ createIcon("Bug16Filled", "16", Bug16FilledSvg);
+export const Bug16Regular = /** #__PURE__ */ createIcon("Bug16Regular", "16", Bug16RegularSvg);
+export const Bug20Filled = /** #__PURE__ */ createIcon("Bug20Filled", "20", Bug20FilledSvg);
+export const BugFilled = /** #__PURE__ */ createIcon("BugFilled", "1em", Bug20FilledSvg);
+export const Bug20Regular = /** #__PURE__ */ createIcon("Bug20Regular", "20", Bug20RegularSvg);
+export const BugRegular = /** #__PURE__ */ createIcon("BugRegular", "1em", Bug20RegularSvg);
+export const Bug24Filled = /** #__PURE__ */ createIcon("Bug24Filled", "24", Bug24FilledSvg);
+export const Bug24Regular = /** #__PURE__ */ createIcon("Bug24Regular", "24", Bug24RegularSvg);

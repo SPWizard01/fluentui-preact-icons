@@ -4,8 +4,9 @@ import ArrowSquare32ColorSvg from "@fluentui/svg-icons/icons/arrow_square_32_col
 import ArrowSquare32FilledSvg from "@fluentui/svg-icons/icons/arrow_square_32_filled.svg" with { type: "text" }
 import ArrowSquare32RegularSvg from "@fluentui/svg-icons/icons/arrow_square_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ArrowSquare20Color = createIcon("ArrowSquare20Color", ArrowSquare20ColorSvg);
-export const ArrowSquare24Color = createIcon("ArrowSquare24Color", ArrowSquare24ColorSvg);
-export const ArrowSquare32Color = createIcon("ArrowSquare32Color", ArrowSquare32ColorSvg);
-export const ArrowSquare32Filled = createIcon("ArrowSquare32Filled", ArrowSquare32FilledSvg);
-export const ArrowSquare32Regular = createIcon("ArrowSquare32Regular", ArrowSquare32RegularSvg);
+export const ArrowSquare20Color = /** #__PURE__ */ createIcon("ArrowSquare20Color", "20", ArrowSquare20ColorSvg);
+export const ArrowSquareColor = /** #__PURE__ */ createIcon("ArrowSquareColor", "1em", ArrowSquare20ColorSvg);
+export const ArrowSquare24Color = /** #__PURE__ */ createIcon("ArrowSquare24Color", "24", ArrowSquare24ColorSvg);
+export const ArrowSquare32Color = /** #__PURE__ */ createIcon("ArrowSquare32Color", "32", ArrowSquare32ColorSvg);
+export const ArrowSquare32Filled = /** #__PURE__ */ createIcon("ArrowSquare32Filled", "32", ArrowSquare32FilledSvg);
+export const ArrowSquare32Regular = /** #__PURE__ */ createIcon("ArrowSquare32Regular", "32", ArrowSquare32RegularSvg);

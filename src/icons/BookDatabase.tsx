@@ -11,15 +11,18 @@ import BookDatabase32ColorSvg from "@fluentui/svg-icons/icons/book_database_32_c
 import BookDatabase32FilledSvg from "@fluentui/svg-icons/icons/book_database_32_filled.svg" with { type: "text" }
 import BookDatabase32RegularSvg from "@fluentui/svg-icons/icons/book_database_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const BookDatabase16Color = createIcon("BookDatabase16Color", BookDatabase16ColorSvg);
-export const BookDatabase16Filled = createIcon("BookDatabase16Filled", BookDatabase16FilledSvg);
-export const BookDatabase16Regular = createIcon("BookDatabase16Regular", BookDatabase16RegularSvg);
-export const BookDatabase20Color = createIcon("BookDatabase20Color", BookDatabase20ColorSvg);
-export const BookDatabase20Filled = createIcon("BookDatabase20Filled", BookDatabase20FilledSvg);
-export const BookDatabase20Regular = createIcon("BookDatabase20Regular", BookDatabase20RegularSvg);
-export const BookDatabase24Color = createIcon("BookDatabase24Color", BookDatabase24ColorSvg);
-export const BookDatabase24Filled = createIcon("BookDatabase24Filled", BookDatabase24FilledSvg);
-export const BookDatabase24Regular = createIcon("BookDatabase24Regular", BookDatabase24RegularSvg);
-export const BookDatabase32Color = createIcon("BookDatabase32Color", BookDatabase32ColorSvg);
-export const BookDatabase32Filled = createIcon("BookDatabase32Filled", BookDatabase32FilledSvg);
-export const BookDatabase32Regular = createIcon("BookDatabase32Regular", BookDatabase32RegularSvg);
+export const BookDatabase16Color = /** #__PURE__ */ createIcon("BookDatabase16Color", "16", BookDatabase16ColorSvg);
+export const BookDatabase16Filled = /** #__PURE__ */ createIcon("BookDatabase16Filled", "16", BookDatabase16FilledSvg);
+export const BookDatabase16Regular = /** #__PURE__ */ createIcon("BookDatabase16Regular", "16", BookDatabase16RegularSvg);
+export const BookDatabase20Color = /** #__PURE__ */ createIcon("BookDatabase20Color", "20", BookDatabase20ColorSvg);
+export const BookDatabaseColor = /** #__PURE__ */ createIcon("BookDatabaseColor", "1em", BookDatabase20ColorSvg);
+export const BookDatabase20Filled = /** #__PURE__ */ createIcon("BookDatabase20Filled", "20", BookDatabase20FilledSvg);
+export const BookDatabaseFilled = /** #__PURE__ */ createIcon("BookDatabaseFilled", "1em", BookDatabase20FilledSvg);
+export const BookDatabase20Regular = /** #__PURE__ */ createIcon("BookDatabase20Regular", "20", BookDatabase20RegularSvg);
+export const BookDatabaseRegular = /** #__PURE__ */ createIcon("BookDatabaseRegular", "1em", BookDatabase20RegularSvg);
+export const BookDatabase24Color = /** #__PURE__ */ createIcon("BookDatabase24Color", "24", BookDatabase24ColorSvg);
+export const BookDatabase24Filled = /** #__PURE__ */ createIcon("BookDatabase24Filled", "24", BookDatabase24FilledSvg);
+export const BookDatabase24Regular = /** #__PURE__ */ createIcon("BookDatabase24Regular", "24", BookDatabase24RegularSvg);
+export const BookDatabase32Color = /** #__PURE__ */ createIcon("BookDatabase32Color", "32", BookDatabase32ColorSvg);
+export const BookDatabase32Filled = /** #__PURE__ */ createIcon("BookDatabase32Filled", "32", BookDatabase32FilledSvg);
+export const BookDatabase32Regular = /** #__PURE__ */ createIcon("BookDatabase32Regular", "32", BookDatabase32RegularSvg);

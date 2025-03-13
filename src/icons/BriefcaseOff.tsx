@@ -11,15 +11,17 @@ import BriefcaseOff32RegularSvg from "@fluentui/svg-icons/icons/briefcase_off_32
 import BriefcaseOff48FilledSvg from "@fluentui/svg-icons/icons/briefcase_off_48_filled.svg" with { type: "text" }
 import BriefcaseOff48RegularSvg from "@fluentui/svg-icons/icons/briefcase_off_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const BriefcaseOff16Filled = createIcon("BriefcaseOff16Filled", BriefcaseOff16FilledSvg);
-export const BriefcaseOff16Regular = createIcon("BriefcaseOff16Regular", BriefcaseOff16RegularSvg);
-export const BriefcaseOff20Filled = createIcon("BriefcaseOff20Filled", BriefcaseOff20FilledSvg);
-export const BriefcaseOff20Regular = createIcon("BriefcaseOff20Regular", BriefcaseOff20RegularSvg);
-export const BriefcaseOff24Filled = createIcon("BriefcaseOff24Filled", BriefcaseOff24FilledSvg);
-export const BriefcaseOff24Regular = createIcon("BriefcaseOff24Regular", BriefcaseOff24RegularSvg);
-export const BriefcaseOff28Filled = createIcon("BriefcaseOff28Filled", BriefcaseOff28FilledSvg);
-export const BriefcaseOff28Regular = createIcon("BriefcaseOff28Regular", BriefcaseOff28RegularSvg);
-export const BriefcaseOff32Filled = createIcon("BriefcaseOff32Filled", BriefcaseOff32FilledSvg);
-export const BriefcaseOff32Regular = createIcon("BriefcaseOff32Regular", BriefcaseOff32RegularSvg);
-export const BriefcaseOff48Filled = createIcon("BriefcaseOff48Filled", BriefcaseOff48FilledSvg);
-export const BriefcaseOff48Regular = createIcon("BriefcaseOff48Regular", BriefcaseOff48RegularSvg);
+export const BriefcaseOff16Filled = /** #__PURE__ */ createIcon("BriefcaseOff16Filled", "16", BriefcaseOff16FilledSvg);
+export const BriefcaseOff16Regular = /** #__PURE__ */ createIcon("BriefcaseOff16Regular", "16", BriefcaseOff16RegularSvg);
+export const BriefcaseOff20Filled = /** #__PURE__ */ createIcon("BriefcaseOff20Filled", "20", BriefcaseOff20FilledSvg);
+export const BriefcaseOffFilled = /** #__PURE__ */ createIcon("BriefcaseOffFilled", "1em", BriefcaseOff20FilledSvg);
+export const BriefcaseOff20Regular = /** #__PURE__ */ createIcon("BriefcaseOff20Regular", "20", BriefcaseOff20RegularSvg);
+export const BriefcaseOffRegular = /** #__PURE__ */ createIcon("BriefcaseOffRegular", "1em", BriefcaseOff20RegularSvg);
+export const BriefcaseOff24Filled = /** #__PURE__ */ createIcon("BriefcaseOff24Filled", "24", BriefcaseOff24FilledSvg);
+export const BriefcaseOff24Regular = /** #__PURE__ */ createIcon("BriefcaseOff24Regular", "24", BriefcaseOff24RegularSvg);
+export const BriefcaseOff28Filled = /** #__PURE__ */ createIcon("BriefcaseOff28Filled", "28", BriefcaseOff28FilledSvg);
+export const BriefcaseOff28Regular = /** #__PURE__ */ createIcon("BriefcaseOff28Regular", "28", BriefcaseOff28RegularSvg);
+export const BriefcaseOff32Filled = /** #__PURE__ */ createIcon("BriefcaseOff32Filled", "32", BriefcaseOff32FilledSvg);
+export const BriefcaseOff32Regular = /** #__PURE__ */ createIcon("BriefcaseOff32Regular", "32", BriefcaseOff32RegularSvg);
+export const BriefcaseOff48Filled = /** #__PURE__ */ createIcon("BriefcaseOff48Filled", "48", BriefcaseOff48FilledSvg);
+export const BriefcaseOff48Regular = /** #__PURE__ */ createIcon("BriefcaseOff48Regular", "48", BriefcaseOff48RegularSvg);

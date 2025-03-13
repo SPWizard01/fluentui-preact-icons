@@ -10,14 +10,16 @@ import MailReadMultiple32FilledSvg from "@fluentui/svg-icons/icons/mail_read_mul
 import MailReadMultiple32LightSvg from "@fluentui/svg-icons/icons/mail_read_multiple_32_light.svg" with { type: "text" }
 import MailReadMultiple32RegularSvg from "@fluentui/svg-icons/icons/mail_read_multiple_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const MailReadMultiple16Filled = createIcon("MailReadMultiple16Filled", MailReadMultiple16FilledSvg);
-export const MailReadMultiple16Regular = createIcon("MailReadMultiple16Regular", MailReadMultiple16RegularSvg);
-export const MailReadMultiple20Filled = createIcon("MailReadMultiple20Filled", MailReadMultiple20FilledSvg);
-export const MailReadMultiple20Regular = createIcon("MailReadMultiple20Regular", MailReadMultiple20RegularSvg);
-export const MailReadMultiple24Filled = createIcon("MailReadMultiple24Filled", MailReadMultiple24FilledSvg);
-export const MailReadMultiple24Regular = createIcon("MailReadMultiple24Regular", MailReadMultiple24RegularSvg);
-export const MailReadMultiple28Filled = createIcon("MailReadMultiple28Filled", MailReadMultiple28FilledSvg);
-export const MailReadMultiple28Regular = createIcon("MailReadMultiple28Regular", MailReadMultiple28RegularSvg);
-export const MailReadMultiple32Filled = createIcon("MailReadMultiple32Filled", MailReadMultiple32FilledSvg);
-export const MailReadMultiple32Light = createIcon("MailReadMultiple32Light", MailReadMultiple32LightSvg);
-export const MailReadMultiple32Regular = createIcon("MailReadMultiple32Regular", MailReadMultiple32RegularSvg);
+export const MailReadMultiple16Filled = /** #__PURE__ */ createIcon("MailReadMultiple16Filled", "16", MailReadMultiple16FilledSvg);
+export const MailReadMultiple16Regular = /** #__PURE__ */ createIcon("MailReadMultiple16Regular", "16", MailReadMultiple16RegularSvg);
+export const MailReadMultiple20Filled = /** #__PURE__ */ createIcon("MailReadMultiple20Filled", "20", MailReadMultiple20FilledSvg);
+export const MailReadMultipleFilled = /** #__PURE__ */ createIcon("MailReadMultipleFilled", "1em", MailReadMultiple20FilledSvg);
+export const MailReadMultiple20Regular = /** #__PURE__ */ createIcon("MailReadMultiple20Regular", "20", MailReadMultiple20RegularSvg);
+export const MailReadMultipleRegular = /** #__PURE__ */ createIcon("MailReadMultipleRegular", "1em", MailReadMultiple20RegularSvg);
+export const MailReadMultiple24Filled = /** #__PURE__ */ createIcon("MailReadMultiple24Filled", "24", MailReadMultiple24FilledSvg);
+export const MailReadMultiple24Regular = /** #__PURE__ */ createIcon("MailReadMultiple24Regular", "24", MailReadMultiple24RegularSvg);
+export const MailReadMultiple28Filled = /** #__PURE__ */ createIcon("MailReadMultiple28Filled", "28", MailReadMultiple28FilledSvg);
+export const MailReadMultiple28Regular = /** #__PURE__ */ createIcon("MailReadMultiple28Regular", "28", MailReadMultiple28RegularSvg);
+export const MailReadMultiple32Filled = /** #__PURE__ */ createIcon("MailReadMultiple32Filled", "32", MailReadMultiple32FilledSvg);
+export const MailReadMultiple32Light = /** #__PURE__ */ createIcon("MailReadMultiple32Light", "32", MailReadMultiple32LightSvg);
+export const MailReadMultiple32Regular = /** #__PURE__ */ createIcon("MailReadMultiple32Regular", "32", MailReadMultiple32RegularSvg);

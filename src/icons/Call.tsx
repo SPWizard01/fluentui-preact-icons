@@ -13,17 +13,19 @@ import Call32RegularSvg from "@fluentui/svg-icons/icons/call_32_regular.svg" wit
 import Call48FilledSvg from "@fluentui/svg-icons/icons/call_48_filled.svg" with { type: "text" }
 import Call48RegularSvg from "@fluentui/svg-icons/icons/call_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Call12Filled = createIcon("Call12Filled", Call12FilledSvg);
-export const Call12Regular = createIcon("Call12Regular", Call12RegularSvg);
-export const Call16Filled = createIcon("Call16Filled", Call16FilledSvg);
-export const Call16Regular = createIcon("Call16Regular", Call16RegularSvg);
-export const Call20Filled = createIcon("Call20Filled", Call20FilledSvg);
-export const Call20Regular = createIcon("Call20Regular", Call20RegularSvg);
-export const Call24Filled = createIcon("Call24Filled", Call24FilledSvg);
-export const Call24Regular = createIcon("Call24Regular", Call24RegularSvg);
-export const Call28Filled = createIcon("Call28Filled", Call28FilledSvg);
-export const Call28Regular = createIcon("Call28Regular", Call28RegularSvg);
-export const Call32Filled = createIcon("Call32Filled", Call32FilledSvg);
-export const Call32Regular = createIcon("Call32Regular", Call32RegularSvg);
-export const Call48Filled = createIcon("Call48Filled", Call48FilledSvg);
-export const Call48Regular = createIcon("Call48Regular", Call48RegularSvg);
+export const Call12Filled = /** #__PURE__ */ createIcon("Call12Filled", "12", Call12FilledSvg);
+export const Call12Regular = /** #__PURE__ */ createIcon("Call12Regular", "12", Call12RegularSvg);
+export const Call16Filled = /** #__PURE__ */ createIcon("Call16Filled", "16", Call16FilledSvg);
+export const Call16Regular = /** #__PURE__ */ createIcon("Call16Regular", "16", Call16RegularSvg);
+export const Call20Filled = /** #__PURE__ */ createIcon("Call20Filled", "20", Call20FilledSvg);
+export const CallFilled = /** #__PURE__ */ createIcon("CallFilled", "1em", Call20FilledSvg);
+export const Call20Regular = /** #__PURE__ */ createIcon("Call20Regular", "20", Call20RegularSvg);
+export const CallRegular = /** #__PURE__ */ createIcon("CallRegular", "1em", Call20RegularSvg);
+export const Call24Filled = /** #__PURE__ */ createIcon("Call24Filled", "24", Call24FilledSvg);
+export const Call24Regular = /** #__PURE__ */ createIcon("Call24Regular", "24", Call24RegularSvg);
+export const Call28Filled = /** #__PURE__ */ createIcon("Call28Filled", "28", Call28FilledSvg);
+export const Call28Regular = /** #__PURE__ */ createIcon("Call28Regular", "28", Call28RegularSvg);
+export const Call32Filled = /** #__PURE__ */ createIcon("Call32Filled", "32", Call32FilledSvg);
+export const Call32Regular = /** #__PURE__ */ createIcon("Call32Regular", "32", Call32RegularSvg);
+export const Call48Filled = /** #__PURE__ */ createIcon("Call48Filled", "48", Call48FilledSvg);
+export const Call48Regular = /** #__PURE__ */ createIcon("Call48Regular", "48", Call48RegularSvg);

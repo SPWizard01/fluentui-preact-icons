@@ -5,9 +5,11 @@ import EmojiMeh20RegularSvg from "@fluentui/svg-icons/icons/emoji_meh_20_regular
 import EmojiMeh24FilledSvg from "@fluentui/svg-icons/icons/emoji_meh_24_filled.svg" with { type: "text" }
 import EmojiMeh24RegularSvg from "@fluentui/svg-icons/icons/emoji_meh_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const EmojiMeh16Filled = createIcon("EmojiMeh16Filled", EmojiMeh16FilledSvg);
-export const EmojiMeh16Regular = createIcon("EmojiMeh16Regular", EmojiMeh16RegularSvg);
-export const EmojiMeh20Filled = createIcon("EmojiMeh20Filled", EmojiMeh20FilledSvg);
-export const EmojiMeh20Regular = createIcon("EmojiMeh20Regular", EmojiMeh20RegularSvg);
-export const EmojiMeh24Filled = createIcon("EmojiMeh24Filled", EmojiMeh24FilledSvg);
-export const EmojiMeh24Regular = createIcon("EmojiMeh24Regular", EmojiMeh24RegularSvg);
+export const EmojiMeh16Filled = /** #__PURE__ */ createIcon("EmojiMeh16Filled", "16", EmojiMeh16FilledSvg);
+export const EmojiMeh16Regular = /** #__PURE__ */ createIcon("EmojiMeh16Regular", "16", EmojiMeh16RegularSvg);
+export const EmojiMeh20Filled = /** #__PURE__ */ createIcon("EmojiMeh20Filled", "20", EmojiMeh20FilledSvg);
+export const EmojiMehFilled = /** #__PURE__ */ createIcon("EmojiMehFilled", "1em", EmojiMeh20FilledSvg);
+export const EmojiMeh20Regular = /** #__PURE__ */ createIcon("EmojiMeh20Regular", "20", EmojiMeh20RegularSvg);
+export const EmojiMehRegular = /** #__PURE__ */ createIcon("EmojiMehRegular", "1em", EmojiMeh20RegularSvg);
+export const EmojiMeh24Filled = /** #__PURE__ */ createIcon("EmojiMeh24Filled", "24", EmojiMeh24FilledSvg);
+export const EmojiMeh24Regular = /** #__PURE__ */ createIcon("EmojiMeh24Regular", "24", EmojiMeh24RegularSvg);

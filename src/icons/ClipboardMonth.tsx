@@ -5,9 +5,11 @@ import ClipboardMonth20RegularSvg from "@fluentui/svg-icons/icons/clipboard_mont
 import ClipboardMonth24FilledSvg from "@fluentui/svg-icons/icons/clipboard_month_24_filled.svg" with { type: "text" }
 import ClipboardMonth24RegularSvg from "@fluentui/svg-icons/icons/clipboard_month_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ClipboardMonth16Filled = createIcon("ClipboardMonth16Filled", ClipboardMonth16FilledSvg);
-export const ClipboardMonth16Regular = createIcon("ClipboardMonth16Regular", ClipboardMonth16RegularSvg);
-export const ClipboardMonth20Filled = createIcon("ClipboardMonth20Filled", ClipboardMonth20FilledSvg);
-export const ClipboardMonth20Regular = createIcon("ClipboardMonth20Regular", ClipboardMonth20RegularSvg);
-export const ClipboardMonth24Filled = createIcon("ClipboardMonth24Filled", ClipboardMonth24FilledSvg);
-export const ClipboardMonth24Regular = createIcon("ClipboardMonth24Regular", ClipboardMonth24RegularSvg);
+export const ClipboardMonth16Filled = /** #__PURE__ */ createIcon("ClipboardMonth16Filled", "16", ClipboardMonth16FilledSvg);
+export const ClipboardMonth16Regular = /** #__PURE__ */ createIcon("ClipboardMonth16Regular", "16", ClipboardMonth16RegularSvg);
+export const ClipboardMonth20Filled = /** #__PURE__ */ createIcon("ClipboardMonth20Filled", "20", ClipboardMonth20FilledSvg);
+export const ClipboardMonthFilled = /** #__PURE__ */ createIcon("ClipboardMonthFilled", "1em", ClipboardMonth20FilledSvg);
+export const ClipboardMonth20Regular = /** #__PURE__ */ createIcon("ClipboardMonth20Regular", "20", ClipboardMonth20RegularSvg);
+export const ClipboardMonthRegular = /** #__PURE__ */ createIcon("ClipboardMonthRegular", "1em", ClipboardMonth20RegularSvg);
+export const ClipboardMonth24Filled = /** #__PURE__ */ createIcon("ClipboardMonth24Filled", "24", ClipboardMonth24FilledSvg);
+export const ClipboardMonth24Regular = /** #__PURE__ */ createIcon("ClipboardMonth24Regular", "24", ClipboardMonth24RegularSvg);

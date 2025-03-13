@@ -11,15 +11,17 @@ import CloudOff32RegularSvg from "@fluentui/svg-icons/icons/cloud_off_32_regular
 import CloudOff48FilledSvg from "@fluentui/svg-icons/icons/cloud_off_48_filled.svg" with { type: "text" }
 import CloudOff48RegularSvg from "@fluentui/svg-icons/icons/cloud_off_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CloudOff16Filled = createIcon("CloudOff16Filled", CloudOff16FilledSvg);
-export const CloudOff16Regular = createIcon("CloudOff16Regular", CloudOff16RegularSvg);
-export const CloudOff20Filled = createIcon("CloudOff20Filled", CloudOff20FilledSvg);
-export const CloudOff20Regular = createIcon("CloudOff20Regular", CloudOff20RegularSvg);
-export const CloudOff24Filled = createIcon("CloudOff24Filled", CloudOff24FilledSvg);
-export const CloudOff24Regular = createIcon("CloudOff24Regular", CloudOff24RegularSvg);
-export const CloudOff28Filled = createIcon("CloudOff28Filled", CloudOff28FilledSvg);
-export const CloudOff28Regular = createIcon("CloudOff28Regular", CloudOff28RegularSvg);
-export const CloudOff32Filled = createIcon("CloudOff32Filled", CloudOff32FilledSvg);
-export const CloudOff32Regular = createIcon("CloudOff32Regular", CloudOff32RegularSvg);
-export const CloudOff48Filled = createIcon("CloudOff48Filled", CloudOff48FilledSvg);
-export const CloudOff48Regular = createIcon("CloudOff48Regular", CloudOff48RegularSvg);
+export const CloudOff16Filled = /** #__PURE__ */ createIcon("CloudOff16Filled", "16", CloudOff16FilledSvg);
+export const CloudOff16Regular = /** #__PURE__ */ createIcon("CloudOff16Regular", "16", CloudOff16RegularSvg);
+export const CloudOff20Filled = /** #__PURE__ */ createIcon("CloudOff20Filled", "20", CloudOff20FilledSvg);
+export const CloudOffFilled = /** #__PURE__ */ createIcon("CloudOffFilled", "1em", CloudOff20FilledSvg);
+export const CloudOff20Regular = /** #__PURE__ */ createIcon("CloudOff20Regular", "20", CloudOff20RegularSvg);
+export const CloudOffRegular = /** #__PURE__ */ createIcon("CloudOffRegular", "1em", CloudOff20RegularSvg);
+export const CloudOff24Filled = /** #__PURE__ */ createIcon("CloudOff24Filled", "24", CloudOff24FilledSvg);
+export const CloudOff24Regular = /** #__PURE__ */ createIcon("CloudOff24Regular", "24", CloudOff24RegularSvg);
+export const CloudOff28Filled = /** #__PURE__ */ createIcon("CloudOff28Filled", "28", CloudOff28FilledSvg);
+export const CloudOff28Regular = /** #__PURE__ */ createIcon("CloudOff28Regular", "28", CloudOff28RegularSvg);
+export const CloudOff32Filled = /** #__PURE__ */ createIcon("CloudOff32Filled", "32", CloudOff32FilledSvg);
+export const CloudOff32Regular = /** #__PURE__ */ createIcon("CloudOff32Regular", "32", CloudOff32RegularSvg);
+export const CloudOff48Filled = /** #__PURE__ */ createIcon("CloudOff48Filled", "48", CloudOff48FilledSvg);
+export const CloudOff48Regular = /** #__PURE__ */ createIcon("CloudOff48Regular", "48", CloudOff48RegularSvg);

@@ -11,15 +11,17 @@ import TetrisApp32RegularSvg from "@fluentui/svg-icons/icons/tetris_app_32_regul
 import TetrisApp48FilledSvg from "@fluentui/svg-icons/icons/tetris_app_48_filled.svg" with { type: "text" }
 import TetrisApp48RegularSvg from "@fluentui/svg-icons/icons/tetris_app_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TetrisApp16Filled = createIcon("TetrisApp16Filled", TetrisApp16FilledSvg);
-export const TetrisApp16Regular = createIcon("TetrisApp16Regular", TetrisApp16RegularSvg);
-export const TetrisApp20Filled = createIcon("TetrisApp20Filled", TetrisApp20FilledSvg);
-export const TetrisApp20Regular = createIcon("TetrisApp20Regular", TetrisApp20RegularSvg);
-export const TetrisApp24Filled = createIcon("TetrisApp24Filled", TetrisApp24FilledSvg);
-export const TetrisApp24Regular = createIcon("TetrisApp24Regular", TetrisApp24RegularSvg);
-export const TetrisApp28Filled = createIcon("TetrisApp28Filled", TetrisApp28FilledSvg);
-export const TetrisApp28Regular = createIcon("TetrisApp28Regular", TetrisApp28RegularSvg);
-export const TetrisApp32Filled = createIcon("TetrisApp32Filled", TetrisApp32FilledSvg);
-export const TetrisApp32Regular = createIcon("TetrisApp32Regular", TetrisApp32RegularSvg);
-export const TetrisApp48Filled = createIcon("TetrisApp48Filled", TetrisApp48FilledSvg);
-export const TetrisApp48Regular = createIcon("TetrisApp48Regular", TetrisApp48RegularSvg);
+export const TetrisApp16Filled = /** #__PURE__ */ createIcon("TetrisApp16Filled", "16", TetrisApp16FilledSvg);
+export const TetrisApp16Regular = /** #__PURE__ */ createIcon("TetrisApp16Regular", "16", TetrisApp16RegularSvg);
+export const TetrisApp20Filled = /** #__PURE__ */ createIcon("TetrisApp20Filled", "20", TetrisApp20FilledSvg);
+export const TetrisAppFilled = /** #__PURE__ */ createIcon("TetrisAppFilled", "1em", TetrisApp20FilledSvg);
+export const TetrisApp20Regular = /** #__PURE__ */ createIcon("TetrisApp20Regular", "20", TetrisApp20RegularSvg);
+export const TetrisAppRegular = /** #__PURE__ */ createIcon("TetrisAppRegular", "1em", TetrisApp20RegularSvg);
+export const TetrisApp24Filled = /** #__PURE__ */ createIcon("TetrisApp24Filled", "24", TetrisApp24FilledSvg);
+export const TetrisApp24Regular = /** #__PURE__ */ createIcon("TetrisApp24Regular", "24", TetrisApp24RegularSvg);
+export const TetrisApp28Filled = /** #__PURE__ */ createIcon("TetrisApp28Filled", "28", TetrisApp28FilledSvg);
+export const TetrisApp28Regular = /** #__PURE__ */ createIcon("TetrisApp28Regular", "28", TetrisApp28RegularSvg);
+export const TetrisApp32Filled = /** #__PURE__ */ createIcon("TetrisApp32Filled", "32", TetrisApp32FilledSvg);
+export const TetrisApp32Regular = /** #__PURE__ */ createIcon("TetrisApp32Regular", "32", TetrisApp32RegularSvg);
+export const TetrisApp48Filled = /** #__PURE__ */ createIcon("TetrisApp48Filled", "48", TetrisApp48FilledSvg);
+export const TetrisApp48Regular = /** #__PURE__ */ createIcon("TetrisApp48Regular", "48", TetrisApp48RegularSvg);

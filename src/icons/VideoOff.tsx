@@ -11,15 +11,17 @@ import VideoOff32RegularSvg from "@fluentui/svg-icons/icons/video_off_32_regular
 import VideoOff48FilledSvg from "@fluentui/svg-icons/icons/video_off_48_filled.svg" with { type: "text" }
 import VideoOff48RegularSvg from "@fluentui/svg-icons/icons/video_off_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const VideoOff16Filled = createIcon("VideoOff16Filled", VideoOff16FilledSvg);
-export const VideoOff16Regular = createIcon("VideoOff16Regular", VideoOff16RegularSvg);
-export const VideoOff20Filled = createIcon("VideoOff20Filled", VideoOff20FilledSvg);
-export const VideoOff20Regular = createIcon("VideoOff20Regular", VideoOff20RegularSvg);
-export const VideoOff24Filled = createIcon("VideoOff24Filled", VideoOff24FilledSvg);
-export const VideoOff24Regular = createIcon("VideoOff24Regular", VideoOff24RegularSvg);
-export const VideoOff28Filled = createIcon("VideoOff28Filled", VideoOff28FilledSvg);
-export const VideoOff28Regular = createIcon("VideoOff28Regular", VideoOff28RegularSvg);
-export const VideoOff32Filled = createIcon("VideoOff32Filled", VideoOff32FilledSvg);
-export const VideoOff32Regular = createIcon("VideoOff32Regular", VideoOff32RegularSvg);
-export const VideoOff48Filled = createIcon("VideoOff48Filled", VideoOff48FilledSvg);
-export const VideoOff48Regular = createIcon("VideoOff48Regular", VideoOff48RegularSvg);
+export const VideoOff16Filled = /** #__PURE__ */ createIcon("VideoOff16Filled", "16", VideoOff16FilledSvg);
+export const VideoOff16Regular = /** #__PURE__ */ createIcon("VideoOff16Regular", "16", VideoOff16RegularSvg);
+export const VideoOff20Filled = /** #__PURE__ */ createIcon("VideoOff20Filled", "20", VideoOff20FilledSvg);
+export const VideoOffFilled = /** #__PURE__ */ createIcon("VideoOffFilled", "1em", VideoOff20FilledSvg);
+export const VideoOff20Regular = /** #__PURE__ */ createIcon("VideoOff20Regular", "20", VideoOff20RegularSvg);
+export const VideoOffRegular = /** #__PURE__ */ createIcon("VideoOffRegular", "1em", VideoOff20RegularSvg);
+export const VideoOff24Filled = /** #__PURE__ */ createIcon("VideoOff24Filled", "24", VideoOff24FilledSvg);
+export const VideoOff24Regular = /** #__PURE__ */ createIcon("VideoOff24Regular", "24", VideoOff24RegularSvg);
+export const VideoOff28Filled = /** #__PURE__ */ createIcon("VideoOff28Filled", "28", VideoOff28FilledSvg);
+export const VideoOff28Regular = /** #__PURE__ */ createIcon("VideoOff28Regular", "28", VideoOff28RegularSvg);
+export const VideoOff32Filled = /** #__PURE__ */ createIcon("VideoOff32Filled", "32", VideoOff32FilledSvg);
+export const VideoOff32Regular = /** #__PURE__ */ createIcon("VideoOff32Regular", "32", VideoOff32RegularSvg);
+export const VideoOff48Filled = /** #__PURE__ */ createIcon("VideoOff48Filled", "48", VideoOff48FilledSvg);
+export const VideoOff48Regular = /** #__PURE__ */ createIcon("VideoOff48Regular", "48", VideoOff48RegularSvg);

@@ -13,17 +13,19 @@ import Hexagon32RegularSvg from "@fluentui/svg-icons/icons/hexagon_32_regular.sv
 import Hexagon48FilledSvg from "@fluentui/svg-icons/icons/hexagon_48_filled.svg" with { type: "text" }
 import Hexagon48RegularSvg from "@fluentui/svg-icons/icons/hexagon_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Hexagon12Filled = createIcon("Hexagon12Filled", Hexagon12FilledSvg);
-export const Hexagon12Regular = createIcon("Hexagon12Regular", Hexagon12RegularSvg);
-export const Hexagon16Filled = createIcon("Hexagon16Filled", Hexagon16FilledSvg);
-export const Hexagon16Regular = createIcon("Hexagon16Regular", Hexagon16RegularSvg);
-export const Hexagon20Filled = createIcon("Hexagon20Filled", Hexagon20FilledSvg);
-export const Hexagon20Regular = createIcon("Hexagon20Regular", Hexagon20RegularSvg);
-export const Hexagon24Filled = createIcon("Hexagon24Filled", Hexagon24FilledSvg);
-export const Hexagon24Regular = createIcon("Hexagon24Regular", Hexagon24RegularSvg);
-export const Hexagon28Filled = createIcon("Hexagon28Filled", Hexagon28FilledSvg);
-export const Hexagon28Regular = createIcon("Hexagon28Regular", Hexagon28RegularSvg);
-export const Hexagon32Filled = createIcon("Hexagon32Filled", Hexagon32FilledSvg);
-export const Hexagon32Regular = createIcon("Hexagon32Regular", Hexagon32RegularSvg);
-export const Hexagon48Filled = createIcon("Hexagon48Filled", Hexagon48FilledSvg);
-export const Hexagon48Regular = createIcon("Hexagon48Regular", Hexagon48RegularSvg);
+export const Hexagon12Filled = /** #__PURE__ */ createIcon("Hexagon12Filled", "12", Hexagon12FilledSvg);
+export const Hexagon12Regular = /** #__PURE__ */ createIcon("Hexagon12Regular", "12", Hexagon12RegularSvg);
+export const Hexagon16Filled = /** #__PURE__ */ createIcon("Hexagon16Filled", "16", Hexagon16FilledSvg);
+export const Hexagon16Regular = /** #__PURE__ */ createIcon("Hexagon16Regular", "16", Hexagon16RegularSvg);
+export const Hexagon20Filled = /** #__PURE__ */ createIcon("Hexagon20Filled", "20", Hexagon20FilledSvg);
+export const HexagonFilled = /** #__PURE__ */ createIcon("HexagonFilled", "1em", Hexagon20FilledSvg);
+export const Hexagon20Regular = /** #__PURE__ */ createIcon("Hexagon20Regular", "20", Hexagon20RegularSvg);
+export const HexagonRegular = /** #__PURE__ */ createIcon("HexagonRegular", "1em", Hexagon20RegularSvg);
+export const Hexagon24Filled = /** #__PURE__ */ createIcon("Hexagon24Filled", "24", Hexagon24FilledSvg);
+export const Hexagon24Regular = /** #__PURE__ */ createIcon("Hexagon24Regular", "24", Hexagon24RegularSvg);
+export const Hexagon28Filled = /** #__PURE__ */ createIcon("Hexagon28Filled", "28", Hexagon28FilledSvg);
+export const Hexagon28Regular = /** #__PURE__ */ createIcon("Hexagon28Regular", "28", Hexagon28RegularSvg);
+export const Hexagon32Filled = /** #__PURE__ */ createIcon("Hexagon32Filled", "32", Hexagon32FilledSvg);
+export const Hexagon32Regular = /** #__PURE__ */ createIcon("Hexagon32Regular", "32", Hexagon32RegularSvg);
+export const Hexagon48Filled = /** #__PURE__ */ createIcon("Hexagon48Filled", "48", Hexagon48FilledSvg);
+export const Hexagon48Regular = /** #__PURE__ */ createIcon("Hexagon48Regular", "48", Hexagon48RegularSvg);

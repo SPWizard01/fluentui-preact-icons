@@ -18,22 +18,25 @@ import Settings48ColorSvg from "@fluentui/svg-icons/icons/settings_48_color.svg"
 import Settings48FilledSvg from "@fluentui/svg-icons/icons/settings_48_filled.svg" with { type: "text" }
 import Settings48RegularSvg from "@fluentui/svg-icons/icons/settings_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Settings16Color = createIcon("Settings16Color", Settings16ColorSvg);
-export const Settings16Filled = createIcon("Settings16Filled", Settings16FilledSvg);
-export const Settings16Regular = createIcon("Settings16Regular", Settings16RegularSvg);
-export const Settings20Color = createIcon("Settings20Color", Settings20ColorSvg);
-export const Settings20Filled = createIcon("Settings20Filled", Settings20FilledSvg);
-export const Settings20Regular = createIcon("Settings20Regular", Settings20RegularSvg);
-export const Settings24Color = createIcon("Settings24Color", Settings24ColorSvg);
-export const Settings24Filled = createIcon("Settings24Filled", Settings24FilledSvg);
-export const Settings24Regular = createIcon("Settings24Regular", Settings24RegularSvg);
-export const Settings28Color = createIcon("Settings28Color", Settings28ColorSvg);
-export const Settings28Filled = createIcon("Settings28Filled", Settings28FilledSvg);
-export const Settings28Regular = createIcon("Settings28Regular", Settings28RegularSvg);
-export const Settings32Color = createIcon("Settings32Color", Settings32ColorSvg);
-export const Settings32Filled = createIcon("Settings32Filled", Settings32FilledSvg);
-export const Settings32Light = createIcon("Settings32Light", Settings32LightSvg);
-export const Settings32Regular = createIcon("Settings32Regular", Settings32RegularSvg);
-export const Settings48Color = createIcon("Settings48Color", Settings48ColorSvg);
-export const Settings48Filled = createIcon("Settings48Filled", Settings48FilledSvg);
-export const Settings48Regular = createIcon("Settings48Regular", Settings48RegularSvg);
+export const Settings16Color = /** #__PURE__ */ createIcon("Settings16Color", "16", Settings16ColorSvg);
+export const Settings16Filled = /** #__PURE__ */ createIcon("Settings16Filled", "16", Settings16FilledSvg);
+export const Settings16Regular = /** #__PURE__ */ createIcon("Settings16Regular", "16", Settings16RegularSvg);
+export const Settings20Color = /** #__PURE__ */ createIcon("Settings20Color", "20", Settings20ColorSvg);
+export const SettingsColor = /** #__PURE__ */ createIcon("SettingsColor", "1em", Settings20ColorSvg);
+export const Settings20Filled = /** #__PURE__ */ createIcon("Settings20Filled", "20", Settings20FilledSvg);
+export const SettingsFilled = /** #__PURE__ */ createIcon("SettingsFilled", "1em", Settings20FilledSvg);
+export const Settings20Regular = /** #__PURE__ */ createIcon("Settings20Regular", "20", Settings20RegularSvg);
+export const SettingsRegular = /** #__PURE__ */ createIcon("SettingsRegular", "1em", Settings20RegularSvg);
+export const Settings24Color = /** #__PURE__ */ createIcon("Settings24Color", "24", Settings24ColorSvg);
+export const Settings24Filled = /** #__PURE__ */ createIcon("Settings24Filled", "24", Settings24FilledSvg);
+export const Settings24Regular = /** #__PURE__ */ createIcon("Settings24Regular", "24", Settings24RegularSvg);
+export const Settings28Color = /** #__PURE__ */ createIcon("Settings28Color", "28", Settings28ColorSvg);
+export const Settings28Filled = /** #__PURE__ */ createIcon("Settings28Filled", "28", Settings28FilledSvg);
+export const Settings28Regular = /** #__PURE__ */ createIcon("Settings28Regular", "28", Settings28RegularSvg);
+export const Settings32Color = /** #__PURE__ */ createIcon("Settings32Color", "32", Settings32ColorSvg);
+export const Settings32Filled = /** #__PURE__ */ createIcon("Settings32Filled", "32", Settings32FilledSvg);
+export const Settings32Light = /** #__PURE__ */ createIcon("Settings32Light", "32", Settings32LightSvg);
+export const Settings32Regular = /** #__PURE__ */ createIcon("Settings32Regular", "32", Settings32RegularSvg);
+export const Settings48Color = /** #__PURE__ */ createIcon("Settings48Color", "48", Settings48ColorSvg);
+export const Settings48Filled = /** #__PURE__ */ createIcon("Settings48Filled", "48", Settings48FilledSvg);
+export const Settings48Regular = /** #__PURE__ */ createIcon("Settings48Regular", "48", Settings48RegularSvg);

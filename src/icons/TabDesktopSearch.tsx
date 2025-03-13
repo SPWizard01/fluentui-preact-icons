@@ -5,9 +5,11 @@ import TabDesktopSearch20RegularSvg from "@fluentui/svg-icons/icons/tab_desktop_
 import TabDesktopSearch24FilledSvg from "@fluentui/svg-icons/icons/tab_desktop_search_24_filled.svg" with { type: "text" }
 import TabDesktopSearch24RegularSvg from "@fluentui/svg-icons/icons/tab_desktop_search_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TabDesktopSearch16Filled = createIcon("TabDesktopSearch16Filled", TabDesktopSearch16FilledSvg);
-export const TabDesktopSearch16Regular = createIcon("TabDesktopSearch16Regular", TabDesktopSearch16RegularSvg);
-export const TabDesktopSearch20Filled = createIcon("TabDesktopSearch20Filled", TabDesktopSearch20FilledSvg);
-export const TabDesktopSearch20Regular = createIcon("TabDesktopSearch20Regular", TabDesktopSearch20RegularSvg);
-export const TabDesktopSearch24Filled = createIcon("TabDesktopSearch24Filled", TabDesktopSearch24FilledSvg);
-export const TabDesktopSearch24Regular = createIcon("TabDesktopSearch24Regular", TabDesktopSearch24RegularSvg);
+export const TabDesktopSearch16Filled = /** #__PURE__ */ createIcon("TabDesktopSearch16Filled", "16", TabDesktopSearch16FilledSvg);
+export const TabDesktopSearch16Regular = /** #__PURE__ */ createIcon("TabDesktopSearch16Regular", "16", TabDesktopSearch16RegularSvg);
+export const TabDesktopSearch20Filled = /** #__PURE__ */ createIcon("TabDesktopSearch20Filled", "20", TabDesktopSearch20FilledSvg);
+export const TabDesktopSearchFilled = /** #__PURE__ */ createIcon("TabDesktopSearchFilled", "1em", TabDesktopSearch20FilledSvg);
+export const TabDesktopSearch20Regular = /** #__PURE__ */ createIcon("TabDesktopSearch20Regular", "20", TabDesktopSearch20RegularSvg);
+export const TabDesktopSearchRegular = /** #__PURE__ */ createIcon("TabDesktopSearchRegular", "1em", TabDesktopSearch20RegularSvg);
+export const TabDesktopSearch24Filled = /** #__PURE__ */ createIcon("TabDesktopSearch24Filled", "24", TabDesktopSearch24FilledSvg);
+export const TabDesktopSearch24Regular = /** #__PURE__ */ createIcon("TabDesktopSearch24Regular", "24", TabDesktopSearch24RegularSvg);

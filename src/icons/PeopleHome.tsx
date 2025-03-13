@@ -5,9 +5,10 @@ import PeopleHome28ColorSvg from "@fluentui/svg-icons/icons/people_home_28_color
 import PeopleHome32ColorSvg from "@fluentui/svg-icons/icons/people_home_32_color.svg" with { type: "text" }
 import PeopleHome48ColorSvg from "@fluentui/svg-icons/icons/people_home_48_color.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PeopleHome16Color = createIcon("PeopleHome16Color", PeopleHome16ColorSvg);
-export const PeopleHome20Color = createIcon("PeopleHome20Color", PeopleHome20ColorSvg);
-export const PeopleHome24Color = createIcon("PeopleHome24Color", PeopleHome24ColorSvg);
-export const PeopleHome28Color = createIcon("PeopleHome28Color", PeopleHome28ColorSvg);
-export const PeopleHome32Color = createIcon("PeopleHome32Color", PeopleHome32ColorSvg);
-export const PeopleHome48Color = createIcon("PeopleHome48Color", PeopleHome48ColorSvg);
+export const PeopleHome16Color = /** #__PURE__ */ createIcon("PeopleHome16Color", "16", PeopleHome16ColorSvg);
+export const PeopleHome20Color = /** #__PURE__ */ createIcon("PeopleHome20Color", "20", PeopleHome20ColorSvg);
+export const PeopleHomeColor = /** #__PURE__ */ createIcon("PeopleHomeColor", "1em", PeopleHome20ColorSvg);
+export const PeopleHome24Color = /** #__PURE__ */ createIcon("PeopleHome24Color", "24", PeopleHome24ColorSvg);
+export const PeopleHome28Color = /** #__PURE__ */ createIcon("PeopleHome28Color", "28", PeopleHome28ColorSvg);
+export const PeopleHome32Color = /** #__PURE__ */ createIcon("PeopleHome32Color", "32", PeopleHome32ColorSvg);
+export const PeopleHome48Color = /** #__PURE__ */ createIcon("PeopleHome48Color", "48", PeopleHome48ColorSvg);

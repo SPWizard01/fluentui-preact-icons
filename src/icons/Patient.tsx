@@ -8,12 +8,15 @@ import Patient32ColorSvg from "@fluentui/svg-icons/icons/patient_32_color.svg" w
 import Patient32FilledSvg from "@fluentui/svg-icons/icons/patient_32_filled.svg" with { type: "text" }
 import Patient32RegularSvg from "@fluentui/svg-icons/icons/patient_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Patient20Color = createIcon("Patient20Color", Patient20ColorSvg);
-export const Patient20Filled = createIcon("Patient20Filled", Patient20FilledSvg);
-export const Patient20Regular = createIcon("Patient20Regular", Patient20RegularSvg);
-export const Patient24Color = createIcon("Patient24Color", Patient24ColorSvg);
-export const Patient24Filled = createIcon("Patient24Filled", Patient24FilledSvg);
-export const Patient24Regular = createIcon("Patient24Regular", Patient24RegularSvg);
-export const Patient32Color = createIcon("Patient32Color", Patient32ColorSvg);
-export const Patient32Filled = createIcon("Patient32Filled", Patient32FilledSvg);
-export const Patient32Regular = createIcon("Patient32Regular", Patient32RegularSvg);
+export const Patient20Color = /** #__PURE__ */ createIcon("Patient20Color", "20", Patient20ColorSvg);
+export const PatientColor = /** #__PURE__ */ createIcon("PatientColor", "1em", Patient20ColorSvg);
+export const Patient20Filled = /** #__PURE__ */ createIcon("Patient20Filled", "20", Patient20FilledSvg);
+export const PatientFilled = /** #__PURE__ */ createIcon("PatientFilled", "1em", Patient20FilledSvg);
+export const Patient20Regular = /** #__PURE__ */ createIcon("Patient20Regular", "20", Patient20RegularSvg);
+export const PatientRegular = /** #__PURE__ */ createIcon("PatientRegular", "1em", Patient20RegularSvg);
+export const Patient24Color = /** #__PURE__ */ createIcon("Patient24Color", "24", Patient24ColorSvg);
+export const Patient24Filled = /** #__PURE__ */ createIcon("Patient24Filled", "24", Patient24FilledSvg);
+export const Patient24Regular = /** #__PURE__ */ createIcon("Patient24Regular", "24", Patient24RegularSvg);
+export const Patient32Color = /** #__PURE__ */ createIcon("Patient32Color", "32", Patient32ColorSvg);
+export const Patient32Filled = /** #__PURE__ */ createIcon("Patient32Filled", "32", Patient32FilledSvg);
+export const Patient32Regular = /** #__PURE__ */ createIcon("Patient32Regular", "32", Patient32RegularSvg);

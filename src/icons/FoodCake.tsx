@@ -7,11 +7,13 @@ import FoodCake20RegularSvg from "@fluentui/svg-icons/icons/food_cake_20_regular
 import FoodCake24FilledSvg from "@fluentui/svg-icons/icons/food_cake_24_filled.svg" with { type: "text" }
 import FoodCake24RegularSvg from "@fluentui/svg-icons/icons/food_cake_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const FoodCake12Filled = createIcon("FoodCake12Filled", FoodCake12FilledSvg);
-export const FoodCake12Regular = createIcon("FoodCake12Regular", FoodCake12RegularSvg);
-export const FoodCake16Filled = createIcon("FoodCake16Filled", FoodCake16FilledSvg);
-export const FoodCake16Regular = createIcon("FoodCake16Regular", FoodCake16RegularSvg);
-export const FoodCake20Filled = createIcon("FoodCake20Filled", FoodCake20FilledSvg);
-export const FoodCake20Regular = createIcon("FoodCake20Regular", FoodCake20RegularSvg);
-export const FoodCake24Filled = createIcon("FoodCake24Filled", FoodCake24FilledSvg);
-export const FoodCake24Regular = createIcon("FoodCake24Regular", FoodCake24RegularSvg);
+export const FoodCake12Filled = /** #__PURE__ */ createIcon("FoodCake12Filled", "12", FoodCake12FilledSvg);
+export const FoodCake12Regular = /** #__PURE__ */ createIcon("FoodCake12Regular", "12", FoodCake12RegularSvg);
+export const FoodCake16Filled = /** #__PURE__ */ createIcon("FoodCake16Filled", "16", FoodCake16FilledSvg);
+export const FoodCake16Regular = /** #__PURE__ */ createIcon("FoodCake16Regular", "16", FoodCake16RegularSvg);
+export const FoodCake20Filled = /** #__PURE__ */ createIcon("FoodCake20Filled", "20", FoodCake20FilledSvg);
+export const FoodCakeFilled = /** #__PURE__ */ createIcon("FoodCakeFilled", "1em", FoodCake20FilledSvg);
+export const FoodCake20Regular = /** #__PURE__ */ createIcon("FoodCake20Regular", "20", FoodCake20RegularSvg);
+export const FoodCakeRegular = /** #__PURE__ */ createIcon("FoodCakeRegular", "1em", FoodCake20RegularSvg);
+export const FoodCake24Filled = /** #__PURE__ */ createIcon("FoodCake24Filled", "24", FoodCake24FilledSvg);
+export const FoodCake24Regular = /** #__PURE__ */ createIcon("FoodCake24Regular", "24", FoodCake24RegularSvg);

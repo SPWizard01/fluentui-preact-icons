@@ -11,15 +11,17 @@ import Speaker032RegularSvg from "@fluentui/svg-icons/icons/speaker_0_32_regular
 import Speaker048FilledSvg from "@fluentui/svg-icons/icons/speaker_0_48_filled.svg" with { type: "text" }
 import Speaker048RegularSvg from "@fluentui/svg-icons/icons/speaker_0_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Speaker016Filled = createIcon("Speaker016Filled", Speaker016FilledSvg);
-export const Speaker016Regular = createIcon("Speaker016Regular", Speaker016RegularSvg);
-export const Speaker020Filled = createIcon("Speaker020Filled", Speaker020FilledSvg);
-export const Speaker020Regular = createIcon("Speaker020Regular", Speaker020RegularSvg);
-export const Speaker024Filled = createIcon("Speaker024Filled", Speaker024FilledSvg);
-export const Speaker024Regular = createIcon("Speaker024Regular", Speaker024RegularSvg);
-export const Speaker028Filled = createIcon("Speaker028Filled", Speaker028FilledSvg);
-export const Speaker028Regular = createIcon("Speaker028Regular", Speaker028RegularSvg);
-export const Speaker032Filled = createIcon("Speaker032Filled", Speaker032FilledSvg);
-export const Speaker032Regular = createIcon("Speaker032Regular", Speaker032RegularSvg);
-export const Speaker048Filled = createIcon("Speaker048Filled", Speaker048FilledSvg);
-export const Speaker048Regular = createIcon("Speaker048Regular", Speaker048RegularSvg);
+export const Speaker016Filled = /** #__PURE__ */ createIcon("Speaker016Filled", "16", Speaker016FilledSvg);
+export const Speaker016Regular = /** #__PURE__ */ createIcon("Speaker016Regular", "16", Speaker016RegularSvg);
+export const Speaker020Filled = /** #__PURE__ */ createIcon("Speaker020Filled", "20", Speaker020FilledSvg);
+export const Speaker0Filled = /** #__PURE__ */ createIcon("Speaker0Filled", "1em", Speaker020FilledSvg);
+export const Speaker020Regular = /** #__PURE__ */ createIcon("Speaker020Regular", "20", Speaker020RegularSvg);
+export const Speaker0Regular = /** #__PURE__ */ createIcon("Speaker0Regular", "1em", Speaker020RegularSvg);
+export const Speaker024Filled = /** #__PURE__ */ createIcon("Speaker024Filled", "24", Speaker024FilledSvg);
+export const Speaker024Regular = /** #__PURE__ */ createIcon("Speaker024Regular", "24", Speaker024RegularSvg);
+export const Speaker028Filled = /** #__PURE__ */ createIcon("Speaker028Filled", "28", Speaker028FilledSvg);
+export const Speaker028Regular = /** #__PURE__ */ createIcon("Speaker028Regular", "28", Speaker028RegularSvg);
+export const Speaker032Filled = /** #__PURE__ */ createIcon("Speaker032Filled", "32", Speaker032FilledSvg);
+export const Speaker032Regular = /** #__PURE__ */ createIcon("Speaker032Regular", "32", Speaker032RegularSvg);
+export const Speaker048Filled = /** #__PURE__ */ createIcon("Speaker048Filled", "48", Speaker048FilledSvg);
+export const Speaker048Regular = /** #__PURE__ */ createIcon("Speaker048Regular", "48", Speaker048RegularSvg);

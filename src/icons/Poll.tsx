@@ -12,16 +12,19 @@ import Poll32FilledSvg from "@fluentui/svg-icons/icons/poll_32_filled.svg" with 
 import Poll32LightSvg from "@fluentui/svg-icons/icons/poll_32_light.svg" with { type: "text" }
 import Poll32RegularSvg from "@fluentui/svg-icons/icons/poll_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Poll16Color = createIcon("Poll16Color", Poll16ColorSvg);
-export const Poll16Filled = createIcon("Poll16Filled", Poll16FilledSvg);
-export const Poll16Regular = createIcon("Poll16Regular", Poll16RegularSvg);
-export const Poll20Color = createIcon("Poll20Color", Poll20ColorSvg);
-export const Poll20Filled = createIcon("Poll20Filled", Poll20FilledSvg);
-export const Poll20Regular = createIcon("Poll20Regular", Poll20RegularSvg);
-export const Poll24Color = createIcon("Poll24Color", Poll24ColorSvg);
-export const Poll24Filled = createIcon("Poll24Filled", Poll24FilledSvg);
-export const Poll24Regular = createIcon("Poll24Regular", Poll24RegularSvg);
-export const Poll32Color = createIcon("Poll32Color", Poll32ColorSvg);
-export const Poll32Filled = createIcon("Poll32Filled", Poll32FilledSvg);
-export const Poll32Light = createIcon("Poll32Light", Poll32LightSvg);
-export const Poll32Regular = createIcon("Poll32Regular", Poll32RegularSvg);
+export const Poll16Color = /** #__PURE__ */ createIcon("Poll16Color", "16", Poll16ColorSvg);
+export const Poll16Filled = /** #__PURE__ */ createIcon("Poll16Filled", "16", Poll16FilledSvg);
+export const Poll16Regular = /** #__PURE__ */ createIcon("Poll16Regular", "16", Poll16RegularSvg);
+export const Poll20Color = /** #__PURE__ */ createIcon("Poll20Color", "20", Poll20ColorSvg);
+export const PollColor = /** #__PURE__ */ createIcon("PollColor", "1em", Poll20ColorSvg);
+export const Poll20Filled = /** #__PURE__ */ createIcon("Poll20Filled", "20", Poll20FilledSvg);
+export const PollFilled = /** #__PURE__ */ createIcon("PollFilled", "1em", Poll20FilledSvg);
+export const Poll20Regular = /** #__PURE__ */ createIcon("Poll20Regular", "20", Poll20RegularSvg);
+export const PollRegular = /** #__PURE__ */ createIcon("PollRegular", "1em", Poll20RegularSvg);
+export const Poll24Color = /** #__PURE__ */ createIcon("Poll24Color", "24", Poll24ColorSvg);
+export const Poll24Filled = /** #__PURE__ */ createIcon("Poll24Filled", "24", Poll24FilledSvg);
+export const Poll24Regular = /** #__PURE__ */ createIcon("Poll24Regular", "24", Poll24RegularSvg);
+export const Poll32Color = /** #__PURE__ */ createIcon("Poll32Color", "32", Poll32ColorSvg);
+export const Poll32Filled = /** #__PURE__ */ createIcon("Poll32Filled", "32", Poll32FilledSvg);
+export const Poll32Light = /** #__PURE__ */ createIcon("Poll32Light", "32", Poll32LightSvg);
+export const Poll32Regular = /** #__PURE__ */ createIcon("Poll32Regular", "32", Poll32RegularSvg);

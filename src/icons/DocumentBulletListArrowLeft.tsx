@@ -5,9 +5,11 @@ import DocumentBulletListArrowLeft20RegularSvg from "@fluentui/svg-icons/icons/d
 import DocumentBulletListArrowLeft24FilledSvg from "@fluentui/svg-icons/icons/document_bullet_list_arrow_left_24_filled.svg" with { type: "text" }
 import DocumentBulletListArrowLeft24RegularSvg from "@fluentui/svg-icons/icons/document_bullet_list_arrow_left_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const DocumentBulletListArrowLeft16Filled = createIcon("DocumentBulletListArrowLeft16Filled", DocumentBulletListArrowLeft16FilledSvg);
-export const DocumentBulletListArrowLeft16Regular = createIcon("DocumentBulletListArrowLeft16Regular", DocumentBulletListArrowLeft16RegularSvg);
-export const DocumentBulletListArrowLeft20Filled = createIcon("DocumentBulletListArrowLeft20Filled", DocumentBulletListArrowLeft20FilledSvg);
-export const DocumentBulletListArrowLeft20Regular = createIcon("DocumentBulletListArrowLeft20Regular", DocumentBulletListArrowLeft20RegularSvg);
-export const DocumentBulletListArrowLeft24Filled = createIcon("DocumentBulletListArrowLeft24Filled", DocumentBulletListArrowLeft24FilledSvg);
-export const DocumentBulletListArrowLeft24Regular = createIcon("DocumentBulletListArrowLeft24Regular", DocumentBulletListArrowLeft24RegularSvg);
+export const DocumentBulletListArrowLeft16Filled = /** #__PURE__ */ createIcon("DocumentBulletListArrowLeft16Filled", "16", DocumentBulletListArrowLeft16FilledSvg);
+export const DocumentBulletListArrowLeft16Regular = /** #__PURE__ */ createIcon("DocumentBulletListArrowLeft16Regular", "16", DocumentBulletListArrowLeft16RegularSvg);
+export const DocumentBulletListArrowLeft20Filled = /** #__PURE__ */ createIcon("DocumentBulletListArrowLeft20Filled", "20", DocumentBulletListArrowLeft20FilledSvg);
+export const DocumentBulletListArrowLeftFilled = /** #__PURE__ */ createIcon("DocumentBulletListArrowLeftFilled", "1em", DocumentBulletListArrowLeft20FilledSvg);
+export const DocumentBulletListArrowLeft20Regular = /** #__PURE__ */ createIcon("DocumentBulletListArrowLeft20Regular", "20", DocumentBulletListArrowLeft20RegularSvg);
+export const DocumentBulletListArrowLeftRegular = /** #__PURE__ */ createIcon("DocumentBulletListArrowLeftRegular", "1em", DocumentBulletListArrowLeft20RegularSvg);
+export const DocumentBulletListArrowLeft24Filled = /** #__PURE__ */ createIcon("DocumentBulletListArrowLeft24Filled", "24", DocumentBulletListArrowLeft24FilledSvg);
+export const DocumentBulletListArrowLeft24Regular = /** #__PURE__ */ createIcon("DocumentBulletListArrowLeft24Regular", "24", DocumentBulletListArrowLeft24RegularSvg);

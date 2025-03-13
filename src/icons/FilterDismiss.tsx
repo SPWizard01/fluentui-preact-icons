@@ -5,9 +5,11 @@ import FilterDismiss20RegularSvg from "@fluentui/svg-icons/icons/filter_dismiss_
 import FilterDismiss24FilledSvg from "@fluentui/svg-icons/icons/filter_dismiss_24_filled.svg" with { type: "text" }
 import FilterDismiss24RegularSvg from "@fluentui/svg-icons/icons/filter_dismiss_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const FilterDismiss16Filled = createIcon("FilterDismiss16Filled", FilterDismiss16FilledSvg);
-export const FilterDismiss16Regular = createIcon("FilterDismiss16Regular", FilterDismiss16RegularSvg);
-export const FilterDismiss20Filled = createIcon("FilterDismiss20Filled", FilterDismiss20FilledSvg);
-export const FilterDismiss20Regular = createIcon("FilterDismiss20Regular", FilterDismiss20RegularSvg);
-export const FilterDismiss24Filled = createIcon("FilterDismiss24Filled", FilterDismiss24FilledSvg);
-export const FilterDismiss24Regular = createIcon("FilterDismiss24Regular", FilterDismiss24RegularSvg);
+export const FilterDismiss16Filled = /** #__PURE__ */ createIcon("FilterDismiss16Filled", "16", FilterDismiss16FilledSvg);
+export const FilterDismiss16Regular = /** #__PURE__ */ createIcon("FilterDismiss16Regular", "16", FilterDismiss16RegularSvg);
+export const FilterDismiss20Filled = /** #__PURE__ */ createIcon("FilterDismiss20Filled", "20", FilterDismiss20FilledSvg);
+export const FilterDismissFilled = /** #__PURE__ */ createIcon("FilterDismissFilled", "1em", FilterDismiss20FilledSvg);
+export const FilterDismiss20Regular = /** #__PURE__ */ createIcon("FilterDismiss20Regular", "20", FilterDismiss20RegularSvg);
+export const FilterDismissRegular = /** #__PURE__ */ createIcon("FilterDismissRegular", "1em", FilterDismiss20RegularSvg);
+export const FilterDismiss24Filled = /** #__PURE__ */ createIcon("FilterDismiss24Filled", "24", FilterDismiss24FilledSvg);
+export const FilterDismiss24Regular = /** #__PURE__ */ createIcon("FilterDismiss24Regular", "24", FilterDismiss24RegularSvg);

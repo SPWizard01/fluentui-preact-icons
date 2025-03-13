@@ -8,12 +8,15 @@ import WeatherSunnyLow48ColorSvg from "@fluentui/svg-icons/icons/weather_sunny_l
 import WeatherSunnyLow48FilledSvg from "@fluentui/svg-icons/icons/weather_sunny_low_48_filled.svg" with { type: "text" }
 import WeatherSunnyLow48RegularSvg from "@fluentui/svg-icons/icons/weather_sunny_low_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const WeatherSunnyLow20Color = createIcon("WeatherSunnyLow20Color", WeatherSunnyLow20ColorSvg);
-export const WeatherSunnyLow20Filled = createIcon("WeatherSunnyLow20Filled", WeatherSunnyLow20FilledSvg);
-export const WeatherSunnyLow20Regular = createIcon("WeatherSunnyLow20Regular", WeatherSunnyLow20RegularSvg);
-export const WeatherSunnyLow24Color = createIcon("WeatherSunnyLow24Color", WeatherSunnyLow24ColorSvg);
-export const WeatherSunnyLow24Filled = createIcon("WeatherSunnyLow24Filled", WeatherSunnyLow24FilledSvg);
-export const WeatherSunnyLow24Regular = createIcon("WeatherSunnyLow24Regular", WeatherSunnyLow24RegularSvg);
-export const WeatherSunnyLow48Color = createIcon("WeatherSunnyLow48Color", WeatherSunnyLow48ColorSvg);
-export const WeatherSunnyLow48Filled = createIcon("WeatherSunnyLow48Filled", WeatherSunnyLow48FilledSvg);
-export const WeatherSunnyLow48Regular = createIcon("WeatherSunnyLow48Regular", WeatherSunnyLow48RegularSvg);
+export const WeatherSunnyLow20Color = /** #__PURE__ */ createIcon("WeatherSunnyLow20Color", "20", WeatherSunnyLow20ColorSvg);
+export const WeatherSunnyLowColor = /** #__PURE__ */ createIcon("WeatherSunnyLowColor", "1em", WeatherSunnyLow20ColorSvg);
+export const WeatherSunnyLow20Filled = /** #__PURE__ */ createIcon("WeatherSunnyLow20Filled", "20", WeatherSunnyLow20FilledSvg);
+export const WeatherSunnyLowFilled = /** #__PURE__ */ createIcon("WeatherSunnyLowFilled", "1em", WeatherSunnyLow20FilledSvg);
+export const WeatherSunnyLow20Regular = /** #__PURE__ */ createIcon("WeatherSunnyLow20Regular", "20", WeatherSunnyLow20RegularSvg);
+export const WeatherSunnyLowRegular = /** #__PURE__ */ createIcon("WeatherSunnyLowRegular", "1em", WeatherSunnyLow20RegularSvg);
+export const WeatherSunnyLow24Color = /** #__PURE__ */ createIcon("WeatherSunnyLow24Color", "24", WeatherSunnyLow24ColorSvg);
+export const WeatherSunnyLow24Filled = /** #__PURE__ */ createIcon("WeatherSunnyLow24Filled", "24", WeatherSunnyLow24FilledSvg);
+export const WeatherSunnyLow24Regular = /** #__PURE__ */ createIcon("WeatherSunnyLow24Regular", "24", WeatherSunnyLow24RegularSvg);
+export const WeatherSunnyLow48Color = /** #__PURE__ */ createIcon("WeatherSunnyLow48Color", "48", WeatherSunnyLow48ColorSvg);
+export const WeatherSunnyLow48Filled = /** #__PURE__ */ createIcon("WeatherSunnyLow48Filled", "48", WeatherSunnyLow48FilledSvg);
+export const WeatherSunnyLow48Regular = /** #__PURE__ */ createIcon("WeatherSunnyLow48Regular", "48", WeatherSunnyLow48RegularSvg);

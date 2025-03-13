@@ -11,15 +11,17 @@ import Mention32RegularSvg from "@fluentui/svg-icons/icons/mention_32_regular.sv
 import Mention48FilledSvg from "@fluentui/svg-icons/icons/mention_48_filled.svg" with { type: "text" }
 import Mention48RegularSvg from "@fluentui/svg-icons/icons/mention_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Mention12Filled = createIcon("Mention12Filled", Mention12FilledSvg);
-export const Mention12Regular = createIcon("Mention12Regular", Mention12RegularSvg);
-export const Mention16Filled = createIcon("Mention16Filled", Mention16FilledSvg);
-export const Mention16Regular = createIcon("Mention16Regular", Mention16RegularSvg);
-export const Mention20Filled = createIcon("Mention20Filled", Mention20FilledSvg);
-export const Mention20Regular = createIcon("Mention20Regular", Mention20RegularSvg);
-export const Mention24Filled = createIcon("Mention24Filled", Mention24FilledSvg);
-export const Mention24Regular = createIcon("Mention24Regular", Mention24RegularSvg);
-export const Mention32Filled = createIcon("Mention32Filled", Mention32FilledSvg);
-export const Mention32Regular = createIcon("Mention32Regular", Mention32RegularSvg);
-export const Mention48Filled = createIcon("Mention48Filled", Mention48FilledSvg);
-export const Mention48Regular = createIcon("Mention48Regular", Mention48RegularSvg);
+export const Mention12Filled = /** #__PURE__ */ createIcon("Mention12Filled", "12", Mention12FilledSvg);
+export const Mention12Regular = /** #__PURE__ */ createIcon("Mention12Regular", "12", Mention12RegularSvg);
+export const Mention16Filled = /** #__PURE__ */ createIcon("Mention16Filled", "16", Mention16FilledSvg);
+export const Mention16Regular = /** #__PURE__ */ createIcon("Mention16Regular", "16", Mention16RegularSvg);
+export const Mention20Filled = /** #__PURE__ */ createIcon("Mention20Filled", "20", Mention20FilledSvg);
+export const MentionFilled = /** #__PURE__ */ createIcon("MentionFilled", "1em", Mention20FilledSvg);
+export const Mention20Regular = /** #__PURE__ */ createIcon("Mention20Regular", "20", Mention20RegularSvg);
+export const MentionRegular = /** #__PURE__ */ createIcon("MentionRegular", "1em", Mention20RegularSvg);
+export const Mention24Filled = /** #__PURE__ */ createIcon("Mention24Filled", "24", Mention24FilledSvg);
+export const Mention24Regular = /** #__PURE__ */ createIcon("Mention24Regular", "24", Mention24RegularSvg);
+export const Mention32Filled = /** #__PURE__ */ createIcon("Mention32Filled", "32", Mention32FilledSvg);
+export const Mention32Regular = /** #__PURE__ */ createIcon("Mention32Regular", "32", Mention32RegularSvg);
+export const Mention48Filled = /** #__PURE__ */ createIcon("Mention48Filled", "48", Mention48FilledSvg);
+export const Mention48Regular = /** #__PURE__ */ createIcon("Mention48Regular", "48", Mention48RegularSvg);

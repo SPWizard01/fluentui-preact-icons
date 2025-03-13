@@ -5,9 +5,11 @@ import TextboxAlignMiddle20RegularSvg from "@fluentui/svg-icons/icons/textbox_al
 import TextboxAlignMiddle24FilledSvg from "@fluentui/svg-icons/icons/textbox_align_middle_24_filled.svg" with { type: "text" }
 import TextboxAlignMiddle24RegularSvg from "@fluentui/svg-icons/icons/textbox_align_middle_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TextboxAlignMiddle16Filled = createIcon("TextboxAlignMiddle16Filled", TextboxAlignMiddle16FilledSvg);
-export const TextboxAlignMiddle16Regular = createIcon("TextboxAlignMiddle16Regular", TextboxAlignMiddle16RegularSvg);
-export const TextboxAlignMiddle20Filled = createIcon("TextboxAlignMiddle20Filled", TextboxAlignMiddle20FilledSvg);
-export const TextboxAlignMiddle20Regular = createIcon("TextboxAlignMiddle20Regular", TextboxAlignMiddle20RegularSvg);
-export const TextboxAlignMiddle24Filled = createIcon("TextboxAlignMiddle24Filled", TextboxAlignMiddle24FilledSvg);
-export const TextboxAlignMiddle24Regular = createIcon("TextboxAlignMiddle24Regular", TextboxAlignMiddle24RegularSvg);
+export const TextboxAlignMiddle16Filled = /** #__PURE__ */ createIcon("TextboxAlignMiddle16Filled", "16", TextboxAlignMiddle16FilledSvg);
+export const TextboxAlignMiddle16Regular = /** #__PURE__ */ createIcon("TextboxAlignMiddle16Regular", "16", TextboxAlignMiddle16RegularSvg);
+export const TextboxAlignMiddle20Filled = /** #__PURE__ */ createIcon("TextboxAlignMiddle20Filled", "20", TextboxAlignMiddle20FilledSvg);
+export const TextboxAlignMiddleFilled = /** #__PURE__ */ createIcon("TextboxAlignMiddleFilled", "1em", TextboxAlignMiddle20FilledSvg);
+export const TextboxAlignMiddle20Regular = /** #__PURE__ */ createIcon("TextboxAlignMiddle20Regular", "20", TextboxAlignMiddle20RegularSvg);
+export const TextboxAlignMiddleRegular = /** #__PURE__ */ createIcon("TextboxAlignMiddleRegular", "1em", TextboxAlignMiddle20RegularSvg);
+export const TextboxAlignMiddle24Filled = /** #__PURE__ */ createIcon("TextboxAlignMiddle24Filled", "24", TextboxAlignMiddle24FilledSvg);
+export const TextboxAlignMiddle24Regular = /** #__PURE__ */ createIcon("TextboxAlignMiddle24Regular", "24", TextboxAlignMiddle24RegularSvg);

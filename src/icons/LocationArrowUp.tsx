@@ -5,9 +5,11 @@ import LocationArrowUp20RegularSvg from "@fluentui/svg-icons/icons/location_arro
 import LocationArrowUp48FilledSvg from "@fluentui/svg-icons/icons/location_arrow_up_48_filled.svg" with { type: "text" }
 import LocationArrowUp48RegularSvg from "@fluentui/svg-icons/icons/location_arrow_up_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const LocationArrowUp16Filled = createIcon("LocationArrowUp16Filled", LocationArrowUp16FilledSvg);
-export const LocationArrowUp16Regular = createIcon("LocationArrowUp16Regular", LocationArrowUp16RegularSvg);
-export const LocationArrowUp20Filled = createIcon("LocationArrowUp20Filled", LocationArrowUp20FilledSvg);
-export const LocationArrowUp20Regular = createIcon("LocationArrowUp20Regular", LocationArrowUp20RegularSvg);
-export const LocationArrowUp48Filled = createIcon("LocationArrowUp48Filled", LocationArrowUp48FilledSvg);
-export const LocationArrowUp48Regular = createIcon("LocationArrowUp48Regular", LocationArrowUp48RegularSvg);
+export const LocationArrowUp16Filled = /** #__PURE__ */ createIcon("LocationArrowUp16Filled", "16", LocationArrowUp16FilledSvg);
+export const LocationArrowUp16Regular = /** #__PURE__ */ createIcon("LocationArrowUp16Regular", "16", LocationArrowUp16RegularSvg);
+export const LocationArrowUp20Filled = /** #__PURE__ */ createIcon("LocationArrowUp20Filled", "20", LocationArrowUp20FilledSvg);
+export const LocationArrowUpFilled = /** #__PURE__ */ createIcon("LocationArrowUpFilled", "1em", LocationArrowUp20FilledSvg);
+export const LocationArrowUp20Regular = /** #__PURE__ */ createIcon("LocationArrowUp20Regular", "20", LocationArrowUp20RegularSvg);
+export const LocationArrowUpRegular = /** #__PURE__ */ createIcon("LocationArrowUpRegular", "1em", LocationArrowUp20RegularSvg);
+export const LocationArrowUp48Filled = /** #__PURE__ */ createIcon("LocationArrowUp48Filled", "48", LocationArrowUp48FilledSvg);
+export const LocationArrowUp48Regular = /** #__PURE__ */ createIcon("LocationArrowUp48Regular", "48", LocationArrowUp48RegularSvg);

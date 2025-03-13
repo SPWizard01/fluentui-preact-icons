@@ -5,9 +5,11 @@ import ArchiveMultiple20RegularSvg from "@fluentui/svg-icons/icons/archive_multi
 import ArchiveMultiple24FilledSvg from "@fluentui/svg-icons/icons/archive_multiple_24_filled.svg" with { type: "text" }
 import ArchiveMultiple24RegularSvg from "@fluentui/svg-icons/icons/archive_multiple_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ArchiveMultiple16Filled = createIcon("ArchiveMultiple16Filled", ArchiveMultiple16FilledSvg);
-export const ArchiveMultiple16Regular = createIcon("ArchiveMultiple16Regular", ArchiveMultiple16RegularSvg);
-export const ArchiveMultiple20Filled = createIcon("ArchiveMultiple20Filled", ArchiveMultiple20FilledSvg);
-export const ArchiveMultiple20Regular = createIcon("ArchiveMultiple20Regular", ArchiveMultiple20RegularSvg);
-export const ArchiveMultiple24Filled = createIcon("ArchiveMultiple24Filled", ArchiveMultiple24FilledSvg);
-export const ArchiveMultiple24Regular = createIcon("ArchiveMultiple24Regular", ArchiveMultiple24RegularSvg);
+export const ArchiveMultiple16Filled = /** #__PURE__ */ createIcon("ArchiveMultiple16Filled", "16", ArchiveMultiple16FilledSvg);
+export const ArchiveMultiple16Regular = /** #__PURE__ */ createIcon("ArchiveMultiple16Regular", "16", ArchiveMultiple16RegularSvg);
+export const ArchiveMultiple20Filled = /** #__PURE__ */ createIcon("ArchiveMultiple20Filled", "20", ArchiveMultiple20FilledSvg);
+export const ArchiveMultipleFilled = /** #__PURE__ */ createIcon("ArchiveMultipleFilled", "1em", ArchiveMultiple20FilledSvg);
+export const ArchiveMultiple20Regular = /** #__PURE__ */ createIcon("ArchiveMultiple20Regular", "20", ArchiveMultiple20RegularSvg);
+export const ArchiveMultipleRegular = /** #__PURE__ */ createIcon("ArchiveMultipleRegular", "1em", ArchiveMultiple20RegularSvg);
+export const ArchiveMultiple24Filled = /** #__PURE__ */ createIcon("ArchiveMultiple24Filled", "24", ArchiveMultiple24FilledSvg);
+export const ArchiveMultiple24Regular = /** #__PURE__ */ createIcon("ArchiveMultiple24Regular", "24", ArchiveMultiple24RegularSvg);

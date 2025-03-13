@@ -7,11 +7,13 @@ import HandMultiple24RegularSvg from "@fluentui/svg-icons/icons/hand_multiple_24
 import HandMultiple28FilledSvg from "@fluentui/svg-icons/icons/hand_multiple_28_filled.svg" with { type: "text" }
 import HandMultiple28RegularSvg from "@fluentui/svg-icons/icons/hand_multiple_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const HandMultiple16Filled = createIcon("HandMultiple16Filled", HandMultiple16FilledSvg);
-export const HandMultiple16Regular = createIcon("HandMultiple16Regular", HandMultiple16RegularSvg);
-export const HandMultiple20Filled = createIcon("HandMultiple20Filled", HandMultiple20FilledSvg);
-export const HandMultiple20Regular = createIcon("HandMultiple20Regular", HandMultiple20RegularSvg);
-export const HandMultiple24Filled = createIcon("HandMultiple24Filled", HandMultiple24FilledSvg);
-export const HandMultiple24Regular = createIcon("HandMultiple24Regular", HandMultiple24RegularSvg);
-export const HandMultiple28Filled = createIcon("HandMultiple28Filled", HandMultiple28FilledSvg);
-export const HandMultiple28Regular = createIcon("HandMultiple28Regular", HandMultiple28RegularSvg);
+export const HandMultiple16Filled = /** #__PURE__ */ createIcon("HandMultiple16Filled", "16", HandMultiple16FilledSvg);
+export const HandMultiple16Regular = /** #__PURE__ */ createIcon("HandMultiple16Regular", "16", HandMultiple16RegularSvg);
+export const HandMultiple20Filled = /** #__PURE__ */ createIcon("HandMultiple20Filled", "20", HandMultiple20FilledSvg);
+export const HandMultipleFilled = /** #__PURE__ */ createIcon("HandMultipleFilled", "1em", HandMultiple20FilledSvg);
+export const HandMultiple20Regular = /** #__PURE__ */ createIcon("HandMultiple20Regular", "20", HandMultiple20RegularSvg);
+export const HandMultipleRegular = /** #__PURE__ */ createIcon("HandMultipleRegular", "1em", HandMultiple20RegularSvg);
+export const HandMultiple24Filled = /** #__PURE__ */ createIcon("HandMultiple24Filled", "24", HandMultiple24FilledSvg);
+export const HandMultiple24Regular = /** #__PURE__ */ createIcon("HandMultiple24Regular", "24", HandMultiple24RegularSvg);
+export const HandMultiple28Filled = /** #__PURE__ */ createIcon("HandMultiple28Filled", "28", HandMultiple28FilledSvg);
+export const HandMultiple28Regular = /** #__PURE__ */ createIcon("HandMultiple28Regular", "28", HandMultiple28RegularSvg);

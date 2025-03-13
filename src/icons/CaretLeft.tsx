@@ -7,11 +7,13 @@ import CaretLeft20RegularSvg from "@fluentui/svg-icons/icons/caret_left_20_regul
 import CaretLeft24FilledSvg from "@fluentui/svg-icons/icons/caret_left_24_filled.svg" with { type: "text" }
 import CaretLeft24RegularSvg from "@fluentui/svg-icons/icons/caret_left_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CaretLeft12Filled = createIcon("CaretLeft12Filled", CaretLeft12FilledSvg);
-export const CaretLeft12Regular = createIcon("CaretLeft12Regular", CaretLeft12RegularSvg);
-export const CaretLeft16Filled = createIcon("CaretLeft16Filled", CaretLeft16FilledSvg);
-export const CaretLeft16Regular = createIcon("CaretLeft16Regular", CaretLeft16RegularSvg);
-export const CaretLeft20Filled = createIcon("CaretLeft20Filled", CaretLeft20FilledSvg);
-export const CaretLeft20Regular = createIcon("CaretLeft20Regular", CaretLeft20RegularSvg);
-export const CaretLeft24Filled = createIcon("CaretLeft24Filled", CaretLeft24FilledSvg);
-export const CaretLeft24Regular = createIcon("CaretLeft24Regular", CaretLeft24RegularSvg);
+export const CaretLeft12Filled = /** #__PURE__ */ createIcon("CaretLeft12Filled", "12", CaretLeft12FilledSvg);
+export const CaretLeft12Regular = /** #__PURE__ */ createIcon("CaretLeft12Regular", "12", CaretLeft12RegularSvg);
+export const CaretLeft16Filled = /** #__PURE__ */ createIcon("CaretLeft16Filled", "16", CaretLeft16FilledSvg);
+export const CaretLeft16Regular = /** #__PURE__ */ createIcon("CaretLeft16Regular", "16", CaretLeft16RegularSvg);
+export const CaretLeft20Filled = /** #__PURE__ */ createIcon("CaretLeft20Filled", "20", CaretLeft20FilledSvg);
+export const CaretLeftFilled = /** #__PURE__ */ createIcon("CaretLeftFilled", "1em", CaretLeft20FilledSvg);
+export const CaretLeft20Regular = /** #__PURE__ */ createIcon("CaretLeft20Regular", "20", CaretLeft20RegularSvg);
+export const CaretLeftRegular = /** #__PURE__ */ createIcon("CaretLeftRegular", "1em", CaretLeft20RegularSvg);
+export const CaretLeft24Filled = /** #__PURE__ */ createIcon("CaretLeft24Filled", "24", CaretLeft24FilledSvg);
+export const CaretLeft24Regular = /** #__PURE__ */ createIcon("CaretLeft24Regular", "24", CaretLeft24RegularSvg);

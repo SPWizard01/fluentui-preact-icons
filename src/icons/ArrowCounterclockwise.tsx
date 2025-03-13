@@ -13,17 +13,19 @@ import ArrowCounterclockwise32RegularSvg from "@fluentui/svg-icons/icons/arrow_c
 import ArrowCounterclockwise48FilledSvg from "@fluentui/svg-icons/icons/arrow_counterclockwise_48_filled.svg" with { type: "text" }
 import ArrowCounterclockwise48RegularSvg from "@fluentui/svg-icons/icons/arrow_counterclockwise_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ArrowCounterclockwise12Filled = createIcon("ArrowCounterclockwise12Filled", ArrowCounterclockwise12FilledSvg);
-export const ArrowCounterclockwise12Regular = createIcon("ArrowCounterclockwise12Regular", ArrowCounterclockwise12RegularSvg);
-export const ArrowCounterclockwise16Filled = createIcon("ArrowCounterclockwise16Filled", ArrowCounterclockwise16FilledSvg);
-export const ArrowCounterclockwise16Regular = createIcon("ArrowCounterclockwise16Regular", ArrowCounterclockwise16RegularSvg);
-export const ArrowCounterclockwise20Filled = createIcon("ArrowCounterclockwise20Filled", ArrowCounterclockwise20FilledSvg);
-export const ArrowCounterclockwise20Regular = createIcon("ArrowCounterclockwise20Regular", ArrowCounterclockwise20RegularSvg);
-export const ArrowCounterclockwise24Filled = createIcon("ArrowCounterclockwise24Filled", ArrowCounterclockwise24FilledSvg);
-export const ArrowCounterclockwise24Regular = createIcon("ArrowCounterclockwise24Regular", ArrowCounterclockwise24RegularSvg);
-export const ArrowCounterclockwise28Filled = createIcon("ArrowCounterclockwise28Filled", ArrowCounterclockwise28FilledSvg);
-export const ArrowCounterclockwise28Regular = createIcon("ArrowCounterclockwise28Regular", ArrowCounterclockwise28RegularSvg);
-export const ArrowCounterclockwise32Filled = createIcon("ArrowCounterclockwise32Filled", ArrowCounterclockwise32FilledSvg);
-export const ArrowCounterclockwise32Regular = createIcon("ArrowCounterclockwise32Regular", ArrowCounterclockwise32RegularSvg);
-export const ArrowCounterclockwise48Filled = createIcon("ArrowCounterclockwise48Filled", ArrowCounterclockwise48FilledSvg);
-export const ArrowCounterclockwise48Regular = createIcon("ArrowCounterclockwise48Regular", ArrowCounterclockwise48RegularSvg);
+export const ArrowCounterclockwise12Filled = /** #__PURE__ */ createIcon("ArrowCounterclockwise12Filled", "12", ArrowCounterclockwise12FilledSvg);
+export const ArrowCounterclockwise12Regular = /** #__PURE__ */ createIcon("ArrowCounterclockwise12Regular", "12", ArrowCounterclockwise12RegularSvg);
+export const ArrowCounterclockwise16Filled = /** #__PURE__ */ createIcon("ArrowCounterclockwise16Filled", "16", ArrowCounterclockwise16FilledSvg);
+export const ArrowCounterclockwise16Regular = /** #__PURE__ */ createIcon("ArrowCounterclockwise16Regular", "16", ArrowCounterclockwise16RegularSvg);
+export const ArrowCounterclockwise20Filled = /** #__PURE__ */ createIcon("ArrowCounterclockwise20Filled", "20", ArrowCounterclockwise20FilledSvg);
+export const ArrowCounterclockwiseFilled = /** #__PURE__ */ createIcon("ArrowCounterclockwiseFilled", "1em", ArrowCounterclockwise20FilledSvg);
+export const ArrowCounterclockwise20Regular = /** #__PURE__ */ createIcon("ArrowCounterclockwise20Regular", "20", ArrowCounterclockwise20RegularSvg);
+export const ArrowCounterclockwiseRegular = /** #__PURE__ */ createIcon("ArrowCounterclockwiseRegular", "1em", ArrowCounterclockwise20RegularSvg);
+export const ArrowCounterclockwise24Filled = /** #__PURE__ */ createIcon("ArrowCounterclockwise24Filled", "24", ArrowCounterclockwise24FilledSvg);
+export const ArrowCounterclockwise24Regular = /** #__PURE__ */ createIcon("ArrowCounterclockwise24Regular", "24", ArrowCounterclockwise24RegularSvg);
+export const ArrowCounterclockwise28Filled = /** #__PURE__ */ createIcon("ArrowCounterclockwise28Filled", "28", ArrowCounterclockwise28FilledSvg);
+export const ArrowCounterclockwise28Regular = /** #__PURE__ */ createIcon("ArrowCounterclockwise28Regular", "28", ArrowCounterclockwise28RegularSvg);
+export const ArrowCounterclockwise32Filled = /** #__PURE__ */ createIcon("ArrowCounterclockwise32Filled", "32", ArrowCounterclockwise32FilledSvg);
+export const ArrowCounterclockwise32Regular = /** #__PURE__ */ createIcon("ArrowCounterclockwise32Regular", "32", ArrowCounterclockwise32RegularSvg);
+export const ArrowCounterclockwise48Filled = /** #__PURE__ */ createIcon("ArrowCounterclockwise48Filled", "48", ArrowCounterclockwise48FilledSvg);
+export const ArrowCounterclockwise48Regular = /** #__PURE__ */ createIcon("ArrowCounterclockwise48Regular", "48", ArrowCounterclockwise48RegularSvg);

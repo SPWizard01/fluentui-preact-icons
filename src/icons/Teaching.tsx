@@ -11,15 +11,17 @@ import Teaching32RegularSvg from "@fluentui/svg-icons/icons/teaching_32_regular.
 import Teaching48FilledSvg from "@fluentui/svg-icons/icons/teaching_48_filled.svg" with { type: "text" }
 import Teaching48RegularSvg from "@fluentui/svg-icons/icons/teaching_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Teaching16Filled = createIcon("Teaching16Filled", Teaching16FilledSvg);
-export const Teaching16Regular = createIcon("Teaching16Regular", Teaching16RegularSvg);
-export const Teaching20Filled = createIcon("Teaching20Filled", Teaching20FilledSvg);
-export const Teaching20Regular = createIcon("Teaching20Regular", Teaching20RegularSvg);
-export const Teaching24Filled = createIcon("Teaching24Filled", Teaching24FilledSvg);
-export const Teaching24Regular = createIcon("Teaching24Regular", Teaching24RegularSvg);
-export const Teaching28Filled = createIcon("Teaching28Filled", Teaching28FilledSvg);
-export const Teaching28Regular = createIcon("Teaching28Regular", Teaching28RegularSvg);
-export const Teaching32Filled = createIcon("Teaching32Filled", Teaching32FilledSvg);
-export const Teaching32Regular = createIcon("Teaching32Regular", Teaching32RegularSvg);
-export const Teaching48Filled = createIcon("Teaching48Filled", Teaching48FilledSvg);
-export const Teaching48Regular = createIcon("Teaching48Regular", Teaching48RegularSvg);
+export const Teaching16Filled = /** #__PURE__ */ createIcon("Teaching16Filled", "16", Teaching16FilledSvg);
+export const Teaching16Regular = /** #__PURE__ */ createIcon("Teaching16Regular", "16", Teaching16RegularSvg);
+export const Teaching20Filled = /** #__PURE__ */ createIcon("Teaching20Filled", "20", Teaching20FilledSvg);
+export const TeachingFilled = /** #__PURE__ */ createIcon("TeachingFilled", "1em", Teaching20FilledSvg);
+export const Teaching20Regular = /** #__PURE__ */ createIcon("Teaching20Regular", "20", Teaching20RegularSvg);
+export const TeachingRegular = /** #__PURE__ */ createIcon("TeachingRegular", "1em", Teaching20RegularSvg);
+export const Teaching24Filled = /** #__PURE__ */ createIcon("Teaching24Filled", "24", Teaching24FilledSvg);
+export const Teaching24Regular = /** #__PURE__ */ createIcon("Teaching24Regular", "24", Teaching24RegularSvg);
+export const Teaching28Filled = /** #__PURE__ */ createIcon("Teaching28Filled", "28", Teaching28FilledSvg);
+export const Teaching28Regular = /** #__PURE__ */ createIcon("Teaching28Regular", "28", Teaching28RegularSvg);
+export const Teaching32Filled = /** #__PURE__ */ createIcon("Teaching32Filled", "32", Teaching32FilledSvg);
+export const Teaching32Regular = /** #__PURE__ */ createIcon("Teaching32Regular", "32", Teaching32RegularSvg);
+export const Teaching48Filled = /** #__PURE__ */ createIcon("Teaching48Filled", "48", Teaching48FilledSvg);
+export const Teaching48Regular = /** #__PURE__ */ createIcon("Teaching48Regular", "48", Teaching48RegularSvg);

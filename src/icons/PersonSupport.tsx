@@ -9,13 +9,15 @@ import PersonSupport28RegularSvg from "@fluentui/svg-icons/icons/person_support_
 import PersonSupport32FilledSvg from "@fluentui/svg-icons/icons/person_support_32_filled.svg" with { type: "text" }
 import PersonSupport32RegularSvg from "@fluentui/svg-icons/icons/person_support_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PersonSupport16Filled = createIcon("PersonSupport16Filled", PersonSupport16FilledSvg);
-export const PersonSupport16Regular = createIcon("PersonSupport16Regular", PersonSupport16RegularSvg);
-export const PersonSupport20Filled = createIcon("PersonSupport20Filled", PersonSupport20FilledSvg);
-export const PersonSupport20Regular = createIcon("PersonSupport20Regular", PersonSupport20RegularSvg);
-export const PersonSupport24Filled = createIcon("PersonSupport24Filled", PersonSupport24FilledSvg);
-export const PersonSupport24Regular = createIcon("PersonSupport24Regular", PersonSupport24RegularSvg);
-export const PersonSupport28Filled = createIcon("PersonSupport28Filled", PersonSupport28FilledSvg);
-export const PersonSupport28Regular = createIcon("PersonSupport28Regular", PersonSupport28RegularSvg);
-export const PersonSupport32Filled = createIcon("PersonSupport32Filled", PersonSupport32FilledSvg);
-export const PersonSupport32Regular = createIcon("PersonSupport32Regular", PersonSupport32RegularSvg);
+export const PersonSupport16Filled = /** #__PURE__ */ createIcon("PersonSupport16Filled", "16", PersonSupport16FilledSvg);
+export const PersonSupport16Regular = /** #__PURE__ */ createIcon("PersonSupport16Regular", "16", PersonSupport16RegularSvg);
+export const PersonSupport20Filled = /** #__PURE__ */ createIcon("PersonSupport20Filled", "20", PersonSupport20FilledSvg);
+export const PersonSupportFilled = /** #__PURE__ */ createIcon("PersonSupportFilled", "1em", PersonSupport20FilledSvg);
+export const PersonSupport20Regular = /** #__PURE__ */ createIcon("PersonSupport20Regular", "20", PersonSupport20RegularSvg);
+export const PersonSupportRegular = /** #__PURE__ */ createIcon("PersonSupportRegular", "1em", PersonSupport20RegularSvg);
+export const PersonSupport24Filled = /** #__PURE__ */ createIcon("PersonSupport24Filled", "24", PersonSupport24FilledSvg);
+export const PersonSupport24Regular = /** #__PURE__ */ createIcon("PersonSupport24Regular", "24", PersonSupport24RegularSvg);
+export const PersonSupport28Filled = /** #__PURE__ */ createIcon("PersonSupport28Filled", "28", PersonSupport28FilledSvg);
+export const PersonSupport28Regular = /** #__PURE__ */ createIcon("PersonSupport28Regular", "28", PersonSupport28RegularSvg);
+export const PersonSupport32Filled = /** #__PURE__ */ createIcon("PersonSupport32Filled", "32", PersonSupport32FilledSvg);
+export const PersonSupport32Regular = /** #__PURE__ */ createIcon("PersonSupport32Regular", "32", PersonSupport32RegularSvg);

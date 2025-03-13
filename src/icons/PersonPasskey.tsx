@@ -11,15 +11,17 @@ import PersonPasskey32RegularSvg from "@fluentui/svg-icons/icons/person_passkey_
 import PersonPasskey48FilledSvg from "@fluentui/svg-icons/icons/person_passkey_48_filled.svg" with { type: "text" }
 import PersonPasskey48RegularSvg from "@fluentui/svg-icons/icons/person_passkey_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PersonPasskey16Filled = createIcon("PersonPasskey16Filled", PersonPasskey16FilledSvg);
-export const PersonPasskey16Regular = createIcon("PersonPasskey16Regular", PersonPasskey16RegularSvg);
-export const PersonPasskey20Filled = createIcon("PersonPasskey20Filled", PersonPasskey20FilledSvg);
-export const PersonPasskey20Regular = createIcon("PersonPasskey20Regular", PersonPasskey20RegularSvg);
-export const PersonPasskey24Filled = createIcon("PersonPasskey24Filled", PersonPasskey24FilledSvg);
-export const PersonPasskey24Regular = createIcon("PersonPasskey24Regular", PersonPasskey24RegularSvg);
-export const PersonPasskey28Filled = createIcon("PersonPasskey28Filled", PersonPasskey28FilledSvg);
-export const PersonPasskey28Regular = createIcon("PersonPasskey28Regular", PersonPasskey28RegularSvg);
-export const PersonPasskey32Filled = createIcon("PersonPasskey32Filled", PersonPasskey32FilledSvg);
-export const PersonPasskey32Regular = createIcon("PersonPasskey32Regular", PersonPasskey32RegularSvg);
-export const PersonPasskey48Filled = createIcon("PersonPasskey48Filled", PersonPasskey48FilledSvg);
-export const PersonPasskey48Regular = createIcon("PersonPasskey48Regular", PersonPasskey48RegularSvg);
+export const PersonPasskey16Filled = /** #__PURE__ */ createIcon("PersonPasskey16Filled", "16", PersonPasskey16FilledSvg);
+export const PersonPasskey16Regular = /** #__PURE__ */ createIcon("PersonPasskey16Regular", "16", PersonPasskey16RegularSvg);
+export const PersonPasskey20Filled = /** #__PURE__ */ createIcon("PersonPasskey20Filled", "20", PersonPasskey20FilledSvg);
+export const PersonPasskeyFilled = /** #__PURE__ */ createIcon("PersonPasskeyFilled", "1em", PersonPasskey20FilledSvg);
+export const PersonPasskey20Regular = /** #__PURE__ */ createIcon("PersonPasskey20Regular", "20", PersonPasskey20RegularSvg);
+export const PersonPasskeyRegular = /** #__PURE__ */ createIcon("PersonPasskeyRegular", "1em", PersonPasskey20RegularSvg);
+export const PersonPasskey24Filled = /** #__PURE__ */ createIcon("PersonPasskey24Filled", "24", PersonPasskey24FilledSvg);
+export const PersonPasskey24Regular = /** #__PURE__ */ createIcon("PersonPasskey24Regular", "24", PersonPasskey24RegularSvg);
+export const PersonPasskey28Filled = /** #__PURE__ */ createIcon("PersonPasskey28Filled", "28", PersonPasskey28FilledSvg);
+export const PersonPasskey28Regular = /** #__PURE__ */ createIcon("PersonPasskey28Regular", "28", PersonPasskey28RegularSvg);
+export const PersonPasskey32Filled = /** #__PURE__ */ createIcon("PersonPasskey32Filled", "32", PersonPasskey32FilledSvg);
+export const PersonPasskey32Regular = /** #__PURE__ */ createIcon("PersonPasskey32Regular", "32", PersonPasskey32RegularSvg);
+export const PersonPasskey48Filled = /** #__PURE__ */ createIcon("PersonPasskey48Filled", "48", PersonPasskey48FilledSvg);
+export const PersonPasskey48Regular = /** #__PURE__ */ createIcon("PersonPasskey48Regular", "48", PersonPasskey48RegularSvg);

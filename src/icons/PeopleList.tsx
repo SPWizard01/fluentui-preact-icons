@@ -15,19 +15,22 @@ import PeopleList32FilledSvg from "@fluentui/svg-icons/icons/people_list_32_fill
 import PeopleList32LightSvg from "@fluentui/svg-icons/icons/people_list_32_light.svg" with { type: "text" }
 import PeopleList32RegularSvg from "@fluentui/svg-icons/icons/people_list_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PeopleList16Color = createIcon("PeopleList16Color", PeopleList16ColorSvg);
-export const PeopleList16Filled = createIcon("PeopleList16Filled", PeopleList16FilledSvg);
-export const PeopleList16Regular = createIcon("PeopleList16Regular", PeopleList16RegularSvg);
-export const PeopleList20Color = createIcon("PeopleList20Color", PeopleList20ColorSvg);
-export const PeopleList20Filled = createIcon("PeopleList20Filled", PeopleList20FilledSvg);
-export const PeopleList20Regular = createIcon("PeopleList20Regular", PeopleList20RegularSvg);
-export const PeopleList24Color = createIcon("PeopleList24Color", PeopleList24ColorSvg);
-export const PeopleList24Filled = createIcon("PeopleList24Filled", PeopleList24FilledSvg);
-export const PeopleList24Regular = createIcon("PeopleList24Regular", PeopleList24RegularSvg);
-export const PeopleList28Color = createIcon("PeopleList28Color", PeopleList28ColorSvg);
-export const PeopleList28Filled = createIcon("PeopleList28Filled", PeopleList28FilledSvg);
-export const PeopleList28Regular = createIcon("PeopleList28Regular", PeopleList28RegularSvg);
-export const PeopleList32Color = createIcon("PeopleList32Color", PeopleList32ColorSvg);
-export const PeopleList32Filled = createIcon("PeopleList32Filled", PeopleList32FilledSvg);
-export const PeopleList32Light = createIcon("PeopleList32Light", PeopleList32LightSvg);
-export const PeopleList32Regular = createIcon("PeopleList32Regular", PeopleList32RegularSvg);
+export const PeopleList16Color = /** #__PURE__ */ createIcon("PeopleList16Color", "16", PeopleList16ColorSvg);
+export const PeopleList16Filled = /** #__PURE__ */ createIcon("PeopleList16Filled", "16", PeopleList16FilledSvg);
+export const PeopleList16Regular = /** #__PURE__ */ createIcon("PeopleList16Regular", "16", PeopleList16RegularSvg);
+export const PeopleList20Color = /** #__PURE__ */ createIcon("PeopleList20Color", "20", PeopleList20ColorSvg);
+export const PeopleListColor = /** #__PURE__ */ createIcon("PeopleListColor", "1em", PeopleList20ColorSvg);
+export const PeopleList20Filled = /** #__PURE__ */ createIcon("PeopleList20Filled", "20", PeopleList20FilledSvg);
+export const PeopleListFilled = /** #__PURE__ */ createIcon("PeopleListFilled", "1em", PeopleList20FilledSvg);
+export const PeopleList20Regular = /** #__PURE__ */ createIcon("PeopleList20Regular", "20", PeopleList20RegularSvg);
+export const PeopleListRegular = /** #__PURE__ */ createIcon("PeopleListRegular", "1em", PeopleList20RegularSvg);
+export const PeopleList24Color = /** #__PURE__ */ createIcon("PeopleList24Color", "24", PeopleList24ColorSvg);
+export const PeopleList24Filled = /** #__PURE__ */ createIcon("PeopleList24Filled", "24", PeopleList24FilledSvg);
+export const PeopleList24Regular = /** #__PURE__ */ createIcon("PeopleList24Regular", "24", PeopleList24RegularSvg);
+export const PeopleList28Color = /** #__PURE__ */ createIcon("PeopleList28Color", "28", PeopleList28ColorSvg);
+export const PeopleList28Filled = /** #__PURE__ */ createIcon("PeopleList28Filled", "28", PeopleList28FilledSvg);
+export const PeopleList28Regular = /** #__PURE__ */ createIcon("PeopleList28Regular", "28", PeopleList28RegularSvg);
+export const PeopleList32Color = /** #__PURE__ */ createIcon("PeopleList32Color", "32", PeopleList32ColorSvg);
+export const PeopleList32Filled = /** #__PURE__ */ createIcon("PeopleList32Filled", "32", PeopleList32FilledSvg);
+export const PeopleList32Light = /** #__PURE__ */ createIcon("PeopleList32Light", "32", PeopleList32LightSvg);
+export const PeopleList32Regular = /** #__PURE__ */ createIcon("PeopleList32Regular", "32", PeopleList32RegularSvg);

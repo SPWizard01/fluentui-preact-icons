@@ -9,13 +9,15 @@ import Fingerprint32RegularSvg from "@fluentui/svg-icons/icons/fingerprint_32_re
 import Fingerprint48FilledSvg from "@fluentui/svg-icons/icons/fingerprint_48_filled.svg" with { type: "text" }
 import Fingerprint48RegularSvg from "@fluentui/svg-icons/icons/fingerprint_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Fingerprint16Filled = createIcon("Fingerprint16Filled", Fingerprint16FilledSvg);
-export const Fingerprint16Regular = createIcon("Fingerprint16Regular", Fingerprint16RegularSvg);
-export const Fingerprint20Filled = createIcon("Fingerprint20Filled", Fingerprint20FilledSvg);
-export const Fingerprint20Regular = createIcon("Fingerprint20Regular", Fingerprint20RegularSvg);
-export const Fingerprint24Filled = createIcon("Fingerprint24Filled", Fingerprint24FilledSvg);
-export const Fingerprint24Regular = createIcon("Fingerprint24Regular", Fingerprint24RegularSvg);
-export const Fingerprint32Filled = createIcon("Fingerprint32Filled", Fingerprint32FilledSvg);
-export const Fingerprint32Regular = createIcon("Fingerprint32Regular", Fingerprint32RegularSvg);
-export const Fingerprint48Filled = createIcon("Fingerprint48Filled", Fingerprint48FilledSvg);
-export const Fingerprint48Regular = createIcon("Fingerprint48Regular", Fingerprint48RegularSvg);
+export const Fingerprint16Filled = /** #__PURE__ */ createIcon("Fingerprint16Filled", "16", Fingerprint16FilledSvg);
+export const Fingerprint16Regular = /** #__PURE__ */ createIcon("Fingerprint16Regular", "16", Fingerprint16RegularSvg);
+export const Fingerprint20Filled = /** #__PURE__ */ createIcon("Fingerprint20Filled", "20", Fingerprint20FilledSvg);
+export const FingerprintFilled = /** #__PURE__ */ createIcon("FingerprintFilled", "1em", Fingerprint20FilledSvg);
+export const Fingerprint20Regular = /** #__PURE__ */ createIcon("Fingerprint20Regular", "20", Fingerprint20RegularSvg);
+export const FingerprintRegular = /** #__PURE__ */ createIcon("FingerprintRegular", "1em", Fingerprint20RegularSvg);
+export const Fingerprint24Filled = /** #__PURE__ */ createIcon("Fingerprint24Filled", "24", Fingerprint24FilledSvg);
+export const Fingerprint24Regular = /** #__PURE__ */ createIcon("Fingerprint24Regular", "24", Fingerprint24RegularSvg);
+export const Fingerprint32Filled = /** #__PURE__ */ createIcon("Fingerprint32Filled", "32", Fingerprint32FilledSvg);
+export const Fingerprint32Regular = /** #__PURE__ */ createIcon("Fingerprint32Regular", "32", Fingerprint32RegularSvg);
+export const Fingerprint48Filled = /** #__PURE__ */ createIcon("Fingerprint48Filled", "48", Fingerprint48FilledSvg);
+export const Fingerprint48Regular = /** #__PURE__ */ createIcon("Fingerprint48Regular", "48", Fingerprint48RegularSvg);

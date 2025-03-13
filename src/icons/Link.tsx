@@ -14,18 +14,20 @@ import Link32RegularSvg from "@fluentui/svg-icons/icons/link_32_regular.svg" wit
 import Link48FilledSvg from "@fluentui/svg-icons/icons/link_48_filled.svg" with { type: "text" }
 import Link48RegularSvg from "@fluentui/svg-icons/icons/link_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Link12Filled = createIcon("Link12Filled", Link12FilledSvg);
-export const Link12Regular = createIcon("Link12Regular", Link12RegularSvg);
-export const Link16Filled = createIcon("Link16Filled", Link16FilledSvg);
-export const Link16Regular = createIcon("Link16Regular", Link16RegularSvg);
-export const Link20Filled = createIcon("Link20Filled", Link20FilledSvg);
-export const Link20Regular = createIcon("Link20Regular", Link20RegularSvg);
-export const Link24Filled = createIcon("Link24Filled", Link24FilledSvg);
-export const Link24Regular = createIcon("Link24Regular", Link24RegularSvg);
-export const Link28Filled = createIcon("Link28Filled", Link28FilledSvg);
-export const Link28Regular = createIcon("Link28Regular", Link28RegularSvg);
-export const Link32Filled = createIcon("Link32Filled", Link32FilledSvg);
-export const Link32Light = createIcon("Link32Light", Link32LightSvg);
-export const Link32Regular = createIcon("Link32Regular", Link32RegularSvg);
-export const Link48Filled = createIcon("Link48Filled", Link48FilledSvg);
-export const Link48Regular = createIcon("Link48Regular", Link48RegularSvg);
+export const Link12Filled = /** #__PURE__ */ createIcon("Link12Filled", "12", Link12FilledSvg);
+export const Link12Regular = /** #__PURE__ */ createIcon("Link12Regular", "12", Link12RegularSvg);
+export const Link16Filled = /** #__PURE__ */ createIcon("Link16Filled", "16", Link16FilledSvg);
+export const Link16Regular = /** #__PURE__ */ createIcon("Link16Regular", "16", Link16RegularSvg);
+export const Link20Filled = /** #__PURE__ */ createIcon("Link20Filled", "20", Link20FilledSvg);
+export const LinkFilled = /** #__PURE__ */ createIcon("LinkFilled", "1em", Link20FilledSvg);
+export const Link20Regular = /** #__PURE__ */ createIcon("Link20Regular", "20", Link20RegularSvg);
+export const LinkRegular = /** #__PURE__ */ createIcon("LinkRegular", "1em", Link20RegularSvg);
+export const Link24Filled = /** #__PURE__ */ createIcon("Link24Filled", "24", Link24FilledSvg);
+export const Link24Regular = /** #__PURE__ */ createIcon("Link24Regular", "24", Link24RegularSvg);
+export const Link28Filled = /** #__PURE__ */ createIcon("Link28Filled", "28", Link28FilledSvg);
+export const Link28Regular = /** #__PURE__ */ createIcon("Link28Regular", "28", Link28RegularSvg);
+export const Link32Filled = /** #__PURE__ */ createIcon("Link32Filled", "32", Link32FilledSvg);
+export const Link32Light = /** #__PURE__ */ createIcon("Link32Light", "32", Link32LightSvg);
+export const Link32Regular = /** #__PURE__ */ createIcon("Link32Regular", "32", Link32RegularSvg);
+export const Link48Filled = /** #__PURE__ */ createIcon("Link48Filled", "48", Link48FilledSvg);
+export const Link48Regular = /** #__PURE__ */ createIcon("Link48Regular", "48", Link48RegularSvg);

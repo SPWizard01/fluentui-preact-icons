@@ -5,9 +5,11 @@ import PersonArrowLeft20RegularSvg from "@fluentui/svg-icons/icons/person_arrow_
 import PersonArrowLeft24FilledSvg from "@fluentui/svg-icons/icons/person_arrow_left_24_filled.svg" with { type: "text" }
 import PersonArrowLeft24RegularSvg from "@fluentui/svg-icons/icons/person_arrow_left_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PersonArrowLeft16Filled = createIcon("PersonArrowLeft16Filled", PersonArrowLeft16FilledSvg);
-export const PersonArrowLeft16Regular = createIcon("PersonArrowLeft16Regular", PersonArrowLeft16RegularSvg);
-export const PersonArrowLeft20Filled = createIcon("PersonArrowLeft20Filled", PersonArrowLeft20FilledSvg);
-export const PersonArrowLeft20Regular = createIcon("PersonArrowLeft20Regular", PersonArrowLeft20RegularSvg);
-export const PersonArrowLeft24Filled = createIcon("PersonArrowLeft24Filled", PersonArrowLeft24FilledSvg);
-export const PersonArrowLeft24Regular = createIcon("PersonArrowLeft24Regular", PersonArrowLeft24RegularSvg);
+export const PersonArrowLeft16Filled = /** #__PURE__ */ createIcon("PersonArrowLeft16Filled", "16", PersonArrowLeft16FilledSvg);
+export const PersonArrowLeft16Regular = /** #__PURE__ */ createIcon("PersonArrowLeft16Regular", "16", PersonArrowLeft16RegularSvg);
+export const PersonArrowLeft20Filled = /** #__PURE__ */ createIcon("PersonArrowLeft20Filled", "20", PersonArrowLeft20FilledSvg);
+export const PersonArrowLeftFilled = /** #__PURE__ */ createIcon("PersonArrowLeftFilled", "1em", PersonArrowLeft20FilledSvg);
+export const PersonArrowLeft20Regular = /** #__PURE__ */ createIcon("PersonArrowLeft20Regular", "20", PersonArrowLeft20RegularSvg);
+export const PersonArrowLeftRegular = /** #__PURE__ */ createIcon("PersonArrowLeftRegular", "1em", PersonArrowLeft20RegularSvg);
+export const PersonArrowLeft24Filled = /** #__PURE__ */ createIcon("PersonArrowLeft24Filled", "24", PersonArrowLeft24FilledSvg);
+export const PersonArrowLeft24Regular = /** #__PURE__ */ createIcon("PersonArrowLeft24Regular", "24", PersonArrowLeft24RegularSvg);

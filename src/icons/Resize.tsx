@@ -11,15 +11,17 @@ import Resize32RegularSvg from "@fluentui/svg-icons/icons/resize_32_regular.svg"
 import Resize48FilledSvg from "@fluentui/svg-icons/icons/resize_48_filled.svg" with { type: "text" }
 import Resize48RegularSvg from "@fluentui/svg-icons/icons/resize_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Resize16Filled = createIcon("Resize16Filled", Resize16FilledSvg);
-export const Resize16Regular = createIcon("Resize16Regular", Resize16RegularSvg);
-export const Resize20Filled = createIcon("Resize20Filled", Resize20FilledSvg);
-export const Resize20Regular = createIcon("Resize20Regular", Resize20RegularSvg);
-export const Resize24Filled = createIcon("Resize24Filled", Resize24FilledSvg);
-export const Resize24Regular = createIcon("Resize24Regular", Resize24RegularSvg);
-export const Resize28Filled = createIcon("Resize28Filled", Resize28FilledSvg);
-export const Resize28Regular = createIcon("Resize28Regular", Resize28RegularSvg);
-export const Resize32Filled = createIcon("Resize32Filled", Resize32FilledSvg);
-export const Resize32Regular = createIcon("Resize32Regular", Resize32RegularSvg);
-export const Resize48Filled = createIcon("Resize48Filled", Resize48FilledSvg);
-export const Resize48Regular = createIcon("Resize48Regular", Resize48RegularSvg);
+export const Resize16Filled = /** #__PURE__ */ createIcon("Resize16Filled", "16", Resize16FilledSvg);
+export const Resize16Regular = /** #__PURE__ */ createIcon("Resize16Regular", "16", Resize16RegularSvg);
+export const Resize20Filled = /** #__PURE__ */ createIcon("Resize20Filled", "20", Resize20FilledSvg);
+export const ResizeFilled = /** #__PURE__ */ createIcon("ResizeFilled", "1em", Resize20FilledSvg);
+export const Resize20Regular = /** #__PURE__ */ createIcon("Resize20Regular", "20", Resize20RegularSvg);
+export const ResizeRegular = /** #__PURE__ */ createIcon("ResizeRegular", "1em", Resize20RegularSvg);
+export const Resize24Filled = /** #__PURE__ */ createIcon("Resize24Filled", "24", Resize24FilledSvg);
+export const Resize24Regular = /** #__PURE__ */ createIcon("Resize24Regular", "24", Resize24RegularSvg);
+export const Resize28Filled = /** #__PURE__ */ createIcon("Resize28Filled", "28", Resize28FilledSvg);
+export const Resize28Regular = /** #__PURE__ */ createIcon("Resize28Regular", "28", Resize28RegularSvg);
+export const Resize32Filled = /** #__PURE__ */ createIcon("Resize32Filled", "32", Resize32FilledSvg);
+export const Resize32Regular = /** #__PURE__ */ createIcon("Resize32Regular", "32", Resize32RegularSvg);
+export const Resize48Filled = /** #__PURE__ */ createIcon("Resize48Filled", "48", Resize48FilledSvg);
+export const Resize48Regular = /** #__PURE__ */ createIcon("Resize48Regular", "48", Resize48RegularSvg);

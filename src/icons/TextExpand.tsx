@@ -6,10 +6,12 @@ import TextExpand24FilledSvg from "@fluentui/svg-icons/icons/text_expand_24_fill
 import TextExpand24RegularSvg from "@fluentui/svg-icons/icons/text_expand_24_regular.svg" with { type: "text" }
 import TextExpand32LightSvg from "@fluentui/svg-icons/icons/text_expand_32_light.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TextExpand16Filled = createIcon("TextExpand16Filled", TextExpand16FilledSvg);
-export const TextExpand16Regular = createIcon("TextExpand16Regular", TextExpand16RegularSvg);
-export const TextExpand20Filled = createIcon("TextExpand20Filled", TextExpand20FilledSvg);
-export const TextExpand20Regular = createIcon("TextExpand20Regular", TextExpand20RegularSvg);
-export const TextExpand24Filled = createIcon("TextExpand24Filled", TextExpand24FilledSvg);
-export const TextExpand24Regular = createIcon("TextExpand24Regular", TextExpand24RegularSvg);
-export const TextExpand32Light = createIcon("TextExpand32Light", TextExpand32LightSvg);
+export const TextExpand16Filled = /** #__PURE__ */ createIcon("TextExpand16Filled", "16", TextExpand16FilledSvg);
+export const TextExpand16Regular = /** #__PURE__ */ createIcon("TextExpand16Regular", "16", TextExpand16RegularSvg);
+export const TextExpand20Filled = /** #__PURE__ */ createIcon("TextExpand20Filled", "20", TextExpand20FilledSvg);
+export const TextExpandFilled = /** #__PURE__ */ createIcon("TextExpandFilled", "1em", TextExpand20FilledSvg);
+export const TextExpand20Regular = /** #__PURE__ */ createIcon("TextExpand20Regular", "20", TextExpand20RegularSvg);
+export const TextExpandRegular = /** #__PURE__ */ createIcon("TextExpandRegular", "1em", TextExpand20RegularSvg);
+export const TextExpand24Filled = /** #__PURE__ */ createIcon("TextExpand24Filled", "24", TextExpand24FilledSvg);
+export const TextExpand24Regular = /** #__PURE__ */ createIcon("TextExpand24Regular", "24", TextExpand24RegularSvg);
+export const TextExpand32Light = /** #__PURE__ */ createIcon("TextExpand32Light", "32", TextExpand32LightSvg);

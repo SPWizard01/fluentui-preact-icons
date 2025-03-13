@@ -7,11 +7,13 @@ import WindowText24RegularSvg from "@fluentui/svg-icons/icons/window_text_24_reg
 import WindowText28FilledSvg from "@fluentui/svg-icons/icons/window_text_28_filled.svg" with { type: "text" }
 import WindowText28RegularSvg from "@fluentui/svg-icons/icons/window_text_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const WindowText16Filled = createIcon("WindowText16Filled", WindowText16FilledSvg);
-export const WindowText16Regular = createIcon("WindowText16Regular", WindowText16RegularSvg);
-export const WindowText20Filled = createIcon("WindowText20Filled", WindowText20FilledSvg);
-export const WindowText20Regular = createIcon("WindowText20Regular", WindowText20RegularSvg);
-export const WindowText24Filled = createIcon("WindowText24Filled", WindowText24FilledSvg);
-export const WindowText24Regular = createIcon("WindowText24Regular", WindowText24RegularSvg);
-export const WindowText28Filled = createIcon("WindowText28Filled", WindowText28FilledSvg);
-export const WindowText28Regular = createIcon("WindowText28Regular", WindowText28RegularSvg);
+export const WindowText16Filled = /** #__PURE__ */ createIcon("WindowText16Filled", "16", WindowText16FilledSvg);
+export const WindowText16Regular = /** #__PURE__ */ createIcon("WindowText16Regular", "16", WindowText16RegularSvg);
+export const WindowText20Filled = /** #__PURE__ */ createIcon("WindowText20Filled", "20", WindowText20FilledSvg);
+export const WindowTextFilled = /** #__PURE__ */ createIcon("WindowTextFilled", "1em", WindowText20FilledSvg);
+export const WindowText20Regular = /** #__PURE__ */ createIcon("WindowText20Regular", "20", WindowText20RegularSvg);
+export const WindowTextRegular = /** #__PURE__ */ createIcon("WindowTextRegular", "1em", WindowText20RegularSvg);
+export const WindowText24Filled = /** #__PURE__ */ createIcon("WindowText24Filled", "24", WindowText24FilledSvg);
+export const WindowText24Regular = /** #__PURE__ */ createIcon("WindowText24Regular", "24", WindowText24RegularSvg);
+export const WindowText28Filled = /** #__PURE__ */ createIcon("WindowText28Filled", "28", WindowText28FilledSvg);
+export const WindowText28Regular = /** #__PURE__ */ createIcon("WindowText28Regular", "28", WindowText28RegularSvg);

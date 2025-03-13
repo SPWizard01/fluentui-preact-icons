@@ -3,7 +3,9 @@ import SignOut20RegularSvg from "@fluentui/svg-icons/icons/sign_out_20_regular.s
 import SignOut24FilledSvg from "@fluentui/svg-icons/icons/sign_out_24_filled.svg" with { type: "text" }
 import SignOut24RegularSvg from "@fluentui/svg-icons/icons/sign_out_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const SignOut20Filled = createIcon("SignOut20Filled", SignOut20FilledSvg);
-export const SignOut20Regular = createIcon("SignOut20Regular", SignOut20RegularSvg);
-export const SignOut24Filled = createIcon("SignOut24Filled", SignOut24FilledSvg);
-export const SignOut24Regular = createIcon("SignOut24Regular", SignOut24RegularSvg);
+export const SignOut20Filled = /** #__PURE__ */ createIcon("SignOut20Filled", "20", SignOut20FilledSvg);
+export const SignOutFilled = /** #__PURE__ */ createIcon("SignOutFilled", "1em", SignOut20FilledSvg);
+export const SignOut20Regular = /** #__PURE__ */ createIcon("SignOut20Regular", "20", SignOut20RegularSvg);
+export const SignOutRegular = /** #__PURE__ */ createIcon("SignOutRegular", "1em", SignOut20RegularSvg);
+export const SignOut24Filled = /** #__PURE__ */ createIcon("SignOut24Filled", "24", SignOut24FilledSvg);
+export const SignOut24Regular = /** #__PURE__ */ createIcon("SignOut24Regular", "24", SignOut24RegularSvg);

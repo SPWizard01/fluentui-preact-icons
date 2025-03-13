@@ -3,7 +3,9 @@ import NotebookAdd20RegularSvg from "@fluentui/svg-icons/icons/notebook_add_20_r
 import NotebookAdd24FilledSvg from "@fluentui/svg-icons/icons/notebook_add_24_filled.svg" with { type: "text" }
 import NotebookAdd24RegularSvg from "@fluentui/svg-icons/icons/notebook_add_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const NotebookAdd20Filled = createIcon("NotebookAdd20Filled", NotebookAdd20FilledSvg);
-export const NotebookAdd20Regular = createIcon("NotebookAdd20Regular", NotebookAdd20RegularSvg);
-export const NotebookAdd24Filled = createIcon("NotebookAdd24Filled", NotebookAdd24FilledSvg);
-export const NotebookAdd24Regular = createIcon("NotebookAdd24Regular", NotebookAdd24RegularSvg);
+export const NotebookAdd20Filled = /** #__PURE__ */ createIcon("NotebookAdd20Filled", "20", NotebookAdd20FilledSvg);
+export const NotebookAddFilled = /** #__PURE__ */ createIcon("NotebookAddFilled", "1em", NotebookAdd20FilledSvg);
+export const NotebookAdd20Regular = /** #__PURE__ */ createIcon("NotebookAdd20Regular", "20", NotebookAdd20RegularSvg);
+export const NotebookAddRegular = /** #__PURE__ */ createIcon("NotebookAddRegular", "1em", NotebookAdd20RegularSvg);
+export const NotebookAdd24Filled = /** #__PURE__ */ createIcon("NotebookAdd24Filled", "24", NotebookAdd24FilledSvg);
+export const NotebookAdd24Regular = /** #__PURE__ */ createIcon("NotebookAdd24Regular", "24", NotebookAdd24RegularSvg);

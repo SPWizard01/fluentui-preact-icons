@@ -8,12 +8,14 @@ import TableSettings28FilledSvg from "@fluentui/svg-icons/icons/table_settings_2
 import TableSettings28RegularSvg from "@fluentui/svg-icons/icons/table_settings_28_regular.svg" with { type: "text" }
 import TableSettings32LightSvg from "@fluentui/svg-icons/icons/table_settings_32_light.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TableSettings16Filled = createIcon("TableSettings16Filled", TableSettings16FilledSvg);
-export const TableSettings16Regular = createIcon("TableSettings16Regular", TableSettings16RegularSvg);
-export const TableSettings20Filled = createIcon("TableSettings20Filled", TableSettings20FilledSvg);
-export const TableSettings20Regular = createIcon("TableSettings20Regular", TableSettings20RegularSvg);
-export const TableSettings24Filled = createIcon("TableSettings24Filled", TableSettings24FilledSvg);
-export const TableSettings24Regular = createIcon("TableSettings24Regular", TableSettings24RegularSvg);
-export const TableSettings28Filled = createIcon("TableSettings28Filled", TableSettings28FilledSvg);
-export const TableSettings28Regular = createIcon("TableSettings28Regular", TableSettings28RegularSvg);
-export const TableSettings32Light = createIcon("TableSettings32Light", TableSettings32LightSvg);
+export const TableSettings16Filled = /** #__PURE__ */ createIcon("TableSettings16Filled", "16", TableSettings16FilledSvg);
+export const TableSettings16Regular = /** #__PURE__ */ createIcon("TableSettings16Regular", "16", TableSettings16RegularSvg);
+export const TableSettings20Filled = /** #__PURE__ */ createIcon("TableSettings20Filled", "20", TableSettings20FilledSvg);
+export const TableSettingsFilled = /** #__PURE__ */ createIcon("TableSettingsFilled", "1em", TableSettings20FilledSvg);
+export const TableSettings20Regular = /** #__PURE__ */ createIcon("TableSettings20Regular", "20", TableSettings20RegularSvg);
+export const TableSettingsRegular = /** #__PURE__ */ createIcon("TableSettingsRegular", "1em", TableSettings20RegularSvg);
+export const TableSettings24Filled = /** #__PURE__ */ createIcon("TableSettings24Filled", "24", TableSettings24FilledSvg);
+export const TableSettings24Regular = /** #__PURE__ */ createIcon("TableSettings24Regular", "24", TableSettings24RegularSvg);
+export const TableSettings28Filled = /** #__PURE__ */ createIcon("TableSettings28Filled", "28", TableSettings28FilledSvg);
+export const TableSettings28Regular = /** #__PURE__ */ createIcon("TableSettings28Regular", "28", TableSettings28RegularSvg);
+export const TableSettings32Light = /** #__PURE__ */ createIcon("TableSettings32Light", "32", TableSettings32LightSvg);

@@ -12,16 +12,19 @@ import ChatBubblesQuestion28RegularSvg from "@fluentui/svg-icons/icons/chat_bubb
 import ChatBubblesQuestion32FilledSvg from "@fluentui/svg-icons/icons/chat_bubbles_question_32_filled.svg" with { type: "text" }
 import ChatBubblesQuestion32RegularSvg from "@fluentui/svg-icons/icons/chat_bubbles_question_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ChatBubblesQuestion16Color = createIcon("ChatBubblesQuestion16Color", ChatBubblesQuestion16ColorSvg);
-export const ChatBubblesQuestion16Filled = createIcon("ChatBubblesQuestion16Filled", ChatBubblesQuestion16FilledSvg);
-export const ChatBubblesQuestion16Regular = createIcon("ChatBubblesQuestion16Regular", ChatBubblesQuestion16RegularSvg);
-export const ChatBubblesQuestion20Color = createIcon("ChatBubblesQuestion20Color", ChatBubblesQuestion20ColorSvg);
-export const ChatBubblesQuestion20Filled = createIcon("ChatBubblesQuestion20Filled", ChatBubblesQuestion20FilledSvg);
-export const ChatBubblesQuestion20Regular = createIcon("ChatBubblesQuestion20Regular", ChatBubblesQuestion20RegularSvg);
-export const ChatBubblesQuestion24Color = createIcon("ChatBubblesQuestion24Color", ChatBubblesQuestion24ColorSvg);
-export const ChatBubblesQuestion24Filled = createIcon("ChatBubblesQuestion24Filled", ChatBubblesQuestion24FilledSvg);
-export const ChatBubblesQuestion24Regular = createIcon("ChatBubblesQuestion24Regular", ChatBubblesQuestion24RegularSvg);
-export const ChatBubblesQuestion28Filled = createIcon("ChatBubblesQuestion28Filled", ChatBubblesQuestion28FilledSvg);
-export const ChatBubblesQuestion28Regular = createIcon("ChatBubblesQuestion28Regular", ChatBubblesQuestion28RegularSvg);
-export const ChatBubblesQuestion32Filled = createIcon("ChatBubblesQuestion32Filled", ChatBubblesQuestion32FilledSvg);
-export const ChatBubblesQuestion32Regular = createIcon("ChatBubblesQuestion32Regular", ChatBubblesQuestion32RegularSvg);
+export const ChatBubblesQuestion16Color = /** #__PURE__ */ createIcon("ChatBubblesQuestion16Color", "16", ChatBubblesQuestion16ColorSvg);
+export const ChatBubblesQuestion16Filled = /** #__PURE__ */ createIcon("ChatBubblesQuestion16Filled", "16", ChatBubblesQuestion16FilledSvg);
+export const ChatBubblesQuestion16Regular = /** #__PURE__ */ createIcon("ChatBubblesQuestion16Regular", "16", ChatBubblesQuestion16RegularSvg);
+export const ChatBubblesQuestion20Color = /** #__PURE__ */ createIcon("ChatBubblesQuestion20Color", "20", ChatBubblesQuestion20ColorSvg);
+export const ChatBubblesQuestionColor = /** #__PURE__ */ createIcon("ChatBubblesQuestionColor", "1em", ChatBubblesQuestion20ColorSvg);
+export const ChatBubblesQuestion20Filled = /** #__PURE__ */ createIcon("ChatBubblesQuestion20Filled", "20", ChatBubblesQuestion20FilledSvg);
+export const ChatBubblesQuestionFilled = /** #__PURE__ */ createIcon("ChatBubblesQuestionFilled", "1em", ChatBubblesQuestion20FilledSvg);
+export const ChatBubblesQuestion20Regular = /** #__PURE__ */ createIcon("ChatBubblesQuestion20Regular", "20", ChatBubblesQuestion20RegularSvg);
+export const ChatBubblesQuestionRegular = /** #__PURE__ */ createIcon("ChatBubblesQuestionRegular", "1em", ChatBubblesQuestion20RegularSvg);
+export const ChatBubblesQuestion24Color = /** #__PURE__ */ createIcon("ChatBubblesQuestion24Color", "24", ChatBubblesQuestion24ColorSvg);
+export const ChatBubblesQuestion24Filled = /** #__PURE__ */ createIcon("ChatBubblesQuestion24Filled", "24", ChatBubblesQuestion24FilledSvg);
+export const ChatBubblesQuestion24Regular = /** #__PURE__ */ createIcon("ChatBubblesQuestion24Regular", "24", ChatBubblesQuestion24RegularSvg);
+export const ChatBubblesQuestion28Filled = /** #__PURE__ */ createIcon("ChatBubblesQuestion28Filled", "28", ChatBubblesQuestion28FilledSvg);
+export const ChatBubblesQuestion28Regular = /** #__PURE__ */ createIcon("ChatBubblesQuestion28Regular", "28", ChatBubblesQuestion28RegularSvg);
+export const ChatBubblesQuestion32Filled = /** #__PURE__ */ createIcon("ChatBubblesQuestion32Filled", "32", ChatBubblesQuestion32FilledSvg);
+export const ChatBubblesQuestion32Regular = /** #__PURE__ */ createIcon("ChatBubblesQuestion32Regular", "32", ChatBubblesQuestion32RegularSvg);

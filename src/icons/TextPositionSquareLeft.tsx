@@ -5,9 +5,11 @@ import TextPositionSquareLeft20RegularSvg from "@fluentui/svg-icons/icons/text_p
 import TextPositionSquareLeft24FilledSvg from "@fluentui/svg-icons/icons/text_position_square_left_24_filled.svg" with { type: "text" }
 import TextPositionSquareLeft24RegularSvg from "@fluentui/svg-icons/icons/text_position_square_left_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TextPositionSquareLeft16Filled = createIcon("TextPositionSquareLeft16Filled", TextPositionSquareLeft16FilledSvg);
-export const TextPositionSquareLeft16Regular = createIcon("TextPositionSquareLeft16Regular", TextPositionSquareLeft16RegularSvg);
-export const TextPositionSquareLeft20Filled = createIcon("TextPositionSquareLeft20Filled", TextPositionSquareLeft20FilledSvg);
-export const TextPositionSquareLeft20Regular = createIcon("TextPositionSquareLeft20Regular", TextPositionSquareLeft20RegularSvg);
-export const TextPositionSquareLeft24Filled = createIcon("TextPositionSquareLeft24Filled", TextPositionSquareLeft24FilledSvg);
-export const TextPositionSquareLeft24Regular = createIcon("TextPositionSquareLeft24Regular", TextPositionSquareLeft24RegularSvg);
+export const TextPositionSquareLeft16Filled = /** #__PURE__ */ createIcon("TextPositionSquareLeft16Filled", "16", TextPositionSquareLeft16FilledSvg);
+export const TextPositionSquareLeft16Regular = /** #__PURE__ */ createIcon("TextPositionSquareLeft16Regular", "16", TextPositionSquareLeft16RegularSvg);
+export const TextPositionSquareLeft20Filled = /** #__PURE__ */ createIcon("TextPositionSquareLeft20Filled", "20", TextPositionSquareLeft20FilledSvg);
+export const TextPositionSquareLeftFilled = /** #__PURE__ */ createIcon("TextPositionSquareLeftFilled", "1em", TextPositionSquareLeft20FilledSvg);
+export const TextPositionSquareLeft20Regular = /** #__PURE__ */ createIcon("TextPositionSquareLeft20Regular", "20", TextPositionSquareLeft20RegularSvg);
+export const TextPositionSquareLeftRegular = /** #__PURE__ */ createIcon("TextPositionSquareLeftRegular", "1em", TextPositionSquareLeft20RegularSvg);
+export const TextPositionSquareLeft24Filled = /** #__PURE__ */ createIcon("TextPositionSquareLeft24Filled", "24", TextPositionSquareLeft24FilledSvg);
+export const TextPositionSquareLeft24Regular = /** #__PURE__ */ createIcon("TextPositionSquareLeft24Regular", "24", TextPositionSquareLeft24RegularSvg);

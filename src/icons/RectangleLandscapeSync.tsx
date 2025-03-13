@@ -7,11 +7,13 @@ import RectangleLandscapeSync24RegularSvg from "@fluentui/svg-icons/icons/rectan
 import RectangleLandscapeSync28FilledSvg from "@fluentui/svg-icons/icons/rectangle_landscape_sync_28_filled.svg" with { type: "text" }
 import RectangleLandscapeSync28RegularSvg from "@fluentui/svg-icons/icons/rectangle_landscape_sync_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const RectangleLandscapeSync16Filled = createIcon("RectangleLandscapeSync16Filled", RectangleLandscapeSync16FilledSvg);
-export const RectangleLandscapeSync16Regular = createIcon("RectangleLandscapeSync16Regular", RectangleLandscapeSync16RegularSvg);
-export const RectangleLandscapeSync20Filled = createIcon("RectangleLandscapeSync20Filled", RectangleLandscapeSync20FilledSvg);
-export const RectangleLandscapeSync20Regular = createIcon("RectangleLandscapeSync20Regular", RectangleLandscapeSync20RegularSvg);
-export const RectangleLandscapeSync24Filled = createIcon("RectangleLandscapeSync24Filled", RectangleLandscapeSync24FilledSvg);
-export const RectangleLandscapeSync24Regular = createIcon("RectangleLandscapeSync24Regular", RectangleLandscapeSync24RegularSvg);
-export const RectangleLandscapeSync28Filled = createIcon("RectangleLandscapeSync28Filled", RectangleLandscapeSync28FilledSvg);
-export const RectangleLandscapeSync28Regular = createIcon("RectangleLandscapeSync28Regular", RectangleLandscapeSync28RegularSvg);
+export const RectangleLandscapeSync16Filled = /** #__PURE__ */ createIcon("RectangleLandscapeSync16Filled", "16", RectangleLandscapeSync16FilledSvg);
+export const RectangleLandscapeSync16Regular = /** #__PURE__ */ createIcon("RectangleLandscapeSync16Regular", "16", RectangleLandscapeSync16RegularSvg);
+export const RectangleLandscapeSync20Filled = /** #__PURE__ */ createIcon("RectangleLandscapeSync20Filled", "20", RectangleLandscapeSync20FilledSvg);
+export const RectangleLandscapeSyncFilled = /** #__PURE__ */ createIcon("RectangleLandscapeSyncFilled", "1em", RectangleLandscapeSync20FilledSvg);
+export const RectangleLandscapeSync20Regular = /** #__PURE__ */ createIcon("RectangleLandscapeSync20Regular", "20", RectangleLandscapeSync20RegularSvg);
+export const RectangleLandscapeSyncRegular = /** #__PURE__ */ createIcon("RectangleLandscapeSyncRegular", "1em", RectangleLandscapeSync20RegularSvg);
+export const RectangleLandscapeSync24Filled = /** #__PURE__ */ createIcon("RectangleLandscapeSync24Filled", "24", RectangleLandscapeSync24FilledSvg);
+export const RectangleLandscapeSync24Regular = /** #__PURE__ */ createIcon("RectangleLandscapeSync24Regular", "24", RectangleLandscapeSync24RegularSvg);
+export const RectangleLandscapeSync28Filled = /** #__PURE__ */ createIcon("RectangleLandscapeSync28Filled", "28", RectangleLandscapeSync28FilledSvg);
+export const RectangleLandscapeSync28Regular = /** #__PURE__ */ createIcon("RectangleLandscapeSync28Regular", "28", RectangleLandscapeSync28RegularSvg);

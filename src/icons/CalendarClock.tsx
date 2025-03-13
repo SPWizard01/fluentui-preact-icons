@@ -11,15 +11,18 @@ import CalendarClock32FilledSvg from "@fluentui/svg-icons/icons/calendar_clock_3
 import CalendarClock32LightSvg from "@fluentui/svg-icons/icons/calendar_clock_32_light.svg" with { type: "text" }
 import CalendarClock32RegularSvg from "@fluentui/svg-icons/icons/calendar_clock_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CalendarClock16Color = createIcon("CalendarClock16Color", CalendarClock16ColorSvg);
-export const CalendarClock16Filled = createIcon("CalendarClock16Filled", CalendarClock16FilledSvg);
-export const CalendarClock16Regular = createIcon("CalendarClock16Regular", CalendarClock16RegularSvg);
-export const CalendarClock20Color = createIcon("CalendarClock20Color", CalendarClock20ColorSvg);
-export const CalendarClock20Filled = createIcon("CalendarClock20Filled", CalendarClock20FilledSvg);
-export const CalendarClock20Regular = createIcon("CalendarClock20Regular", CalendarClock20RegularSvg);
-export const CalendarClock24Color = createIcon("CalendarClock24Color", CalendarClock24ColorSvg);
-export const CalendarClock24Filled = createIcon("CalendarClock24Filled", CalendarClock24FilledSvg);
-export const CalendarClock24Regular = createIcon("CalendarClock24Regular", CalendarClock24RegularSvg);
-export const CalendarClock32Filled = createIcon("CalendarClock32Filled", CalendarClock32FilledSvg);
-export const CalendarClock32Light = createIcon("CalendarClock32Light", CalendarClock32LightSvg);
-export const CalendarClock32Regular = createIcon("CalendarClock32Regular", CalendarClock32RegularSvg);
+export const CalendarClock16Color = /** #__PURE__ */ createIcon("CalendarClock16Color", "16", CalendarClock16ColorSvg);
+export const CalendarClock16Filled = /** #__PURE__ */ createIcon("CalendarClock16Filled", "16", CalendarClock16FilledSvg);
+export const CalendarClock16Regular = /** #__PURE__ */ createIcon("CalendarClock16Regular", "16", CalendarClock16RegularSvg);
+export const CalendarClock20Color = /** #__PURE__ */ createIcon("CalendarClock20Color", "20", CalendarClock20ColorSvg);
+export const CalendarClockColor = /** #__PURE__ */ createIcon("CalendarClockColor", "1em", CalendarClock20ColorSvg);
+export const CalendarClock20Filled = /** #__PURE__ */ createIcon("CalendarClock20Filled", "20", CalendarClock20FilledSvg);
+export const CalendarClockFilled = /** #__PURE__ */ createIcon("CalendarClockFilled", "1em", CalendarClock20FilledSvg);
+export const CalendarClock20Regular = /** #__PURE__ */ createIcon("CalendarClock20Regular", "20", CalendarClock20RegularSvg);
+export const CalendarClockRegular = /** #__PURE__ */ createIcon("CalendarClockRegular", "1em", CalendarClock20RegularSvg);
+export const CalendarClock24Color = /** #__PURE__ */ createIcon("CalendarClock24Color", "24", CalendarClock24ColorSvg);
+export const CalendarClock24Filled = /** #__PURE__ */ createIcon("CalendarClock24Filled", "24", CalendarClock24FilledSvg);
+export const CalendarClock24Regular = /** #__PURE__ */ createIcon("CalendarClock24Regular", "24", CalendarClock24RegularSvg);
+export const CalendarClock32Filled = /** #__PURE__ */ createIcon("CalendarClock32Filled", "32", CalendarClock32FilledSvg);
+export const CalendarClock32Light = /** #__PURE__ */ createIcon("CalendarClock32Light", "32", CalendarClock32LightSvg);
+export const CalendarClock32Regular = /** #__PURE__ */ createIcon("CalendarClock32Regular", "32", CalendarClock32RegularSvg);

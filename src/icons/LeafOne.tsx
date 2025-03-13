@@ -7,11 +7,13 @@ import LeafOne24RegularSvg from "@fluentui/svg-icons/icons/leaf_one_24_regular.s
 import LeafOne32FilledSvg from "@fluentui/svg-icons/icons/leaf_one_32_filled.svg" with { type: "text" }
 import LeafOne32RegularSvg from "@fluentui/svg-icons/icons/leaf_one_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const LeafOne16Filled = createIcon("LeafOne16Filled", LeafOne16FilledSvg);
-export const LeafOne16Regular = createIcon("LeafOne16Regular", LeafOne16RegularSvg);
-export const LeafOne20Filled = createIcon("LeafOne20Filled", LeafOne20FilledSvg);
-export const LeafOne20Regular = createIcon("LeafOne20Regular", LeafOne20RegularSvg);
-export const LeafOne24Filled = createIcon("LeafOne24Filled", LeafOne24FilledSvg);
-export const LeafOne24Regular = createIcon("LeafOne24Regular", LeafOne24RegularSvg);
-export const LeafOne32Filled = createIcon("LeafOne32Filled", LeafOne32FilledSvg);
-export const LeafOne32Regular = createIcon("LeafOne32Regular", LeafOne32RegularSvg);
+export const LeafOne16Filled = /** #__PURE__ */ createIcon("LeafOne16Filled", "16", LeafOne16FilledSvg);
+export const LeafOne16Regular = /** #__PURE__ */ createIcon("LeafOne16Regular", "16", LeafOne16RegularSvg);
+export const LeafOne20Filled = /** #__PURE__ */ createIcon("LeafOne20Filled", "20", LeafOne20FilledSvg);
+export const LeafOneFilled = /** #__PURE__ */ createIcon("LeafOneFilled", "1em", LeafOne20FilledSvg);
+export const LeafOne20Regular = /** #__PURE__ */ createIcon("LeafOne20Regular", "20", LeafOne20RegularSvg);
+export const LeafOneRegular = /** #__PURE__ */ createIcon("LeafOneRegular", "1em", LeafOne20RegularSvg);
+export const LeafOne24Filled = /** #__PURE__ */ createIcon("LeafOne24Filled", "24", LeafOne24FilledSvg);
+export const LeafOne24Regular = /** #__PURE__ */ createIcon("LeafOne24Regular", "24", LeafOne24RegularSvg);
+export const LeafOne32Filled = /** #__PURE__ */ createIcon("LeafOne32Filled", "32", LeafOne32FilledSvg);
+export const LeafOne32Regular = /** #__PURE__ */ createIcon("LeafOne32Regular", "32", LeafOne32RegularSvg);

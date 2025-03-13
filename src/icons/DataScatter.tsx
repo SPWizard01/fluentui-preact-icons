@@ -8,12 +8,15 @@ import DataScatter32ColorSvg from "@fluentui/svg-icons/icons/data_scatter_32_col
 import DataScatter32FilledSvg from "@fluentui/svg-icons/icons/data_scatter_32_filled.svg" with { type: "text" }
 import DataScatter32RegularSvg from "@fluentui/svg-icons/icons/data_scatter_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const DataScatter20Color = createIcon("DataScatter20Color", DataScatter20ColorSvg);
-export const DataScatter20Filled = createIcon("DataScatter20Filled", DataScatter20FilledSvg);
-export const DataScatter20Regular = createIcon("DataScatter20Regular", DataScatter20RegularSvg);
-export const DataScatter24Color = createIcon("DataScatter24Color", DataScatter24ColorSvg);
-export const DataScatter24Filled = createIcon("DataScatter24Filled", DataScatter24FilledSvg);
-export const DataScatter24Regular = createIcon("DataScatter24Regular", DataScatter24RegularSvg);
-export const DataScatter32Color = createIcon("DataScatter32Color", DataScatter32ColorSvg);
-export const DataScatter32Filled = createIcon("DataScatter32Filled", DataScatter32FilledSvg);
-export const DataScatter32Regular = createIcon("DataScatter32Regular", DataScatter32RegularSvg);
+export const DataScatter20Color = /** #__PURE__ */ createIcon("DataScatter20Color", "20", DataScatter20ColorSvg);
+export const DataScatterColor = /** #__PURE__ */ createIcon("DataScatterColor", "1em", DataScatter20ColorSvg);
+export const DataScatter20Filled = /** #__PURE__ */ createIcon("DataScatter20Filled", "20", DataScatter20FilledSvg);
+export const DataScatterFilled = /** #__PURE__ */ createIcon("DataScatterFilled", "1em", DataScatter20FilledSvg);
+export const DataScatter20Regular = /** #__PURE__ */ createIcon("DataScatter20Regular", "20", DataScatter20RegularSvg);
+export const DataScatterRegular = /** #__PURE__ */ createIcon("DataScatterRegular", "1em", DataScatter20RegularSvg);
+export const DataScatter24Color = /** #__PURE__ */ createIcon("DataScatter24Color", "24", DataScatter24ColorSvg);
+export const DataScatter24Filled = /** #__PURE__ */ createIcon("DataScatter24Filled", "24", DataScatter24FilledSvg);
+export const DataScatter24Regular = /** #__PURE__ */ createIcon("DataScatter24Regular", "24", DataScatter24RegularSvg);
+export const DataScatter32Color = /** #__PURE__ */ createIcon("DataScatter32Color", "32", DataScatter32ColorSvg);
+export const DataScatter32Filled = /** #__PURE__ */ createIcon("DataScatter32Filled", "32", DataScatter32FilledSvg);
+export const DataScatter32Regular = /** #__PURE__ */ createIcon("DataScatter32Regular", "32", DataScatter32RegularSvg);

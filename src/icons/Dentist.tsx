@@ -11,15 +11,17 @@ import Dentist28RegularSvg from "@fluentui/svg-icons/icons/dentist_28_regular.sv
 import Dentist48FilledSvg from "@fluentui/svg-icons/icons/dentist_48_filled.svg" with { type: "text" }
 import Dentist48RegularSvg from "@fluentui/svg-icons/icons/dentist_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Dentist12Filled = createIcon("Dentist12Filled", Dentist12FilledSvg);
-export const Dentist12Regular = createIcon("Dentist12Regular", Dentist12RegularSvg);
-export const Dentist16Filled = createIcon("Dentist16Filled", Dentist16FilledSvg);
-export const Dentist16Regular = createIcon("Dentist16Regular", Dentist16RegularSvg);
-export const Dentist20Filled = createIcon("Dentist20Filled", Dentist20FilledSvg);
-export const Dentist20Regular = createIcon("Dentist20Regular", Dentist20RegularSvg);
-export const Dentist24Filled = createIcon("Dentist24Filled", Dentist24FilledSvg);
-export const Dentist24Regular = createIcon("Dentist24Regular", Dentist24RegularSvg);
-export const Dentist28Filled = createIcon("Dentist28Filled", Dentist28FilledSvg);
-export const Dentist28Regular = createIcon("Dentist28Regular", Dentist28RegularSvg);
-export const Dentist48Filled = createIcon("Dentist48Filled", Dentist48FilledSvg);
-export const Dentist48Regular = createIcon("Dentist48Regular", Dentist48RegularSvg);
+export const Dentist12Filled = /** #__PURE__ */ createIcon("Dentist12Filled", "12", Dentist12FilledSvg);
+export const Dentist12Regular = /** #__PURE__ */ createIcon("Dentist12Regular", "12", Dentist12RegularSvg);
+export const Dentist16Filled = /** #__PURE__ */ createIcon("Dentist16Filled", "16", Dentist16FilledSvg);
+export const Dentist16Regular = /** #__PURE__ */ createIcon("Dentist16Regular", "16", Dentist16RegularSvg);
+export const Dentist20Filled = /** #__PURE__ */ createIcon("Dentist20Filled", "20", Dentist20FilledSvg);
+export const DentistFilled = /** #__PURE__ */ createIcon("DentistFilled", "1em", Dentist20FilledSvg);
+export const Dentist20Regular = /** #__PURE__ */ createIcon("Dentist20Regular", "20", Dentist20RegularSvg);
+export const DentistRegular = /** #__PURE__ */ createIcon("DentistRegular", "1em", Dentist20RegularSvg);
+export const Dentist24Filled = /** #__PURE__ */ createIcon("Dentist24Filled", "24", Dentist24FilledSvg);
+export const Dentist24Regular = /** #__PURE__ */ createIcon("Dentist24Regular", "24", Dentist24RegularSvg);
+export const Dentist28Filled = /** #__PURE__ */ createIcon("Dentist28Filled", "28", Dentist28FilledSvg);
+export const Dentist28Regular = /** #__PURE__ */ createIcon("Dentist28Regular", "28", Dentist28RegularSvg);
+export const Dentist48Filled = /** #__PURE__ */ createIcon("Dentist48Filled", "48", Dentist48FilledSvg);
+export const Dentist48Regular = /** #__PURE__ */ createIcon("Dentist48Regular", "48", Dentist48RegularSvg);

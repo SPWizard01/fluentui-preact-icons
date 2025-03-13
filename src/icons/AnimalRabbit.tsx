@@ -9,13 +9,15 @@ import AnimalRabbit28RegularSvg from "@fluentui/svg-icons/icons/animal_rabbit_28
 import AnimalRabbit32FilledSvg from "@fluentui/svg-icons/icons/animal_rabbit_32_filled.svg" with { type: "text" }
 import AnimalRabbit32RegularSvg from "@fluentui/svg-icons/icons/animal_rabbit_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const AnimalRabbit16Filled = createIcon("AnimalRabbit16Filled", AnimalRabbit16FilledSvg);
-export const AnimalRabbit16Regular = createIcon("AnimalRabbit16Regular", AnimalRabbit16RegularSvg);
-export const AnimalRabbit20Filled = createIcon("AnimalRabbit20Filled", AnimalRabbit20FilledSvg);
-export const AnimalRabbit20Regular = createIcon("AnimalRabbit20Regular", AnimalRabbit20RegularSvg);
-export const AnimalRabbit24Filled = createIcon("AnimalRabbit24Filled", AnimalRabbit24FilledSvg);
-export const AnimalRabbit24Regular = createIcon("AnimalRabbit24Regular", AnimalRabbit24RegularSvg);
-export const AnimalRabbit28Filled = createIcon("AnimalRabbit28Filled", AnimalRabbit28FilledSvg);
-export const AnimalRabbit28Regular = createIcon("AnimalRabbit28Regular", AnimalRabbit28RegularSvg);
-export const AnimalRabbit32Filled = createIcon("AnimalRabbit32Filled", AnimalRabbit32FilledSvg);
-export const AnimalRabbit32Regular = createIcon("AnimalRabbit32Regular", AnimalRabbit32RegularSvg);
+export const AnimalRabbit16Filled = /** #__PURE__ */ createIcon("AnimalRabbit16Filled", "16", AnimalRabbit16FilledSvg);
+export const AnimalRabbit16Regular = /** #__PURE__ */ createIcon("AnimalRabbit16Regular", "16", AnimalRabbit16RegularSvg);
+export const AnimalRabbit20Filled = /** #__PURE__ */ createIcon("AnimalRabbit20Filled", "20", AnimalRabbit20FilledSvg);
+export const AnimalRabbitFilled = /** #__PURE__ */ createIcon("AnimalRabbitFilled", "1em", AnimalRabbit20FilledSvg);
+export const AnimalRabbit20Regular = /** #__PURE__ */ createIcon("AnimalRabbit20Regular", "20", AnimalRabbit20RegularSvg);
+export const AnimalRabbitRegular = /** #__PURE__ */ createIcon("AnimalRabbitRegular", "1em", AnimalRabbit20RegularSvg);
+export const AnimalRabbit24Filled = /** #__PURE__ */ createIcon("AnimalRabbit24Filled", "24", AnimalRabbit24FilledSvg);
+export const AnimalRabbit24Regular = /** #__PURE__ */ createIcon("AnimalRabbit24Regular", "24", AnimalRabbit24RegularSvg);
+export const AnimalRabbit28Filled = /** #__PURE__ */ createIcon("AnimalRabbit28Filled", "28", AnimalRabbit28FilledSvg);
+export const AnimalRabbit28Regular = /** #__PURE__ */ createIcon("AnimalRabbit28Regular", "28", AnimalRabbit28RegularSvg);
+export const AnimalRabbit32Filled = /** #__PURE__ */ createIcon("AnimalRabbit32Filled", "32", AnimalRabbit32FilledSvg);
+export const AnimalRabbit32Regular = /** #__PURE__ */ createIcon("AnimalRabbit32Regular", "32", AnimalRabbit32RegularSvg);

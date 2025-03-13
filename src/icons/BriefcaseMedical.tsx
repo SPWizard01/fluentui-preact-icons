@@ -7,11 +7,13 @@ import BriefcaseMedical24RegularSvg from "@fluentui/svg-icons/icons/briefcase_me
 import BriefcaseMedical32FilledSvg from "@fluentui/svg-icons/icons/briefcase_medical_32_filled.svg" with { type: "text" }
 import BriefcaseMedical32RegularSvg from "@fluentui/svg-icons/icons/briefcase_medical_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const BriefcaseMedical16Filled = createIcon("BriefcaseMedical16Filled", BriefcaseMedical16FilledSvg);
-export const BriefcaseMedical16Regular = createIcon("BriefcaseMedical16Regular", BriefcaseMedical16RegularSvg);
-export const BriefcaseMedical20Filled = createIcon("BriefcaseMedical20Filled", BriefcaseMedical20FilledSvg);
-export const BriefcaseMedical20Regular = createIcon("BriefcaseMedical20Regular", BriefcaseMedical20RegularSvg);
-export const BriefcaseMedical24Filled = createIcon("BriefcaseMedical24Filled", BriefcaseMedical24FilledSvg);
-export const BriefcaseMedical24Regular = createIcon("BriefcaseMedical24Regular", BriefcaseMedical24RegularSvg);
-export const BriefcaseMedical32Filled = createIcon("BriefcaseMedical32Filled", BriefcaseMedical32FilledSvg);
-export const BriefcaseMedical32Regular = createIcon("BriefcaseMedical32Regular", BriefcaseMedical32RegularSvg);
+export const BriefcaseMedical16Filled = /** #__PURE__ */ createIcon("BriefcaseMedical16Filled", "16", BriefcaseMedical16FilledSvg);
+export const BriefcaseMedical16Regular = /** #__PURE__ */ createIcon("BriefcaseMedical16Regular", "16", BriefcaseMedical16RegularSvg);
+export const BriefcaseMedical20Filled = /** #__PURE__ */ createIcon("BriefcaseMedical20Filled", "20", BriefcaseMedical20FilledSvg);
+export const BriefcaseMedicalFilled = /** #__PURE__ */ createIcon("BriefcaseMedicalFilled", "1em", BriefcaseMedical20FilledSvg);
+export const BriefcaseMedical20Regular = /** #__PURE__ */ createIcon("BriefcaseMedical20Regular", "20", BriefcaseMedical20RegularSvg);
+export const BriefcaseMedicalRegular = /** #__PURE__ */ createIcon("BriefcaseMedicalRegular", "1em", BriefcaseMedical20RegularSvg);
+export const BriefcaseMedical24Filled = /** #__PURE__ */ createIcon("BriefcaseMedical24Filled", "24", BriefcaseMedical24FilledSvg);
+export const BriefcaseMedical24Regular = /** #__PURE__ */ createIcon("BriefcaseMedical24Regular", "24", BriefcaseMedical24RegularSvg);
+export const BriefcaseMedical32Filled = /** #__PURE__ */ createIcon("BriefcaseMedical32Filled", "32", BriefcaseMedical32FilledSvg);
+export const BriefcaseMedical32Regular = /** #__PURE__ */ createIcon("BriefcaseMedical32Regular", "32", BriefcaseMedical32RegularSvg);

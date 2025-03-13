@@ -11,15 +11,17 @@ import PhoneDesktop32RegularSvg from "@fluentui/svg-icons/icons/phone_desktop_32
 import PhoneDesktop48FilledSvg from "@fluentui/svg-icons/icons/phone_desktop_48_filled.svg" with { type: "text" }
 import PhoneDesktop48RegularSvg from "@fluentui/svg-icons/icons/phone_desktop_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PhoneDesktop16Filled = createIcon("PhoneDesktop16Filled", PhoneDesktop16FilledSvg);
-export const PhoneDesktop16Regular = createIcon("PhoneDesktop16Regular", PhoneDesktop16RegularSvg);
-export const PhoneDesktop20Filled = createIcon("PhoneDesktop20Filled", PhoneDesktop20FilledSvg);
-export const PhoneDesktop20Regular = createIcon("PhoneDesktop20Regular", PhoneDesktop20RegularSvg);
-export const PhoneDesktop24Filled = createIcon("PhoneDesktop24Filled", PhoneDesktop24FilledSvg);
-export const PhoneDesktop24Regular = createIcon("PhoneDesktop24Regular", PhoneDesktop24RegularSvg);
-export const PhoneDesktop28Filled = createIcon("PhoneDesktop28Filled", PhoneDesktop28FilledSvg);
-export const PhoneDesktop28Regular = createIcon("PhoneDesktop28Regular", PhoneDesktop28RegularSvg);
-export const PhoneDesktop32Filled = createIcon("PhoneDesktop32Filled", PhoneDesktop32FilledSvg);
-export const PhoneDesktop32Regular = createIcon("PhoneDesktop32Regular", PhoneDesktop32RegularSvg);
-export const PhoneDesktop48Filled = createIcon("PhoneDesktop48Filled", PhoneDesktop48FilledSvg);
-export const PhoneDesktop48Regular = createIcon("PhoneDesktop48Regular", PhoneDesktop48RegularSvg);
+export const PhoneDesktop16Filled = /** #__PURE__ */ createIcon("PhoneDesktop16Filled", "16", PhoneDesktop16FilledSvg);
+export const PhoneDesktop16Regular = /** #__PURE__ */ createIcon("PhoneDesktop16Regular", "16", PhoneDesktop16RegularSvg);
+export const PhoneDesktop20Filled = /** #__PURE__ */ createIcon("PhoneDesktop20Filled", "20", PhoneDesktop20FilledSvg);
+export const PhoneDesktopFilled = /** #__PURE__ */ createIcon("PhoneDesktopFilled", "1em", PhoneDesktop20FilledSvg);
+export const PhoneDesktop20Regular = /** #__PURE__ */ createIcon("PhoneDesktop20Regular", "20", PhoneDesktop20RegularSvg);
+export const PhoneDesktopRegular = /** #__PURE__ */ createIcon("PhoneDesktopRegular", "1em", PhoneDesktop20RegularSvg);
+export const PhoneDesktop24Filled = /** #__PURE__ */ createIcon("PhoneDesktop24Filled", "24", PhoneDesktop24FilledSvg);
+export const PhoneDesktop24Regular = /** #__PURE__ */ createIcon("PhoneDesktop24Regular", "24", PhoneDesktop24RegularSvg);
+export const PhoneDesktop28Filled = /** #__PURE__ */ createIcon("PhoneDesktop28Filled", "28", PhoneDesktop28FilledSvg);
+export const PhoneDesktop28Regular = /** #__PURE__ */ createIcon("PhoneDesktop28Regular", "28", PhoneDesktop28RegularSvg);
+export const PhoneDesktop32Filled = /** #__PURE__ */ createIcon("PhoneDesktop32Filled", "32", PhoneDesktop32FilledSvg);
+export const PhoneDesktop32Regular = /** #__PURE__ */ createIcon("PhoneDesktop32Regular", "32", PhoneDesktop32RegularSvg);
+export const PhoneDesktop48Filled = /** #__PURE__ */ createIcon("PhoneDesktop48Filled", "48", PhoneDesktop48FilledSvg);
+export const PhoneDesktop48Regular = /** #__PURE__ */ createIcon("PhoneDesktop48Regular", "48", PhoneDesktop48RegularSvg);

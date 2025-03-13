@@ -11,15 +11,17 @@ import ShapeOrganic32RegularSvg from "@fluentui/svg-icons/icons/shape_organic_32
 import ShapeOrganic48FilledSvg from "@fluentui/svg-icons/icons/shape_organic_48_filled.svg" with { type: "text" }
 import ShapeOrganic48RegularSvg from "@fluentui/svg-icons/icons/shape_organic_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ShapeOrganic16Filled = createIcon("ShapeOrganic16Filled", ShapeOrganic16FilledSvg);
-export const ShapeOrganic16Regular = createIcon("ShapeOrganic16Regular", ShapeOrganic16RegularSvg);
-export const ShapeOrganic20Filled = createIcon("ShapeOrganic20Filled", ShapeOrganic20FilledSvg);
-export const ShapeOrganic20Regular = createIcon("ShapeOrganic20Regular", ShapeOrganic20RegularSvg);
-export const ShapeOrganic24Filled = createIcon("ShapeOrganic24Filled", ShapeOrganic24FilledSvg);
-export const ShapeOrganic24Regular = createIcon("ShapeOrganic24Regular", ShapeOrganic24RegularSvg);
-export const ShapeOrganic28Filled = createIcon("ShapeOrganic28Filled", ShapeOrganic28FilledSvg);
-export const ShapeOrganic28Regular = createIcon("ShapeOrganic28Regular", ShapeOrganic28RegularSvg);
-export const ShapeOrganic32Filled = createIcon("ShapeOrganic32Filled", ShapeOrganic32FilledSvg);
-export const ShapeOrganic32Regular = createIcon("ShapeOrganic32Regular", ShapeOrganic32RegularSvg);
-export const ShapeOrganic48Filled = createIcon("ShapeOrganic48Filled", ShapeOrganic48FilledSvg);
-export const ShapeOrganic48Regular = createIcon("ShapeOrganic48Regular", ShapeOrganic48RegularSvg);
+export const ShapeOrganic16Filled = /** #__PURE__ */ createIcon("ShapeOrganic16Filled", "16", ShapeOrganic16FilledSvg);
+export const ShapeOrganic16Regular = /** #__PURE__ */ createIcon("ShapeOrganic16Regular", "16", ShapeOrganic16RegularSvg);
+export const ShapeOrganic20Filled = /** #__PURE__ */ createIcon("ShapeOrganic20Filled", "20", ShapeOrganic20FilledSvg);
+export const ShapeOrganicFilled = /** #__PURE__ */ createIcon("ShapeOrganicFilled", "1em", ShapeOrganic20FilledSvg);
+export const ShapeOrganic20Regular = /** #__PURE__ */ createIcon("ShapeOrganic20Regular", "20", ShapeOrganic20RegularSvg);
+export const ShapeOrganicRegular = /** #__PURE__ */ createIcon("ShapeOrganicRegular", "1em", ShapeOrganic20RegularSvg);
+export const ShapeOrganic24Filled = /** #__PURE__ */ createIcon("ShapeOrganic24Filled", "24", ShapeOrganic24FilledSvg);
+export const ShapeOrganic24Regular = /** #__PURE__ */ createIcon("ShapeOrganic24Regular", "24", ShapeOrganic24RegularSvg);
+export const ShapeOrganic28Filled = /** #__PURE__ */ createIcon("ShapeOrganic28Filled", "28", ShapeOrganic28FilledSvg);
+export const ShapeOrganic28Regular = /** #__PURE__ */ createIcon("ShapeOrganic28Regular", "28", ShapeOrganic28RegularSvg);
+export const ShapeOrganic32Filled = /** #__PURE__ */ createIcon("ShapeOrganic32Filled", "32", ShapeOrganic32FilledSvg);
+export const ShapeOrganic32Regular = /** #__PURE__ */ createIcon("ShapeOrganic32Regular", "32", ShapeOrganic32RegularSvg);
+export const ShapeOrganic48Filled = /** #__PURE__ */ createIcon("ShapeOrganic48Filled", "48", ShapeOrganic48FilledSvg);
+export const ShapeOrganic48Regular = /** #__PURE__ */ createIcon("ShapeOrganic48Regular", "48", ShapeOrganic48RegularSvg);

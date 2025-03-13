@@ -8,12 +8,14 @@ import CalendarWorkWeek28FilledSvg from "@fluentui/svg-icons/icons/calendar_work
 import CalendarWorkWeek28RegularSvg from "@fluentui/svg-icons/icons/calendar_work_week_28_regular.svg" with { type: "text" }
 import CalendarWorkWeek32LightSvg from "@fluentui/svg-icons/icons/calendar_work_week_32_light.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CalendarWorkWeek16Filled = createIcon("CalendarWorkWeek16Filled", CalendarWorkWeek16FilledSvg);
-export const CalendarWorkWeek16Regular = createIcon("CalendarWorkWeek16Regular", CalendarWorkWeek16RegularSvg);
-export const CalendarWorkWeek20Filled = createIcon("CalendarWorkWeek20Filled", CalendarWorkWeek20FilledSvg);
-export const CalendarWorkWeek20Regular = createIcon("CalendarWorkWeek20Regular", CalendarWorkWeek20RegularSvg);
-export const CalendarWorkWeek24Filled = createIcon("CalendarWorkWeek24Filled", CalendarWorkWeek24FilledSvg);
-export const CalendarWorkWeek24Regular = createIcon("CalendarWorkWeek24Regular", CalendarWorkWeek24RegularSvg);
-export const CalendarWorkWeek28Filled = createIcon("CalendarWorkWeek28Filled", CalendarWorkWeek28FilledSvg);
-export const CalendarWorkWeek28Regular = createIcon("CalendarWorkWeek28Regular", CalendarWorkWeek28RegularSvg);
-export const CalendarWorkWeek32Light = createIcon("CalendarWorkWeek32Light", CalendarWorkWeek32LightSvg);
+export const CalendarWorkWeek16Filled = /** #__PURE__ */ createIcon("CalendarWorkWeek16Filled", "16", CalendarWorkWeek16FilledSvg);
+export const CalendarWorkWeek16Regular = /** #__PURE__ */ createIcon("CalendarWorkWeek16Regular", "16", CalendarWorkWeek16RegularSvg);
+export const CalendarWorkWeek20Filled = /** #__PURE__ */ createIcon("CalendarWorkWeek20Filled", "20", CalendarWorkWeek20FilledSvg);
+export const CalendarWorkWeekFilled = /** #__PURE__ */ createIcon("CalendarWorkWeekFilled", "1em", CalendarWorkWeek20FilledSvg);
+export const CalendarWorkWeek20Regular = /** #__PURE__ */ createIcon("CalendarWorkWeek20Regular", "20", CalendarWorkWeek20RegularSvg);
+export const CalendarWorkWeekRegular = /** #__PURE__ */ createIcon("CalendarWorkWeekRegular", "1em", CalendarWorkWeek20RegularSvg);
+export const CalendarWorkWeek24Filled = /** #__PURE__ */ createIcon("CalendarWorkWeek24Filled", "24", CalendarWorkWeek24FilledSvg);
+export const CalendarWorkWeek24Regular = /** #__PURE__ */ createIcon("CalendarWorkWeek24Regular", "24", CalendarWorkWeek24RegularSvg);
+export const CalendarWorkWeek28Filled = /** #__PURE__ */ createIcon("CalendarWorkWeek28Filled", "28", CalendarWorkWeek28FilledSvg);
+export const CalendarWorkWeek28Regular = /** #__PURE__ */ createIcon("CalendarWorkWeek28Regular", "28", CalendarWorkWeek28RegularSvg);
+export const CalendarWorkWeek32Light = /** #__PURE__ */ createIcon("CalendarWorkWeek32Light", "32", CalendarWorkWeek32LightSvg);

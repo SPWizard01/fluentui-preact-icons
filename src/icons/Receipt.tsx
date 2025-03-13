@@ -16,20 +16,23 @@ import Receipt32RegularSvg from "@fluentui/svg-icons/icons/receipt_32_regular.sv
 import Receipt48FilledSvg from "@fluentui/svg-icons/icons/receipt_48_filled.svg" with { type: "text" }
 import Receipt48RegularSvg from "@fluentui/svg-icons/icons/receipt_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Receipt16Color = createIcon("Receipt16Color", Receipt16ColorSvg);
-export const Receipt16Filled = createIcon("Receipt16Filled", Receipt16FilledSvg);
-export const Receipt16Regular = createIcon("Receipt16Regular", Receipt16RegularSvg);
-export const Receipt20Color = createIcon("Receipt20Color", Receipt20ColorSvg);
-export const Receipt20Filled = createIcon("Receipt20Filled", Receipt20FilledSvg);
-export const Receipt20Regular = createIcon("Receipt20Regular", Receipt20RegularSvg);
-export const Receipt24Color = createIcon("Receipt24Color", Receipt24ColorSvg);
-export const Receipt24Filled = createIcon("Receipt24Filled", Receipt24FilledSvg);
-export const Receipt24Regular = createIcon("Receipt24Regular", Receipt24RegularSvg);
-export const Receipt28Color = createIcon("Receipt28Color", Receipt28ColorSvg);
-export const Receipt28Filled = createIcon("Receipt28Filled", Receipt28FilledSvg);
-export const Receipt28Regular = createIcon("Receipt28Regular", Receipt28RegularSvg);
-export const Receipt32Color = createIcon("Receipt32Color", Receipt32ColorSvg);
-export const Receipt32Filled = createIcon("Receipt32Filled", Receipt32FilledSvg);
-export const Receipt32Regular = createIcon("Receipt32Regular", Receipt32RegularSvg);
-export const Receipt48Filled = createIcon("Receipt48Filled", Receipt48FilledSvg);
-export const Receipt48Regular = createIcon("Receipt48Regular", Receipt48RegularSvg);
+export const Receipt16Color = /** #__PURE__ */ createIcon("Receipt16Color", "16", Receipt16ColorSvg);
+export const Receipt16Filled = /** #__PURE__ */ createIcon("Receipt16Filled", "16", Receipt16FilledSvg);
+export const Receipt16Regular = /** #__PURE__ */ createIcon("Receipt16Regular", "16", Receipt16RegularSvg);
+export const Receipt20Color = /** #__PURE__ */ createIcon("Receipt20Color", "20", Receipt20ColorSvg);
+export const ReceiptColor = /** #__PURE__ */ createIcon("ReceiptColor", "1em", Receipt20ColorSvg);
+export const Receipt20Filled = /** #__PURE__ */ createIcon("Receipt20Filled", "20", Receipt20FilledSvg);
+export const ReceiptFilled = /** #__PURE__ */ createIcon("ReceiptFilled", "1em", Receipt20FilledSvg);
+export const Receipt20Regular = /** #__PURE__ */ createIcon("Receipt20Regular", "20", Receipt20RegularSvg);
+export const ReceiptRegular = /** #__PURE__ */ createIcon("ReceiptRegular", "1em", Receipt20RegularSvg);
+export const Receipt24Color = /** #__PURE__ */ createIcon("Receipt24Color", "24", Receipt24ColorSvg);
+export const Receipt24Filled = /** #__PURE__ */ createIcon("Receipt24Filled", "24", Receipt24FilledSvg);
+export const Receipt24Regular = /** #__PURE__ */ createIcon("Receipt24Regular", "24", Receipt24RegularSvg);
+export const Receipt28Color = /** #__PURE__ */ createIcon("Receipt28Color", "28", Receipt28ColorSvg);
+export const Receipt28Filled = /** #__PURE__ */ createIcon("Receipt28Filled", "28", Receipt28FilledSvg);
+export const Receipt28Regular = /** #__PURE__ */ createIcon("Receipt28Regular", "28", Receipt28RegularSvg);
+export const Receipt32Color = /** #__PURE__ */ createIcon("Receipt32Color", "32", Receipt32ColorSvg);
+export const Receipt32Filled = /** #__PURE__ */ createIcon("Receipt32Filled", "32", Receipt32FilledSvg);
+export const Receipt32Regular = /** #__PURE__ */ createIcon("Receipt32Regular", "32", Receipt32RegularSvg);
+export const Receipt48Filled = /** #__PURE__ */ createIcon("Receipt48Filled", "48", Receipt48FilledSvg);
+export const Receipt48Regular = /** #__PURE__ */ createIcon("Receipt48Regular", "48", Receipt48RegularSvg);

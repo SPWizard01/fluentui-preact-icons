@@ -8,12 +8,15 @@ import Gauge32ColorSvg from "@fluentui/svg-icons/icons/gauge_32_color.svg" with 
 import Gauge32FilledSvg from "@fluentui/svg-icons/icons/gauge_32_filled.svg" with { type: "text" }
 import Gauge32RegularSvg from "@fluentui/svg-icons/icons/gauge_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Gauge20Color = createIcon("Gauge20Color", Gauge20ColorSvg);
-export const Gauge20Filled = createIcon("Gauge20Filled", Gauge20FilledSvg);
-export const Gauge20Regular = createIcon("Gauge20Regular", Gauge20RegularSvg);
-export const Gauge24Color = createIcon("Gauge24Color", Gauge24ColorSvg);
-export const Gauge24Filled = createIcon("Gauge24Filled", Gauge24FilledSvg);
-export const Gauge24Regular = createIcon("Gauge24Regular", Gauge24RegularSvg);
-export const Gauge32Color = createIcon("Gauge32Color", Gauge32ColorSvg);
-export const Gauge32Filled = createIcon("Gauge32Filled", Gauge32FilledSvg);
-export const Gauge32Regular = createIcon("Gauge32Regular", Gauge32RegularSvg);
+export const Gauge20Color = /** #__PURE__ */ createIcon("Gauge20Color", "20", Gauge20ColorSvg);
+export const GaugeColor = /** #__PURE__ */ createIcon("GaugeColor", "1em", Gauge20ColorSvg);
+export const Gauge20Filled = /** #__PURE__ */ createIcon("Gauge20Filled", "20", Gauge20FilledSvg);
+export const GaugeFilled = /** #__PURE__ */ createIcon("GaugeFilled", "1em", Gauge20FilledSvg);
+export const Gauge20Regular = /** #__PURE__ */ createIcon("Gauge20Regular", "20", Gauge20RegularSvg);
+export const GaugeRegular = /** #__PURE__ */ createIcon("GaugeRegular", "1em", Gauge20RegularSvg);
+export const Gauge24Color = /** #__PURE__ */ createIcon("Gauge24Color", "24", Gauge24ColorSvg);
+export const Gauge24Filled = /** #__PURE__ */ createIcon("Gauge24Filled", "24", Gauge24FilledSvg);
+export const Gauge24Regular = /** #__PURE__ */ createIcon("Gauge24Regular", "24", Gauge24RegularSvg);
+export const Gauge32Color = /** #__PURE__ */ createIcon("Gauge32Color", "32", Gauge32ColorSvg);
+export const Gauge32Filled = /** #__PURE__ */ createIcon("Gauge32Filled", "32", Gauge32FilledSvg);
+export const Gauge32Regular = /** #__PURE__ */ createIcon("Gauge32Regular", "32", Gauge32RegularSvg);

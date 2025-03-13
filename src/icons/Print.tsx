@@ -12,16 +12,18 @@ import Print32RegularSvg from "@fluentui/svg-icons/icons/print_32_regular.svg" w
 import Print48FilledSvg from "@fluentui/svg-icons/icons/print_48_filled.svg" with { type: "text" }
 import Print48RegularSvg from "@fluentui/svg-icons/icons/print_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Print16Filled = createIcon("Print16Filled", Print16FilledSvg);
-export const Print16Regular = createIcon("Print16Regular", Print16RegularSvg);
-export const Print20Filled = createIcon("Print20Filled", Print20FilledSvg);
-export const Print20Regular = createIcon("Print20Regular", Print20RegularSvg);
-export const Print24Filled = createIcon("Print24Filled", Print24FilledSvg);
-export const Print24Regular = createIcon("Print24Regular", Print24RegularSvg);
-export const Print28Filled = createIcon("Print28Filled", Print28FilledSvg);
-export const Print28Regular = createIcon("Print28Regular", Print28RegularSvg);
-export const Print32Filled = createIcon("Print32Filled", Print32FilledSvg);
-export const Print32Light = createIcon("Print32Light", Print32LightSvg);
-export const Print32Regular = createIcon("Print32Regular", Print32RegularSvg);
-export const Print48Filled = createIcon("Print48Filled", Print48FilledSvg);
-export const Print48Regular = createIcon("Print48Regular", Print48RegularSvg);
+export const Print16Filled = /** #__PURE__ */ createIcon("Print16Filled", "16", Print16FilledSvg);
+export const Print16Regular = /** #__PURE__ */ createIcon("Print16Regular", "16", Print16RegularSvg);
+export const Print20Filled = /** #__PURE__ */ createIcon("Print20Filled", "20", Print20FilledSvg);
+export const PrintFilled = /** #__PURE__ */ createIcon("PrintFilled", "1em", Print20FilledSvg);
+export const Print20Regular = /** #__PURE__ */ createIcon("Print20Regular", "20", Print20RegularSvg);
+export const PrintRegular = /** #__PURE__ */ createIcon("PrintRegular", "1em", Print20RegularSvg);
+export const Print24Filled = /** #__PURE__ */ createIcon("Print24Filled", "24", Print24FilledSvg);
+export const Print24Regular = /** #__PURE__ */ createIcon("Print24Regular", "24", Print24RegularSvg);
+export const Print28Filled = /** #__PURE__ */ createIcon("Print28Filled", "28", Print28FilledSvg);
+export const Print28Regular = /** #__PURE__ */ createIcon("Print28Regular", "28", Print28RegularSvg);
+export const Print32Filled = /** #__PURE__ */ createIcon("Print32Filled", "32", Print32FilledSvg);
+export const Print32Light = /** #__PURE__ */ createIcon("Print32Light", "32", Print32LightSvg);
+export const Print32Regular = /** #__PURE__ */ createIcon("Print32Regular", "32", Print32RegularSvg);
+export const Print48Filled = /** #__PURE__ */ createIcon("Print48Filled", "48", Print48FilledSvg);
+export const Print48Regular = /** #__PURE__ */ createIcon("Print48Regular", "48", Print48RegularSvg);

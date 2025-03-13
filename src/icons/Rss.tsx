@@ -5,9 +5,11 @@ import Rss20RegularSvg from "@fluentui/svg-icons/icons/rss_20_regular.svg" with 
 import Rss24FilledSvg from "@fluentui/svg-icons/icons/rss_24_filled.svg" with { type: "text" }
 import Rss24RegularSvg from "@fluentui/svg-icons/icons/rss_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Rss16Filled = createIcon("Rss16Filled", Rss16FilledSvg);
-export const Rss16Regular = createIcon("Rss16Regular", Rss16RegularSvg);
-export const Rss20Filled = createIcon("Rss20Filled", Rss20FilledSvg);
-export const Rss20Regular = createIcon("Rss20Regular", Rss20RegularSvg);
-export const Rss24Filled = createIcon("Rss24Filled", Rss24FilledSvg);
-export const Rss24Regular = createIcon("Rss24Regular", Rss24RegularSvg);
+export const Rss16Filled = /** #__PURE__ */ createIcon("Rss16Filled", "16", Rss16FilledSvg);
+export const Rss16Regular = /** #__PURE__ */ createIcon("Rss16Regular", "16", Rss16RegularSvg);
+export const Rss20Filled = /** #__PURE__ */ createIcon("Rss20Filled", "20", Rss20FilledSvg);
+export const RssFilled = /** #__PURE__ */ createIcon("RssFilled", "1em", Rss20FilledSvg);
+export const Rss20Regular = /** #__PURE__ */ createIcon("Rss20Regular", "20", Rss20RegularSvg);
+export const RssRegular = /** #__PURE__ */ createIcon("RssRegular", "1em", Rss20RegularSvg);
+export const Rss24Filled = /** #__PURE__ */ createIcon("Rss24Filled", "24", Rss24FilledSvg);
+export const Rss24Regular = /** #__PURE__ */ createIcon("Rss24Regular", "24", Rss24RegularSvg);

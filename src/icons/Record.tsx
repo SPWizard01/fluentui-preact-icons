@@ -13,17 +13,19 @@ import Record32RegularSvg from "@fluentui/svg-icons/icons/record_32_regular.svg"
 import Record48FilledSvg from "@fluentui/svg-icons/icons/record_48_filled.svg" with { type: "text" }
 import Record48RegularSvg from "@fluentui/svg-icons/icons/record_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Record12Filled = createIcon("Record12Filled", Record12FilledSvg);
-export const Record12Regular = createIcon("Record12Regular", Record12RegularSvg);
-export const Record16Filled = createIcon("Record16Filled", Record16FilledSvg);
-export const Record16Regular = createIcon("Record16Regular", Record16RegularSvg);
-export const Record20Filled = createIcon("Record20Filled", Record20FilledSvg);
-export const Record20Regular = createIcon("Record20Regular", Record20RegularSvg);
-export const Record24Filled = createIcon("Record24Filled", Record24FilledSvg);
-export const Record24Regular = createIcon("Record24Regular", Record24RegularSvg);
-export const Record28Filled = createIcon("Record28Filled", Record28FilledSvg);
-export const Record28Regular = createIcon("Record28Regular", Record28RegularSvg);
-export const Record32Filled = createIcon("Record32Filled", Record32FilledSvg);
-export const Record32Regular = createIcon("Record32Regular", Record32RegularSvg);
-export const Record48Filled = createIcon("Record48Filled", Record48FilledSvg);
-export const Record48Regular = createIcon("Record48Regular", Record48RegularSvg);
+export const Record12Filled = /** #__PURE__ */ createIcon("Record12Filled", "12", Record12FilledSvg);
+export const Record12Regular = /** #__PURE__ */ createIcon("Record12Regular", "12", Record12RegularSvg);
+export const Record16Filled = /** #__PURE__ */ createIcon("Record16Filled", "16", Record16FilledSvg);
+export const Record16Regular = /** #__PURE__ */ createIcon("Record16Regular", "16", Record16RegularSvg);
+export const Record20Filled = /** #__PURE__ */ createIcon("Record20Filled", "20", Record20FilledSvg);
+export const RecordFilled = /** #__PURE__ */ createIcon("RecordFilled", "1em", Record20FilledSvg);
+export const Record20Regular = /** #__PURE__ */ createIcon("Record20Regular", "20", Record20RegularSvg);
+export const RecordRegular = /** #__PURE__ */ createIcon("RecordRegular", "1em", Record20RegularSvg);
+export const Record24Filled = /** #__PURE__ */ createIcon("Record24Filled", "24", Record24FilledSvg);
+export const Record24Regular = /** #__PURE__ */ createIcon("Record24Regular", "24", Record24RegularSvg);
+export const Record28Filled = /** #__PURE__ */ createIcon("Record28Filled", "28", Record28FilledSvg);
+export const Record28Regular = /** #__PURE__ */ createIcon("Record28Regular", "28", Record28RegularSvg);
+export const Record32Filled = /** #__PURE__ */ createIcon("Record32Filled", "32", Record32FilledSvg);
+export const Record32Regular = /** #__PURE__ */ createIcon("Record32Regular", "32", Record32RegularSvg);
+export const Record48Filled = /** #__PURE__ */ createIcon("Record48Filled", "48", Record48FilledSvg);
+export const Record48Regular = /** #__PURE__ */ createIcon("Record48Regular", "48", Record48RegularSvg);

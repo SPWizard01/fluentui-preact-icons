@@ -9,13 +9,15 @@ import ChannelAdd28RegularSvg from "@fluentui/svg-icons/icons/channel_add_28_reg
 import ChannelAdd48FilledSvg from "@fluentui/svg-icons/icons/channel_add_48_filled.svg" with { type: "text" }
 import ChannelAdd48RegularSvg from "@fluentui/svg-icons/icons/channel_add_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ChannelAdd16Filled = createIcon("ChannelAdd16Filled", ChannelAdd16FilledSvg);
-export const ChannelAdd16Regular = createIcon("ChannelAdd16Regular", ChannelAdd16RegularSvg);
-export const ChannelAdd20Filled = createIcon("ChannelAdd20Filled", ChannelAdd20FilledSvg);
-export const ChannelAdd20Regular = createIcon("ChannelAdd20Regular", ChannelAdd20RegularSvg);
-export const ChannelAdd24Filled = createIcon("ChannelAdd24Filled", ChannelAdd24FilledSvg);
-export const ChannelAdd24Regular = createIcon("ChannelAdd24Regular", ChannelAdd24RegularSvg);
-export const ChannelAdd28Filled = createIcon("ChannelAdd28Filled", ChannelAdd28FilledSvg);
-export const ChannelAdd28Regular = createIcon("ChannelAdd28Regular", ChannelAdd28RegularSvg);
-export const ChannelAdd48Filled = createIcon("ChannelAdd48Filled", ChannelAdd48FilledSvg);
-export const ChannelAdd48Regular = createIcon("ChannelAdd48Regular", ChannelAdd48RegularSvg);
+export const ChannelAdd16Filled = /** #__PURE__ */ createIcon("ChannelAdd16Filled", "16", ChannelAdd16FilledSvg);
+export const ChannelAdd16Regular = /** #__PURE__ */ createIcon("ChannelAdd16Regular", "16", ChannelAdd16RegularSvg);
+export const ChannelAdd20Filled = /** #__PURE__ */ createIcon("ChannelAdd20Filled", "20", ChannelAdd20FilledSvg);
+export const ChannelAddFilled = /** #__PURE__ */ createIcon("ChannelAddFilled", "1em", ChannelAdd20FilledSvg);
+export const ChannelAdd20Regular = /** #__PURE__ */ createIcon("ChannelAdd20Regular", "20", ChannelAdd20RegularSvg);
+export const ChannelAddRegular = /** #__PURE__ */ createIcon("ChannelAddRegular", "1em", ChannelAdd20RegularSvg);
+export const ChannelAdd24Filled = /** #__PURE__ */ createIcon("ChannelAdd24Filled", "24", ChannelAdd24FilledSvg);
+export const ChannelAdd24Regular = /** #__PURE__ */ createIcon("ChannelAdd24Regular", "24", ChannelAdd24RegularSvg);
+export const ChannelAdd28Filled = /** #__PURE__ */ createIcon("ChannelAdd28Filled", "28", ChannelAdd28FilledSvg);
+export const ChannelAdd28Regular = /** #__PURE__ */ createIcon("ChannelAdd28Regular", "28", ChannelAdd28RegularSvg);
+export const ChannelAdd48Filled = /** #__PURE__ */ createIcon("ChannelAdd48Filled", "48", ChannelAdd48FilledSvg);
+export const ChannelAdd48Regular = /** #__PURE__ */ createIcon("ChannelAdd48Regular", "48", ChannelAdd48RegularSvg);

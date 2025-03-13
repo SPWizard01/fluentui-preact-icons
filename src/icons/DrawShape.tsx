@@ -3,7 +3,9 @@ import DrawShape20RegularSvg from "@fluentui/svg-icons/icons/draw_shape_20_regul
 import DrawShape24FilledSvg from "@fluentui/svg-icons/icons/draw_shape_24_filled.svg" with { type: "text" }
 import DrawShape24RegularSvg from "@fluentui/svg-icons/icons/draw_shape_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const DrawShape20Filled = createIcon("DrawShape20Filled", DrawShape20FilledSvg);
-export const DrawShape20Regular = createIcon("DrawShape20Regular", DrawShape20RegularSvg);
-export const DrawShape24Filled = createIcon("DrawShape24Filled", DrawShape24FilledSvg);
-export const DrawShape24Regular = createIcon("DrawShape24Regular", DrawShape24RegularSvg);
+export const DrawShape20Filled = /** #__PURE__ */ createIcon("DrawShape20Filled", "20", DrawShape20FilledSvg);
+export const DrawShapeFilled = /** #__PURE__ */ createIcon("DrawShapeFilled", "1em", DrawShape20FilledSvg);
+export const DrawShape20Regular = /** #__PURE__ */ createIcon("DrawShape20Regular", "20", DrawShape20RegularSvg);
+export const DrawShapeRegular = /** #__PURE__ */ createIcon("DrawShapeRegular", "1em", DrawShape20RegularSvg);
+export const DrawShape24Filled = /** #__PURE__ */ createIcon("DrawShape24Filled", "24", DrawShape24FilledSvg);
+export const DrawShape24Regular = /** #__PURE__ */ createIcon("DrawShape24Regular", "24", DrawShape24RegularSvg);

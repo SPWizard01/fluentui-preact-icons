@@ -7,11 +7,13 @@ import CircleHalfFill20RegularSvg from "@fluentui/svg-icons/icons/circle_half_fi
 import CircleHalfFill24FilledSvg from "@fluentui/svg-icons/icons/circle_half_fill_24_filled.svg" with { type: "text" }
 import CircleHalfFill24RegularSvg from "@fluentui/svg-icons/icons/circle_half_fill_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CircleHalfFill12Filled = createIcon("CircleHalfFill12Filled", CircleHalfFill12FilledSvg);
-export const CircleHalfFill12Regular = createIcon("CircleHalfFill12Regular", CircleHalfFill12RegularSvg);
-export const CircleHalfFill16Filled = createIcon("CircleHalfFill16Filled", CircleHalfFill16FilledSvg);
-export const CircleHalfFill16Regular = createIcon("CircleHalfFill16Regular", CircleHalfFill16RegularSvg);
-export const CircleHalfFill20Filled = createIcon("CircleHalfFill20Filled", CircleHalfFill20FilledSvg);
-export const CircleHalfFill20Regular = createIcon("CircleHalfFill20Regular", CircleHalfFill20RegularSvg);
-export const CircleHalfFill24Filled = createIcon("CircleHalfFill24Filled", CircleHalfFill24FilledSvg);
-export const CircleHalfFill24Regular = createIcon("CircleHalfFill24Regular", CircleHalfFill24RegularSvg);
+export const CircleHalfFill12Filled = /** #__PURE__ */ createIcon("CircleHalfFill12Filled", "12", CircleHalfFill12FilledSvg);
+export const CircleHalfFill12Regular = /** #__PURE__ */ createIcon("CircleHalfFill12Regular", "12", CircleHalfFill12RegularSvg);
+export const CircleHalfFill16Filled = /** #__PURE__ */ createIcon("CircleHalfFill16Filled", "16", CircleHalfFill16FilledSvg);
+export const CircleHalfFill16Regular = /** #__PURE__ */ createIcon("CircleHalfFill16Regular", "16", CircleHalfFill16RegularSvg);
+export const CircleHalfFill20Filled = /** #__PURE__ */ createIcon("CircleHalfFill20Filled", "20", CircleHalfFill20FilledSvg);
+export const CircleHalfFillFilled = /** #__PURE__ */ createIcon("CircleHalfFillFilled", "1em", CircleHalfFill20FilledSvg);
+export const CircleHalfFill20Regular = /** #__PURE__ */ createIcon("CircleHalfFill20Regular", "20", CircleHalfFill20RegularSvg);
+export const CircleHalfFillRegular = /** #__PURE__ */ createIcon("CircleHalfFillRegular", "1em", CircleHalfFill20RegularSvg);
+export const CircleHalfFill24Filled = /** #__PURE__ */ createIcon("CircleHalfFill24Filled", "24", CircleHalfFill24FilledSvg);
+export const CircleHalfFill24Regular = /** #__PURE__ */ createIcon("CircleHalfFill24Regular", "24", CircleHalfFill24RegularSvg);

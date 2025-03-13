@@ -19,23 +19,26 @@ import PuzzlePiece48ColorSvg from "@fluentui/svg-icons/icons/puzzle_piece_48_col
 import PuzzlePiece48FilledSvg from "@fluentui/svg-icons/icons/puzzle_piece_48_filled.svg" with { type: "text" }
 import PuzzlePiece48RegularSvg from "@fluentui/svg-icons/icons/puzzle_piece_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PuzzlePiece12Filled = createIcon("PuzzlePiece12Filled", PuzzlePiece12FilledSvg);
-export const PuzzlePiece12Regular = createIcon("PuzzlePiece12Regular", PuzzlePiece12RegularSvg);
-export const PuzzlePiece16Color = createIcon("PuzzlePiece16Color", PuzzlePiece16ColorSvg);
-export const PuzzlePiece16Filled = createIcon("PuzzlePiece16Filled", PuzzlePiece16FilledSvg);
-export const PuzzlePiece16Regular = createIcon("PuzzlePiece16Regular", PuzzlePiece16RegularSvg);
-export const PuzzlePiece20Color = createIcon("PuzzlePiece20Color", PuzzlePiece20ColorSvg);
-export const PuzzlePiece20Filled = createIcon("PuzzlePiece20Filled", PuzzlePiece20FilledSvg);
-export const PuzzlePiece20Regular = createIcon("PuzzlePiece20Regular", PuzzlePiece20RegularSvg);
-export const PuzzlePiece24Color = createIcon("PuzzlePiece24Color", PuzzlePiece24ColorSvg);
-export const PuzzlePiece24Filled = createIcon("PuzzlePiece24Filled", PuzzlePiece24FilledSvg);
-export const PuzzlePiece24Regular = createIcon("PuzzlePiece24Regular", PuzzlePiece24RegularSvg);
-export const PuzzlePiece28Color = createIcon("PuzzlePiece28Color", PuzzlePiece28ColorSvg);
-export const PuzzlePiece28Filled = createIcon("PuzzlePiece28Filled", PuzzlePiece28FilledSvg);
-export const PuzzlePiece28Regular = createIcon("PuzzlePiece28Regular", PuzzlePiece28RegularSvg);
-export const PuzzlePiece32Color = createIcon("PuzzlePiece32Color", PuzzlePiece32ColorSvg);
-export const PuzzlePiece32Filled = createIcon("PuzzlePiece32Filled", PuzzlePiece32FilledSvg);
-export const PuzzlePiece32Regular = createIcon("PuzzlePiece32Regular", PuzzlePiece32RegularSvg);
-export const PuzzlePiece48Color = createIcon("PuzzlePiece48Color", PuzzlePiece48ColorSvg);
-export const PuzzlePiece48Filled = createIcon("PuzzlePiece48Filled", PuzzlePiece48FilledSvg);
-export const PuzzlePiece48Regular = createIcon("PuzzlePiece48Regular", PuzzlePiece48RegularSvg);
+export const PuzzlePiece12Filled = /** #__PURE__ */ createIcon("PuzzlePiece12Filled", "12", PuzzlePiece12FilledSvg);
+export const PuzzlePiece12Regular = /** #__PURE__ */ createIcon("PuzzlePiece12Regular", "12", PuzzlePiece12RegularSvg);
+export const PuzzlePiece16Color = /** #__PURE__ */ createIcon("PuzzlePiece16Color", "16", PuzzlePiece16ColorSvg);
+export const PuzzlePiece16Filled = /** #__PURE__ */ createIcon("PuzzlePiece16Filled", "16", PuzzlePiece16FilledSvg);
+export const PuzzlePiece16Regular = /** #__PURE__ */ createIcon("PuzzlePiece16Regular", "16", PuzzlePiece16RegularSvg);
+export const PuzzlePiece20Color = /** #__PURE__ */ createIcon("PuzzlePiece20Color", "20", PuzzlePiece20ColorSvg);
+export const PuzzlePieceColor = /** #__PURE__ */ createIcon("PuzzlePieceColor", "1em", PuzzlePiece20ColorSvg);
+export const PuzzlePiece20Filled = /** #__PURE__ */ createIcon("PuzzlePiece20Filled", "20", PuzzlePiece20FilledSvg);
+export const PuzzlePieceFilled = /** #__PURE__ */ createIcon("PuzzlePieceFilled", "1em", PuzzlePiece20FilledSvg);
+export const PuzzlePiece20Regular = /** #__PURE__ */ createIcon("PuzzlePiece20Regular", "20", PuzzlePiece20RegularSvg);
+export const PuzzlePieceRegular = /** #__PURE__ */ createIcon("PuzzlePieceRegular", "1em", PuzzlePiece20RegularSvg);
+export const PuzzlePiece24Color = /** #__PURE__ */ createIcon("PuzzlePiece24Color", "24", PuzzlePiece24ColorSvg);
+export const PuzzlePiece24Filled = /** #__PURE__ */ createIcon("PuzzlePiece24Filled", "24", PuzzlePiece24FilledSvg);
+export const PuzzlePiece24Regular = /** #__PURE__ */ createIcon("PuzzlePiece24Regular", "24", PuzzlePiece24RegularSvg);
+export const PuzzlePiece28Color = /** #__PURE__ */ createIcon("PuzzlePiece28Color", "28", PuzzlePiece28ColorSvg);
+export const PuzzlePiece28Filled = /** #__PURE__ */ createIcon("PuzzlePiece28Filled", "28", PuzzlePiece28FilledSvg);
+export const PuzzlePiece28Regular = /** #__PURE__ */ createIcon("PuzzlePiece28Regular", "28", PuzzlePiece28RegularSvg);
+export const PuzzlePiece32Color = /** #__PURE__ */ createIcon("PuzzlePiece32Color", "32", PuzzlePiece32ColorSvg);
+export const PuzzlePiece32Filled = /** #__PURE__ */ createIcon("PuzzlePiece32Filled", "32", PuzzlePiece32FilledSvg);
+export const PuzzlePiece32Regular = /** #__PURE__ */ createIcon("PuzzlePiece32Regular", "32", PuzzlePiece32RegularSvg);
+export const PuzzlePiece48Color = /** #__PURE__ */ createIcon("PuzzlePiece48Color", "48", PuzzlePiece48ColorSvg);
+export const PuzzlePiece48Filled = /** #__PURE__ */ createIcon("PuzzlePiece48Filled", "48", PuzzlePiece48FilledSvg);
+export const PuzzlePiece48Regular = /** #__PURE__ */ createIcon("PuzzlePiece48Regular", "48", PuzzlePiece48RegularSvg);

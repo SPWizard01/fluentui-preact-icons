@@ -11,15 +11,18 @@ import Notebook32ColorSvg from "@fluentui/svg-icons/icons/notebook_32_color.svg"
 import Notebook32FilledSvg from "@fluentui/svg-icons/icons/notebook_32_filled.svg" with { type: "text" }
 import Notebook32RegularSvg from "@fluentui/svg-icons/icons/notebook_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Notebook16Color = createIcon("Notebook16Color", Notebook16ColorSvg);
-export const Notebook16Filled = createIcon("Notebook16Filled", Notebook16FilledSvg);
-export const Notebook16Regular = createIcon("Notebook16Regular", Notebook16RegularSvg);
-export const Notebook20Color = createIcon("Notebook20Color", Notebook20ColorSvg);
-export const Notebook20Filled = createIcon("Notebook20Filled", Notebook20FilledSvg);
-export const Notebook20Regular = createIcon("Notebook20Regular", Notebook20RegularSvg);
-export const Notebook24Color = createIcon("Notebook24Color", Notebook24ColorSvg);
-export const Notebook24Filled = createIcon("Notebook24Filled", Notebook24FilledSvg);
-export const Notebook24Regular = createIcon("Notebook24Regular", Notebook24RegularSvg);
-export const Notebook32Color = createIcon("Notebook32Color", Notebook32ColorSvg);
-export const Notebook32Filled = createIcon("Notebook32Filled", Notebook32FilledSvg);
-export const Notebook32Regular = createIcon("Notebook32Regular", Notebook32RegularSvg);
+export const Notebook16Color = /** #__PURE__ */ createIcon("Notebook16Color", "16", Notebook16ColorSvg);
+export const Notebook16Filled = /** #__PURE__ */ createIcon("Notebook16Filled", "16", Notebook16FilledSvg);
+export const Notebook16Regular = /** #__PURE__ */ createIcon("Notebook16Regular", "16", Notebook16RegularSvg);
+export const Notebook20Color = /** #__PURE__ */ createIcon("Notebook20Color", "20", Notebook20ColorSvg);
+export const NotebookColor = /** #__PURE__ */ createIcon("NotebookColor", "1em", Notebook20ColorSvg);
+export const Notebook20Filled = /** #__PURE__ */ createIcon("Notebook20Filled", "20", Notebook20FilledSvg);
+export const NotebookFilled = /** #__PURE__ */ createIcon("NotebookFilled", "1em", Notebook20FilledSvg);
+export const Notebook20Regular = /** #__PURE__ */ createIcon("Notebook20Regular", "20", Notebook20RegularSvg);
+export const NotebookRegular = /** #__PURE__ */ createIcon("NotebookRegular", "1em", Notebook20RegularSvg);
+export const Notebook24Color = /** #__PURE__ */ createIcon("Notebook24Color", "24", Notebook24ColorSvg);
+export const Notebook24Filled = /** #__PURE__ */ createIcon("Notebook24Filled", "24", Notebook24FilledSvg);
+export const Notebook24Regular = /** #__PURE__ */ createIcon("Notebook24Regular", "24", Notebook24RegularSvg);
+export const Notebook32Color = /** #__PURE__ */ createIcon("Notebook32Color", "32", Notebook32ColorSvg);
+export const Notebook32Filled = /** #__PURE__ */ createIcon("Notebook32Filled", "32", Notebook32FilledSvg);
+export const Notebook32Regular = /** #__PURE__ */ createIcon("Notebook32Regular", "32", Notebook32RegularSvg);

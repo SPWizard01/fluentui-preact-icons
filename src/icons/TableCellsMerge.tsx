@@ -8,12 +8,14 @@ import TableCellsMerge28FilledSvg from "@fluentui/svg-icons/icons/table_cells_me
 import TableCellsMerge28RegularSvg from "@fluentui/svg-icons/icons/table_cells_merge_28_regular.svg" with { type: "text" }
 import TableCellsMerge32LightSvg from "@fluentui/svg-icons/icons/table_cells_merge_32_light.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TableCellsMerge16Filled = createIcon("TableCellsMerge16Filled", TableCellsMerge16FilledSvg);
-export const TableCellsMerge16Regular = createIcon("TableCellsMerge16Regular", TableCellsMerge16RegularSvg);
-export const TableCellsMerge20Filled = createIcon("TableCellsMerge20Filled", TableCellsMerge20FilledSvg);
-export const TableCellsMerge20Regular = createIcon("TableCellsMerge20Regular", TableCellsMerge20RegularSvg);
-export const TableCellsMerge24Filled = createIcon("TableCellsMerge24Filled", TableCellsMerge24FilledSvg);
-export const TableCellsMerge24Regular = createIcon("TableCellsMerge24Regular", TableCellsMerge24RegularSvg);
-export const TableCellsMerge28Filled = createIcon("TableCellsMerge28Filled", TableCellsMerge28FilledSvg);
-export const TableCellsMerge28Regular = createIcon("TableCellsMerge28Regular", TableCellsMerge28RegularSvg);
-export const TableCellsMerge32Light = createIcon("TableCellsMerge32Light", TableCellsMerge32LightSvg);
+export const TableCellsMerge16Filled = /** #__PURE__ */ createIcon("TableCellsMerge16Filled", "16", TableCellsMerge16FilledSvg);
+export const TableCellsMerge16Regular = /** #__PURE__ */ createIcon("TableCellsMerge16Regular", "16", TableCellsMerge16RegularSvg);
+export const TableCellsMerge20Filled = /** #__PURE__ */ createIcon("TableCellsMerge20Filled", "20", TableCellsMerge20FilledSvg);
+export const TableCellsMergeFilled = /** #__PURE__ */ createIcon("TableCellsMergeFilled", "1em", TableCellsMerge20FilledSvg);
+export const TableCellsMerge20Regular = /** #__PURE__ */ createIcon("TableCellsMerge20Regular", "20", TableCellsMerge20RegularSvg);
+export const TableCellsMergeRegular = /** #__PURE__ */ createIcon("TableCellsMergeRegular", "1em", TableCellsMerge20RegularSvg);
+export const TableCellsMerge24Filled = /** #__PURE__ */ createIcon("TableCellsMerge24Filled", "24", TableCellsMerge24FilledSvg);
+export const TableCellsMerge24Regular = /** #__PURE__ */ createIcon("TableCellsMerge24Regular", "24", TableCellsMerge24RegularSvg);
+export const TableCellsMerge28Filled = /** #__PURE__ */ createIcon("TableCellsMerge28Filled", "28", TableCellsMerge28FilledSvg);
+export const TableCellsMerge28Regular = /** #__PURE__ */ createIcon("TableCellsMerge28Regular", "28", TableCellsMerge28RegularSvg);
+export const TableCellsMerge32Light = /** #__PURE__ */ createIcon("TableCellsMerge32Light", "32", TableCellsMerge32LightSvg);

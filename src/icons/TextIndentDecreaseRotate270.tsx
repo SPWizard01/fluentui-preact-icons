@@ -3,7 +3,9 @@ import TextIndentDecreaseRotate27020RegularSvg from "@fluentui/svg-icons/icons/t
 import TextIndentDecreaseRotate27024FilledSvg from "@fluentui/svg-icons/icons/text_indent_decrease_rotate_270_24_filled.svg" with { type: "text" }
 import TextIndentDecreaseRotate27024RegularSvg from "@fluentui/svg-icons/icons/text_indent_decrease_rotate_270_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TextIndentDecreaseRotate27020Filled = createIcon("TextIndentDecreaseRotate27020Filled", TextIndentDecreaseRotate27020FilledSvg);
-export const TextIndentDecreaseRotate27020Regular = createIcon("TextIndentDecreaseRotate27020Regular", TextIndentDecreaseRotate27020RegularSvg);
-export const TextIndentDecreaseRotate27024Filled = createIcon("TextIndentDecreaseRotate27024Filled", TextIndentDecreaseRotate27024FilledSvg);
-export const TextIndentDecreaseRotate27024Regular = createIcon("TextIndentDecreaseRotate27024Regular", TextIndentDecreaseRotate27024RegularSvg);
+export const TextIndentDecreaseRotate27020Filled = /** #__PURE__ */ createIcon("TextIndentDecreaseRotate27020Filled", "20", TextIndentDecreaseRotate27020FilledSvg);
+export const TextIndentDecreaseRotate270Filled = /** #__PURE__ */ createIcon("TextIndentDecreaseRotate270Filled", "1em", TextIndentDecreaseRotate27020FilledSvg);
+export const TextIndentDecreaseRotate27020Regular = /** #__PURE__ */ createIcon("TextIndentDecreaseRotate27020Regular", "20", TextIndentDecreaseRotate27020RegularSvg);
+export const TextIndentDecreaseRotate270Regular = /** #__PURE__ */ createIcon("TextIndentDecreaseRotate270Regular", "1em", TextIndentDecreaseRotate27020RegularSvg);
+export const TextIndentDecreaseRotate27024Filled = /** #__PURE__ */ createIcon("TextIndentDecreaseRotate27024Filled", "24", TextIndentDecreaseRotate27024FilledSvg);
+export const TextIndentDecreaseRotate27024Regular = /** #__PURE__ */ createIcon("TextIndentDecreaseRotate27024Regular", "24", TextIndentDecreaseRotate27024RegularSvg);

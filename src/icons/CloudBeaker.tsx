@@ -11,15 +11,17 @@ import CloudBeaker32RegularSvg from "@fluentui/svg-icons/icons/cloud_beaker_32_r
 import CloudBeaker48FilledSvg from "@fluentui/svg-icons/icons/cloud_beaker_48_filled.svg" with { type: "text" }
 import CloudBeaker48RegularSvg from "@fluentui/svg-icons/icons/cloud_beaker_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CloudBeaker16Filled = createIcon("CloudBeaker16Filled", CloudBeaker16FilledSvg);
-export const CloudBeaker16Regular = createIcon("CloudBeaker16Regular", CloudBeaker16RegularSvg);
-export const CloudBeaker20Filled = createIcon("CloudBeaker20Filled", CloudBeaker20FilledSvg);
-export const CloudBeaker20Regular = createIcon("CloudBeaker20Regular", CloudBeaker20RegularSvg);
-export const CloudBeaker24Filled = createIcon("CloudBeaker24Filled", CloudBeaker24FilledSvg);
-export const CloudBeaker24Regular = createIcon("CloudBeaker24Regular", CloudBeaker24RegularSvg);
-export const CloudBeaker28Filled = createIcon("CloudBeaker28Filled", CloudBeaker28FilledSvg);
-export const CloudBeaker28Regular = createIcon("CloudBeaker28Regular", CloudBeaker28RegularSvg);
-export const CloudBeaker32Filled = createIcon("CloudBeaker32Filled", CloudBeaker32FilledSvg);
-export const CloudBeaker32Regular = createIcon("CloudBeaker32Regular", CloudBeaker32RegularSvg);
-export const CloudBeaker48Filled = createIcon("CloudBeaker48Filled", CloudBeaker48FilledSvg);
-export const CloudBeaker48Regular = createIcon("CloudBeaker48Regular", CloudBeaker48RegularSvg);
+export const CloudBeaker16Filled = /** #__PURE__ */ createIcon("CloudBeaker16Filled", "16", CloudBeaker16FilledSvg);
+export const CloudBeaker16Regular = /** #__PURE__ */ createIcon("CloudBeaker16Regular", "16", CloudBeaker16RegularSvg);
+export const CloudBeaker20Filled = /** #__PURE__ */ createIcon("CloudBeaker20Filled", "20", CloudBeaker20FilledSvg);
+export const CloudBeakerFilled = /** #__PURE__ */ createIcon("CloudBeakerFilled", "1em", CloudBeaker20FilledSvg);
+export const CloudBeaker20Regular = /** #__PURE__ */ createIcon("CloudBeaker20Regular", "20", CloudBeaker20RegularSvg);
+export const CloudBeakerRegular = /** #__PURE__ */ createIcon("CloudBeakerRegular", "1em", CloudBeaker20RegularSvg);
+export const CloudBeaker24Filled = /** #__PURE__ */ createIcon("CloudBeaker24Filled", "24", CloudBeaker24FilledSvg);
+export const CloudBeaker24Regular = /** #__PURE__ */ createIcon("CloudBeaker24Regular", "24", CloudBeaker24RegularSvg);
+export const CloudBeaker28Filled = /** #__PURE__ */ createIcon("CloudBeaker28Filled", "28", CloudBeaker28FilledSvg);
+export const CloudBeaker28Regular = /** #__PURE__ */ createIcon("CloudBeaker28Regular", "28", CloudBeaker28RegularSvg);
+export const CloudBeaker32Filled = /** #__PURE__ */ createIcon("CloudBeaker32Filled", "32", CloudBeaker32FilledSvg);
+export const CloudBeaker32Regular = /** #__PURE__ */ createIcon("CloudBeaker32Regular", "32", CloudBeaker32RegularSvg);
+export const CloudBeaker48Filled = /** #__PURE__ */ createIcon("CloudBeaker48Filled", "48", CloudBeaker48FilledSvg);
+export const CloudBeaker48Regular = /** #__PURE__ */ createIcon("CloudBeaker48Regular", "48", CloudBeaker48RegularSvg);

@@ -11,15 +11,17 @@ import MicLink32RegularSvg from "@fluentui/svg-icons/icons/mic_link_32_regular.s
 import MicLink48FilledSvg from "@fluentui/svg-icons/icons/mic_link_48_filled.svg" with { type: "text" }
 import MicLink48RegularSvg from "@fluentui/svg-icons/icons/mic_link_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const MicLink16Filled = createIcon("MicLink16Filled", MicLink16FilledSvg);
-export const MicLink16Regular = createIcon("MicLink16Regular", MicLink16RegularSvg);
-export const MicLink20Filled = createIcon("MicLink20Filled", MicLink20FilledSvg);
-export const MicLink20Regular = createIcon("MicLink20Regular", MicLink20RegularSvg);
-export const MicLink24Filled = createIcon("MicLink24Filled", MicLink24FilledSvg);
-export const MicLink24Regular = createIcon("MicLink24Regular", MicLink24RegularSvg);
-export const MicLink28Filled = createIcon("MicLink28Filled", MicLink28FilledSvg);
-export const MicLink28Regular = createIcon("MicLink28Regular", MicLink28RegularSvg);
-export const MicLink32Filled = createIcon("MicLink32Filled", MicLink32FilledSvg);
-export const MicLink32Regular = createIcon("MicLink32Regular", MicLink32RegularSvg);
-export const MicLink48Filled = createIcon("MicLink48Filled", MicLink48FilledSvg);
-export const MicLink48Regular = createIcon("MicLink48Regular", MicLink48RegularSvg);
+export const MicLink16Filled = /** #__PURE__ */ createIcon("MicLink16Filled", "16", MicLink16FilledSvg);
+export const MicLink16Regular = /** #__PURE__ */ createIcon("MicLink16Regular", "16", MicLink16RegularSvg);
+export const MicLink20Filled = /** #__PURE__ */ createIcon("MicLink20Filled", "20", MicLink20FilledSvg);
+export const MicLinkFilled = /** #__PURE__ */ createIcon("MicLinkFilled", "1em", MicLink20FilledSvg);
+export const MicLink20Regular = /** #__PURE__ */ createIcon("MicLink20Regular", "20", MicLink20RegularSvg);
+export const MicLinkRegular = /** #__PURE__ */ createIcon("MicLinkRegular", "1em", MicLink20RegularSvg);
+export const MicLink24Filled = /** #__PURE__ */ createIcon("MicLink24Filled", "24", MicLink24FilledSvg);
+export const MicLink24Regular = /** #__PURE__ */ createIcon("MicLink24Regular", "24", MicLink24RegularSvg);
+export const MicLink28Filled = /** #__PURE__ */ createIcon("MicLink28Filled", "28", MicLink28FilledSvg);
+export const MicLink28Regular = /** #__PURE__ */ createIcon("MicLink28Regular", "28", MicLink28RegularSvg);
+export const MicLink32Filled = /** #__PURE__ */ createIcon("MicLink32Filled", "32", MicLink32FilledSvg);
+export const MicLink32Regular = /** #__PURE__ */ createIcon("MicLink32Regular", "32", MicLink32RegularSvg);
+export const MicLink48Filled = /** #__PURE__ */ createIcon("MicLink48Filled", "48", MicLink48FilledSvg);
+export const MicLink48Regular = /** #__PURE__ */ createIcon("MicLink48Regular", "48", MicLink48RegularSvg);

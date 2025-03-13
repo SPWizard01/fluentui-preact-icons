@@ -9,13 +9,15 @@ import ShieldLock28RegularSvg from "@fluentui/svg-icons/icons/shield_lock_28_reg
 import ShieldLock48FilledSvg from "@fluentui/svg-icons/icons/shield_lock_48_filled.svg" with { type: "text" }
 import ShieldLock48RegularSvg from "@fluentui/svg-icons/icons/shield_lock_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ShieldLock16Filled = createIcon("ShieldLock16Filled", ShieldLock16FilledSvg);
-export const ShieldLock16Regular = createIcon("ShieldLock16Regular", ShieldLock16RegularSvg);
-export const ShieldLock20Filled = createIcon("ShieldLock20Filled", ShieldLock20FilledSvg);
-export const ShieldLock20Regular = createIcon("ShieldLock20Regular", ShieldLock20RegularSvg);
-export const ShieldLock24Filled = createIcon("ShieldLock24Filled", ShieldLock24FilledSvg);
-export const ShieldLock24Regular = createIcon("ShieldLock24Regular", ShieldLock24RegularSvg);
-export const ShieldLock28Filled = createIcon("ShieldLock28Filled", ShieldLock28FilledSvg);
-export const ShieldLock28Regular = createIcon("ShieldLock28Regular", ShieldLock28RegularSvg);
-export const ShieldLock48Filled = createIcon("ShieldLock48Filled", ShieldLock48FilledSvg);
-export const ShieldLock48Regular = createIcon("ShieldLock48Regular", ShieldLock48RegularSvg);
+export const ShieldLock16Filled = /** #__PURE__ */ createIcon("ShieldLock16Filled", "16", ShieldLock16FilledSvg);
+export const ShieldLock16Regular = /** #__PURE__ */ createIcon("ShieldLock16Regular", "16", ShieldLock16RegularSvg);
+export const ShieldLock20Filled = /** #__PURE__ */ createIcon("ShieldLock20Filled", "20", ShieldLock20FilledSvg);
+export const ShieldLockFilled = /** #__PURE__ */ createIcon("ShieldLockFilled", "1em", ShieldLock20FilledSvg);
+export const ShieldLock20Regular = /** #__PURE__ */ createIcon("ShieldLock20Regular", "20", ShieldLock20RegularSvg);
+export const ShieldLockRegular = /** #__PURE__ */ createIcon("ShieldLockRegular", "1em", ShieldLock20RegularSvg);
+export const ShieldLock24Filled = /** #__PURE__ */ createIcon("ShieldLock24Filled", "24", ShieldLock24FilledSvg);
+export const ShieldLock24Regular = /** #__PURE__ */ createIcon("ShieldLock24Regular", "24", ShieldLock24RegularSvg);
+export const ShieldLock28Filled = /** #__PURE__ */ createIcon("ShieldLock28Filled", "28", ShieldLock28FilledSvg);
+export const ShieldLock28Regular = /** #__PURE__ */ createIcon("ShieldLock28Regular", "28", ShieldLock28RegularSvg);
+export const ShieldLock48Filled = /** #__PURE__ */ createIcon("ShieldLock48Filled", "48", ShieldLock48FilledSvg);
+export const ShieldLock48Regular = /** #__PURE__ */ createIcon("ShieldLock48Regular", "48", ShieldLock48RegularSvg);

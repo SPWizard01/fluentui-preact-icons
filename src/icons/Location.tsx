@@ -11,15 +11,17 @@ import Location28RegularSvg from "@fluentui/svg-icons/icons/location_28_regular.
 import Location48FilledSvg from "@fluentui/svg-icons/icons/location_48_filled.svg" with { type: "text" }
 import Location48RegularSvg from "@fluentui/svg-icons/icons/location_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Location12Filled = createIcon("Location12Filled", Location12FilledSvg);
-export const Location12Regular = createIcon("Location12Regular", Location12RegularSvg);
-export const Location16Filled = createIcon("Location16Filled", Location16FilledSvg);
-export const Location16Regular = createIcon("Location16Regular", Location16RegularSvg);
-export const Location20Filled = createIcon("Location20Filled", Location20FilledSvg);
-export const Location20Regular = createIcon("Location20Regular", Location20RegularSvg);
-export const Location24Filled = createIcon("Location24Filled", Location24FilledSvg);
-export const Location24Regular = createIcon("Location24Regular", Location24RegularSvg);
-export const Location28Filled = createIcon("Location28Filled", Location28FilledSvg);
-export const Location28Regular = createIcon("Location28Regular", Location28RegularSvg);
-export const Location48Filled = createIcon("Location48Filled", Location48FilledSvg);
-export const Location48Regular = createIcon("Location48Regular", Location48RegularSvg);
+export const Location12Filled = /** #__PURE__ */ createIcon("Location12Filled", "12", Location12FilledSvg);
+export const Location12Regular = /** #__PURE__ */ createIcon("Location12Regular", "12", Location12RegularSvg);
+export const Location16Filled = /** #__PURE__ */ createIcon("Location16Filled", "16", Location16FilledSvg);
+export const Location16Regular = /** #__PURE__ */ createIcon("Location16Regular", "16", Location16RegularSvg);
+export const Location20Filled = /** #__PURE__ */ createIcon("Location20Filled", "20", Location20FilledSvg);
+export const LocationFilled = /** #__PURE__ */ createIcon("LocationFilled", "1em", Location20FilledSvg);
+export const Location20Regular = /** #__PURE__ */ createIcon("Location20Regular", "20", Location20RegularSvg);
+export const LocationRegular = /** #__PURE__ */ createIcon("LocationRegular", "1em", Location20RegularSvg);
+export const Location24Filled = /** #__PURE__ */ createIcon("Location24Filled", "24", Location24FilledSvg);
+export const Location24Regular = /** #__PURE__ */ createIcon("Location24Regular", "24", Location24RegularSvg);
+export const Location28Filled = /** #__PURE__ */ createIcon("Location28Filled", "28", Location28FilledSvg);
+export const Location28Regular = /** #__PURE__ */ createIcon("Location28Regular", "28", Location28RegularSvg);
+export const Location48Filled = /** #__PURE__ */ createIcon("Location48Filled", "48", Location48FilledSvg);
+export const Location48Regular = /** #__PURE__ */ createIcon("Location48Regular", "48", Location48RegularSvg);

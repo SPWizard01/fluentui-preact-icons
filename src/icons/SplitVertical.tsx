@@ -13,17 +13,19 @@ import SplitVertical32RegularSvg from "@fluentui/svg-icons/icons/split_vertical_
 import SplitVertical48FilledSvg from "@fluentui/svg-icons/icons/split_vertical_48_filled.svg" with { type: "text" }
 import SplitVertical48RegularSvg from "@fluentui/svg-icons/icons/split_vertical_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const SplitVertical12Filled = createIcon("SplitVertical12Filled", SplitVertical12FilledSvg);
-export const SplitVertical12Regular = createIcon("SplitVertical12Regular", SplitVertical12RegularSvg);
-export const SplitVertical16Filled = createIcon("SplitVertical16Filled", SplitVertical16FilledSvg);
-export const SplitVertical16Regular = createIcon("SplitVertical16Regular", SplitVertical16RegularSvg);
-export const SplitVertical20Filled = createIcon("SplitVertical20Filled", SplitVertical20FilledSvg);
-export const SplitVertical20Regular = createIcon("SplitVertical20Regular", SplitVertical20RegularSvg);
-export const SplitVertical24Filled = createIcon("SplitVertical24Filled", SplitVertical24FilledSvg);
-export const SplitVertical24Regular = createIcon("SplitVertical24Regular", SplitVertical24RegularSvg);
-export const SplitVertical28Filled = createIcon("SplitVertical28Filled", SplitVertical28FilledSvg);
-export const SplitVertical28Regular = createIcon("SplitVertical28Regular", SplitVertical28RegularSvg);
-export const SplitVertical32Filled = createIcon("SplitVertical32Filled", SplitVertical32FilledSvg);
-export const SplitVertical32Regular = createIcon("SplitVertical32Regular", SplitVertical32RegularSvg);
-export const SplitVertical48Filled = createIcon("SplitVertical48Filled", SplitVertical48FilledSvg);
-export const SplitVertical48Regular = createIcon("SplitVertical48Regular", SplitVertical48RegularSvg);
+export const SplitVertical12Filled = /** #__PURE__ */ createIcon("SplitVertical12Filled", "12", SplitVertical12FilledSvg);
+export const SplitVertical12Regular = /** #__PURE__ */ createIcon("SplitVertical12Regular", "12", SplitVertical12RegularSvg);
+export const SplitVertical16Filled = /** #__PURE__ */ createIcon("SplitVertical16Filled", "16", SplitVertical16FilledSvg);
+export const SplitVertical16Regular = /** #__PURE__ */ createIcon("SplitVertical16Regular", "16", SplitVertical16RegularSvg);
+export const SplitVertical20Filled = /** #__PURE__ */ createIcon("SplitVertical20Filled", "20", SplitVertical20FilledSvg);
+export const SplitVerticalFilled = /** #__PURE__ */ createIcon("SplitVerticalFilled", "1em", SplitVertical20FilledSvg);
+export const SplitVertical20Regular = /** #__PURE__ */ createIcon("SplitVertical20Regular", "20", SplitVertical20RegularSvg);
+export const SplitVerticalRegular = /** #__PURE__ */ createIcon("SplitVerticalRegular", "1em", SplitVertical20RegularSvg);
+export const SplitVertical24Filled = /** #__PURE__ */ createIcon("SplitVertical24Filled", "24", SplitVertical24FilledSvg);
+export const SplitVertical24Regular = /** #__PURE__ */ createIcon("SplitVertical24Regular", "24", SplitVertical24RegularSvg);
+export const SplitVertical28Filled = /** #__PURE__ */ createIcon("SplitVertical28Filled", "28", SplitVertical28FilledSvg);
+export const SplitVertical28Regular = /** #__PURE__ */ createIcon("SplitVertical28Regular", "28", SplitVertical28RegularSvg);
+export const SplitVertical32Filled = /** #__PURE__ */ createIcon("SplitVertical32Filled", "32", SplitVertical32FilledSvg);
+export const SplitVertical32Regular = /** #__PURE__ */ createIcon("SplitVertical32Regular", "32", SplitVertical32RegularSvg);
+export const SplitVertical48Filled = /** #__PURE__ */ createIcon("SplitVertical48Filled", "48", SplitVertical48FilledSvg);
+export const SplitVertical48Regular = /** #__PURE__ */ createIcon("SplitVertical48Regular", "48", SplitVertical48RegularSvg);

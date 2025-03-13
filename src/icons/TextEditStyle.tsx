@@ -9,13 +9,16 @@ import TextEditStyle24FilledSvg from "@fluentui/svg-icons/icons/text_edit_style_
 import TextEditStyle24RegularSvg from "@fluentui/svg-icons/icons/text_edit_style_24_regular.svg" with { type: "text" }
 import TextEditStyle32LightSvg from "@fluentui/svg-icons/icons/text_edit_style_32_light.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TextEditStyle16Color = createIcon("TextEditStyle16Color", TextEditStyle16ColorSvg);
-export const TextEditStyle16Filled = createIcon("TextEditStyle16Filled", TextEditStyle16FilledSvg);
-export const TextEditStyle16Regular = createIcon("TextEditStyle16Regular", TextEditStyle16RegularSvg);
-export const TextEditStyle20Color = createIcon("TextEditStyle20Color", TextEditStyle20ColorSvg);
-export const TextEditStyle20Filled = createIcon("TextEditStyle20Filled", TextEditStyle20FilledSvg);
-export const TextEditStyle20Regular = createIcon("TextEditStyle20Regular", TextEditStyle20RegularSvg);
-export const TextEditStyle24Color = createIcon("TextEditStyle24Color", TextEditStyle24ColorSvg);
-export const TextEditStyle24Filled = createIcon("TextEditStyle24Filled", TextEditStyle24FilledSvg);
-export const TextEditStyle24Regular = createIcon("TextEditStyle24Regular", TextEditStyle24RegularSvg);
-export const TextEditStyle32Light = createIcon("TextEditStyle32Light", TextEditStyle32LightSvg);
+export const TextEditStyle16Color = /** #__PURE__ */ createIcon("TextEditStyle16Color", "16", TextEditStyle16ColorSvg);
+export const TextEditStyle16Filled = /** #__PURE__ */ createIcon("TextEditStyle16Filled", "16", TextEditStyle16FilledSvg);
+export const TextEditStyle16Regular = /** #__PURE__ */ createIcon("TextEditStyle16Regular", "16", TextEditStyle16RegularSvg);
+export const TextEditStyle20Color = /** #__PURE__ */ createIcon("TextEditStyle20Color", "20", TextEditStyle20ColorSvg);
+export const TextEditStyleColor = /** #__PURE__ */ createIcon("TextEditStyleColor", "1em", TextEditStyle20ColorSvg);
+export const TextEditStyle20Filled = /** #__PURE__ */ createIcon("TextEditStyle20Filled", "20", TextEditStyle20FilledSvg);
+export const TextEditStyleFilled = /** #__PURE__ */ createIcon("TextEditStyleFilled", "1em", TextEditStyle20FilledSvg);
+export const TextEditStyle20Regular = /** #__PURE__ */ createIcon("TextEditStyle20Regular", "20", TextEditStyle20RegularSvg);
+export const TextEditStyleRegular = /** #__PURE__ */ createIcon("TextEditStyleRegular", "1em", TextEditStyle20RegularSvg);
+export const TextEditStyle24Color = /** #__PURE__ */ createIcon("TextEditStyle24Color", "24", TextEditStyle24ColorSvg);
+export const TextEditStyle24Filled = /** #__PURE__ */ createIcon("TextEditStyle24Filled", "24", TextEditStyle24FilledSvg);
+export const TextEditStyle24Regular = /** #__PURE__ */ createIcon("TextEditStyle24Regular", "24", TextEditStyle24RegularSvg);
+export const TextEditStyle32Light = /** #__PURE__ */ createIcon("TextEditStyle32Light", "32", TextEditStyle32LightSvg);

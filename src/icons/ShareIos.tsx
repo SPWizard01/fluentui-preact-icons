@@ -7,11 +7,13 @@ import ShareIos28RegularSvg from "@fluentui/svg-icons/icons/share_ios_28_regular
 import ShareIos48FilledSvg from "@fluentui/svg-icons/icons/share_ios_48_filled.svg" with { type: "text" }
 import ShareIos48RegularSvg from "@fluentui/svg-icons/icons/share_ios_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ShareIos20Filled = createIcon("ShareIos20Filled", ShareIos20FilledSvg);
-export const ShareIos20Regular = createIcon("ShareIos20Regular", ShareIos20RegularSvg);
-export const ShareIos24Filled = createIcon("ShareIos24Filled", ShareIos24FilledSvg);
-export const ShareIos24Regular = createIcon("ShareIos24Regular", ShareIos24RegularSvg);
-export const ShareIos28Filled = createIcon("ShareIos28Filled", ShareIos28FilledSvg);
-export const ShareIos28Regular = createIcon("ShareIos28Regular", ShareIos28RegularSvg);
-export const ShareIos48Filled = createIcon("ShareIos48Filled", ShareIos48FilledSvg);
-export const ShareIos48Regular = createIcon("ShareIos48Regular", ShareIos48RegularSvg);
+export const ShareIos20Filled = /** #__PURE__ */ createIcon("ShareIos20Filled", "20", ShareIos20FilledSvg);
+export const ShareIosFilled = /** #__PURE__ */ createIcon("ShareIosFilled", "1em", ShareIos20FilledSvg);
+export const ShareIos20Regular = /** #__PURE__ */ createIcon("ShareIos20Regular", "20", ShareIos20RegularSvg);
+export const ShareIosRegular = /** #__PURE__ */ createIcon("ShareIosRegular", "1em", ShareIos20RegularSvg);
+export const ShareIos24Filled = /** #__PURE__ */ createIcon("ShareIos24Filled", "24", ShareIos24FilledSvg);
+export const ShareIos24Regular = /** #__PURE__ */ createIcon("ShareIos24Regular", "24", ShareIos24RegularSvg);
+export const ShareIos28Filled = /** #__PURE__ */ createIcon("ShareIos28Filled", "28", ShareIos28FilledSvg);
+export const ShareIos28Regular = /** #__PURE__ */ createIcon("ShareIos28Regular", "28", ShareIos28RegularSvg);
+export const ShareIos48Filled = /** #__PURE__ */ createIcon("ShareIos48Filled", "48", ShareIos48FilledSvg);
+export const ShareIos48Regular = /** #__PURE__ */ createIcon("ShareIos48Regular", "48", ShareIos48RegularSvg);

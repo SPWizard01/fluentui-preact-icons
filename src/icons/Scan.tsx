@@ -5,9 +5,11 @@ import Scan20RegularSvg from "@fluentui/svg-icons/icons/scan_20_regular.svg" wit
 import Scan24FilledSvg from "@fluentui/svg-icons/icons/scan_24_filled.svg" with { type: "text" }
 import Scan24RegularSvg from "@fluentui/svg-icons/icons/scan_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Scan16Filled = createIcon("Scan16Filled", Scan16FilledSvg);
-export const Scan16Regular = createIcon("Scan16Regular", Scan16RegularSvg);
-export const Scan20Filled = createIcon("Scan20Filled", Scan20FilledSvg);
-export const Scan20Regular = createIcon("Scan20Regular", Scan20RegularSvg);
-export const Scan24Filled = createIcon("Scan24Filled", Scan24FilledSvg);
-export const Scan24Regular = createIcon("Scan24Regular", Scan24RegularSvg);
+export const Scan16Filled = /** #__PURE__ */ createIcon("Scan16Filled", "16", Scan16FilledSvg);
+export const Scan16Regular = /** #__PURE__ */ createIcon("Scan16Regular", "16", Scan16RegularSvg);
+export const Scan20Filled = /** #__PURE__ */ createIcon("Scan20Filled", "20", Scan20FilledSvg);
+export const ScanFilled = /** #__PURE__ */ createIcon("ScanFilled", "1em", Scan20FilledSvg);
+export const Scan20Regular = /** #__PURE__ */ createIcon("Scan20Regular", "20", Scan20RegularSvg);
+export const ScanRegular = /** #__PURE__ */ createIcon("ScanRegular", "1em", Scan20RegularSvg);
+export const Scan24Filled = /** #__PURE__ */ createIcon("Scan24Filled", "24", Scan24FilledSvg);
+export const Scan24Regular = /** #__PURE__ */ createIcon("Scan24Regular", "24", Scan24RegularSvg);

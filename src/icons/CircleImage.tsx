@@ -7,11 +7,13 @@ import CircleImage24RegularSvg from "@fluentui/svg-icons/icons/circle_image_24_r
 import CircleImage28FilledSvg from "@fluentui/svg-icons/icons/circle_image_28_filled.svg" with { type: "text" }
 import CircleImage28RegularSvg from "@fluentui/svg-icons/icons/circle_image_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CircleImage16Filled = createIcon("CircleImage16Filled", CircleImage16FilledSvg);
-export const CircleImage16Regular = createIcon("CircleImage16Regular", CircleImage16RegularSvg);
-export const CircleImage20Filled = createIcon("CircleImage20Filled", CircleImage20FilledSvg);
-export const CircleImage20Regular = createIcon("CircleImage20Regular", CircleImage20RegularSvg);
-export const CircleImage24Filled = createIcon("CircleImage24Filled", CircleImage24FilledSvg);
-export const CircleImage24Regular = createIcon("CircleImage24Regular", CircleImage24RegularSvg);
-export const CircleImage28Filled = createIcon("CircleImage28Filled", CircleImage28FilledSvg);
-export const CircleImage28Regular = createIcon("CircleImage28Regular", CircleImage28RegularSvg);
+export const CircleImage16Filled = /** #__PURE__ */ createIcon("CircleImage16Filled", "16", CircleImage16FilledSvg);
+export const CircleImage16Regular = /** #__PURE__ */ createIcon("CircleImage16Regular", "16", CircleImage16RegularSvg);
+export const CircleImage20Filled = /** #__PURE__ */ createIcon("CircleImage20Filled", "20", CircleImage20FilledSvg);
+export const CircleImageFilled = /** #__PURE__ */ createIcon("CircleImageFilled", "1em", CircleImage20FilledSvg);
+export const CircleImage20Regular = /** #__PURE__ */ createIcon("CircleImage20Regular", "20", CircleImage20RegularSvg);
+export const CircleImageRegular = /** #__PURE__ */ createIcon("CircleImageRegular", "1em", CircleImage20RegularSvg);
+export const CircleImage24Filled = /** #__PURE__ */ createIcon("CircleImage24Filled", "24", CircleImage24FilledSvg);
+export const CircleImage24Regular = /** #__PURE__ */ createIcon("CircleImage24Regular", "24", CircleImage24RegularSvg);
+export const CircleImage28Filled = /** #__PURE__ */ createIcon("CircleImage28Filled", "28", CircleImage28FilledSvg);
+export const CircleImage28Regular = /** #__PURE__ */ createIcon("CircleImage28Regular", "28", CircleImage28RegularSvg);

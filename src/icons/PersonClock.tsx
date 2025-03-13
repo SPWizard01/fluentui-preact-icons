@@ -5,9 +5,11 @@ import PersonClock20RegularSvg from "@fluentui/svg-icons/icons/person_clock_20_r
 import PersonClock24FilledSvg from "@fluentui/svg-icons/icons/person_clock_24_filled.svg" with { type: "text" }
 import PersonClock24RegularSvg from "@fluentui/svg-icons/icons/person_clock_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PersonClock16Filled = createIcon("PersonClock16Filled", PersonClock16FilledSvg);
-export const PersonClock16Regular = createIcon("PersonClock16Regular", PersonClock16RegularSvg);
-export const PersonClock20Filled = createIcon("PersonClock20Filled", PersonClock20FilledSvg);
-export const PersonClock20Regular = createIcon("PersonClock20Regular", PersonClock20RegularSvg);
-export const PersonClock24Filled = createIcon("PersonClock24Filled", PersonClock24FilledSvg);
-export const PersonClock24Regular = createIcon("PersonClock24Regular", PersonClock24RegularSvg);
+export const PersonClock16Filled = /** #__PURE__ */ createIcon("PersonClock16Filled", "16", PersonClock16FilledSvg);
+export const PersonClock16Regular = /** #__PURE__ */ createIcon("PersonClock16Regular", "16", PersonClock16RegularSvg);
+export const PersonClock20Filled = /** #__PURE__ */ createIcon("PersonClock20Filled", "20", PersonClock20FilledSvg);
+export const PersonClockFilled = /** #__PURE__ */ createIcon("PersonClockFilled", "1em", PersonClock20FilledSvg);
+export const PersonClock20Regular = /** #__PURE__ */ createIcon("PersonClock20Regular", "20", PersonClock20RegularSvg);
+export const PersonClockRegular = /** #__PURE__ */ createIcon("PersonClockRegular", "1em", PersonClock20RegularSvg);
+export const PersonClock24Filled = /** #__PURE__ */ createIcon("PersonClock24Filled", "24", PersonClock24FilledSvg);
+export const PersonClock24Regular = /** #__PURE__ */ createIcon("PersonClock24Regular", "24", PersonClock24RegularSvg);

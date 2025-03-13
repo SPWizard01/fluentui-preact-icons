@@ -7,11 +7,13 @@ import PollOff24RegularSvg from "@fluentui/svg-icons/icons/poll_off_24_regular.s
 import PollOff32FilledSvg from "@fluentui/svg-icons/icons/poll_off_32_filled.svg" with { type: "text" }
 import PollOff32RegularSvg from "@fluentui/svg-icons/icons/poll_off_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PollOff16Filled = createIcon("PollOff16Filled", PollOff16FilledSvg);
-export const PollOff16Regular = createIcon("PollOff16Regular", PollOff16RegularSvg);
-export const PollOff20Filled = createIcon("PollOff20Filled", PollOff20FilledSvg);
-export const PollOff20Regular = createIcon("PollOff20Regular", PollOff20RegularSvg);
-export const PollOff24Filled = createIcon("PollOff24Filled", PollOff24FilledSvg);
-export const PollOff24Regular = createIcon("PollOff24Regular", PollOff24RegularSvg);
-export const PollOff32Filled = createIcon("PollOff32Filled", PollOff32FilledSvg);
-export const PollOff32Regular = createIcon("PollOff32Regular", PollOff32RegularSvg);
+export const PollOff16Filled = /** #__PURE__ */ createIcon("PollOff16Filled", "16", PollOff16FilledSvg);
+export const PollOff16Regular = /** #__PURE__ */ createIcon("PollOff16Regular", "16", PollOff16RegularSvg);
+export const PollOff20Filled = /** #__PURE__ */ createIcon("PollOff20Filled", "20", PollOff20FilledSvg);
+export const PollOffFilled = /** #__PURE__ */ createIcon("PollOffFilled", "1em", PollOff20FilledSvg);
+export const PollOff20Regular = /** #__PURE__ */ createIcon("PollOff20Regular", "20", PollOff20RegularSvg);
+export const PollOffRegular = /** #__PURE__ */ createIcon("PollOffRegular", "1em", PollOff20RegularSvg);
+export const PollOff24Filled = /** #__PURE__ */ createIcon("PollOff24Filled", "24", PollOff24FilledSvg);
+export const PollOff24Regular = /** #__PURE__ */ createIcon("PollOff24Regular", "24", PollOff24RegularSvg);
+export const PollOff32Filled = /** #__PURE__ */ createIcon("PollOff32Filled", "32", PollOff32FilledSvg);
+export const PollOff32Regular = /** #__PURE__ */ createIcon("PollOff32Regular", "32", PollOff32RegularSvg);

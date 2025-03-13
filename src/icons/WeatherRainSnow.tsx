@@ -5,9 +5,11 @@ import WeatherRainSnow24RegularSvg from "@fluentui/svg-icons/icons/weather_rain_
 import WeatherRainSnow48FilledSvg from "@fluentui/svg-icons/icons/weather_rain_snow_48_filled.svg" with { type: "text" }
 import WeatherRainSnow48RegularSvg from "@fluentui/svg-icons/icons/weather_rain_snow_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const WeatherRainSnow20Filled = createIcon("WeatherRainSnow20Filled", WeatherRainSnow20FilledSvg);
-export const WeatherRainSnow20Regular = createIcon("WeatherRainSnow20Regular", WeatherRainSnow20RegularSvg);
-export const WeatherRainSnow24Filled = createIcon("WeatherRainSnow24Filled", WeatherRainSnow24FilledSvg);
-export const WeatherRainSnow24Regular = createIcon("WeatherRainSnow24Regular", WeatherRainSnow24RegularSvg);
-export const WeatherRainSnow48Filled = createIcon("WeatherRainSnow48Filled", WeatherRainSnow48FilledSvg);
-export const WeatherRainSnow48Regular = createIcon("WeatherRainSnow48Regular", WeatherRainSnow48RegularSvg);
+export const WeatherRainSnow20Filled = /** #__PURE__ */ createIcon("WeatherRainSnow20Filled", "20", WeatherRainSnow20FilledSvg);
+export const WeatherRainSnowFilled = /** #__PURE__ */ createIcon("WeatherRainSnowFilled", "1em", WeatherRainSnow20FilledSvg);
+export const WeatherRainSnow20Regular = /** #__PURE__ */ createIcon("WeatherRainSnow20Regular", "20", WeatherRainSnow20RegularSvg);
+export const WeatherRainSnowRegular = /** #__PURE__ */ createIcon("WeatherRainSnowRegular", "1em", WeatherRainSnow20RegularSvg);
+export const WeatherRainSnow24Filled = /** #__PURE__ */ createIcon("WeatherRainSnow24Filled", "24", WeatherRainSnow24FilledSvg);
+export const WeatherRainSnow24Regular = /** #__PURE__ */ createIcon("WeatherRainSnow24Regular", "24", WeatherRainSnow24RegularSvg);
+export const WeatherRainSnow48Filled = /** #__PURE__ */ createIcon("WeatherRainSnow48Filled", "48", WeatherRainSnow48FilledSvg);
+export const WeatherRainSnow48Regular = /** #__PURE__ */ createIcon("WeatherRainSnow48Regular", "48", WeatherRainSnow48RegularSvg);

@@ -11,15 +11,17 @@ import ContactCardRibbon32RegularSvg from "@fluentui/svg-icons/icons/contact_car
 import ContactCardRibbon48FilledSvg from "@fluentui/svg-icons/icons/contact_card_ribbon_48_filled.svg" with { type: "text" }
 import ContactCardRibbon48RegularSvg from "@fluentui/svg-icons/icons/contact_card_ribbon_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ContactCardRibbon16Filled = createIcon("ContactCardRibbon16Filled", ContactCardRibbon16FilledSvg);
-export const ContactCardRibbon16Regular = createIcon("ContactCardRibbon16Regular", ContactCardRibbon16RegularSvg);
-export const ContactCardRibbon20Filled = createIcon("ContactCardRibbon20Filled", ContactCardRibbon20FilledSvg);
-export const ContactCardRibbon20Regular = createIcon("ContactCardRibbon20Regular", ContactCardRibbon20RegularSvg);
-export const ContactCardRibbon24Filled = createIcon("ContactCardRibbon24Filled", ContactCardRibbon24FilledSvg);
-export const ContactCardRibbon24Regular = createIcon("ContactCardRibbon24Regular", ContactCardRibbon24RegularSvg);
-export const ContactCardRibbon28Filled = createIcon("ContactCardRibbon28Filled", ContactCardRibbon28FilledSvg);
-export const ContactCardRibbon28Regular = createIcon("ContactCardRibbon28Regular", ContactCardRibbon28RegularSvg);
-export const ContactCardRibbon32Filled = createIcon("ContactCardRibbon32Filled", ContactCardRibbon32FilledSvg);
-export const ContactCardRibbon32Regular = createIcon("ContactCardRibbon32Regular", ContactCardRibbon32RegularSvg);
-export const ContactCardRibbon48Filled = createIcon("ContactCardRibbon48Filled", ContactCardRibbon48FilledSvg);
-export const ContactCardRibbon48Regular = createIcon("ContactCardRibbon48Regular", ContactCardRibbon48RegularSvg);
+export const ContactCardRibbon16Filled = /** #__PURE__ */ createIcon("ContactCardRibbon16Filled", "16", ContactCardRibbon16FilledSvg);
+export const ContactCardRibbon16Regular = /** #__PURE__ */ createIcon("ContactCardRibbon16Regular", "16", ContactCardRibbon16RegularSvg);
+export const ContactCardRibbon20Filled = /** #__PURE__ */ createIcon("ContactCardRibbon20Filled", "20", ContactCardRibbon20FilledSvg);
+export const ContactCardRibbonFilled = /** #__PURE__ */ createIcon("ContactCardRibbonFilled", "1em", ContactCardRibbon20FilledSvg);
+export const ContactCardRibbon20Regular = /** #__PURE__ */ createIcon("ContactCardRibbon20Regular", "20", ContactCardRibbon20RegularSvg);
+export const ContactCardRibbonRegular = /** #__PURE__ */ createIcon("ContactCardRibbonRegular", "1em", ContactCardRibbon20RegularSvg);
+export const ContactCardRibbon24Filled = /** #__PURE__ */ createIcon("ContactCardRibbon24Filled", "24", ContactCardRibbon24FilledSvg);
+export const ContactCardRibbon24Regular = /** #__PURE__ */ createIcon("ContactCardRibbon24Regular", "24", ContactCardRibbon24RegularSvg);
+export const ContactCardRibbon28Filled = /** #__PURE__ */ createIcon("ContactCardRibbon28Filled", "28", ContactCardRibbon28FilledSvg);
+export const ContactCardRibbon28Regular = /** #__PURE__ */ createIcon("ContactCardRibbon28Regular", "28", ContactCardRibbon28RegularSvg);
+export const ContactCardRibbon32Filled = /** #__PURE__ */ createIcon("ContactCardRibbon32Filled", "32", ContactCardRibbon32FilledSvg);
+export const ContactCardRibbon32Regular = /** #__PURE__ */ createIcon("ContactCardRibbon32Regular", "32", ContactCardRibbon32RegularSvg);
+export const ContactCardRibbon48Filled = /** #__PURE__ */ createIcon("ContactCardRibbon48Filled", "48", ContactCardRibbon48FilledSvg);
+export const ContactCardRibbon48Regular = /** #__PURE__ */ createIcon("ContactCardRibbon48Regular", "48", ContactCardRibbon48RegularSvg);

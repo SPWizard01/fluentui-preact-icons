@@ -29,5 +29,6 @@
     "noUnusedParameters": false,
     "noPropertyAccessFromIndexSignature": false
   },
-  "exclude": ["showcase"]
+  "exclude": ["showcase"],
+  "include": ["src"]
 }

@@ -9,13 +9,15 @@ import ArrowStepOut24RegularSvg from "@fluentui/svg-icons/icons/arrow_step_out_2
 import ArrowStepOut28FilledSvg from "@fluentui/svg-icons/icons/arrow_step_out_28_filled.svg" with { type: "text" }
 import ArrowStepOut28RegularSvg from "@fluentui/svg-icons/icons/arrow_step_out_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ArrowStepOut12Filled = createIcon("ArrowStepOut12Filled", ArrowStepOut12FilledSvg);
-export const ArrowStepOut12Regular = createIcon("ArrowStepOut12Regular", ArrowStepOut12RegularSvg);
-export const ArrowStepOut16Filled = createIcon("ArrowStepOut16Filled", ArrowStepOut16FilledSvg);
-export const ArrowStepOut16Regular = createIcon("ArrowStepOut16Regular", ArrowStepOut16RegularSvg);
-export const ArrowStepOut20Filled = createIcon("ArrowStepOut20Filled", ArrowStepOut20FilledSvg);
-export const ArrowStepOut20Regular = createIcon("ArrowStepOut20Regular", ArrowStepOut20RegularSvg);
-export const ArrowStepOut24Filled = createIcon("ArrowStepOut24Filled", ArrowStepOut24FilledSvg);
-export const ArrowStepOut24Regular = createIcon("ArrowStepOut24Regular", ArrowStepOut24RegularSvg);
-export const ArrowStepOut28Filled = createIcon("ArrowStepOut28Filled", ArrowStepOut28FilledSvg);
-export const ArrowStepOut28Regular = createIcon("ArrowStepOut28Regular", ArrowStepOut28RegularSvg);
+export const ArrowStepOut12Filled = /** #__PURE__ */ createIcon("ArrowStepOut12Filled", "12", ArrowStepOut12FilledSvg);
+export const ArrowStepOut12Regular = /** #__PURE__ */ createIcon("ArrowStepOut12Regular", "12", ArrowStepOut12RegularSvg);
+export const ArrowStepOut16Filled = /** #__PURE__ */ createIcon("ArrowStepOut16Filled", "16", ArrowStepOut16FilledSvg);
+export const ArrowStepOut16Regular = /** #__PURE__ */ createIcon("ArrowStepOut16Regular", "16", ArrowStepOut16RegularSvg);
+export const ArrowStepOut20Filled = /** #__PURE__ */ createIcon("ArrowStepOut20Filled", "20", ArrowStepOut20FilledSvg);
+export const ArrowStepOutFilled = /** #__PURE__ */ createIcon("ArrowStepOutFilled", "1em", ArrowStepOut20FilledSvg);
+export const ArrowStepOut20Regular = /** #__PURE__ */ createIcon("ArrowStepOut20Regular", "20", ArrowStepOut20RegularSvg);
+export const ArrowStepOutRegular = /** #__PURE__ */ createIcon("ArrowStepOutRegular", "1em", ArrowStepOut20RegularSvg);
+export const ArrowStepOut24Filled = /** #__PURE__ */ createIcon("ArrowStepOut24Filled", "24", ArrowStepOut24FilledSvg);
+export const ArrowStepOut24Regular = /** #__PURE__ */ createIcon("ArrowStepOut24Regular", "24", ArrowStepOut24RegularSvg);
+export const ArrowStepOut28Filled = /** #__PURE__ */ createIcon("ArrowStepOut28Filled", "28", ArrowStepOut28FilledSvg);
+export const ArrowStepOut28Regular = /** #__PURE__ */ createIcon("ArrowStepOut28Regular", "28", ArrowStepOut28RegularSvg);

@@ -3,7 +3,9 @@ import DocumentPerson16RegularSvg from "@fluentui/svg-icons/icons/document_perso
 import DocumentPerson20FilledSvg from "@fluentui/svg-icons/icons/document_person_20_filled.svg" with { type: "text" }
 import DocumentPerson20RegularSvg from "@fluentui/svg-icons/icons/document_person_20_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const DocumentPerson16Filled = createIcon("DocumentPerson16Filled", DocumentPerson16FilledSvg);
-export const DocumentPerson16Regular = createIcon("DocumentPerson16Regular", DocumentPerson16RegularSvg);
-export const DocumentPerson20Filled = createIcon("DocumentPerson20Filled", DocumentPerson20FilledSvg);
-export const DocumentPerson20Regular = createIcon("DocumentPerson20Regular", DocumentPerson20RegularSvg);
+export const DocumentPerson16Filled = /** #__PURE__ */ createIcon("DocumentPerson16Filled", "16", DocumentPerson16FilledSvg);
+export const DocumentPerson16Regular = /** #__PURE__ */ createIcon("DocumentPerson16Regular", "16", DocumentPerson16RegularSvg);
+export const DocumentPerson20Filled = /** #__PURE__ */ createIcon("DocumentPerson20Filled", "20", DocumentPerson20FilledSvg);
+export const DocumentPersonFilled = /** #__PURE__ */ createIcon("DocumentPersonFilled", "1em", DocumentPerson20FilledSvg);
+export const DocumentPerson20Regular = /** #__PURE__ */ createIcon("DocumentPerson20Regular", "20", DocumentPerson20RegularSvg);
+export const DocumentPersonRegular = /** #__PURE__ */ createIcon("DocumentPersonRegular", "1em", DocumentPerson20RegularSvg);

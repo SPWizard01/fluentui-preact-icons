@@ -13,17 +13,19 @@ import Open32RegularSvg from "@fluentui/svg-icons/icons/open_32_regular.svg" wit
 import Open48FilledSvg from "@fluentui/svg-icons/icons/open_48_filled.svg" with { type: "text" }
 import Open48RegularSvg from "@fluentui/svg-icons/icons/open_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Open12Filled = createIcon("Open12Filled", Open12FilledSvg);
-export const Open12Regular = createIcon("Open12Regular", Open12RegularSvg);
-export const Open16Filled = createIcon("Open16Filled", Open16FilledSvg);
-export const Open16Regular = createIcon("Open16Regular", Open16RegularSvg);
-export const Open20Filled = createIcon("Open20Filled", Open20FilledSvg);
-export const Open20Regular = createIcon("Open20Regular", Open20RegularSvg);
-export const Open24Filled = createIcon("Open24Filled", Open24FilledSvg);
-export const Open24Regular = createIcon("Open24Regular", Open24RegularSvg);
-export const Open28Filled = createIcon("Open28Filled", Open28FilledSvg);
-export const Open28Regular = createIcon("Open28Regular", Open28RegularSvg);
-export const Open32Filled = createIcon("Open32Filled", Open32FilledSvg);
-export const Open32Regular = createIcon("Open32Regular", Open32RegularSvg);
-export const Open48Filled = createIcon("Open48Filled", Open48FilledSvg);
-export const Open48Regular = createIcon("Open48Regular", Open48RegularSvg);
+export const Open12Filled = /** #__PURE__ */ createIcon("Open12Filled", "12", Open12FilledSvg);
+export const Open12Regular = /** #__PURE__ */ createIcon("Open12Regular", "12", Open12RegularSvg);
+export const Open16Filled = /** #__PURE__ */ createIcon("Open16Filled", "16", Open16FilledSvg);
+export const Open16Regular = /** #__PURE__ */ createIcon("Open16Regular", "16", Open16RegularSvg);
+export const Open20Filled = /** #__PURE__ */ createIcon("Open20Filled", "20", Open20FilledSvg);
+export const OpenFilled = /** #__PURE__ */ createIcon("OpenFilled", "1em", Open20FilledSvg);
+export const Open20Regular = /** #__PURE__ */ createIcon("Open20Regular", "20", Open20RegularSvg);
+export const OpenRegular = /** #__PURE__ */ createIcon("OpenRegular", "1em", Open20RegularSvg);
+export const Open24Filled = /** #__PURE__ */ createIcon("Open24Filled", "24", Open24FilledSvg);
+export const Open24Regular = /** #__PURE__ */ createIcon("Open24Regular", "24", Open24RegularSvg);
+export const Open28Filled = /** #__PURE__ */ createIcon("Open28Filled", "28", Open28FilledSvg);
+export const Open28Regular = /** #__PURE__ */ createIcon("Open28Regular", "28", Open28RegularSvg);
+export const Open32Filled = /** #__PURE__ */ createIcon("Open32Filled", "32", Open32FilledSvg);
+export const Open32Regular = /** #__PURE__ */ createIcon("Open32Regular", "32", Open32RegularSvg);
+export const Open48Filled = /** #__PURE__ */ createIcon("Open48Filled", "48", Open48FilledSvg);
+export const Open48Regular = /** #__PURE__ */ createIcon("Open48Regular", "48", Open48RegularSvg);

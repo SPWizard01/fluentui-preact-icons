@@ -7,11 +7,13 @@ import TabInPrivate24RegularSvg from "@fluentui/svg-icons/icons/tab_in_private_2
 import TabInPrivate28FilledSvg from "@fluentui/svg-icons/icons/tab_in_private_28_filled.svg" with { type: "text" }
 import TabInPrivate28RegularSvg from "@fluentui/svg-icons/icons/tab_in_private_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TabInPrivate16Filled = createIcon("TabInPrivate16Filled", TabInPrivate16FilledSvg);
-export const TabInPrivate16Regular = createIcon("TabInPrivate16Regular", TabInPrivate16RegularSvg);
-export const TabInPrivate20Filled = createIcon("TabInPrivate20Filled", TabInPrivate20FilledSvg);
-export const TabInPrivate20Regular = createIcon("TabInPrivate20Regular", TabInPrivate20RegularSvg);
-export const TabInPrivate24Filled = createIcon("TabInPrivate24Filled", TabInPrivate24FilledSvg);
-export const TabInPrivate24Regular = createIcon("TabInPrivate24Regular", TabInPrivate24RegularSvg);
-export const TabInPrivate28Filled = createIcon("TabInPrivate28Filled", TabInPrivate28FilledSvg);
-export const TabInPrivate28Regular = createIcon("TabInPrivate28Regular", TabInPrivate28RegularSvg);
+export const TabInPrivate16Filled = /** #__PURE__ */ createIcon("TabInPrivate16Filled", "16", TabInPrivate16FilledSvg);
+export const TabInPrivate16Regular = /** #__PURE__ */ createIcon("TabInPrivate16Regular", "16", TabInPrivate16RegularSvg);
+export const TabInPrivate20Filled = /** #__PURE__ */ createIcon("TabInPrivate20Filled", "20", TabInPrivate20FilledSvg);
+export const TabInPrivateFilled = /** #__PURE__ */ createIcon("TabInPrivateFilled", "1em", TabInPrivate20FilledSvg);
+export const TabInPrivate20Regular = /** #__PURE__ */ createIcon("TabInPrivate20Regular", "20", TabInPrivate20RegularSvg);
+export const TabInPrivateRegular = /** #__PURE__ */ createIcon("TabInPrivateRegular", "1em", TabInPrivate20RegularSvg);
+export const TabInPrivate24Filled = /** #__PURE__ */ createIcon("TabInPrivate24Filled", "24", TabInPrivate24FilledSvg);
+export const TabInPrivate24Regular = /** #__PURE__ */ createIcon("TabInPrivate24Regular", "24", TabInPrivate24RegularSvg);
+export const TabInPrivate28Filled = /** #__PURE__ */ createIcon("TabInPrivate28Filled", "28", TabInPrivate28FilledSvg);
+export const TabInPrivate28Regular = /** #__PURE__ */ createIcon("TabInPrivate28Regular", "28", TabInPrivate28RegularSvg);

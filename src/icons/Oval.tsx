@@ -11,15 +11,17 @@ import Oval32RegularSvg from "@fluentui/svg-icons/icons/oval_32_regular.svg" wit
 import Oval48FilledSvg from "@fluentui/svg-icons/icons/oval_48_filled.svg" with { type: "text" }
 import Oval48RegularSvg from "@fluentui/svg-icons/icons/oval_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Oval16Filled = createIcon("Oval16Filled", Oval16FilledSvg);
-export const Oval16Regular = createIcon("Oval16Regular", Oval16RegularSvg);
-export const Oval20Filled = createIcon("Oval20Filled", Oval20FilledSvg);
-export const Oval20Regular = createIcon("Oval20Regular", Oval20RegularSvg);
-export const Oval24Filled = createIcon("Oval24Filled", Oval24FilledSvg);
-export const Oval24Regular = createIcon("Oval24Regular", Oval24RegularSvg);
-export const Oval28Filled = createIcon("Oval28Filled", Oval28FilledSvg);
-export const Oval28Regular = createIcon("Oval28Regular", Oval28RegularSvg);
-export const Oval32Filled = createIcon("Oval32Filled", Oval32FilledSvg);
-export const Oval32Regular = createIcon("Oval32Regular", Oval32RegularSvg);
-export const Oval48Filled = createIcon("Oval48Filled", Oval48FilledSvg);
-export const Oval48Regular = createIcon("Oval48Regular", Oval48RegularSvg);
+export const Oval16Filled = /** #__PURE__ */ createIcon("Oval16Filled", "16", Oval16FilledSvg);
+export const Oval16Regular = /** #__PURE__ */ createIcon("Oval16Regular", "16", Oval16RegularSvg);
+export const Oval20Filled = /** #__PURE__ */ createIcon("Oval20Filled", "20", Oval20FilledSvg);
+export const OvalFilled = /** #__PURE__ */ createIcon("OvalFilled", "1em", Oval20FilledSvg);
+export const Oval20Regular = /** #__PURE__ */ createIcon("Oval20Regular", "20", Oval20RegularSvg);
+export const OvalRegular = /** #__PURE__ */ createIcon("OvalRegular", "1em", Oval20RegularSvg);
+export const Oval24Filled = /** #__PURE__ */ createIcon("Oval24Filled", "24", Oval24FilledSvg);
+export const Oval24Regular = /** #__PURE__ */ createIcon("Oval24Regular", "24", Oval24RegularSvg);
+export const Oval28Filled = /** #__PURE__ */ createIcon("Oval28Filled", "28", Oval28FilledSvg);
+export const Oval28Regular = /** #__PURE__ */ createIcon("Oval28Regular", "28", Oval28RegularSvg);
+export const Oval32Filled = /** #__PURE__ */ createIcon("Oval32Filled", "32", Oval32FilledSvg);
+export const Oval32Regular = /** #__PURE__ */ createIcon("Oval32Regular", "32", Oval32RegularSvg);
+export const Oval48Filled = /** #__PURE__ */ createIcon("Oval48Filled", "48", Oval48FilledSvg);
+export const Oval48Regular = /** #__PURE__ */ createIcon("Oval48Regular", "48", Oval48RegularSvg);

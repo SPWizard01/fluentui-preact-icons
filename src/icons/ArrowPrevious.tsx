@@ -7,11 +7,13 @@ import ArrowPrevious20RegularSvg from "@fluentui/svg-icons/icons/arrow_previous_
 import ArrowPrevious24FilledSvg from "@fluentui/svg-icons/icons/arrow_previous_24_filled.svg" with { type: "text" }
 import ArrowPrevious24RegularSvg from "@fluentui/svg-icons/icons/arrow_previous_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ArrowPrevious12Filled = createIcon("ArrowPrevious12Filled", ArrowPrevious12FilledSvg);
-export const ArrowPrevious12Regular = createIcon("ArrowPrevious12Regular", ArrowPrevious12RegularSvg);
-export const ArrowPrevious16Filled = createIcon("ArrowPrevious16Filled", ArrowPrevious16FilledSvg);
-export const ArrowPrevious16Regular = createIcon("ArrowPrevious16Regular", ArrowPrevious16RegularSvg);
-export const ArrowPrevious20Filled = createIcon("ArrowPrevious20Filled", ArrowPrevious20FilledSvg);
-export const ArrowPrevious20Regular = createIcon("ArrowPrevious20Regular", ArrowPrevious20RegularSvg);
-export const ArrowPrevious24Filled = createIcon("ArrowPrevious24Filled", ArrowPrevious24FilledSvg);
-export const ArrowPrevious24Regular = createIcon("ArrowPrevious24Regular", ArrowPrevious24RegularSvg);
+export const ArrowPrevious12Filled = /** #__PURE__ */ createIcon("ArrowPrevious12Filled", "12", ArrowPrevious12FilledSvg);
+export const ArrowPrevious12Regular = /** #__PURE__ */ createIcon("ArrowPrevious12Regular", "12", ArrowPrevious12RegularSvg);
+export const ArrowPrevious16Filled = /** #__PURE__ */ createIcon("ArrowPrevious16Filled", "16", ArrowPrevious16FilledSvg);
+export const ArrowPrevious16Regular = /** #__PURE__ */ createIcon("ArrowPrevious16Regular", "16", ArrowPrevious16RegularSvg);
+export const ArrowPrevious20Filled = /** #__PURE__ */ createIcon("ArrowPrevious20Filled", "20", ArrowPrevious20FilledSvg);
+export const ArrowPreviousFilled = /** #__PURE__ */ createIcon("ArrowPreviousFilled", "1em", ArrowPrevious20FilledSvg);
+export const ArrowPrevious20Regular = /** #__PURE__ */ createIcon("ArrowPrevious20Regular", "20", ArrowPrevious20RegularSvg);
+export const ArrowPreviousRegular = /** #__PURE__ */ createIcon("ArrowPreviousRegular", "1em", ArrowPrevious20RegularSvg);
+export const ArrowPrevious24Filled = /** #__PURE__ */ createIcon("ArrowPrevious24Filled", "24", ArrowPrevious24FilledSvg);
+export const ArrowPrevious24Regular = /** #__PURE__ */ createIcon("ArrowPrevious24Regular", "24", ArrowPrevious24RegularSvg);

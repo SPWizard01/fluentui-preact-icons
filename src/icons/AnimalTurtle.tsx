@@ -7,11 +7,13 @@ import AnimalTurtle24RegularSvg from "@fluentui/svg-icons/icons/animal_turtle_24
 import AnimalTurtle28FilledSvg from "@fluentui/svg-icons/icons/animal_turtle_28_filled.svg" with { type: "text" }
 import AnimalTurtle28RegularSvg from "@fluentui/svg-icons/icons/animal_turtle_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const AnimalTurtle16Filled = createIcon("AnimalTurtle16Filled", AnimalTurtle16FilledSvg);
-export const AnimalTurtle16Regular = createIcon("AnimalTurtle16Regular", AnimalTurtle16RegularSvg);
-export const AnimalTurtle20Filled = createIcon("AnimalTurtle20Filled", AnimalTurtle20FilledSvg);
-export const AnimalTurtle20Regular = createIcon("AnimalTurtle20Regular", AnimalTurtle20RegularSvg);
-export const AnimalTurtle24Filled = createIcon("AnimalTurtle24Filled", AnimalTurtle24FilledSvg);
-export const AnimalTurtle24Regular = createIcon("AnimalTurtle24Regular", AnimalTurtle24RegularSvg);
-export const AnimalTurtle28Filled = createIcon("AnimalTurtle28Filled", AnimalTurtle28FilledSvg);
-export const AnimalTurtle28Regular = createIcon("AnimalTurtle28Regular", AnimalTurtle28RegularSvg);
+export const AnimalTurtle16Filled = /** #__PURE__ */ createIcon("AnimalTurtle16Filled", "16", AnimalTurtle16FilledSvg);
+export const AnimalTurtle16Regular = /** #__PURE__ */ createIcon("AnimalTurtle16Regular", "16", AnimalTurtle16RegularSvg);
+export const AnimalTurtle20Filled = /** #__PURE__ */ createIcon("AnimalTurtle20Filled", "20", AnimalTurtle20FilledSvg);
+export const AnimalTurtleFilled = /** #__PURE__ */ createIcon("AnimalTurtleFilled", "1em", AnimalTurtle20FilledSvg);
+export const AnimalTurtle20Regular = /** #__PURE__ */ createIcon("AnimalTurtle20Regular", "20", AnimalTurtle20RegularSvg);
+export const AnimalTurtleRegular = /** #__PURE__ */ createIcon("AnimalTurtleRegular", "1em", AnimalTurtle20RegularSvg);
+export const AnimalTurtle24Filled = /** #__PURE__ */ createIcon("AnimalTurtle24Filled", "24", AnimalTurtle24FilledSvg);
+export const AnimalTurtle24Regular = /** #__PURE__ */ createIcon("AnimalTurtle24Regular", "24", AnimalTurtle24RegularSvg);
+export const AnimalTurtle28Filled = /** #__PURE__ */ createIcon("AnimalTurtle28Filled", "28", AnimalTurtle28FilledSvg);
+export const AnimalTurtle28Regular = /** #__PURE__ */ createIcon("AnimalTurtle28Regular", "28", AnimalTurtle28RegularSvg);

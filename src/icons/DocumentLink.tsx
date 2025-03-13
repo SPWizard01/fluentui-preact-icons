@@ -5,9 +5,11 @@ import DocumentLink20RegularSvg from "@fluentui/svg-icons/icons/document_link_20
 import DocumentLink24FilledSvg from "@fluentui/svg-icons/icons/document_link_24_filled.svg" with { type: "text" }
 import DocumentLink24RegularSvg from "@fluentui/svg-icons/icons/document_link_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const DocumentLink16Filled = createIcon("DocumentLink16Filled", DocumentLink16FilledSvg);
-export const DocumentLink16Regular = createIcon("DocumentLink16Regular", DocumentLink16RegularSvg);
-export const DocumentLink20Filled = createIcon("DocumentLink20Filled", DocumentLink20FilledSvg);
-export const DocumentLink20Regular = createIcon("DocumentLink20Regular", DocumentLink20RegularSvg);
-export const DocumentLink24Filled = createIcon("DocumentLink24Filled", DocumentLink24FilledSvg);
-export const DocumentLink24Regular = createIcon("DocumentLink24Regular", DocumentLink24RegularSvg);
+export const DocumentLink16Filled = /** #__PURE__ */ createIcon("DocumentLink16Filled", "16", DocumentLink16FilledSvg);
+export const DocumentLink16Regular = /** #__PURE__ */ createIcon("DocumentLink16Regular", "16", DocumentLink16RegularSvg);
+export const DocumentLink20Filled = /** #__PURE__ */ createIcon("DocumentLink20Filled", "20", DocumentLink20FilledSvg);
+export const DocumentLinkFilled = /** #__PURE__ */ createIcon("DocumentLinkFilled", "1em", DocumentLink20FilledSvg);
+export const DocumentLink20Regular = /** #__PURE__ */ createIcon("DocumentLink20Regular", "20", DocumentLink20RegularSvg);
+export const DocumentLinkRegular = /** #__PURE__ */ createIcon("DocumentLinkRegular", "1em", DocumentLink20RegularSvg);
+export const DocumentLink24Filled = /** #__PURE__ */ createIcon("DocumentLink24Filled", "24", DocumentLink24FilledSvg);
+export const DocumentLink24Regular = /** #__PURE__ */ createIcon("DocumentLink24Regular", "24", DocumentLink24RegularSvg);

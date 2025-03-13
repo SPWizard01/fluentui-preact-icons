@@ -11,15 +11,17 @@ import Sparkle32RegularSvg from "@fluentui/svg-icons/icons/sparkle_32_regular.sv
 import Sparkle48FilledSvg from "@fluentui/svg-icons/icons/sparkle_48_filled.svg" with { type: "text" }
 import Sparkle48RegularSvg from "@fluentui/svg-icons/icons/sparkle_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Sparkle16Filled = createIcon("Sparkle16Filled", Sparkle16FilledSvg);
-export const Sparkle16Regular = createIcon("Sparkle16Regular", Sparkle16RegularSvg);
-export const Sparkle20Filled = createIcon("Sparkle20Filled", Sparkle20FilledSvg);
-export const Sparkle20Regular = createIcon("Sparkle20Regular", Sparkle20RegularSvg);
-export const Sparkle24Filled = createIcon("Sparkle24Filled", Sparkle24FilledSvg);
-export const Sparkle24Regular = createIcon("Sparkle24Regular", Sparkle24RegularSvg);
-export const Sparkle28Filled = createIcon("Sparkle28Filled", Sparkle28FilledSvg);
-export const Sparkle28Regular = createIcon("Sparkle28Regular", Sparkle28RegularSvg);
-export const Sparkle32Filled = createIcon("Sparkle32Filled", Sparkle32FilledSvg);
-export const Sparkle32Regular = createIcon("Sparkle32Regular", Sparkle32RegularSvg);
-export const Sparkle48Filled = createIcon("Sparkle48Filled", Sparkle48FilledSvg);
-export const Sparkle48Regular = createIcon("Sparkle48Regular", Sparkle48RegularSvg);
+export const Sparkle16Filled = /** #__PURE__ */ createIcon("Sparkle16Filled", "16", Sparkle16FilledSvg);
+export const Sparkle16Regular = /** #__PURE__ */ createIcon("Sparkle16Regular", "16", Sparkle16RegularSvg);
+export const Sparkle20Filled = /** #__PURE__ */ createIcon("Sparkle20Filled", "20", Sparkle20FilledSvg);
+export const SparkleFilled = /** #__PURE__ */ createIcon("SparkleFilled", "1em", Sparkle20FilledSvg);
+export const Sparkle20Regular = /** #__PURE__ */ createIcon("Sparkle20Regular", "20", Sparkle20RegularSvg);
+export const SparkleRegular = /** #__PURE__ */ createIcon("SparkleRegular", "1em", Sparkle20RegularSvg);
+export const Sparkle24Filled = /** #__PURE__ */ createIcon("Sparkle24Filled", "24", Sparkle24FilledSvg);
+export const Sparkle24Regular = /** #__PURE__ */ createIcon("Sparkle24Regular", "24", Sparkle24RegularSvg);
+export const Sparkle28Filled = /** #__PURE__ */ createIcon("Sparkle28Filled", "28", Sparkle28FilledSvg);
+export const Sparkle28Regular = /** #__PURE__ */ createIcon("Sparkle28Regular", "28", Sparkle28RegularSvg);
+export const Sparkle32Filled = /** #__PURE__ */ createIcon("Sparkle32Filled", "32", Sparkle32FilledSvg);
+export const Sparkle32Regular = /** #__PURE__ */ createIcon("Sparkle32Regular", "32", Sparkle32RegularSvg);
+export const Sparkle48Filled = /** #__PURE__ */ createIcon("Sparkle48Filled", "48", Sparkle48FilledSvg);
+export const Sparkle48Regular = /** #__PURE__ */ createIcon("Sparkle48Regular", "48", Sparkle48RegularSvg);

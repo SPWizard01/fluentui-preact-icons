@@ -5,9 +5,11 @@ import ShieldDismiss20RegularSvg from "@fluentui/svg-icons/icons/shield_dismiss_
 import ShieldDismiss24FilledSvg from "@fluentui/svg-icons/icons/shield_dismiss_24_filled.svg" with { type: "text" }
 import ShieldDismiss24RegularSvg from "@fluentui/svg-icons/icons/shield_dismiss_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ShieldDismiss16Filled = createIcon("ShieldDismiss16Filled", ShieldDismiss16FilledSvg);
-export const ShieldDismiss16Regular = createIcon("ShieldDismiss16Regular", ShieldDismiss16RegularSvg);
-export const ShieldDismiss20Filled = createIcon("ShieldDismiss20Filled", ShieldDismiss20FilledSvg);
-export const ShieldDismiss20Regular = createIcon("ShieldDismiss20Regular", ShieldDismiss20RegularSvg);
-export const ShieldDismiss24Filled = createIcon("ShieldDismiss24Filled", ShieldDismiss24FilledSvg);
-export const ShieldDismiss24Regular = createIcon("ShieldDismiss24Regular", ShieldDismiss24RegularSvg);
+export const ShieldDismiss16Filled = /** #__PURE__ */ createIcon("ShieldDismiss16Filled", "16", ShieldDismiss16FilledSvg);
+export const ShieldDismiss16Regular = /** #__PURE__ */ createIcon("ShieldDismiss16Regular", "16", ShieldDismiss16RegularSvg);
+export const ShieldDismiss20Filled = /** #__PURE__ */ createIcon("ShieldDismiss20Filled", "20", ShieldDismiss20FilledSvg);
+export const ShieldDismissFilled = /** #__PURE__ */ createIcon("ShieldDismissFilled", "1em", ShieldDismiss20FilledSvg);
+export const ShieldDismiss20Regular = /** #__PURE__ */ createIcon("ShieldDismiss20Regular", "20", ShieldDismiss20RegularSvg);
+export const ShieldDismissRegular = /** #__PURE__ */ createIcon("ShieldDismissRegular", "1em", ShieldDismiss20RegularSvg);
+export const ShieldDismiss24Filled = /** #__PURE__ */ createIcon("ShieldDismiss24Filled", "24", ShieldDismiss24FilledSvg);
+export const ShieldDismiss24Regular = /** #__PURE__ */ createIcon("ShieldDismiss24Regular", "24", ShieldDismiss24RegularSvg);

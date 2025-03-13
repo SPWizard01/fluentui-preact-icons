@@ -12,16 +12,18 @@ import ArrowForward32RegularSvg from "@fluentui/svg-icons/icons/arrow_forward_32
 import ArrowForward48FilledSvg from "@fluentui/svg-icons/icons/arrow_forward_48_filled.svg" with { type: "text" }
 import ArrowForward48RegularSvg from "@fluentui/svg-icons/icons/arrow_forward_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ArrowForward16Filled = createIcon("ArrowForward16Filled", ArrowForward16FilledSvg);
-export const ArrowForward16Regular = createIcon("ArrowForward16Regular", ArrowForward16RegularSvg);
-export const ArrowForward20Filled = createIcon("ArrowForward20Filled", ArrowForward20FilledSvg);
-export const ArrowForward20Regular = createIcon("ArrowForward20Regular", ArrowForward20RegularSvg);
-export const ArrowForward24Filled = createIcon("ArrowForward24Filled", ArrowForward24FilledSvg);
-export const ArrowForward24Regular = createIcon("ArrowForward24Regular", ArrowForward24RegularSvg);
-export const ArrowForward28Filled = createIcon("ArrowForward28Filled", ArrowForward28FilledSvg);
-export const ArrowForward28Regular = createIcon("ArrowForward28Regular", ArrowForward28RegularSvg);
-export const ArrowForward32Filled = createIcon("ArrowForward32Filled", ArrowForward32FilledSvg);
-export const ArrowForward32Light = createIcon("ArrowForward32Light", ArrowForward32LightSvg);
-export const ArrowForward32Regular = createIcon("ArrowForward32Regular", ArrowForward32RegularSvg);
-export const ArrowForward48Filled = createIcon("ArrowForward48Filled", ArrowForward48FilledSvg);
-export const ArrowForward48Regular = createIcon("ArrowForward48Regular", ArrowForward48RegularSvg);
+export const ArrowForward16Filled = /** #__PURE__ */ createIcon("ArrowForward16Filled", "16", ArrowForward16FilledSvg);
+export const ArrowForward16Regular = /** #__PURE__ */ createIcon("ArrowForward16Regular", "16", ArrowForward16RegularSvg);
+export const ArrowForward20Filled = /** #__PURE__ */ createIcon("ArrowForward20Filled", "20", ArrowForward20FilledSvg);
+export const ArrowForwardFilled = /** #__PURE__ */ createIcon("ArrowForwardFilled", "1em", ArrowForward20FilledSvg);
+export const ArrowForward20Regular = /** #__PURE__ */ createIcon("ArrowForward20Regular", "20", ArrowForward20RegularSvg);
+export const ArrowForwardRegular = /** #__PURE__ */ createIcon("ArrowForwardRegular", "1em", ArrowForward20RegularSvg);
+export const ArrowForward24Filled = /** #__PURE__ */ createIcon("ArrowForward24Filled", "24", ArrowForward24FilledSvg);
+export const ArrowForward24Regular = /** #__PURE__ */ createIcon("ArrowForward24Regular", "24", ArrowForward24RegularSvg);
+export const ArrowForward28Filled = /** #__PURE__ */ createIcon("ArrowForward28Filled", "28", ArrowForward28FilledSvg);
+export const ArrowForward28Regular = /** #__PURE__ */ createIcon("ArrowForward28Regular", "28", ArrowForward28RegularSvg);
+export const ArrowForward32Filled = /** #__PURE__ */ createIcon("ArrowForward32Filled", "32", ArrowForward32FilledSvg);
+export const ArrowForward32Light = /** #__PURE__ */ createIcon("ArrowForward32Light", "32", ArrowForward32LightSvg);
+export const ArrowForward32Regular = /** #__PURE__ */ createIcon("ArrowForward32Regular", "32", ArrowForward32RegularSvg);
+export const ArrowForward48Filled = /** #__PURE__ */ createIcon("ArrowForward48Filled", "48", ArrowForward48FilledSvg);
+export const ArrowForward48Regular = /** #__PURE__ */ createIcon("ArrowForward48Regular", "48", ArrowForward48RegularSvg);

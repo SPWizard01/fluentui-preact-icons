@@ -5,9 +5,11 @@ import CommentBadge20RegularSvg from "@fluentui/svg-icons/icons/comment_badge_20
 import CommentBadge24FilledSvg from "@fluentui/svg-icons/icons/comment_badge_24_filled.svg" with { type: "text" }
 import CommentBadge24RegularSvg from "@fluentui/svg-icons/icons/comment_badge_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CommentBadge16Filled = createIcon("CommentBadge16Filled", CommentBadge16FilledSvg);
-export const CommentBadge16Regular = createIcon("CommentBadge16Regular", CommentBadge16RegularSvg);
-export const CommentBadge20Filled = createIcon("CommentBadge20Filled", CommentBadge20FilledSvg);
-export const CommentBadge20Regular = createIcon("CommentBadge20Regular", CommentBadge20RegularSvg);
-export const CommentBadge24Filled = createIcon("CommentBadge24Filled", CommentBadge24FilledSvg);
-export const CommentBadge24Regular = createIcon("CommentBadge24Regular", CommentBadge24RegularSvg);
+export const CommentBadge16Filled = /** #__PURE__ */ createIcon("CommentBadge16Filled", "16", CommentBadge16FilledSvg);
+export const CommentBadge16Regular = /** #__PURE__ */ createIcon("CommentBadge16Regular", "16", CommentBadge16RegularSvg);
+export const CommentBadge20Filled = /** #__PURE__ */ createIcon("CommentBadge20Filled", "20", CommentBadge20FilledSvg);
+export const CommentBadgeFilled = /** #__PURE__ */ createIcon("CommentBadgeFilled", "1em", CommentBadge20FilledSvg);
+export const CommentBadge20Regular = /** #__PURE__ */ createIcon("CommentBadge20Regular", "20", CommentBadge20RegularSvg);
+export const CommentBadgeRegular = /** #__PURE__ */ createIcon("CommentBadgeRegular", "1em", CommentBadge20RegularSvg);
+export const CommentBadge24Filled = /** #__PURE__ */ createIcon("CommentBadge24Filled", "24", CommentBadge24FilledSvg);
+export const CommentBadge24Regular = /** #__PURE__ */ createIcon("CommentBadge24Regular", "24", CommentBadge24RegularSvg);

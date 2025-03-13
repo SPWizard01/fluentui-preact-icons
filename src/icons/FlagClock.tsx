@@ -11,15 +11,17 @@ import FlagClock32RegularSvg from "@fluentui/svg-icons/icons/flag_clock_32_regul
 import FlagClock48FilledSvg from "@fluentui/svg-icons/icons/flag_clock_48_filled.svg" with { type: "text" }
 import FlagClock48RegularSvg from "@fluentui/svg-icons/icons/flag_clock_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const FlagClock16Filled = createIcon("FlagClock16Filled", FlagClock16FilledSvg);
-export const FlagClock16Regular = createIcon("FlagClock16Regular", FlagClock16RegularSvg);
-export const FlagClock20Filled = createIcon("FlagClock20Filled", FlagClock20FilledSvg);
-export const FlagClock20Regular = createIcon("FlagClock20Regular", FlagClock20RegularSvg);
-export const FlagClock24Filled = createIcon("FlagClock24Filled", FlagClock24FilledSvg);
-export const FlagClock24Regular = createIcon("FlagClock24Regular", FlagClock24RegularSvg);
-export const FlagClock28Filled = createIcon("FlagClock28Filled", FlagClock28FilledSvg);
-export const FlagClock28Regular = createIcon("FlagClock28Regular", FlagClock28RegularSvg);
-export const FlagClock32Filled = createIcon("FlagClock32Filled", FlagClock32FilledSvg);
-export const FlagClock32Regular = createIcon("FlagClock32Regular", FlagClock32RegularSvg);
-export const FlagClock48Filled = createIcon("FlagClock48Filled", FlagClock48FilledSvg);
-export const FlagClock48Regular = createIcon("FlagClock48Regular", FlagClock48RegularSvg);
+export const FlagClock16Filled = /** #__PURE__ */ createIcon("FlagClock16Filled", "16", FlagClock16FilledSvg);
+export const FlagClock16Regular = /** #__PURE__ */ createIcon("FlagClock16Regular", "16", FlagClock16RegularSvg);
+export const FlagClock20Filled = /** #__PURE__ */ createIcon("FlagClock20Filled", "20", FlagClock20FilledSvg);
+export const FlagClockFilled = /** #__PURE__ */ createIcon("FlagClockFilled", "1em", FlagClock20FilledSvg);
+export const FlagClock20Regular = /** #__PURE__ */ createIcon("FlagClock20Regular", "20", FlagClock20RegularSvg);
+export const FlagClockRegular = /** #__PURE__ */ createIcon("FlagClockRegular", "1em", FlagClock20RegularSvg);
+export const FlagClock24Filled = /** #__PURE__ */ createIcon("FlagClock24Filled", "24", FlagClock24FilledSvg);
+export const FlagClock24Regular = /** #__PURE__ */ createIcon("FlagClock24Regular", "24", FlagClock24RegularSvg);
+export const FlagClock28Filled = /** #__PURE__ */ createIcon("FlagClock28Filled", "28", FlagClock28FilledSvg);
+export const FlagClock28Regular = /** #__PURE__ */ createIcon("FlagClock28Regular", "28", FlagClock28RegularSvg);
+export const FlagClock32Filled = /** #__PURE__ */ createIcon("FlagClock32Filled", "32", FlagClock32FilledSvg);
+export const FlagClock32Regular = /** #__PURE__ */ createIcon("FlagClock32Regular", "32", FlagClock32RegularSvg);
+export const FlagClock48Filled = /** #__PURE__ */ createIcon("FlagClock48Filled", "48", FlagClock48FilledSvg);
+export const FlagClock48Regular = /** #__PURE__ */ createIcon("FlagClock48Regular", "48", FlagClock48RegularSvg);

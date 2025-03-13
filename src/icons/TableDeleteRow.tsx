@@ -7,11 +7,13 @@ import TableDeleteRow24RegularSvg from "@fluentui/svg-icons/icons/table_delete_r
 import TableDeleteRow28FilledSvg from "@fluentui/svg-icons/icons/table_delete_row_28_filled.svg" with { type: "text" }
 import TableDeleteRow28RegularSvg from "@fluentui/svg-icons/icons/table_delete_row_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TableDeleteRow16Filled = createIcon("TableDeleteRow16Filled", TableDeleteRow16FilledSvg);
-export const TableDeleteRow16Regular = createIcon("TableDeleteRow16Regular", TableDeleteRow16RegularSvg);
-export const TableDeleteRow20Filled = createIcon("TableDeleteRow20Filled", TableDeleteRow20FilledSvg);
-export const TableDeleteRow20Regular = createIcon("TableDeleteRow20Regular", TableDeleteRow20RegularSvg);
-export const TableDeleteRow24Filled = createIcon("TableDeleteRow24Filled", TableDeleteRow24FilledSvg);
-export const TableDeleteRow24Regular = createIcon("TableDeleteRow24Regular", TableDeleteRow24RegularSvg);
-export const TableDeleteRow28Filled = createIcon("TableDeleteRow28Filled", TableDeleteRow28FilledSvg);
-export const TableDeleteRow28Regular = createIcon("TableDeleteRow28Regular", TableDeleteRow28RegularSvg);
+export const TableDeleteRow16Filled = /** #__PURE__ */ createIcon("TableDeleteRow16Filled", "16", TableDeleteRow16FilledSvg);
+export const TableDeleteRow16Regular = /** #__PURE__ */ createIcon("TableDeleteRow16Regular", "16", TableDeleteRow16RegularSvg);
+export const TableDeleteRow20Filled = /** #__PURE__ */ createIcon("TableDeleteRow20Filled", "20", TableDeleteRow20FilledSvg);
+export const TableDeleteRowFilled = /** #__PURE__ */ createIcon("TableDeleteRowFilled", "1em", TableDeleteRow20FilledSvg);
+export const TableDeleteRow20Regular = /** #__PURE__ */ createIcon("TableDeleteRow20Regular", "20", TableDeleteRow20RegularSvg);
+export const TableDeleteRowRegular = /** #__PURE__ */ createIcon("TableDeleteRowRegular", "1em", TableDeleteRow20RegularSvg);
+export const TableDeleteRow24Filled = /** #__PURE__ */ createIcon("TableDeleteRow24Filled", "24", TableDeleteRow24FilledSvg);
+export const TableDeleteRow24Regular = /** #__PURE__ */ createIcon("TableDeleteRow24Regular", "24", TableDeleteRow24RegularSvg);
+export const TableDeleteRow28Filled = /** #__PURE__ */ createIcon("TableDeleteRow28Filled", "28", TableDeleteRow28FilledSvg);
+export const TableDeleteRow28Regular = /** #__PURE__ */ createIcon("TableDeleteRow28Regular", "28", TableDeleteRow28RegularSvg);

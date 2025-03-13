@@ -7,11 +7,13 @@ import XboxControllerError32RegularSvg from "@fluentui/svg-icons/icons/xbox_cont
 import XboxControllerError48FilledSvg from "@fluentui/svg-icons/icons/xbox_controller_error_48_filled.svg" with { type: "text" }
 import XboxControllerError48RegularSvg from "@fluentui/svg-icons/icons/xbox_controller_error_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const XboxControllerError20Filled = createIcon("XboxControllerError20Filled", XboxControllerError20FilledSvg);
-export const XboxControllerError20Regular = createIcon("XboxControllerError20Regular", XboxControllerError20RegularSvg);
-export const XboxControllerError24Filled = createIcon("XboxControllerError24Filled", XboxControllerError24FilledSvg);
-export const XboxControllerError24Regular = createIcon("XboxControllerError24Regular", XboxControllerError24RegularSvg);
-export const XboxControllerError32Filled = createIcon("XboxControllerError32Filled", XboxControllerError32FilledSvg);
-export const XboxControllerError32Regular = createIcon("XboxControllerError32Regular", XboxControllerError32RegularSvg);
-export const XboxControllerError48Filled = createIcon("XboxControllerError48Filled", XboxControllerError48FilledSvg);
-export const XboxControllerError48Regular = createIcon("XboxControllerError48Regular", XboxControllerError48RegularSvg);
+export const XboxControllerError20Filled = /** #__PURE__ */ createIcon("XboxControllerError20Filled", "20", XboxControllerError20FilledSvg);
+export const XboxControllerErrorFilled = /** #__PURE__ */ createIcon("XboxControllerErrorFilled", "1em", XboxControllerError20FilledSvg);
+export const XboxControllerError20Regular = /** #__PURE__ */ createIcon("XboxControllerError20Regular", "20", XboxControllerError20RegularSvg);
+export const XboxControllerErrorRegular = /** #__PURE__ */ createIcon("XboxControllerErrorRegular", "1em", XboxControllerError20RegularSvg);
+export const XboxControllerError24Filled = /** #__PURE__ */ createIcon("XboxControllerError24Filled", "24", XboxControllerError24FilledSvg);
+export const XboxControllerError24Regular = /** #__PURE__ */ createIcon("XboxControllerError24Regular", "24", XboxControllerError24RegularSvg);
+export const XboxControllerError32Filled = /** #__PURE__ */ createIcon("XboxControllerError32Filled", "32", XboxControllerError32FilledSvg);
+export const XboxControllerError32Regular = /** #__PURE__ */ createIcon("XboxControllerError32Regular", "32", XboxControllerError32RegularSvg);
+export const XboxControllerError48Filled = /** #__PURE__ */ createIcon("XboxControllerError48Filled", "48", XboxControllerError48FilledSvg);
+export const XboxControllerError48Regular = /** #__PURE__ */ createIcon("XboxControllerError48Regular", "48", XboxControllerError48RegularSvg);

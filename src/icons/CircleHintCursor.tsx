@@ -5,9 +5,11 @@ import CircleHintCursor20RegularSvg from "@fluentui/svg-icons/icons/circle_hint_
 import CircleHintCursor24FilledSvg from "@fluentui/svg-icons/icons/circle_hint_cursor_24_filled.svg" with { type: "text" }
 import CircleHintCursor24RegularSvg from "@fluentui/svg-icons/icons/circle_hint_cursor_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CircleHintCursor16Filled = createIcon("CircleHintCursor16Filled", CircleHintCursor16FilledSvg);
-export const CircleHintCursor16Regular = createIcon("CircleHintCursor16Regular", CircleHintCursor16RegularSvg);
-export const CircleHintCursor20Filled = createIcon("CircleHintCursor20Filled", CircleHintCursor20FilledSvg);
-export const CircleHintCursor20Regular = createIcon("CircleHintCursor20Regular", CircleHintCursor20RegularSvg);
-export const CircleHintCursor24Filled = createIcon("CircleHintCursor24Filled", CircleHintCursor24FilledSvg);
-export const CircleHintCursor24Regular = createIcon("CircleHintCursor24Regular", CircleHintCursor24RegularSvg);
+export const CircleHintCursor16Filled = /** #__PURE__ */ createIcon("CircleHintCursor16Filled", "16", CircleHintCursor16FilledSvg);
+export const CircleHintCursor16Regular = /** #__PURE__ */ createIcon("CircleHintCursor16Regular", "16", CircleHintCursor16RegularSvg);
+export const CircleHintCursor20Filled = /** #__PURE__ */ createIcon("CircleHintCursor20Filled", "20", CircleHintCursor20FilledSvg);
+export const CircleHintCursorFilled = /** #__PURE__ */ createIcon("CircleHintCursorFilled", "1em", CircleHintCursor20FilledSvg);
+export const CircleHintCursor20Regular = /** #__PURE__ */ createIcon("CircleHintCursor20Regular", "20", CircleHintCursor20RegularSvg);
+export const CircleHintCursorRegular = /** #__PURE__ */ createIcon("CircleHintCursorRegular", "1em", CircleHintCursor20RegularSvg);
+export const CircleHintCursor24Filled = /** #__PURE__ */ createIcon("CircleHintCursor24Filled", "24", CircleHintCursor24FilledSvg);
+export const CircleHintCursor24Regular = /** #__PURE__ */ createIcon("CircleHintCursor24Regular", "24", CircleHintCursor24RegularSvg);

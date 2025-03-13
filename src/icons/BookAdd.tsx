@@ -5,9 +5,11 @@ import BookAdd24RegularSvg from "@fluentui/svg-icons/icons/book_add_24_regular.s
 import BookAdd28FilledSvg from "@fluentui/svg-icons/icons/book_add_28_filled.svg" with { type: "text" }
 import BookAdd28RegularSvg from "@fluentui/svg-icons/icons/book_add_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const BookAdd20Filled = createIcon("BookAdd20Filled", BookAdd20FilledSvg);
-export const BookAdd20Regular = createIcon("BookAdd20Regular", BookAdd20RegularSvg);
-export const BookAdd24Filled = createIcon("BookAdd24Filled", BookAdd24FilledSvg);
-export const BookAdd24Regular = createIcon("BookAdd24Regular", BookAdd24RegularSvg);
-export const BookAdd28Filled = createIcon("BookAdd28Filled", BookAdd28FilledSvg);
-export const BookAdd28Regular = createIcon("BookAdd28Regular", BookAdd28RegularSvg);
+export const BookAdd20Filled = /** #__PURE__ */ createIcon("BookAdd20Filled", "20", BookAdd20FilledSvg);
+export const BookAddFilled = /** #__PURE__ */ createIcon("BookAddFilled", "1em", BookAdd20FilledSvg);
+export const BookAdd20Regular = /** #__PURE__ */ createIcon("BookAdd20Regular", "20", BookAdd20RegularSvg);
+export const BookAddRegular = /** #__PURE__ */ createIcon("BookAddRegular", "1em", BookAdd20RegularSvg);
+export const BookAdd24Filled = /** #__PURE__ */ createIcon("BookAdd24Filled", "24", BookAdd24FilledSvg);
+export const BookAdd24Regular = /** #__PURE__ */ createIcon("BookAdd24Regular", "24", BookAdd24RegularSvg);
+export const BookAdd28Filled = /** #__PURE__ */ createIcon("BookAdd28Filled", "28", BookAdd28FilledSvg);
+export const BookAdd28Regular = /** #__PURE__ */ createIcon("BookAdd28Regular", "28", BookAdd28RegularSvg);

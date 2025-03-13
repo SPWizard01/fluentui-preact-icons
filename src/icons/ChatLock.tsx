@@ -7,11 +7,13 @@ import ChatLock24RegularSvg from "@fluentui/svg-icons/icons/chat_lock_24_regular
 import ChatLock28FilledSvg from "@fluentui/svg-icons/icons/chat_lock_28_filled.svg" with { type: "text" }
 import ChatLock28RegularSvg from "@fluentui/svg-icons/icons/chat_lock_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ChatLock16Filled = createIcon("ChatLock16Filled", ChatLock16FilledSvg);
-export const ChatLock16Regular = createIcon("ChatLock16Regular", ChatLock16RegularSvg);
-export const ChatLock20Filled = createIcon("ChatLock20Filled", ChatLock20FilledSvg);
-export const ChatLock20Regular = createIcon("ChatLock20Regular", ChatLock20RegularSvg);
-export const ChatLock24Filled = createIcon("ChatLock24Filled", ChatLock24FilledSvg);
-export const ChatLock24Regular = createIcon("ChatLock24Regular", ChatLock24RegularSvg);
-export const ChatLock28Filled = createIcon("ChatLock28Filled", ChatLock28FilledSvg);
-export const ChatLock28Regular = createIcon("ChatLock28Regular", ChatLock28RegularSvg);
+export const ChatLock16Filled = /** #__PURE__ */ createIcon("ChatLock16Filled", "16", ChatLock16FilledSvg);
+export const ChatLock16Regular = /** #__PURE__ */ createIcon("ChatLock16Regular", "16", ChatLock16RegularSvg);
+export const ChatLock20Filled = /** #__PURE__ */ createIcon("ChatLock20Filled", "20", ChatLock20FilledSvg);
+export const ChatLockFilled = /** #__PURE__ */ createIcon("ChatLockFilled", "1em", ChatLock20FilledSvg);
+export const ChatLock20Regular = /** #__PURE__ */ createIcon("ChatLock20Regular", "20", ChatLock20RegularSvg);
+export const ChatLockRegular = /** #__PURE__ */ createIcon("ChatLockRegular", "1em", ChatLock20RegularSvg);
+export const ChatLock24Filled = /** #__PURE__ */ createIcon("ChatLock24Filled", "24", ChatLock24FilledSvg);
+export const ChatLock24Regular = /** #__PURE__ */ createIcon("ChatLock24Regular", "24", ChatLock24RegularSvg);
+export const ChatLock28Filled = /** #__PURE__ */ createIcon("ChatLock28Filled", "28", ChatLock28FilledSvg);
+export const ChatLock28Regular = /** #__PURE__ */ createIcon("ChatLock28Regular", "28", ChatLock28RegularSvg);

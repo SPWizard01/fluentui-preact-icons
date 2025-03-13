@@ -11,15 +11,17 @@ import Wallet32RegularSvg from "@fluentui/svg-icons/icons/wallet_32_regular.svg"
 import Wallet48FilledSvg from "@fluentui/svg-icons/icons/wallet_48_filled.svg" with { type: "text" }
 import Wallet48RegularSvg from "@fluentui/svg-icons/icons/wallet_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Wallet16Filled = createIcon("Wallet16Filled", Wallet16FilledSvg);
-export const Wallet16Regular = createIcon("Wallet16Regular", Wallet16RegularSvg);
-export const Wallet20Filled = createIcon("Wallet20Filled", Wallet20FilledSvg);
-export const Wallet20Regular = createIcon("Wallet20Regular", Wallet20RegularSvg);
-export const Wallet24Filled = createIcon("Wallet24Filled", Wallet24FilledSvg);
-export const Wallet24Regular = createIcon("Wallet24Regular", Wallet24RegularSvg);
-export const Wallet28Filled = createIcon("Wallet28Filled", Wallet28FilledSvg);
-export const Wallet28Regular = createIcon("Wallet28Regular", Wallet28RegularSvg);
-export const Wallet32Filled = createIcon("Wallet32Filled", Wallet32FilledSvg);
-export const Wallet32Regular = createIcon("Wallet32Regular", Wallet32RegularSvg);
-export const Wallet48Filled = createIcon("Wallet48Filled", Wallet48FilledSvg);
-export const Wallet48Regular = createIcon("Wallet48Regular", Wallet48RegularSvg);
+export const Wallet16Filled = /** #__PURE__ */ createIcon("Wallet16Filled", "16", Wallet16FilledSvg);
+export const Wallet16Regular = /** #__PURE__ */ createIcon("Wallet16Regular", "16", Wallet16RegularSvg);
+export const Wallet20Filled = /** #__PURE__ */ createIcon("Wallet20Filled", "20", Wallet20FilledSvg);
+export const WalletFilled = /** #__PURE__ */ createIcon("WalletFilled", "1em", Wallet20FilledSvg);
+export const Wallet20Regular = /** #__PURE__ */ createIcon("Wallet20Regular", "20", Wallet20RegularSvg);
+export const WalletRegular = /** #__PURE__ */ createIcon("WalletRegular", "1em", Wallet20RegularSvg);
+export const Wallet24Filled = /** #__PURE__ */ createIcon("Wallet24Filled", "24", Wallet24FilledSvg);
+export const Wallet24Regular = /** #__PURE__ */ createIcon("Wallet24Regular", "24", Wallet24RegularSvg);
+export const Wallet28Filled = /** #__PURE__ */ createIcon("Wallet28Filled", "28", Wallet28FilledSvg);
+export const Wallet28Regular = /** #__PURE__ */ createIcon("Wallet28Regular", "28", Wallet28RegularSvg);
+export const Wallet32Filled = /** #__PURE__ */ createIcon("Wallet32Filled", "32", Wallet32FilledSvg);
+export const Wallet32Regular = /** #__PURE__ */ createIcon("Wallet32Regular", "32", Wallet32RegularSvg);
+export const Wallet48Filled = /** #__PURE__ */ createIcon("Wallet48Filled", "48", Wallet48FilledSvg);
+export const Wallet48Regular = /** #__PURE__ */ createIcon("Wallet48Regular", "48", Wallet48RegularSvg);

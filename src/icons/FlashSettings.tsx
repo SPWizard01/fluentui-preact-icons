@@ -3,7 +3,9 @@ import FlashSettings20RegularSvg from "@fluentui/svg-icons/icons/flash_settings_
 import FlashSettings24FilledSvg from "@fluentui/svg-icons/icons/flash_settings_24_filled.svg" with { type: "text" }
 import FlashSettings24RegularSvg from "@fluentui/svg-icons/icons/flash_settings_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const FlashSettings20Filled = createIcon("FlashSettings20Filled", FlashSettings20FilledSvg);
-export const FlashSettings20Regular = createIcon("FlashSettings20Regular", FlashSettings20RegularSvg);
-export const FlashSettings24Filled = createIcon("FlashSettings24Filled", FlashSettings24FilledSvg);
-export const FlashSettings24Regular = createIcon("FlashSettings24Regular", FlashSettings24RegularSvg);
+export const FlashSettings20Filled = /** #__PURE__ */ createIcon("FlashSettings20Filled", "20", FlashSettings20FilledSvg);
+export const FlashSettingsFilled = /** #__PURE__ */ createIcon("FlashSettingsFilled", "1em", FlashSettings20FilledSvg);
+export const FlashSettings20Regular = /** #__PURE__ */ createIcon("FlashSettings20Regular", "20", FlashSettings20RegularSvg);
+export const FlashSettingsRegular = /** #__PURE__ */ createIcon("FlashSettingsRegular", "1em", FlashSettings20RegularSvg);
+export const FlashSettings24Filled = /** #__PURE__ */ createIcon("FlashSettings24Filled", "24", FlashSettings24FilledSvg);
+export const FlashSettings24Regular = /** #__PURE__ */ createIcon("FlashSettings24Regular", "24", FlashSettings24RegularSvg);

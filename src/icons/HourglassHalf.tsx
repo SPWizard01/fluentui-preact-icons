@@ -5,9 +5,11 @@ import HourglassHalf20RegularSvg from "@fluentui/svg-icons/icons/hourglass_half_
 import HourglassHalf24FilledSvg from "@fluentui/svg-icons/icons/hourglass_half_24_filled.svg" with { type: "text" }
 import HourglassHalf24RegularSvg from "@fluentui/svg-icons/icons/hourglass_half_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const HourglassHalf16Filled = createIcon("HourglassHalf16Filled", HourglassHalf16FilledSvg);
-export const HourglassHalf16Regular = createIcon("HourglassHalf16Regular", HourglassHalf16RegularSvg);
-export const HourglassHalf20Filled = createIcon("HourglassHalf20Filled", HourglassHalf20FilledSvg);
-export const HourglassHalf20Regular = createIcon("HourglassHalf20Regular", HourglassHalf20RegularSvg);
-export const HourglassHalf24Filled = createIcon("HourglassHalf24Filled", HourglassHalf24FilledSvg);
-export const HourglassHalf24Regular = createIcon("HourglassHalf24Regular", HourglassHalf24RegularSvg);
+export const HourglassHalf16Filled = /** #__PURE__ */ createIcon("HourglassHalf16Filled", "16", HourglassHalf16FilledSvg);
+export const HourglassHalf16Regular = /** #__PURE__ */ createIcon("HourglassHalf16Regular", "16", HourglassHalf16RegularSvg);
+export const HourglassHalf20Filled = /** #__PURE__ */ createIcon("HourglassHalf20Filled", "20", HourglassHalf20FilledSvg);
+export const HourglassHalfFilled = /** #__PURE__ */ createIcon("HourglassHalfFilled", "1em", HourglassHalf20FilledSvg);
+export const HourglassHalf20Regular = /** #__PURE__ */ createIcon("HourglassHalf20Regular", "20", HourglassHalf20RegularSvg);
+export const HourglassHalfRegular = /** #__PURE__ */ createIcon("HourglassHalfRegular", "1em", HourglassHalf20RegularSvg);
+export const HourglassHalf24Filled = /** #__PURE__ */ createIcon("HourglassHalf24Filled", "24", HourglassHalf24FilledSvg);
+export const HourglassHalf24Regular = /** #__PURE__ */ createIcon("HourglassHalf24Regular", "24", HourglassHalf24RegularSvg);

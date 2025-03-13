@@ -12,16 +12,18 @@ import ArrowReply32RegularSvg from "@fluentui/svg-icons/icons/arrow_reply_32_reg
 import ArrowReply48FilledSvg from "@fluentui/svg-icons/icons/arrow_reply_48_filled.svg" with { type: "text" }
 import ArrowReply48RegularSvg from "@fluentui/svg-icons/icons/arrow_reply_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ArrowReply16Filled = createIcon("ArrowReply16Filled", ArrowReply16FilledSvg);
-export const ArrowReply16Regular = createIcon("ArrowReply16Regular", ArrowReply16RegularSvg);
-export const ArrowReply20Filled = createIcon("ArrowReply20Filled", ArrowReply20FilledSvg);
-export const ArrowReply20Regular = createIcon("ArrowReply20Regular", ArrowReply20RegularSvg);
-export const ArrowReply24Filled = createIcon("ArrowReply24Filled", ArrowReply24FilledSvg);
-export const ArrowReply24Regular = createIcon("ArrowReply24Regular", ArrowReply24RegularSvg);
-export const ArrowReply28Filled = createIcon("ArrowReply28Filled", ArrowReply28FilledSvg);
-export const ArrowReply28Regular = createIcon("ArrowReply28Regular", ArrowReply28RegularSvg);
-export const ArrowReply32Filled = createIcon("ArrowReply32Filled", ArrowReply32FilledSvg);
-export const ArrowReply32Light = createIcon("ArrowReply32Light", ArrowReply32LightSvg);
-export const ArrowReply32Regular = createIcon("ArrowReply32Regular", ArrowReply32RegularSvg);
-export const ArrowReply48Filled = createIcon("ArrowReply48Filled", ArrowReply48FilledSvg);
-export const ArrowReply48Regular = createIcon("ArrowReply48Regular", ArrowReply48RegularSvg);
+export const ArrowReply16Filled = /** #__PURE__ */ createIcon("ArrowReply16Filled", "16", ArrowReply16FilledSvg);
+export const ArrowReply16Regular = /** #__PURE__ */ createIcon("ArrowReply16Regular", "16", ArrowReply16RegularSvg);
+export const ArrowReply20Filled = /** #__PURE__ */ createIcon("ArrowReply20Filled", "20", ArrowReply20FilledSvg);
+export const ArrowReplyFilled = /** #__PURE__ */ createIcon("ArrowReplyFilled", "1em", ArrowReply20FilledSvg);
+export const ArrowReply20Regular = /** #__PURE__ */ createIcon("ArrowReply20Regular", "20", ArrowReply20RegularSvg);
+export const ArrowReplyRegular = /** #__PURE__ */ createIcon("ArrowReplyRegular", "1em", ArrowReply20RegularSvg);
+export const ArrowReply24Filled = /** #__PURE__ */ createIcon("ArrowReply24Filled", "24", ArrowReply24FilledSvg);
+export const ArrowReply24Regular = /** #__PURE__ */ createIcon("ArrowReply24Regular", "24", ArrowReply24RegularSvg);
+export const ArrowReply28Filled = /** #__PURE__ */ createIcon("ArrowReply28Filled", "28", ArrowReply28FilledSvg);
+export const ArrowReply28Regular = /** #__PURE__ */ createIcon("ArrowReply28Regular", "28", ArrowReply28RegularSvg);
+export const ArrowReply32Filled = /** #__PURE__ */ createIcon("ArrowReply32Filled", "32", ArrowReply32FilledSvg);
+export const ArrowReply32Light = /** #__PURE__ */ createIcon("ArrowReply32Light", "32", ArrowReply32LightSvg);
+export const ArrowReply32Regular = /** #__PURE__ */ createIcon("ArrowReply32Regular", "32", ArrowReply32RegularSvg);
+export const ArrowReply48Filled = /** #__PURE__ */ createIcon("ArrowReply48Filled", "48", ArrowReply48FilledSvg);
+export const ArrowReply48Regular = /** #__PURE__ */ createIcon("ArrowReply48Regular", "48", ArrowReply48RegularSvg);

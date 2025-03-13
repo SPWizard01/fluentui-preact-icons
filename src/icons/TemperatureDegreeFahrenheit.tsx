@@ -11,15 +11,17 @@ import TemperatureDegreeFahrenheit32RegularSvg from "@fluentui/svg-icons/icons/t
 import TemperatureDegreeFahrenheit48FilledSvg from "@fluentui/svg-icons/icons/temperature_degree_fahrenheit_48_filled.svg" with { type: "text" }
 import TemperatureDegreeFahrenheit48RegularSvg from "@fluentui/svg-icons/icons/temperature_degree_fahrenheit_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TemperatureDegreeFahrenheit16Filled = createIcon("TemperatureDegreeFahrenheit16Filled", TemperatureDegreeFahrenheit16FilledSvg);
-export const TemperatureDegreeFahrenheit16Regular = createIcon("TemperatureDegreeFahrenheit16Regular", TemperatureDegreeFahrenheit16RegularSvg);
-export const TemperatureDegreeFahrenheit20Filled = createIcon("TemperatureDegreeFahrenheit20Filled", TemperatureDegreeFahrenheit20FilledSvg);
-export const TemperatureDegreeFahrenheit20Regular = createIcon("TemperatureDegreeFahrenheit20Regular", TemperatureDegreeFahrenheit20RegularSvg);
-export const TemperatureDegreeFahrenheit24Filled = createIcon("TemperatureDegreeFahrenheit24Filled", TemperatureDegreeFahrenheit24FilledSvg);
-export const TemperatureDegreeFahrenheit24Regular = createIcon("TemperatureDegreeFahrenheit24Regular", TemperatureDegreeFahrenheit24RegularSvg);
-export const TemperatureDegreeFahrenheit28Filled = createIcon("TemperatureDegreeFahrenheit28Filled", TemperatureDegreeFahrenheit28FilledSvg);
-export const TemperatureDegreeFahrenheit28Regular = createIcon("TemperatureDegreeFahrenheit28Regular", TemperatureDegreeFahrenheit28RegularSvg);
-export const TemperatureDegreeFahrenheit32Filled = createIcon("TemperatureDegreeFahrenheit32Filled", TemperatureDegreeFahrenheit32FilledSvg);
-export const TemperatureDegreeFahrenheit32Regular = createIcon("TemperatureDegreeFahrenheit32Regular", TemperatureDegreeFahrenheit32RegularSvg);
-export const TemperatureDegreeFahrenheit48Filled = createIcon("TemperatureDegreeFahrenheit48Filled", TemperatureDegreeFahrenheit48FilledSvg);
-export const TemperatureDegreeFahrenheit48Regular = createIcon("TemperatureDegreeFahrenheit48Regular", TemperatureDegreeFahrenheit48RegularSvg);
+export const TemperatureDegreeFahrenheit16Filled = /** #__PURE__ */ createIcon("TemperatureDegreeFahrenheit16Filled", "16", TemperatureDegreeFahrenheit16FilledSvg);
+export const TemperatureDegreeFahrenheit16Regular = /** #__PURE__ */ createIcon("TemperatureDegreeFahrenheit16Regular", "16", TemperatureDegreeFahrenheit16RegularSvg);
+export const TemperatureDegreeFahrenheit20Filled = /** #__PURE__ */ createIcon("TemperatureDegreeFahrenheit20Filled", "20", TemperatureDegreeFahrenheit20FilledSvg);
+export const TemperatureDegreeFahrenheitFilled = /** #__PURE__ */ createIcon("TemperatureDegreeFahrenheitFilled", "1em", TemperatureDegreeFahrenheit20FilledSvg);
+export const TemperatureDegreeFahrenheit20Regular = /** #__PURE__ */ createIcon("TemperatureDegreeFahrenheit20Regular", "20", TemperatureDegreeFahrenheit20RegularSvg);
+export const TemperatureDegreeFahrenheitRegular = /** #__PURE__ */ createIcon("TemperatureDegreeFahrenheitRegular", "1em", TemperatureDegreeFahrenheit20RegularSvg);
+export const TemperatureDegreeFahrenheit24Filled = /** #__PURE__ */ createIcon("TemperatureDegreeFahrenheit24Filled", "24", TemperatureDegreeFahrenheit24FilledSvg);
+export const TemperatureDegreeFahrenheit24Regular = /** #__PURE__ */ createIcon("TemperatureDegreeFahrenheit24Regular", "24", TemperatureDegreeFahrenheit24RegularSvg);
+export const TemperatureDegreeFahrenheit28Filled = /** #__PURE__ */ createIcon("TemperatureDegreeFahrenheit28Filled", "28", TemperatureDegreeFahrenheit28FilledSvg);
+export const TemperatureDegreeFahrenheit28Regular = /** #__PURE__ */ createIcon("TemperatureDegreeFahrenheit28Regular", "28", TemperatureDegreeFahrenheit28RegularSvg);
+export const TemperatureDegreeFahrenheit32Filled = /** #__PURE__ */ createIcon("TemperatureDegreeFahrenheit32Filled", "32", TemperatureDegreeFahrenheit32FilledSvg);
+export const TemperatureDegreeFahrenheit32Regular = /** #__PURE__ */ createIcon("TemperatureDegreeFahrenheit32Regular", "32", TemperatureDegreeFahrenheit32RegularSvg);
+export const TemperatureDegreeFahrenheit48Filled = /** #__PURE__ */ createIcon("TemperatureDegreeFahrenheit48Filled", "48", TemperatureDegreeFahrenheit48FilledSvg);
+export const TemperatureDegreeFahrenheit48Regular = /** #__PURE__ */ createIcon("TemperatureDegreeFahrenheit48Regular", "48", TemperatureDegreeFahrenheit48RegularSvg);

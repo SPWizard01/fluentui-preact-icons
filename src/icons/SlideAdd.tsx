@@ -11,15 +11,17 @@ import SlideAdd32RegularSvg from "@fluentui/svg-icons/icons/slide_add_32_regular
 import SlideAdd48FilledSvg from "@fluentui/svg-icons/icons/slide_add_48_filled.svg" with { type: "text" }
 import SlideAdd48RegularSvg from "@fluentui/svg-icons/icons/slide_add_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const SlideAdd16Filled = createIcon("SlideAdd16Filled", SlideAdd16FilledSvg);
-export const SlideAdd16Regular = createIcon("SlideAdd16Regular", SlideAdd16RegularSvg);
-export const SlideAdd20Filled = createIcon("SlideAdd20Filled", SlideAdd20FilledSvg);
-export const SlideAdd20Regular = createIcon("SlideAdd20Regular", SlideAdd20RegularSvg);
-export const SlideAdd24Filled = createIcon("SlideAdd24Filled", SlideAdd24FilledSvg);
-export const SlideAdd24Regular = createIcon("SlideAdd24Regular", SlideAdd24RegularSvg);
-export const SlideAdd28Filled = createIcon("SlideAdd28Filled", SlideAdd28FilledSvg);
-export const SlideAdd28Regular = createIcon("SlideAdd28Regular", SlideAdd28RegularSvg);
-export const SlideAdd32Filled = createIcon("SlideAdd32Filled", SlideAdd32FilledSvg);
-export const SlideAdd32Regular = createIcon("SlideAdd32Regular", SlideAdd32RegularSvg);
-export const SlideAdd48Filled = createIcon("SlideAdd48Filled", SlideAdd48FilledSvg);
-export const SlideAdd48Regular = createIcon("SlideAdd48Regular", SlideAdd48RegularSvg);
+export const SlideAdd16Filled = /** #__PURE__ */ createIcon("SlideAdd16Filled", "16", SlideAdd16FilledSvg);
+export const SlideAdd16Regular = /** #__PURE__ */ createIcon("SlideAdd16Regular", "16", SlideAdd16RegularSvg);
+export const SlideAdd20Filled = /** #__PURE__ */ createIcon("SlideAdd20Filled", "20", SlideAdd20FilledSvg);
+export const SlideAddFilled = /** #__PURE__ */ createIcon("SlideAddFilled", "1em", SlideAdd20FilledSvg);
+export const SlideAdd20Regular = /** #__PURE__ */ createIcon("SlideAdd20Regular", "20", SlideAdd20RegularSvg);
+export const SlideAddRegular = /** #__PURE__ */ createIcon("SlideAddRegular", "1em", SlideAdd20RegularSvg);
+export const SlideAdd24Filled = /** #__PURE__ */ createIcon("SlideAdd24Filled", "24", SlideAdd24FilledSvg);
+export const SlideAdd24Regular = /** #__PURE__ */ createIcon("SlideAdd24Regular", "24", SlideAdd24RegularSvg);
+export const SlideAdd28Filled = /** #__PURE__ */ createIcon("SlideAdd28Filled", "28", SlideAdd28FilledSvg);
+export const SlideAdd28Regular = /** #__PURE__ */ createIcon("SlideAdd28Regular", "28", SlideAdd28RegularSvg);
+export const SlideAdd32Filled = /** #__PURE__ */ createIcon("SlideAdd32Filled", "32", SlideAdd32FilledSvg);
+export const SlideAdd32Regular = /** #__PURE__ */ createIcon("SlideAdd32Regular", "32", SlideAdd32RegularSvg);
+export const SlideAdd48Filled = /** #__PURE__ */ createIcon("SlideAdd48Filled", "48", SlideAdd48FilledSvg);
+export const SlideAdd48Regular = /** #__PURE__ */ createIcon("SlideAdd48Regular", "48", SlideAdd48RegularSvg);

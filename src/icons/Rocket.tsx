@@ -5,9 +5,11 @@ import Rocket20RegularSvg from "@fluentui/svg-icons/icons/rocket_20_regular.svg"
 import Rocket24FilledSvg from "@fluentui/svg-icons/icons/rocket_24_filled.svg" with { type: "text" }
 import Rocket24RegularSvg from "@fluentui/svg-icons/icons/rocket_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Rocket16Filled = createIcon("Rocket16Filled", Rocket16FilledSvg);
-export const Rocket16Regular = createIcon("Rocket16Regular", Rocket16RegularSvg);
-export const Rocket20Filled = createIcon("Rocket20Filled", Rocket20FilledSvg);
-export const Rocket20Regular = createIcon("Rocket20Regular", Rocket20RegularSvg);
-export const Rocket24Filled = createIcon("Rocket24Filled", Rocket24FilledSvg);
-export const Rocket24Regular = createIcon("Rocket24Regular", Rocket24RegularSvg);
+export const Rocket16Filled = /** #__PURE__ */ createIcon("Rocket16Filled", "16", Rocket16FilledSvg);
+export const Rocket16Regular = /** #__PURE__ */ createIcon("Rocket16Regular", "16", Rocket16RegularSvg);
+export const Rocket20Filled = /** #__PURE__ */ createIcon("Rocket20Filled", "20", Rocket20FilledSvg);
+export const RocketFilled = /** #__PURE__ */ createIcon("RocketFilled", "1em", Rocket20FilledSvg);
+export const Rocket20Regular = /** #__PURE__ */ createIcon("Rocket20Regular", "20", Rocket20RegularSvg);
+export const RocketRegular = /** #__PURE__ */ createIcon("RocketRegular", "1em", Rocket20RegularSvg);
+export const Rocket24Filled = /** #__PURE__ */ createIcon("Rocket24Filled", "24", Rocket24FilledSvg);
+export const Rocket24Regular = /** #__PURE__ */ createIcon("Rocket24Regular", "24", Rocket24RegularSvg);

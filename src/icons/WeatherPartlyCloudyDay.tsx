@@ -7,11 +7,13 @@ import WeatherPartlyCloudyDay24RegularSvg from "@fluentui/svg-icons/icons/weathe
 import WeatherPartlyCloudyDay48FilledSvg from "@fluentui/svg-icons/icons/weather_partly_cloudy_day_48_filled.svg" with { type: "text" }
 import WeatherPartlyCloudyDay48RegularSvg from "@fluentui/svg-icons/icons/weather_partly_cloudy_day_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const WeatherPartlyCloudyDay16Filled = createIcon("WeatherPartlyCloudyDay16Filled", WeatherPartlyCloudyDay16FilledSvg);
-export const WeatherPartlyCloudyDay16Regular = createIcon("WeatherPartlyCloudyDay16Regular", WeatherPartlyCloudyDay16RegularSvg);
-export const WeatherPartlyCloudyDay20Filled = createIcon("WeatherPartlyCloudyDay20Filled", WeatherPartlyCloudyDay20FilledSvg);
-export const WeatherPartlyCloudyDay20Regular = createIcon("WeatherPartlyCloudyDay20Regular", WeatherPartlyCloudyDay20RegularSvg);
-export const WeatherPartlyCloudyDay24Filled = createIcon("WeatherPartlyCloudyDay24Filled", WeatherPartlyCloudyDay24FilledSvg);
-export const WeatherPartlyCloudyDay24Regular = createIcon("WeatherPartlyCloudyDay24Regular", WeatherPartlyCloudyDay24RegularSvg);
-export const WeatherPartlyCloudyDay48Filled = createIcon("WeatherPartlyCloudyDay48Filled", WeatherPartlyCloudyDay48FilledSvg);
-export const WeatherPartlyCloudyDay48Regular = createIcon("WeatherPartlyCloudyDay48Regular", WeatherPartlyCloudyDay48RegularSvg);
+export const WeatherPartlyCloudyDay16Filled = /** #__PURE__ */ createIcon("WeatherPartlyCloudyDay16Filled", "16", WeatherPartlyCloudyDay16FilledSvg);
+export const WeatherPartlyCloudyDay16Regular = /** #__PURE__ */ createIcon("WeatherPartlyCloudyDay16Regular", "16", WeatherPartlyCloudyDay16RegularSvg);
+export const WeatherPartlyCloudyDay20Filled = /** #__PURE__ */ createIcon("WeatherPartlyCloudyDay20Filled", "20", WeatherPartlyCloudyDay20FilledSvg);
+export const WeatherPartlyCloudyDayFilled = /** #__PURE__ */ createIcon("WeatherPartlyCloudyDayFilled", "1em", WeatherPartlyCloudyDay20FilledSvg);
+export const WeatherPartlyCloudyDay20Regular = /** #__PURE__ */ createIcon("WeatherPartlyCloudyDay20Regular", "20", WeatherPartlyCloudyDay20RegularSvg);
+export const WeatherPartlyCloudyDayRegular = /** #__PURE__ */ createIcon("WeatherPartlyCloudyDayRegular", "1em", WeatherPartlyCloudyDay20RegularSvg);
+export const WeatherPartlyCloudyDay24Filled = /** #__PURE__ */ createIcon("WeatherPartlyCloudyDay24Filled", "24", WeatherPartlyCloudyDay24FilledSvg);
+export const WeatherPartlyCloudyDay24Regular = /** #__PURE__ */ createIcon("WeatherPartlyCloudyDay24Regular", "24", WeatherPartlyCloudyDay24RegularSvg);
+export const WeatherPartlyCloudyDay48Filled = /** #__PURE__ */ createIcon("WeatherPartlyCloudyDay48Filled", "48", WeatherPartlyCloudyDay48FilledSvg);
+export const WeatherPartlyCloudyDay48Regular = /** #__PURE__ */ createIcon("WeatherPartlyCloudyDay48Regular", "48", WeatherPartlyCloudyDay48RegularSvg);

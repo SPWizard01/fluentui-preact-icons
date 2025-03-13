@@ -11,15 +11,17 @@ import CalendarArrowCounterclockwise32RegularSvg from "@fluentui/svg-icons/icons
 import CalendarArrowCounterclockwise48FilledSvg from "@fluentui/svg-icons/icons/calendar_arrow_counterclockwise_48_filled.svg" with { type: "text" }
 import CalendarArrowCounterclockwise48RegularSvg from "@fluentui/svg-icons/icons/calendar_arrow_counterclockwise_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CalendarArrowCounterclockwise16Filled = createIcon("CalendarArrowCounterclockwise16Filled", CalendarArrowCounterclockwise16FilledSvg);
-export const CalendarArrowCounterclockwise16Regular = createIcon("CalendarArrowCounterclockwise16Regular", CalendarArrowCounterclockwise16RegularSvg);
-export const CalendarArrowCounterclockwise20Filled = createIcon("CalendarArrowCounterclockwise20Filled", CalendarArrowCounterclockwise20FilledSvg);
-export const CalendarArrowCounterclockwise20Regular = createIcon("CalendarArrowCounterclockwise20Regular", CalendarArrowCounterclockwise20RegularSvg);
-export const CalendarArrowCounterclockwise24Filled = createIcon("CalendarArrowCounterclockwise24Filled", CalendarArrowCounterclockwise24FilledSvg);
-export const CalendarArrowCounterclockwise24Regular = createIcon("CalendarArrowCounterclockwise24Regular", CalendarArrowCounterclockwise24RegularSvg);
-export const CalendarArrowCounterclockwise28Filled = createIcon("CalendarArrowCounterclockwise28Filled", CalendarArrowCounterclockwise28FilledSvg);
-export const CalendarArrowCounterclockwise28Regular = createIcon("CalendarArrowCounterclockwise28Regular", CalendarArrowCounterclockwise28RegularSvg);
-export const CalendarArrowCounterclockwise32Filled = createIcon("CalendarArrowCounterclockwise32Filled", CalendarArrowCounterclockwise32FilledSvg);
-export const CalendarArrowCounterclockwise32Regular = createIcon("CalendarArrowCounterclockwise32Regular", CalendarArrowCounterclockwise32RegularSvg);
-export const CalendarArrowCounterclockwise48Filled = createIcon("CalendarArrowCounterclockwise48Filled", CalendarArrowCounterclockwise48FilledSvg);
-export const CalendarArrowCounterclockwise48Regular = createIcon("CalendarArrowCounterclockwise48Regular", CalendarArrowCounterclockwise48RegularSvg);
+export const CalendarArrowCounterclockwise16Filled = /** #__PURE__ */ createIcon("CalendarArrowCounterclockwise16Filled", "16", CalendarArrowCounterclockwise16FilledSvg);
+export const CalendarArrowCounterclockwise16Regular = /** #__PURE__ */ createIcon("CalendarArrowCounterclockwise16Regular", "16", CalendarArrowCounterclockwise16RegularSvg);
+export const CalendarArrowCounterclockwise20Filled = /** #__PURE__ */ createIcon("CalendarArrowCounterclockwise20Filled", "20", CalendarArrowCounterclockwise20FilledSvg);
+export const CalendarArrowCounterclockwiseFilled = /** #__PURE__ */ createIcon("CalendarArrowCounterclockwiseFilled", "1em", CalendarArrowCounterclockwise20FilledSvg);
+export const CalendarArrowCounterclockwise20Regular = /** #__PURE__ */ createIcon("CalendarArrowCounterclockwise20Regular", "20", CalendarArrowCounterclockwise20RegularSvg);
+export const CalendarArrowCounterclockwiseRegular = /** #__PURE__ */ createIcon("CalendarArrowCounterclockwiseRegular", "1em", CalendarArrowCounterclockwise20RegularSvg);
+export const CalendarArrowCounterclockwise24Filled = /** #__PURE__ */ createIcon("CalendarArrowCounterclockwise24Filled", "24", CalendarArrowCounterclockwise24FilledSvg);
+export const CalendarArrowCounterclockwise24Regular = /** #__PURE__ */ createIcon("CalendarArrowCounterclockwise24Regular", "24", CalendarArrowCounterclockwise24RegularSvg);
+export const CalendarArrowCounterclockwise28Filled = /** #__PURE__ */ createIcon("CalendarArrowCounterclockwise28Filled", "28", CalendarArrowCounterclockwise28FilledSvg);
+export const CalendarArrowCounterclockwise28Regular = /** #__PURE__ */ createIcon("CalendarArrowCounterclockwise28Regular", "28", CalendarArrowCounterclockwise28RegularSvg);
+export const CalendarArrowCounterclockwise32Filled = /** #__PURE__ */ createIcon("CalendarArrowCounterclockwise32Filled", "32", CalendarArrowCounterclockwise32FilledSvg);
+export const CalendarArrowCounterclockwise32Regular = /** #__PURE__ */ createIcon("CalendarArrowCounterclockwise32Regular", "32", CalendarArrowCounterclockwise32RegularSvg);
+export const CalendarArrowCounterclockwise48Filled = /** #__PURE__ */ createIcon("CalendarArrowCounterclockwise48Filled", "48", CalendarArrowCounterclockwise48FilledSvg);
+export const CalendarArrowCounterclockwise48Regular = /** #__PURE__ */ createIcon("CalendarArrowCounterclockwise48Regular", "48", CalendarArrowCounterclockwise48RegularSvg);

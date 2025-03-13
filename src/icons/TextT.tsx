@@ -13,17 +13,19 @@ import TextT32RegularSvg from "@fluentui/svg-icons/icons/text_t_32_regular.svg" 
 import TextT48FilledSvg from "@fluentui/svg-icons/icons/text_t_48_filled.svg" with { type: "text" }
 import TextT48RegularSvg from "@fluentui/svg-icons/icons/text_t_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TextT12Filled = createIcon("TextT12Filled", TextT12FilledSvg);
-export const TextT12Regular = createIcon("TextT12Regular", TextT12RegularSvg);
-export const TextT16Filled = createIcon("TextT16Filled", TextT16FilledSvg);
-export const TextT16Regular = createIcon("TextT16Regular", TextT16RegularSvg);
-export const TextT20Filled = createIcon("TextT20Filled", TextT20FilledSvg);
-export const TextT20Regular = createIcon("TextT20Regular", TextT20RegularSvg);
-export const TextT24Filled = createIcon("TextT24Filled", TextT24FilledSvg);
-export const TextT24Regular = createIcon("TextT24Regular", TextT24RegularSvg);
-export const TextT28Filled = createIcon("TextT28Filled", TextT28FilledSvg);
-export const TextT28Regular = createIcon("TextT28Regular", TextT28RegularSvg);
-export const TextT32Filled = createIcon("TextT32Filled", TextT32FilledSvg);
-export const TextT32Regular = createIcon("TextT32Regular", TextT32RegularSvg);
-export const TextT48Filled = createIcon("TextT48Filled", TextT48FilledSvg);
-export const TextT48Regular = createIcon("TextT48Regular", TextT48RegularSvg);
+export const TextT12Filled = /** #__PURE__ */ createIcon("TextT12Filled", "12", TextT12FilledSvg);
+export const TextT12Regular = /** #__PURE__ */ createIcon("TextT12Regular", "12", TextT12RegularSvg);
+export const TextT16Filled = /** #__PURE__ */ createIcon("TextT16Filled", "16", TextT16FilledSvg);
+export const TextT16Regular = /** #__PURE__ */ createIcon("TextT16Regular", "16", TextT16RegularSvg);
+export const TextT20Filled = /** #__PURE__ */ createIcon("TextT20Filled", "20", TextT20FilledSvg);
+export const TextTFilled = /** #__PURE__ */ createIcon("TextTFilled", "1em", TextT20FilledSvg);
+export const TextT20Regular = /** #__PURE__ */ createIcon("TextT20Regular", "20", TextT20RegularSvg);
+export const TextTRegular = /** #__PURE__ */ createIcon("TextTRegular", "1em", TextT20RegularSvg);
+export const TextT24Filled = /** #__PURE__ */ createIcon("TextT24Filled", "24", TextT24FilledSvg);
+export const TextT24Regular = /** #__PURE__ */ createIcon("TextT24Regular", "24", TextT24RegularSvg);
+export const TextT28Filled = /** #__PURE__ */ createIcon("TextT28Filled", "28", TextT28FilledSvg);
+export const TextT28Regular = /** #__PURE__ */ createIcon("TextT28Regular", "28", TextT28RegularSvg);
+export const TextT32Filled = /** #__PURE__ */ createIcon("TextT32Filled", "32", TextT32FilledSvg);
+export const TextT32Regular = /** #__PURE__ */ createIcon("TextT32Regular", "32", TextT32RegularSvg);
+export const TextT48Filled = /** #__PURE__ */ createIcon("TextT48Filled", "48", TextT48FilledSvg);
+export const TextT48Regular = /** #__PURE__ */ createIcon("TextT48Regular", "48", TextT48RegularSvg);

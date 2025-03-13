@@ -5,9 +5,11 @@ import DocumentQuestionMark20RegularSvg from "@fluentui/svg-icons/icons/document
 import DocumentQuestionMark24FilledSvg from "@fluentui/svg-icons/icons/document_question_mark_24_filled.svg" with { type: "text" }
 import DocumentQuestionMark24RegularSvg from "@fluentui/svg-icons/icons/document_question_mark_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const DocumentQuestionMark16Filled = createIcon("DocumentQuestionMark16Filled", DocumentQuestionMark16FilledSvg);
-export const DocumentQuestionMark16Regular = createIcon("DocumentQuestionMark16Regular", DocumentQuestionMark16RegularSvg);
-export const DocumentQuestionMark20Filled = createIcon("DocumentQuestionMark20Filled", DocumentQuestionMark20FilledSvg);
-export const DocumentQuestionMark20Regular = createIcon("DocumentQuestionMark20Regular", DocumentQuestionMark20RegularSvg);
-export const DocumentQuestionMark24Filled = createIcon("DocumentQuestionMark24Filled", DocumentQuestionMark24FilledSvg);
-export const DocumentQuestionMark24Regular = createIcon("DocumentQuestionMark24Regular", DocumentQuestionMark24RegularSvg);
+export const DocumentQuestionMark16Filled = /** #__PURE__ */ createIcon("DocumentQuestionMark16Filled", "16", DocumentQuestionMark16FilledSvg);
+export const DocumentQuestionMark16Regular = /** #__PURE__ */ createIcon("DocumentQuestionMark16Regular", "16", DocumentQuestionMark16RegularSvg);
+export const DocumentQuestionMark20Filled = /** #__PURE__ */ createIcon("DocumentQuestionMark20Filled", "20", DocumentQuestionMark20FilledSvg);
+export const DocumentQuestionMarkFilled = /** #__PURE__ */ createIcon("DocumentQuestionMarkFilled", "1em", DocumentQuestionMark20FilledSvg);
+export const DocumentQuestionMark20Regular = /** #__PURE__ */ createIcon("DocumentQuestionMark20Regular", "20", DocumentQuestionMark20RegularSvg);
+export const DocumentQuestionMarkRegular = /** #__PURE__ */ createIcon("DocumentQuestionMarkRegular", "1em", DocumentQuestionMark20RegularSvg);
+export const DocumentQuestionMark24Filled = /** #__PURE__ */ createIcon("DocumentQuestionMark24Filled", "24", DocumentQuestionMark24FilledSvg);
+export const DocumentQuestionMark24Regular = /** #__PURE__ */ createIcon("DocumentQuestionMark24Regular", "24", DocumentQuestionMark24RegularSvg);

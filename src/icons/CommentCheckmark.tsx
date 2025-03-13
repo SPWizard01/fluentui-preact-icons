@@ -11,15 +11,17 @@ import CommentCheckmark28RegularSvg from "@fluentui/svg-icons/icons/comment_chec
 import CommentCheckmark48FilledSvg from "@fluentui/svg-icons/icons/comment_checkmark_48_filled.svg" with { type: "text" }
 import CommentCheckmark48RegularSvg from "@fluentui/svg-icons/icons/comment_checkmark_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CommentCheckmark12Filled = createIcon("CommentCheckmark12Filled", CommentCheckmark12FilledSvg);
-export const CommentCheckmark12Regular = createIcon("CommentCheckmark12Regular", CommentCheckmark12RegularSvg);
-export const CommentCheckmark16Filled = createIcon("CommentCheckmark16Filled", CommentCheckmark16FilledSvg);
-export const CommentCheckmark16Regular = createIcon("CommentCheckmark16Regular", CommentCheckmark16RegularSvg);
-export const CommentCheckmark20Filled = createIcon("CommentCheckmark20Filled", CommentCheckmark20FilledSvg);
-export const CommentCheckmark20Regular = createIcon("CommentCheckmark20Regular", CommentCheckmark20RegularSvg);
-export const CommentCheckmark24Filled = createIcon("CommentCheckmark24Filled", CommentCheckmark24FilledSvg);
-export const CommentCheckmark24Regular = createIcon("CommentCheckmark24Regular", CommentCheckmark24RegularSvg);
-export const CommentCheckmark28Filled = createIcon("CommentCheckmark28Filled", CommentCheckmark28FilledSvg);
-export const CommentCheckmark28Regular = createIcon("CommentCheckmark28Regular", CommentCheckmark28RegularSvg);
-export const CommentCheckmark48Filled = createIcon("CommentCheckmark48Filled", CommentCheckmark48FilledSvg);
-export const CommentCheckmark48Regular = createIcon("CommentCheckmark48Regular", CommentCheckmark48RegularSvg);
+export const CommentCheckmark12Filled = /** #__PURE__ */ createIcon("CommentCheckmark12Filled", "12", CommentCheckmark12FilledSvg);
+export const CommentCheckmark12Regular = /** #__PURE__ */ createIcon("CommentCheckmark12Regular", "12", CommentCheckmark12RegularSvg);
+export const CommentCheckmark16Filled = /** #__PURE__ */ createIcon("CommentCheckmark16Filled", "16", CommentCheckmark16FilledSvg);
+export const CommentCheckmark16Regular = /** #__PURE__ */ createIcon("CommentCheckmark16Regular", "16", CommentCheckmark16RegularSvg);
+export const CommentCheckmark20Filled = /** #__PURE__ */ createIcon("CommentCheckmark20Filled", "20", CommentCheckmark20FilledSvg);
+export const CommentCheckmarkFilled = /** #__PURE__ */ createIcon("CommentCheckmarkFilled", "1em", CommentCheckmark20FilledSvg);
+export const CommentCheckmark20Regular = /** #__PURE__ */ createIcon("CommentCheckmark20Regular", "20", CommentCheckmark20RegularSvg);
+export const CommentCheckmarkRegular = /** #__PURE__ */ createIcon("CommentCheckmarkRegular", "1em", CommentCheckmark20RegularSvg);
+export const CommentCheckmark24Filled = /** #__PURE__ */ createIcon("CommentCheckmark24Filled", "24", CommentCheckmark24FilledSvg);
+export const CommentCheckmark24Regular = /** #__PURE__ */ createIcon("CommentCheckmark24Regular", "24", CommentCheckmark24RegularSvg);
+export const CommentCheckmark28Filled = /** #__PURE__ */ createIcon("CommentCheckmark28Filled", "28", CommentCheckmark28FilledSvg);
+export const CommentCheckmark28Regular = /** #__PURE__ */ createIcon("CommentCheckmark28Regular", "28", CommentCheckmark28RegularSvg);
+export const CommentCheckmark48Filled = /** #__PURE__ */ createIcon("CommentCheckmark48Filled", "48", CommentCheckmark48FilledSvg);
+export const CommentCheckmark48Regular = /** #__PURE__ */ createIcon("CommentCheckmark48Regular", "48", CommentCheckmark48RegularSvg);

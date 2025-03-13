@@ -9,13 +9,15 @@ import Replay28RegularSvg from "@fluentui/svg-icons/icons/replay_28_regular.svg"
 import Replay32FilledSvg from "@fluentui/svg-icons/icons/replay_32_filled.svg" with { type: "text" }
 import Replay32RegularSvg from "@fluentui/svg-icons/icons/replay_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Replay16Filled = createIcon("Replay16Filled", Replay16FilledSvg);
-export const Replay16Regular = createIcon("Replay16Regular", Replay16RegularSvg);
-export const Replay20Filled = createIcon("Replay20Filled", Replay20FilledSvg);
-export const Replay20Regular = createIcon("Replay20Regular", Replay20RegularSvg);
-export const Replay24Filled = createIcon("Replay24Filled", Replay24FilledSvg);
-export const Replay24Regular = createIcon("Replay24Regular", Replay24RegularSvg);
-export const Replay28Filled = createIcon("Replay28Filled", Replay28FilledSvg);
-export const Replay28Regular = createIcon("Replay28Regular", Replay28RegularSvg);
-export const Replay32Filled = createIcon("Replay32Filled", Replay32FilledSvg);
-export const Replay32Regular = createIcon("Replay32Regular", Replay32RegularSvg);
+export const Replay16Filled = /** #__PURE__ */ createIcon("Replay16Filled", "16", Replay16FilledSvg);
+export const Replay16Regular = /** #__PURE__ */ createIcon("Replay16Regular", "16", Replay16RegularSvg);
+export const Replay20Filled = /** #__PURE__ */ createIcon("Replay20Filled", "20", Replay20FilledSvg);
+export const ReplayFilled = /** #__PURE__ */ createIcon("ReplayFilled", "1em", Replay20FilledSvg);
+export const Replay20Regular = /** #__PURE__ */ createIcon("Replay20Regular", "20", Replay20RegularSvg);
+export const ReplayRegular = /** #__PURE__ */ createIcon("ReplayRegular", "1em", Replay20RegularSvg);
+export const Replay24Filled = /** #__PURE__ */ createIcon("Replay24Filled", "24", Replay24FilledSvg);
+export const Replay24Regular = /** #__PURE__ */ createIcon("Replay24Regular", "24", Replay24RegularSvg);
+export const Replay28Filled = /** #__PURE__ */ createIcon("Replay28Filled", "28", Replay28FilledSvg);
+export const Replay28Regular = /** #__PURE__ */ createIcon("Replay28Regular", "28", Replay28RegularSvg);
+export const Replay32Filled = /** #__PURE__ */ createIcon("Replay32Filled", "32", Replay32FilledSvg);
+export const Replay32Regular = /** #__PURE__ */ createIcon("Replay32Regular", "32", Replay32RegularSvg);

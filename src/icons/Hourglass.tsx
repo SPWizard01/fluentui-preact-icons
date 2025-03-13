@@ -5,9 +5,11 @@ import Hourglass20RegularSvg from "@fluentui/svg-icons/icons/hourglass_20_regula
 import Hourglass24FilledSvg from "@fluentui/svg-icons/icons/hourglass_24_filled.svg" with { type: "text" }
 import Hourglass24RegularSvg from "@fluentui/svg-icons/icons/hourglass_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Hourglass16Filled = createIcon("Hourglass16Filled", Hourglass16FilledSvg);
-export const Hourglass16Regular = createIcon("Hourglass16Regular", Hourglass16RegularSvg);
-export const Hourglass20Filled = createIcon("Hourglass20Filled", Hourglass20FilledSvg);
-export const Hourglass20Regular = createIcon("Hourglass20Regular", Hourglass20RegularSvg);
-export const Hourglass24Filled = createIcon("Hourglass24Filled", Hourglass24FilledSvg);
-export const Hourglass24Regular = createIcon("Hourglass24Regular", Hourglass24RegularSvg);
+export const Hourglass16Filled = /** #__PURE__ */ createIcon("Hourglass16Filled", "16", Hourglass16FilledSvg);
+export const Hourglass16Regular = /** #__PURE__ */ createIcon("Hourglass16Regular", "16", Hourglass16RegularSvg);
+export const Hourglass20Filled = /** #__PURE__ */ createIcon("Hourglass20Filled", "20", Hourglass20FilledSvg);
+export const HourglassFilled = /** #__PURE__ */ createIcon("HourglassFilled", "1em", Hourglass20FilledSvg);
+export const Hourglass20Regular = /** #__PURE__ */ createIcon("Hourglass20Regular", "20", Hourglass20RegularSvg);
+export const HourglassRegular = /** #__PURE__ */ createIcon("HourglassRegular", "1em", Hourglass20RegularSvg);
+export const Hourglass24Filled = /** #__PURE__ */ createIcon("Hourglass24Filled", "24", Hourglass24FilledSvg);
+export const Hourglass24Regular = /** #__PURE__ */ createIcon("Hourglass24Regular", "24", Hourglass24RegularSvg);

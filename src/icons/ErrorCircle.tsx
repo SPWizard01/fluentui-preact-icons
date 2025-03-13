@@ -13,17 +13,20 @@ import ErrorCircle48ColorSvg from "@fluentui/svg-icons/icons/error_circle_48_col
 import ErrorCircle48FilledSvg from "@fluentui/svg-icons/icons/error_circle_48_filled.svg" with { type: "text" }
 import ErrorCircle48RegularSvg from "@fluentui/svg-icons/icons/error_circle_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ErrorCircle12Filled = createIcon("ErrorCircle12Filled", ErrorCircle12FilledSvg);
-export const ErrorCircle12Regular = createIcon("ErrorCircle12Regular", ErrorCircle12RegularSvg);
-export const ErrorCircle16Color = createIcon("ErrorCircle16Color", ErrorCircle16ColorSvg);
-export const ErrorCircle16Filled = createIcon("ErrorCircle16Filled", ErrorCircle16FilledSvg);
-export const ErrorCircle16Regular = createIcon("ErrorCircle16Regular", ErrorCircle16RegularSvg);
-export const ErrorCircle20Color = createIcon("ErrorCircle20Color", ErrorCircle20ColorSvg);
-export const ErrorCircle20Filled = createIcon("ErrorCircle20Filled", ErrorCircle20FilledSvg);
-export const ErrorCircle20Regular = createIcon("ErrorCircle20Regular", ErrorCircle20RegularSvg);
-export const ErrorCircle24Color = createIcon("ErrorCircle24Color", ErrorCircle24ColorSvg);
-export const ErrorCircle24Filled = createIcon("ErrorCircle24Filled", ErrorCircle24FilledSvg);
-export const ErrorCircle24Regular = createIcon("ErrorCircle24Regular", ErrorCircle24RegularSvg);
-export const ErrorCircle48Color = createIcon("ErrorCircle48Color", ErrorCircle48ColorSvg);
-export const ErrorCircle48Filled = createIcon("ErrorCircle48Filled", ErrorCircle48FilledSvg);
-export const ErrorCircle48Regular = createIcon("ErrorCircle48Regular", ErrorCircle48RegularSvg);
+export const ErrorCircle12Filled = /** #__PURE__ */ createIcon("ErrorCircle12Filled", "12", ErrorCircle12FilledSvg);
+export const ErrorCircle12Regular = /** #__PURE__ */ createIcon("ErrorCircle12Regular", "12", ErrorCircle12RegularSvg);
+export const ErrorCircle16Color = /** #__PURE__ */ createIcon("ErrorCircle16Color", "16", ErrorCircle16ColorSvg);
+export const ErrorCircle16Filled = /** #__PURE__ */ createIcon("ErrorCircle16Filled", "16", ErrorCircle16FilledSvg);
+export const ErrorCircle16Regular = /** #__PURE__ */ createIcon("ErrorCircle16Regular", "16", ErrorCircle16RegularSvg);
+export const ErrorCircle20Color = /** #__PURE__ */ createIcon("ErrorCircle20Color", "20", ErrorCircle20ColorSvg);
+export const ErrorCircleColor = /** #__PURE__ */ createIcon("ErrorCircleColor", "1em", ErrorCircle20ColorSvg);
+export const ErrorCircle20Filled = /** #__PURE__ */ createIcon("ErrorCircle20Filled", "20", ErrorCircle20FilledSvg);
+export const ErrorCircleFilled = /** #__PURE__ */ createIcon("ErrorCircleFilled", "1em", ErrorCircle20FilledSvg);
+export const ErrorCircle20Regular = /** #__PURE__ */ createIcon("ErrorCircle20Regular", "20", ErrorCircle20RegularSvg);
+export const ErrorCircleRegular = /** #__PURE__ */ createIcon("ErrorCircleRegular", "1em", ErrorCircle20RegularSvg);
+export const ErrorCircle24Color = /** #__PURE__ */ createIcon("ErrorCircle24Color", "24", ErrorCircle24ColorSvg);
+export const ErrorCircle24Filled = /** #__PURE__ */ createIcon("ErrorCircle24Filled", "24", ErrorCircle24FilledSvg);
+export const ErrorCircle24Regular = /** #__PURE__ */ createIcon("ErrorCircle24Regular", "24", ErrorCircle24RegularSvg);
+export const ErrorCircle48Color = /** #__PURE__ */ createIcon("ErrorCircle48Color", "48", ErrorCircle48ColorSvg);
+export const ErrorCircle48Filled = /** #__PURE__ */ createIcon("ErrorCircle48Filled", "48", ErrorCircle48FilledSvg);
+export const ErrorCircle48Regular = /** #__PURE__ */ createIcon("ErrorCircle48Regular", "48", ErrorCircle48RegularSvg);

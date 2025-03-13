@@ -5,9 +5,11 @@ import LayoutRowTwoSplitBottom20RegularSvg from "@fluentui/svg-icons/icons/layou
 import LayoutRowTwoSplitBottom24FilledSvg from "@fluentui/svg-icons/icons/layout_row_two_split_bottom_24_filled.svg" with { type: "text" }
 import LayoutRowTwoSplitBottom24RegularSvg from "@fluentui/svg-icons/icons/layout_row_two_split_bottom_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const LayoutRowTwoSplitBottom16Filled = createIcon("LayoutRowTwoSplitBottom16Filled", LayoutRowTwoSplitBottom16FilledSvg);
-export const LayoutRowTwoSplitBottom16Regular = createIcon("LayoutRowTwoSplitBottom16Regular", LayoutRowTwoSplitBottom16RegularSvg);
-export const LayoutRowTwoSplitBottom20Filled = createIcon("LayoutRowTwoSplitBottom20Filled", LayoutRowTwoSplitBottom20FilledSvg);
-export const LayoutRowTwoSplitBottom20Regular = createIcon("LayoutRowTwoSplitBottom20Regular", LayoutRowTwoSplitBottom20RegularSvg);
-export const LayoutRowTwoSplitBottom24Filled = createIcon("LayoutRowTwoSplitBottom24Filled", LayoutRowTwoSplitBottom24FilledSvg);
-export const LayoutRowTwoSplitBottom24Regular = createIcon("LayoutRowTwoSplitBottom24Regular", LayoutRowTwoSplitBottom24RegularSvg);
+export const LayoutRowTwoSplitBottom16Filled = /** #__PURE__ */ createIcon("LayoutRowTwoSplitBottom16Filled", "16", LayoutRowTwoSplitBottom16FilledSvg);
+export const LayoutRowTwoSplitBottom16Regular = /** #__PURE__ */ createIcon("LayoutRowTwoSplitBottom16Regular", "16", LayoutRowTwoSplitBottom16RegularSvg);
+export const LayoutRowTwoSplitBottom20Filled = /** #__PURE__ */ createIcon("LayoutRowTwoSplitBottom20Filled", "20", LayoutRowTwoSplitBottom20FilledSvg);
+export const LayoutRowTwoSplitBottomFilled = /** #__PURE__ */ createIcon("LayoutRowTwoSplitBottomFilled", "1em", LayoutRowTwoSplitBottom20FilledSvg);
+export const LayoutRowTwoSplitBottom20Regular = /** #__PURE__ */ createIcon("LayoutRowTwoSplitBottom20Regular", "20", LayoutRowTwoSplitBottom20RegularSvg);
+export const LayoutRowTwoSplitBottomRegular = /** #__PURE__ */ createIcon("LayoutRowTwoSplitBottomRegular", "1em", LayoutRowTwoSplitBottom20RegularSvg);
+export const LayoutRowTwoSplitBottom24Filled = /** #__PURE__ */ createIcon("LayoutRowTwoSplitBottom24Filled", "24", LayoutRowTwoSplitBottom24FilledSvg);
+export const LayoutRowTwoSplitBottom24Regular = /** #__PURE__ */ createIcon("LayoutRowTwoSplitBottom24Regular", "24", LayoutRowTwoSplitBottom24RegularSvg);

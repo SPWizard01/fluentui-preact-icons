@@ -5,9 +5,11 @@ import KeyMultiple20RegularSvg from "@fluentui/svg-icons/icons/key_multiple_20_r
 import KeyMultiple24FilledSvg from "@fluentui/svg-icons/icons/key_multiple_24_filled.svg" with { type: "text" }
 import KeyMultiple24RegularSvg from "@fluentui/svg-icons/icons/key_multiple_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const KeyMultiple16Filled = createIcon("KeyMultiple16Filled", KeyMultiple16FilledSvg);
-export const KeyMultiple16Regular = createIcon("KeyMultiple16Regular", KeyMultiple16RegularSvg);
-export const KeyMultiple20Filled = createIcon("KeyMultiple20Filled", KeyMultiple20FilledSvg);
-export const KeyMultiple20Regular = createIcon("KeyMultiple20Regular", KeyMultiple20RegularSvg);
-export const KeyMultiple24Filled = createIcon("KeyMultiple24Filled", KeyMultiple24FilledSvg);
-export const KeyMultiple24Regular = createIcon("KeyMultiple24Regular", KeyMultiple24RegularSvg);
+export const KeyMultiple16Filled = /** #__PURE__ */ createIcon("KeyMultiple16Filled", "16", KeyMultiple16FilledSvg);
+export const KeyMultiple16Regular = /** #__PURE__ */ createIcon("KeyMultiple16Regular", "16", KeyMultiple16RegularSvg);
+export const KeyMultiple20Filled = /** #__PURE__ */ createIcon("KeyMultiple20Filled", "20", KeyMultiple20FilledSvg);
+export const KeyMultipleFilled = /** #__PURE__ */ createIcon("KeyMultipleFilled", "1em", KeyMultiple20FilledSvg);
+export const KeyMultiple20Regular = /** #__PURE__ */ createIcon("KeyMultiple20Regular", "20", KeyMultiple20RegularSvg);
+export const KeyMultipleRegular = /** #__PURE__ */ createIcon("KeyMultipleRegular", "1em", KeyMultiple20RegularSvg);
+export const KeyMultiple24Filled = /** #__PURE__ */ createIcon("KeyMultiple24Filled", "24", KeyMultiple24FilledSvg);
+export const KeyMultiple24Regular = /** #__PURE__ */ createIcon("KeyMultiple24Regular", "24", KeyMultiple24RegularSvg);

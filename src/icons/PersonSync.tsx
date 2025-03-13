@@ -11,15 +11,17 @@ import PersonSync32RegularSvg from "@fluentui/svg-icons/icons/person_sync_32_reg
 import PersonSync48FilledSvg from "@fluentui/svg-icons/icons/person_sync_48_filled.svg" with { type: "text" }
 import PersonSync48RegularSvg from "@fluentui/svg-icons/icons/person_sync_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PersonSync16Filled = createIcon("PersonSync16Filled", PersonSync16FilledSvg);
-export const PersonSync16Regular = createIcon("PersonSync16Regular", PersonSync16RegularSvg);
-export const PersonSync20Filled = createIcon("PersonSync20Filled", PersonSync20FilledSvg);
-export const PersonSync20Regular = createIcon("PersonSync20Regular", PersonSync20RegularSvg);
-export const PersonSync24Filled = createIcon("PersonSync24Filled", PersonSync24FilledSvg);
-export const PersonSync24Regular = createIcon("PersonSync24Regular", PersonSync24RegularSvg);
-export const PersonSync28Filled = createIcon("PersonSync28Filled", PersonSync28FilledSvg);
-export const PersonSync28Regular = createIcon("PersonSync28Regular", PersonSync28RegularSvg);
-export const PersonSync32Filled = createIcon("PersonSync32Filled", PersonSync32FilledSvg);
-export const PersonSync32Regular = createIcon("PersonSync32Regular", PersonSync32RegularSvg);
-export const PersonSync48Filled = createIcon("PersonSync48Filled", PersonSync48FilledSvg);
-export const PersonSync48Regular = createIcon("PersonSync48Regular", PersonSync48RegularSvg);
+export const PersonSync16Filled = /** #__PURE__ */ createIcon("PersonSync16Filled", "16", PersonSync16FilledSvg);
+export const PersonSync16Regular = /** #__PURE__ */ createIcon("PersonSync16Regular", "16", PersonSync16RegularSvg);
+export const PersonSync20Filled = /** #__PURE__ */ createIcon("PersonSync20Filled", "20", PersonSync20FilledSvg);
+export const PersonSyncFilled = /** #__PURE__ */ createIcon("PersonSyncFilled", "1em", PersonSync20FilledSvg);
+export const PersonSync20Regular = /** #__PURE__ */ createIcon("PersonSync20Regular", "20", PersonSync20RegularSvg);
+export const PersonSyncRegular = /** #__PURE__ */ createIcon("PersonSyncRegular", "1em", PersonSync20RegularSvg);
+export const PersonSync24Filled = /** #__PURE__ */ createIcon("PersonSync24Filled", "24", PersonSync24FilledSvg);
+export const PersonSync24Regular = /** #__PURE__ */ createIcon("PersonSync24Regular", "24", PersonSync24RegularSvg);
+export const PersonSync28Filled = /** #__PURE__ */ createIcon("PersonSync28Filled", "28", PersonSync28FilledSvg);
+export const PersonSync28Regular = /** #__PURE__ */ createIcon("PersonSync28Regular", "28", PersonSync28RegularSvg);
+export const PersonSync32Filled = /** #__PURE__ */ createIcon("PersonSync32Filled", "32", PersonSync32FilledSvg);
+export const PersonSync32Regular = /** #__PURE__ */ createIcon("PersonSync32Regular", "32", PersonSync32RegularSvg);
+export const PersonSync48Filled = /** #__PURE__ */ createIcon("PersonSync48Filled", "48", PersonSync48FilledSvg);
+export const PersonSync48Regular = /** #__PURE__ */ createIcon("PersonSync48Regular", "48", PersonSync48RegularSvg);

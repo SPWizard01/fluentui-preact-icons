@@ -6,10 +6,12 @@ import DoorArrowRight28FilledSvg from "@fluentui/svg-icons/icons/door_arrow_righ
 import DoorArrowRight28RegularSvg from "@fluentui/svg-icons/icons/door_arrow_right_28_regular.svg" with { type: "text" }
 import DoorArrowRight32LightSvg from "@fluentui/svg-icons/icons/door_arrow_right_32_light.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const DoorArrowRight16Filled = createIcon("DoorArrowRight16Filled", DoorArrowRight16FilledSvg);
-export const DoorArrowRight16Regular = createIcon("DoorArrowRight16Regular", DoorArrowRight16RegularSvg);
-export const DoorArrowRight20Filled = createIcon("DoorArrowRight20Filled", DoorArrowRight20FilledSvg);
-export const DoorArrowRight20Regular = createIcon("DoorArrowRight20Regular", DoorArrowRight20RegularSvg);
-export const DoorArrowRight28Filled = createIcon("DoorArrowRight28Filled", DoorArrowRight28FilledSvg);
-export const DoorArrowRight28Regular = createIcon("DoorArrowRight28Regular", DoorArrowRight28RegularSvg);
-export const DoorArrowRight32Light = createIcon("DoorArrowRight32Light", DoorArrowRight32LightSvg);
+export const DoorArrowRight16Filled = /** #__PURE__ */ createIcon("DoorArrowRight16Filled", "16", DoorArrowRight16FilledSvg);
+export const DoorArrowRight16Regular = /** #__PURE__ */ createIcon("DoorArrowRight16Regular", "16", DoorArrowRight16RegularSvg);
+export const DoorArrowRight20Filled = /** #__PURE__ */ createIcon("DoorArrowRight20Filled", "20", DoorArrowRight20FilledSvg);
+export const DoorArrowRightFilled = /** #__PURE__ */ createIcon("DoorArrowRightFilled", "1em", DoorArrowRight20FilledSvg);
+export const DoorArrowRight20Regular = /** #__PURE__ */ createIcon("DoorArrowRight20Regular", "20", DoorArrowRight20RegularSvg);
+export const DoorArrowRightRegular = /** #__PURE__ */ createIcon("DoorArrowRightRegular", "1em", DoorArrowRight20RegularSvg);
+export const DoorArrowRight28Filled = /** #__PURE__ */ createIcon("DoorArrowRight28Filled", "28", DoorArrowRight28FilledSvg);
+export const DoorArrowRight28Regular = /** #__PURE__ */ createIcon("DoorArrowRight28Regular", "28", DoorArrowRight28RegularSvg);
+export const DoorArrowRight32Light = /** #__PURE__ */ createIcon("DoorArrowRight32Light", "32", DoorArrowRight32LightSvg);

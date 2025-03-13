@@ -8,12 +8,14 @@ import CalendarDay28FilledSvg from "@fluentui/svg-icons/icons/calendar_day_28_fi
 import CalendarDay28RegularSvg from "@fluentui/svg-icons/icons/calendar_day_28_regular.svg" with { type: "text" }
 import CalendarDay32LightSvg from "@fluentui/svg-icons/icons/calendar_day_32_light.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CalendarDay16Filled = createIcon("CalendarDay16Filled", CalendarDay16FilledSvg);
-export const CalendarDay16Regular = createIcon("CalendarDay16Regular", CalendarDay16RegularSvg);
-export const CalendarDay20Filled = createIcon("CalendarDay20Filled", CalendarDay20FilledSvg);
-export const CalendarDay20Regular = createIcon("CalendarDay20Regular", CalendarDay20RegularSvg);
-export const CalendarDay24Filled = createIcon("CalendarDay24Filled", CalendarDay24FilledSvg);
-export const CalendarDay24Regular = createIcon("CalendarDay24Regular", CalendarDay24RegularSvg);
-export const CalendarDay28Filled = createIcon("CalendarDay28Filled", CalendarDay28FilledSvg);
-export const CalendarDay28Regular = createIcon("CalendarDay28Regular", CalendarDay28RegularSvg);
-export const CalendarDay32Light = createIcon("CalendarDay32Light", CalendarDay32LightSvg);
+export const CalendarDay16Filled = /** #__PURE__ */ createIcon("CalendarDay16Filled", "16", CalendarDay16FilledSvg);
+export const CalendarDay16Regular = /** #__PURE__ */ createIcon("CalendarDay16Regular", "16", CalendarDay16RegularSvg);
+export const CalendarDay20Filled = /** #__PURE__ */ createIcon("CalendarDay20Filled", "20", CalendarDay20FilledSvg);
+export const CalendarDayFilled = /** #__PURE__ */ createIcon("CalendarDayFilled", "1em", CalendarDay20FilledSvg);
+export const CalendarDay20Regular = /** #__PURE__ */ createIcon("CalendarDay20Regular", "20", CalendarDay20RegularSvg);
+export const CalendarDayRegular = /** #__PURE__ */ createIcon("CalendarDayRegular", "1em", CalendarDay20RegularSvg);
+export const CalendarDay24Filled = /** #__PURE__ */ createIcon("CalendarDay24Filled", "24", CalendarDay24FilledSvg);
+export const CalendarDay24Regular = /** #__PURE__ */ createIcon("CalendarDay24Regular", "24", CalendarDay24RegularSvg);
+export const CalendarDay28Filled = /** #__PURE__ */ createIcon("CalendarDay28Filled", "28", CalendarDay28FilledSvg);
+export const CalendarDay28Regular = /** #__PURE__ */ createIcon("CalendarDay28Regular", "28", CalendarDay28RegularSvg);
+export const CalendarDay32Light = /** #__PURE__ */ createIcon("CalendarDay32Light", "32", CalendarDay32LightSvg);

@@ -12,16 +12,18 @@ import PinOff32RegularSvg from "@fluentui/svg-icons/icons/pin_off_32_regular.svg
 import PinOff48FilledSvg from "@fluentui/svg-icons/icons/pin_off_48_filled.svg" with { type: "text" }
 import PinOff48RegularSvg from "@fluentui/svg-icons/icons/pin_off_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PinOff16Filled = createIcon("PinOff16Filled", PinOff16FilledSvg);
-export const PinOff16Regular = createIcon("PinOff16Regular", PinOff16RegularSvg);
-export const PinOff20Filled = createIcon("PinOff20Filled", PinOff20FilledSvg);
-export const PinOff20Regular = createIcon("PinOff20Regular", PinOff20RegularSvg);
-export const PinOff24Filled = createIcon("PinOff24Filled", PinOff24FilledSvg);
-export const PinOff24Regular = createIcon("PinOff24Regular", PinOff24RegularSvg);
-export const PinOff28Filled = createIcon("PinOff28Filled", PinOff28FilledSvg);
-export const PinOff28Regular = createIcon("PinOff28Regular", PinOff28RegularSvg);
-export const PinOff32Filled = createIcon("PinOff32Filled", PinOff32FilledSvg);
-export const PinOff32Light = createIcon("PinOff32Light", PinOff32LightSvg);
-export const PinOff32Regular = createIcon("PinOff32Regular", PinOff32RegularSvg);
-export const PinOff48Filled = createIcon("PinOff48Filled", PinOff48FilledSvg);
-export const PinOff48Regular = createIcon("PinOff48Regular", PinOff48RegularSvg);
+export const PinOff16Filled = /** #__PURE__ */ createIcon("PinOff16Filled", "16", PinOff16FilledSvg);
+export const PinOff16Regular = /** #__PURE__ */ createIcon("PinOff16Regular", "16", PinOff16RegularSvg);
+export const PinOff20Filled = /** #__PURE__ */ createIcon("PinOff20Filled", "20", PinOff20FilledSvg);
+export const PinOffFilled = /** #__PURE__ */ createIcon("PinOffFilled", "1em", PinOff20FilledSvg);
+export const PinOff20Regular = /** #__PURE__ */ createIcon("PinOff20Regular", "20", PinOff20RegularSvg);
+export const PinOffRegular = /** #__PURE__ */ createIcon("PinOffRegular", "1em", PinOff20RegularSvg);
+export const PinOff24Filled = /** #__PURE__ */ createIcon("PinOff24Filled", "24", PinOff24FilledSvg);
+export const PinOff24Regular = /** #__PURE__ */ createIcon("PinOff24Regular", "24", PinOff24RegularSvg);
+export const PinOff28Filled = /** #__PURE__ */ createIcon("PinOff28Filled", "28", PinOff28FilledSvg);
+export const PinOff28Regular = /** #__PURE__ */ createIcon("PinOff28Regular", "28", PinOff28RegularSvg);
+export const PinOff32Filled = /** #__PURE__ */ createIcon("PinOff32Filled", "32", PinOff32FilledSvg);
+export const PinOff32Light = /** #__PURE__ */ createIcon("PinOff32Light", "32", PinOff32LightSvg);
+export const PinOff32Regular = /** #__PURE__ */ createIcon("PinOff32Regular", "32", PinOff32RegularSvg);
+export const PinOff48Filled = /** #__PURE__ */ createIcon("PinOff48Filled", "48", PinOff48FilledSvg);
+export const PinOff48Regular = /** #__PURE__ */ createIcon("PinOff48Regular", "48", PinOff48RegularSvg);

@@ -3,7 +3,9 @@ import ShareCloseTray20RegularSvg from "@fluentui/svg-icons/icons/share_close_tr
 import ShareCloseTray24FilledSvg from "@fluentui/svg-icons/icons/share_close_tray_24_filled.svg" with { type: "text" }
 import ShareCloseTray24RegularSvg from "@fluentui/svg-icons/icons/share_close_tray_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ShareCloseTray20Filled = createIcon("ShareCloseTray20Filled", ShareCloseTray20FilledSvg);
-export const ShareCloseTray20Regular = createIcon("ShareCloseTray20Regular", ShareCloseTray20RegularSvg);
-export const ShareCloseTray24Filled = createIcon("ShareCloseTray24Filled", ShareCloseTray24FilledSvg);
-export const ShareCloseTray24Regular = createIcon("ShareCloseTray24Regular", ShareCloseTray24RegularSvg);
+export const ShareCloseTray20Filled = /** #__PURE__ */ createIcon("ShareCloseTray20Filled", "20", ShareCloseTray20FilledSvg);
+export const ShareCloseTrayFilled = /** #__PURE__ */ createIcon("ShareCloseTrayFilled", "1em", ShareCloseTray20FilledSvg);
+export const ShareCloseTray20Regular = /** #__PURE__ */ createIcon("ShareCloseTray20Regular", "20", ShareCloseTray20RegularSvg);
+export const ShareCloseTrayRegular = /** #__PURE__ */ createIcon("ShareCloseTrayRegular", "1em", ShareCloseTray20RegularSvg);
+export const ShareCloseTray24Filled = /** #__PURE__ */ createIcon("ShareCloseTray24Filled", "24", ShareCloseTray24FilledSvg);
+export const ShareCloseTray24Regular = /** #__PURE__ */ createIcon("ShareCloseTray24Regular", "24", ShareCloseTray24RegularSvg);

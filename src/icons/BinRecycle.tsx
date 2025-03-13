@@ -3,7 +3,9 @@ import BinRecycle20RegularSvg from "@fluentui/svg-icons/icons/bin_recycle_20_reg
 import BinRecycle24FilledSvg from "@fluentui/svg-icons/icons/bin_recycle_24_filled.svg" with { type: "text" }
 import BinRecycle24RegularSvg from "@fluentui/svg-icons/icons/bin_recycle_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const BinRecycle20Filled = createIcon("BinRecycle20Filled", BinRecycle20FilledSvg);
-export const BinRecycle20Regular = createIcon("BinRecycle20Regular", BinRecycle20RegularSvg);
-export const BinRecycle24Filled = createIcon("BinRecycle24Filled", BinRecycle24FilledSvg);
-export const BinRecycle24Regular = createIcon("BinRecycle24Regular", BinRecycle24RegularSvg);
+export const BinRecycle20Filled = /** #__PURE__ */ createIcon("BinRecycle20Filled", "20", BinRecycle20FilledSvg);
+export const BinRecycleFilled = /** #__PURE__ */ createIcon("BinRecycleFilled", "1em", BinRecycle20FilledSvg);
+export const BinRecycle20Regular = /** #__PURE__ */ createIcon("BinRecycle20Regular", "20", BinRecycle20RegularSvg);
+export const BinRecycleRegular = /** #__PURE__ */ createIcon("BinRecycleRegular", "1em", BinRecycle20RegularSvg);
+export const BinRecycle24Filled = /** #__PURE__ */ createIcon("BinRecycle24Filled", "24", BinRecycle24FilledSvg);
+export const BinRecycle24Regular = /** #__PURE__ */ createIcon("BinRecycle24Regular", "24", BinRecycle24RegularSvg);

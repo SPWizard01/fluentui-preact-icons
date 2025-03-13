@@ -9,13 +9,15 @@ import PresenceDnd20RegularSvg from "@fluentui/svg-icons/icons/presence_dnd_20_r
 import PresenceDnd24FilledSvg from "@fluentui/svg-icons/icons/presence_dnd_24_filled.svg" with { type: "text" }
 import PresenceDnd24RegularSvg from "@fluentui/svg-icons/icons/presence_dnd_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PresenceDnd10Filled = createIcon("PresenceDnd10Filled", PresenceDnd10FilledSvg);
-export const PresenceDnd10Regular = createIcon("PresenceDnd10Regular", PresenceDnd10RegularSvg);
-export const PresenceDnd12Filled = createIcon("PresenceDnd12Filled", PresenceDnd12FilledSvg);
-export const PresenceDnd12Regular = createIcon("PresenceDnd12Regular", PresenceDnd12RegularSvg);
-export const PresenceDnd16Filled = createIcon("PresenceDnd16Filled", PresenceDnd16FilledSvg);
-export const PresenceDnd16Regular = createIcon("PresenceDnd16Regular", PresenceDnd16RegularSvg);
-export const PresenceDnd20Filled = createIcon("PresenceDnd20Filled", PresenceDnd20FilledSvg);
-export const PresenceDnd20Regular = createIcon("PresenceDnd20Regular", PresenceDnd20RegularSvg);
-export const PresenceDnd24Filled = createIcon("PresenceDnd24Filled", PresenceDnd24FilledSvg);
-export const PresenceDnd24Regular = createIcon("PresenceDnd24Regular", PresenceDnd24RegularSvg);
+export const PresenceDnd10Filled = /** #__PURE__ */ createIcon("PresenceDnd10Filled", "10", PresenceDnd10FilledSvg);
+export const PresenceDnd10Regular = /** #__PURE__ */ createIcon("PresenceDnd10Regular", "10", PresenceDnd10RegularSvg);
+export const PresenceDnd12Filled = /** #__PURE__ */ createIcon("PresenceDnd12Filled", "12", PresenceDnd12FilledSvg);
+export const PresenceDnd12Regular = /** #__PURE__ */ createIcon("PresenceDnd12Regular", "12", PresenceDnd12RegularSvg);
+export const PresenceDnd16Filled = /** #__PURE__ */ createIcon("PresenceDnd16Filled", "16", PresenceDnd16FilledSvg);
+export const PresenceDnd16Regular = /** #__PURE__ */ createIcon("PresenceDnd16Regular", "16", PresenceDnd16RegularSvg);
+export const PresenceDnd20Filled = /** #__PURE__ */ createIcon("PresenceDnd20Filled", "20", PresenceDnd20FilledSvg);
+export const PresenceDndFilled = /** #__PURE__ */ createIcon("PresenceDndFilled", "1em", PresenceDnd20FilledSvg);
+export const PresenceDnd20Regular = /** #__PURE__ */ createIcon("PresenceDnd20Regular", "20", PresenceDnd20RegularSvg);
+export const PresenceDndRegular = /** #__PURE__ */ createIcon("PresenceDndRegular", "1em", PresenceDnd20RegularSvg);
+export const PresenceDnd24Filled = /** #__PURE__ */ createIcon("PresenceDnd24Filled", "24", PresenceDnd24FilledSvg);
+export const PresenceDnd24Regular = /** #__PURE__ */ createIcon("PresenceDnd24Regular", "24", PresenceDnd24RegularSvg);

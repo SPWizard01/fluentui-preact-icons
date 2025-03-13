@@ -17,21 +17,24 @@ import Laptop48ColorSvg from "@fluentui/svg-icons/icons/laptop_48_color.svg" wit
 import Laptop48FilledSvg from "@fluentui/svg-icons/icons/laptop_48_filled.svg" with { type: "text" }
 import Laptop48RegularSvg from "@fluentui/svg-icons/icons/laptop_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Laptop16Color = createIcon("Laptop16Color", Laptop16ColorSvg);
-export const Laptop16Filled = createIcon("Laptop16Filled", Laptop16FilledSvg);
-export const Laptop16Regular = createIcon("Laptop16Regular", Laptop16RegularSvg);
-export const Laptop20Color = createIcon("Laptop20Color", Laptop20ColorSvg);
-export const Laptop20Filled = createIcon("Laptop20Filled", Laptop20FilledSvg);
-export const Laptop20Regular = createIcon("Laptop20Regular", Laptop20RegularSvg);
-export const Laptop24Color = createIcon("Laptop24Color", Laptop24ColorSvg);
-export const Laptop24Filled = createIcon("Laptop24Filled", Laptop24FilledSvg);
-export const Laptop24Regular = createIcon("Laptop24Regular", Laptop24RegularSvg);
-export const Laptop28Color = createIcon("Laptop28Color", Laptop28ColorSvg);
-export const Laptop28Filled = createIcon("Laptop28Filled", Laptop28FilledSvg);
-export const Laptop28Regular = createIcon("Laptop28Regular", Laptop28RegularSvg);
-export const Laptop32Color = createIcon("Laptop32Color", Laptop32ColorSvg);
-export const Laptop32Filled = createIcon("Laptop32Filled", Laptop32FilledSvg);
-export const Laptop32Regular = createIcon("Laptop32Regular", Laptop32RegularSvg);
-export const Laptop48Color = createIcon("Laptop48Color", Laptop48ColorSvg);
-export const Laptop48Filled = createIcon("Laptop48Filled", Laptop48FilledSvg);
-export const Laptop48Regular = createIcon("Laptop48Regular", Laptop48RegularSvg);
+export const Laptop16Color = /** #__PURE__ */ createIcon("Laptop16Color", "16", Laptop16ColorSvg);
+export const Laptop16Filled = /** #__PURE__ */ createIcon("Laptop16Filled", "16", Laptop16FilledSvg);
+export const Laptop16Regular = /** #__PURE__ */ createIcon("Laptop16Regular", "16", Laptop16RegularSvg);
+export const Laptop20Color = /** #__PURE__ */ createIcon("Laptop20Color", "20", Laptop20ColorSvg);
+export const LaptopColor = /** #__PURE__ */ createIcon("LaptopColor", "1em", Laptop20ColorSvg);
+export const Laptop20Filled = /** #__PURE__ */ createIcon("Laptop20Filled", "20", Laptop20FilledSvg);
+export const LaptopFilled = /** #__PURE__ */ createIcon("LaptopFilled", "1em", Laptop20FilledSvg);
+export const Laptop20Regular = /** #__PURE__ */ createIcon("Laptop20Regular", "20", Laptop20RegularSvg);
+export const LaptopRegular = /** #__PURE__ */ createIcon("LaptopRegular", "1em", Laptop20RegularSvg);
+export const Laptop24Color = /** #__PURE__ */ createIcon("Laptop24Color", "24", Laptop24ColorSvg);
+export const Laptop24Filled = /** #__PURE__ */ createIcon("Laptop24Filled", "24", Laptop24FilledSvg);
+export const Laptop24Regular = /** #__PURE__ */ createIcon("Laptop24Regular", "24", Laptop24RegularSvg);
+export const Laptop28Color = /** #__PURE__ */ createIcon("Laptop28Color", "28", Laptop28ColorSvg);
+export const Laptop28Filled = /** #__PURE__ */ createIcon("Laptop28Filled", "28", Laptop28FilledSvg);
+export const Laptop28Regular = /** #__PURE__ */ createIcon("Laptop28Regular", "28", Laptop28RegularSvg);
+export const Laptop32Color = /** #__PURE__ */ createIcon("Laptop32Color", "32", Laptop32ColorSvg);
+export const Laptop32Filled = /** #__PURE__ */ createIcon("Laptop32Filled", "32", Laptop32FilledSvg);
+export const Laptop32Regular = /** #__PURE__ */ createIcon("Laptop32Regular", "32", Laptop32RegularSvg);
+export const Laptop48Color = /** #__PURE__ */ createIcon("Laptop48Color", "48", Laptop48ColorSvg);
+export const Laptop48Filled = /** #__PURE__ */ createIcon("Laptop48Filled", "48", Laptop48FilledSvg);
+export const Laptop48Regular = /** #__PURE__ */ createIcon("Laptop48Regular", "48", Laptop48RegularSvg);

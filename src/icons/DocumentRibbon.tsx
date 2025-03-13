@@ -11,15 +11,17 @@ import DocumentRibbon32RegularSvg from "@fluentui/svg-icons/icons/document_ribbo
 import DocumentRibbon48FilledSvg from "@fluentui/svg-icons/icons/document_ribbon_48_filled.svg" with { type: "text" }
 import DocumentRibbon48RegularSvg from "@fluentui/svg-icons/icons/document_ribbon_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const DocumentRibbon16Filled = createIcon("DocumentRibbon16Filled", DocumentRibbon16FilledSvg);
-export const DocumentRibbon16Regular = createIcon("DocumentRibbon16Regular", DocumentRibbon16RegularSvg);
-export const DocumentRibbon20Filled = createIcon("DocumentRibbon20Filled", DocumentRibbon20FilledSvg);
-export const DocumentRibbon20Regular = createIcon("DocumentRibbon20Regular", DocumentRibbon20RegularSvg);
-export const DocumentRibbon24Filled = createIcon("DocumentRibbon24Filled", DocumentRibbon24FilledSvg);
-export const DocumentRibbon24Regular = createIcon("DocumentRibbon24Regular", DocumentRibbon24RegularSvg);
-export const DocumentRibbon28Filled = createIcon("DocumentRibbon28Filled", DocumentRibbon28FilledSvg);
-export const DocumentRibbon28Regular = createIcon("DocumentRibbon28Regular", DocumentRibbon28RegularSvg);
-export const DocumentRibbon32Filled = createIcon("DocumentRibbon32Filled", DocumentRibbon32FilledSvg);
-export const DocumentRibbon32Regular = createIcon("DocumentRibbon32Regular", DocumentRibbon32RegularSvg);
-export const DocumentRibbon48Filled = createIcon("DocumentRibbon48Filled", DocumentRibbon48FilledSvg);
-export const DocumentRibbon48Regular = createIcon("DocumentRibbon48Regular", DocumentRibbon48RegularSvg);
+export const DocumentRibbon16Filled = /** #__PURE__ */ createIcon("DocumentRibbon16Filled", "16", DocumentRibbon16FilledSvg);
+export const DocumentRibbon16Regular = /** #__PURE__ */ createIcon("DocumentRibbon16Regular", "16", DocumentRibbon16RegularSvg);
+export const DocumentRibbon20Filled = /** #__PURE__ */ createIcon("DocumentRibbon20Filled", "20", DocumentRibbon20FilledSvg);
+export const DocumentRibbonFilled = /** #__PURE__ */ createIcon("DocumentRibbonFilled", "1em", DocumentRibbon20FilledSvg);
+export const DocumentRibbon20Regular = /** #__PURE__ */ createIcon("DocumentRibbon20Regular", "20", DocumentRibbon20RegularSvg);
+export const DocumentRibbonRegular = /** #__PURE__ */ createIcon("DocumentRibbonRegular", "1em", DocumentRibbon20RegularSvg);
+export const DocumentRibbon24Filled = /** #__PURE__ */ createIcon("DocumentRibbon24Filled", "24", DocumentRibbon24FilledSvg);
+export const DocumentRibbon24Regular = /** #__PURE__ */ createIcon("DocumentRibbon24Regular", "24", DocumentRibbon24RegularSvg);
+export const DocumentRibbon28Filled = /** #__PURE__ */ createIcon("DocumentRibbon28Filled", "28", DocumentRibbon28FilledSvg);
+export const DocumentRibbon28Regular = /** #__PURE__ */ createIcon("DocumentRibbon28Regular", "28", DocumentRibbon28RegularSvg);
+export const DocumentRibbon32Filled = /** #__PURE__ */ createIcon("DocumentRibbon32Filled", "32", DocumentRibbon32FilledSvg);
+export const DocumentRibbon32Regular = /** #__PURE__ */ createIcon("DocumentRibbon32Regular", "32", DocumentRibbon32RegularSvg);
+export const DocumentRibbon48Filled = /** #__PURE__ */ createIcon("DocumentRibbon48Filled", "48", DocumentRibbon48FilledSvg);
+export const DocumentRibbon48Regular = /** #__PURE__ */ createIcon("DocumentRibbon48Regular", "48", DocumentRibbon48RegularSvg);

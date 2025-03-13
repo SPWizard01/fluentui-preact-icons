@@ -18,22 +18,25 @@ import Flag48ColorSvg from "@fluentui/svg-icons/icons/flag_48_color.svg" with { 
 import Flag48FilledSvg from "@fluentui/svg-icons/icons/flag_48_filled.svg" with { type: "text" }
 import Flag48RegularSvg from "@fluentui/svg-icons/icons/flag_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Flag16Color = createIcon("Flag16Color", Flag16ColorSvg);
-export const Flag16Filled = createIcon("Flag16Filled", Flag16FilledSvg);
-export const Flag16Regular = createIcon("Flag16Regular", Flag16RegularSvg);
-export const Flag20Color = createIcon("Flag20Color", Flag20ColorSvg);
-export const Flag20Filled = createIcon("Flag20Filled", Flag20FilledSvg);
-export const Flag20Regular = createIcon("Flag20Regular", Flag20RegularSvg);
-export const Flag24Color = createIcon("Flag24Color", Flag24ColorSvg);
-export const Flag24Filled = createIcon("Flag24Filled", Flag24FilledSvg);
-export const Flag24Regular = createIcon("Flag24Regular", Flag24RegularSvg);
-export const Flag28Color = createIcon("Flag28Color", Flag28ColorSvg);
-export const Flag28Filled = createIcon("Flag28Filled", Flag28FilledSvg);
-export const Flag28Regular = createIcon("Flag28Regular", Flag28RegularSvg);
-export const Flag32Color = createIcon("Flag32Color", Flag32ColorSvg);
-export const Flag32Filled = createIcon("Flag32Filled", Flag32FilledSvg);
-export const Flag32Light = createIcon("Flag32Light", Flag32LightSvg);
-export const Flag32Regular = createIcon("Flag32Regular", Flag32RegularSvg);
-export const Flag48Color = createIcon("Flag48Color", Flag48ColorSvg);
-export const Flag48Filled = createIcon("Flag48Filled", Flag48FilledSvg);
-export const Flag48Regular = createIcon("Flag48Regular", Flag48RegularSvg);
+export const Flag16Color = /** #__PURE__ */ createIcon("Flag16Color", "16", Flag16ColorSvg);
+export const Flag16Filled = /** #__PURE__ */ createIcon("Flag16Filled", "16", Flag16FilledSvg);
+export const Flag16Regular = /** #__PURE__ */ createIcon("Flag16Regular", "16", Flag16RegularSvg);
+export const Flag20Color = /** #__PURE__ */ createIcon("Flag20Color", "20", Flag20ColorSvg);
+export const FlagColor = /** #__PURE__ */ createIcon("FlagColor", "1em", Flag20ColorSvg);
+export const Flag20Filled = /** #__PURE__ */ createIcon("Flag20Filled", "20", Flag20FilledSvg);
+export const FlagFilled = /** #__PURE__ */ createIcon("FlagFilled", "1em", Flag20FilledSvg);
+export const Flag20Regular = /** #__PURE__ */ createIcon("Flag20Regular", "20", Flag20RegularSvg);
+export const FlagRegular = /** #__PURE__ */ createIcon("FlagRegular", "1em", Flag20RegularSvg);
+export const Flag24Color = /** #__PURE__ */ createIcon("Flag24Color", "24", Flag24ColorSvg);
+export const Flag24Filled = /** #__PURE__ */ createIcon("Flag24Filled", "24", Flag24FilledSvg);
+export const Flag24Regular = /** #__PURE__ */ createIcon("Flag24Regular", "24", Flag24RegularSvg);
+export const Flag28Color = /** #__PURE__ */ createIcon("Flag28Color", "28", Flag28ColorSvg);
+export const Flag28Filled = /** #__PURE__ */ createIcon("Flag28Filled", "28", Flag28FilledSvg);
+export const Flag28Regular = /** #__PURE__ */ createIcon("Flag28Regular", "28", Flag28RegularSvg);
+export const Flag32Color = /** #__PURE__ */ createIcon("Flag32Color", "32", Flag32ColorSvg);
+export const Flag32Filled = /** #__PURE__ */ createIcon("Flag32Filled", "32", Flag32FilledSvg);
+export const Flag32Light = /** #__PURE__ */ createIcon("Flag32Light", "32", Flag32LightSvg);
+export const Flag32Regular = /** #__PURE__ */ createIcon("Flag32Regular", "32", Flag32RegularSvg);
+export const Flag48Color = /** #__PURE__ */ createIcon("Flag48Color", "48", Flag48ColorSvg);
+export const Flag48Filled = /** #__PURE__ */ createIcon("Flag48Filled", "48", Flag48FilledSvg);
+export const Flag48Regular = /** #__PURE__ */ createIcon("Flag48Regular", "48", Flag48RegularSvg);

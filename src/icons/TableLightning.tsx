@@ -7,11 +7,13 @@ import TableLightning24RegularSvg from "@fluentui/svg-icons/icons/table_lightnin
 import TableLightning28FilledSvg from "@fluentui/svg-icons/icons/table_lightning_28_filled.svg" with { type: "text" }
 import TableLightning28RegularSvg from "@fluentui/svg-icons/icons/table_lightning_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TableLightning16Filled = createIcon("TableLightning16Filled", TableLightning16FilledSvg);
-export const TableLightning16Regular = createIcon("TableLightning16Regular", TableLightning16RegularSvg);
-export const TableLightning20Filled = createIcon("TableLightning20Filled", TableLightning20FilledSvg);
-export const TableLightning20Regular = createIcon("TableLightning20Regular", TableLightning20RegularSvg);
-export const TableLightning24Filled = createIcon("TableLightning24Filled", TableLightning24FilledSvg);
-export const TableLightning24Regular = createIcon("TableLightning24Regular", TableLightning24RegularSvg);
-export const TableLightning28Filled = createIcon("TableLightning28Filled", TableLightning28FilledSvg);
-export const TableLightning28Regular = createIcon("TableLightning28Regular", TableLightning28RegularSvg);
+export const TableLightning16Filled = /** #__PURE__ */ createIcon("TableLightning16Filled", "16", TableLightning16FilledSvg);
+export const TableLightning16Regular = /** #__PURE__ */ createIcon("TableLightning16Regular", "16", TableLightning16RegularSvg);
+export const TableLightning20Filled = /** #__PURE__ */ createIcon("TableLightning20Filled", "20", TableLightning20FilledSvg);
+export const TableLightningFilled = /** #__PURE__ */ createIcon("TableLightningFilled", "1em", TableLightning20FilledSvg);
+export const TableLightning20Regular = /** #__PURE__ */ createIcon("TableLightning20Regular", "20", TableLightning20RegularSvg);
+export const TableLightningRegular = /** #__PURE__ */ createIcon("TableLightningRegular", "1em", TableLightning20RegularSvg);
+export const TableLightning24Filled = /** #__PURE__ */ createIcon("TableLightning24Filled", "24", TableLightning24FilledSvg);
+export const TableLightning24Regular = /** #__PURE__ */ createIcon("TableLightning24Regular", "24", TableLightning24RegularSvg);
+export const TableLightning28Filled = /** #__PURE__ */ createIcon("TableLightning28Filled", "28", TableLightning28FilledSvg);
+export const TableLightning28Regular = /** #__PURE__ */ createIcon("TableLightning28Regular", "28", TableLightning28RegularSvg);

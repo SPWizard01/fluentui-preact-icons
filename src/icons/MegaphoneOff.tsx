@@ -7,11 +7,13 @@ import MegaphoneOff24RegularSvg from "@fluentui/svg-icons/icons/megaphone_off_24
 import MegaphoneOff28FilledSvg from "@fluentui/svg-icons/icons/megaphone_off_28_filled.svg" with { type: "text" }
 import MegaphoneOff28RegularSvg from "@fluentui/svg-icons/icons/megaphone_off_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const MegaphoneOff16Filled = createIcon("MegaphoneOff16Filled", MegaphoneOff16FilledSvg);
-export const MegaphoneOff16Regular = createIcon("MegaphoneOff16Regular", MegaphoneOff16RegularSvg);
-export const MegaphoneOff20Filled = createIcon("MegaphoneOff20Filled", MegaphoneOff20FilledSvg);
-export const MegaphoneOff20Regular = createIcon("MegaphoneOff20Regular", MegaphoneOff20RegularSvg);
-export const MegaphoneOff24Filled = createIcon("MegaphoneOff24Filled", MegaphoneOff24FilledSvg);
-export const MegaphoneOff24Regular = createIcon("MegaphoneOff24Regular", MegaphoneOff24RegularSvg);
-export const MegaphoneOff28Filled = createIcon("MegaphoneOff28Filled", MegaphoneOff28FilledSvg);
-export const MegaphoneOff28Regular = createIcon("MegaphoneOff28Regular", MegaphoneOff28RegularSvg);
+export const MegaphoneOff16Filled = /** #__PURE__ */ createIcon("MegaphoneOff16Filled", "16", MegaphoneOff16FilledSvg);
+export const MegaphoneOff16Regular = /** #__PURE__ */ createIcon("MegaphoneOff16Regular", "16", MegaphoneOff16RegularSvg);
+export const MegaphoneOff20Filled = /** #__PURE__ */ createIcon("MegaphoneOff20Filled", "20", MegaphoneOff20FilledSvg);
+export const MegaphoneOffFilled = /** #__PURE__ */ createIcon("MegaphoneOffFilled", "1em", MegaphoneOff20FilledSvg);
+export const MegaphoneOff20Regular = /** #__PURE__ */ createIcon("MegaphoneOff20Regular", "20", MegaphoneOff20RegularSvg);
+export const MegaphoneOffRegular = /** #__PURE__ */ createIcon("MegaphoneOffRegular", "1em", MegaphoneOff20RegularSvg);
+export const MegaphoneOff24Filled = /** #__PURE__ */ createIcon("MegaphoneOff24Filled", "24", MegaphoneOff24FilledSvg);
+export const MegaphoneOff24Regular = /** #__PURE__ */ createIcon("MegaphoneOff24Regular", "24", MegaphoneOff24RegularSvg);
+export const MegaphoneOff28Filled = /** #__PURE__ */ createIcon("MegaphoneOff28Filled", "28", MegaphoneOff28FilledSvg);
+export const MegaphoneOff28Regular = /** #__PURE__ */ createIcon("MegaphoneOff28Regular", "28", MegaphoneOff28RegularSvg);

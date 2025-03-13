@@ -1,4 +1,4 @@
-import index from "./src/index.html";
+import index from "./showcase/index.html";
 const bunServer = Bun.serve({
     development: true,
     routes: {

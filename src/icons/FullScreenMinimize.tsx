@@ -9,13 +9,15 @@ import FullScreenMinimize28RegularSvg from "@fluentui/svg-icons/icons/full_scree
 import FullScreenMinimize32FilledSvg from "@fluentui/svg-icons/icons/full_screen_minimize_32_filled.svg" with { type: "text" }
 import FullScreenMinimize32RegularSvg from "@fluentui/svg-icons/icons/full_screen_minimize_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const FullScreenMinimize16Filled = createIcon("FullScreenMinimize16Filled", FullScreenMinimize16FilledSvg);
-export const FullScreenMinimize16Regular = createIcon("FullScreenMinimize16Regular", FullScreenMinimize16RegularSvg);
-export const FullScreenMinimize20Filled = createIcon("FullScreenMinimize20Filled", FullScreenMinimize20FilledSvg);
-export const FullScreenMinimize20Regular = createIcon("FullScreenMinimize20Regular", FullScreenMinimize20RegularSvg);
-export const FullScreenMinimize24Filled = createIcon("FullScreenMinimize24Filled", FullScreenMinimize24FilledSvg);
-export const FullScreenMinimize24Regular = createIcon("FullScreenMinimize24Regular", FullScreenMinimize24RegularSvg);
-export const FullScreenMinimize28Filled = createIcon("FullScreenMinimize28Filled", FullScreenMinimize28FilledSvg);
-export const FullScreenMinimize28Regular = createIcon("FullScreenMinimize28Regular", FullScreenMinimize28RegularSvg);
-export const FullScreenMinimize32Filled = createIcon("FullScreenMinimize32Filled", FullScreenMinimize32FilledSvg);
-export const FullScreenMinimize32Regular = createIcon("FullScreenMinimize32Regular", FullScreenMinimize32RegularSvg);
+export const FullScreenMinimize16Filled = /** #__PURE__ */ createIcon("FullScreenMinimize16Filled", "16", FullScreenMinimize16FilledSvg);
+export const FullScreenMinimize16Regular = /** #__PURE__ */ createIcon("FullScreenMinimize16Regular", "16", FullScreenMinimize16RegularSvg);
+export const FullScreenMinimize20Filled = /** #__PURE__ */ createIcon("FullScreenMinimize20Filled", "20", FullScreenMinimize20FilledSvg);
+export const FullScreenMinimizeFilled = /** #__PURE__ */ createIcon("FullScreenMinimizeFilled", "1em", FullScreenMinimize20FilledSvg);
+export const FullScreenMinimize20Regular = /** #__PURE__ */ createIcon("FullScreenMinimize20Regular", "20", FullScreenMinimize20RegularSvg);
+export const FullScreenMinimizeRegular = /** #__PURE__ */ createIcon("FullScreenMinimizeRegular", "1em", FullScreenMinimize20RegularSvg);
+export const FullScreenMinimize24Filled = /** #__PURE__ */ createIcon("FullScreenMinimize24Filled", "24", FullScreenMinimize24FilledSvg);
+export const FullScreenMinimize24Regular = /** #__PURE__ */ createIcon("FullScreenMinimize24Regular", "24", FullScreenMinimize24RegularSvg);
+export const FullScreenMinimize28Filled = /** #__PURE__ */ createIcon("FullScreenMinimize28Filled", "28", FullScreenMinimize28FilledSvg);
+export const FullScreenMinimize28Regular = /** #__PURE__ */ createIcon("FullScreenMinimize28Regular", "28", FullScreenMinimize28RegularSvg);
+export const FullScreenMinimize32Filled = /** #__PURE__ */ createIcon("FullScreenMinimize32Filled", "32", FullScreenMinimize32FilledSvg);
+export const FullScreenMinimize32Regular = /** #__PURE__ */ createIcon("FullScreenMinimize32Regular", "32", FullScreenMinimize32RegularSvg);

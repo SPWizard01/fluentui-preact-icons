@@ -11,15 +11,17 @@ import BrightnessHigh32RegularSvg from "@fluentui/svg-icons/icons/brightness_hig
 import BrightnessHigh48FilledSvg from "@fluentui/svg-icons/icons/brightness_high_48_filled.svg" with { type: "text" }
 import BrightnessHigh48RegularSvg from "@fluentui/svg-icons/icons/brightness_high_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const BrightnessHigh16Filled = createIcon("BrightnessHigh16Filled", BrightnessHigh16FilledSvg);
-export const BrightnessHigh16Regular = createIcon("BrightnessHigh16Regular", BrightnessHigh16RegularSvg);
-export const BrightnessHigh20Filled = createIcon("BrightnessHigh20Filled", BrightnessHigh20FilledSvg);
-export const BrightnessHigh20Regular = createIcon("BrightnessHigh20Regular", BrightnessHigh20RegularSvg);
-export const BrightnessHigh24Filled = createIcon("BrightnessHigh24Filled", BrightnessHigh24FilledSvg);
-export const BrightnessHigh24Regular = createIcon("BrightnessHigh24Regular", BrightnessHigh24RegularSvg);
-export const BrightnessHigh28Filled = createIcon("BrightnessHigh28Filled", BrightnessHigh28FilledSvg);
-export const BrightnessHigh28Regular = createIcon("BrightnessHigh28Regular", BrightnessHigh28RegularSvg);
-export const BrightnessHigh32Filled = createIcon("BrightnessHigh32Filled", BrightnessHigh32FilledSvg);
-export const BrightnessHigh32Regular = createIcon("BrightnessHigh32Regular", BrightnessHigh32RegularSvg);
-export const BrightnessHigh48Filled = createIcon("BrightnessHigh48Filled", BrightnessHigh48FilledSvg);
-export const BrightnessHigh48Regular = createIcon("BrightnessHigh48Regular", BrightnessHigh48RegularSvg);
+export const BrightnessHigh16Filled = /** #__PURE__ */ createIcon("BrightnessHigh16Filled", "16", BrightnessHigh16FilledSvg);
+export const BrightnessHigh16Regular = /** #__PURE__ */ createIcon("BrightnessHigh16Regular", "16", BrightnessHigh16RegularSvg);
+export const BrightnessHigh20Filled = /** #__PURE__ */ createIcon("BrightnessHigh20Filled", "20", BrightnessHigh20FilledSvg);
+export const BrightnessHighFilled = /** #__PURE__ */ createIcon("BrightnessHighFilled", "1em", BrightnessHigh20FilledSvg);
+export const BrightnessHigh20Regular = /** #__PURE__ */ createIcon("BrightnessHigh20Regular", "20", BrightnessHigh20RegularSvg);
+export const BrightnessHighRegular = /** #__PURE__ */ createIcon("BrightnessHighRegular", "1em", BrightnessHigh20RegularSvg);
+export const BrightnessHigh24Filled = /** #__PURE__ */ createIcon("BrightnessHigh24Filled", "24", BrightnessHigh24FilledSvg);
+export const BrightnessHigh24Regular = /** #__PURE__ */ createIcon("BrightnessHigh24Regular", "24", BrightnessHigh24RegularSvg);
+export const BrightnessHigh28Filled = /** #__PURE__ */ createIcon("BrightnessHigh28Filled", "28", BrightnessHigh28FilledSvg);
+export const BrightnessHigh28Regular = /** #__PURE__ */ createIcon("BrightnessHigh28Regular", "28", BrightnessHigh28RegularSvg);
+export const BrightnessHigh32Filled = /** #__PURE__ */ createIcon("BrightnessHigh32Filled", "32", BrightnessHigh32FilledSvg);
+export const BrightnessHigh32Regular = /** #__PURE__ */ createIcon("BrightnessHigh32Regular", "32", BrightnessHigh32RegularSvg);
+export const BrightnessHigh48Filled = /** #__PURE__ */ createIcon("BrightnessHigh48Filled", "48", BrightnessHigh48FilledSvg);
+export const BrightnessHigh48Regular = /** #__PURE__ */ createIcon("BrightnessHigh48Regular", "48", BrightnessHigh48RegularSvg);

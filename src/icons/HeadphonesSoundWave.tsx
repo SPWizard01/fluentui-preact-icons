@@ -9,13 +9,15 @@ import HeadphonesSoundWave32RegularSvg from "@fluentui/svg-icons/icons/headphone
 import HeadphonesSoundWave48FilledSvg from "@fluentui/svg-icons/icons/headphones_sound_wave_48_filled.svg" with { type: "text" }
 import HeadphonesSoundWave48RegularSvg from "@fluentui/svg-icons/icons/headphones_sound_wave_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const HeadphonesSoundWave20Filled = createIcon("HeadphonesSoundWave20Filled", HeadphonesSoundWave20FilledSvg);
-export const HeadphonesSoundWave20Regular = createIcon("HeadphonesSoundWave20Regular", HeadphonesSoundWave20RegularSvg);
-export const HeadphonesSoundWave24Filled = createIcon("HeadphonesSoundWave24Filled", HeadphonesSoundWave24FilledSvg);
-export const HeadphonesSoundWave24Regular = createIcon("HeadphonesSoundWave24Regular", HeadphonesSoundWave24RegularSvg);
-export const HeadphonesSoundWave28Filled = createIcon("HeadphonesSoundWave28Filled", HeadphonesSoundWave28FilledSvg);
-export const HeadphonesSoundWave28Regular = createIcon("HeadphonesSoundWave28Regular", HeadphonesSoundWave28RegularSvg);
-export const HeadphonesSoundWave32Filled = createIcon("HeadphonesSoundWave32Filled", HeadphonesSoundWave32FilledSvg);
-export const HeadphonesSoundWave32Regular = createIcon("HeadphonesSoundWave32Regular", HeadphonesSoundWave32RegularSvg);
-export const HeadphonesSoundWave48Filled = createIcon("HeadphonesSoundWave48Filled", HeadphonesSoundWave48FilledSvg);
-export const HeadphonesSoundWave48Regular = createIcon("HeadphonesSoundWave48Regular", HeadphonesSoundWave48RegularSvg);
+export const HeadphonesSoundWave20Filled = /** #__PURE__ */ createIcon("HeadphonesSoundWave20Filled", "20", HeadphonesSoundWave20FilledSvg);
+export const HeadphonesSoundWaveFilled = /** #__PURE__ */ createIcon("HeadphonesSoundWaveFilled", "1em", HeadphonesSoundWave20FilledSvg);
+export const HeadphonesSoundWave20Regular = /** #__PURE__ */ createIcon("HeadphonesSoundWave20Regular", "20", HeadphonesSoundWave20RegularSvg);
+export const HeadphonesSoundWaveRegular = /** #__PURE__ */ createIcon("HeadphonesSoundWaveRegular", "1em", HeadphonesSoundWave20RegularSvg);
+export const HeadphonesSoundWave24Filled = /** #__PURE__ */ createIcon("HeadphonesSoundWave24Filled", "24", HeadphonesSoundWave24FilledSvg);
+export const HeadphonesSoundWave24Regular = /** #__PURE__ */ createIcon("HeadphonesSoundWave24Regular", "24", HeadphonesSoundWave24RegularSvg);
+export const HeadphonesSoundWave28Filled = /** #__PURE__ */ createIcon("HeadphonesSoundWave28Filled", "28", HeadphonesSoundWave28FilledSvg);
+export const HeadphonesSoundWave28Regular = /** #__PURE__ */ createIcon("HeadphonesSoundWave28Regular", "28", HeadphonesSoundWave28RegularSvg);
+export const HeadphonesSoundWave32Filled = /** #__PURE__ */ createIcon("HeadphonesSoundWave32Filled", "32", HeadphonesSoundWave32FilledSvg);
+export const HeadphonesSoundWave32Regular = /** #__PURE__ */ createIcon("HeadphonesSoundWave32Regular", "32", HeadphonesSoundWave32RegularSvg);
+export const HeadphonesSoundWave48Filled = /** #__PURE__ */ createIcon("HeadphonesSoundWave48Filled", "48", HeadphonesSoundWave48FilledSvg);
+export const HeadphonesSoundWave48Regular = /** #__PURE__ */ createIcon("HeadphonesSoundWave48Regular", "48", HeadphonesSoundWave48RegularSvg);

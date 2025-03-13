@@ -17,21 +17,24 @@ import DataTrending48ColorSvg from "@fluentui/svg-icons/icons/data_trending_48_c
 import DataTrending48FilledSvg from "@fluentui/svg-icons/icons/data_trending_48_filled.svg" with { type: "text" }
 import DataTrending48RegularSvg from "@fluentui/svg-icons/icons/data_trending_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const DataTrending16Color = createIcon("DataTrending16Color", DataTrending16ColorSvg);
-export const DataTrending16Filled = createIcon("DataTrending16Filled", DataTrending16FilledSvg);
-export const DataTrending16Regular = createIcon("DataTrending16Regular", DataTrending16RegularSvg);
-export const DataTrending20Color = createIcon("DataTrending20Color", DataTrending20ColorSvg);
-export const DataTrending20Filled = createIcon("DataTrending20Filled", DataTrending20FilledSvg);
-export const DataTrending20Regular = createIcon("DataTrending20Regular", DataTrending20RegularSvg);
-export const DataTrending24Color = createIcon("DataTrending24Color", DataTrending24ColorSvg);
-export const DataTrending24Filled = createIcon("DataTrending24Filled", DataTrending24FilledSvg);
-export const DataTrending24Regular = createIcon("DataTrending24Regular", DataTrending24RegularSvg);
-export const DataTrending28Color = createIcon("DataTrending28Color", DataTrending28ColorSvg);
-export const DataTrending28Filled = createIcon("DataTrending28Filled", DataTrending28FilledSvg);
-export const DataTrending28Regular = createIcon("DataTrending28Regular", DataTrending28RegularSvg);
-export const DataTrending32Color = createIcon("DataTrending32Color", DataTrending32ColorSvg);
-export const DataTrending32Filled = createIcon("DataTrending32Filled", DataTrending32FilledSvg);
-export const DataTrending32Regular = createIcon("DataTrending32Regular", DataTrending32RegularSvg);
-export const DataTrending48Color = createIcon("DataTrending48Color", DataTrending48ColorSvg);
-export const DataTrending48Filled = createIcon("DataTrending48Filled", DataTrending48FilledSvg);
-export const DataTrending48Regular = createIcon("DataTrending48Regular", DataTrending48RegularSvg);
+export const DataTrending16Color = /** #__PURE__ */ createIcon("DataTrending16Color", "16", DataTrending16ColorSvg);
+export const DataTrending16Filled = /** #__PURE__ */ createIcon("DataTrending16Filled", "16", DataTrending16FilledSvg);
+export const DataTrending16Regular = /** #__PURE__ */ createIcon("DataTrending16Regular", "16", DataTrending16RegularSvg);
+export const DataTrending20Color = /** #__PURE__ */ createIcon("DataTrending20Color", "20", DataTrending20ColorSvg);
+export const DataTrendingColor = /** #__PURE__ */ createIcon("DataTrendingColor", "1em", DataTrending20ColorSvg);
+export const DataTrending20Filled = /** #__PURE__ */ createIcon("DataTrending20Filled", "20", DataTrending20FilledSvg);
+export const DataTrendingFilled = /** #__PURE__ */ createIcon("DataTrendingFilled", "1em", DataTrending20FilledSvg);
+export const DataTrending20Regular = /** #__PURE__ */ createIcon("DataTrending20Regular", "20", DataTrending20RegularSvg);
+export const DataTrendingRegular = /** #__PURE__ */ createIcon("DataTrendingRegular", "1em", DataTrending20RegularSvg);
+export const DataTrending24Color = /** #__PURE__ */ createIcon("DataTrending24Color", "24", DataTrending24ColorSvg);
+export const DataTrending24Filled = /** #__PURE__ */ createIcon("DataTrending24Filled", "24", DataTrending24FilledSvg);
+export const DataTrending24Regular = /** #__PURE__ */ createIcon("DataTrending24Regular", "24", DataTrending24RegularSvg);
+export const DataTrending28Color = /** #__PURE__ */ createIcon("DataTrending28Color", "28", DataTrending28ColorSvg);
+export const DataTrending28Filled = /** #__PURE__ */ createIcon("DataTrending28Filled", "28", DataTrending28FilledSvg);
+export const DataTrending28Regular = /** #__PURE__ */ createIcon("DataTrending28Regular", "28", DataTrending28RegularSvg);
+export const DataTrending32Color = /** #__PURE__ */ createIcon("DataTrending32Color", "32", DataTrending32ColorSvg);
+export const DataTrending32Filled = /** #__PURE__ */ createIcon("DataTrending32Filled", "32", DataTrending32FilledSvg);
+export const DataTrending32Regular = /** #__PURE__ */ createIcon("DataTrending32Regular", "32", DataTrending32RegularSvg);
+export const DataTrending48Color = /** #__PURE__ */ createIcon("DataTrending48Color", "48", DataTrending48ColorSvg);
+export const DataTrending48Filled = /** #__PURE__ */ createIcon("DataTrending48Filled", "48", DataTrending48FilledSvg);
+export const DataTrending48Regular = /** #__PURE__ */ createIcon("DataTrending48Regular", "48", DataTrending48RegularSvg);

@@ -11,15 +11,17 @@ import LightbulbPerson32RegularSvg from "@fluentui/svg-icons/icons/lightbulb_per
 import LightbulbPerson48FilledSvg from "@fluentui/svg-icons/icons/lightbulb_person_48_filled.svg" with { type: "text" }
 import LightbulbPerson48RegularSvg from "@fluentui/svg-icons/icons/lightbulb_person_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const LightbulbPerson16Filled = createIcon("LightbulbPerson16Filled", LightbulbPerson16FilledSvg);
-export const LightbulbPerson16Regular = createIcon("LightbulbPerson16Regular", LightbulbPerson16RegularSvg);
-export const LightbulbPerson20Filled = createIcon("LightbulbPerson20Filled", LightbulbPerson20FilledSvg);
-export const LightbulbPerson20Regular = createIcon("LightbulbPerson20Regular", LightbulbPerson20RegularSvg);
-export const LightbulbPerson24Filled = createIcon("LightbulbPerson24Filled", LightbulbPerson24FilledSvg);
-export const LightbulbPerson24Regular = createIcon("LightbulbPerson24Regular", LightbulbPerson24RegularSvg);
-export const LightbulbPerson28Filled = createIcon("LightbulbPerson28Filled", LightbulbPerson28FilledSvg);
-export const LightbulbPerson28Regular = createIcon("LightbulbPerson28Regular", LightbulbPerson28RegularSvg);
-export const LightbulbPerson32Filled = createIcon("LightbulbPerson32Filled", LightbulbPerson32FilledSvg);
-export const LightbulbPerson32Regular = createIcon("LightbulbPerson32Regular", LightbulbPerson32RegularSvg);
-export const LightbulbPerson48Filled = createIcon("LightbulbPerson48Filled", LightbulbPerson48FilledSvg);
-export const LightbulbPerson48Regular = createIcon("LightbulbPerson48Regular", LightbulbPerson48RegularSvg);
+export const LightbulbPerson16Filled = /** #__PURE__ */ createIcon("LightbulbPerson16Filled", "16", LightbulbPerson16FilledSvg);
+export const LightbulbPerson16Regular = /** #__PURE__ */ createIcon("LightbulbPerson16Regular", "16", LightbulbPerson16RegularSvg);
+export const LightbulbPerson20Filled = /** #__PURE__ */ createIcon("LightbulbPerson20Filled", "20", LightbulbPerson20FilledSvg);
+export const LightbulbPersonFilled = /** #__PURE__ */ createIcon("LightbulbPersonFilled", "1em", LightbulbPerson20FilledSvg);
+export const LightbulbPerson20Regular = /** #__PURE__ */ createIcon("LightbulbPerson20Regular", "20", LightbulbPerson20RegularSvg);
+export const LightbulbPersonRegular = /** #__PURE__ */ createIcon("LightbulbPersonRegular", "1em", LightbulbPerson20RegularSvg);
+export const LightbulbPerson24Filled = /** #__PURE__ */ createIcon("LightbulbPerson24Filled", "24", LightbulbPerson24FilledSvg);
+export const LightbulbPerson24Regular = /** #__PURE__ */ createIcon("LightbulbPerson24Regular", "24", LightbulbPerson24RegularSvg);
+export const LightbulbPerson28Filled = /** #__PURE__ */ createIcon("LightbulbPerson28Filled", "28", LightbulbPerson28FilledSvg);
+export const LightbulbPerson28Regular = /** #__PURE__ */ createIcon("LightbulbPerson28Regular", "28", LightbulbPerson28RegularSvg);
+export const LightbulbPerson32Filled = /** #__PURE__ */ createIcon("LightbulbPerson32Filled", "32", LightbulbPerson32FilledSvg);
+export const LightbulbPerson32Regular = /** #__PURE__ */ createIcon("LightbulbPerson32Regular", "32", LightbulbPerson32RegularSvg);
+export const LightbulbPerson48Filled = /** #__PURE__ */ createIcon("LightbulbPerson48Filled", "48", LightbulbPerson48FilledSvg);
+export const LightbulbPerson48Regular = /** #__PURE__ */ createIcon("LightbulbPerson48Regular", "48", LightbulbPerson48RegularSvg);

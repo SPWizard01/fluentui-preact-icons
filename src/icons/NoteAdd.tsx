@@ -9,13 +9,15 @@ import NoteAdd28RegularSvg from "@fluentui/svg-icons/icons/note_add_28_regular.s
 import NoteAdd48FilledSvg from "@fluentui/svg-icons/icons/note_add_48_filled.svg" with { type: "text" }
 import NoteAdd48RegularSvg from "@fluentui/svg-icons/icons/note_add_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const NoteAdd16Filled = createIcon("NoteAdd16Filled", NoteAdd16FilledSvg);
-export const NoteAdd16Regular = createIcon("NoteAdd16Regular", NoteAdd16RegularSvg);
-export const NoteAdd20Filled = createIcon("NoteAdd20Filled", NoteAdd20FilledSvg);
-export const NoteAdd20Regular = createIcon("NoteAdd20Regular", NoteAdd20RegularSvg);
-export const NoteAdd24Filled = createIcon("NoteAdd24Filled", NoteAdd24FilledSvg);
-export const NoteAdd24Regular = createIcon("NoteAdd24Regular", NoteAdd24RegularSvg);
-export const NoteAdd28Filled = createIcon("NoteAdd28Filled", NoteAdd28FilledSvg);
-export const NoteAdd28Regular = createIcon("NoteAdd28Regular", NoteAdd28RegularSvg);
-export const NoteAdd48Filled = createIcon("NoteAdd48Filled", NoteAdd48FilledSvg);
-export const NoteAdd48Regular = createIcon("NoteAdd48Regular", NoteAdd48RegularSvg);
+export const NoteAdd16Filled = /** #__PURE__ */ createIcon("NoteAdd16Filled", "16", NoteAdd16FilledSvg);
+export const NoteAdd16Regular = /** #__PURE__ */ createIcon("NoteAdd16Regular", "16", NoteAdd16RegularSvg);
+export const NoteAdd20Filled = /** #__PURE__ */ createIcon("NoteAdd20Filled", "20", NoteAdd20FilledSvg);
+export const NoteAddFilled = /** #__PURE__ */ createIcon("NoteAddFilled", "1em", NoteAdd20FilledSvg);
+export const NoteAdd20Regular = /** #__PURE__ */ createIcon("NoteAdd20Regular", "20", NoteAdd20RegularSvg);
+export const NoteAddRegular = /** #__PURE__ */ createIcon("NoteAddRegular", "1em", NoteAdd20RegularSvg);
+export const NoteAdd24Filled = /** #__PURE__ */ createIcon("NoteAdd24Filled", "24", NoteAdd24FilledSvg);
+export const NoteAdd24Regular = /** #__PURE__ */ createIcon("NoteAdd24Regular", "24", NoteAdd24RegularSvg);
+export const NoteAdd28Filled = /** #__PURE__ */ createIcon("NoteAdd28Filled", "28", NoteAdd28FilledSvg);
+export const NoteAdd28Regular = /** #__PURE__ */ createIcon("NoteAdd28Regular", "28", NoteAdd28RegularSvg);
+export const NoteAdd48Filled = /** #__PURE__ */ createIcon("NoteAdd48Filled", "48", NoteAdd48FilledSvg);
+export const NoteAdd48Regular = /** #__PURE__ */ createIcon("NoteAdd48Regular", "48", NoteAdd48RegularSvg);

@@ -5,9 +5,11 @@ import LinkEdit20RegularSvg from "@fluentui/svg-icons/icons/link_edit_20_regular
 import LinkEdit24FilledSvg from "@fluentui/svg-icons/icons/link_edit_24_filled.svg" with { type: "text" }
 import LinkEdit24RegularSvg from "@fluentui/svg-icons/icons/link_edit_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const LinkEdit16Filled = createIcon("LinkEdit16Filled", LinkEdit16FilledSvg);
-export const LinkEdit16Regular = createIcon("LinkEdit16Regular", LinkEdit16RegularSvg);
-export const LinkEdit20Filled = createIcon("LinkEdit20Filled", LinkEdit20FilledSvg);
-export const LinkEdit20Regular = createIcon("LinkEdit20Regular", LinkEdit20RegularSvg);
-export const LinkEdit24Filled = createIcon("LinkEdit24Filled", LinkEdit24FilledSvg);
-export const LinkEdit24Regular = createIcon("LinkEdit24Regular", LinkEdit24RegularSvg);
+export const LinkEdit16Filled = /** #__PURE__ */ createIcon("LinkEdit16Filled", "16", LinkEdit16FilledSvg);
+export const LinkEdit16Regular = /** #__PURE__ */ createIcon("LinkEdit16Regular", "16", LinkEdit16RegularSvg);
+export const LinkEdit20Filled = /** #__PURE__ */ createIcon("LinkEdit20Filled", "20", LinkEdit20FilledSvg);
+export const LinkEditFilled = /** #__PURE__ */ createIcon("LinkEditFilled", "1em", LinkEdit20FilledSvg);
+export const LinkEdit20Regular = /** #__PURE__ */ createIcon("LinkEdit20Regular", "20", LinkEdit20RegularSvg);
+export const LinkEditRegular = /** #__PURE__ */ createIcon("LinkEditRegular", "1em", LinkEdit20RegularSvg);
+export const LinkEdit24Filled = /** #__PURE__ */ createIcon("LinkEdit24Filled", "24", LinkEdit24FilledSvg);
+export const LinkEdit24Regular = /** #__PURE__ */ createIcon("LinkEdit24Regular", "24", LinkEdit24RegularSvg);

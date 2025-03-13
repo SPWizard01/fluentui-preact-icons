@@ -9,13 +9,15 @@ import BookOpenMicrophone32RegularSvg from "@fluentui/svg-icons/icons/book_open_
 import BookOpenMicrophone48FilledSvg from "@fluentui/svg-icons/icons/book_open_microphone_48_filled.svg" with { type: "text" }
 import BookOpenMicrophone48RegularSvg from "@fluentui/svg-icons/icons/book_open_microphone_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const BookOpenMicrophone20Filled = createIcon("BookOpenMicrophone20Filled", BookOpenMicrophone20FilledSvg);
-export const BookOpenMicrophone20Regular = createIcon("BookOpenMicrophone20Regular", BookOpenMicrophone20RegularSvg);
-export const BookOpenMicrophone24Filled = createIcon("BookOpenMicrophone24Filled", BookOpenMicrophone24FilledSvg);
-export const BookOpenMicrophone24Regular = createIcon("BookOpenMicrophone24Regular", BookOpenMicrophone24RegularSvg);
-export const BookOpenMicrophone28Filled = createIcon("BookOpenMicrophone28Filled", BookOpenMicrophone28FilledSvg);
-export const BookOpenMicrophone28Regular = createIcon("BookOpenMicrophone28Regular", BookOpenMicrophone28RegularSvg);
-export const BookOpenMicrophone32Filled = createIcon("BookOpenMicrophone32Filled", BookOpenMicrophone32FilledSvg);
-export const BookOpenMicrophone32Regular = createIcon("BookOpenMicrophone32Regular", BookOpenMicrophone32RegularSvg);
-export const BookOpenMicrophone48Filled = createIcon("BookOpenMicrophone48Filled", BookOpenMicrophone48FilledSvg);
-export const BookOpenMicrophone48Regular = createIcon("BookOpenMicrophone48Regular", BookOpenMicrophone48RegularSvg);
+export const BookOpenMicrophone20Filled = /** #__PURE__ */ createIcon("BookOpenMicrophone20Filled", "20", BookOpenMicrophone20FilledSvg);
+export const BookOpenMicrophoneFilled = /** #__PURE__ */ createIcon("BookOpenMicrophoneFilled", "1em", BookOpenMicrophone20FilledSvg);
+export const BookOpenMicrophone20Regular = /** #__PURE__ */ createIcon("BookOpenMicrophone20Regular", "20", BookOpenMicrophone20RegularSvg);
+export const BookOpenMicrophoneRegular = /** #__PURE__ */ createIcon("BookOpenMicrophoneRegular", "1em", BookOpenMicrophone20RegularSvg);
+export const BookOpenMicrophone24Filled = /** #__PURE__ */ createIcon("BookOpenMicrophone24Filled", "24", BookOpenMicrophone24FilledSvg);
+export const BookOpenMicrophone24Regular = /** #__PURE__ */ createIcon("BookOpenMicrophone24Regular", "24", BookOpenMicrophone24RegularSvg);
+export const BookOpenMicrophone28Filled = /** #__PURE__ */ createIcon("BookOpenMicrophone28Filled", "28", BookOpenMicrophone28FilledSvg);
+export const BookOpenMicrophone28Regular = /** #__PURE__ */ createIcon("BookOpenMicrophone28Regular", "28", BookOpenMicrophone28RegularSvg);
+export const BookOpenMicrophone32Filled = /** #__PURE__ */ createIcon("BookOpenMicrophone32Filled", "32", BookOpenMicrophone32FilledSvg);
+export const BookOpenMicrophone32Regular = /** #__PURE__ */ createIcon("BookOpenMicrophone32Regular", "32", BookOpenMicrophone32RegularSvg);
+export const BookOpenMicrophone48Filled = /** #__PURE__ */ createIcon("BookOpenMicrophone48Filled", "48", BookOpenMicrophone48FilledSvg);
+export const BookOpenMicrophone48Regular = /** #__PURE__ */ createIcon("BookOpenMicrophone48Regular", "48", BookOpenMicrophone48RegularSvg);

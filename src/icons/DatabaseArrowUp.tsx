@@ -3,7 +3,9 @@ import DatabaseArrowUp16RegularSvg from "@fluentui/svg-icons/icons/database_arro
 import DatabaseArrowUp20FilledSvg from "@fluentui/svg-icons/icons/database_arrow_up_20_filled.svg" with { type: "text" }
 import DatabaseArrowUp20RegularSvg from "@fluentui/svg-icons/icons/database_arrow_up_20_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const DatabaseArrowUp16Filled = createIcon("DatabaseArrowUp16Filled", DatabaseArrowUp16FilledSvg);
-export const DatabaseArrowUp16Regular = createIcon("DatabaseArrowUp16Regular", DatabaseArrowUp16RegularSvg);
-export const DatabaseArrowUp20Filled = createIcon("DatabaseArrowUp20Filled", DatabaseArrowUp20FilledSvg);
-export const DatabaseArrowUp20Regular = createIcon("DatabaseArrowUp20Regular", DatabaseArrowUp20RegularSvg);
+export const DatabaseArrowUp16Filled = /** #__PURE__ */ createIcon("DatabaseArrowUp16Filled", "16", DatabaseArrowUp16FilledSvg);
+export const DatabaseArrowUp16Regular = /** #__PURE__ */ createIcon("DatabaseArrowUp16Regular", "16", DatabaseArrowUp16RegularSvg);
+export const DatabaseArrowUp20Filled = /** #__PURE__ */ createIcon("DatabaseArrowUp20Filled", "20", DatabaseArrowUp20FilledSvg);
+export const DatabaseArrowUpFilled = /** #__PURE__ */ createIcon("DatabaseArrowUpFilled", "1em", DatabaseArrowUp20FilledSvg);
+export const DatabaseArrowUp20Regular = /** #__PURE__ */ createIcon("DatabaseArrowUp20Regular", "20", DatabaseArrowUp20RegularSvg);
+export const DatabaseArrowUpRegular = /** #__PURE__ */ createIcon("DatabaseArrowUpRegular", "1em", DatabaseArrowUp20RegularSvg);

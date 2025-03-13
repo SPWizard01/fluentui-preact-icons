@@ -7,11 +7,13 @@ import ArrowBidirectionalUpDown20RegularSvg from "@fluentui/svg-icons/icons/arro
 import ArrowBidirectionalUpDown24FilledSvg from "@fluentui/svg-icons/icons/arrow_bidirectional_up_down_24_filled.svg" with { type: "text" }
 import ArrowBidirectionalUpDown24RegularSvg from "@fluentui/svg-icons/icons/arrow_bidirectional_up_down_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ArrowBidirectionalUpDown12Filled = createIcon("ArrowBidirectionalUpDown12Filled", ArrowBidirectionalUpDown12FilledSvg);
-export const ArrowBidirectionalUpDown12Regular = createIcon("ArrowBidirectionalUpDown12Regular", ArrowBidirectionalUpDown12RegularSvg);
-export const ArrowBidirectionalUpDown16Filled = createIcon("ArrowBidirectionalUpDown16Filled", ArrowBidirectionalUpDown16FilledSvg);
-export const ArrowBidirectionalUpDown16Regular = createIcon("ArrowBidirectionalUpDown16Regular", ArrowBidirectionalUpDown16RegularSvg);
-export const ArrowBidirectionalUpDown20Filled = createIcon("ArrowBidirectionalUpDown20Filled", ArrowBidirectionalUpDown20FilledSvg);
-export const ArrowBidirectionalUpDown20Regular = createIcon("ArrowBidirectionalUpDown20Regular", ArrowBidirectionalUpDown20RegularSvg);
-export const ArrowBidirectionalUpDown24Filled = createIcon("ArrowBidirectionalUpDown24Filled", ArrowBidirectionalUpDown24FilledSvg);
-export const ArrowBidirectionalUpDown24Regular = createIcon("ArrowBidirectionalUpDown24Regular", ArrowBidirectionalUpDown24RegularSvg);
+export const ArrowBidirectionalUpDown12Filled = /** #__PURE__ */ createIcon("ArrowBidirectionalUpDown12Filled", "12", ArrowBidirectionalUpDown12FilledSvg);
+export const ArrowBidirectionalUpDown12Regular = /** #__PURE__ */ createIcon("ArrowBidirectionalUpDown12Regular", "12", ArrowBidirectionalUpDown12RegularSvg);
+export const ArrowBidirectionalUpDown16Filled = /** #__PURE__ */ createIcon("ArrowBidirectionalUpDown16Filled", "16", ArrowBidirectionalUpDown16FilledSvg);
+export const ArrowBidirectionalUpDown16Regular = /** #__PURE__ */ createIcon("ArrowBidirectionalUpDown16Regular", "16", ArrowBidirectionalUpDown16RegularSvg);
+export const ArrowBidirectionalUpDown20Filled = /** #__PURE__ */ createIcon("ArrowBidirectionalUpDown20Filled", "20", ArrowBidirectionalUpDown20FilledSvg);
+export const ArrowBidirectionalUpDownFilled = /** #__PURE__ */ createIcon("ArrowBidirectionalUpDownFilled", "1em", ArrowBidirectionalUpDown20FilledSvg);
+export const ArrowBidirectionalUpDown20Regular = /** #__PURE__ */ createIcon("ArrowBidirectionalUpDown20Regular", "20", ArrowBidirectionalUpDown20RegularSvg);
+export const ArrowBidirectionalUpDownRegular = /** #__PURE__ */ createIcon("ArrowBidirectionalUpDownRegular", "1em", ArrowBidirectionalUpDown20RegularSvg);
+export const ArrowBidirectionalUpDown24Filled = /** #__PURE__ */ createIcon("ArrowBidirectionalUpDown24Filled", "24", ArrowBidirectionalUpDown24FilledSvg);
+export const ArrowBidirectionalUpDown24Regular = /** #__PURE__ */ createIcon("ArrowBidirectionalUpDown24Regular", "24", ArrowBidirectionalUpDown24RegularSvg);

@@ -5,9 +5,11 @@ import RadioButton20RegularSvg from "@fluentui/svg-icons/icons/radio_button_20_r
 import RadioButton24FilledSvg from "@fluentui/svg-icons/icons/radio_button_24_filled.svg" with { type: "text" }
 import RadioButton24RegularSvg from "@fluentui/svg-icons/icons/radio_button_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const RadioButton16Filled = createIcon("RadioButton16Filled", RadioButton16FilledSvg);
-export const RadioButton16Regular = createIcon("RadioButton16Regular", RadioButton16RegularSvg);
-export const RadioButton20Filled = createIcon("RadioButton20Filled", RadioButton20FilledSvg);
-export const RadioButton20Regular = createIcon("RadioButton20Regular", RadioButton20RegularSvg);
-export const RadioButton24Filled = createIcon("RadioButton24Filled", RadioButton24FilledSvg);
-export const RadioButton24Regular = createIcon("RadioButton24Regular", RadioButton24RegularSvg);
+export const RadioButton16Filled = /** #__PURE__ */ createIcon("RadioButton16Filled", "16", RadioButton16FilledSvg);
+export const RadioButton16Regular = /** #__PURE__ */ createIcon("RadioButton16Regular", "16", RadioButton16RegularSvg);
+export const RadioButton20Filled = /** #__PURE__ */ createIcon("RadioButton20Filled", "20", RadioButton20FilledSvg);
+export const RadioButtonFilled = /** #__PURE__ */ createIcon("RadioButtonFilled", "1em", RadioButton20FilledSvg);
+export const RadioButton20Regular = /** #__PURE__ */ createIcon("RadioButton20Regular", "20", RadioButton20RegularSvg);
+export const RadioButtonRegular = /** #__PURE__ */ createIcon("RadioButtonRegular", "1em", RadioButton20RegularSvg);
+export const RadioButton24Filled = /** #__PURE__ */ createIcon("RadioButton24Filled", "24", RadioButton24FilledSvg);
+export const RadioButton24Regular = /** #__PURE__ */ createIcon("RadioButton24Regular", "24", RadioButton24RegularSvg);

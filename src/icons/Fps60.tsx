@@ -9,13 +9,15 @@ import Fps6028RegularSvg from "@fluentui/svg-icons/icons/fps_60_28_regular.svg" 
 import Fps6048FilledSvg from "@fluentui/svg-icons/icons/fps_60_48_filled.svg" with { type: "text" }
 import Fps6048RegularSvg from "@fluentui/svg-icons/icons/fps_60_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Fps6016Filled = createIcon("Fps6016Filled", Fps6016FilledSvg);
-export const Fps6016Regular = createIcon("Fps6016Regular", Fps6016RegularSvg);
-export const Fps6020Filled = createIcon("Fps6020Filled", Fps6020FilledSvg);
-export const Fps6020Regular = createIcon("Fps6020Regular", Fps6020RegularSvg);
-export const Fps6024Filled = createIcon("Fps6024Filled", Fps6024FilledSvg);
-export const Fps6024Regular = createIcon("Fps6024Regular", Fps6024RegularSvg);
-export const Fps6028Filled = createIcon("Fps6028Filled", Fps6028FilledSvg);
-export const Fps6028Regular = createIcon("Fps6028Regular", Fps6028RegularSvg);
-export const Fps6048Filled = createIcon("Fps6048Filled", Fps6048FilledSvg);
-export const Fps6048Regular = createIcon("Fps6048Regular", Fps6048RegularSvg);
+export const Fps6016Filled = /** #__PURE__ */ createIcon("Fps6016Filled", "16", Fps6016FilledSvg);
+export const Fps6016Regular = /** #__PURE__ */ createIcon("Fps6016Regular", "16", Fps6016RegularSvg);
+export const Fps6020Filled = /** #__PURE__ */ createIcon("Fps6020Filled", "20", Fps6020FilledSvg);
+export const Fps60Filled = /** #__PURE__ */ createIcon("Fps60Filled", "1em", Fps6020FilledSvg);
+export const Fps6020Regular = /** #__PURE__ */ createIcon("Fps6020Regular", "20", Fps6020RegularSvg);
+export const Fps60Regular = /** #__PURE__ */ createIcon("Fps60Regular", "1em", Fps6020RegularSvg);
+export const Fps6024Filled = /** #__PURE__ */ createIcon("Fps6024Filled", "24", Fps6024FilledSvg);
+export const Fps6024Regular = /** #__PURE__ */ createIcon("Fps6024Regular", "24", Fps6024RegularSvg);
+export const Fps6028Filled = /** #__PURE__ */ createIcon("Fps6028Filled", "28", Fps6028FilledSvg);
+export const Fps6028Regular = /** #__PURE__ */ createIcon("Fps6028Regular", "28", Fps6028RegularSvg);
+export const Fps6048Filled = /** #__PURE__ */ createIcon("Fps6048Filled", "48", Fps6048FilledSvg);
+export const Fps6048Regular = /** #__PURE__ */ createIcon("Fps6048Regular", "48", Fps6048RegularSvg);

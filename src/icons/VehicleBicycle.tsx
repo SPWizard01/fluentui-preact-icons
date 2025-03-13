@@ -5,9 +5,11 @@ import VehicleBicycle20RegularSvg from "@fluentui/svg-icons/icons/vehicle_bicycl
 import VehicleBicycle24FilledSvg from "@fluentui/svg-icons/icons/vehicle_bicycle_24_filled.svg" with { type: "text" }
 import VehicleBicycle24RegularSvg from "@fluentui/svg-icons/icons/vehicle_bicycle_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const VehicleBicycle16Filled = createIcon("VehicleBicycle16Filled", VehicleBicycle16FilledSvg);
-export const VehicleBicycle16Regular = createIcon("VehicleBicycle16Regular", VehicleBicycle16RegularSvg);
-export const VehicleBicycle20Filled = createIcon("VehicleBicycle20Filled", VehicleBicycle20FilledSvg);
-export const VehicleBicycle20Regular = createIcon("VehicleBicycle20Regular", VehicleBicycle20RegularSvg);
-export const VehicleBicycle24Filled = createIcon("VehicleBicycle24Filled", VehicleBicycle24FilledSvg);
-export const VehicleBicycle24Regular = createIcon("VehicleBicycle24Regular", VehicleBicycle24RegularSvg);
+export const VehicleBicycle16Filled = /** #__PURE__ */ createIcon("VehicleBicycle16Filled", "16", VehicleBicycle16FilledSvg);
+export const VehicleBicycle16Regular = /** #__PURE__ */ createIcon("VehicleBicycle16Regular", "16", VehicleBicycle16RegularSvg);
+export const VehicleBicycle20Filled = /** #__PURE__ */ createIcon("VehicleBicycle20Filled", "20", VehicleBicycle20FilledSvg);
+export const VehicleBicycleFilled = /** #__PURE__ */ createIcon("VehicleBicycleFilled", "1em", VehicleBicycle20FilledSvg);
+export const VehicleBicycle20Regular = /** #__PURE__ */ createIcon("VehicleBicycle20Regular", "20", VehicleBicycle20RegularSvg);
+export const VehicleBicycleRegular = /** #__PURE__ */ createIcon("VehicleBicycleRegular", "1em", VehicleBicycle20RegularSvg);
+export const VehicleBicycle24Filled = /** #__PURE__ */ createIcon("VehicleBicycle24Filled", "24", VehicleBicycle24FilledSvg);
+export const VehicleBicycle24Regular = /** #__PURE__ */ createIcon("VehicleBicycle24Regular", "24", VehicleBicycle24RegularSvg);

@@ -8,12 +8,14 @@ import ClipboardPaste32FilledSvg from "@fluentui/svg-icons/icons/clipboard_paste
 import ClipboardPaste32LightSvg from "@fluentui/svg-icons/icons/clipboard_paste_32_light.svg" with { type: "text" }
 import ClipboardPaste32RegularSvg from "@fluentui/svg-icons/icons/clipboard_paste_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ClipboardPaste16Filled = createIcon("ClipboardPaste16Filled", ClipboardPaste16FilledSvg);
-export const ClipboardPaste16Regular = createIcon("ClipboardPaste16Regular", ClipboardPaste16RegularSvg);
-export const ClipboardPaste20Filled = createIcon("ClipboardPaste20Filled", ClipboardPaste20FilledSvg);
-export const ClipboardPaste20Regular = createIcon("ClipboardPaste20Regular", ClipboardPaste20RegularSvg);
-export const ClipboardPaste24Filled = createIcon("ClipboardPaste24Filled", ClipboardPaste24FilledSvg);
-export const ClipboardPaste24Regular = createIcon("ClipboardPaste24Regular", ClipboardPaste24RegularSvg);
-export const ClipboardPaste32Filled = createIcon("ClipboardPaste32Filled", ClipboardPaste32FilledSvg);
-export const ClipboardPaste32Light = createIcon("ClipboardPaste32Light", ClipboardPaste32LightSvg);
-export const ClipboardPaste32Regular = createIcon("ClipboardPaste32Regular", ClipboardPaste32RegularSvg);
+export const ClipboardPaste16Filled = /** #__PURE__ */ createIcon("ClipboardPaste16Filled", "16", ClipboardPaste16FilledSvg);
+export const ClipboardPaste16Regular = /** #__PURE__ */ createIcon("ClipboardPaste16Regular", "16", ClipboardPaste16RegularSvg);
+export const ClipboardPaste20Filled = /** #__PURE__ */ createIcon("ClipboardPaste20Filled", "20", ClipboardPaste20FilledSvg);
+export const ClipboardPasteFilled = /** #__PURE__ */ createIcon("ClipboardPasteFilled", "1em", ClipboardPaste20FilledSvg);
+export const ClipboardPaste20Regular = /** #__PURE__ */ createIcon("ClipboardPaste20Regular", "20", ClipboardPaste20RegularSvg);
+export const ClipboardPasteRegular = /** #__PURE__ */ createIcon("ClipboardPasteRegular", "1em", ClipboardPaste20RegularSvg);
+export const ClipboardPaste24Filled = /** #__PURE__ */ createIcon("ClipboardPaste24Filled", "24", ClipboardPaste24FilledSvg);
+export const ClipboardPaste24Regular = /** #__PURE__ */ createIcon("ClipboardPaste24Regular", "24", ClipboardPaste24RegularSvg);
+export const ClipboardPaste32Filled = /** #__PURE__ */ createIcon("ClipboardPaste32Filled", "32", ClipboardPaste32FilledSvg);
+export const ClipboardPaste32Light = /** #__PURE__ */ createIcon("ClipboardPaste32Light", "32", ClipboardPaste32LightSvg);
+export const ClipboardPaste32Regular = /** #__PURE__ */ createIcon("ClipboardPaste32Regular", "32", ClipboardPaste32RegularSvg);

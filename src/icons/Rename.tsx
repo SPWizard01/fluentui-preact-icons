@@ -7,11 +7,13 @@ import Rename24RegularSvg from "@fluentui/svg-icons/icons/rename_24_regular.svg"
 import Rename28FilledSvg from "@fluentui/svg-icons/icons/rename_28_filled.svg" with { type: "text" }
 import Rename28RegularSvg from "@fluentui/svg-icons/icons/rename_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Rename16Filled = createIcon("Rename16Filled", Rename16FilledSvg);
-export const Rename16Regular = createIcon("Rename16Regular", Rename16RegularSvg);
-export const Rename20Filled = createIcon("Rename20Filled", Rename20FilledSvg);
-export const Rename20Regular = createIcon("Rename20Regular", Rename20RegularSvg);
-export const Rename24Filled = createIcon("Rename24Filled", Rename24FilledSvg);
-export const Rename24Regular = createIcon("Rename24Regular", Rename24RegularSvg);
-export const Rename28Filled = createIcon("Rename28Filled", Rename28FilledSvg);
-export const Rename28Regular = createIcon("Rename28Regular", Rename28RegularSvg);
+export const Rename16Filled = /** #__PURE__ */ createIcon("Rename16Filled", "16", Rename16FilledSvg);
+export const Rename16Regular = /** #__PURE__ */ createIcon("Rename16Regular", "16", Rename16RegularSvg);
+export const Rename20Filled = /** #__PURE__ */ createIcon("Rename20Filled", "20", Rename20FilledSvg);
+export const RenameFilled = /** #__PURE__ */ createIcon("RenameFilled", "1em", Rename20FilledSvg);
+export const Rename20Regular = /** #__PURE__ */ createIcon("Rename20Regular", "20", Rename20RegularSvg);
+export const RenameRegular = /** #__PURE__ */ createIcon("RenameRegular", "1em", Rename20RegularSvg);
+export const Rename24Filled = /** #__PURE__ */ createIcon("Rename24Filled", "24", Rename24FilledSvg);
+export const Rename24Regular = /** #__PURE__ */ createIcon("Rename24Regular", "24", Rename24RegularSvg);
+export const Rename28Filled = /** #__PURE__ */ createIcon("Rename28Filled", "28", Rename28FilledSvg);
+export const Rename28Regular = /** #__PURE__ */ createIcon("Rename28Regular", "28", Rename28RegularSvg);

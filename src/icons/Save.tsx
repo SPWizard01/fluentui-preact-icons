@@ -10,14 +10,16 @@ import Save32FilledSvg from "@fluentui/svg-icons/icons/save_32_filled.svg" with 
 import Save32LightSvg from "@fluentui/svg-icons/icons/save_32_light.svg" with { type: "text" }
 import Save32RegularSvg from "@fluentui/svg-icons/icons/save_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Save16Filled = createIcon("Save16Filled", Save16FilledSvg);
-export const Save16Regular = createIcon("Save16Regular", Save16RegularSvg);
-export const Save20Filled = createIcon("Save20Filled", Save20FilledSvg);
-export const Save20Regular = createIcon("Save20Regular", Save20RegularSvg);
-export const Save24Filled = createIcon("Save24Filled", Save24FilledSvg);
-export const Save24Regular = createIcon("Save24Regular", Save24RegularSvg);
-export const Save28Filled = createIcon("Save28Filled", Save28FilledSvg);
-export const Save28Regular = createIcon("Save28Regular", Save28RegularSvg);
-export const Save32Filled = createIcon("Save32Filled", Save32FilledSvg);
-export const Save32Light = createIcon("Save32Light", Save32LightSvg);
-export const Save32Regular = createIcon("Save32Regular", Save32RegularSvg);
+export const Save16Filled = /** #__PURE__ */ createIcon("Save16Filled", "16", Save16FilledSvg);
+export const Save16Regular = /** #__PURE__ */ createIcon("Save16Regular", "16", Save16RegularSvg);
+export const Save20Filled = /** #__PURE__ */ createIcon("Save20Filled", "20", Save20FilledSvg);
+export const SaveFilled = /** #__PURE__ */ createIcon("SaveFilled", "1em", Save20FilledSvg);
+export const Save20Regular = /** #__PURE__ */ createIcon("Save20Regular", "20", Save20RegularSvg);
+export const SaveRegular = /** #__PURE__ */ createIcon("SaveRegular", "1em", Save20RegularSvg);
+export const Save24Filled = /** #__PURE__ */ createIcon("Save24Filled", "24", Save24FilledSvg);
+export const Save24Regular = /** #__PURE__ */ createIcon("Save24Regular", "24", Save24RegularSvg);
+export const Save28Filled = /** #__PURE__ */ createIcon("Save28Filled", "28", Save28FilledSvg);
+export const Save28Regular = /** #__PURE__ */ createIcon("Save28Regular", "28", Save28RegularSvg);
+export const Save32Filled = /** #__PURE__ */ createIcon("Save32Filled", "32", Save32FilledSvg);
+export const Save32Light = /** #__PURE__ */ createIcon("Save32Light", "32", Save32LightSvg);
+export const Save32Regular = /** #__PURE__ */ createIcon("Save32Regular", "32", Save32RegularSvg);

@@ -7,11 +7,13 @@ import SlideTextMultiple24RegularSvg from "@fluentui/svg-icons/icons/slide_text_
 import SlideTextMultiple32FilledSvg from "@fluentui/svg-icons/icons/slide_text_multiple_32_filled.svg" with { type: "text" }
 import SlideTextMultiple32RegularSvg from "@fluentui/svg-icons/icons/slide_text_multiple_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const SlideTextMultiple16Filled = createIcon("SlideTextMultiple16Filled", SlideTextMultiple16FilledSvg);
-export const SlideTextMultiple16Regular = createIcon("SlideTextMultiple16Regular", SlideTextMultiple16RegularSvg);
-export const SlideTextMultiple20Filled = createIcon("SlideTextMultiple20Filled", SlideTextMultiple20FilledSvg);
-export const SlideTextMultiple20Regular = createIcon("SlideTextMultiple20Regular", SlideTextMultiple20RegularSvg);
-export const SlideTextMultiple24Filled = createIcon("SlideTextMultiple24Filled", SlideTextMultiple24FilledSvg);
-export const SlideTextMultiple24Regular = createIcon("SlideTextMultiple24Regular", SlideTextMultiple24RegularSvg);
-export const SlideTextMultiple32Filled = createIcon("SlideTextMultiple32Filled", SlideTextMultiple32FilledSvg);
-export const SlideTextMultiple32Regular = createIcon("SlideTextMultiple32Regular", SlideTextMultiple32RegularSvg);
+export const SlideTextMultiple16Filled = /** #__PURE__ */ createIcon("SlideTextMultiple16Filled", "16", SlideTextMultiple16FilledSvg);
+export const SlideTextMultiple16Regular = /** #__PURE__ */ createIcon("SlideTextMultiple16Regular", "16", SlideTextMultiple16RegularSvg);
+export const SlideTextMultiple20Filled = /** #__PURE__ */ createIcon("SlideTextMultiple20Filled", "20", SlideTextMultiple20FilledSvg);
+export const SlideTextMultipleFilled = /** #__PURE__ */ createIcon("SlideTextMultipleFilled", "1em", SlideTextMultiple20FilledSvg);
+export const SlideTextMultiple20Regular = /** #__PURE__ */ createIcon("SlideTextMultiple20Regular", "20", SlideTextMultiple20RegularSvg);
+export const SlideTextMultipleRegular = /** #__PURE__ */ createIcon("SlideTextMultipleRegular", "1em", SlideTextMultiple20RegularSvg);
+export const SlideTextMultiple24Filled = /** #__PURE__ */ createIcon("SlideTextMultiple24Filled", "24", SlideTextMultiple24FilledSvg);
+export const SlideTextMultiple24Regular = /** #__PURE__ */ createIcon("SlideTextMultiple24Regular", "24", SlideTextMultiple24RegularSvg);
+export const SlideTextMultiple32Filled = /** #__PURE__ */ createIcon("SlideTextMultiple32Filled", "32", SlideTextMultiple32FilledSvg);
+export const SlideTextMultiple32Regular = /** #__PURE__ */ createIcon("SlideTextMultiple32Regular", "32", SlideTextMultiple32RegularSvg);

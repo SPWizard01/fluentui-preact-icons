@@ -11,15 +11,17 @@ import SlideTextPerson32RegularSvg from "@fluentui/svg-icons/icons/slide_text_pe
 import SlideTextPerson48FilledSvg from "@fluentui/svg-icons/icons/slide_text_person_48_filled.svg" with { type: "text" }
 import SlideTextPerson48RegularSvg from "@fluentui/svg-icons/icons/slide_text_person_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const SlideTextPerson16Filled = createIcon("SlideTextPerson16Filled", SlideTextPerson16FilledSvg);
-export const SlideTextPerson16Regular = createIcon("SlideTextPerson16Regular", SlideTextPerson16RegularSvg);
-export const SlideTextPerson20Filled = createIcon("SlideTextPerson20Filled", SlideTextPerson20FilledSvg);
-export const SlideTextPerson20Regular = createIcon("SlideTextPerson20Regular", SlideTextPerson20RegularSvg);
-export const SlideTextPerson24Filled = createIcon("SlideTextPerson24Filled", SlideTextPerson24FilledSvg);
-export const SlideTextPerson24Regular = createIcon("SlideTextPerson24Regular", SlideTextPerson24RegularSvg);
-export const SlideTextPerson28Filled = createIcon("SlideTextPerson28Filled", SlideTextPerson28FilledSvg);
-export const SlideTextPerson28Regular = createIcon("SlideTextPerson28Regular", SlideTextPerson28RegularSvg);
-export const SlideTextPerson32Filled = createIcon("SlideTextPerson32Filled", SlideTextPerson32FilledSvg);
-export const SlideTextPerson32Regular = createIcon("SlideTextPerson32Regular", SlideTextPerson32RegularSvg);
-export const SlideTextPerson48Filled = createIcon("SlideTextPerson48Filled", SlideTextPerson48FilledSvg);
-export const SlideTextPerson48Regular = createIcon("SlideTextPerson48Regular", SlideTextPerson48RegularSvg);
+export const SlideTextPerson16Filled = /** #__PURE__ */ createIcon("SlideTextPerson16Filled", "16", SlideTextPerson16FilledSvg);
+export const SlideTextPerson16Regular = /** #__PURE__ */ createIcon("SlideTextPerson16Regular", "16", SlideTextPerson16RegularSvg);
+export const SlideTextPerson20Filled = /** #__PURE__ */ createIcon("SlideTextPerson20Filled", "20", SlideTextPerson20FilledSvg);
+export const SlideTextPersonFilled = /** #__PURE__ */ createIcon("SlideTextPersonFilled", "1em", SlideTextPerson20FilledSvg);
+export const SlideTextPerson20Regular = /** #__PURE__ */ createIcon("SlideTextPerson20Regular", "20", SlideTextPerson20RegularSvg);
+export const SlideTextPersonRegular = /** #__PURE__ */ createIcon("SlideTextPersonRegular", "1em", SlideTextPerson20RegularSvg);
+export const SlideTextPerson24Filled = /** #__PURE__ */ createIcon("SlideTextPerson24Filled", "24", SlideTextPerson24FilledSvg);
+export const SlideTextPerson24Regular = /** #__PURE__ */ createIcon("SlideTextPerson24Regular", "24", SlideTextPerson24RegularSvg);
+export const SlideTextPerson28Filled = /** #__PURE__ */ createIcon("SlideTextPerson28Filled", "28", SlideTextPerson28FilledSvg);
+export const SlideTextPerson28Regular = /** #__PURE__ */ createIcon("SlideTextPerson28Regular", "28", SlideTextPerson28RegularSvg);
+export const SlideTextPerson32Filled = /** #__PURE__ */ createIcon("SlideTextPerson32Filled", "32", SlideTextPerson32FilledSvg);
+export const SlideTextPerson32Regular = /** #__PURE__ */ createIcon("SlideTextPerson32Regular", "32", SlideTextPerson32RegularSvg);
+export const SlideTextPerson48Filled = /** #__PURE__ */ createIcon("SlideTextPerson48Filled", "48", SlideTextPerson48FilledSvg);
+export const SlideTextPerson48Regular = /** #__PURE__ */ createIcon("SlideTextPerson48Regular", "48", SlideTextPerson48RegularSvg);

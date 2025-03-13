@@ -5,9 +5,11 @@ import ShapeExclude20RegularSvg from "@fluentui/svg-icons/icons/shape_exclude_20
 import ShapeExclude24FilledSvg from "@fluentui/svg-icons/icons/shape_exclude_24_filled.svg" with { type: "text" }
 import ShapeExclude24RegularSvg from "@fluentui/svg-icons/icons/shape_exclude_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ShapeExclude16Filled = createIcon("ShapeExclude16Filled", ShapeExclude16FilledSvg);
-export const ShapeExclude16Regular = createIcon("ShapeExclude16Regular", ShapeExclude16RegularSvg);
-export const ShapeExclude20Filled = createIcon("ShapeExclude20Filled", ShapeExclude20FilledSvg);
-export const ShapeExclude20Regular = createIcon("ShapeExclude20Regular", ShapeExclude20RegularSvg);
-export const ShapeExclude24Filled = createIcon("ShapeExclude24Filled", ShapeExclude24FilledSvg);
-export const ShapeExclude24Regular = createIcon("ShapeExclude24Regular", ShapeExclude24RegularSvg);
+export const ShapeExclude16Filled = /** #__PURE__ */ createIcon("ShapeExclude16Filled", "16", ShapeExclude16FilledSvg);
+export const ShapeExclude16Regular = /** #__PURE__ */ createIcon("ShapeExclude16Regular", "16", ShapeExclude16RegularSvg);
+export const ShapeExclude20Filled = /** #__PURE__ */ createIcon("ShapeExclude20Filled", "20", ShapeExclude20FilledSvg);
+export const ShapeExcludeFilled = /** #__PURE__ */ createIcon("ShapeExcludeFilled", "1em", ShapeExclude20FilledSvg);
+export const ShapeExclude20Regular = /** #__PURE__ */ createIcon("ShapeExclude20Regular", "20", ShapeExclude20RegularSvg);
+export const ShapeExcludeRegular = /** #__PURE__ */ createIcon("ShapeExcludeRegular", "1em", ShapeExclude20RegularSvg);
+export const ShapeExclude24Filled = /** #__PURE__ */ createIcon("ShapeExclude24Filled", "24", ShapeExclude24FilledSvg);
+export const ShapeExclude24Regular = /** #__PURE__ */ createIcon("ShapeExclude24Regular", "24", ShapeExclude24RegularSvg);

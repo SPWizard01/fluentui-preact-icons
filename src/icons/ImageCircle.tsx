@@ -11,15 +11,17 @@ import ImageCircle32RegularSvg from "@fluentui/svg-icons/icons/image_circle_32_r
 import ImageCircle48FilledSvg from "@fluentui/svg-icons/icons/image_circle_48_filled.svg" with { type: "text" }
 import ImageCircle48RegularSvg from "@fluentui/svg-icons/icons/image_circle_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ImageCircle16Filled = createIcon("ImageCircle16Filled", ImageCircle16FilledSvg);
-export const ImageCircle16Regular = createIcon("ImageCircle16Regular", ImageCircle16RegularSvg);
-export const ImageCircle20Filled = createIcon("ImageCircle20Filled", ImageCircle20FilledSvg);
-export const ImageCircle20Regular = createIcon("ImageCircle20Regular", ImageCircle20RegularSvg);
-export const ImageCircle24Filled = createIcon("ImageCircle24Filled", ImageCircle24FilledSvg);
-export const ImageCircle24Regular = createIcon("ImageCircle24Regular", ImageCircle24RegularSvg);
-export const ImageCircle28Filled = createIcon("ImageCircle28Filled", ImageCircle28FilledSvg);
-export const ImageCircle28Regular = createIcon("ImageCircle28Regular", ImageCircle28RegularSvg);
-export const ImageCircle32Filled = createIcon("ImageCircle32Filled", ImageCircle32FilledSvg);
-export const ImageCircle32Regular = createIcon("ImageCircle32Regular", ImageCircle32RegularSvg);
-export const ImageCircle48Filled = createIcon("ImageCircle48Filled", ImageCircle48FilledSvg);
-export const ImageCircle48Regular = createIcon("ImageCircle48Regular", ImageCircle48RegularSvg);
+export const ImageCircle16Filled = /** #__PURE__ */ createIcon("ImageCircle16Filled", "16", ImageCircle16FilledSvg);
+export const ImageCircle16Regular = /** #__PURE__ */ createIcon("ImageCircle16Regular", "16", ImageCircle16RegularSvg);
+export const ImageCircle20Filled = /** #__PURE__ */ createIcon("ImageCircle20Filled", "20", ImageCircle20FilledSvg);
+export const ImageCircleFilled = /** #__PURE__ */ createIcon("ImageCircleFilled", "1em", ImageCircle20FilledSvg);
+export const ImageCircle20Regular = /** #__PURE__ */ createIcon("ImageCircle20Regular", "20", ImageCircle20RegularSvg);
+export const ImageCircleRegular = /** #__PURE__ */ createIcon("ImageCircleRegular", "1em", ImageCircle20RegularSvg);
+export const ImageCircle24Filled = /** #__PURE__ */ createIcon("ImageCircle24Filled", "24", ImageCircle24FilledSvg);
+export const ImageCircle24Regular = /** #__PURE__ */ createIcon("ImageCircle24Regular", "24", ImageCircle24RegularSvg);
+export const ImageCircle28Filled = /** #__PURE__ */ createIcon("ImageCircle28Filled", "28", ImageCircle28FilledSvg);
+export const ImageCircle28Regular = /** #__PURE__ */ createIcon("ImageCircle28Regular", "28", ImageCircle28RegularSvg);
+export const ImageCircle32Filled = /** #__PURE__ */ createIcon("ImageCircle32Filled", "32", ImageCircle32FilledSvg);
+export const ImageCircle32Regular = /** #__PURE__ */ createIcon("ImageCircle32Regular", "32", ImageCircle32RegularSvg);
+export const ImageCircle48Filled = /** #__PURE__ */ createIcon("ImageCircle48Filled", "48", ImageCircle48FilledSvg);
+export const ImageCircle48Regular = /** #__PURE__ */ createIcon("ImageCircle48Regular", "48", ImageCircle48RegularSvg);

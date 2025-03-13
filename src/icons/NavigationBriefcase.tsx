@@ -5,9 +5,11 @@ import NavigationBriefcase24RegularSvg from "@fluentui/svg-icons/icons/navigatio
 import NavigationBriefcase28FilledSvg from "@fluentui/svg-icons/icons/navigation_briefcase_28_filled.svg" with { type: "text" }
 import NavigationBriefcase28RegularSvg from "@fluentui/svg-icons/icons/navigation_briefcase_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const NavigationBriefcase20Filled = createIcon("NavigationBriefcase20Filled", NavigationBriefcase20FilledSvg);
-export const NavigationBriefcase20Regular = createIcon("NavigationBriefcase20Regular", NavigationBriefcase20RegularSvg);
-export const NavigationBriefcase24Filled = createIcon("NavigationBriefcase24Filled", NavigationBriefcase24FilledSvg);
-export const NavigationBriefcase24Regular = createIcon("NavigationBriefcase24Regular", NavigationBriefcase24RegularSvg);
-export const NavigationBriefcase28Filled = createIcon("NavigationBriefcase28Filled", NavigationBriefcase28FilledSvg);
-export const NavigationBriefcase28Regular = createIcon("NavigationBriefcase28Regular", NavigationBriefcase28RegularSvg);
+export const NavigationBriefcase20Filled = /** #__PURE__ */ createIcon("NavigationBriefcase20Filled", "20", NavigationBriefcase20FilledSvg);
+export const NavigationBriefcaseFilled = /** #__PURE__ */ createIcon("NavigationBriefcaseFilled", "1em", NavigationBriefcase20FilledSvg);
+export const NavigationBriefcase20Regular = /** #__PURE__ */ createIcon("NavigationBriefcase20Regular", "20", NavigationBriefcase20RegularSvg);
+export const NavigationBriefcaseRegular = /** #__PURE__ */ createIcon("NavigationBriefcaseRegular", "1em", NavigationBriefcase20RegularSvg);
+export const NavigationBriefcase24Filled = /** #__PURE__ */ createIcon("NavigationBriefcase24Filled", "24", NavigationBriefcase24FilledSvg);
+export const NavigationBriefcase24Regular = /** #__PURE__ */ createIcon("NavigationBriefcase24Regular", "24", NavigationBriefcase24RegularSvg);
+export const NavigationBriefcase28Filled = /** #__PURE__ */ createIcon("NavigationBriefcase28Filled", "28", NavigationBriefcase28FilledSvg);
+export const NavigationBriefcase28Regular = /** #__PURE__ */ createIcon("NavigationBriefcase28Regular", "28", NavigationBriefcase28RegularSvg);

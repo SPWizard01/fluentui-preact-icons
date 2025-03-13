@@ -3,7 +3,9 @@ import BoxArrowLeft20RegularSvg from "@fluentui/svg-icons/icons/box_arrow_left_2
 import BoxArrowLeft24FilledSvg from "@fluentui/svg-icons/icons/box_arrow_left_24_filled.svg" with { type: "text" }
 import BoxArrowLeft24RegularSvg from "@fluentui/svg-icons/icons/box_arrow_left_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const BoxArrowLeft20Filled = createIcon("BoxArrowLeft20Filled", BoxArrowLeft20FilledSvg);
-export const BoxArrowLeft20Regular = createIcon("BoxArrowLeft20Regular", BoxArrowLeft20RegularSvg);
-export const BoxArrowLeft24Filled = createIcon("BoxArrowLeft24Filled", BoxArrowLeft24FilledSvg);
-export const BoxArrowLeft24Regular = createIcon("BoxArrowLeft24Regular", BoxArrowLeft24RegularSvg);
+export const BoxArrowLeft20Filled = /** #__PURE__ */ createIcon("BoxArrowLeft20Filled", "20", BoxArrowLeft20FilledSvg);
+export const BoxArrowLeftFilled = /** #__PURE__ */ createIcon("BoxArrowLeftFilled", "1em", BoxArrowLeft20FilledSvg);
+export const BoxArrowLeft20Regular = /** #__PURE__ */ createIcon("BoxArrowLeft20Regular", "20", BoxArrowLeft20RegularSvg);
+export const BoxArrowLeftRegular = /** #__PURE__ */ createIcon("BoxArrowLeftRegular", "1em", BoxArrowLeft20RegularSvg);
+export const BoxArrowLeft24Filled = /** #__PURE__ */ createIcon("BoxArrowLeft24Filled", "24", BoxArrowLeft24FilledSvg);
+export const BoxArrowLeft24Regular = /** #__PURE__ */ createIcon("BoxArrowLeft24Regular", "24", BoxArrowLeft24RegularSvg);

@@ -5,9 +5,11 @@ import BuildingRetailMore24RegularSvg from "@fluentui/svg-icons/icons/building_r
 import BuildingRetailMore32FilledSvg from "@fluentui/svg-icons/icons/building_retail_more_32_filled.svg" with { type: "text" }
 import BuildingRetailMore32RegularSvg from "@fluentui/svg-icons/icons/building_retail_more_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const BuildingRetailMore20Filled = createIcon("BuildingRetailMore20Filled", BuildingRetailMore20FilledSvg);
-export const BuildingRetailMore20Regular = createIcon("BuildingRetailMore20Regular", BuildingRetailMore20RegularSvg);
-export const BuildingRetailMore24Filled = createIcon("BuildingRetailMore24Filled", BuildingRetailMore24FilledSvg);
-export const BuildingRetailMore24Regular = createIcon("BuildingRetailMore24Regular", BuildingRetailMore24RegularSvg);
-export const BuildingRetailMore32Filled = createIcon("BuildingRetailMore32Filled", BuildingRetailMore32FilledSvg);
-export const BuildingRetailMore32Regular = createIcon("BuildingRetailMore32Regular", BuildingRetailMore32RegularSvg);
+export const BuildingRetailMore20Filled = /** #__PURE__ */ createIcon("BuildingRetailMore20Filled", "20", BuildingRetailMore20FilledSvg);
+export const BuildingRetailMoreFilled = /** #__PURE__ */ createIcon("BuildingRetailMoreFilled", "1em", BuildingRetailMore20FilledSvg);
+export const BuildingRetailMore20Regular = /** #__PURE__ */ createIcon("BuildingRetailMore20Regular", "20", BuildingRetailMore20RegularSvg);
+export const BuildingRetailMoreRegular = /** #__PURE__ */ createIcon("BuildingRetailMoreRegular", "1em", BuildingRetailMore20RegularSvg);
+export const BuildingRetailMore24Filled = /** #__PURE__ */ createIcon("BuildingRetailMore24Filled", "24", BuildingRetailMore24FilledSvg);
+export const BuildingRetailMore24Regular = /** #__PURE__ */ createIcon("BuildingRetailMore24Regular", "24", BuildingRetailMore24RegularSvg);
+export const BuildingRetailMore32Filled = /** #__PURE__ */ createIcon("BuildingRetailMore32Filled", "32", BuildingRetailMore32FilledSvg);
+export const BuildingRetailMore32Regular = /** #__PURE__ */ createIcon("BuildingRetailMore32Regular", "32", BuildingRetailMore32RegularSvg);

@@ -17,21 +17,24 @@ import CheckmarkCircle48ColorSvg from "@fluentui/svg-icons/icons/checkmark_circl
 import CheckmarkCircle48FilledSvg from "@fluentui/svg-icons/icons/checkmark_circle_48_filled.svg" with { type: "text" }
 import CheckmarkCircle48RegularSvg from "@fluentui/svg-icons/icons/checkmark_circle_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CheckmarkCircle12Filled = createIcon("CheckmarkCircle12Filled", CheckmarkCircle12FilledSvg);
-export const CheckmarkCircle12Regular = createIcon("CheckmarkCircle12Regular", CheckmarkCircle12RegularSvg);
-export const CheckmarkCircle16Color = createIcon("CheckmarkCircle16Color", CheckmarkCircle16ColorSvg);
-export const CheckmarkCircle16Filled = createIcon("CheckmarkCircle16Filled", CheckmarkCircle16FilledSvg);
-export const CheckmarkCircle16Regular = createIcon("CheckmarkCircle16Regular", CheckmarkCircle16RegularSvg);
-export const CheckmarkCircle20Color = createIcon("CheckmarkCircle20Color", CheckmarkCircle20ColorSvg);
-export const CheckmarkCircle20Filled = createIcon("CheckmarkCircle20Filled", CheckmarkCircle20FilledSvg);
-export const CheckmarkCircle20Regular = createIcon("CheckmarkCircle20Regular", CheckmarkCircle20RegularSvg);
-export const CheckmarkCircle24Color = createIcon("CheckmarkCircle24Color", CheckmarkCircle24ColorSvg);
-export const CheckmarkCircle24Filled = createIcon("CheckmarkCircle24Filled", CheckmarkCircle24FilledSvg);
-export const CheckmarkCircle24Regular = createIcon("CheckmarkCircle24Regular", CheckmarkCircle24RegularSvg);
-export const CheckmarkCircle32Color = createIcon("CheckmarkCircle32Color", CheckmarkCircle32ColorSvg);
-export const CheckmarkCircle32Filled = createIcon("CheckmarkCircle32Filled", CheckmarkCircle32FilledSvg);
-export const CheckmarkCircle32Light = createIcon("CheckmarkCircle32Light", CheckmarkCircle32LightSvg);
-export const CheckmarkCircle32Regular = createIcon("CheckmarkCircle32Regular", CheckmarkCircle32RegularSvg);
-export const CheckmarkCircle48Color = createIcon("CheckmarkCircle48Color", CheckmarkCircle48ColorSvg);
-export const CheckmarkCircle48Filled = createIcon("CheckmarkCircle48Filled", CheckmarkCircle48FilledSvg);
-export const CheckmarkCircle48Regular = createIcon("CheckmarkCircle48Regular", CheckmarkCircle48RegularSvg);
+export const CheckmarkCircle12Filled = /** #__PURE__ */ createIcon("CheckmarkCircle12Filled", "12", CheckmarkCircle12FilledSvg);
+export const CheckmarkCircle12Regular = /** #__PURE__ */ createIcon("CheckmarkCircle12Regular", "12", CheckmarkCircle12RegularSvg);
+export const CheckmarkCircle16Color = /** #__PURE__ */ createIcon("CheckmarkCircle16Color", "16", CheckmarkCircle16ColorSvg);
+export const CheckmarkCircle16Filled = /** #__PURE__ */ createIcon("CheckmarkCircle16Filled", "16", CheckmarkCircle16FilledSvg);
+export const CheckmarkCircle16Regular = /** #__PURE__ */ createIcon("CheckmarkCircle16Regular", "16", CheckmarkCircle16RegularSvg);
+export const CheckmarkCircle20Color = /** #__PURE__ */ createIcon("CheckmarkCircle20Color", "20", CheckmarkCircle20ColorSvg);
+export const CheckmarkCircleColor = /** #__PURE__ */ createIcon("CheckmarkCircleColor", "1em", CheckmarkCircle20ColorSvg);
+export const CheckmarkCircle20Filled = /** #__PURE__ */ createIcon("CheckmarkCircle20Filled", "20", CheckmarkCircle20FilledSvg);
+export const CheckmarkCircleFilled = /** #__PURE__ */ createIcon("CheckmarkCircleFilled", "1em", CheckmarkCircle20FilledSvg);
+export const CheckmarkCircle20Regular = /** #__PURE__ */ createIcon("CheckmarkCircle20Regular", "20", CheckmarkCircle20RegularSvg);
+export const CheckmarkCircleRegular = /** #__PURE__ */ createIcon("CheckmarkCircleRegular", "1em", CheckmarkCircle20RegularSvg);
+export const CheckmarkCircle24Color = /** #__PURE__ */ createIcon("CheckmarkCircle24Color", "24", CheckmarkCircle24ColorSvg);
+export const CheckmarkCircle24Filled = /** #__PURE__ */ createIcon("CheckmarkCircle24Filled", "24", CheckmarkCircle24FilledSvg);
+export const CheckmarkCircle24Regular = /** #__PURE__ */ createIcon("CheckmarkCircle24Regular", "24", CheckmarkCircle24RegularSvg);
+export const CheckmarkCircle32Color = /** #__PURE__ */ createIcon("CheckmarkCircle32Color", "32", CheckmarkCircle32ColorSvg);
+export const CheckmarkCircle32Filled = /** #__PURE__ */ createIcon("CheckmarkCircle32Filled", "32", CheckmarkCircle32FilledSvg);
+export const CheckmarkCircle32Light = /** #__PURE__ */ createIcon("CheckmarkCircle32Light", "32", CheckmarkCircle32LightSvg);
+export const CheckmarkCircle32Regular = /** #__PURE__ */ createIcon("CheckmarkCircle32Regular", "32", CheckmarkCircle32RegularSvg);
+export const CheckmarkCircle48Color = /** #__PURE__ */ createIcon("CheckmarkCircle48Color", "48", CheckmarkCircle48ColorSvg);
+export const CheckmarkCircle48Filled = /** #__PURE__ */ createIcon("CheckmarkCircle48Filled", "48", CheckmarkCircle48FilledSvg);
+export const CheckmarkCircle48Regular = /** #__PURE__ */ createIcon("CheckmarkCircle48Regular", "48", CheckmarkCircle48RegularSvg);

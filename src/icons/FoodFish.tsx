@@ -3,7 +3,9 @@ import FoodFish20RegularSvg from "@fluentui/svg-icons/icons/food_fish_20_regular
 import FoodFish24FilledSvg from "@fluentui/svg-icons/icons/food_fish_24_filled.svg" with { type: "text" }
 import FoodFish24RegularSvg from "@fluentui/svg-icons/icons/food_fish_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const FoodFish20Filled = createIcon("FoodFish20Filled", FoodFish20FilledSvg);
-export const FoodFish20Regular = createIcon("FoodFish20Regular", FoodFish20RegularSvg);
-export const FoodFish24Filled = createIcon("FoodFish24Filled", FoodFish24FilledSvg);
-export const FoodFish24Regular = createIcon("FoodFish24Regular", FoodFish24RegularSvg);
+export const FoodFish20Filled = /** #__PURE__ */ createIcon("FoodFish20Filled", "20", FoodFish20FilledSvg);
+export const FoodFishFilled = /** #__PURE__ */ createIcon("FoodFishFilled", "1em", FoodFish20FilledSvg);
+export const FoodFish20Regular = /** #__PURE__ */ createIcon("FoodFish20Regular", "20", FoodFish20RegularSvg);
+export const FoodFishRegular = /** #__PURE__ */ createIcon("FoodFishRegular", "1em", FoodFish20RegularSvg);
+export const FoodFish24Filled = /** #__PURE__ */ createIcon("FoodFish24Filled", "24", FoodFish24FilledSvg);
+export const FoodFish24Regular = /** #__PURE__ */ createIcon("FoodFish24Regular", "24", FoodFish24RegularSvg);

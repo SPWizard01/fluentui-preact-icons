@@ -7,11 +7,13 @@ import Pulse28RegularSvg from "@fluentui/svg-icons/icons/pulse_28_regular.svg" w
 import Pulse32FilledSvg from "@fluentui/svg-icons/icons/pulse_32_filled.svg" with { type: "text" }
 import Pulse32RegularSvg from "@fluentui/svg-icons/icons/pulse_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Pulse20Filled = createIcon("Pulse20Filled", Pulse20FilledSvg);
-export const Pulse20Regular = createIcon("Pulse20Regular", Pulse20RegularSvg);
-export const Pulse24Filled = createIcon("Pulse24Filled", Pulse24FilledSvg);
-export const Pulse24Regular = createIcon("Pulse24Regular", Pulse24RegularSvg);
-export const Pulse28Filled = createIcon("Pulse28Filled", Pulse28FilledSvg);
-export const Pulse28Regular = createIcon("Pulse28Regular", Pulse28RegularSvg);
-export const Pulse32Filled = createIcon("Pulse32Filled", Pulse32FilledSvg);
-export const Pulse32Regular = createIcon("Pulse32Regular", Pulse32RegularSvg);
+export const Pulse20Filled = /** #__PURE__ */ createIcon("Pulse20Filled", "20", Pulse20FilledSvg);
+export const PulseFilled = /** #__PURE__ */ createIcon("PulseFilled", "1em", Pulse20FilledSvg);
+export const Pulse20Regular = /** #__PURE__ */ createIcon("Pulse20Regular", "20", Pulse20RegularSvg);
+export const PulseRegular = /** #__PURE__ */ createIcon("PulseRegular", "1em", Pulse20RegularSvg);
+export const Pulse24Filled = /** #__PURE__ */ createIcon("Pulse24Filled", "24", Pulse24FilledSvg);
+export const Pulse24Regular = /** #__PURE__ */ createIcon("Pulse24Regular", "24", Pulse24RegularSvg);
+export const Pulse28Filled = /** #__PURE__ */ createIcon("Pulse28Filled", "28", Pulse28FilledSvg);
+export const Pulse28Regular = /** #__PURE__ */ createIcon("Pulse28Regular", "28", Pulse28RegularSvg);
+export const Pulse32Filled = /** #__PURE__ */ createIcon("Pulse32Filled", "32", Pulse32FilledSvg);
+export const Pulse32Regular = /** #__PURE__ */ createIcon("Pulse32Regular", "32", Pulse32RegularSvg);

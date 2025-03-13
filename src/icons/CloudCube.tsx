@@ -11,15 +11,17 @@ import CloudCube32RegularSvg from "@fluentui/svg-icons/icons/cloud_cube_32_regul
 import CloudCube48FilledSvg from "@fluentui/svg-icons/icons/cloud_cube_48_filled.svg" with { type: "text" }
 import CloudCube48RegularSvg from "@fluentui/svg-icons/icons/cloud_cube_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CloudCube16Filled = createIcon("CloudCube16Filled", CloudCube16FilledSvg);
-export const CloudCube16Regular = createIcon("CloudCube16Regular", CloudCube16RegularSvg);
-export const CloudCube20Filled = createIcon("CloudCube20Filled", CloudCube20FilledSvg);
-export const CloudCube20Regular = createIcon("CloudCube20Regular", CloudCube20RegularSvg);
-export const CloudCube24Filled = createIcon("CloudCube24Filled", CloudCube24FilledSvg);
-export const CloudCube24Regular = createIcon("CloudCube24Regular", CloudCube24RegularSvg);
-export const CloudCube28Filled = createIcon("CloudCube28Filled", CloudCube28FilledSvg);
-export const CloudCube28Regular = createIcon("CloudCube28Regular", CloudCube28RegularSvg);
-export const CloudCube32Filled = createIcon("CloudCube32Filled", CloudCube32FilledSvg);
-export const CloudCube32Regular = createIcon("CloudCube32Regular", CloudCube32RegularSvg);
-export const CloudCube48Filled = createIcon("CloudCube48Filled", CloudCube48FilledSvg);
-export const CloudCube48Regular = createIcon("CloudCube48Regular", CloudCube48RegularSvg);
+export const CloudCube16Filled = /** #__PURE__ */ createIcon("CloudCube16Filled", "16", CloudCube16FilledSvg);
+export const CloudCube16Regular = /** #__PURE__ */ createIcon("CloudCube16Regular", "16", CloudCube16RegularSvg);
+export const CloudCube20Filled = /** #__PURE__ */ createIcon("CloudCube20Filled", "20", CloudCube20FilledSvg);
+export const CloudCubeFilled = /** #__PURE__ */ createIcon("CloudCubeFilled", "1em", CloudCube20FilledSvg);
+export const CloudCube20Regular = /** #__PURE__ */ createIcon("CloudCube20Regular", "20", CloudCube20RegularSvg);
+export const CloudCubeRegular = /** #__PURE__ */ createIcon("CloudCubeRegular", "1em", CloudCube20RegularSvg);
+export const CloudCube24Filled = /** #__PURE__ */ createIcon("CloudCube24Filled", "24", CloudCube24FilledSvg);
+export const CloudCube24Regular = /** #__PURE__ */ createIcon("CloudCube24Regular", "24", CloudCube24RegularSvg);
+export const CloudCube28Filled = /** #__PURE__ */ createIcon("CloudCube28Filled", "28", CloudCube28FilledSvg);
+export const CloudCube28Regular = /** #__PURE__ */ createIcon("CloudCube28Regular", "28", CloudCube28RegularSvg);
+export const CloudCube32Filled = /** #__PURE__ */ createIcon("CloudCube32Filled", "32", CloudCube32FilledSvg);
+export const CloudCube32Regular = /** #__PURE__ */ createIcon("CloudCube32Regular", "32", CloudCube32RegularSvg);
+export const CloudCube48Filled = /** #__PURE__ */ createIcon("CloudCube48Filled", "48", CloudCube48FilledSvg);
+export const CloudCube48Regular = /** #__PURE__ */ createIcon("CloudCube48Regular", "48", CloudCube48RegularSvg);

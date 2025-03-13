@@ -5,9 +5,11 @@ import TextSortDescending20RegularSvg from "@fluentui/svg-icons/icons/text_sort_
 import TextSortDescending24FilledSvg from "@fluentui/svg-icons/icons/text_sort_descending_24_filled.svg" with { type: "text" }
 import TextSortDescending24RegularSvg from "@fluentui/svg-icons/icons/text_sort_descending_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TextSortDescending16Filled = createIcon("TextSortDescending16Filled", TextSortDescending16FilledSvg);
-export const TextSortDescending16Regular = createIcon("TextSortDescending16Regular", TextSortDescending16RegularSvg);
-export const TextSortDescending20Filled = createIcon("TextSortDescending20Filled", TextSortDescending20FilledSvg);
-export const TextSortDescending20Regular = createIcon("TextSortDescending20Regular", TextSortDescending20RegularSvg);
-export const TextSortDescending24Filled = createIcon("TextSortDescending24Filled", TextSortDescending24FilledSvg);
-export const TextSortDescending24Regular = createIcon("TextSortDescending24Regular", TextSortDescending24RegularSvg);
+export const TextSortDescending16Filled = /** #__PURE__ */ createIcon("TextSortDescending16Filled", "16", TextSortDescending16FilledSvg);
+export const TextSortDescending16Regular = /** #__PURE__ */ createIcon("TextSortDescending16Regular", "16", TextSortDescending16RegularSvg);
+export const TextSortDescending20Filled = /** #__PURE__ */ createIcon("TextSortDescending20Filled", "20", TextSortDescending20FilledSvg);
+export const TextSortDescendingFilled = /** #__PURE__ */ createIcon("TextSortDescendingFilled", "1em", TextSortDescending20FilledSvg);
+export const TextSortDescending20Regular = /** #__PURE__ */ createIcon("TextSortDescending20Regular", "20", TextSortDescending20RegularSvg);
+export const TextSortDescendingRegular = /** #__PURE__ */ createIcon("TextSortDescendingRegular", "1em", TextSortDescending20RegularSvg);
+export const TextSortDescending24Filled = /** #__PURE__ */ createIcon("TextSortDescending24Filled", "24", TextSortDescending24FilledSvg);
+export const TextSortDescending24Regular = /** #__PURE__ */ createIcon("TextSortDescending24Regular", "24", TextSortDescending24RegularSvg);

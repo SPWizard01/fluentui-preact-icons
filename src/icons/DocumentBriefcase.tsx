@@ -7,11 +7,13 @@ import DocumentBriefcase24RegularSvg from "@fluentui/svg-icons/icons/document_br
 import DocumentBriefcase32FilledSvg from "@fluentui/svg-icons/icons/document_briefcase_32_filled.svg" with { type: "text" }
 import DocumentBriefcase32RegularSvg from "@fluentui/svg-icons/icons/document_briefcase_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const DocumentBriefcase16Filled = createIcon("DocumentBriefcase16Filled", DocumentBriefcase16FilledSvg);
-export const DocumentBriefcase16Regular = createIcon("DocumentBriefcase16Regular", DocumentBriefcase16RegularSvg);
-export const DocumentBriefcase20Filled = createIcon("DocumentBriefcase20Filled", DocumentBriefcase20FilledSvg);
-export const DocumentBriefcase20Regular = createIcon("DocumentBriefcase20Regular", DocumentBriefcase20RegularSvg);
-export const DocumentBriefcase24Filled = createIcon("DocumentBriefcase24Filled", DocumentBriefcase24FilledSvg);
-export const DocumentBriefcase24Regular = createIcon("DocumentBriefcase24Regular", DocumentBriefcase24RegularSvg);
-export const DocumentBriefcase32Filled = createIcon("DocumentBriefcase32Filled", DocumentBriefcase32FilledSvg);
-export const DocumentBriefcase32Regular = createIcon("DocumentBriefcase32Regular", DocumentBriefcase32RegularSvg);
+export const DocumentBriefcase16Filled = /** #__PURE__ */ createIcon("DocumentBriefcase16Filled", "16", DocumentBriefcase16FilledSvg);
+export const DocumentBriefcase16Regular = /** #__PURE__ */ createIcon("DocumentBriefcase16Regular", "16", DocumentBriefcase16RegularSvg);
+export const DocumentBriefcase20Filled = /** #__PURE__ */ createIcon("DocumentBriefcase20Filled", "20", DocumentBriefcase20FilledSvg);
+export const DocumentBriefcaseFilled = /** #__PURE__ */ createIcon("DocumentBriefcaseFilled", "1em", DocumentBriefcase20FilledSvg);
+export const DocumentBriefcase20Regular = /** #__PURE__ */ createIcon("DocumentBriefcase20Regular", "20", DocumentBriefcase20RegularSvg);
+export const DocumentBriefcaseRegular = /** #__PURE__ */ createIcon("DocumentBriefcaseRegular", "1em", DocumentBriefcase20RegularSvg);
+export const DocumentBriefcase24Filled = /** #__PURE__ */ createIcon("DocumentBriefcase24Filled", "24", DocumentBriefcase24FilledSvg);
+export const DocumentBriefcase24Regular = /** #__PURE__ */ createIcon("DocumentBriefcase24Regular", "24", DocumentBriefcase24RegularSvg);
+export const DocumentBriefcase32Filled = /** #__PURE__ */ createIcon("DocumentBriefcase32Filled", "32", DocumentBriefcase32FilledSvg);
+export const DocumentBriefcase32Regular = /** #__PURE__ */ createIcon("DocumentBriefcase32Regular", "32", DocumentBriefcase32RegularSvg);

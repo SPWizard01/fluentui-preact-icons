@@ -3,7 +3,9 @@ import TextDirectionHorizontalLtr20RegularSvg from "@fluentui/svg-icons/icons/te
 import TextDirectionHorizontalLtr24FilledSvg from "@fluentui/svg-icons/icons/text_direction_horizontal_ltr_24_filled.svg" with { type: "text" }
 import TextDirectionHorizontalLtr24RegularSvg from "@fluentui/svg-icons/icons/text_direction_horizontal_ltr_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TextDirectionHorizontalLtr20Filled = createIcon("TextDirectionHorizontalLtr20Filled", TextDirectionHorizontalLtr20FilledSvg);
-export const TextDirectionHorizontalLtr20Regular = createIcon("TextDirectionHorizontalLtr20Regular", TextDirectionHorizontalLtr20RegularSvg);
-export const TextDirectionHorizontalLtr24Filled = createIcon("TextDirectionHorizontalLtr24Filled", TextDirectionHorizontalLtr24FilledSvg);
-export const TextDirectionHorizontalLtr24Regular = createIcon("TextDirectionHorizontalLtr24Regular", TextDirectionHorizontalLtr24RegularSvg);
+export const TextDirectionHorizontalLtr20Filled = /** #__PURE__ */ createIcon("TextDirectionHorizontalLtr20Filled", "20", TextDirectionHorizontalLtr20FilledSvg);
+export const TextDirectionHorizontalLtrFilled = /** #__PURE__ */ createIcon("TextDirectionHorizontalLtrFilled", "1em", TextDirectionHorizontalLtr20FilledSvg);
+export const TextDirectionHorizontalLtr20Regular = /** #__PURE__ */ createIcon("TextDirectionHorizontalLtr20Regular", "20", TextDirectionHorizontalLtr20RegularSvg);
+export const TextDirectionHorizontalLtrRegular = /** #__PURE__ */ createIcon("TextDirectionHorizontalLtrRegular", "1em", TextDirectionHorizontalLtr20RegularSvg);
+export const TextDirectionHorizontalLtr24Filled = /** #__PURE__ */ createIcon("TextDirectionHorizontalLtr24Filled", "24", TextDirectionHorizontalLtr24FilledSvg);
+export const TextDirectionHorizontalLtr24Regular = /** #__PURE__ */ createIcon("TextDirectionHorizontalLtr24Regular", "24", TextDirectionHorizontalLtr24RegularSvg);

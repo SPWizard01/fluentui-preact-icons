@@ -17,21 +17,24 @@ import ContactCard48ColorSvg from "@fluentui/svg-icons/icons/contact_card_48_col
 import ContactCard48FilledSvg from "@fluentui/svg-icons/icons/contact_card_48_filled.svg" with { type: "text" }
 import ContactCard48RegularSvg from "@fluentui/svg-icons/icons/contact_card_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ContactCard16Color = createIcon("ContactCard16Color", ContactCard16ColorSvg);
-export const ContactCard16Filled = createIcon("ContactCard16Filled", ContactCard16FilledSvg);
-export const ContactCard16Regular = createIcon("ContactCard16Regular", ContactCard16RegularSvg);
-export const ContactCard20Color = createIcon("ContactCard20Color", ContactCard20ColorSvg);
-export const ContactCard20Filled = createIcon("ContactCard20Filled", ContactCard20FilledSvg);
-export const ContactCard20Regular = createIcon("ContactCard20Regular", ContactCard20RegularSvg);
-export const ContactCard24Color = createIcon("ContactCard24Color", ContactCard24ColorSvg);
-export const ContactCard24Filled = createIcon("ContactCard24Filled", ContactCard24FilledSvg);
-export const ContactCard24Regular = createIcon("ContactCard24Regular", ContactCard24RegularSvg);
-export const ContactCard28Color = createIcon("ContactCard28Color", ContactCard28ColorSvg);
-export const ContactCard28Filled = createIcon("ContactCard28Filled", ContactCard28FilledSvg);
-export const ContactCard28Regular = createIcon("ContactCard28Regular", ContactCard28RegularSvg);
-export const ContactCard32Color = createIcon("ContactCard32Color", ContactCard32ColorSvg);
-export const ContactCard32Filled = createIcon("ContactCard32Filled", ContactCard32FilledSvg);
-export const ContactCard32Regular = createIcon("ContactCard32Regular", ContactCard32RegularSvg);
-export const ContactCard48Color = createIcon("ContactCard48Color", ContactCard48ColorSvg);
-export const ContactCard48Filled = createIcon("ContactCard48Filled", ContactCard48FilledSvg);
-export const ContactCard48Regular = createIcon("ContactCard48Regular", ContactCard48RegularSvg);
+export const ContactCard16Color = /** #__PURE__ */ createIcon("ContactCard16Color", "16", ContactCard16ColorSvg);
+export const ContactCard16Filled = /** #__PURE__ */ createIcon("ContactCard16Filled", "16", ContactCard16FilledSvg);
+export const ContactCard16Regular = /** #__PURE__ */ createIcon("ContactCard16Regular", "16", ContactCard16RegularSvg);
+export const ContactCard20Color = /** #__PURE__ */ createIcon("ContactCard20Color", "20", ContactCard20ColorSvg);
+export const ContactCardColor = /** #__PURE__ */ createIcon("ContactCardColor", "1em", ContactCard20ColorSvg);
+export const ContactCard20Filled = /** #__PURE__ */ createIcon("ContactCard20Filled", "20", ContactCard20FilledSvg);
+export const ContactCardFilled = /** #__PURE__ */ createIcon("ContactCardFilled", "1em", ContactCard20FilledSvg);
+export const ContactCard20Regular = /** #__PURE__ */ createIcon("ContactCard20Regular", "20", ContactCard20RegularSvg);
+export const ContactCardRegular = /** #__PURE__ */ createIcon("ContactCardRegular", "1em", ContactCard20RegularSvg);
+export const ContactCard24Color = /** #__PURE__ */ createIcon("ContactCard24Color", "24", ContactCard24ColorSvg);
+export const ContactCard24Filled = /** #__PURE__ */ createIcon("ContactCard24Filled", "24", ContactCard24FilledSvg);
+export const ContactCard24Regular = /** #__PURE__ */ createIcon("ContactCard24Regular", "24", ContactCard24RegularSvg);
+export const ContactCard28Color = /** #__PURE__ */ createIcon("ContactCard28Color", "28", ContactCard28ColorSvg);
+export const ContactCard28Filled = /** #__PURE__ */ createIcon("ContactCard28Filled", "28", ContactCard28FilledSvg);
+export const ContactCard28Regular = /** #__PURE__ */ createIcon("ContactCard28Regular", "28", ContactCard28RegularSvg);
+export const ContactCard32Color = /** #__PURE__ */ createIcon("ContactCard32Color", "32", ContactCard32ColorSvg);
+export const ContactCard32Filled = /** #__PURE__ */ createIcon("ContactCard32Filled", "32", ContactCard32FilledSvg);
+export const ContactCard32Regular = /** #__PURE__ */ createIcon("ContactCard32Regular", "32", ContactCard32RegularSvg);
+export const ContactCard48Color = /** #__PURE__ */ createIcon("ContactCard48Color", "48", ContactCard48ColorSvg);
+export const ContactCard48Filled = /** #__PURE__ */ createIcon("ContactCard48Filled", "48", ContactCard48FilledSvg);
+export const ContactCard48Regular = /** #__PURE__ */ createIcon("ContactCard48Regular", "48", ContactCard48RegularSvg);

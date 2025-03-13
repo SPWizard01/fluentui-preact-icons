@@ -13,17 +13,19 @@ import ScanDash32RegularSvg from "@fluentui/svg-icons/icons/scan_dash_32_regular
 import ScanDash48FilledSvg from "@fluentui/svg-icons/icons/scan_dash_48_filled.svg" with { type: "text" }
 import ScanDash48RegularSvg from "@fluentui/svg-icons/icons/scan_dash_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ScanDash12Filled = createIcon("ScanDash12Filled", ScanDash12FilledSvg);
-export const ScanDash12Regular = createIcon("ScanDash12Regular", ScanDash12RegularSvg);
-export const ScanDash16Filled = createIcon("ScanDash16Filled", ScanDash16FilledSvg);
-export const ScanDash16Regular = createIcon("ScanDash16Regular", ScanDash16RegularSvg);
-export const ScanDash20Filled = createIcon("ScanDash20Filled", ScanDash20FilledSvg);
-export const ScanDash20Regular = createIcon("ScanDash20Regular", ScanDash20RegularSvg);
-export const ScanDash24Filled = createIcon("ScanDash24Filled", ScanDash24FilledSvg);
-export const ScanDash24Regular = createIcon("ScanDash24Regular", ScanDash24RegularSvg);
-export const ScanDash28Filled = createIcon("ScanDash28Filled", ScanDash28FilledSvg);
-export const ScanDash28Regular = createIcon("ScanDash28Regular", ScanDash28RegularSvg);
-export const ScanDash32Filled = createIcon("ScanDash32Filled", ScanDash32FilledSvg);
-export const ScanDash32Regular = createIcon("ScanDash32Regular", ScanDash32RegularSvg);
-export const ScanDash48Filled = createIcon("ScanDash48Filled", ScanDash48FilledSvg);
-export const ScanDash48Regular = createIcon("ScanDash48Regular", ScanDash48RegularSvg);
+export const ScanDash12Filled = /** #__PURE__ */ createIcon("ScanDash12Filled", "12", ScanDash12FilledSvg);
+export const ScanDash12Regular = /** #__PURE__ */ createIcon("ScanDash12Regular", "12", ScanDash12RegularSvg);
+export const ScanDash16Filled = /** #__PURE__ */ createIcon("ScanDash16Filled", "16", ScanDash16FilledSvg);
+export const ScanDash16Regular = /** #__PURE__ */ createIcon("ScanDash16Regular", "16", ScanDash16RegularSvg);
+export const ScanDash20Filled = /** #__PURE__ */ createIcon("ScanDash20Filled", "20", ScanDash20FilledSvg);
+export const ScanDashFilled = /** #__PURE__ */ createIcon("ScanDashFilled", "1em", ScanDash20FilledSvg);
+export const ScanDash20Regular = /** #__PURE__ */ createIcon("ScanDash20Regular", "20", ScanDash20RegularSvg);
+export const ScanDashRegular = /** #__PURE__ */ createIcon("ScanDashRegular", "1em", ScanDash20RegularSvg);
+export const ScanDash24Filled = /** #__PURE__ */ createIcon("ScanDash24Filled", "24", ScanDash24FilledSvg);
+export const ScanDash24Regular = /** #__PURE__ */ createIcon("ScanDash24Regular", "24", ScanDash24RegularSvg);
+export const ScanDash28Filled = /** #__PURE__ */ createIcon("ScanDash28Filled", "28", ScanDash28FilledSvg);
+export const ScanDash28Regular = /** #__PURE__ */ createIcon("ScanDash28Regular", "28", ScanDash28RegularSvg);
+export const ScanDash32Filled = /** #__PURE__ */ createIcon("ScanDash32Filled", "32", ScanDash32FilledSvg);
+export const ScanDash32Regular = /** #__PURE__ */ createIcon("ScanDash32Regular", "32", ScanDash32RegularSvg);
+export const ScanDash48Filled = /** #__PURE__ */ createIcon("ScanDash48Filled", "48", ScanDash48FilledSvg);
+export const ScanDash48Regular = /** #__PURE__ */ createIcon("ScanDash48Regular", "48", ScanDash48RegularSvg);

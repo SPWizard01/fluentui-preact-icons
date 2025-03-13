@@ -5,9 +5,11 @@ import WeatherRain24RegularSvg from "@fluentui/svg-icons/icons/weather_rain_24_r
 import WeatherRain48FilledSvg from "@fluentui/svg-icons/icons/weather_rain_48_filled.svg" with { type: "text" }
 import WeatherRain48RegularSvg from "@fluentui/svg-icons/icons/weather_rain_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const WeatherRain20Filled = createIcon("WeatherRain20Filled", WeatherRain20FilledSvg);
-export const WeatherRain20Regular = createIcon("WeatherRain20Regular", WeatherRain20RegularSvg);
-export const WeatherRain24Filled = createIcon("WeatherRain24Filled", WeatherRain24FilledSvg);
-export const WeatherRain24Regular = createIcon("WeatherRain24Regular", WeatherRain24RegularSvg);
-export const WeatherRain48Filled = createIcon("WeatherRain48Filled", WeatherRain48FilledSvg);
-export const WeatherRain48Regular = createIcon("WeatherRain48Regular", WeatherRain48RegularSvg);
+export const WeatherRain20Filled = /** #__PURE__ */ createIcon("WeatherRain20Filled", "20", WeatherRain20FilledSvg);
+export const WeatherRainFilled = /** #__PURE__ */ createIcon("WeatherRainFilled", "1em", WeatherRain20FilledSvg);
+export const WeatherRain20Regular = /** #__PURE__ */ createIcon("WeatherRain20Regular", "20", WeatherRain20RegularSvg);
+export const WeatherRainRegular = /** #__PURE__ */ createIcon("WeatherRainRegular", "1em", WeatherRain20RegularSvg);
+export const WeatherRain24Filled = /** #__PURE__ */ createIcon("WeatherRain24Filled", "24", WeatherRain24FilledSvg);
+export const WeatherRain24Regular = /** #__PURE__ */ createIcon("WeatherRain24Regular", "24", WeatherRain24RegularSvg);
+export const WeatherRain48Filled = /** #__PURE__ */ createIcon("WeatherRain48Filled", "48", WeatherRain48FilledSvg);
+export const WeatherRain48Regular = /** #__PURE__ */ createIcon("WeatherRain48Regular", "48", WeatherRain48RegularSvg);

@@ -5,9 +5,11 @@ import DoubleTapSwipeDown20RegularSvg from "@fluentui/svg-icons/icons/double_tap
 import DoubleTapSwipeDown24FilledSvg from "@fluentui/svg-icons/icons/double_tap_swipe_down_24_filled.svg" with { type: "text" }
 import DoubleTapSwipeDown24RegularSvg from "@fluentui/svg-icons/icons/double_tap_swipe_down_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const DoubleTapSwipeDown16Filled = createIcon("DoubleTapSwipeDown16Filled", DoubleTapSwipeDown16FilledSvg);
-export const DoubleTapSwipeDown16Regular = createIcon("DoubleTapSwipeDown16Regular", DoubleTapSwipeDown16RegularSvg);
-export const DoubleTapSwipeDown20Filled = createIcon("DoubleTapSwipeDown20Filled", DoubleTapSwipeDown20FilledSvg);
-export const DoubleTapSwipeDown20Regular = createIcon("DoubleTapSwipeDown20Regular", DoubleTapSwipeDown20RegularSvg);
-export const DoubleTapSwipeDown24Filled = createIcon("DoubleTapSwipeDown24Filled", DoubleTapSwipeDown24FilledSvg);
-export const DoubleTapSwipeDown24Regular = createIcon("DoubleTapSwipeDown24Regular", DoubleTapSwipeDown24RegularSvg);
+export const DoubleTapSwipeDown16Filled = /** #__PURE__ */ createIcon("DoubleTapSwipeDown16Filled", "16", DoubleTapSwipeDown16FilledSvg);
+export const DoubleTapSwipeDown16Regular = /** #__PURE__ */ createIcon("DoubleTapSwipeDown16Regular", "16", DoubleTapSwipeDown16RegularSvg);
+export const DoubleTapSwipeDown20Filled = /** #__PURE__ */ createIcon("DoubleTapSwipeDown20Filled", "20", DoubleTapSwipeDown20FilledSvg);
+export const DoubleTapSwipeDownFilled = /** #__PURE__ */ createIcon("DoubleTapSwipeDownFilled", "1em", DoubleTapSwipeDown20FilledSvg);
+export const DoubleTapSwipeDown20Regular = /** #__PURE__ */ createIcon("DoubleTapSwipeDown20Regular", "20", DoubleTapSwipeDown20RegularSvg);
+export const DoubleTapSwipeDownRegular = /** #__PURE__ */ createIcon("DoubleTapSwipeDownRegular", "1em", DoubleTapSwipeDown20RegularSvg);
+export const DoubleTapSwipeDown24Filled = /** #__PURE__ */ createIcon("DoubleTapSwipeDown24Filled", "24", DoubleTapSwipeDown24FilledSvg);
+export const DoubleTapSwipeDown24Regular = /** #__PURE__ */ createIcon("DoubleTapSwipeDown24Regular", "24", DoubleTapSwipeDown24RegularSvg);

@@ -9,13 +9,15 @@ import RibbonOff24RegularSvg from "@fluentui/svg-icons/icons/ribbon_off_24_regul
 import RibbonOff32FilledSvg from "@fluentui/svg-icons/icons/ribbon_off_32_filled.svg" with { type: "text" }
 import RibbonOff32RegularSvg from "@fluentui/svg-icons/icons/ribbon_off_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const RibbonOff12Filled = createIcon("RibbonOff12Filled", RibbonOff12FilledSvg);
-export const RibbonOff12Regular = createIcon("RibbonOff12Regular", RibbonOff12RegularSvg);
-export const RibbonOff16Filled = createIcon("RibbonOff16Filled", RibbonOff16FilledSvg);
-export const RibbonOff16Regular = createIcon("RibbonOff16Regular", RibbonOff16RegularSvg);
-export const RibbonOff20Filled = createIcon("RibbonOff20Filled", RibbonOff20FilledSvg);
-export const RibbonOff20Regular = createIcon("RibbonOff20Regular", RibbonOff20RegularSvg);
-export const RibbonOff24Filled = createIcon("RibbonOff24Filled", RibbonOff24FilledSvg);
-export const RibbonOff24Regular = createIcon("RibbonOff24Regular", RibbonOff24RegularSvg);
-export const RibbonOff32Filled = createIcon("RibbonOff32Filled", RibbonOff32FilledSvg);
-export const RibbonOff32Regular = createIcon("RibbonOff32Regular", RibbonOff32RegularSvg);
+export const RibbonOff12Filled = /** #__PURE__ */ createIcon("RibbonOff12Filled", "12", RibbonOff12FilledSvg);
+export const RibbonOff12Regular = /** #__PURE__ */ createIcon("RibbonOff12Regular", "12", RibbonOff12RegularSvg);
+export const RibbonOff16Filled = /** #__PURE__ */ createIcon("RibbonOff16Filled", "16", RibbonOff16FilledSvg);
+export const RibbonOff16Regular = /** #__PURE__ */ createIcon("RibbonOff16Regular", "16", RibbonOff16RegularSvg);
+export const RibbonOff20Filled = /** #__PURE__ */ createIcon("RibbonOff20Filled", "20", RibbonOff20FilledSvg);
+export const RibbonOffFilled = /** #__PURE__ */ createIcon("RibbonOffFilled", "1em", RibbonOff20FilledSvg);
+export const RibbonOff20Regular = /** #__PURE__ */ createIcon("RibbonOff20Regular", "20", RibbonOff20RegularSvg);
+export const RibbonOffRegular = /** #__PURE__ */ createIcon("RibbonOffRegular", "1em", RibbonOff20RegularSvg);
+export const RibbonOff24Filled = /** #__PURE__ */ createIcon("RibbonOff24Filled", "24", RibbonOff24FilledSvg);
+export const RibbonOff24Regular = /** #__PURE__ */ createIcon("RibbonOff24Regular", "24", RibbonOff24RegularSvg);
+export const RibbonOff32Filled = /** #__PURE__ */ createIcon("RibbonOff32Filled", "32", RibbonOff32FilledSvg);
+export const RibbonOff32Regular = /** #__PURE__ */ createIcon("RibbonOff32Regular", "32", RibbonOff32RegularSvg);

@@ -11,15 +11,17 @@ import AlignCenterHorizontal32RegularSvg from "@fluentui/svg-icons/icons/align_c
 import AlignCenterHorizontal48FilledSvg from "@fluentui/svg-icons/icons/align_center_horizontal_48_filled.svg" with { type: "text" }
 import AlignCenterHorizontal48RegularSvg from "@fluentui/svg-icons/icons/align_center_horizontal_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const AlignCenterHorizontal16Filled = createIcon("AlignCenterHorizontal16Filled", AlignCenterHorizontal16FilledSvg);
-export const AlignCenterHorizontal16Regular = createIcon("AlignCenterHorizontal16Regular", AlignCenterHorizontal16RegularSvg);
-export const AlignCenterHorizontal20Filled = createIcon("AlignCenterHorizontal20Filled", AlignCenterHorizontal20FilledSvg);
-export const AlignCenterHorizontal20Regular = createIcon("AlignCenterHorizontal20Regular", AlignCenterHorizontal20RegularSvg);
-export const AlignCenterHorizontal24Filled = createIcon("AlignCenterHorizontal24Filled", AlignCenterHorizontal24FilledSvg);
-export const AlignCenterHorizontal24Regular = createIcon("AlignCenterHorizontal24Regular", AlignCenterHorizontal24RegularSvg);
-export const AlignCenterHorizontal28Filled = createIcon("AlignCenterHorizontal28Filled", AlignCenterHorizontal28FilledSvg);
-export const AlignCenterHorizontal28Regular = createIcon("AlignCenterHorizontal28Regular", AlignCenterHorizontal28RegularSvg);
-export const AlignCenterHorizontal32Filled = createIcon("AlignCenterHorizontal32Filled", AlignCenterHorizontal32FilledSvg);
-export const AlignCenterHorizontal32Regular = createIcon("AlignCenterHorizontal32Regular", AlignCenterHorizontal32RegularSvg);
-export const AlignCenterHorizontal48Filled = createIcon("AlignCenterHorizontal48Filled", AlignCenterHorizontal48FilledSvg);
-export const AlignCenterHorizontal48Regular = createIcon("AlignCenterHorizontal48Regular", AlignCenterHorizontal48RegularSvg);
+export const AlignCenterHorizontal16Filled = /** #__PURE__ */ createIcon("AlignCenterHorizontal16Filled", "16", AlignCenterHorizontal16FilledSvg);
+export const AlignCenterHorizontal16Regular = /** #__PURE__ */ createIcon("AlignCenterHorizontal16Regular", "16", AlignCenterHorizontal16RegularSvg);
+export const AlignCenterHorizontal20Filled = /** #__PURE__ */ createIcon("AlignCenterHorizontal20Filled", "20", AlignCenterHorizontal20FilledSvg);
+export const AlignCenterHorizontalFilled = /** #__PURE__ */ createIcon("AlignCenterHorizontalFilled", "1em", AlignCenterHorizontal20FilledSvg);
+export const AlignCenterHorizontal20Regular = /** #__PURE__ */ createIcon("AlignCenterHorizontal20Regular", "20", AlignCenterHorizontal20RegularSvg);
+export const AlignCenterHorizontalRegular = /** #__PURE__ */ createIcon("AlignCenterHorizontalRegular", "1em", AlignCenterHorizontal20RegularSvg);
+export const AlignCenterHorizontal24Filled = /** #__PURE__ */ createIcon("AlignCenterHorizontal24Filled", "24", AlignCenterHorizontal24FilledSvg);
+export const AlignCenterHorizontal24Regular = /** #__PURE__ */ createIcon("AlignCenterHorizontal24Regular", "24", AlignCenterHorizontal24RegularSvg);
+export const AlignCenterHorizontal28Filled = /** #__PURE__ */ createIcon("AlignCenterHorizontal28Filled", "28", AlignCenterHorizontal28FilledSvg);
+export const AlignCenterHorizontal28Regular = /** #__PURE__ */ createIcon("AlignCenterHorizontal28Regular", "28", AlignCenterHorizontal28RegularSvg);
+export const AlignCenterHorizontal32Filled = /** #__PURE__ */ createIcon("AlignCenterHorizontal32Filled", "32", AlignCenterHorizontal32FilledSvg);
+export const AlignCenterHorizontal32Regular = /** #__PURE__ */ createIcon("AlignCenterHorizontal32Regular", "32", AlignCenterHorizontal32RegularSvg);
+export const AlignCenterHorizontal48Filled = /** #__PURE__ */ createIcon("AlignCenterHorizontal48Filled", "48", AlignCenterHorizontal48FilledSvg);
+export const AlignCenterHorizontal48Regular = /** #__PURE__ */ createIcon("AlignCenterHorizontal48Regular", "48", AlignCenterHorizontal48RegularSvg);

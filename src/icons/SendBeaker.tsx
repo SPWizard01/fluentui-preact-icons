@@ -11,15 +11,17 @@ import SendBeaker32RegularSvg from "@fluentui/svg-icons/icons/send_beaker_32_reg
 import SendBeaker48FilledSvg from "@fluentui/svg-icons/icons/send_beaker_48_filled.svg" with { type: "text" }
 import SendBeaker48RegularSvg from "@fluentui/svg-icons/icons/send_beaker_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const SendBeaker16Filled = createIcon("SendBeaker16Filled", SendBeaker16FilledSvg);
-export const SendBeaker16Regular = createIcon("SendBeaker16Regular", SendBeaker16RegularSvg);
-export const SendBeaker20Filled = createIcon("SendBeaker20Filled", SendBeaker20FilledSvg);
-export const SendBeaker20Regular = createIcon("SendBeaker20Regular", SendBeaker20RegularSvg);
-export const SendBeaker24Filled = createIcon("SendBeaker24Filled", SendBeaker24FilledSvg);
-export const SendBeaker24Regular = createIcon("SendBeaker24Regular", SendBeaker24RegularSvg);
-export const SendBeaker28Filled = createIcon("SendBeaker28Filled", SendBeaker28FilledSvg);
-export const SendBeaker28Regular = createIcon("SendBeaker28Regular", SendBeaker28RegularSvg);
-export const SendBeaker32Filled = createIcon("SendBeaker32Filled", SendBeaker32FilledSvg);
-export const SendBeaker32Regular = createIcon("SendBeaker32Regular", SendBeaker32RegularSvg);
-export const SendBeaker48Filled = createIcon("SendBeaker48Filled", SendBeaker48FilledSvg);
-export const SendBeaker48Regular = createIcon("SendBeaker48Regular", SendBeaker48RegularSvg);
+export const SendBeaker16Filled = /** #__PURE__ */ createIcon("SendBeaker16Filled", "16", SendBeaker16FilledSvg);
+export const SendBeaker16Regular = /** #__PURE__ */ createIcon("SendBeaker16Regular", "16", SendBeaker16RegularSvg);
+export const SendBeaker20Filled = /** #__PURE__ */ createIcon("SendBeaker20Filled", "20", SendBeaker20FilledSvg);
+export const SendBeakerFilled = /** #__PURE__ */ createIcon("SendBeakerFilled", "1em", SendBeaker20FilledSvg);
+export const SendBeaker20Regular = /** #__PURE__ */ createIcon("SendBeaker20Regular", "20", SendBeaker20RegularSvg);
+export const SendBeakerRegular = /** #__PURE__ */ createIcon("SendBeakerRegular", "1em", SendBeaker20RegularSvg);
+export const SendBeaker24Filled = /** #__PURE__ */ createIcon("SendBeaker24Filled", "24", SendBeaker24FilledSvg);
+export const SendBeaker24Regular = /** #__PURE__ */ createIcon("SendBeaker24Regular", "24", SendBeaker24RegularSvg);
+export const SendBeaker28Filled = /** #__PURE__ */ createIcon("SendBeaker28Filled", "28", SendBeaker28FilledSvg);
+export const SendBeaker28Regular = /** #__PURE__ */ createIcon("SendBeaker28Regular", "28", SendBeaker28RegularSvg);
+export const SendBeaker32Filled = /** #__PURE__ */ createIcon("SendBeaker32Filled", "32", SendBeaker32FilledSvg);
+export const SendBeaker32Regular = /** #__PURE__ */ createIcon("SendBeaker32Regular", "32", SendBeaker32RegularSvg);
+export const SendBeaker48Filled = /** #__PURE__ */ createIcon("SendBeaker48Filled", "48", SendBeaker48FilledSvg);
+export const SendBeaker48Regular = /** #__PURE__ */ createIcon("SendBeaker48Regular", "48", SendBeaker48RegularSvg);

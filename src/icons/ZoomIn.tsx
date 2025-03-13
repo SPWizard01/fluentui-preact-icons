@@ -6,10 +6,12 @@ import ZoomIn24FilledSvg from "@fluentui/svg-icons/icons/zoom_in_24_filled.svg" 
 import ZoomIn24RegularSvg from "@fluentui/svg-icons/icons/zoom_in_24_regular.svg" with { type: "text" }
 import ZoomIn32LightSvg from "@fluentui/svg-icons/icons/zoom_in_32_light.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ZoomIn16Filled = createIcon("ZoomIn16Filled", ZoomIn16FilledSvg);
-export const ZoomIn16Regular = createIcon("ZoomIn16Regular", ZoomIn16RegularSvg);
-export const ZoomIn20Filled = createIcon("ZoomIn20Filled", ZoomIn20FilledSvg);
-export const ZoomIn20Regular = createIcon("ZoomIn20Regular", ZoomIn20RegularSvg);
-export const ZoomIn24Filled = createIcon("ZoomIn24Filled", ZoomIn24FilledSvg);
-export const ZoomIn24Regular = createIcon("ZoomIn24Regular", ZoomIn24RegularSvg);
-export const ZoomIn32Light = createIcon("ZoomIn32Light", ZoomIn32LightSvg);
+export const ZoomIn16Filled = /** #__PURE__ */ createIcon("ZoomIn16Filled", "16", ZoomIn16FilledSvg);
+export const ZoomIn16Regular = /** #__PURE__ */ createIcon("ZoomIn16Regular", "16", ZoomIn16RegularSvg);
+export const ZoomIn20Filled = /** #__PURE__ */ createIcon("ZoomIn20Filled", "20", ZoomIn20FilledSvg);
+export const ZoomInFilled = /** #__PURE__ */ createIcon("ZoomInFilled", "1em", ZoomIn20FilledSvg);
+export const ZoomIn20Regular = /** #__PURE__ */ createIcon("ZoomIn20Regular", "20", ZoomIn20RegularSvg);
+export const ZoomInRegular = /** #__PURE__ */ createIcon("ZoomInRegular", "1em", ZoomIn20RegularSvg);
+export const ZoomIn24Filled = /** #__PURE__ */ createIcon("ZoomIn24Filled", "24", ZoomIn24FilledSvg);
+export const ZoomIn24Regular = /** #__PURE__ */ createIcon("ZoomIn24Regular", "24", ZoomIn24RegularSvg);
+export const ZoomIn32Light = /** #__PURE__ */ createIcon("ZoomIn32Light", "32", ZoomIn32LightSvg);

@@ -5,9 +5,10 @@ import FlagPride28FilledSvg from "@fluentui/svg-icons/icons/flag_pride_28_filled
 import FlagPride32FilledSvg from "@fluentui/svg-icons/icons/flag_pride_32_filled.svg" with { type: "text" }
 import FlagPride48FilledSvg from "@fluentui/svg-icons/icons/flag_pride_48_filled.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const FlagPride16Filled = createIcon("FlagPride16Filled", FlagPride16FilledSvg);
-export const FlagPride20Filled = createIcon("FlagPride20Filled", FlagPride20FilledSvg);
-export const FlagPride24Filled = createIcon("FlagPride24Filled", FlagPride24FilledSvg);
-export const FlagPride28Filled = createIcon("FlagPride28Filled", FlagPride28FilledSvg);
-export const FlagPride32Filled = createIcon("FlagPride32Filled", FlagPride32FilledSvg);
-export const FlagPride48Filled = createIcon("FlagPride48Filled", FlagPride48FilledSvg);
+export const FlagPride16Filled = /** #__PURE__ */ createIcon("FlagPride16Filled", "16", FlagPride16FilledSvg);
+export const FlagPride20Filled = /** #__PURE__ */ createIcon("FlagPride20Filled", "20", FlagPride20FilledSvg);
+export const FlagPrideFilled = /** #__PURE__ */ createIcon("FlagPrideFilled", "1em", FlagPride20FilledSvg);
+export const FlagPride24Filled = /** #__PURE__ */ createIcon("FlagPride24Filled", "24", FlagPride24FilledSvg);
+export const FlagPride28Filled = /** #__PURE__ */ createIcon("FlagPride28Filled", "28", FlagPride28FilledSvg);
+export const FlagPride32Filled = /** #__PURE__ */ createIcon("FlagPride32Filled", "32", FlagPride32FilledSvg);
+export const FlagPride48Filled = /** #__PURE__ */ createIcon("FlagPride48Filled", "48", FlagPride48FilledSvg);

@@ -17,21 +17,24 @@ import Toolbox32FilledSvg from "@fluentui/svg-icons/icons/toolbox_32_filled.svg"
 import Toolbox32LightSvg from "@fluentui/svg-icons/icons/toolbox_32_light.svg" with { type: "text" }
 import Toolbox32RegularSvg from "@fluentui/svg-icons/icons/toolbox_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Toolbox12Filled = createIcon("Toolbox12Filled", Toolbox12FilledSvg);
-export const Toolbox12Regular = createIcon("Toolbox12Regular", Toolbox12RegularSvg);
-export const Toolbox16Color = createIcon("Toolbox16Color", Toolbox16ColorSvg);
-export const Toolbox16Filled = createIcon("Toolbox16Filled", Toolbox16FilledSvg);
-export const Toolbox16Regular = createIcon("Toolbox16Regular", Toolbox16RegularSvg);
-export const Toolbox20Color = createIcon("Toolbox20Color", Toolbox20ColorSvg);
-export const Toolbox20Filled = createIcon("Toolbox20Filled", Toolbox20FilledSvg);
-export const Toolbox20Regular = createIcon("Toolbox20Regular", Toolbox20RegularSvg);
-export const Toolbox24Color = createIcon("Toolbox24Color", Toolbox24ColorSvg);
-export const Toolbox24Filled = createIcon("Toolbox24Filled", Toolbox24FilledSvg);
-export const Toolbox24Regular = createIcon("Toolbox24Regular", Toolbox24RegularSvg);
-export const Toolbox28Color = createIcon("Toolbox28Color", Toolbox28ColorSvg);
-export const Toolbox28Filled = createIcon("Toolbox28Filled", Toolbox28FilledSvg);
-export const Toolbox28Regular = createIcon("Toolbox28Regular", Toolbox28RegularSvg);
-export const Toolbox32Color = createIcon("Toolbox32Color", Toolbox32ColorSvg);
-export const Toolbox32Filled = createIcon("Toolbox32Filled", Toolbox32FilledSvg);
-export const Toolbox32Light = createIcon("Toolbox32Light", Toolbox32LightSvg);
-export const Toolbox32Regular = createIcon("Toolbox32Regular", Toolbox32RegularSvg);
+export const Toolbox12Filled = /** #__PURE__ */ createIcon("Toolbox12Filled", "12", Toolbox12FilledSvg);
+export const Toolbox12Regular = /** #__PURE__ */ createIcon("Toolbox12Regular", "12", Toolbox12RegularSvg);
+export const Toolbox16Color = /** #__PURE__ */ createIcon("Toolbox16Color", "16", Toolbox16ColorSvg);
+export const Toolbox16Filled = /** #__PURE__ */ createIcon("Toolbox16Filled", "16", Toolbox16FilledSvg);
+export const Toolbox16Regular = /** #__PURE__ */ createIcon("Toolbox16Regular", "16", Toolbox16RegularSvg);
+export const Toolbox20Color = /** #__PURE__ */ createIcon("Toolbox20Color", "20", Toolbox20ColorSvg);
+export const ToolboxColor = /** #__PURE__ */ createIcon("ToolboxColor", "1em", Toolbox20ColorSvg);
+export const Toolbox20Filled = /** #__PURE__ */ createIcon("Toolbox20Filled", "20", Toolbox20FilledSvg);
+export const ToolboxFilled = /** #__PURE__ */ createIcon("ToolboxFilled", "1em", Toolbox20FilledSvg);
+export const Toolbox20Regular = /** #__PURE__ */ createIcon("Toolbox20Regular", "20", Toolbox20RegularSvg);
+export const ToolboxRegular = /** #__PURE__ */ createIcon("ToolboxRegular", "1em", Toolbox20RegularSvg);
+export const Toolbox24Color = /** #__PURE__ */ createIcon("Toolbox24Color", "24", Toolbox24ColorSvg);
+export const Toolbox24Filled = /** #__PURE__ */ createIcon("Toolbox24Filled", "24", Toolbox24FilledSvg);
+export const Toolbox24Regular = /** #__PURE__ */ createIcon("Toolbox24Regular", "24", Toolbox24RegularSvg);
+export const Toolbox28Color = /** #__PURE__ */ createIcon("Toolbox28Color", "28", Toolbox28ColorSvg);
+export const Toolbox28Filled = /** #__PURE__ */ createIcon("Toolbox28Filled", "28", Toolbox28FilledSvg);
+export const Toolbox28Regular = /** #__PURE__ */ createIcon("Toolbox28Regular", "28", Toolbox28RegularSvg);
+export const Toolbox32Color = /** #__PURE__ */ createIcon("Toolbox32Color", "32", Toolbox32ColorSvg);
+export const Toolbox32Filled = /** #__PURE__ */ createIcon("Toolbox32Filled", "32", Toolbox32FilledSvg);
+export const Toolbox32Light = /** #__PURE__ */ createIcon("Toolbox32Light", "32", Toolbox32LightSvg);
+export const Toolbox32Regular = /** #__PURE__ */ createIcon("Toolbox32Regular", "32", Toolbox32RegularSvg);

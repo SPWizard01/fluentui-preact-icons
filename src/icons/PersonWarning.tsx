@@ -17,21 +17,24 @@ import PersonWarning48ColorSvg from "@fluentui/svg-icons/icons/person_warning_48
 import PersonWarning48FilledSvg from "@fluentui/svg-icons/icons/person_warning_48_filled.svg" with { type: "text" }
 import PersonWarning48RegularSvg from "@fluentui/svg-icons/icons/person_warning_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PersonWarning16Color = createIcon("PersonWarning16Color", PersonWarning16ColorSvg);
-export const PersonWarning16Filled = createIcon("PersonWarning16Filled", PersonWarning16FilledSvg);
-export const PersonWarning16Regular = createIcon("PersonWarning16Regular", PersonWarning16RegularSvg);
-export const PersonWarning20Color = createIcon("PersonWarning20Color", PersonWarning20ColorSvg);
-export const PersonWarning20Filled = createIcon("PersonWarning20Filled", PersonWarning20FilledSvg);
-export const PersonWarning20Regular = createIcon("PersonWarning20Regular", PersonWarning20RegularSvg);
-export const PersonWarning24Color = createIcon("PersonWarning24Color", PersonWarning24ColorSvg);
-export const PersonWarning24Filled = createIcon("PersonWarning24Filled", PersonWarning24FilledSvg);
-export const PersonWarning24Regular = createIcon("PersonWarning24Regular", PersonWarning24RegularSvg);
-export const PersonWarning28Color = createIcon("PersonWarning28Color", PersonWarning28ColorSvg);
-export const PersonWarning28Filled = createIcon("PersonWarning28Filled", PersonWarning28FilledSvg);
-export const PersonWarning28Regular = createIcon("PersonWarning28Regular", PersonWarning28RegularSvg);
-export const PersonWarning32Color = createIcon("PersonWarning32Color", PersonWarning32ColorSvg);
-export const PersonWarning32Filled = createIcon("PersonWarning32Filled", PersonWarning32FilledSvg);
-export const PersonWarning32Regular = createIcon("PersonWarning32Regular", PersonWarning32RegularSvg);
-export const PersonWarning48Color = createIcon("PersonWarning48Color", PersonWarning48ColorSvg);
-export const PersonWarning48Filled = createIcon("PersonWarning48Filled", PersonWarning48FilledSvg);
-export const PersonWarning48Regular = createIcon("PersonWarning48Regular", PersonWarning48RegularSvg);
+export const PersonWarning16Color = /** #__PURE__ */ createIcon("PersonWarning16Color", "16", PersonWarning16ColorSvg);
+export const PersonWarning16Filled = /** #__PURE__ */ createIcon("PersonWarning16Filled", "16", PersonWarning16FilledSvg);
+export const PersonWarning16Regular = /** #__PURE__ */ createIcon("PersonWarning16Regular", "16", PersonWarning16RegularSvg);
+export const PersonWarning20Color = /** #__PURE__ */ createIcon("PersonWarning20Color", "20", PersonWarning20ColorSvg);
+export const PersonWarningColor = /** #__PURE__ */ createIcon("PersonWarningColor", "1em", PersonWarning20ColorSvg);
+export const PersonWarning20Filled = /** #__PURE__ */ createIcon("PersonWarning20Filled", "20", PersonWarning20FilledSvg);
+export const PersonWarningFilled = /** #__PURE__ */ createIcon("PersonWarningFilled", "1em", PersonWarning20FilledSvg);
+export const PersonWarning20Regular = /** #__PURE__ */ createIcon("PersonWarning20Regular", "20", PersonWarning20RegularSvg);
+export const PersonWarningRegular = /** #__PURE__ */ createIcon("PersonWarningRegular", "1em", PersonWarning20RegularSvg);
+export const PersonWarning24Color = /** #__PURE__ */ createIcon("PersonWarning24Color", "24", PersonWarning24ColorSvg);
+export const PersonWarning24Filled = /** #__PURE__ */ createIcon("PersonWarning24Filled", "24", PersonWarning24FilledSvg);
+export const PersonWarning24Regular = /** #__PURE__ */ createIcon("PersonWarning24Regular", "24", PersonWarning24RegularSvg);
+export const PersonWarning28Color = /** #__PURE__ */ createIcon("PersonWarning28Color", "28", PersonWarning28ColorSvg);
+export const PersonWarning28Filled = /** #__PURE__ */ createIcon("PersonWarning28Filled", "28", PersonWarning28FilledSvg);
+export const PersonWarning28Regular = /** #__PURE__ */ createIcon("PersonWarning28Regular", "28", PersonWarning28RegularSvg);
+export const PersonWarning32Color = /** #__PURE__ */ createIcon("PersonWarning32Color", "32", PersonWarning32ColorSvg);
+export const PersonWarning32Filled = /** #__PURE__ */ createIcon("PersonWarning32Filled", "32", PersonWarning32FilledSvg);
+export const PersonWarning32Regular = /** #__PURE__ */ createIcon("PersonWarning32Regular", "32", PersonWarning32RegularSvg);
+export const PersonWarning48Color = /** #__PURE__ */ createIcon("PersonWarning48Color", "48", PersonWarning48ColorSvg);
+export const PersonWarning48Filled = /** #__PURE__ */ createIcon("PersonWarning48Filled", "48", PersonWarning48FilledSvg);
+export const PersonWarning48Regular = /** #__PURE__ */ createIcon("PersonWarning48Regular", "48", PersonWarning48RegularSvg);

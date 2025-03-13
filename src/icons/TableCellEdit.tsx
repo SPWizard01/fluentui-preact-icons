@@ -7,11 +7,13 @@ import TableCellEdit24RegularSvg from "@fluentui/svg-icons/icons/table_cell_edit
 import TableCellEdit28FilledSvg from "@fluentui/svg-icons/icons/table_cell_edit_28_filled.svg" with { type: "text" }
 import TableCellEdit28RegularSvg from "@fluentui/svg-icons/icons/table_cell_edit_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TableCellEdit16Filled = createIcon("TableCellEdit16Filled", TableCellEdit16FilledSvg);
-export const TableCellEdit16Regular = createIcon("TableCellEdit16Regular", TableCellEdit16RegularSvg);
-export const TableCellEdit20Filled = createIcon("TableCellEdit20Filled", TableCellEdit20FilledSvg);
-export const TableCellEdit20Regular = createIcon("TableCellEdit20Regular", TableCellEdit20RegularSvg);
-export const TableCellEdit24Filled = createIcon("TableCellEdit24Filled", TableCellEdit24FilledSvg);
-export const TableCellEdit24Regular = createIcon("TableCellEdit24Regular", TableCellEdit24RegularSvg);
-export const TableCellEdit28Filled = createIcon("TableCellEdit28Filled", TableCellEdit28FilledSvg);
-export const TableCellEdit28Regular = createIcon("TableCellEdit28Regular", TableCellEdit28RegularSvg);
+export const TableCellEdit16Filled = /** #__PURE__ */ createIcon("TableCellEdit16Filled", "16", TableCellEdit16FilledSvg);
+export const TableCellEdit16Regular = /** #__PURE__ */ createIcon("TableCellEdit16Regular", "16", TableCellEdit16RegularSvg);
+export const TableCellEdit20Filled = /** #__PURE__ */ createIcon("TableCellEdit20Filled", "20", TableCellEdit20FilledSvg);
+export const TableCellEditFilled = /** #__PURE__ */ createIcon("TableCellEditFilled", "1em", TableCellEdit20FilledSvg);
+export const TableCellEdit20Regular = /** #__PURE__ */ createIcon("TableCellEdit20Regular", "20", TableCellEdit20RegularSvg);
+export const TableCellEditRegular = /** #__PURE__ */ createIcon("TableCellEditRegular", "1em", TableCellEdit20RegularSvg);
+export const TableCellEdit24Filled = /** #__PURE__ */ createIcon("TableCellEdit24Filled", "24", TableCellEdit24FilledSvg);
+export const TableCellEdit24Regular = /** #__PURE__ */ createIcon("TableCellEdit24Regular", "24", TableCellEdit24RegularSvg);
+export const TableCellEdit28Filled = /** #__PURE__ */ createIcon("TableCellEdit28Filled", "28", TableCellEdit28FilledSvg);
+export const TableCellEdit28Regular = /** #__PURE__ */ createIcon("TableCellEdit28Regular", "28", TableCellEdit28RegularSvg);

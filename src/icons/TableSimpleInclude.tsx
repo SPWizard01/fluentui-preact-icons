@@ -11,15 +11,17 @@ import TableSimpleInclude32RegularSvg from "@fluentui/svg-icons/icons/table_simp
 import TableSimpleInclude48FilledSvg from "@fluentui/svg-icons/icons/table_simple_include_48_filled.svg" with { type: "text" }
 import TableSimpleInclude48RegularSvg from "@fluentui/svg-icons/icons/table_simple_include_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TableSimpleInclude16Filled = createIcon("TableSimpleInclude16Filled", TableSimpleInclude16FilledSvg);
-export const TableSimpleInclude16Regular = createIcon("TableSimpleInclude16Regular", TableSimpleInclude16RegularSvg);
-export const TableSimpleInclude20Filled = createIcon("TableSimpleInclude20Filled", TableSimpleInclude20FilledSvg);
-export const TableSimpleInclude20Regular = createIcon("TableSimpleInclude20Regular", TableSimpleInclude20RegularSvg);
-export const TableSimpleInclude24Filled = createIcon("TableSimpleInclude24Filled", TableSimpleInclude24FilledSvg);
-export const TableSimpleInclude24Regular = createIcon("TableSimpleInclude24Regular", TableSimpleInclude24RegularSvg);
-export const TableSimpleInclude28Filled = createIcon("TableSimpleInclude28Filled", TableSimpleInclude28FilledSvg);
-export const TableSimpleInclude28Regular = createIcon("TableSimpleInclude28Regular", TableSimpleInclude28RegularSvg);
-export const TableSimpleInclude32Filled = createIcon("TableSimpleInclude32Filled", TableSimpleInclude32FilledSvg);
-export const TableSimpleInclude32Regular = createIcon("TableSimpleInclude32Regular", TableSimpleInclude32RegularSvg);
-export const TableSimpleInclude48Filled = createIcon("TableSimpleInclude48Filled", TableSimpleInclude48FilledSvg);
-export const TableSimpleInclude48Regular = createIcon("TableSimpleInclude48Regular", TableSimpleInclude48RegularSvg);
+export const TableSimpleInclude16Filled = /** #__PURE__ */ createIcon("TableSimpleInclude16Filled", "16", TableSimpleInclude16FilledSvg);
+export const TableSimpleInclude16Regular = /** #__PURE__ */ createIcon("TableSimpleInclude16Regular", "16", TableSimpleInclude16RegularSvg);
+export const TableSimpleInclude20Filled = /** #__PURE__ */ createIcon("TableSimpleInclude20Filled", "20", TableSimpleInclude20FilledSvg);
+export const TableSimpleIncludeFilled = /** #__PURE__ */ createIcon("TableSimpleIncludeFilled", "1em", TableSimpleInclude20FilledSvg);
+export const TableSimpleInclude20Regular = /** #__PURE__ */ createIcon("TableSimpleInclude20Regular", "20", TableSimpleInclude20RegularSvg);
+export const TableSimpleIncludeRegular = /** #__PURE__ */ createIcon("TableSimpleIncludeRegular", "1em", TableSimpleInclude20RegularSvg);
+export const TableSimpleInclude24Filled = /** #__PURE__ */ createIcon("TableSimpleInclude24Filled", "24", TableSimpleInclude24FilledSvg);
+export const TableSimpleInclude24Regular = /** #__PURE__ */ createIcon("TableSimpleInclude24Regular", "24", TableSimpleInclude24RegularSvg);
+export const TableSimpleInclude28Filled = /** #__PURE__ */ createIcon("TableSimpleInclude28Filled", "28", TableSimpleInclude28FilledSvg);
+export const TableSimpleInclude28Regular = /** #__PURE__ */ createIcon("TableSimpleInclude28Regular", "28", TableSimpleInclude28RegularSvg);
+export const TableSimpleInclude32Filled = /** #__PURE__ */ createIcon("TableSimpleInclude32Filled", "32", TableSimpleInclude32FilledSvg);
+export const TableSimpleInclude32Regular = /** #__PURE__ */ createIcon("TableSimpleInclude32Regular", "32", TableSimpleInclude32RegularSvg);
+export const TableSimpleInclude48Filled = /** #__PURE__ */ createIcon("TableSimpleInclude48Filled", "48", TableSimpleInclude48FilledSvg);
+export const TableSimpleInclude48Regular = /** #__PURE__ */ createIcon("TableSimpleInclude48Regular", "48", TableSimpleInclude48RegularSvg);

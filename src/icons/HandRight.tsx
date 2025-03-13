@@ -7,11 +7,13 @@ import HandRight24RegularSvg from "@fluentui/svg-icons/icons/hand_right_24_regul
 import HandRight28FilledSvg from "@fluentui/svg-icons/icons/hand_right_28_filled.svg" with { type: "text" }
 import HandRight28RegularSvg from "@fluentui/svg-icons/icons/hand_right_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const HandRight16Filled = createIcon("HandRight16Filled", HandRight16FilledSvg);
-export const HandRight16Regular = createIcon("HandRight16Regular", HandRight16RegularSvg);
-export const HandRight20Filled = createIcon("HandRight20Filled", HandRight20FilledSvg);
-export const HandRight20Regular = createIcon("HandRight20Regular", HandRight20RegularSvg);
-export const HandRight24Filled = createIcon("HandRight24Filled", HandRight24FilledSvg);
-export const HandRight24Regular = createIcon("HandRight24Regular", HandRight24RegularSvg);
-export const HandRight28Filled = createIcon("HandRight28Filled", HandRight28FilledSvg);
-export const HandRight28Regular = createIcon("HandRight28Regular", HandRight28RegularSvg);
+export const HandRight16Filled = /** #__PURE__ */ createIcon("HandRight16Filled", "16", HandRight16FilledSvg);
+export const HandRight16Regular = /** #__PURE__ */ createIcon("HandRight16Regular", "16", HandRight16RegularSvg);
+export const HandRight20Filled = /** #__PURE__ */ createIcon("HandRight20Filled", "20", HandRight20FilledSvg);
+export const HandRightFilled = /** #__PURE__ */ createIcon("HandRightFilled", "1em", HandRight20FilledSvg);
+export const HandRight20Regular = /** #__PURE__ */ createIcon("HandRight20Regular", "20", HandRight20RegularSvg);
+export const HandRightRegular = /** #__PURE__ */ createIcon("HandRightRegular", "1em", HandRight20RegularSvg);
+export const HandRight24Filled = /** #__PURE__ */ createIcon("HandRight24Filled", "24", HandRight24FilledSvg);
+export const HandRight24Regular = /** #__PURE__ */ createIcon("HandRight24Regular", "24", HandRight24RegularSvg);
+export const HandRight28Filled = /** #__PURE__ */ createIcon("HandRight28Filled", "28", HandRight28FilledSvg);
+export const HandRight28Regular = /** #__PURE__ */ createIcon("HandRight28Regular", "28", HandRight28RegularSvg);

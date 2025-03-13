@@ -18,22 +18,25 @@ import Molecule48ColorSvg from "@fluentui/svg-icons/icons/molecule_48_color.svg"
 import Molecule48FilledSvg from "@fluentui/svg-icons/icons/molecule_48_filled.svg" with { type: "text" }
 import Molecule48RegularSvg from "@fluentui/svg-icons/icons/molecule_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Molecule16Color = createIcon("Molecule16Color", Molecule16ColorSvg);
-export const Molecule16Filled = createIcon("Molecule16Filled", Molecule16FilledSvg);
-export const Molecule16Regular = createIcon("Molecule16Regular", Molecule16RegularSvg);
-export const Molecule20Color = createIcon("Molecule20Color", Molecule20ColorSvg);
-export const Molecule20Filled = createIcon("Molecule20Filled", Molecule20FilledSvg);
-export const Molecule20Regular = createIcon("Molecule20Regular", Molecule20RegularSvg);
-export const Molecule24Color = createIcon("Molecule24Color", Molecule24ColorSvg);
-export const Molecule24Filled = createIcon("Molecule24Filled", Molecule24FilledSvg);
-export const Molecule24Regular = createIcon("Molecule24Regular", Molecule24RegularSvg);
-export const Molecule28Color = createIcon("Molecule28Color", Molecule28ColorSvg);
-export const Molecule28Filled = createIcon("Molecule28Filled", Molecule28FilledSvg);
-export const Molecule28Regular = createIcon("Molecule28Regular", Molecule28RegularSvg);
-export const Molecule32Color = createIcon("Molecule32Color", Molecule32ColorSvg);
-export const Molecule32Filled = createIcon("Molecule32Filled", Molecule32FilledSvg);
-export const Molecule32Light = createIcon("Molecule32Light", Molecule32LightSvg);
-export const Molecule32Regular = createIcon("Molecule32Regular", Molecule32RegularSvg);
-export const Molecule48Color = createIcon("Molecule48Color", Molecule48ColorSvg);
-export const Molecule48Filled = createIcon("Molecule48Filled", Molecule48FilledSvg);
-export const Molecule48Regular = createIcon("Molecule48Regular", Molecule48RegularSvg);
+export const Molecule16Color = /** #__PURE__ */ createIcon("Molecule16Color", "16", Molecule16ColorSvg);
+export const Molecule16Filled = /** #__PURE__ */ createIcon("Molecule16Filled", "16", Molecule16FilledSvg);
+export const Molecule16Regular = /** #__PURE__ */ createIcon("Molecule16Regular", "16", Molecule16RegularSvg);
+export const Molecule20Color = /** #__PURE__ */ createIcon("Molecule20Color", "20", Molecule20ColorSvg);
+export const MoleculeColor = /** #__PURE__ */ createIcon("MoleculeColor", "1em", Molecule20ColorSvg);
+export const Molecule20Filled = /** #__PURE__ */ createIcon("Molecule20Filled", "20", Molecule20FilledSvg);
+export const MoleculeFilled = /** #__PURE__ */ createIcon("MoleculeFilled", "1em", Molecule20FilledSvg);
+export const Molecule20Regular = /** #__PURE__ */ createIcon("Molecule20Regular", "20", Molecule20RegularSvg);
+export const MoleculeRegular = /** #__PURE__ */ createIcon("MoleculeRegular", "1em", Molecule20RegularSvg);
+export const Molecule24Color = /** #__PURE__ */ createIcon("Molecule24Color", "24", Molecule24ColorSvg);
+export const Molecule24Filled = /** #__PURE__ */ createIcon("Molecule24Filled", "24", Molecule24FilledSvg);
+export const Molecule24Regular = /** #__PURE__ */ createIcon("Molecule24Regular", "24", Molecule24RegularSvg);
+export const Molecule28Color = /** #__PURE__ */ createIcon("Molecule28Color", "28", Molecule28ColorSvg);
+export const Molecule28Filled = /** #__PURE__ */ createIcon("Molecule28Filled", "28", Molecule28FilledSvg);
+export const Molecule28Regular = /** #__PURE__ */ createIcon("Molecule28Regular", "28", Molecule28RegularSvg);
+export const Molecule32Color = /** #__PURE__ */ createIcon("Molecule32Color", "32", Molecule32ColorSvg);
+export const Molecule32Filled = /** #__PURE__ */ createIcon("Molecule32Filled", "32", Molecule32FilledSvg);
+export const Molecule32Light = /** #__PURE__ */ createIcon("Molecule32Light", "32", Molecule32LightSvg);
+export const Molecule32Regular = /** #__PURE__ */ createIcon("Molecule32Regular", "32", Molecule32RegularSvg);
+export const Molecule48Color = /** #__PURE__ */ createIcon("Molecule48Color", "48", Molecule48ColorSvg);
+export const Molecule48Filled = /** #__PURE__ */ createIcon("Molecule48Filled", "48", Molecule48FilledSvg);
+export const Molecule48Regular = /** #__PURE__ */ createIcon("Molecule48Regular", "48", Molecule48RegularSvg);

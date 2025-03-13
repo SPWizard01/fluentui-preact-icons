@@ -3,7 +3,9 @@ import MatchAppLayout20RegularSvg from "@fluentui/svg-icons/icons/match_app_layo
 import MatchAppLayout24FilledSvg from "@fluentui/svg-icons/icons/match_app_layout_24_filled.svg" with { type: "text" }
 import MatchAppLayout24RegularSvg from "@fluentui/svg-icons/icons/match_app_layout_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const MatchAppLayout20Filled = createIcon("MatchAppLayout20Filled", MatchAppLayout20FilledSvg);
-export const MatchAppLayout20Regular = createIcon("MatchAppLayout20Regular", MatchAppLayout20RegularSvg);
-export const MatchAppLayout24Filled = createIcon("MatchAppLayout24Filled", MatchAppLayout24FilledSvg);
-export const MatchAppLayout24Regular = createIcon("MatchAppLayout24Regular", MatchAppLayout24RegularSvg);
+export const MatchAppLayout20Filled = /** #__PURE__ */ createIcon("MatchAppLayout20Filled", "20", MatchAppLayout20FilledSvg);
+export const MatchAppLayoutFilled = /** #__PURE__ */ createIcon("MatchAppLayoutFilled", "1em", MatchAppLayout20FilledSvg);
+export const MatchAppLayout20Regular = /** #__PURE__ */ createIcon("MatchAppLayout20Regular", "20", MatchAppLayout20RegularSvg);
+export const MatchAppLayoutRegular = /** #__PURE__ */ createIcon("MatchAppLayoutRegular", "1em", MatchAppLayout20RegularSvg);
+export const MatchAppLayout24Filled = /** #__PURE__ */ createIcon("MatchAppLayout24Filled", "24", MatchAppLayout24FilledSvg);
+export const MatchAppLayout24Regular = /** #__PURE__ */ createIcon("MatchAppLayout24Regular", "24", MatchAppLayout24RegularSvg);

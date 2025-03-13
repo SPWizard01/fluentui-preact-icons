@@ -17,21 +17,24 @@ import Cloud48ColorSvg from "@fluentui/svg-icons/icons/cloud_48_color.svg" with 
 import Cloud48FilledSvg from "@fluentui/svg-icons/icons/cloud_48_filled.svg" with { type: "text" }
 import Cloud48RegularSvg from "@fluentui/svg-icons/icons/cloud_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Cloud16Color = createIcon("Cloud16Color", Cloud16ColorSvg);
-export const Cloud16Filled = createIcon("Cloud16Filled", Cloud16FilledSvg);
-export const Cloud16Regular = createIcon("Cloud16Regular", Cloud16RegularSvg);
-export const Cloud20Color = createIcon("Cloud20Color", Cloud20ColorSvg);
-export const Cloud20Filled = createIcon("Cloud20Filled", Cloud20FilledSvg);
-export const Cloud20Regular = createIcon("Cloud20Regular", Cloud20RegularSvg);
-export const Cloud24Color = createIcon("Cloud24Color", Cloud24ColorSvg);
-export const Cloud24Filled = createIcon("Cloud24Filled", Cloud24FilledSvg);
-export const Cloud24Regular = createIcon("Cloud24Regular", Cloud24RegularSvg);
-export const Cloud28Color = createIcon("Cloud28Color", Cloud28ColorSvg);
-export const Cloud28Filled = createIcon("Cloud28Filled", Cloud28FilledSvg);
-export const Cloud28Regular = createIcon("Cloud28Regular", Cloud28RegularSvg);
-export const Cloud32Color = createIcon("Cloud32Color", Cloud32ColorSvg);
-export const Cloud32Filled = createIcon("Cloud32Filled", Cloud32FilledSvg);
-export const Cloud32Regular = createIcon("Cloud32Regular", Cloud32RegularSvg);
-export const Cloud48Color = createIcon("Cloud48Color", Cloud48ColorSvg);
-export const Cloud48Filled = createIcon("Cloud48Filled", Cloud48FilledSvg);
-export const Cloud48Regular = createIcon("Cloud48Regular", Cloud48RegularSvg);
+export const Cloud16Color = /** #__PURE__ */ createIcon("Cloud16Color", "16", Cloud16ColorSvg);
+export const Cloud16Filled = /** #__PURE__ */ createIcon("Cloud16Filled", "16", Cloud16FilledSvg);
+export const Cloud16Regular = /** #__PURE__ */ createIcon("Cloud16Regular", "16", Cloud16RegularSvg);
+export const Cloud20Color = /** #__PURE__ */ createIcon("Cloud20Color", "20", Cloud20ColorSvg);
+export const CloudColor = /** #__PURE__ */ createIcon("CloudColor", "1em", Cloud20ColorSvg);
+export const Cloud20Filled = /** #__PURE__ */ createIcon("Cloud20Filled", "20", Cloud20FilledSvg);
+export const CloudFilled = /** #__PURE__ */ createIcon("CloudFilled", "1em", Cloud20FilledSvg);
+export const Cloud20Regular = /** #__PURE__ */ createIcon("Cloud20Regular", "20", Cloud20RegularSvg);
+export const CloudRegular = /** #__PURE__ */ createIcon("CloudRegular", "1em", Cloud20RegularSvg);
+export const Cloud24Color = /** #__PURE__ */ createIcon("Cloud24Color", "24", Cloud24ColorSvg);
+export const Cloud24Filled = /** #__PURE__ */ createIcon("Cloud24Filled", "24", Cloud24FilledSvg);
+export const Cloud24Regular = /** #__PURE__ */ createIcon("Cloud24Regular", "24", Cloud24RegularSvg);
+export const Cloud28Color = /** #__PURE__ */ createIcon("Cloud28Color", "28", Cloud28ColorSvg);
+export const Cloud28Filled = /** #__PURE__ */ createIcon("Cloud28Filled", "28", Cloud28FilledSvg);
+export const Cloud28Regular = /** #__PURE__ */ createIcon("Cloud28Regular", "28", Cloud28RegularSvg);
+export const Cloud32Color = /** #__PURE__ */ createIcon("Cloud32Color", "32", Cloud32ColorSvg);
+export const Cloud32Filled = /** #__PURE__ */ createIcon("Cloud32Filled", "32", Cloud32FilledSvg);
+export const Cloud32Regular = /** #__PURE__ */ createIcon("Cloud32Regular", "32", Cloud32RegularSvg);
+export const Cloud48Color = /** #__PURE__ */ createIcon("Cloud48Color", "48", Cloud48ColorSvg);
+export const Cloud48Filled = /** #__PURE__ */ createIcon("Cloud48Filled", "48", Cloud48FilledSvg);
+export const Cloud48Regular = /** #__PURE__ */ createIcon("Cloud48Regular", "48", Cloud48RegularSvg);

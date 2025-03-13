@@ -11,15 +11,17 @@ import XboxController32RegularSvg from "@fluentui/svg-icons/icons/xbox_controlle
 import XboxController48FilledSvg from "@fluentui/svg-icons/icons/xbox_controller_48_filled.svg" with { type: "text" }
 import XboxController48RegularSvg from "@fluentui/svg-icons/icons/xbox_controller_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const XboxController16Filled = createIcon("XboxController16Filled", XboxController16FilledSvg);
-export const XboxController16Regular = createIcon("XboxController16Regular", XboxController16RegularSvg);
-export const XboxController20Filled = createIcon("XboxController20Filled", XboxController20FilledSvg);
-export const XboxController20Regular = createIcon("XboxController20Regular", XboxController20RegularSvg);
-export const XboxController24Filled = createIcon("XboxController24Filled", XboxController24FilledSvg);
-export const XboxController24Regular = createIcon("XboxController24Regular", XboxController24RegularSvg);
-export const XboxController28Filled = createIcon("XboxController28Filled", XboxController28FilledSvg);
-export const XboxController28Regular = createIcon("XboxController28Regular", XboxController28RegularSvg);
-export const XboxController32Filled = createIcon("XboxController32Filled", XboxController32FilledSvg);
-export const XboxController32Regular = createIcon("XboxController32Regular", XboxController32RegularSvg);
-export const XboxController48Filled = createIcon("XboxController48Filled", XboxController48FilledSvg);
-export const XboxController48Regular = createIcon("XboxController48Regular", XboxController48RegularSvg);
+export const XboxController16Filled = /** #__PURE__ */ createIcon("XboxController16Filled", "16", XboxController16FilledSvg);
+export const XboxController16Regular = /** #__PURE__ */ createIcon("XboxController16Regular", "16", XboxController16RegularSvg);
+export const XboxController20Filled = /** #__PURE__ */ createIcon("XboxController20Filled", "20", XboxController20FilledSvg);
+export const XboxControllerFilled = /** #__PURE__ */ createIcon("XboxControllerFilled", "1em", XboxController20FilledSvg);
+export const XboxController20Regular = /** #__PURE__ */ createIcon("XboxController20Regular", "20", XboxController20RegularSvg);
+export const XboxControllerRegular = /** #__PURE__ */ createIcon("XboxControllerRegular", "1em", XboxController20RegularSvg);
+export const XboxController24Filled = /** #__PURE__ */ createIcon("XboxController24Filled", "24", XboxController24FilledSvg);
+export const XboxController24Regular = /** #__PURE__ */ createIcon("XboxController24Regular", "24", XboxController24RegularSvg);
+export const XboxController28Filled = /** #__PURE__ */ createIcon("XboxController28Filled", "28", XboxController28FilledSvg);
+export const XboxController28Regular = /** #__PURE__ */ createIcon("XboxController28Regular", "28", XboxController28RegularSvg);
+export const XboxController32Filled = /** #__PURE__ */ createIcon("XboxController32Filled", "32", XboxController32FilledSvg);
+export const XboxController32Regular = /** #__PURE__ */ createIcon("XboxController32Regular", "32", XboxController32RegularSvg);
+export const XboxController48Filled = /** #__PURE__ */ createIcon("XboxController48Filled", "48", XboxController48FilledSvg);
+export const XboxController48Regular = /** #__PURE__ */ createIcon("XboxController48Regular", "48", XboxController48RegularSvg);

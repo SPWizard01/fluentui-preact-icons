@@ -5,9 +5,11 @@ import TabGroup20RegularSvg from "@fluentui/svg-icons/icons/tab_group_20_regular
 import TabGroup24FilledSvg from "@fluentui/svg-icons/icons/tab_group_24_filled.svg" with { type: "text" }
 import TabGroup24RegularSvg from "@fluentui/svg-icons/icons/tab_group_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TabGroup16Filled = createIcon("TabGroup16Filled", TabGroup16FilledSvg);
-export const TabGroup16Regular = createIcon("TabGroup16Regular", TabGroup16RegularSvg);
-export const TabGroup20Filled = createIcon("TabGroup20Filled", TabGroup20FilledSvg);
-export const TabGroup20Regular = createIcon("TabGroup20Regular", TabGroup20RegularSvg);
-export const TabGroup24Filled = createIcon("TabGroup24Filled", TabGroup24FilledSvg);
-export const TabGroup24Regular = createIcon("TabGroup24Regular", TabGroup24RegularSvg);
+export const TabGroup16Filled = /** #__PURE__ */ createIcon("TabGroup16Filled", "16", TabGroup16FilledSvg);
+export const TabGroup16Regular = /** #__PURE__ */ createIcon("TabGroup16Regular", "16", TabGroup16RegularSvg);
+export const TabGroup20Filled = /** #__PURE__ */ createIcon("TabGroup20Filled", "20", TabGroup20FilledSvg);
+export const TabGroupFilled = /** #__PURE__ */ createIcon("TabGroupFilled", "1em", TabGroup20FilledSvg);
+export const TabGroup20Regular = /** #__PURE__ */ createIcon("TabGroup20Regular", "20", TabGroup20RegularSvg);
+export const TabGroupRegular = /** #__PURE__ */ createIcon("TabGroupRegular", "1em", TabGroup20RegularSvg);
+export const TabGroup24Filled = /** #__PURE__ */ createIcon("TabGroup24Filled", "24", TabGroup24FilledSvg);
+export const TabGroup24Regular = /** #__PURE__ */ createIcon("TabGroup24Regular", "24", TabGroup24RegularSvg);

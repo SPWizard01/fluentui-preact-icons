@@ -5,9 +5,11 @@ import FolderLightning20RegularSvg from "@fluentui/svg-icons/icons/folder_lightn
 import FolderLightning24FilledSvg from "@fluentui/svg-icons/icons/folder_lightning_24_filled.svg" with { type: "text" }
 import FolderLightning24RegularSvg from "@fluentui/svg-icons/icons/folder_lightning_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const FolderLightning16Filled = createIcon("FolderLightning16Filled", FolderLightning16FilledSvg);
-export const FolderLightning16Regular = createIcon("FolderLightning16Regular", FolderLightning16RegularSvg);
-export const FolderLightning20Filled = createIcon("FolderLightning20Filled", FolderLightning20FilledSvg);
-export const FolderLightning20Regular = createIcon("FolderLightning20Regular", FolderLightning20RegularSvg);
-export const FolderLightning24Filled = createIcon("FolderLightning24Filled", FolderLightning24FilledSvg);
-export const FolderLightning24Regular = createIcon("FolderLightning24Regular", FolderLightning24RegularSvg);
+export const FolderLightning16Filled = /** #__PURE__ */ createIcon("FolderLightning16Filled", "16", FolderLightning16FilledSvg);
+export const FolderLightning16Regular = /** #__PURE__ */ createIcon("FolderLightning16Regular", "16", FolderLightning16RegularSvg);
+export const FolderLightning20Filled = /** #__PURE__ */ createIcon("FolderLightning20Filled", "20", FolderLightning20FilledSvg);
+export const FolderLightningFilled = /** #__PURE__ */ createIcon("FolderLightningFilled", "1em", FolderLightning20FilledSvg);
+export const FolderLightning20Regular = /** #__PURE__ */ createIcon("FolderLightning20Regular", "20", FolderLightning20RegularSvg);
+export const FolderLightningRegular = /** #__PURE__ */ createIcon("FolderLightningRegular", "1em", FolderLightning20RegularSvg);
+export const FolderLightning24Filled = /** #__PURE__ */ createIcon("FolderLightning24Filled", "24", FolderLightning24FilledSvg);
+export const FolderLightning24Regular = /** #__PURE__ */ createIcon("FolderLightning24Regular", "24", FolderLightning24RegularSvg);

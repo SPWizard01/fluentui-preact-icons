@@ -8,12 +8,14 @@ import LayoutColumnTwo32FilledSvg from "@fluentui/svg-icons/icons/layout_column_
 import LayoutColumnTwo32LightSvg from "@fluentui/svg-icons/icons/layout_column_two_32_light.svg" with { type: "text" }
 import LayoutColumnTwo32RegularSvg from "@fluentui/svg-icons/icons/layout_column_two_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const LayoutColumnTwo16Filled = createIcon("LayoutColumnTwo16Filled", LayoutColumnTwo16FilledSvg);
-export const LayoutColumnTwo16Regular = createIcon("LayoutColumnTwo16Regular", LayoutColumnTwo16RegularSvg);
-export const LayoutColumnTwo20Filled = createIcon("LayoutColumnTwo20Filled", LayoutColumnTwo20FilledSvg);
-export const LayoutColumnTwo20Regular = createIcon("LayoutColumnTwo20Regular", LayoutColumnTwo20RegularSvg);
-export const LayoutColumnTwo24Filled = createIcon("LayoutColumnTwo24Filled", LayoutColumnTwo24FilledSvg);
-export const LayoutColumnTwo24Regular = createIcon("LayoutColumnTwo24Regular", LayoutColumnTwo24RegularSvg);
-export const LayoutColumnTwo32Filled = createIcon("LayoutColumnTwo32Filled", LayoutColumnTwo32FilledSvg);
-export const LayoutColumnTwo32Light = createIcon("LayoutColumnTwo32Light", LayoutColumnTwo32LightSvg);
-export const LayoutColumnTwo32Regular = createIcon("LayoutColumnTwo32Regular", LayoutColumnTwo32RegularSvg);
+export const LayoutColumnTwo16Filled = /** #__PURE__ */ createIcon("LayoutColumnTwo16Filled", "16", LayoutColumnTwo16FilledSvg);
+export const LayoutColumnTwo16Regular = /** #__PURE__ */ createIcon("LayoutColumnTwo16Regular", "16", LayoutColumnTwo16RegularSvg);
+export const LayoutColumnTwo20Filled = /** #__PURE__ */ createIcon("LayoutColumnTwo20Filled", "20", LayoutColumnTwo20FilledSvg);
+export const LayoutColumnTwoFilled = /** #__PURE__ */ createIcon("LayoutColumnTwoFilled", "1em", LayoutColumnTwo20FilledSvg);
+export const LayoutColumnTwo20Regular = /** #__PURE__ */ createIcon("LayoutColumnTwo20Regular", "20", LayoutColumnTwo20RegularSvg);
+export const LayoutColumnTwoRegular = /** #__PURE__ */ createIcon("LayoutColumnTwoRegular", "1em", LayoutColumnTwo20RegularSvg);
+export const LayoutColumnTwo24Filled = /** #__PURE__ */ createIcon("LayoutColumnTwo24Filled", "24", LayoutColumnTwo24FilledSvg);
+export const LayoutColumnTwo24Regular = /** #__PURE__ */ createIcon("LayoutColumnTwo24Regular", "24", LayoutColumnTwo24RegularSvg);
+export const LayoutColumnTwo32Filled = /** #__PURE__ */ createIcon("LayoutColumnTwo32Filled", "32", LayoutColumnTwo32FilledSvg);
+export const LayoutColumnTwo32Light = /** #__PURE__ */ createIcon("LayoutColumnTwo32Light", "32", LayoutColumnTwo32LightSvg);
+export const LayoutColumnTwo32Regular = /** #__PURE__ */ createIcon("LayoutColumnTwo32Regular", "32", LayoutColumnTwo32RegularSvg);

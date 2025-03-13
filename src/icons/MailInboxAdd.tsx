@@ -7,11 +7,13 @@ import MailInboxAdd24RegularSvg from "@fluentui/svg-icons/icons/mail_inbox_add_2
 import MailInboxAdd28FilledSvg from "@fluentui/svg-icons/icons/mail_inbox_add_28_filled.svg" with { type: "text" }
 import MailInboxAdd28RegularSvg from "@fluentui/svg-icons/icons/mail_inbox_add_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const MailInboxAdd16Filled = createIcon("MailInboxAdd16Filled", MailInboxAdd16FilledSvg);
-export const MailInboxAdd16Regular = createIcon("MailInboxAdd16Regular", MailInboxAdd16RegularSvg);
-export const MailInboxAdd20Filled = createIcon("MailInboxAdd20Filled", MailInboxAdd20FilledSvg);
-export const MailInboxAdd20Regular = createIcon("MailInboxAdd20Regular", MailInboxAdd20RegularSvg);
-export const MailInboxAdd24Filled = createIcon("MailInboxAdd24Filled", MailInboxAdd24FilledSvg);
-export const MailInboxAdd24Regular = createIcon("MailInboxAdd24Regular", MailInboxAdd24RegularSvg);
-export const MailInboxAdd28Filled = createIcon("MailInboxAdd28Filled", MailInboxAdd28FilledSvg);
-export const MailInboxAdd28Regular = createIcon("MailInboxAdd28Regular", MailInboxAdd28RegularSvg);
+export const MailInboxAdd16Filled = /** #__PURE__ */ createIcon("MailInboxAdd16Filled", "16", MailInboxAdd16FilledSvg);
+export const MailInboxAdd16Regular = /** #__PURE__ */ createIcon("MailInboxAdd16Regular", "16", MailInboxAdd16RegularSvg);
+export const MailInboxAdd20Filled = /** #__PURE__ */ createIcon("MailInboxAdd20Filled", "20", MailInboxAdd20FilledSvg);
+export const MailInboxAddFilled = /** #__PURE__ */ createIcon("MailInboxAddFilled", "1em", MailInboxAdd20FilledSvg);
+export const MailInboxAdd20Regular = /** #__PURE__ */ createIcon("MailInboxAdd20Regular", "20", MailInboxAdd20RegularSvg);
+export const MailInboxAddRegular = /** #__PURE__ */ createIcon("MailInboxAddRegular", "1em", MailInboxAdd20RegularSvg);
+export const MailInboxAdd24Filled = /** #__PURE__ */ createIcon("MailInboxAdd24Filled", "24", MailInboxAdd24FilledSvg);
+export const MailInboxAdd24Regular = /** #__PURE__ */ createIcon("MailInboxAdd24Regular", "24", MailInboxAdd24RegularSvg);
+export const MailInboxAdd28Filled = /** #__PURE__ */ createIcon("MailInboxAdd28Filled", "28", MailInboxAdd28FilledSvg);
+export const MailInboxAdd28Regular = /** #__PURE__ */ createIcon("MailInboxAdd28Regular", "28", MailInboxAdd28RegularSvg);

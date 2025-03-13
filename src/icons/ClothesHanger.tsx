@@ -7,11 +7,13 @@ import ClothesHanger20RegularSvg from "@fluentui/svg-icons/icons/clothes_hanger_
 import ClothesHanger24FilledSvg from "@fluentui/svg-icons/icons/clothes_hanger_24_filled.svg" with { type: "text" }
 import ClothesHanger24RegularSvg from "@fluentui/svg-icons/icons/clothes_hanger_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ClothesHanger12Filled = createIcon("ClothesHanger12Filled", ClothesHanger12FilledSvg);
-export const ClothesHanger12Regular = createIcon("ClothesHanger12Regular", ClothesHanger12RegularSvg);
-export const ClothesHanger16Filled = createIcon("ClothesHanger16Filled", ClothesHanger16FilledSvg);
-export const ClothesHanger16Regular = createIcon("ClothesHanger16Regular", ClothesHanger16RegularSvg);
-export const ClothesHanger20Filled = createIcon("ClothesHanger20Filled", ClothesHanger20FilledSvg);
-export const ClothesHanger20Regular = createIcon("ClothesHanger20Regular", ClothesHanger20RegularSvg);
-export const ClothesHanger24Filled = createIcon("ClothesHanger24Filled", ClothesHanger24FilledSvg);
-export const ClothesHanger24Regular = createIcon("ClothesHanger24Regular", ClothesHanger24RegularSvg);
+export const ClothesHanger12Filled = /** #__PURE__ */ createIcon("ClothesHanger12Filled", "12", ClothesHanger12FilledSvg);
+export const ClothesHanger12Regular = /** #__PURE__ */ createIcon("ClothesHanger12Regular", "12", ClothesHanger12RegularSvg);
+export const ClothesHanger16Filled = /** #__PURE__ */ createIcon("ClothesHanger16Filled", "16", ClothesHanger16FilledSvg);
+export const ClothesHanger16Regular = /** #__PURE__ */ createIcon("ClothesHanger16Regular", "16", ClothesHanger16RegularSvg);
+export const ClothesHanger20Filled = /** #__PURE__ */ createIcon("ClothesHanger20Filled", "20", ClothesHanger20FilledSvg);
+export const ClothesHangerFilled = /** #__PURE__ */ createIcon("ClothesHangerFilled", "1em", ClothesHanger20FilledSvg);
+export const ClothesHanger20Regular = /** #__PURE__ */ createIcon("ClothesHanger20Regular", "20", ClothesHanger20RegularSvg);
+export const ClothesHangerRegular = /** #__PURE__ */ createIcon("ClothesHangerRegular", "1em", ClothesHanger20RegularSvg);
+export const ClothesHanger24Filled = /** #__PURE__ */ createIcon("ClothesHanger24Filled", "24", ClothesHanger24FilledSvg);
+export const ClothesHanger24Regular = /** #__PURE__ */ createIcon("ClothesHanger24Regular", "24", ClothesHanger24RegularSvg);

@@ -5,9 +5,10 @@ import Paw28ColorSvg from "@fluentui/svg-icons/icons/paw_28_color.svg" with { ty
 import Paw32ColorSvg from "@fluentui/svg-icons/icons/paw_32_color.svg" with { type: "text" }
 import Paw48ColorSvg from "@fluentui/svg-icons/icons/paw_48_color.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Paw16Color = createIcon("Paw16Color", Paw16ColorSvg);
-export const Paw20Color = createIcon("Paw20Color", Paw20ColorSvg);
-export const Paw24Color = createIcon("Paw24Color", Paw24ColorSvg);
-export const Paw28Color = createIcon("Paw28Color", Paw28ColorSvg);
-export const Paw32Color = createIcon("Paw32Color", Paw32ColorSvg);
-export const Paw48Color = createIcon("Paw48Color", Paw48ColorSvg);
+export const Paw16Color = /** #__PURE__ */ createIcon("Paw16Color", "16", Paw16ColorSvg);
+export const Paw20Color = /** #__PURE__ */ createIcon("Paw20Color", "20", Paw20ColorSvg);
+export const PawColor = /** #__PURE__ */ createIcon("PawColor", "1em", Paw20ColorSvg);
+export const Paw24Color = /** #__PURE__ */ createIcon("Paw24Color", "24", Paw24ColorSvg);
+export const Paw28Color = /** #__PURE__ */ createIcon("Paw28Color", "28", Paw28ColorSvg);
+export const Paw32Color = /** #__PURE__ */ createIcon("Paw32Color", "32", Paw32ColorSvg);
+export const Paw48Color = /** #__PURE__ */ createIcon("Paw48Color", "48", Paw48ColorSvg);

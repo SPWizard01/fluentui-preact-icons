@@ -9,13 +9,15 @@ import CommentOff28RegularSvg from "@fluentui/svg-icons/icons/comment_off_28_reg
 import CommentOff48FilledSvg from "@fluentui/svg-icons/icons/comment_off_48_filled.svg" with { type: "text" }
 import CommentOff48RegularSvg from "@fluentui/svg-icons/icons/comment_off_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CommentOff16Filled = createIcon("CommentOff16Filled", CommentOff16FilledSvg);
-export const CommentOff16Regular = createIcon("CommentOff16Regular", CommentOff16RegularSvg);
-export const CommentOff20Filled = createIcon("CommentOff20Filled", CommentOff20FilledSvg);
-export const CommentOff20Regular = createIcon("CommentOff20Regular", CommentOff20RegularSvg);
-export const CommentOff24Filled = createIcon("CommentOff24Filled", CommentOff24FilledSvg);
-export const CommentOff24Regular = createIcon("CommentOff24Regular", CommentOff24RegularSvg);
-export const CommentOff28Filled = createIcon("CommentOff28Filled", CommentOff28FilledSvg);
-export const CommentOff28Regular = createIcon("CommentOff28Regular", CommentOff28RegularSvg);
-export const CommentOff48Filled = createIcon("CommentOff48Filled", CommentOff48FilledSvg);
-export const CommentOff48Regular = createIcon("CommentOff48Regular", CommentOff48RegularSvg);
+export const CommentOff16Filled = /** #__PURE__ */ createIcon("CommentOff16Filled", "16", CommentOff16FilledSvg);
+export const CommentOff16Regular = /** #__PURE__ */ createIcon("CommentOff16Regular", "16", CommentOff16RegularSvg);
+export const CommentOff20Filled = /** #__PURE__ */ createIcon("CommentOff20Filled", "20", CommentOff20FilledSvg);
+export const CommentOffFilled = /** #__PURE__ */ createIcon("CommentOffFilled", "1em", CommentOff20FilledSvg);
+export const CommentOff20Regular = /** #__PURE__ */ createIcon("CommentOff20Regular", "20", CommentOff20RegularSvg);
+export const CommentOffRegular = /** #__PURE__ */ createIcon("CommentOffRegular", "1em", CommentOff20RegularSvg);
+export const CommentOff24Filled = /** #__PURE__ */ createIcon("CommentOff24Filled", "24", CommentOff24FilledSvg);
+export const CommentOff24Regular = /** #__PURE__ */ createIcon("CommentOff24Regular", "24", CommentOff24RegularSvg);
+export const CommentOff28Filled = /** #__PURE__ */ createIcon("CommentOff28Filled", "28", CommentOff28FilledSvg);
+export const CommentOff28Regular = /** #__PURE__ */ createIcon("CommentOff28Regular", "28", CommentOff28RegularSvg);
+export const CommentOff48Filled = /** #__PURE__ */ createIcon("CommentOff48Filled", "48", CommentOff48FilledSvg);
+export const CommentOff48Regular = /** #__PURE__ */ createIcon("CommentOff48Regular", "48", CommentOff48RegularSvg);

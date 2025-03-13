@@ -5,9 +5,11 @@ import DoorArrowLeft20RegularSvg from "@fluentui/svg-icons/icons/door_arrow_left
 import DoorArrowLeft24FilledSvg from "@fluentui/svg-icons/icons/door_arrow_left_24_filled.svg" with { type: "text" }
 import DoorArrowLeft24RegularSvg from "@fluentui/svg-icons/icons/door_arrow_left_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const DoorArrowLeft16Filled = createIcon("DoorArrowLeft16Filled", DoorArrowLeft16FilledSvg);
-export const DoorArrowLeft16Regular = createIcon("DoorArrowLeft16Regular", DoorArrowLeft16RegularSvg);
-export const DoorArrowLeft20Filled = createIcon("DoorArrowLeft20Filled", DoorArrowLeft20FilledSvg);
-export const DoorArrowLeft20Regular = createIcon("DoorArrowLeft20Regular", DoorArrowLeft20RegularSvg);
-export const DoorArrowLeft24Filled = createIcon("DoorArrowLeft24Filled", DoorArrowLeft24FilledSvg);
-export const DoorArrowLeft24Regular = createIcon("DoorArrowLeft24Regular", DoorArrowLeft24RegularSvg);
+export const DoorArrowLeft16Filled = /** #__PURE__ */ createIcon("DoorArrowLeft16Filled", "16", DoorArrowLeft16FilledSvg);
+export const DoorArrowLeft16Regular = /** #__PURE__ */ createIcon("DoorArrowLeft16Regular", "16", DoorArrowLeft16RegularSvg);
+export const DoorArrowLeft20Filled = /** #__PURE__ */ createIcon("DoorArrowLeft20Filled", "20", DoorArrowLeft20FilledSvg);
+export const DoorArrowLeftFilled = /** #__PURE__ */ createIcon("DoorArrowLeftFilled", "1em", DoorArrowLeft20FilledSvg);
+export const DoorArrowLeft20Regular = /** #__PURE__ */ createIcon("DoorArrowLeft20Regular", "20", DoorArrowLeft20RegularSvg);
+export const DoorArrowLeftRegular = /** #__PURE__ */ createIcon("DoorArrowLeftRegular", "1em", DoorArrowLeft20RegularSvg);
+export const DoorArrowLeft24Filled = /** #__PURE__ */ createIcon("DoorArrowLeft24Filled", "24", DoorArrowLeft24FilledSvg);
+export const DoorArrowLeft24Regular = /** #__PURE__ */ createIcon("DoorArrowLeft24Regular", "24", DoorArrowLeft24RegularSvg);

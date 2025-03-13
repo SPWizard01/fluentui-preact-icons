@@ -7,11 +7,13 @@ import BookContacts28RegularSvg from "@fluentui/svg-icons/icons/book_contacts_28
 import BookContacts32FilledSvg from "@fluentui/svg-icons/icons/book_contacts_32_filled.svg" with { type: "text" }
 import BookContacts32RegularSvg from "@fluentui/svg-icons/icons/book_contacts_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const BookContacts20Filled = createIcon("BookContacts20Filled", BookContacts20FilledSvg);
-export const BookContacts20Regular = createIcon("BookContacts20Regular", BookContacts20RegularSvg);
-export const BookContacts24Filled = createIcon("BookContacts24Filled", BookContacts24FilledSvg);
-export const BookContacts24Regular = createIcon("BookContacts24Regular", BookContacts24RegularSvg);
-export const BookContacts28Filled = createIcon("BookContacts28Filled", BookContacts28FilledSvg);
-export const BookContacts28Regular = createIcon("BookContacts28Regular", BookContacts28RegularSvg);
-export const BookContacts32Filled = createIcon("BookContacts32Filled", BookContacts32FilledSvg);
-export const BookContacts32Regular = createIcon("BookContacts32Regular", BookContacts32RegularSvg);
+export const BookContacts20Filled = /** #__PURE__ */ createIcon("BookContacts20Filled", "20", BookContacts20FilledSvg);
+export const BookContactsFilled = /** #__PURE__ */ createIcon("BookContactsFilled", "1em", BookContacts20FilledSvg);
+export const BookContacts20Regular = /** #__PURE__ */ createIcon("BookContacts20Regular", "20", BookContacts20RegularSvg);
+export const BookContactsRegular = /** #__PURE__ */ createIcon("BookContactsRegular", "1em", BookContacts20RegularSvg);
+export const BookContacts24Filled = /** #__PURE__ */ createIcon("BookContacts24Filled", "24", BookContacts24FilledSvg);
+export const BookContacts24Regular = /** #__PURE__ */ createIcon("BookContacts24Regular", "24", BookContacts24RegularSvg);
+export const BookContacts28Filled = /** #__PURE__ */ createIcon("BookContacts28Filled", "28", BookContacts28FilledSvg);
+export const BookContacts28Regular = /** #__PURE__ */ createIcon("BookContacts28Regular", "28", BookContacts28RegularSvg);
+export const BookContacts32Filled = /** #__PURE__ */ createIcon("BookContacts32Filled", "32", BookContacts32FilledSvg);
+export const BookContacts32Regular = /** #__PURE__ */ createIcon("BookContacts32Regular", "32", BookContacts32RegularSvg);

@@ -11,15 +11,17 @@ import CloudArrowDown32RegularSvg from "@fluentui/svg-icons/icons/cloud_arrow_do
 import CloudArrowDown48FilledSvg from "@fluentui/svg-icons/icons/cloud_arrow_down_48_filled.svg" with { type: "text" }
 import CloudArrowDown48RegularSvg from "@fluentui/svg-icons/icons/cloud_arrow_down_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CloudArrowDown16Filled = createIcon("CloudArrowDown16Filled", CloudArrowDown16FilledSvg);
-export const CloudArrowDown16Regular = createIcon("CloudArrowDown16Regular", CloudArrowDown16RegularSvg);
-export const CloudArrowDown20Filled = createIcon("CloudArrowDown20Filled", CloudArrowDown20FilledSvg);
-export const CloudArrowDown20Regular = createIcon("CloudArrowDown20Regular", CloudArrowDown20RegularSvg);
-export const CloudArrowDown24Filled = createIcon("CloudArrowDown24Filled", CloudArrowDown24FilledSvg);
-export const CloudArrowDown24Regular = createIcon("CloudArrowDown24Regular", CloudArrowDown24RegularSvg);
-export const CloudArrowDown28Filled = createIcon("CloudArrowDown28Filled", CloudArrowDown28FilledSvg);
-export const CloudArrowDown28Regular = createIcon("CloudArrowDown28Regular", CloudArrowDown28RegularSvg);
-export const CloudArrowDown32Filled = createIcon("CloudArrowDown32Filled", CloudArrowDown32FilledSvg);
-export const CloudArrowDown32Regular = createIcon("CloudArrowDown32Regular", CloudArrowDown32RegularSvg);
-export const CloudArrowDown48Filled = createIcon("CloudArrowDown48Filled", CloudArrowDown48FilledSvg);
-export const CloudArrowDown48Regular = createIcon("CloudArrowDown48Regular", CloudArrowDown48RegularSvg);
+export const CloudArrowDown16Filled = /** #__PURE__ */ createIcon("CloudArrowDown16Filled", "16", CloudArrowDown16FilledSvg);
+export const CloudArrowDown16Regular = /** #__PURE__ */ createIcon("CloudArrowDown16Regular", "16", CloudArrowDown16RegularSvg);
+export const CloudArrowDown20Filled = /** #__PURE__ */ createIcon("CloudArrowDown20Filled", "20", CloudArrowDown20FilledSvg);
+export const CloudArrowDownFilled = /** #__PURE__ */ createIcon("CloudArrowDownFilled", "1em", CloudArrowDown20FilledSvg);
+export const CloudArrowDown20Regular = /** #__PURE__ */ createIcon("CloudArrowDown20Regular", "20", CloudArrowDown20RegularSvg);
+export const CloudArrowDownRegular = /** #__PURE__ */ createIcon("CloudArrowDownRegular", "1em", CloudArrowDown20RegularSvg);
+export const CloudArrowDown24Filled = /** #__PURE__ */ createIcon("CloudArrowDown24Filled", "24", CloudArrowDown24FilledSvg);
+export const CloudArrowDown24Regular = /** #__PURE__ */ createIcon("CloudArrowDown24Regular", "24", CloudArrowDown24RegularSvg);
+export const CloudArrowDown28Filled = /** #__PURE__ */ createIcon("CloudArrowDown28Filled", "28", CloudArrowDown28FilledSvg);
+export const CloudArrowDown28Regular = /** #__PURE__ */ createIcon("CloudArrowDown28Regular", "28", CloudArrowDown28RegularSvg);
+export const CloudArrowDown32Filled = /** #__PURE__ */ createIcon("CloudArrowDown32Filled", "32", CloudArrowDown32FilledSvg);
+export const CloudArrowDown32Regular = /** #__PURE__ */ createIcon("CloudArrowDown32Regular", "32", CloudArrowDown32RegularSvg);
+export const CloudArrowDown48Filled = /** #__PURE__ */ createIcon("CloudArrowDown48Filled", "48", CloudArrowDown48FilledSvg);
+export const CloudArrowDown48Regular = /** #__PURE__ */ createIcon("CloudArrowDown48Regular", "48", CloudArrowDown48RegularSvg);

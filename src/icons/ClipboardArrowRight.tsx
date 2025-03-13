@@ -5,9 +5,11 @@ import ClipboardArrowRight20RegularSvg from "@fluentui/svg-icons/icons/clipboard
 import ClipboardArrowRight24FilledSvg from "@fluentui/svg-icons/icons/clipboard_arrow_right_24_filled.svg" with { type: "text" }
 import ClipboardArrowRight24RegularSvg from "@fluentui/svg-icons/icons/clipboard_arrow_right_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ClipboardArrowRight16Filled = createIcon("ClipboardArrowRight16Filled", ClipboardArrowRight16FilledSvg);
-export const ClipboardArrowRight16Regular = createIcon("ClipboardArrowRight16Regular", ClipboardArrowRight16RegularSvg);
-export const ClipboardArrowRight20Filled = createIcon("ClipboardArrowRight20Filled", ClipboardArrowRight20FilledSvg);
-export const ClipboardArrowRight20Regular = createIcon("ClipboardArrowRight20Regular", ClipboardArrowRight20RegularSvg);
-export const ClipboardArrowRight24Filled = createIcon("ClipboardArrowRight24Filled", ClipboardArrowRight24FilledSvg);
-export const ClipboardArrowRight24Regular = createIcon("ClipboardArrowRight24Regular", ClipboardArrowRight24RegularSvg);
+export const ClipboardArrowRight16Filled = /** #__PURE__ */ createIcon("ClipboardArrowRight16Filled", "16", ClipboardArrowRight16FilledSvg);
+export const ClipboardArrowRight16Regular = /** #__PURE__ */ createIcon("ClipboardArrowRight16Regular", "16", ClipboardArrowRight16RegularSvg);
+export const ClipboardArrowRight20Filled = /** #__PURE__ */ createIcon("ClipboardArrowRight20Filled", "20", ClipboardArrowRight20FilledSvg);
+export const ClipboardArrowRightFilled = /** #__PURE__ */ createIcon("ClipboardArrowRightFilled", "1em", ClipboardArrowRight20FilledSvg);
+export const ClipboardArrowRight20Regular = /** #__PURE__ */ createIcon("ClipboardArrowRight20Regular", "20", ClipboardArrowRight20RegularSvg);
+export const ClipboardArrowRightRegular = /** #__PURE__ */ createIcon("ClipboardArrowRightRegular", "1em", ClipboardArrowRight20RegularSvg);
+export const ClipboardArrowRight24Filled = /** #__PURE__ */ createIcon("ClipboardArrowRight24Filled", "24", ClipboardArrowRight24FilledSvg);
+export const ClipboardArrowRight24Regular = /** #__PURE__ */ createIcon("ClipboardArrowRight24Regular", "24", ClipboardArrowRight24RegularSvg);

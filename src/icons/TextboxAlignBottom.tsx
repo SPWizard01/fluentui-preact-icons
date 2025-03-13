@@ -3,7 +3,9 @@ import TextboxAlignBottom20RegularSvg from "@fluentui/svg-icons/icons/textbox_al
 import TextboxAlignBottom24FilledSvg from "@fluentui/svg-icons/icons/textbox_align_bottom_24_filled.svg" with { type: "text" }
 import TextboxAlignBottom24RegularSvg from "@fluentui/svg-icons/icons/textbox_align_bottom_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TextboxAlignBottom20Filled = createIcon("TextboxAlignBottom20Filled", TextboxAlignBottom20FilledSvg);
-export const TextboxAlignBottom20Regular = createIcon("TextboxAlignBottom20Regular", TextboxAlignBottom20RegularSvg);
-export const TextboxAlignBottom24Filled = createIcon("TextboxAlignBottom24Filled", TextboxAlignBottom24FilledSvg);
-export const TextboxAlignBottom24Regular = createIcon("TextboxAlignBottom24Regular", TextboxAlignBottom24RegularSvg);
+export const TextboxAlignBottom20Filled = /** #__PURE__ */ createIcon("TextboxAlignBottom20Filled", "20", TextboxAlignBottom20FilledSvg);
+export const TextboxAlignBottomFilled = /** #__PURE__ */ createIcon("TextboxAlignBottomFilled", "1em", TextboxAlignBottom20FilledSvg);
+export const TextboxAlignBottom20Regular = /** #__PURE__ */ createIcon("TextboxAlignBottom20Regular", "20", TextboxAlignBottom20RegularSvg);
+export const TextboxAlignBottomRegular = /** #__PURE__ */ createIcon("TextboxAlignBottomRegular", "1em", TextboxAlignBottom20RegularSvg);
+export const TextboxAlignBottom24Filled = /** #__PURE__ */ createIcon("TextboxAlignBottom24Filled", "24", TextboxAlignBottom24FilledSvg);
+export const TextboxAlignBottom24Regular = /** #__PURE__ */ createIcon("TextboxAlignBottom24Regular", "24", TextboxAlignBottom24RegularSvg);

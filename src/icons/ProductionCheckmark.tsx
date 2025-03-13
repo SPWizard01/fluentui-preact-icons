@@ -3,7 +3,9 @@ import ProductionCheckmark20RegularSvg from "@fluentui/svg-icons/icons/productio
 import ProductionCheckmark24FilledSvg from "@fluentui/svg-icons/icons/production_checkmark_24_filled.svg" with { type: "text" }
 import ProductionCheckmark24RegularSvg from "@fluentui/svg-icons/icons/production_checkmark_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ProductionCheckmark20Filled = createIcon("ProductionCheckmark20Filled", ProductionCheckmark20FilledSvg);
-export const ProductionCheckmark20Regular = createIcon("ProductionCheckmark20Regular", ProductionCheckmark20RegularSvg);
-export const ProductionCheckmark24Filled = createIcon("ProductionCheckmark24Filled", ProductionCheckmark24FilledSvg);
-export const ProductionCheckmark24Regular = createIcon("ProductionCheckmark24Regular", ProductionCheckmark24RegularSvg);
+export const ProductionCheckmark20Filled = /** #__PURE__ */ createIcon("ProductionCheckmark20Filled", "20", ProductionCheckmark20FilledSvg);
+export const ProductionCheckmarkFilled = /** #__PURE__ */ createIcon("ProductionCheckmarkFilled", "1em", ProductionCheckmark20FilledSvg);
+export const ProductionCheckmark20Regular = /** #__PURE__ */ createIcon("ProductionCheckmark20Regular", "20", ProductionCheckmark20RegularSvg);
+export const ProductionCheckmarkRegular = /** #__PURE__ */ createIcon("ProductionCheckmarkRegular", "1em", ProductionCheckmark20RegularSvg);
+export const ProductionCheckmark24Filled = /** #__PURE__ */ createIcon("ProductionCheckmark24Filled", "24", ProductionCheckmark24FilledSvg);
+export const ProductionCheckmark24Regular = /** #__PURE__ */ createIcon("ProductionCheckmark24Regular", "24", ProductionCheckmark24RegularSvg);

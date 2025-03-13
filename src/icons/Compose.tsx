@@ -14,18 +14,20 @@ import Compose32RegularSvg from "@fluentui/svg-icons/icons/compose_32_regular.sv
 import Compose48FilledSvg from "@fluentui/svg-icons/icons/compose_48_filled.svg" with { type: "text" }
 import Compose48RegularSvg from "@fluentui/svg-icons/icons/compose_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Compose12Filled = createIcon("Compose12Filled", Compose12FilledSvg);
-export const Compose12Regular = createIcon("Compose12Regular", Compose12RegularSvg);
-export const Compose16Filled = createIcon("Compose16Filled", Compose16FilledSvg);
-export const Compose16Regular = createIcon("Compose16Regular", Compose16RegularSvg);
-export const Compose20Filled = createIcon("Compose20Filled", Compose20FilledSvg);
-export const Compose20Regular = createIcon("Compose20Regular", Compose20RegularSvg);
-export const Compose24Filled = createIcon("Compose24Filled", Compose24FilledSvg);
-export const Compose24Regular = createIcon("Compose24Regular", Compose24RegularSvg);
-export const Compose28Filled = createIcon("Compose28Filled", Compose28FilledSvg);
-export const Compose28Regular = createIcon("Compose28Regular", Compose28RegularSvg);
-export const Compose32Filled = createIcon("Compose32Filled", Compose32FilledSvg);
-export const Compose32Light = createIcon("Compose32Light", Compose32LightSvg);
-export const Compose32Regular = createIcon("Compose32Regular", Compose32RegularSvg);
-export const Compose48Filled = createIcon("Compose48Filled", Compose48FilledSvg);
-export const Compose48Regular = createIcon("Compose48Regular", Compose48RegularSvg);
+export const Compose12Filled = /** #__PURE__ */ createIcon("Compose12Filled", "12", Compose12FilledSvg);
+export const Compose12Regular = /** #__PURE__ */ createIcon("Compose12Regular", "12", Compose12RegularSvg);
+export const Compose16Filled = /** #__PURE__ */ createIcon("Compose16Filled", "16", Compose16FilledSvg);
+export const Compose16Regular = /** #__PURE__ */ createIcon("Compose16Regular", "16", Compose16RegularSvg);
+export const Compose20Filled = /** #__PURE__ */ createIcon("Compose20Filled", "20", Compose20FilledSvg);
+export const ComposeFilled = /** #__PURE__ */ createIcon("ComposeFilled", "1em", Compose20FilledSvg);
+export const Compose20Regular = /** #__PURE__ */ createIcon("Compose20Regular", "20", Compose20RegularSvg);
+export const ComposeRegular = /** #__PURE__ */ createIcon("ComposeRegular", "1em", Compose20RegularSvg);
+export const Compose24Filled = /** #__PURE__ */ createIcon("Compose24Filled", "24", Compose24FilledSvg);
+export const Compose24Regular = /** #__PURE__ */ createIcon("Compose24Regular", "24", Compose24RegularSvg);
+export const Compose28Filled = /** #__PURE__ */ createIcon("Compose28Filled", "28", Compose28FilledSvg);
+export const Compose28Regular = /** #__PURE__ */ createIcon("Compose28Regular", "28", Compose28RegularSvg);
+export const Compose32Filled = /** #__PURE__ */ createIcon("Compose32Filled", "32", Compose32FilledSvg);
+export const Compose32Light = /** #__PURE__ */ createIcon("Compose32Light", "32", Compose32LightSvg);
+export const Compose32Regular = /** #__PURE__ */ createIcon("Compose32Regular", "32", Compose32RegularSvg);
+export const Compose48Filled = /** #__PURE__ */ createIcon("Compose48Filled", "48", Compose48FilledSvg);
+export const Compose48Regular = /** #__PURE__ */ createIcon("Compose48Regular", "48", Compose48RegularSvg);

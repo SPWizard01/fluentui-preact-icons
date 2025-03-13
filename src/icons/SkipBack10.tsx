@@ -9,13 +9,15 @@ import SkipBack1032RegularSvg from "@fluentui/svg-icons/icons/skip_back_10_32_re
 import SkipBack1048FilledSvg from "@fluentui/svg-icons/icons/skip_back_10_48_filled.svg" with { type: "text" }
 import SkipBack1048RegularSvg from "@fluentui/svg-icons/icons/skip_back_10_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const SkipBack1020Filled = createIcon("SkipBack1020Filled", SkipBack1020FilledSvg);
-export const SkipBack1020Regular = createIcon("SkipBack1020Regular", SkipBack1020RegularSvg);
-export const SkipBack1024Filled = createIcon("SkipBack1024Filled", SkipBack1024FilledSvg);
-export const SkipBack1024Regular = createIcon("SkipBack1024Regular", SkipBack1024RegularSvg);
-export const SkipBack1028Filled = createIcon("SkipBack1028Filled", SkipBack1028FilledSvg);
-export const SkipBack1028Regular = createIcon("SkipBack1028Regular", SkipBack1028RegularSvg);
-export const SkipBack1032Filled = createIcon("SkipBack1032Filled", SkipBack1032FilledSvg);
-export const SkipBack1032Regular = createIcon("SkipBack1032Regular", SkipBack1032RegularSvg);
-export const SkipBack1048Filled = createIcon("SkipBack1048Filled", SkipBack1048FilledSvg);
-export const SkipBack1048Regular = createIcon("SkipBack1048Regular", SkipBack1048RegularSvg);
+export const SkipBack1020Filled = /** #__PURE__ */ createIcon("SkipBack1020Filled", "20", SkipBack1020FilledSvg);
+export const SkipBack10Filled = /** #__PURE__ */ createIcon("SkipBack10Filled", "1em", SkipBack1020FilledSvg);
+export const SkipBack1020Regular = /** #__PURE__ */ createIcon("SkipBack1020Regular", "20", SkipBack1020RegularSvg);
+export const SkipBack10Regular = /** #__PURE__ */ createIcon("SkipBack10Regular", "1em", SkipBack1020RegularSvg);
+export const SkipBack1024Filled = /** #__PURE__ */ createIcon("SkipBack1024Filled", "24", SkipBack1024FilledSvg);
+export const SkipBack1024Regular = /** #__PURE__ */ createIcon("SkipBack1024Regular", "24", SkipBack1024RegularSvg);
+export const SkipBack1028Filled = /** #__PURE__ */ createIcon("SkipBack1028Filled", "28", SkipBack1028FilledSvg);
+export const SkipBack1028Regular = /** #__PURE__ */ createIcon("SkipBack1028Regular", "28", SkipBack1028RegularSvg);
+export const SkipBack1032Filled = /** #__PURE__ */ createIcon("SkipBack1032Filled", "32", SkipBack1032FilledSvg);
+export const SkipBack1032Regular = /** #__PURE__ */ createIcon("SkipBack1032Regular", "32", SkipBack1032RegularSvg);
+export const SkipBack1048Filled = /** #__PURE__ */ createIcon("SkipBack1048Filled", "48", SkipBack1048FilledSvg);
+export const SkipBack1048Regular = /** #__PURE__ */ createIcon("SkipBack1048Regular", "48", SkipBack1048RegularSvg);

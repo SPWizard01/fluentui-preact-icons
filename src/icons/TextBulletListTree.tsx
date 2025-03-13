@@ -5,9 +5,11 @@ import TextBulletListTree20RegularSvg from "@fluentui/svg-icons/icons/text_bulle
 import TextBulletListTree24FilledSvg from "@fluentui/svg-icons/icons/text_bullet_list_tree_24_filled.svg" with { type: "text" }
 import TextBulletListTree24RegularSvg from "@fluentui/svg-icons/icons/text_bullet_list_tree_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TextBulletListTree16Filled = createIcon("TextBulletListTree16Filled", TextBulletListTree16FilledSvg);
-export const TextBulletListTree16Regular = createIcon("TextBulletListTree16Regular", TextBulletListTree16RegularSvg);
-export const TextBulletListTree20Filled = createIcon("TextBulletListTree20Filled", TextBulletListTree20FilledSvg);
-export const TextBulletListTree20Regular = createIcon("TextBulletListTree20Regular", TextBulletListTree20RegularSvg);
-export const TextBulletListTree24Filled = createIcon("TextBulletListTree24Filled", TextBulletListTree24FilledSvg);
-export const TextBulletListTree24Regular = createIcon("TextBulletListTree24Regular", TextBulletListTree24RegularSvg);
+export const TextBulletListTree16Filled = /** #__PURE__ */ createIcon("TextBulletListTree16Filled", "16", TextBulletListTree16FilledSvg);
+export const TextBulletListTree16Regular = /** #__PURE__ */ createIcon("TextBulletListTree16Regular", "16", TextBulletListTree16RegularSvg);
+export const TextBulletListTree20Filled = /** #__PURE__ */ createIcon("TextBulletListTree20Filled", "20", TextBulletListTree20FilledSvg);
+export const TextBulletListTreeFilled = /** #__PURE__ */ createIcon("TextBulletListTreeFilled", "1em", TextBulletListTree20FilledSvg);
+export const TextBulletListTree20Regular = /** #__PURE__ */ createIcon("TextBulletListTree20Regular", "20", TextBulletListTree20RegularSvg);
+export const TextBulletListTreeRegular = /** #__PURE__ */ createIcon("TextBulletListTreeRegular", "1em", TextBulletListTree20RegularSvg);
+export const TextBulletListTree24Filled = /** #__PURE__ */ createIcon("TextBulletListTree24Filled", "24", TextBulletListTree24FilledSvg);
+export const TextBulletListTree24Regular = /** #__PURE__ */ createIcon("TextBulletListTree24Regular", "24", TextBulletListTree24RegularSvg);

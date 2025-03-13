@@ -11,15 +11,17 @@ import Directions32RegularSvg from "@fluentui/svg-icons/icons/directions_32_regu
 import Directions48FilledSvg from "@fluentui/svg-icons/icons/directions_48_filled.svg" with { type: "text" }
 import Directions48RegularSvg from "@fluentui/svg-icons/icons/directions_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Directions16Filled = createIcon("Directions16Filled", Directions16FilledSvg);
-export const Directions16Regular = createIcon("Directions16Regular", Directions16RegularSvg);
-export const Directions20Filled = createIcon("Directions20Filled", Directions20FilledSvg);
-export const Directions20Regular = createIcon("Directions20Regular", Directions20RegularSvg);
-export const Directions24Filled = createIcon("Directions24Filled", Directions24FilledSvg);
-export const Directions24Regular = createIcon("Directions24Regular", Directions24RegularSvg);
-export const Directions28Filled = createIcon("Directions28Filled", Directions28FilledSvg);
-export const Directions28Regular = createIcon("Directions28Regular", Directions28RegularSvg);
-export const Directions32Filled = createIcon("Directions32Filled", Directions32FilledSvg);
-export const Directions32Regular = createIcon("Directions32Regular", Directions32RegularSvg);
-export const Directions48Filled = createIcon("Directions48Filled", Directions48FilledSvg);
-export const Directions48Regular = createIcon("Directions48Regular", Directions48RegularSvg);
+export const Directions16Filled = /** #__PURE__ */ createIcon("Directions16Filled", "16", Directions16FilledSvg);
+export const Directions16Regular = /** #__PURE__ */ createIcon("Directions16Regular", "16", Directions16RegularSvg);
+export const Directions20Filled = /** #__PURE__ */ createIcon("Directions20Filled", "20", Directions20FilledSvg);
+export const DirectionsFilled = /** #__PURE__ */ createIcon("DirectionsFilled", "1em", Directions20FilledSvg);
+export const Directions20Regular = /** #__PURE__ */ createIcon("Directions20Regular", "20", Directions20RegularSvg);
+export const DirectionsRegular = /** #__PURE__ */ createIcon("DirectionsRegular", "1em", Directions20RegularSvg);
+export const Directions24Filled = /** #__PURE__ */ createIcon("Directions24Filled", "24", Directions24FilledSvg);
+export const Directions24Regular = /** #__PURE__ */ createIcon("Directions24Regular", "24", Directions24RegularSvg);
+export const Directions28Filled = /** #__PURE__ */ createIcon("Directions28Filled", "28", Directions28FilledSvg);
+export const Directions28Regular = /** #__PURE__ */ createIcon("Directions28Regular", "28", Directions28RegularSvg);
+export const Directions32Filled = /** #__PURE__ */ createIcon("Directions32Filled", "32", Directions32FilledSvg);
+export const Directions32Regular = /** #__PURE__ */ createIcon("Directions32Regular", "32", Directions32RegularSvg);
+export const Directions48Filled = /** #__PURE__ */ createIcon("Directions48Filled", "48", Directions48FilledSvg);
+export const Directions48Regular = /** #__PURE__ */ createIcon("Directions48Regular", "48", Directions48RegularSvg);

@@ -7,11 +7,13 @@ import InkingTool24RegularSvg from "@fluentui/svg-icons/icons/inking_tool_24_reg
 import InkingTool32FilledSvg from "@fluentui/svg-icons/icons/inking_tool_32_filled.svg" with { type: "text" }
 import InkingTool32RegularSvg from "@fluentui/svg-icons/icons/inking_tool_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const InkingTool16Filled = createIcon("InkingTool16Filled", InkingTool16FilledSvg);
-export const InkingTool16Regular = createIcon("InkingTool16Regular", InkingTool16RegularSvg);
-export const InkingTool20Filled = createIcon("InkingTool20Filled", InkingTool20FilledSvg);
-export const InkingTool20Regular = createIcon("InkingTool20Regular", InkingTool20RegularSvg);
-export const InkingTool24Filled = createIcon("InkingTool24Filled", InkingTool24FilledSvg);
-export const InkingTool24Regular = createIcon("InkingTool24Regular", InkingTool24RegularSvg);
-export const InkingTool32Filled = createIcon("InkingTool32Filled", InkingTool32FilledSvg);
-export const InkingTool32Regular = createIcon("InkingTool32Regular", InkingTool32RegularSvg);
+export const InkingTool16Filled = /** #__PURE__ */ createIcon("InkingTool16Filled", "16", InkingTool16FilledSvg);
+export const InkingTool16Regular = /** #__PURE__ */ createIcon("InkingTool16Regular", "16", InkingTool16RegularSvg);
+export const InkingTool20Filled = /** #__PURE__ */ createIcon("InkingTool20Filled", "20", InkingTool20FilledSvg);
+export const InkingToolFilled = /** #__PURE__ */ createIcon("InkingToolFilled", "1em", InkingTool20FilledSvg);
+export const InkingTool20Regular = /** #__PURE__ */ createIcon("InkingTool20Regular", "20", InkingTool20RegularSvg);
+export const InkingToolRegular = /** #__PURE__ */ createIcon("InkingToolRegular", "1em", InkingTool20RegularSvg);
+export const InkingTool24Filled = /** #__PURE__ */ createIcon("InkingTool24Filled", "24", InkingTool24FilledSvg);
+export const InkingTool24Regular = /** #__PURE__ */ createIcon("InkingTool24Regular", "24", InkingTool24RegularSvg);
+export const InkingTool32Filled = /** #__PURE__ */ createIcon("InkingTool32Filled", "32", InkingTool32FilledSvg);
+export const InkingTool32Regular = /** #__PURE__ */ createIcon("InkingTool32Regular", "32", InkingTool32RegularSvg);

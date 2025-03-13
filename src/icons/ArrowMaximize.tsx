@@ -11,15 +11,17 @@ import ArrowMaximize32RegularSvg from "@fluentui/svg-icons/icons/arrow_maximize_
 import ArrowMaximize48FilledSvg from "@fluentui/svg-icons/icons/arrow_maximize_48_filled.svg" with { type: "text" }
 import ArrowMaximize48RegularSvg from "@fluentui/svg-icons/icons/arrow_maximize_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ArrowMaximize16Filled = createIcon("ArrowMaximize16Filled", ArrowMaximize16FilledSvg);
-export const ArrowMaximize16Regular = createIcon("ArrowMaximize16Regular", ArrowMaximize16RegularSvg);
-export const ArrowMaximize20Filled = createIcon("ArrowMaximize20Filled", ArrowMaximize20FilledSvg);
-export const ArrowMaximize20Regular = createIcon("ArrowMaximize20Regular", ArrowMaximize20RegularSvg);
-export const ArrowMaximize24Filled = createIcon("ArrowMaximize24Filled", ArrowMaximize24FilledSvg);
-export const ArrowMaximize24Regular = createIcon("ArrowMaximize24Regular", ArrowMaximize24RegularSvg);
-export const ArrowMaximize28Filled = createIcon("ArrowMaximize28Filled", ArrowMaximize28FilledSvg);
-export const ArrowMaximize28Regular = createIcon("ArrowMaximize28Regular", ArrowMaximize28RegularSvg);
-export const ArrowMaximize32Filled = createIcon("ArrowMaximize32Filled", ArrowMaximize32FilledSvg);
-export const ArrowMaximize32Regular = createIcon("ArrowMaximize32Regular", ArrowMaximize32RegularSvg);
-export const ArrowMaximize48Filled = createIcon("ArrowMaximize48Filled", ArrowMaximize48FilledSvg);
-export const ArrowMaximize48Regular = createIcon("ArrowMaximize48Regular", ArrowMaximize48RegularSvg);
+export const ArrowMaximize16Filled = /** #__PURE__ */ createIcon("ArrowMaximize16Filled", "16", ArrowMaximize16FilledSvg);
+export const ArrowMaximize16Regular = /** #__PURE__ */ createIcon("ArrowMaximize16Regular", "16", ArrowMaximize16RegularSvg);
+export const ArrowMaximize20Filled = /** #__PURE__ */ createIcon("ArrowMaximize20Filled", "20", ArrowMaximize20FilledSvg);
+export const ArrowMaximizeFilled = /** #__PURE__ */ createIcon("ArrowMaximizeFilled", "1em", ArrowMaximize20FilledSvg);
+export const ArrowMaximize20Regular = /** #__PURE__ */ createIcon("ArrowMaximize20Regular", "20", ArrowMaximize20RegularSvg);
+export const ArrowMaximizeRegular = /** #__PURE__ */ createIcon("ArrowMaximizeRegular", "1em", ArrowMaximize20RegularSvg);
+export const ArrowMaximize24Filled = /** #__PURE__ */ createIcon("ArrowMaximize24Filled", "24", ArrowMaximize24FilledSvg);
+export const ArrowMaximize24Regular = /** #__PURE__ */ createIcon("ArrowMaximize24Regular", "24", ArrowMaximize24RegularSvg);
+export const ArrowMaximize28Filled = /** #__PURE__ */ createIcon("ArrowMaximize28Filled", "28", ArrowMaximize28FilledSvg);
+export const ArrowMaximize28Regular = /** #__PURE__ */ createIcon("ArrowMaximize28Regular", "28", ArrowMaximize28RegularSvg);
+export const ArrowMaximize32Filled = /** #__PURE__ */ createIcon("ArrowMaximize32Filled", "32", ArrowMaximize32FilledSvg);
+export const ArrowMaximize32Regular = /** #__PURE__ */ createIcon("ArrowMaximize32Regular", "32", ArrowMaximize32RegularSvg);
+export const ArrowMaximize48Filled = /** #__PURE__ */ createIcon("ArrowMaximize48Filled", "48", ArrowMaximize48FilledSvg);
+export const ArrowMaximize48Regular = /** #__PURE__ */ createIcon("ArrowMaximize48Regular", "48", ArrowMaximize48RegularSvg);

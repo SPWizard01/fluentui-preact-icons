@@ -5,9 +5,11 @@ import LayoutRowThree20RegularSvg from "@fluentui/svg-icons/icons/layout_row_thr
 import LayoutRowThree24FilledSvg from "@fluentui/svg-icons/icons/layout_row_three_24_filled.svg" with { type: "text" }
 import LayoutRowThree24RegularSvg from "@fluentui/svg-icons/icons/layout_row_three_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const LayoutRowThree16Filled = createIcon("LayoutRowThree16Filled", LayoutRowThree16FilledSvg);
-export const LayoutRowThree16Regular = createIcon("LayoutRowThree16Regular", LayoutRowThree16RegularSvg);
-export const LayoutRowThree20Filled = createIcon("LayoutRowThree20Filled", LayoutRowThree20FilledSvg);
-export const LayoutRowThree20Regular = createIcon("LayoutRowThree20Regular", LayoutRowThree20RegularSvg);
-export const LayoutRowThree24Filled = createIcon("LayoutRowThree24Filled", LayoutRowThree24FilledSvg);
-export const LayoutRowThree24Regular = createIcon("LayoutRowThree24Regular", LayoutRowThree24RegularSvg);
+export const LayoutRowThree16Filled = /** #__PURE__ */ createIcon("LayoutRowThree16Filled", "16", LayoutRowThree16FilledSvg);
+export const LayoutRowThree16Regular = /** #__PURE__ */ createIcon("LayoutRowThree16Regular", "16", LayoutRowThree16RegularSvg);
+export const LayoutRowThree20Filled = /** #__PURE__ */ createIcon("LayoutRowThree20Filled", "20", LayoutRowThree20FilledSvg);
+export const LayoutRowThreeFilled = /** #__PURE__ */ createIcon("LayoutRowThreeFilled", "1em", LayoutRowThree20FilledSvg);
+export const LayoutRowThree20Regular = /** #__PURE__ */ createIcon("LayoutRowThree20Regular", "20", LayoutRowThree20RegularSvg);
+export const LayoutRowThreeRegular = /** #__PURE__ */ createIcon("LayoutRowThreeRegular", "1em", LayoutRowThree20RegularSvg);
+export const LayoutRowThree24Filled = /** #__PURE__ */ createIcon("LayoutRowThree24Filled", "24", LayoutRowThree24FilledSvg);
+export const LayoutRowThree24Regular = /** #__PURE__ */ createIcon("LayoutRowThree24Regular", "24", LayoutRowThree24RegularSvg);

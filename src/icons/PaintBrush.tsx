@@ -17,21 +17,24 @@ import PaintBrush32FilledSvg from "@fluentui/svg-icons/icons/paint_brush_32_fill
 import PaintBrush32LightSvg from "@fluentui/svg-icons/icons/paint_brush_32_light.svg" with { type: "text" }
 import PaintBrush32RegularSvg from "@fluentui/svg-icons/icons/paint_brush_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PaintBrush12Filled = createIcon("PaintBrush12Filled", PaintBrush12FilledSvg);
-export const PaintBrush12Regular = createIcon("PaintBrush12Regular", PaintBrush12RegularSvg);
-export const PaintBrush16Color = createIcon("PaintBrush16Color", PaintBrush16ColorSvg);
-export const PaintBrush16Filled = createIcon("PaintBrush16Filled", PaintBrush16FilledSvg);
-export const PaintBrush16Regular = createIcon("PaintBrush16Regular", PaintBrush16RegularSvg);
-export const PaintBrush20Color = createIcon("PaintBrush20Color", PaintBrush20ColorSvg);
-export const PaintBrush20Filled = createIcon("PaintBrush20Filled", PaintBrush20FilledSvg);
-export const PaintBrush20Regular = createIcon("PaintBrush20Regular", PaintBrush20RegularSvg);
-export const PaintBrush24Color = createIcon("PaintBrush24Color", PaintBrush24ColorSvg);
-export const PaintBrush24Filled = createIcon("PaintBrush24Filled", PaintBrush24FilledSvg);
-export const PaintBrush24Regular = createIcon("PaintBrush24Regular", PaintBrush24RegularSvg);
-export const PaintBrush28Color = createIcon("PaintBrush28Color", PaintBrush28ColorSvg);
-export const PaintBrush28Filled = createIcon("PaintBrush28Filled", PaintBrush28FilledSvg);
-export const PaintBrush28Regular = createIcon("PaintBrush28Regular", PaintBrush28RegularSvg);
-export const PaintBrush32Color = createIcon("PaintBrush32Color", PaintBrush32ColorSvg);
-export const PaintBrush32Filled = createIcon("PaintBrush32Filled", PaintBrush32FilledSvg);
-export const PaintBrush32Light = createIcon("PaintBrush32Light", PaintBrush32LightSvg);
-export const PaintBrush32Regular = createIcon("PaintBrush32Regular", PaintBrush32RegularSvg);
+export const PaintBrush12Filled = /** #__PURE__ */ createIcon("PaintBrush12Filled", "12", PaintBrush12FilledSvg);
+export const PaintBrush12Regular = /** #__PURE__ */ createIcon("PaintBrush12Regular", "12", PaintBrush12RegularSvg);
+export const PaintBrush16Color = /** #__PURE__ */ createIcon("PaintBrush16Color", "16", PaintBrush16ColorSvg);
+export const PaintBrush16Filled = /** #__PURE__ */ createIcon("PaintBrush16Filled", "16", PaintBrush16FilledSvg);
+export const PaintBrush16Regular = /** #__PURE__ */ createIcon("PaintBrush16Regular", "16", PaintBrush16RegularSvg);
+export const PaintBrush20Color = /** #__PURE__ */ createIcon("PaintBrush20Color", "20", PaintBrush20ColorSvg);
+export const PaintBrushColor = /** #__PURE__ */ createIcon("PaintBrushColor", "1em", PaintBrush20ColorSvg);
+export const PaintBrush20Filled = /** #__PURE__ */ createIcon("PaintBrush20Filled", "20", PaintBrush20FilledSvg);
+export const PaintBrushFilled = /** #__PURE__ */ createIcon("PaintBrushFilled", "1em", PaintBrush20FilledSvg);
+export const PaintBrush20Regular = /** #__PURE__ */ createIcon("PaintBrush20Regular", "20", PaintBrush20RegularSvg);
+export const PaintBrushRegular = /** #__PURE__ */ createIcon("PaintBrushRegular", "1em", PaintBrush20RegularSvg);
+export const PaintBrush24Color = /** #__PURE__ */ createIcon("PaintBrush24Color", "24", PaintBrush24ColorSvg);
+export const PaintBrush24Filled = /** #__PURE__ */ createIcon("PaintBrush24Filled", "24", PaintBrush24FilledSvg);
+export const PaintBrush24Regular = /** #__PURE__ */ createIcon("PaintBrush24Regular", "24", PaintBrush24RegularSvg);
+export const PaintBrush28Color = /** #__PURE__ */ createIcon("PaintBrush28Color", "28", PaintBrush28ColorSvg);
+export const PaintBrush28Filled = /** #__PURE__ */ createIcon("PaintBrush28Filled", "28", PaintBrush28FilledSvg);
+export const PaintBrush28Regular = /** #__PURE__ */ createIcon("PaintBrush28Regular", "28", PaintBrush28RegularSvg);
+export const PaintBrush32Color = /** #__PURE__ */ createIcon("PaintBrush32Color", "32", PaintBrush32ColorSvg);
+export const PaintBrush32Filled = /** #__PURE__ */ createIcon("PaintBrush32Filled", "32", PaintBrush32FilledSvg);
+export const PaintBrush32Light = /** #__PURE__ */ createIcon("PaintBrush32Light", "32", PaintBrush32LightSvg);
+export const PaintBrush32Regular = /** #__PURE__ */ createIcon("PaintBrush32Regular", "32", PaintBrush32RegularSvg);

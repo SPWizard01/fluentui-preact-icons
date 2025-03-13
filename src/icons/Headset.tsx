@@ -17,21 +17,24 @@ import Headset48ColorSvg from "@fluentui/svg-icons/icons/headset_48_color.svg" w
 import Headset48FilledSvg from "@fluentui/svg-icons/icons/headset_48_filled.svg" with { type: "text" }
 import Headset48RegularSvg from "@fluentui/svg-icons/icons/headset_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Headset16Color = createIcon("Headset16Color", Headset16ColorSvg);
-export const Headset16Filled = createIcon("Headset16Filled", Headset16FilledSvg);
-export const Headset16Regular = createIcon("Headset16Regular", Headset16RegularSvg);
-export const Headset20Color = createIcon("Headset20Color", Headset20ColorSvg);
-export const Headset20Filled = createIcon("Headset20Filled", Headset20FilledSvg);
-export const Headset20Regular = createIcon("Headset20Regular", Headset20RegularSvg);
-export const Headset24Color = createIcon("Headset24Color", Headset24ColorSvg);
-export const Headset24Filled = createIcon("Headset24Filled", Headset24FilledSvg);
-export const Headset24Regular = createIcon("Headset24Regular", Headset24RegularSvg);
-export const Headset28Color = createIcon("Headset28Color", Headset28ColorSvg);
-export const Headset28Filled = createIcon("Headset28Filled", Headset28FilledSvg);
-export const Headset28Regular = createIcon("Headset28Regular", Headset28RegularSvg);
-export const Headset32Color = createIcon("Headset32Color", Headset32ColorSvg);
-export const Headset32Filled = createIcon("Headset32Filled", Headset32FilledSvg);
-export const Headset32Regular = createIcon("Headset32Regular", Headset32RegularSvg);
-export const Headset48Color = createIcon("Headset48Color", Headset48ColorSvg);
-export const Headset48Filled = createIcon("Headset48Filled", Headset48FilledSvg);
-export const Headset48Regular = createIcon("Headset48Regular", Headset48RegularSvg);
+export const Headset16Color = /** #__PURE__ */ createIcon("Headset16Color", "16", Headset16ColorSvg);
+export const Headset16Filled = /** #__PURE__ */ createIcon("Headset16Filled", "16", Headset16FilledSvg);
+export const Headset16Regular = /** #__PURE__ */ createIcon("Headset16Regular", "16", Headset16RegularSvg);
+export const Headset20Color = /** #__PURE__ */ createIcon("Headset20Color", "20", Headset20ColorSvg);
+export const HeadsetColor = /** #__PURE__ */ createIcon("HeadsetColor", "1em", Headset20ColorSvg);
+export const Headset20Filled = /** #__PURE__ */ createIcon("Headset20Filled", "20", Headset20FilledSvg);
+export const HeadsetFilled = /** #__PURE__ */ createIcon("HeadsetFilled", "1em", Headset20FilledSvg);
+export const Headset20Regular = /** #__PURE__ */ createIcon("Headset20Regular", "20", Headset20RegularSvg);
+export const HeadsetRegular = /** #__PURE__ */ createIcon("HeadsetRegular", "1em", Headset20RegularSvg);
+export const Headset24Color = /** #__PURE__ */ createIcon("Headset24Color", "24", Headset24ColorSvg);
+export const Headset24Filled = /** #__PURE__ */ createIcon("Headset24Filled", "24", Headset24FilledSvg);
+export const Headset24Regular = /** #__PURE__ */ createIcon("Headset24Regular", "24", Headset24RegularSvg);
+export const Headset28Color = /** #__PURE__ */ createIcon("Headset28Color", "28", Headset28ColorSvg);
+export const Headset28Filled = /** #__PURE__ */ createIcon("Headset28Filled", "28", Headset28FilledSvg);
+export const Headset28Regular = /** #__PURE__ */ createIcon("Headset28Regular", "28", Headset28RegularSvg);
+export const Headset32Color = /** #__PURE__ */ createIcon("Headset32Color", "32", Headset32ColorSvg);
+export const Headset32Filled = /** #__PURE__ */ createIcon("Headset32Filled", "32", Headset32FilledSvg);
+export const Headset32Regular = /** #__PURE__ */ createIcon("Headset32Regular", "32", Headset32RegularSvg);
+export const Headset48Color = /** #__PURE__ */ createIcon("Headset48Color", "48", Headset48ColorSvg);
+export const Headset48Filled = /** #__PURE__ */ createIcon("Headset48Filled", "48", Headset48FilledSvg);
+export const Headset48Regular = /** #__PURE__ */ createIcon("Headset48Regular", "48", Headset48RegularSvg);

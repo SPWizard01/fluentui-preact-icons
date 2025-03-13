@@ -1,13 +1,9 @@
-# fluentui-preact-icons
+# Fluent UI SVG Icons for Preact
 
-To install dependencies:
+```tsx
+import { AccessTimeFilled } from "fluentui-preact-icons";
 
-```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run serve
+export function App() {
+    return (<AccessTimeFilled fill={"currentColor"} />)
+}
 ```

@@ -11,15 +11,17 @@ import SquareHintSparkles32RegularSvg from "@fluentui/svg-icons/icons/square_hin
 import SquareHintSparkles48FilledSvg from "@fluentui/svg-icons/icons/square_hint_sparkles_48_filled.svg" with { type: "text" }
 import SquareHintSparkles48RegularSvg from "@fluentui/svg-icons/icons/square_hint_sparkles_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const SquareHintSparkles16Filled = createIcon("SquareHintSparkles16Filled", SquareHintSparkles16FilledSvg);
-export const SquareHintSparkles16Regular = createIcon("SquareHintSparkles16Regular", SquareHintSparkles16RegularSvg);
-export const SquareHintSparkles20Filled = createIcon("SquareHintSparkles20Filled", SquareHintSparkles20FilledSvg);
-export const SquareHintSparkles20Regular = createIcon("SquareHintSparkles20Regular", SquareHintSparkles20RegularSvg);
-export const SquareHintSparkles24Filled = createIcon("SquareHintSparkles24Filled", SquareHintSparkles24FilledSvg);
-export const SquareHintSparkles24Regular = createIcon("SquareHintSparkles24Regular", SquareHintSparkles24RegularSvg);
-export const SquareHintSparkles28Filled = createIcon("SquareHintSparkles28Filled", SquareHintSparkles28FilledSvg);
-export const SquareHintSparkles28Regular = createIcon("SquareHintSparkles28Regular", SquareHintSparkles28RegularSvg);
-export const SquareHintSparkles32Filled = createIcon("SquareHintSparkles32Filled", SquareHintSparkles32FilledSvg);
-export const SquareHintSparkles32Regular = createIcon("SquareHintSparkles32Regular", SquareHintSparkles32RegularSvg);
-export const SquareHintSparkles48Filled = createIcon("SquareHintSparkles48Filled", SquareHintSparkles48FilledSvg);
-export const SquareHintSparkles48Regular = createIcon("SquareHintSparkles48Regular", SquareHintSparkles48RegularSvg);
+export const SquareHintSparkles16Filled = /** #__PURE__ */ createIcon("SquareHintSparkles16Filled", "16", SquareHintSparkles16FilledSvg);
+export const SquareHintSparkles16Regular = /** #__PURE__ */ createIcon("SquareHintSparkles16Regular", "16", SquareHintSparkles16RegularSvg);
+export const SquareHintSparkles20Filled = /** #__PURE__ */ createIcon("SquareHintSparkles20Filled", "20", SquareHintSparkles20FilledSvg);
+export const SquareHintSparklesFilled = /** #__PURE__ */ createIcon("SquareHintSparklesFilled", "1em", SquareHintSparkles20FilledSvg);
+export const SquareHintSparkles20Regular = /** #__PURE__ */ createIcon("SquareHintSparkles20Regular", "20", SquareHintSparkles20RegularSvg);
+export const SquareHintSparklesRegular = /** #__PURE__ */ createIcon("SquareHintSparklesRegular", "1em", SquareHintSparkles20RegularSvg);
+export const SquareHintSparkles24Filled = /** #__PURE__ */ createIcon("SquareHintSparkles24Filled", "24", SquareHintSparkles24FilledSvg);
+export const SquareHintSparkles24Regular = /** #__PURE__ */ createIcon("SquareHintSparkles24Regular", "24", SquareHintSparkles24RegularSvg);
+export const SquareHintSparkles28Filled = /** #__PURE__ */ createIcon("SquareHintSparkles28Filled", "28", SquareHintSparkles28FilledSvg);
+export const SquareHintSparkles28Regular = /** #__PURE__ */ createIcon("SquareHintSparkles28Regular", "28", SquareHintSparkles28RegularSvg);
+export const SquareHintSparkles32Filled = /** #__PURE__ */ createIcon("SquareHintSparkles32Filled", "32", SquareHintSparkles32FilledSvg);
+export const SquareHintSparkles32Regular = /** #__PURE__ */ createIcon("SquareHintSparkles32Regular", "32", SquareHintSparkles32RegularSvg);
+export const SquareHintSparkles48Filled = /** #__PURE__ */ createIcon("SquareHintSparkles48Filled", "48", SquareHintSparkles48FilledSvg);
+export const SquareHintSparkles48Regular = /** #__PURE__ */ createIcon("SquareHintSparkles48Regular", "48", SquareHintSparkles48RegularSvg);

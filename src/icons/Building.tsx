@@ -14,18 +14,21 @@ import Building48ColorSvg from "@fluentui/svg-icons/icons/building_48_color.svg"
 import Building48FilledSvg from "@fluentui/svg-icons/icons/building_48_filled.svg" with { type: "text" }
 import Building48RegularSvg from "@fluentui/svg-icons/icons/building_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Building16Color = createIcon("Building16Color", Building16ColorSvg);
-export const Building16Filled = createIcon("Building16Filled", Building16FilledSvg);
-export const Building16Regular = createIcon("Building16Regular", Building16RegularSvg);
-export const Building20Color = createIcon("Building20Color", Building20ColorSvg);
-export const Building20Filled = createIcon("Building20Filled", Building20FilledSvg);
-export const Building20Regular = createIcon("Building20Regular", Building20RegularSvg);
-export const Building24Color = createIcon("Building24Color", Building24ColorSvg);
-export const Building24Filled = createIcon("Building24Filled", Building24FilledSvg);
-export const Building24Regular = createIcon("Building24Regular", Building24RegularSvg);
-export const Building32Color = createIcon("Building32Color", Building32ColorSvg);
-export const Building32Filled = createIcon("Building32Filled", Building32FilledSvg);
-export const Building32Regular = createIcon("Building32Regular", Building32RegularSvg);
-export const Building48Color = createIcon("Building48Color", Building48ColorSvg);
-export const Building48Filled = createIcon("Building48Filled", Building48FilledSvg);
-export const Building48Regular = createIcon("Building48Regular", Building48RegularSvg);
+export const Building16Color = /** #__PURE__ */ createIcon("Building16Color", "16", Building16ColorSvg);
+export const Building16Filled = /** #__PURE__ */ createIcon("Building16Filled", "16", Building16FilledSvg);
+export const Building16Regular = /** #__PURE__ */ createIcon("Building16Regular", "16", Building16RegularSvg);
+export const Building20Color = /** #__PURE__ */ createIcon("Building20Color", "20", Building20ColorSvg);
+export const BuildingColor = /** #__PURE__ */ createIcon("BuildingColor", "1em", Building20ColorSvg);
+export const Building20Filled = /** #__PURE__ */ createIcon("Building20Filled", "20", Building20FilledSvg);
+export const BuildingFilled = /** #__PURE__ */ createIcon("BuildingFilled", "1em", Building20FilledSvg);
+export const Building20Regular = /** #__PURE__ */ createIcon("Building20Regular", "20", Building20RegularSvg);
+export const BuildingRegular = /** #__PURE__ */ createIcon("BuildingRegular", "1em", Building20RegularSvg);
+export const Building24Color = /** #__PURE__ */ createIcon("Building24Color", "24", Building24ColorSvg);
+export const Building24Filled = /** #__PURE__ */ createIcon("Building24Filled", "24", Building24FilledSvg);
+export const Building24Regular = /** #__PURE__ */ createIcon("Building24Regular", "24", Building24RegularSvg);
+export const Building32Color = /** #__PURE__ */ createIcon("Building32Color", "32", Building32ColorSvg);
+export const Building32Filled = /** #__PURE__ */ createIcon("Building32Filled", "32", Building32FilledSvg);
+export const Building32Regular = /** #__PURE__ */ createIcon("Building32Regular", "32", Building32RegularSvg);
+export const Building48Color = /** #__PURE__ */ createIcon("Building48Color", "48", Building48ColorSvg);
+export const Building48Filled = /** #__PURE__ */ createIcon("Building48Filled", "48", Building48FilledSvg);
+export const Building48Regular = /** #__PURE__ */ createIcon("Building48Regular", "48", Building48RegularSvg);

@@ -11,15 +11,17 @@ import MoreHorizontal32RegularSvg from "@fluentui/svg-icons/icons/more_horizonta
 import MoreHorizontal48FilledSvg from "@fluentui/svg-icons/icons/more_horizontal_48_filled.svg" with { type: "text" }
 import MoreHorizontal48RegularSvg from "@fluentui/svg-icons/icons/more_horizontal_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const MoreHorizontal16Filled = createIcon("MoreHorizontal16Filled", MoreHorizontal16FilledSvg);
-export const MoreHorizontal16Regular = createIcon("MoreHorizontal16Regular", MoreHorizontal16RegularSvg);
-export const MoreHorizontal20Filled = createIcon("MoreHorizontal20Filled", MoreHorizontal20FilledSvg);
-export const MoreHorizontal20Regular = createIcon("MoreHorizontal20Regular", MoreHorizontal20RegularSvg);
-export const MoreHorizontal24Filled = createIcon("MoreHorizontal24Filled", MoreHorizontal24FilledSvg);
-export const MoreHorizontal24Regular = createIcon("MoreHorizontal24Regular", MoreHorizontal24RegularSvg);
-export const MoreHorizontal28Filled = createIcon("MoreHorizontal28Filled", MoreHorizontal28FilledSvg);
-export const MoreHorizontal28Regular = createIcon("MoreHorizontal28Regular", MoreHorizontal28RegularSvg);
-export const MoreHorizontal32Filled = createIcon("MoreHorizontal32Filled", MoreHorizontal32FilledSvg);
-export const MoreHorizontal32Regular = createIcon("MoreHorizontal32Regular", MoreHorizontal32RegularSvg);
-export const MoreHorizontal48Filled = createIcon("MoreHorizontal48Filled", MoreHorizontal48FilledSvg);
-export const MoreHorizontal48Regular = createIcon("MoreHorizontal48Regular", MoreHorizontal48RegularSvg);
+export const MoreHorizontal16Filled = /** #__PURE__ */ createIcon("MoreHorizontal16Filled", "16", MoreHorizontal16FilledSvg);
+export const MoreHorizontal16Regular = /** #__PURE__ */ createIcon("MoreHorizontal16Regular", "16", MoreHorizontal16RegularSvg);
+export const MoreHorizontal20Filled = /** #__PURE__ */ createIcon("MoreHorizontal20Filled", "20", MoreHorizontal20FilledSvg);
+export const MoreHorizontalFilled = /** #__PURE__ */ createIcon("MoreHorizontalFilled", "1em", MoreHorizontal20FilledSvg);
+export const MoreHorizontal20Regular = /** #__PURE__ */ createIcon("MoreHorizontal20Regular", "20", MoreHorizontal20RegularSvg);
+export const MoreHorizontalRegular = /** #__PURE__ */ createIcon("MoreHorizontalRegular", "1em", MoreHorizontal20RegularSvg);
+export const MoreHorizontal24Filled = /** #__PURE__ */ createIcon("MoreHorizontal24Filled", "24", MoreHorizontal24FilledSvg);
+export const MoreHorizontal24Regular = /** #__PURE__ */ createIcon("MoreHorizontal24Regular", "24", MoreHorizontal24RegularSvg);
+export const MoreHorizontal28Filled = /** #__PURE__ */ createIcon("MoreHorizontal28Filled", "28", MoreHorizontal28FilledSvg);
+export const MoreHorizontal28Regular = /** #__PURE__ */ createIcon("MoreHorizontal28Regular", "28", MoreHorizontal28RegularSvg);
+export const MoreHorizontal32Filled = /** #__PURE__ */ createIcon("MoreHorizontal32Filled", "32", MoreHorizontal32FilledSvg);
+export const MoreHorizontal32Regular = /** #__PURE__ */ createIcon("MoreHorizontal32Regular", "32", MoreHorizontal32RegularSvg);
+export const MoreHorizontal48Filled = /** #__PURE__ */ createIcon("MoreHorizontal48Filled", "48", MoreHorizontal48FilledSvg);
+export const MoreHorizontal48Regular = /** #__PURE__ */ createIcon("MoreHorizontal48Regular", "48", MoreHorizontal48RegularSvg);

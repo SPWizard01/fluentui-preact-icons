@@ -5,9 +5,11 @@ import SettingsChat20RegularSvg from "@fluentui/svg-icons/icons/settings_chat_20
 import SettingsChat24FilledSvg from "@fluentui/svg-icons/icons/settings_chat_24_filled.svg" with { type: "text" }
 import SettingsChat24RegularSvg from "@fluentui/svg-icons/icons/settings_chat_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const SettingsChat16Filled = createIcon("SettingsChat16Filled", SettingsChat16FilledSvg);
-export const SettingsChat16Regular = createIcon("SettingsChat16Regular", SettingsChat16RegularSvg);
-export const SettingsChat20Filled = createIcon("SettingsChat20Filled", SettingsChat20FilledSvg);
-export const SettingsChat20Regular = createIcon("SettingsChat20Regular", SettingsChat20RegularSvg);
-export const SettingsChat24Filled = createIcon("SettingsChat24Filled", SettingsChat24FilledSvg);
-export const SettingsChat24Regular = createIcon("SettingsChat24Regular", SettingsChat24RegularSvg);
+export const SettingsChat16Filled = /** #__PURE__ */ createIcon("SettingsChat16Filled", "16", SettingsChat16FilledSvg);
+export const SettingsChat16Regular = /** #__PURE__ */ createIcon("SettingsChat16Regular", "16", SettingsChat16RegularSvg);
+export const SettingsChat20Filled = /** #__PURE__ */ createIcon("SettingsChat20Filled", "20", SettingsChat20FilledSvg);
+export const SettingsChatFilled = /** #__PURE__ */ createIcon("SettingsChatFilled", "1em", SettingsChat20FilledSvg);
+export const SettingsChat20Regular = /** #__PURE__ */ createIcon("SettingsChat20Regular", "20", SettingsChat20RegularSvg);
+export const SettingsChatRegular = /** #__PURE__ */ createIcon("SettingsChatRegular", "1em", SettingsChat20RegularSvg);
+export const SettingsChat24Filled = /** #__PURE__ */ createIcon("SettingsChat24Filled", "24", SettingsChat24FilledSvg);
+export const SettingsChat24Regular = /** #__PURE__ */ createIcon("SettingsChat24Regular", "24", SettingsChat24RegularSvg);

@@ -3,7 +3,9 @@ import TextGrammarSettings20RegularSvg from "@fluentui/svg-icons/icons/text_gram
 import TextGrammarSettings24FilledSvg from "@fluentui/svg-icons/icons/text_grammar_settings_24_filled.svg" with { type: "text" }
 import TextGrammarSettings24RegularSvg from "@fluentui/svg-icons/icons/text_grammar_settings_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TextGrammarSettings20Filled = createIcon("TextGrammarSettings20Filled", TextGrammarSettings20FilledSvg);
-export const TextGrammarSettings20Regular = createIcon("TextGrammarSettings20Regular", TextGrammarSettings20RegularSvg);
-export const TextGrammarSettings24Filled = createIcon("TextGrammarSettings24Filled", TextGrammarSettings24FilledSvg);
-export const TextGrammarSettings24Regular = createIcon("TextGrammarSettings24Regular", TextGrammarSettings24RegularSvg);
+export const TextGrammarSettings20Filled = /** #__PURE__ */ createIcon("TextGrammarSettings20Filled", "20", TextGrammarSettings20FilledSvg);
+export const TextGrammarSettingsFilled = /** #__PURE__ */ createIcon("TextGrammarSettingsFilled", "1em", TextGrammarSettings20FilledSvg);
+export const TextGrammarSettings20Regular = /** #__PURE__ */ createIcon("TextGrammarSettings20Regular", "20", TextGrammarSettings20RegularSvg);
+export const TextGrammarSettingsRegular = /** #__PURE__ */ createIcon("TextGrammarSettingsRegular", "1em", TextGrammarSettings20RegularSvg);
+export const TextGrammarSettings24Filled = /** #__PURE__ */ createIcon("TextGrammarSettings24Filled", "24", TextGrammarSettings24FilledSvg);
+export const TextGrammarSettings24Regular = /** #__PURE__ */ createIcon("TextGrammarSettings24Regular", "24", TextGrammarSettings24RegularSvg);

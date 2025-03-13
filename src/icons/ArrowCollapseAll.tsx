@@ -5,9 +5,11 @@ import ArrowCollapseAll20RegularSvg from "@fluentui/svg-icons/icons/arrow_collap
 import ArrowCollapseAll24FilledSvg from "@fluentui/svg-icons/icons/arrow_collapse_all_24_filled.svg" with { type: "text" }
 import ArrowCollapseAll24RegularSvg from "@fluentui/svg-icons/icons/arrow_collapse_all_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ArrowCollapseAll16Filled = createIcon("ArrowCollapseAll16Filled", ArrowCollapseAll16FilledSvg);
-export const ArrowCollapseAll16Regular = createIcon("ArrowCollapseAll16Regular", ArrowCollapseAll16RegularSvg);
-export const ArrowCollapseAll20Filled = createIcon("ArrowCollapseAll20Filled", ArrowCollapseAll20FilledSvg);
-export const ArrowCollapseAll20Regular = createIcon("ArrowCollapseAll20Regular", ArrowCollapseAll20RegularSvg);
-export const ArrowCollapseAll24Filled = createIcon("ArrowCollapseAll24Filled", ArrowCollapseAll24FilledSvg);
-export const ArrowCollapseAll24Regular = createIcon("ArrowCollapseAll24Regular", ArrowCollapseAll24RegularSvg);
+export const ArrowCollapseAll16Filled = /** #__PURE__ */ createIcon("ArrowCollapseAll16Filled", "16", ArrowCollapseAll16FilledSvg);
+export const ArrowCollapseAll16Regular = /** #__PURE__ */ createIcon("ArrowCollapseAll16Regular", "16", ArrowCollapseAll16RegularSvg);
+export const ArrowCollapseAll20Filled = /** #__PURE__ */ createIcon("ArrowCollapseAll20Filled", "20", ArrowCollapseAll20FilledSvg);
+export const ArrowCollapseAllFilled = /** #__PURE__ */ createIcon("ArrowCollapseAllFilled", "1em", ArrowCollapseAll20FilledSvg);
+export const ArrowCollapseAll20Regular = /** #__PURE__ */ createIcon("ArrowCollapseAll20Regular", "20", ArrowCollapseAll20RegularSvg);
+export const ArrowCollapseAllRegular = /** #__PURE__ */ createIcon("ArrowCollapseAllRegular", "1em", ArrowCollapseAll20RegularSvg);
+export const ArrowCollapseAll24Filled = /** #__PURE__ */ createIcon("ArrowCollapseAll24Filled", "24", ArrowCollapseAll24FilledSvg);
+export const ArrowCollapseAll24Regular = /** #__PURE__ */ createIcon("ArrowCollapseAll24Regular", "24", ArrowCollapseAll24RegularSvg);

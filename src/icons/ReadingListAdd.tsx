@@ -7,11 +7,13 @@ import ReadingListAdd24RegularSvg from "@fluentui/svg-icons/icons/reading_list_a
 import ReadingListAdd28FilledSvg from "@fluentui/svg-icons/icons/reading_list_add_28_filled.svg" with { type: "text" }
 import ReadingListAdd28RegularSvg from "@fluentui/svg-icons/icons/reading_list_add_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ReadingListAdd16Filled = createIcon("ReadingListAdd16Filled", ReadingListAdd16FilledSvg);
-export const ReadingListAdd16Regular = createIcon("ReadingListAdd16Regular", ReadingListAdd16RegularSvg);
-export const ReadingListAdd20Filled = createIcon("ReadingListAdd20Filled", ReadingListAdd20FilledSvg);
-export const ReadingListAdd20Regular = createIcon("ReadingListAdd20Regular", ReadingListAdd20RegularSvg);
-export const ReadingListAdd24Filled = createIcon("ReadingListAdd24Filled", ReadingListAdd24FilledSvg);
-export const ReadingListAdd24Regular = createIcon("ReadingListAdd24Regular", ReadingListAdd24RegularSvg);
-export const ReadingListAdd28Filled = createIcon("ReadingListAdd28Filled", ReadingListAdd28FilledSvg);
-export const ReadingListAdd28Regular = createIcon("ReadingListAdd28Regular", ReadingListAdd28RegularSvg);
+export const ReadingListAdd16Filled = /** #__PURE__ */ createIcon("ReadingListAdd16Filled", "16", ReadingListAdd16FilledSvg);
+export const ReadingListAdd16Regular = /** #__PURE__ */ createIcon("ReadingListAdd16Regular", "16", ReadingListAdd16RegularSvg);
+export const ReadingListAdd20Filled = /** #__PURE__ */ createIcon("ReadingListAdd20Filled", "20", ReadingListAdd20FilledSvg);
+export const ReadingListAddFilled = /** #__PURE__ */ createIcon("ReadingListAddFilled", "1em", ReadingListAdd20FilledSvg);
+export const ReadingListAdd20Regular = /** #__PURE__ */ createIcon("ReadingListAdd20Regular", "20", ReadingListAdd20RegularSvg);
+export const ReadingListAddRegular = /** #__PURE__ */ createIcon("ReadingListAddRegular", "1em", ReadingListAdd20RegularSvg);
+export const ReadingListAdd24Filled = /** #__PURE__ */ createIcon("ReadingListAdd24Filled", "24", ReadingListAdd24FilledSvg);
+export const ReadingListAdd24Regular = /** #__PURE__ */ createIcon("ReadingListAdd24Regular", "24", ReadingListAdd24RegularSvg);
+export const ReadingListAdd28Filled = /** #__PURE__ */ createIcon("ReadingListAdd28Filled", "28", ReadingListAdd28FilledSvg);
+export const ReadingListAdd28Regular = /** #__PURE__ */ createIcon("ReadingListAdd28Regular", "28", ReadingListAdd28RegularSvg);

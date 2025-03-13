@@ -1,11 +1,23 @@
 {
   "name": "fluentui-preact-icons",
+  "description": "Fluent UI SVG Icons for Preact",
+  "author": "SPWizard01 (https://github.com/SPWizard01/fluentui-preact-icons)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SPWizard01/fluentui-preact-icons"
+  },
   "module": "index.ts",
   "type": "module",
+  "version": "1.0.0",
+  "license": "MIT",
   "scripts": {
     "build": "bun run build.ts",
+    "buildsources": "bun run buildsources.ts",
     "serve": "bun run serve.ts"
   },
+  "files": [
+    "dist"
+  ],
   "exports": {
     ".": "./dist/index.js"
   },
@@ -13,6 +25,7 @@
     "@fluentui/react-icons": "^2.0.279",
     "@fluentui/svg-icons": "^1.1.279",
     "@types/bun": "latest",
+    "fast-xml-parser": "^5.0.8",
     "preact": "^10.26.4"
   },
   "peerDependencies": {

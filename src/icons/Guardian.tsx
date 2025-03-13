@@ -7,11 +7,13 @@ import Guardian28RegularSvg from "@fluentui/svg-icons/icons/guardian_28_regular.
 import Guardian48FilledSvg from "@fluentui/svg-icons/icons/guardian_48_filled.svg" with { type: "text" }
 import Guardian48RegularSvg from "@fluentui/svg-icons/icons/guardian_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Guardian20Filled = createIcon("Guardian20Filled", Guardian20FilledSvg);
-export const Guardian20Regular = createIcon("Guardian20Regular", Guardian20RegularSvg);
-export const Guardian24Filled = createIcon("Guardian24Filled", Guardian24FilledSvg);
-export const Guardian24Regular = createIcon("Guardian24Regular", Guardian24RegularSvg);
-export const Guardian28Filled = createIcon("Guardian28Filled", Guardian28FilledSvg);
-export const Guardian28Regular = createIcon("Guardian28Regular", Guardian28RegularSvg);
-export const Guardian48Filled = createIcon("Guardian48Filled", Guardian48FilledSvg);
-export const Guardian48Regular = createIcon("Guardian48Regular", Guardian48RegularSvg);
+export const Guardian20Filled = /** #__PURE__ */ createIcon("Guardian20Filled", "20", Guardian20FilledSvg);
+export const GuardianFilled = /** #__PURE__ */ createIcon("GuardianFilled", "1em", Guardian20FilledSvg);
+export const Guardian20Regular = /** #__PURE__ */ createIcon("Guardian20Regular", "20", Guardian20RegularSvg);
+export const GuardianRegular = /** #__PURE__ */ createIcon("GuardianRegular", "1em", Guardian20RegularSvg);
+export const Guardian24Filled = /** #__PURE__ */ createIcon("Guardian24Filled", "24", Guardian24FilledSvg);
+export const Guardian24Regular = /** #__PURE__ */ createIcon("Guardian24Regular", "24", Guardian24RegularSvg);
+export const Guardian28Filled = /** #__PURE__ */ createIcon("Guardian28Filled", "28", Guardian28FilledSvg);
+export const Guardian28Regular = /** #__PURE__ */ createIcon("Guardian28Regular", "28", Guardian28RegularSvg);
+export const Guardian48Filled = /** #__PURE__ */ createIcon("Guardian48Filled", "48", Guardian48FilledSvg);
+export const Guardian48Regular = /** #__PURE__ */ createIcon("Guardian48Regular", "48", Guardian48RegularSvg);

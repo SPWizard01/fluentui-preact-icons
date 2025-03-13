@@ -3,7 +3,9 @@ import AlignStraighten20RegularSvg from "@fluentui/svg-icons/icons/align_straigh
 import AlignStraighten24FilledSvg from "@fluentui/svg-icons/icons/align_straighten_24_filled.svg" with { type: "text" }
 import AlignStraighten24RegularSvg from "@fluentui/svg-icons/icons/align_straighten_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const AlignStraighten20Filled = createIcon("AlignStraighten20Filled", AlignStraighten20FilledSvg);
-export const AlignStraighten20Regular = createIcon("AlignStraighten20Regular", AlignStraighten20RegularSvg);
-export const AlignStraighten24Filled = createIcon("AlignStraighten24Filled", AlignStraighten24FilledSvg);
-export const AlignStraighten24Regular = createIcon("AlignStraighten24Regular", AlignStraighten24RegularSvg);
+export const AlignStraighten20Filled = /** #__PURE__ */ createIcon("AlignStraighten20Filled", "20", AlignStraighten20FilledSvg);
+export const AlignStraightenFilled = /** #__PURE__ */ createIcon("AlignStraightenFilled", "1em", AlignStraighten20FilledSvg);
+export const AlignStraighten20Regular = /** #__PURE__ */ createIcon("AlignStraighten20Regular", "20", AlignStraighten20RegularSvg);
+export const AlignStraightenRegular = /** #__PURE__ */ createIcon("AlignStraightenRegular", "1em", AlignStraighten20RegularSvg);
+export const AlignStraighten24Filled = /** #__PURE__ */ createIcon("AlignStraighten24Filled", "24", AlignStraighten24FilledSvg);
+export const AlignStraighten24Regular = /** #__PURE__ */ createIcon("AlignStraighten24Regular", "24", AlignStraighten24RegularSvg);

@@ -13,17 +13,19 @@ import SquareDovetailJoint32RegularSvg from "@fluentui/svg-icons/icons/square_do
 import SquareDovetailJoint48FilledSvg from "@fluentui/svg-icons/icons/square_dovetail_joint_48_filled.svg" with { type: "text" }
 import SquareDovetailJoint48RegularSvg from "@fluentui/svg-icons/icons/square_dovetail_joint_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const SquareDovetailJoint12Filled = createIcon("SquareDovetailJoint12Filled", SquareDovetailJoint12FilledSvg);
-export const SquareDovetailJoint12Regular = createIcon("SquareDovetailJoint12Regular", SquareDovetailJoint12RegularSvg);
-export const SquareDovetailJoint16Filled = createIcon("SquareDovetailJoint16Filled", SquareDovetailJoint16FilledSvg);
-export const SquareDovetailJoint16Regular = createIcon("SquareDovetailJoint16Regular", SquareDovetailJoint16RegularSvg);
-export const SquareDovetailJoint20Filled = createIcon("SquareDovetailJoint20Filled", SquareDovetailJoint20FilledSvg);
-export const SquareDovetailJoint20Regular = createIcon("SquareDovetailJoint20Regular", SquareDovetailJoint20RegularSvg);
-export const SquareDovetailJoint24Filled = createIcon("SquareDovetailJoint24Filled", SquareDovetailJoint24FilledSvg);
-export const SquareDovetailJoint24Regular = createIcon("SquareDovetailJoint24Regular", SquareDovetailJoint24RegularSvg);
-export const SquareDovetailJoint28Filled = createIcon("SquareDovetailJoint28Filled", SquareDovetailJoint28FilledSvg);
-export const SquareDovetailJoint28Regular = createIcon("SquareDovetailJoint28Regular", SquareDovetailJoint28RegularSvg);
-export const SquareDovetailJoint32Filled = createIcon("SquareDovetailJoint32Filled", SquareDovetailJoint32FilledSvg);
-export const SquareDovetailJoint32Regular = createIcon("SquareDovetailJoint32Regular", SquareDovetailJoint32RegularSvg);
-export const SquareDovetailJoint48Filled = createIcon("SquareDovetailJoint48Filled", SquareDovetailJoint48FilledSvg);
-export const SquareDovetailJoint48Regular = createIcon("SquareDovetailJoint48Regular", SquareDovetailJoint48RegularSvg);
+export const SquareDovetailJoint12Filled = /** #__PURE__ */ createIcon("SquareDovetailJoint12Filled", "12", SquareDovetailJoint12FilledSvg);
+export const SquareDovetailJoint12Regular = /** #__PURE__ */ createIcon("SquareDovetailJoint12Regular", "12", SquareDovetailJoint12RegularSvg);
+export const SquareDovetailJoint16Filled = /** #__PURE__ */ createIcon("SquareDovetailJoint16Filled", "16", SquareDovetailJoint16FilledSvg);
+export const SquareDovetailJoint16Regular = /** #__PURE__ */ createIcon("SquareDovetailJoint16Regular", "16", SquareDovetailJoint16RegularSvg);
+export const SquareDovetailJoint20Filled = /** #__PURE__ */ createIcon("SquareDovetailJoint20Filled", "20", SquareDovetailJoint20FilledSvg);
+export const SquareDovetailJointFilled = /** #__PURE__ */ createIcon("SquareDovetailJointFilled", "1em", SquareDovetailJoint20FilledSvg);
+export const SquareDovetailJoint20Regular = /** #__PURE__ */ createIcon("SquareDovetailJoint20Regular", "20", SquareDovetailJoint20RegularSvg);
+export const SquareDovetailJointRegular = /** #__PURE__ */ createIcon("SquareDovetailJointRegular", "1em", SquareDovetailJoint20RegularSvg);
+export const SquareDovetailJoint24Filled = /** #__PURE__ */ createIcon("SquareDovetailJoint24Filled", "24", SquareDovetailJoint24FilledSvg);
+export const SquareDovetailJoint24Regular = /** #__PURE__ */ createIcon("SquareDovetailJoint24Regular", "24", SquareDovetailJoint24RegularSvg);
+export const SquareDovetailJoint28Filled = /** #__PURE__ */ createIcon("SquareDovetailJoint28Filled", "28", SquareDovetailJoint28FilledSvg);
+export const SquareDovetailJoint28Regular = /** #__PURE__ */ createIcon("SquareDovetailJoint28Regular", "28", SquareDovetailJoint28RegularSvg);
+export const SquareDovetailJoint32Filled = /** #__PURE__ */ createIcon("SquareDovetailJoint32Filled", "32", SquareDovetailJoint32FilledSvg);
+export const SquareDovetailJoint32Regular = /** #__PURE__ */ createIcon("SquareDovetailJoint32Regular", "32", SquareDovetailJoint32RegularSvg);
+export const SquareDovetailJoint48Filled = /** #__PURE__ */ createIcon("SquareDovetailJoint48Filled", "48", SquareDovetailJoint48FilledSvg);
+export const SquareDovetailJoint48Regular = /** #__PURE__ */ createIcon("SquareDovetailJoint48Regular", "48", SquareDovetailJoint48RegularSvg);

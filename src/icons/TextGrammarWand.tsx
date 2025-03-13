@@ -5,9 +5,11 @@ import TextGrammarWand20RegularSvg from "@fluentui/svg-icons/icons/text_grammar_
 import TextGrammarWand24FilledSvg from "@fluentui/svg-icons/icons/text_grammar_wand_24_filled.svg" with { type: "text" }
 import TextGrammarWand24RegularSvg from "@fluentui/svg-icons/icons/text_grammar_wand_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TextGrammarWand16Filled = createIcon("TextGrammarWand16Filled", TextGrammarWand16FilledSvg);
-export const TextGrammarWand16Regular = createIcon("TextGrammarWand16Regular", TextGrammarWand16RegularSvg);
-export const TextGrammarWand20Filled = createIcon("TextGrammarWand20Filled", TextGrammarWand20FilledSvg);
-export const TextGrammarWand20Regular = createIcon("TextGrammarWand20Regular", TextGrammarWand20RegularSvg);
-export const TextGrammarWand24Filled = createIcon("TextGrammarWand24Filled", TextGrammarWand24FilledSvg);
-export const TextGrammarWand24Regular = createIcon("TextGrammarWand24Regular", TextGrammarWand24RegularSvg);
+export const TextGrammarWand16Filled = /** #__PURE__ */ createIcon("TextGrammarWand16Filled", "16", TextGrammarWand16FilledSvg);
+export const TextGrammarWand16Regular = /** #__PURE__ */ createIcon("TextGrammarWand16Regular", "16", TextGrammarWand16RegularSvg);
+export const TextGrammarWand20Filled = /** #__PURE__ */ createIcon("TextGrammarWand20Filled", "20", TextGrammarWand20FilledSvg);
+export const TextGrammarWandFilled = /** #__PURE__ */ createIcon("TextGrammarWandFilled", "1em", TextGrammarWand20FilledSvg);
+export const TextGrammarWand20Regular = /** #__PURE__ */ createIcon("TextGrammarWand20Regular", "20", TextGrammarWand20RegularSvg);
+export const TextGrammarWandRegular = /** #__PURE__ */ createIcon("TextGrammarWandRegular", "1em", TextGrammarWand20RegularSvg);
+export const TextGrammarWand24Filled = /** #__PURE__ */ createIcon("TextGrammarWand24Filled", "24", TextGrammarWand24FilledSvg);
+export const TextGrammarWand24Regular = /** #__PURE__ */ createIcon("TextGrammarWand24Regular", "24", TextGrammarWand24RegularSvg);

@@ -13,17 +13,19 @@ import CallEnd32RegularSvg from "@fluentui/svg-icons/icons/call_end_32_regular.s
 import CallEnd48FilledSvg from "@fluentui/svg-icons/icons/call_end_48_filled.svg" with { type: "text" }
 import CallEnd48RegularSvg from "@fluentui/svg-icons/icons/call_end_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CallEnd12Filled = createIcon("CallEnd12Filled", CallEnd12FilledSvg);
-export const CallEnd12Regular = createIcon("CallEnd12Regular", CallEnd12RegularSvg);
-export const CallEnd16Filled = createIcon("CallEnd16Filled", CallEnd16FilledSvg);
-export const CallEnd16Regular = createIcon("CallEnd16Regular", CallEnd16RegularSvg);
-export const CallEnd20Filled = createIcon("CallEnd20Filled", CallEnd20FilledSvg);
-export const CallEnd20Regular = createIcon("CallEnd20Regular", CallEnd20RegularSvg);
-export const CallEnd24Filled = createIcon("CallEnd24Filled", CallEnd24FilledSvg);
-export const CallEnd24Regular = createIcon("CallEnd24Regular", CallEnd24RegularSvg);
-export const CallEnd28Filled = createIcon("CallEnd28Filled", CallEnd28FilledSvg);
-export const CallEnd28Regular = createIcon("CallEnd28Regular", CallEnd28RegularSvg);
-export const CallEnd32Filled = createIcon("CallEnd32Filled", CallEnd32FilledSvg);
-export const CallEnd32Regular = createIcon("CallEnd32Regular", CallEnd32RegularSvg);
-export const CallEnd48Filled = createIcon("CallEnd48Filled", CallEnd48FilledSvg);
-export const CallEnd48Regular = createIcon("CallEnd48Regular", CallEnd48RegularSvg);
+export const CallEnd12Filled = /** #__PURE__ */ createIcon("CallEnd12Filled", "12", CallEnd12FilledSvg);
+export const CallEnd12Regular = /** #__PURE__ */ createIcon("CallEnd12Regular", "12", CallEnd12RegularSvg);
+export const CallEnd16Filled = /** #__PURE__ */ createIcon("CallEnd16Filled", "16", CallEnd16FilledSvg);
+export const CallEnd16Regular = /** #__PURE__ */ createIcon("CallEnd16Regular", "16", CallEnd16RegularSvg);
+export const CallEnd20Filled = /** #__PURE__ */ createIcon("CallEnd20Filled", "20", CallEnd20FilledSvg);
+export const CallEndFilled = /** #__PURE__ */ createIcon("CallEndFilled", "1em", CallEnd20FilledSvg);
+export const CallEnd20Regular = /** #__PURE__ */ createIcon("CallEnd20Regular", "20", CallEnd20RegularSvg);
+export const CallEndRegular = /** #__PURE__ */ createIcon("CallEndRegular", "1em", CallEnd20RegularSvg);
+export const CallEnd24Filled = /** #__PURE__ */ createIcon("CallEnd24Filled", "24", CallEnd24FilledSvg);
+export const CallEnd24Regular = /** #__PURE__ */ createIcon("CallEnd24Regular", "24", CallEnd24RegularSvg);
+export const CallEnd28Filled = /** #__PURE__ */ createIcon("CallEnd28Filled", "28", CallEnd28FilledSvg);
+export const CallEnd28Regular = /** #__PURE__ */ createIcon("CallEnd28Regular", "28", CallEnd28RegularSvg);
+export const CallEnd32Filled = /** #__PURE__ */ createIcon("CallEnd32Filled", "32", CallEnd32FilledSvg);
+export const CallEnd32Regular = /** #__PURE__ */ createIcon("CallEnd32Regular", "32", CallEnd32RegularSvg);
+export const CallEnd48Filled = /** #__PURE__ */ createIcon("CallEnd48Filled", "48", CallEnd48FilledSvg);
+export const CallEnd48Regular = /** #__PURE__ */ createIcon("CallEnd48Regular", "48", CallEnd48RegularSvg);

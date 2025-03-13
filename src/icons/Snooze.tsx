@@ -5,9 +5,11 @@ import Snooze20RegularSvg from "@fluentui/svg-icons/icons/snooze_20_regular.svg"
 import Snooze24FilledSvg from "@fluentui/svg-icons/icons/snooze_24_filled.svg" with { type: "text" }
 import Snooze24RegularSvg from "@fluentui/svg-icons/icons/snooze_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Snooze16Filled = createIcon("Snooze16Filled", Snooze16FilledSvg);
-export const Snooze16Regular = createIcon("Snooze16Regular", Snooze16RegularSvg);
-export const Snooze20Filled = createIcon("Snooze20Filled", Snooze20FilledSvg);
-export const Snooze20Regular = createIcon("Snooze20Regular", Snooze20RegularSvg);
-export const Snooze24Filled = createIcon("Snooze24Filled", Snooze24FilledSvg);
-export const Snooze24Regular = createIcon("Snooze24Regular", Snooze24RegularSvg);
+export const Snooze16Filled = /** #__PURE__ */ createIcon("Snooze16Filled", "16", Snooze16FilledSvg);
+export const Snooze16Regular = /** #__PURE__ */ createIcon("Snooze16Regular", "16", Snooze16RegularSvg);
+export const Snooze20Filled = /** #__PURE__ */ createIcon("Snooze20Filled", "20", Snooze20FilledSvg);
+export const SnoozeFilled = /** #__PURE__ */ createIcon("SnoozeFilled", "1em", Snooze20FilledSvg);
+export const Snooze20Regular = /** #__PURE__ */ createIcon("Snooze20Regular", "20", Snooze20RegularSvg);
+export const SnoozeRegular = /** #__PURE__ */ createIcon("SnoozeRegular", "1em", Snooze20RegularSvg);
+export const Snooze24Filled = /** #__PURE__ */ createIcon("Snooze24Filled", "24", Snooze24FilledSvg);
+export const Snooze24Regular = /** #__PURE__ */ createIcon("Snooze24Regular", "24", Snooze24RegularSvg);

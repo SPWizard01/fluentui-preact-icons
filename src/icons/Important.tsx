@@ -10,14 +10,16 @@ import Important32FilledSvg from "@fluentui/svg-icons/icons/important_32_filled.
 import Important32LightSvg from "@fluentui/svg-icons/icons/important_32_light.svg" with { type: "text" }
 import Important32RegularSvg from "@fluentui/svg-icons/icons/important_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Important12Filled = createIcon("Important12Filled", Important12FilledSvg);
-export const Important12Regular = createIcon("Important12Regular", Important12RegularSvg);
-export const Important16Filled = createIcon("Important16Filled", Important16FilledSvg);
-export const Important16Regular = createIcon("Important16Regular", Important16RegularSvg);
-export const Important20Filled = createIcon("Important20Filled", Important20FilledSvg);
-export const Important20Regular = createIcon("Important20Regular", Important20RegularSvg);
-export const Important24Filled = createIcon("Important24Filled", Important24FilledSvg);
-export const Important24Regular = createIcon("Important24Regular", Important24RegularSvg);
-export const Important32Filled = createIcon("Important32Filled", Important32FilledSvg);
-export const Important32Light = createIcon("Important32Light", Important32LightSvg);
-export const Important32Regular = createIcon("Important32Regular", Important32RegularSvg);
+export const Important12Filled = /** #__PURE__ */ createIcon("Important12Filled", "12", Important12FilledSvg);
+export const Important12Regular = /** #__PURE__ */ createIcon("Important12Regular", "12", Important12RegularSvg);
+export const Important16Filled = /** #__PURE__ */ createIcon("Important16Filled", "16", Important16FilledSvg);
+export const Important16Regular = /** #__PURE__ */ createIcon("Important16Regular", "16", Important16RegularSvg);
+export const Important20Filled = /** #__PURE__ */ createIcon("Important20Filled", "20", Important20FilledSvg);
+export const ImportantFilled = /** #__PURE__ */ createIcon("ImportantFilled", "1em", Important20FilledSvg);
+export const Important20Regular = /** #__PURE__ */ createIcon("Important20Regular", "20", Important20RegularSvg);
+export const ImportantRegular = /** #__PURE__ */ createIcon("ImportantRegular", "1em", Important20RegularSvg);
+export const Important24Filled = /** #__PURE__ */ createIcon("Important24Filled", "24", Important24FilledSvg);
+export const Important24Regular = /** #__PURE__ */ createIcon("Important24Regular", "24", Important24RegularSvg);
+export const Important32Filled = /** #__PURE__ */ createIcon("Important32Filled", "32", Important32FilledSvg);
+export const Important32Light = /** #__PURE__ */ createIcon("Important32Light", "32", Important32LightSvg);
+export const Important32Regular = /** #__PURE__ */ createIcon("Important32Regular", "32", Important32RegularSvg);

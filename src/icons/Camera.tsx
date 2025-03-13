@@ -10,14 +10,17 @@ import Camera24RegularSvg from "@fluentui/svg-icons/icons/camera_24_regular.svg"
 import Camera28FilledSvg from "@fluentui/svg-icons/icons/camera_28_filled.svg" with { type: "text" }
 import Camera28RegularSvg from "@fluentui/svg-icons/icons/camera_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Camera16Color = createIcon("Camera16Color", Camera16ColorSvg);
-export const Camera16Filled = createIcon("Camera16Filled", Camera16FilledSvg);
-export const Camera16Regular = createIcon("Camera16Regular", Camera16RegularSvg);
-export const Camera20Color = createIcon("Camera20Color", Camera20ColorSvg);
-export const Camera20Filled = createIcon("Camera20Filled", Camera20FilledSvg);
-export const Camera20Regular = createIcon("Camera20Regular", Camera20RegularSvg);
-export const Camera24Color = createIcon("Camera24Color", Camera24ColorSvg);
-export const Camera24Filled = createIcon("Camera24Filled", Camera24FilledSvg);
-export const Camera24Regular = createIcon("Camera24Regular", Camera24RegularSvg);
-export const Camera28Filled = createIcon("Camera28Filled", Camera28FilledSvg);
-export const Camera28Regular = createIcon("Camera28Regular", Camera28RegularSvg);
+export const Camera16Color = /** #__PURE__ */ createIcon("Camera16Color", "16", Camera16ColorSvg);
+export const Camera16Filled = /** #__PURE__ */ createIcon("Camera16Filled", "16", Camera16FilledSvg);
+export const Camera16Regular = /** #__PURE__ */ createIcon("Camera16Regular", "16", Camera16RegularSvg);
+export const Camera20Color = /** #__PURE__ */ createIcon("Camera20Color", "20", Camera20ColorSvg);
+export const CameraColor = /** #__PURE__ */ createIcon("CameraColor", "1em", Camera20ColorSvg);
+export const Camera20Filled = /** #__PURE__ */ createIcon("Camera20Filled", "20", Camera20FilledSvg);
+export const CameraFilled = /** #__PURE__ */ createIcon("CameraFilled", "1em", Camera20FilledSvg);
+export const Camera20Regular = /** #__PURE__ */ createIcon("Camera20Regular", "20", Camera20RegularSvg);
+export const CameraRegular = /** #__PURE__ */ createIcon("CameraRegular", "1em", Camera20RegularSvg);
+export const Camera24Color = /** #__PURE__ */ createIcon("Camera24Color", "24", Camera24ColorSvg);
+export const Camera24Filled = /** #__PURE__ */ createIcon("Camera24Filled", "24", Camera24FilledSvg);
+export const Camera24Regular = /** #__PURE__ */ createIcon("Camera24Regular", "24", Camera24RegularSvg);
+export const Camera28Filled = /** #__PURE__ */ createIcon("Camera28Filled", "28", Camera28FilledSvg);
+export const Camera28Regular = /** #__PURE__ */ createIcon("Camera28Regular", "28", Camera28RegularSvg);

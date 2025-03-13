@@ -7,11 +7,13 @@ import BowlChopsticks24RegularSvg from "@fluentui/svg-icons/icons/bowl_chopstick
 import BowlChopsticks28FilledSvg from "@fluentui/svg-icons/icons/bowl_chopsticks_28_filled.svg" with { type: "text" }
 import BowlChopsticks28RegularSvg from "@fluentui/svg-icons/icons/bowl_chopsticks_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const BowlChopsticks16Filled = createIcon("BowlChopsticks16Filled", BowlChopsticks16FilledSvg);
-export const BowlChopsticks16Regular = createIcon("BowlChopsticks16Regular", BowlChopsticks16RegularSvg);
-export const BowlChopsticks20Filled = createIcon("BowlChopsticks20Filled", BowlChopsticks20FilledSvg);
-export const BowlChopsticks20Regular = createIcon("BowlChopsticks20Regular", BowlChopsticks20RegularSvg);
-export const BowlChopsticks24Filled = createIcon("BowlChopsticks24Filled", BowlChopsticks24FilledSvg);
-export const BowlChopsticks24Regular = createIcon("BowlChopsticks24Regular", BowlChopsticks24RegularSvg);
-export const BowlChopsticks28Filled = createIcon("BowlChopsticks28Filled", BowlChopsticks28FilledSvg);
-export const BowlChopsticks28Regular = createIcon("BowlChopsticks28Regular", BowlChopsticks28RegularSvg);
+export const BowlChopsticks16Filled = /** #__PURE__ */ createIcon("BowlChopsticks16Filled", "16", BowlChopsticks16FilledSvg);
+export const BowlChopsticks16Regular = /** #__PURE__ */ createIcon("BowlChopsticks16Regular", "16", BowlChopsticks16RegularSvg);
+export const BowlChopsticks20Filled = /** #__PURE__ */ createIcon("BowlChopsticks20Filled", "20", BowlChopsticks20FilledSvg);
+export const BowlChopsticksFilled = /** #__PURE__ */ createIcon("BowlChopsticksFilled", "1em", BowlChopsticks20FilledSvg);
+export const BowlChopsticks20Regular = /** #__PURE__ */ createIcon("BowlChopsticks20Regular", "20", BowlChopsticks20RegularSvg);
+export const BowlChopsticksRegular = /** #__PURE__ */ createIcon("BowlChopsticksRegular", "1em", BowlChopsticks20RegularSvg);
+export const BowlChopsticks24Filled = /** #__PURE__ */ createIcon("BowlChopsticks24Filled", "24", BowlChopsticks24FilledSvg);
+export const BowlChopsticks24Regular = /** #__PURE__ */ createIcon("BowlChopsticks24Regular", "24", BowlChopsticks24RegularSvg);
+export const BowlChopsticks28Filled = /** #__PURE__ */ createIcon("BowlChopsticks28Filled", "28", BowlChopsticks28FilledSvg);
+export const BowlChopsticks28Regular = /** #__PURE__ */ createIcon("BowlChopsticks28Regular", "28", BowlChopsticks28RegularSvg);

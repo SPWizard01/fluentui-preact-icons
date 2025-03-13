@@ -5,9 +5,11 @@ import PersonWalking20RegularSvg from "@fluentui/svg-icons/icons/person_walking_
 import PersonWalking24FilledSvg from "@fluentui/svg-icons/icons/person_walking_24_filled.svg" with { type: "text" }
 import PersonWalking24RegularSvg from "@fluentui/svg-icons/icons/person_walking_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PersonWalking16Filled = createIcon("PersonWalking16Filled", PersonWalking16FilledSvg);
-export const PersonWalking16Regular = createIcon("PersonWalking16Regular", PersonWalking16RegularSvg);
-export const PersonWalking20Filled = createIcon("PersonWalking20Filled", PersonWalking20FilledSvg);
-export const PersonWalking20Regular = createIcon("PersonWalking20Regular", PersonWalking20RegularSvg);
-export const PersonWalking24Filled = createIcon("PersonWalking24Filled", PersonWalking24FilledSvg);
-export const PersonWalking24Regular = createIcon("PersonWalking24Regular", PersonWalking24RegularSvg);
+export const PersonWalking16Filled = /** #__PURE__ */ createIcon("PersonWalking16Filled", "16", PersonWalking16FilledSvg);
+export const PersonWalking16Regular = /** #__PURE__ */ createIcon("PersonWalking16Regular", "16", PersonWalking16RegularSvg);
+export const PersonWalking20Filled = /** #__PURE__ */ createIcon("PersonWalking20Filled", "20", PersonWalking20FilledSvg);
+export const PersonWalkingFilled = /** #__PURE__ */ createIcon("PersonWalkingFilled", "1em", PersonWalking20FilledSvg);
+export const PersonWalking20Regular = /** #__PURE__ */ createIcon("PersonWalking20Regular", "20", PersonWalking20RegularSvg);
+export const PersonWalkingRegular = /** #__PURE__ */ createIcon("PersonWalkingRegular", "1em", PersonWalking20RegularSvg);
+export const PersonWalking24Filled = /** #__PURE__ */ createIcon("PersonWalking24Filled", "24", PersonWalking24FilledSvg);
+export const PersonWalking24Regular = /** #__PURE__ */ createIcon("PersonWalking24Regular", "24", PersonWalking24RegularSvg);

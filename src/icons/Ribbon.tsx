@@ -13,17 +13,20 @@ import Ribbon32ColorSvg from "@fluentui/svg-icons/icons/ribbon_32_color.svg" wit
 import Ribbon32FilledSvg from "@fluentui/svg-icons/icons/ribbon_32_filled.svg" with { type: "text" }
 import Ribbon32RegularSvg from "@fluentui/svg-icons/icons/ribbon_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Ribbon12Filled = createIcon("Ribbon12Filled", Ribbon12FilledSvg);
-export const Ribbon12Regular = createIcon("Ribbon12Regular", Ribbon12RegularSvg);
-export const Ribbon16Color = createIcon("Ribbon16Color", Ribbon16ColorSvg);
-export const Ribbon16Filled = createIcon("Ribbon16Filled", Ribbon16FilledSvg);
-export const Ribbon16Regular = createIcon("Ribbon16Regular", Ribbon16RegularSvg);
-export const Ribbon20Color = createIcon("Ribbon20Color", Ribbon20ColorSvg);
-export const Ribbon20Filled = createIcon("Ribbon20Filled", Ribbon20FilledSvg);
-export const Ribbon20Regular = createIcon("Ribbon20Regular", Ribbon20RegularSvg);
-export const Ribbon24Color = createIcon("Ribbon24Color", Ribbon24ColorSvg);
-export const Ribbon24Filled = createIcon("Ribbon24Filled", Ribbon24FilledSvg);
-export const Ribbon24Regular = createIcon("Ribbon24Regular", Ribbon24RegularSvg);
-export const Ribbon32Color = createIcon("Ribbon32Color", Ribbon32ColorSvg);
-export const Ribbon32Filled = createIcon("Ribbon32Filled", Ribbon32FilledSvg);
-export const Ribbon32Regular = createIcon("Ribbon32Regular", Ribbon32RegularSvg);
+export const Ribbon12Filled = /** #__PURE__ */ createIcon("Ribbon12Filled", "12", Ribbon12FilledSvg);
+export const Ribbon12Regular = /** #__PURE__ */ createIcon("Ribbon12Regular", "12", Ribbon12RegularSvg);
+export const Ribbon16Color = /** #__PURE__ */ createIcon("Ribbon16Color", "16", Ribbon16ColorSvg);
+export const Ribbon16Filled = /** #__PURE__ */ createIcon("Ribbon16Filled", "16", Ribbon16FilledSvg);
+export const Ribbon16Regular = /** #__PURE__ */ createIcon("Ribbon16Regular", "16", Ribbon16RegularSvg);
+export const Ribbon20Color = /** #__PURE__ */ createIcon("Ribbon20Color", "20", Ribbon20ColorSvg);
+export const RibbonColor = /** #__PURE__ */ createIcon("RibbonColor", "1em", Ribbon20ColorSvg);
+export const Ribbon20Filled = /** #__PURE__ */ createIcon("Ribbon20Filled", "20", Ribbon20FilledSvg);
+export const RibbonFilled = /** #__PURE__ */ createIcon("RibbonFilled", "1em", Ribbon20FilledSvg);
+export const Ribbon20Regular = /** #__PURE__ */ createIcon("Ribbon20Regular", "20", Ribbon20RegularSvg);
+export const RibbonRegular = /** #__PURE__ */ createIcon("RibbonRegular", "1em", Ribbon20RegularSvg);
+export const Ribbon24Color = /** #__PURE__ */ createIcon("Ribbon24Color", "24", Ribbon24ColorSvg);
+export const Ribbon24Filled = /** #__PURE__ */ createIcon("Ribbon24Filled", "24", Ribbon24FilledSvg);
+export const Ribbon24Regular = /** #__PURE__ */ createIcon("Ribbon24Regular", "24", Ribbon24RegularSvg);
+export const Ribbon32Color = /** #__PURE__ */ createIcon("Ribbon32Color", "32", Ribbon32ColorSvg);
+export const Ribbon32Filled = /** #__PURE__ */ createIcon("Ribbon32Filled", "32", Ribbon32FilledSvg);
+export const Ribbon32Regular = /** #__PURE__ */ createIcon("Ribbon32Regular", "32", Ribbon32RegularSvg);

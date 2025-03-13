@@ -5,9 +5,11 @@ import CoinStack20RegularSvg from "@fluentui/svg-icons/icons/coin_stack_20_regul
 import CoinStack24FilledSvg from "@fluentui/svg-icons/icons/coin_stack_24_filled.svg" with { type: "text" }
 import CoinStack24RegularSvg from "@fluentui/svg-icons/icons/coin_stack_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CoinStack16Filled = createIcon("CoinStack16Filled", CoinStack16FilledSvg);
-export const CoinStack16Regular = createIcon("CoinStack16Regular", CoinStack16RegularSvg);
-export const CoinStack20Filled = createIcon("CoinStack20Filled", CoinStack20FilledSvg);
-export const CoinStack20Regular = createIcon("CoinStack20Regular", CoinStack20RegularSvg);
-export const CoinStack24Filled = createIcon("CoinStack24Filled", CoinStack24FilledSvg);
-export const CoinStack24Regular = createIcon("CoinStack24Regular", CoinStack24RegularSvg);
+export const CoinStack16Filled = /** #__PURE__ */ createIcon("CoinStack16Filled", "16", CoinStack16FilledSvg);
+export const CoinStack16Regular = /** #__PURE__ */ createIcon("CoinStack16Regular", "16", CoinStack16RegularSvg);
+export const CoinStack20Filled = /** #__PURE__ */ createIcon("CoinStack20Filled", "20", CoinStack20FilledSvg);
+export const CoinStackFilled = /** #__PURE__ */ createIcon("CoinStackFilled", "1em", CoinStack20FilledSvg);
+export const CoinStack20Regular = /** #__PURE__ */ createIcon("CoinStack20Regular", "20", CoinStack20RegularSvg);
+export const CoinStackRegular = /** #__PURE__ */ createIcon("CoinStackRegular", "1em", CoinStack20RegularSvg);
+export const CoinStack24Filled = /** #__PURE__ */ createIcon("CoinStack24Filled", "24", CoinStack24FilledSvg);
+export const CoinStack24Regular = /** #__PURE__ */ createIcon("CoinStack24Regular", "24", CoinStack24RegularSvg);

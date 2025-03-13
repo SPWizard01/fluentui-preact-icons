@@ -8,12 +8,15 @@ import PersonKey32ColorSvg from "@fluentui/svg-icons/icons/person_key_32_color.s
 import PersonKey32FilledSvg from "@fluentui/svg-icons/icons/person_key_32_filled.svg" with { type: "text" }
 import PersonKey32RegularSvg from "@fluentui/svg-icons/icons/person_key_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PersonKey20Color = createIcon("PersonKey20Color", PersonKey20ColorSvg);
-export const PersonKey20Filled = createIcon("PersonKey20Filled", PersonKey20FilledSvg);
-export const PersonKey20Regular = createIcon("PersonKey20Regular", PersonKey20RegularSvg);
-export const PersonKey24Color = createIcon("PersonKey24Color", PersonKey24ColorSvg);
-export const PersonKey24Filled = createIcon("PersonKey24Filled", PersonKey24FilledSvg);
-export const PersonKey24Regular = createIcon("PersonKey24Regular", PersonKey24RegularSvg);
-export const PersonKey32Color = createIcon("PersonKey32Color", PersonKey32ColorSvg);
-export const PersonKey32Filled = createIcon("PersonKey32Filled", PersonKey32FilledSvg);
-export const PersonKey32Regular = createIcon("PersonKey32Regular", PersonKey32RegularSvg);
+export const PersonKey20Color = /** #__PURE__ */ createIcon("PersonKey20Color", "20", PersonKey20ColorSvg);
+export const PersonKeyColor = /** #__PURE__ */ createIcon("PersonKeyColor", "1em", PersonKey20ColorSvg);
+export const PersonKey20Filled = /** #__PURE__ */ createIcon("PersonKey20Filled", "20", PersonKey20FilledSvg);
+export const PersonKeyFilled = /** #__PURE__ */ createIcon("PersonKeyFilled", "1em", PersonKey20FilledSvg);
+export const PersonKey20Regular = /** #__PURE__ */ createIcon("PersonKey20Regular", "20", PersonKey20RegularSvg);
+export const PersonKeyRegular = /** #__PURE__ */ createIcon("PersonKeyRegular", "1em", PersonKey20RegularSvg);
+export const PersonKey24Color = /** #__PURE__ */ createIcon("PersonKey24Color", "24", PersonKey24ColorSvg);
+export const PersonKey24Filled = /** #__PURE__ */ createIcon("PersonKey24Filled", "24", PersonKey24FilledSvg);
+export const PersonKey24Regular = /** #__PURE__ */ createIcon("PersonKey24Regular", "24", PersonKey24RegularSvg);
+export const PersonKey32Color = /** #__PURE__ */ createIcon("PersonKey32Color", "32", PersonKey32ColorSvg);
+export const PersonKey32Filled = /** #__PURE__ */ createIcon("PersonKey32Filled", "32", PersonKey32FilledSvg);
+export const PersonKey32Regular = /** #__PURE__ */ createIcon("PersonKey32Regular", "32", PersonKey32RegularSvg);

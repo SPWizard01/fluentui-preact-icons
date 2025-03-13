@@ -11,15 +11,17 @@ import NumberCircle432RegularSvg from "@fluentui/svg-icons/icons/number_circle_4
 import NumberCircle448FilledSvg from "@fluentui/svg-icons/icons/number_circle_4_48_filled.svg" with { type: "text" }
 import NumberCircle448RegularSvg from "@fluentui/svg-icons/icons/number_circle_4_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const NumberCircle416Filled = createIcon("NumberCircle416Filled", NumberCircle416FilledSvg);
-export const NumberCircle416Regular = createIcon("NumberCircle416Regular", NumberCircle416RegularSvg);
-export const NumberCircle420Filled = createIcon("NumberCircle420Filled", NumberCircle420FilledSvg);
-export const NumberCircle420Regular = createIcon("NumberCircle420Regular", NumberCircle420RegularSvg);
-export const NumberCircle424Filled = createIcon("NumberCircle424Filled", NumberCircle424FilledSvg);
-export const NumberCircle424Regular = createIcon("NumberCircle424Regular", NumberCircle424RegularSvg);
-export const NumberCircle428Filled = createIcon("NumberCircle428Filled", NumberCircle428FilledSvg);
-export const NumberCircle428Regular = createIcon("NumberCircle428Regular", NumberCircle428RegularSvg);
-export const NumberCircle432Filled = createIcon("NumberCircle432Filled", NumberCircle432FilledSvg);
-export const NumberCircle432Regular = createIcon("NumberCircle432Regular", NumberCircle432RegularSvg);
-export const NumberCircle448Filled = createIcon("NumberCircle448Filled", NumberCircle448FilledSvg);
-export const NumberCircle448Regular = createIcon("NumberCircle448Regular", NumberCircle448RegularSvg);
+export const NumberCircle416Filled = /** #__PURE__ */ createIcon("NumberCircle416Filled", "16", NumberCircle416FilledSvg);
+export const NumberCircle416Regular = /** #__PURE__ */ createIcon("NumberCircle416Regular", "16", NumberCircle416RegularSvg);
+export const NumberCircle420Filled = /** #__PURE__ */ createIcon("NumberCircle420Filled", "20", NumberCircle420FilledSvg);
+export const NumberCircle4Filled = /** #__PURE__ */ createIcon("NumberCircle4Filled", "1em", NumberCircle420FilledSvg);
+export const NumberCircle420Regular = /** #__PURE__ */ createIcon("NumberCircle420Regular", "20", NumberCircle420RegularSvg);
+export const NumberCircle4Regular = /** #__PURE__ */ createIcon("NumberCircle4Regular", "1em", NumberCircle420RegularSvg);
+export const NumberCircle424Filled = /** #__PURE__ */ createIcon("NumberCircle424Filled", "24", NumberCircle424FilledSvg);
+export const NumberCircle424Regular = /** #__PURE__ */ createIcon("NumberCircle424Regular", "24", NumberCircle424RegularSvg);
+export const NumberCircle428Filled = /** #__PURE__ */ createIcon("NumberCircle428Filled", "28", NumberCircle428FilledSvg);
+export const NumberCircle428Regular = /** #__PURE__ */ createIcon("NumberCircle428Regular", "28", NumberCircle428RegularSvg);
+export const NumberCircle432Filled = /** #__PURE__ */ createIcon("NumberCircle432Filled", "32", NumberCircle432FilledSvg);
+export const NumberCircle432Regular = /** #__PURE__ */ createIcon("NumberCircle432Regular", "32", NumberCircle432RegularSvg);
+export const NumberCircle448Filled = /** #__PURE__ */ createIcon("NumberCircle448Filled", "48", NumberCircle448FilledSvg);
+export const NumberCircle448Regular = /** #__PURE__ */ createIcon("NumberCircle448Regular", "48", NumberCircle448RegularSvg);

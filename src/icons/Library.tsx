@@ -14,18 +14,21 @@ import Library32ColorSvg from "@fluentui/svg-icons/icons/library_32_color.svg" w
 import Library32FilledSvg from "@fluentui/svg-icons/icons/library_32_filled.svg" with { type: "text" }
 import Library32RegularSvg from "@fluentui/svg-icons/icons/library_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Library16Color = createIcon("Library16Color", Library16ColorSvg);
-export const Library16Filled = createIcon("Library16Filled", Library16FilledSvg);
-export const Library16Regular = createIcon("Library16Regular", Library16RegularSvg);
-export const Library20Color = createIcon("Library20Color", Library20ColorSvg);
-export const Library20Filled = createIcon("Library20Filled", Library20FilledSvg);
-export const Library20Regular = createIcon("Library20Regular", Library20RegularSvg);
-export const Library24Color = createIcon("Library24Color", Library24ColorSvg);
-export const Library24Filled = createIcon("Library24Filled", Library24FilledSvg);
-export const Library24Regular = createIcon("Library24Regular", Library24RegularSvg);
-export const Library28Color = createIcon("Library28Color", Library28ColorSvg);
-export const Library28Filled = createIcon("Library28Filled", Library28FilledSvg);
-export const Library28Regular = createIcon("Library28Regular", Library28RegularSvg);
-export const Library32Color = createIcon("Library32Color", Library32ColorSvg);
-export const Library32Filled = createIcon("Library32Filled", Library32FilledSvg);
-export const Library32Regular = createIcon("Library32Regular", Library32RegularSvg);
+export const Library16Color = /** #__PURE__ */ createIcon("Library16Color", "16", Library16ColorSvg);
+export const Library16Filled = /** #__PURE__ */ createIcon("Library16Filled", "16", Library16FilledSvg);
+export const Library16Regular = /** #__PURE__ */ createIcon("Library16Regular", "16", Library16RegularSvg);
+export const Library20Color = /** #__PURE__ */ createIcon("Library20Color", "20", Library20ColorSvg);
+export const LibraryColor = /** #__PURE__ */ createIcon("LibraryColor", "1em", Library20ColorSvg);
+export const Library20Filled = /** #__PURE__ */ createIcon("Library20Filled", "20", Library20FilledSvg);
+export const LibraryFilled = /** #__PURE__ */ createIcon("LibraryFilled", "1em", Library20FilledSvg);
+export const Library20Regular = /** #__PURE__ */ createIcon("Library20Regular", "20", Library20RegularSvg);
+export const LibraryRegular = /** #__PURE__ */ createIcon("LibraryRegular", "1em", Library20RegularSvg);
+export const Library24Color = /** #__PURE__ */ createIcon("Library24Color", "24", Library24ColorSvg);
+export const Library24Filled = /** #__PURE__ */ createIcon("Library24Filled", "24", Library24FilledSvg);
+export const Library24Regular = /** #__PURE__ */ createIcon("Library24Regular", "24", Library24RegularSvg);
+export const Library28Color = /** #__PURE__ */ createIcon("Library28Color", "28", Library28ColorSvg);
+export const Library28Filled = /** #__PURE__ */ createIcon("Library28Filled", "28", Library28FilledSvg);
+export const Library28Regular = /** #__PURE__ */ createIcon("Library28Regular", "28", Library28RegularSvg);
+export const Library32Color = /** #__PURE__ */ createIcon("Library32Color", "32", Library32ColorSvg);
+export const Library32Filled = /** #__PURE__ */ createIcon("Library32Filled", "32", Library32FilledSvg);
+export const Library32Regular = /** #__PURE__ */ createIcon("Library32Regular", "32", Library32RegularSvg);

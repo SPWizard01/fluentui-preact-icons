@@ -14,18 +14,20 @@ import CommentAdd32RegularSvg from "@fluentui/svg-icons/icons/comment_add_32_reg
 import CommentAdd48FilledSvg from "@fluentui/svg-icons/icons/comment_add_48_filled.svg" with { type: "text" }
 import CommentAdd48RegularSvg from "@fluentui/svg-icons/icons/comment_add_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CommentAdd12Filled = createIcon("CommentAdd12Filled", CommentAdd12FilledSvg);
-export const CommentAdd12Regular = createIcon("CommentAdd12Regular", CommentAdd12RegularSvg);
-export const CommentAdd16Filled = createIcon("CommentAdd16Filled", CommentAdd16FilledSvg);
-export const CommentAdd16Regular = createIcon("CommentAdd16Regular", CommentAdd16RegularSvg);
-export const CommentAdd20Filled = createIcon("CommentAdd20Filled", CommentAdd20FilledSvg);
-export const CommentAdd20Regular = createIcon("CommentAdd20Regular", CommentAdd20RegularSvg);
-export const CommentAdd24Filled = createIcon("CommentAdd24Filled", CommentAdd24FilledSvg);
-export const CommentAdd24Regular = createIcon("CommentAdd24Regular", CommentAdd24RegularSvg);
-export const CommentAdd28Filled = createIcon("CommentAdd28Filled", CommentAdd28FilledSvg);
-export const CommentAdd28Regular = createIcon("CommentAdd28Regular", CommentAdd28RegularSvg);
-export const CommentAdd32Filled = createIcon("CommentAdd32Filled", CommentAdd32FilledSvg);
-export const CommentAdd32Light = createIcon("CommentAdd32Light", CommentAdd32LightSvg);
-export const CommentAdd32Regular = createIcon("CommentAdd32Regular", CommentAdd32RegularSvg);
-export const CommentAdd48Filled = createIcon("CommentAdd48Filled", CommentAdd48FilledSvg);
-export const CommentAdd48Regular = createIcon("CommentAdd48Regular", CommentAdd48RegularSvg);
+export const CommentAdd12Filled = /** #__PURE__ */ createIcon("CommentAdd12Filled", "12", CommentAdd12FilledSvg);
+export const CommentAdd12Regular = /** #__PURE__ */ createIcon("CommentAdd12Regular", "12", CommentAdd12RegularSvg);
+export const CommentAdd16Filled = /** #__PURE__ */ createIcon("CommentAdd16Filled", "16", CommentAdd16FilledSvg);
+export const CommentAdd16Regular = /** #__PURE__ */ createIcon("CommentAdd16Regular", "16", CommentAdd16RegularSvg);
+export const CommentAdd20Filled = /** #__PURE__ */ createIcon("CommentAdd20Filled", "20", CommentAdd20FilledSvg);
+export const CommentAddFilled = /** #__PURE__ */ createIcon("CommentAddFilled", "1em", CommentAdd20FilledSvg);
+export const CommentAdd20Regular = /** #__PURE__ */ createIcon("CommentAdd20Regular", "20", CommentAdd20RegularSvg);
+export const CommentAddRegular = /** #__PURE__ */ createIcon("CommentAddRegular", "1em", CommentAdd20RegularSvg);
+export const CommentAdd24Filled = /** #__PURE__ */ createIcon("CommentAdd24Filled", "24", CommentAdd24FilledSvg);
+export const CommentAdd24Regular = /** #__PURE__ */ createIcon("CommentAdd24Regular", "24", CommentAdd24RegularSvg);
+export const CommentAdd28Filled = /** #__PURE__ */ createIcon("CommentAdd28Filled", "28", CommentAdd28FilledSvg);
+export const CommentAdd28Regular = /** #__PURE__ */ createIcon("CommentAdd28Regular", "28", CommentAdd28RegularSvg);
+export const CommentAdd32Filled = /** #__PURE__ */ createIcon("CommentAdd32Filled", "32", CommentAdd32FilledSvg);
+export const CommentAdd32Light = /** #__PURE__ */ createIcon("CommentAdd32Light", "32", CommentAdd32LightSvg);
+export const CommentAdd32Regular = /** #__PURE__ */ createIcon("CommentAdd32Regular", "32", CommentAdd32RegularSvg);
+export const CommentAdd48Filled = /** #__PURE__ */ createIcon("CommentAdd48Filled", "48", CommentAdd48FilledSvg);
+export const CommentAdd48Regular = /** #__PURE__ */ createIcon("CommentAdd48Regular", "48", CommentAdd48RegularSvg);

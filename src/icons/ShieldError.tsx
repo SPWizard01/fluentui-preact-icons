@@ -6,10 +6,12 @@ import ShieldError24FilledSvg from "@fluentui/svg-icons/icons/shield_error_24_fi
 import ShieldError24RegularSvg from "@fluentui/svg-icons/icons/shield_error_24_regular.svg" with { type: "text" }
 import ShieldError32LightSvg from "@fluentui/svg-icons/icons/shield_error_32_light.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ShieldError16Filled = createIcon("ShieldError16Filled", ShieldError16FilledSvg);
-export const ShieldError16Regular = createIcon("ShieldError16Regular", ShieldError16RegularSvg);
-export const ShieldError20Filled = createIcon("ShieldError20Filled", ShieldError20FilledSvg);
-export const ShieldError20Regular = createIcon("ShieldError20Regular", ShieldError20RegularSvg);
-export const ShieldError24Filled = createIcon("ShieldError24Filled", ShieldError24FilledSvg);
-export const ShieldError24Regular = createIcon("ShieldError24Regular", ShieldError24RegularSvg);
-export const ShieldError32Light = createIcon("ShieldError32Light", ShieldError32LightSvg);
+export const ShieldError16Filled = /** #__PURE__ */ createIcon("ShieldError16Filled", "16", ShieldError16FilledSvg);
+export const ShieldError16Regular = /** #__PURE__ */ createIcon("ShieldError16Regular", "16", ShieldError16RegularSvg);
+export const ShieldError20Filled = /** #__PURE__ */ createIcon("ShieldError20Filled", "20", ShieldError20FilledSvg);
+export const ShieldErrorFilled = /** #__PURE__ */ createIcon("ShieldErrorFilled", "1em", ShieldError20FilledSvg);
+export const ShieldError20Regular = /** #__PURE__ */ createIcon("ShieldError20Regular", "20", ShieldError20RegularSvg);
+export const ShieldErrorRegular = /** #__PURE__ */ createIcon("ShieldErrorRegular", "1em", ShieldError20RegularSvg);
+export const ShieldError24Filled = /** #__PURE__ */ createIcon("ShieldError24Filled", "24", ShieldError24FilledSvg);
+export const ShieldError24Regular = /** #__PURE__ */ createIcon("ShieldError24Regular", "24", ShieldError24RegularSvg);
+export const ShieldError32Light = /** #__PURE__ */ createIcon("ShieldError32Light", "32", ShieldError32LightSvg);

@@ -5,9 +5,11 @@ import PremiumPerson20RegularSvg from "@fluentui/svg-icons/icons/premium_person_
 import PremiumPerson24FilledSvg from "@fluentui/svg-icons/icons/premium_person_24_filled.svg" with { type: "text" }
 import PremiumPerson24RegularSvg from "@fluentui/svg-icons/icons/premium_person_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PremiumPerson16Filled = createIcon("PremiumPerson16Filled", PremiumPerson16FilledSvg);
-export const PremiumPerson16Regular = createIcon("PremiumPerson16Regular", PremiumPerson16RegularSvg);
-export const PremiumPerson20Filled = createIcon("PremiumPerson20Filled", PremiumPerson20FilledSvg);
-export const PremiumPerson20Regular = createIcon("PremiumPerson20Regular", PremiumPerson20RegularSvg);
-export const PremiumPerson24Filled = createIcon("PremiumPerson24Filled", PremiumPerson24FilledSvg);
-export const PremiumPerson24Regular = createIcon("PremiumPerson24Regular", PremiumPerson24RegularSvg);
+export const PremiumPerson16Filled = /** #__PURE__ */ createIcon("PremiumPerson16Filled", "16", PremiumPerson16FilledSvg);
+export const PremiumPerson16Regular = /** #__PURE__ */ createIcon("PremiumPerson16Regular", "16", PremiumPerson16RegularSvg);
+export const PremiumPerson20Filled = /** #__PURE__ */ createIcon("PremiumPerson20Filled", "20", PremiumPerson20FilledSvg);
+export const PremiumPersonFilled = /** #__PURE__ */ createIcon("PremiumPersonFilled", "1em", PremiumPerson20FilledSvg);
+export const PremiumPerson20Regular = /** #__PURE__ */ createIcon("PremiumPerson20Regular", "20", PremiumPerson20RegularSvg);
+export const PremiumPersonRegular = /** #__PURE__ */ createIcon("PremiumPersonRegular", "1em", PremiumPerson20RegularSvg);
+export const PremiumPerson24Filled = /** #__PURE__ */ createIcon("PremiumPerson24Filled", "24", PremiumPerson24FilledSvg);
+export const PremiumPerson24Regular = /** #__PURE__ */ createIcon("PremiumPerson24Regular", "24", PremiumPerson24RegularSvg);

@@ -8,12 +8,15 @@ import Code24ColorSvg from "@fluentui/svg-icons/icons/code_24_color.svg" with { 
 import Code24FilledSvg from "@fluentui/svg-icons/icons/code_24_filled.svg" with { type: "text" }
 import Code24RegularSvg from "@fluentui/svg-icons/icons/code_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Code16Color = createIcon("Code16Color", Code16ColorSvg);
-export const Code16Filled = createIcon("Code16Filled", Code16FilledSvg);
-export const Code16Regular = createIcon("Code16Regular", Code16RegularSvg);
-export const Code20Color = createIcon("Code20Color", Code20ColorSvg);
-export const Code20Filled = createIcon("Code20Filled", Code20FilledSvg);
-export const Code20Regular = createIcon("Code20Regular", Code20RegularSvg);
-export const Code24Color = createIcon("Code24Color", Code24ColorSvg);
-export const Code24Filled = createIcon("Code24Filled", Code24FilledSvg);
-export const Code24Regular = createIcon("Code24Regular", Code24RegularSvg);
+export const Code16Color = /** #__PURE__ */ createIcon("Code16Color", "16", Code16ColorSvg);
+export const Code16Filled = /** #__PURE__ */ createIcon("Code16Filled", "16", Code16FilledSvg);
+export const Code16Regular = /** #__PURE__ */ createIcon("Code16Regular", "16", Code16RegularSvg);
+export const Code20Color = /** #__PURE__ */ createIcon("Code20Color", "20", Code20ColorSvg);
+export const CodeColor = /** #__PURE__ */ createIcon("CodeColor", "1em", Code20ColorSvg);
+export const Code20Filled = /** #__PURE__ */ createIcon("Code20Filled", "20", Code20FilledSvg);
+export const CodeFilled = /** #__PURE__ */ createIcon("CodeFilled", "1em", Code20FilledSvg);
+export const Code20Regular = /** #__PURE__ */ createIcon("Code20Regular", "20", Code20RegularSvg);
+export const CodeRegular = /** #__PURE__ */ createIcon("CodeRegular", "1em", Code20RegularSvg);
+export const Code24Color = /** #__PURE__ */ createIcon("Code24Color", "24", Code24ColorSvg);
+export const Code24Filled = /** #__PURE__ */ createIcon("Code24Filled", "24", Code24FilledSvg);
+export const Code24Regular = /** #__PURE__ */ createIcon("Code24Regular", "24", Code24RegularSvg);

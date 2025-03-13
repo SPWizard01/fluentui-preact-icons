@@ -8,12 +8,15 @@ import LightbulbCheckmark32ColorSvg from "@fluentui/svg-icons/icons/lightbulb_ch
 import LightbulbCheckmark32FilledSvg from "@fluentui/svg-icons/icons/lightbulb_checkmark_32_filled.svg" with { type: "text" }
 import LightbulbCheckmark32RegularSvg from "@fluentui/svg-icons/icons/lightbulb_checkmark_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const LightbulbCheckmark20Color = createIcon("LightbulbCheckmark20Color", LightbulbCheckmark20ColorSvg);
-export const LightbulbCheckmark20Filled = createIcon("LightbulbCheckmark20Filled", LightbulbCheckmark20FilledSvg);
-export const LightbulbCheckmark20Regular = createIcon("LightbulbCheckmark20Regular", LightbulbCheckmark20RegularSvg);
-export const LightbulbCheckmark24Color = createIcon("LightbulbCheckmark24Color", LightbulbCheckmark24ColorSvg);
-export const LightbulbCheckmark24Filled = createIcon("LightbulbCheckmark24Filled", LightbulbCheckmark24FilledSvg);
-export const LightbulbCheckmark24Regular = createIcon("LightbulbCheckmark24Regular", LightbulbCheckmark24RegularSvg);
-export const LightbulbCheckmark32Color = createIcon("LightbulbCheckmark32Color", LightbulbCheckmark32ColorSvg);
-export const LightbulbCheckmark32Filled = createIcon("LightbulbCheckmark32Filled", LightbulbCheckmark32FilledSvg);
-export const LightbulbCheckmark32Regular = createIcon("LightbulbCheckmark32Regular", LightbulbCheckmark32RegularSvg);
+export const LightbulbCheckmark20Color = /** #__PURE__ */ createIcon("LightbulbCheckmark20Color", "20", LightbulbCheckmark20ColorSvg);
+export const LightbulbCheckmarkColor = /** #__PURE__ */ createIcon("LightbulbCheckmarkColor", "1em", LightbulbCheckmark20ColorSvg);
+export const LightbulbCheckmark20Filled = /** #__PURE__ */ createIcon("LightbulbCheckmark20Filled", "20", LightbulbCheckmark20FilledSvg);
+export const LightbulbCheckmarkFilled = /** #__PURE__ */ createIcon("LightbulbCheckmarkFilled", "1em", LightbulbCheckmark20FilledSvg);
+export const LightbulbCheckmark20Regular = /** #__PURE__ */ createIcon("LightbulbCheckmark20Regular", "20", LightbulbCheckmark20RegularSvg);
+export const LightbulbCheckmarkRegular = /** #__PURE__ */ createIcon("LightbulbCheckmarkRegular", "1em", LightbulbCheckmark20RegularSvg);
+export const LightbulbCheckmark24Color = /** #__PURE__ */ createIcon("LightbulbCheckmark24Color", "24", LightbulbCheckmark24ColorSvg);
+export const LightbulbCheckmark24Filled = /** #__PURE__ */ createIcon("LightbulbCheckmark24Filled", "24", LightbulbCheckmark24FilledSvg);
+export const LightbulbCheckmark24Regular = /** #__PURE__ */ createIcon("LightbulbCheckmark24Regular", "24", LightbulbCheckmark24RegularSvg);
+export const LightbulbCheckmark32Color = /** #__PURE__ */ createIcon("LightbulbCheckmark32Color", "32", LightbulbCheckmark32ColorSvg);
+export const LightbulbCheckmark32Filled = /** #__PURE__ */ createIcon("LightbulbCheckmark32Filled", "32", LightbulbCheckmark32FilledSvg);
+export const LightbulbCheckmark32Regular = /** #__PURE__ */ createIcon("LightbulbCheckmark32Regular", "32", LightbulbCheckmark32RegularSvg);

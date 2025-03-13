@@ -11,15 +11,17 @@ import PersonSoundSpatial32RegularSvg from "@fluentui/svg-icons/icons/person_sou
 import PersonSoundSpatial48FilledSvg from "@fluentui/svg-icons/icons/person_sound_spatial_48_filled.svg" with { type: "text" }
 import PersonSoundSpatial48RegularSvg from "@fluentui/svg-icons/icons/person_sound_spatial_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PersonSoundSpatial16Filled = createIcon("PersonSoundSpatial16Filled", PersonSoundSpatial16FilledSvg);
-export const PersonSoundSpatial16Regular = createIcon("PersonSoundSpatial16Regular", PersonSoundSpatial16RegularSvg);
-export const PersonSoundSpatial20Filled = createIcon("PersonSoundSpatial20Filled", PersonSoundSpatial20FilledSvg);
-export const PersonSoundSpatial20Regular = createIcon("PersonSoundSpatial20Regular", PersonSoundSpatial20RegularSvg);
-export const PersonSoundSpatial24Filled = createIcon("PersonSoundSpatial24Filled", PersonSoundSpatial24FilledSvg);
-export const PersonSoundSpatial24Regular = createIcon("PersonSoundSpatial24Regular", PersonSoundSpatial24RegularSvg);
-export const PersonSoundSpatial28Filled = createIcon("PersonSoundSpatial28Filled", PersonSoundSpatial28FilledSvg);
-export const PersonSoundSpatial28Regular = createIcon("PersonSoundSpatial28Regular", PersonSoundSpatial28RegularSvg);
-export const PersonSoundSpatial32Filled = createIcon("PersonSoundSpatial32Filled", PersonSoundSpatial32FilledSvg);
-export const PersonSoundSpatial32Regular = createIcon("PersonSoundSpatial32Regular", PersonSoundSpatial32RegularSvg);
-export const PersonSoundSpatial48Filled = createIcon("PersonSoundSpatial48Filled", PersonSoundSpatial48FilledSvg);
-export const PersonSoundSpatial48Regular = createIcon("PersonSoundSpatial48Regular", PersonSoundSpatial48RegularSvg);
+export const PersonSoundSpatial16Filled = /** #__PURE__ */ createIcon("PersonSoundSpatial16Filled", "16", PersonSoundSpatial16FilledSvg);
+export const PersonSoundSpatial16Regular = /** #__PURE__ */ createIcon("PersonSoundSpatial16Regular", "16", PersonSoundSpatial16RegularSvg);
+export const PersonSoundSpatial20Filled = /** #__PURE__ */ createIcon("PersonSoundSpatial20Filled", "20", PersonSoundSpatial20FilledSvg);
+export const PersonSoundSpatialFilled = /** #__PURE__ */ createIcon("PersonSoundSpatialFilled", "1em", PersonSoundSpatial20FilledSvg);
+export const PersonSoundSpatial20Regular = /** #__PURE__ */ createIcon("PersonSoundSpatial20Regular", "20", PersonSoundSpatial20RegularSvg);
+export const PersonSoundSpatialRegular = /** #__PURE__ */ createIcon("PersonSoundSpatialRegular", "1em", PersonSoundSpatial20RegularSvg);
+export const PersonSoundSpatial24Filled = /** #__PURE__ */ createIcon("PersonSoundSpatial24Filled", "24", PersonSoundSpatial24FilledSvg);
+export const PersonSoundSpatial24Regular = /** #__PURE__ */ createIcon("PersonSoundSpatial24Regular", "24", PersonSoundSpatial24RegularSvg);
+export const PersonSoundSpatial28Filled = /** #__PURE__ */ createIcon("PersonSoundSpatial28Filled", "28", PersonSoundSpatial28FilledSvg);
+export const PersonSoundSpatial28Regular = /** #__PURE__ */ createIcon("PersonSoundSpatial28Regular", "28", PersonSoundSpatial28RegularSvg);
+export const PersonSoundSpatial32Filled = /** #__PURE__ */ createIcon("PersonSoundSpatial32Filled", "32", PersonSoundSpatial32FilledSvg);
+export const PersonSoundSpatial32Regular = /** #__PURE__ */ createIcon("PersonSoundSpatial32Regular", "32", PersonSoundSpatial32RegularSvg);
+export const PersonSoundSpatial48Filled = /** #__PURE__ */ createIcon("PersonSoundSpatial48Filled", "48", PersonSoundSpatial48FilledSvg);
+export const PersonSoundSpatial48Regular = /** #__PURE__ */ createIcon("PersonSoundSpatial48Regular", "48", PersonSoundSpatial48RegularSvg);

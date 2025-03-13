@@ -6,10 +6,12 @@ import TableAltText32FilledSvg from "@fluentui/svg-icons/icons/table_alt_text_32
 import TableAltText32LightSvg from "@fluentui/svg-icons/icons/table_alt_text_32_light.svg" with { type: "text" }
 import TableAltText32RegularSvg from "@fluentui/svg-icons/icons/table_alt_text_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TableAltText20Filled = createIcon("TableAltText20Filled", TableAltText20FilledSvg);
-export const TableAltText20Regular = createIcon("TableAltText20Regular", TableAltText20RegularSvg);
-export const TableAltText24Filled = createIcon("TableAltText24Filled", TableAltText24FilledSvg);
-export const TableAltText24Regular = createIcon("TableAltText24Regular", TableAltText24RegularSvg);
-export const TableAltText32Filled = createIcon("TableAltText32Filled", TableAltText32FilledSvg);
-export const TableAltText32Light = createIcon("TableAltText32Light", TableAltText32LightSvg);
-export const TableAltText32Regular = createIcon("TableAltText32Regular", TableAltText32RegularSvg);
+export const TableAltText20Filled = /** #__PURE__ */ createIcon("TableAltText20Filled", "20", TableAltText20FilledSvg);
+export const TableAltTextFilled = /** #__PURE__ */ createIcon("TableAltTextFilled", "1em", TableAltText20FilledSvg);
+export const TableAltText20Regular = /** #__PURE__ */ createIcon("TableAltText20Regular", "20", TableAltText20RegularSvg);
+export const TableAltTextRegular = /** #__PURE__ */ createIcon("TableAltTextRegular", "1em", TableAltText20RegularSvg);
+export const TableAltText24Filled = /** #__PURE__ */ createIcon("TableAltText24Filled", "24", TableAltText24FilledSvg);
+export const TableAltText24Regular = /** #__PURE__ */ createIcon("TableAltText24Regular", "24", TableAltText24RegularSvg);
+export const TableAltText32Filled = /** #__PURE__ */ createIcon("TableAltText32Filled", "32", TableAltText32FilledSvg);
+export const TableAltText32Light = /** #__PURE__ */ createIcon("TableAltText32Light", "32", TableAltText32LightSvg);
+export const TableAltText32Regular = /** #__PURE__ */ createIcon("TableAltText32Regular", "32", TableAltText32RegularSvg);

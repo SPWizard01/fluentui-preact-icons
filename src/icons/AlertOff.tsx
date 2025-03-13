@@ -7,11 +7,13 @@ import AlertOff24RegularSvg from "@fluentui/svg-icons/icons/alert_off_24_regular
 import AlertOff28FilledSvg from "@fluentui/svg-icons/icons/alert_off_28_filled.svg" with { type: "text" }
 import AlertOff28RegularSvg from "@fluentui/svg-icons/icons/alert_off_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const AlertOff16Filled = createIcon("AlertOff16Filled", AlertOff16FilledSvg);
-export const AlertOff16Regular = createIcon("AlertOff16Regular", AlertOff16RegularSvg);
-export const AlertOff20Filled = createIcon("AlertOff20Filled", AlertOff20FilledSvg);
-export const AlertOff20Regular = createIcon("AlertOff20Regular", AlertOff20RegularSvg);
-export const AlertOff24Filled = createIcon("AlertOff24Filled", AlertOff24FilledSvg);
-export const AlertOff24Regular = createIcon("AlertOff24Regular", AlertOff24RegularSvg);
-export const AlertOff28Filled = createIcon("AlertOff28Filled", AlertOff28FilledSvg);
-export const AlertOff28Regular = createIcon("AlertOff28Regular", AlertOff28RegularSvg);
+export const AlertOff16Filled = /** #__PURE__ */ createIcon("AlertOff16Filled", "16", AlertOff16FilledSvg);
+export const AlertOff16Regular = /** #__PURE__ */ createIcon("AlertOff16Regular", "16", AlertOff16RegularSvg);
+export const AlertOff20Filled = /** #__PURE__ */ createIcon("AlertOff20Filled", "20", AlertOff20FilledSvg);
+export const AlertOffFilled = /** #__PURE__ */ createIcon("AlertOffFilled", "1em", AlertOff20FilledSvg);
+export const AlertOff20Regular = /** #__PURE__ */ createIcon("AlertOff20Regular", "20", AlertOff20RegularSvg);
+export const AlertOffRegular = /** #__PURE__ */ createIcon("AlertOffRegular", "1em", AlertOff20RegularSvg);
+export const AlertOff24Filled = /** #__PURE__ */ createIcon("AlertOff24Filled", "24", AlertOff24FilledSvg);
+export const AlertOff24Regular = /** #__PURE__ */ createIcon("AlertOff24Regular", "24", AlertOff24RegularSvg);
+export const AlertOff28Filled = /** #__PURE__ */ createIcon("AlertOff28Filled", "28", AlertOff28FilledSvg);
+export const AlertOff28Regular = /** #__PURE__ */ createIcon("AlertOff28Regular", "28", AlertOff28RegularSvg);

@@ -13,17 +13,19 @@ import ArrowFlowDiagonalUpRight32RegularSvg from "@fluentui/svg-icons/icons/arro
 import ArrowFlowDiagonalUpRight48FilledSvg from "@fluentui/svg-icons/icons/arrow_flow_diagonal_up_right_48_filled.svg" with { type: "text" }
 import ArrowFlowDiagonalUpRight48RegularSvg from "@fluentui/svg-icons/icons/arrow_flow_diagonal_up_right_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ArrowFlowDiagonalUpRight12Filled = createIcon("ArrowFlowDiagonalUpRight12Filled", ArrowFlowDiagonalUpRight12FilledSvg);
-export const ArrowFlowDiagonalUpRight12Regular = createIcon("ArrowFlowDiagonalUpRight12Regular", ArrowFlowDiagonalUpRight12RegularSvg);
-export const ArrowFlowDiagonalUpRight16Filled = createIcon("ArrowFlowDiagonalUpRight16Filled", ArrowFlowDiagonalUpRight16FilledSvg);
-export const ArrowFlowDiagonalUpRight16Regular = createIcon("ArrowFlowDiagonalUpRight16Regular", ArrowFlowDiagonalUpRight16RegularSvg);
-export const ArrowFlowDiagonalUpRight20Filled = createIcon("ArrowFlowDiagonalUpRight20Filled", ArrowFlowDiagonalUpRight20FilledSvg);
-export const ArrowFlowDiagonalUpRight20Regular = createIcon("ArrowFlowDiagonalUpRight20Regular", ArrowFlowDiagonalUpRight20RegularSvg);
-export const ArrowFlowDiagonalUpRight24Filled = createIcon("ArrowFlowDiagonalUpRight24Filled", ArrowFlowDiagonalUpRight24FilledSvg);
-export const ArrowFlowDiagonalUpRight24Regular = createIcon("ArrowFlowDiagonalUpRight24Regular", ArrowFlowDiagonalUpRight24RegularSvg);
-export const ArrowFlowDiagonalUpRight28Filled = createIcon("ArrowFlowDiagonalUpRight28Filled", ArrowFlowDiagonalUpRight28FilledSvg);
-export const ArrowFlowDiagonalUpRight28Regular = createIcon("ArrowFlowDiagonalUpRight28Regular", ArrowFlowDiagonalUpRight28RegularSvg);
-export const ArrowFlowDiagonalUpRight32Filled = createIcon("ArrowFlowDiagonalUpRight32Filled", ArrowFlowDiagonalUpRight32FilledSvg);
-export const ArrowFlowDiagonalUpRight32Regular = createIcon("ArrowFlowDiagonalUpRight32Regular", ArrowFlowDiagonalUpRight32RegularSvg);
-export const ArrowFlowDiagonalUpRight48Filled = createIcon("ArrowFlowDiagonalUpRight48Filled", ArrowFlowDiagonalUpRight48FilledSvg);
-export const ArrowFlowDiagonalUpRight48Regular = createIcon("ArrowFlowDiagonalUpRight48Regular", ArrowFlowDiagonalUpRight48RegularSvg);
+export const ArrowFlowDiagonalUpRight12Filled = /** #__PURE__ */ createIcon("ArrowFlowDiagonalUpRight12Filled", "12", ArrowFlowDiagonalUpRight12FilledSvg);
+export const ArrowFlowDiagonalUpRight12Regular = /** #__PURE__ */ createIcon("ArrowFlowDiagonalUpRight12Regular", "12", ArrowFlowDiagonalUpRight12RegularSvg);
+export const ArrowFlowDiagonalUpRight16Filled = /** #__PURE__ */ createIcon("ArrowFlowDiagonalUpRight16Filled", "16", ArrowFlowDiagonalUpRight16FilledSvg);
+export const ArrowFlowDiagonalUpRight16Regular = /** #__PURE__ */ createIcon("ArrowFlowDiagonalUpRight16Regular", "16", ArrowFlowDiagonalUpRight16RegularSvg);
+export const ArrowFlowDiagonalUpRight20Filled = /** #__PURE__ */ createIcon("ArrowFlowDiagonalUpRight20Filled", "20", ArrowFlowDiagonalUpRight20FilledSvg);
+export const ArrowFlowDiagonalUpRightFilled = /** #__PURE__ */ createIcon("ArrowFlowDiagonalUpRightFilled", "1em", ArrowFlowDiagonalUpRight20FilledSvg);
+export const ArrowFlowDiagonalUpRight20Regular = /** #__PURE__ */ createIcon("ArrowFlowDiagonalUpRight20Regular", "20", ArrowFlowDiagonalUpRight20RegularSvg);
+export const ArrowFlowDiagonalUpRightRegular = /** #__PURE__ */ createIcon("ArrowFlowDiagonalUpRightRegular", "1em", ArrowFlowDiagonalUpRight20RegularSvg);
+export const ArrowFlowDiagonalUpRight24Filled = /** #__PURE__ */ createIcon("ArrowFlowDiagonalUpRight24Filled", "24", ArrowFlowDiagonalUpRight24FilledSvg);
+export const ArrowFlowDiagonalUpRight24Regular = /** #__PURE__ */ createIcon("ArrowFlowDiagonalUpRight24Regular", "24", ArrowFlowDiagonalUpRight24RegularSvg);
+export const ArrowFlowDiagonalUpRight28Filled = /** #__PURE__ */ createIcon("ArrowFlowDiagonalUpRight28Filled", "28", ArrowFlowDiagonalUpRight28FilledSvg);
+export const ArrowFlowDiagonalUpRight28Regular = /** #__PURE__ */ createIcon("ArrowFlowDiagonalUpRight28Regular", "28", ArrowFlowDiagonalUpRight28RegularSvg);
+export const ArrowFlowDiagonalUpRight32Filled = /** #__PURE__ */ createIcon("ArrowFlowDiagonalUpRight32Filled", "32", ArrowFlowDiagonalUpRight32FilledSvg);
+export const ArrowFlowDiagonalUpRight32Regular = /** #__PURE__ */ createIcon("ArrowFlowDiagonalUpRight32Regular", "32", ArrowFlowDiagonalUpRight32RegularSvg);
+export const ArrowFlowDiagonalUpRight48Filled = /** #__PURE__ */ createIcon("ArrowFlowDiagonalUpRight48Filled", "48", ArrowFlowDiagonalUpRight48FilledSvg);
+export const ArrowFlowDiagonalUpRight48Regular = /** #__PURE__ */ createIcon("ArrowFlowDiagonalUpRight48Regular", "48", ArrowFlowDiagonalUpRight48RegularSvg);

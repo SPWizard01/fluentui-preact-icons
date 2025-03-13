@@ -5,9 +5,11 @@ import BookNumber20RegularSvg from "@fluentui/svg-icons/icons/book_number_20_reg
 import BookNumber24FilledSvg from "@fluentui/svg-icons/icons/book_number_24_filled.svg" with { type: "text" }
 import BookNumber24RegularSvg from "@fluentui/svg-icons/icons/book_number_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const BookNumber16Filled = createIcon("BookNumber16Filled", BookNumber16FilledSvg);
-export const BookNumber16Regular = createIcon("BookNumber16Regular", BookNumber16RegularSvg);
-export const BookNumber20Filled = createIcon("BookNumber20Filled", BookNumber20FilledSvg);
-export const BookNumber20Regular = createIcon("BookNumber20Regular", BookNumber20RegularSvg);
-export const BookNumber24Filled = createIcon("BookNumber24Filled", BookNumber24FilledSvg);
-export const BookNumber24Regular = createIcon("BookNumber24Regular", BookNumber24RegularSvg);
+export const BookNumber16Filled = /** #__PURE__ */ createIcon("BookNumber16Filled", "16", BookNumber16FilledSvg);
+export const BookNumber16Regular = /** #__PURE__ */ createIcon("BookNumber16Regular", "16", BookNumber16RegularSvg);
+export const BookNumber20Filled = /** #__PURE__ */ createIcon("BookNumber20Filled", "20", BookNumber20FilledSvg);
+export const BookNumberFilled = /** #__PURE__ */ createIcon("BookNumberFilled", "1em", BookNumber20FilledSvg);
+export const BookNumber20Regular = /** #__PURE__ */ createIcon("BookNumber20Regular", "20", BookNumber20RegularSvg);
+export const BookNumberRegular = /** #__PURE__ */ createIcon("BookNumberRegular", "1em", BookNumber20RegularSvg);
+export const BookNumber24Filled = /** #__PURE__ */ createIcon("BookNumber24Filled", "24", BookNumber24FilledSvg);
+export const BookNumber24Regular = /** #__PURE__ */ createIcon("BookNumber24Regular", "24", BookNumber24RegularSvg);

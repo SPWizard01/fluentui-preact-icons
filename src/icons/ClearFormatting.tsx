@@ -5,9 +5,11 @@ import ClearFormatting20RegularSvg from "@fluentui/svg-icons/icons/clear_formatt
 import ClearFormatting24FilledSvg from "@fluentui/svg-icons/icons/clear_formatting_24_filled.svg" with { type: "text" }
 import ClearFormatting24RegularSvg from "@fluentui/svg-icons/icons/clear_formatting_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ClearFormatting16Filled = createIcon("ClearFormatting16Filled", ClearFormatting16FilledSvg);
-export const ClearFormatting16Regular = createIcon("ClearFormatting16Regular", ClearFormatting16RegularSvg);
-export const ClearFormatting20Filled = createIcon("ClearFormatting20Filled", ClearFormatting20FilledSvg);
-export const ClearFormatting20Regular = createIcon("ClearFormatting20Regular", ClearFormatting20RegularSvg);
-export const ClearFormatting24Filled = createIcon("ClearFormatting24Filled", ClearFormatting24FilledSvg);
-export const ClearFormatting24Regular = createIcon("ClearFormatting24Regular", ClearFormatting24RegularSvg);
+export const ClearFormatting16Filled = /** #__PURE__ */ createIcon("ClearFormatting16Filled", "16", ClearFormatting16FilledSvg);
+export const ClearFormatting16Regular = /** #__PURE__ */ createIcon("ClearFormatting16Regular", "16", ClearFormatting16RegularSvg);
+export const ClearFormatting20Filled = /** #__PURE__ */ createIcon("ClearFormatting20Filled", "20", ClearFormatting20FilledSvg);
+export const ClearFormattingFilled = /** #__PURE__ */ createIcon("ClearFormattingFilled", "1em", ClearFormatting20FilledSvg);
+export const ClearFormatting20Regular = /** #__PURE__ */ createIcon("ClearFormatting20Regular", "20", ClearFormatting20RegularSvg);
+export const ClearFormattingRegular = /** #__PURE__ */ createIcon("ClearFormattingRegular", "1em", ClearFormatting20RegularSvg);
+export const ClearFormatting24Filled = /** #__PURE__ */ createIcon("ClearFormatting24Filled", "24", ClearFormatting24FilledSvg);
+export const ClearFormatting24Regular = /** #__PURE__ */ createIcon("ClearFormatting24Regular", "24", ClearFormatting24RegularSvg);

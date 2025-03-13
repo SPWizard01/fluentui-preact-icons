@@ -11,15 +11,17 @@ import Prompt32RegularSvg from "@fluentui/svg-icons/icons/prompt_32_regular.svg"
 import Prompt48FilledSvg from "@fluentui/svg-icons/icons/prompt_48_filled.svg" with { type: "text" }
 import Prompt48RegularSvg from "@fluentui/svg-icons/icons/prompt_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Prompt16Filled = createIcon("Prompt16Filled", Prompt16FilledSvg);
-export const Prompt16Regular = createIcon("Prompt16Regular", Prompt16RegularSvg);
-export const Prompt20Filled = createIcon("Prompt20Filled", Prompt20FilledSvg);
-export const Prompt20Regular = createIcon("Prompt20Regular", Prompt20RegularSvg);
-export const Prompt24Filled = createIcon("Prompt24Filled", Prompt24FilledSvg);
-export const Prompt24Regular = createIcon("Prompt24Regular", Prompt24RegularSvg);
-export const Prompt28Filled = createIcon("Prompt28Filled", Prompt28FilledSvg);
-export const Prompt28Regular = createIcon("Prompt28Regular", Prompt28RegularSvg);
-export const Prompt32Filled = createIcon("Prompt32Filled", Prompt32FilledSvg);
-export const Prompt32Regular = createIcon("Prompt32Regular", Prompt32RegularSvg);
-export const Prompt48Filled = createIcon("Prompt48Filled", Prompt48FilledSvg);
-export const Prompt48Regular = createIcon("Prompt48Regular", Prompt48RegularSvg);
+export const Prompt16Filled = /** #__PURE__ */ createIcon("Prompt16Filled", "16", Prompt16FilledSvg);
+export const Prompt16Regular = /** #__PURE__ */ createIcon("Prompt16Regular", "16", Prompt16RegularSvg);
+export const Prompt20Filled = /** #__PURE__ */ createIcon("Prompt20Filled", "20", Prompt20FilledSvg);
+export const PromptFilled = /** #__PURE__ */ createIcon("PromptFilled", "1em", Prompt20FilledSvg);
+export const Prompt20Regular = /** #__PURE__ */ createIcon("Prompt20Regular", "20", Prompt20RegularSvg);
+export const PromptRegular = /** #__PURE__ */ createIcon("PromptRegular", "1em", Prompt20RegularSvg);
+export const Prompt24Filled = /** #__PURE__ */ createIcon("Prompt24Filled", "24", Prompt24FilledSvg);
+export const Prompt24Regular = /** #__PURE__ */ createIcon("Prompt24Regular", "24", Prompt24RegularSvg);
+export const Prompt28Filled = /** #__PURE__ */ createIcon("Prompt28Filled", "28", Prompt28FilledSvg);
+export const Prompt28Regular = /** #__PURE__ */ createIcon("Prompt28Regular", "28", Prompt28RegularSvg);
+export const Prompt32Filled = /** #__PURE__ */ createIcon("Prompt32Filled", "32", Prompt32FilledSvg);
+export const Prompt32Regular = /** #__PURE__ */ createIcon("Prompt32Regular", "32", Prompt32RegularSvg);
+export const Prompt48Filled = /** #__PURE__ */ createIcon("Prompt48Filled", "48", Prompt48FilledSvg);
+export const Prompt48Regular = /** #__PURE__ */ createIcon("Prompt48Regular", "48", Prompt48RegularSvg);

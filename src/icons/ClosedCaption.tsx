@@ -11,15 +11,17 @@ import ClosedCaption32RegularSvg from "@fluentui/svg-icons/icons/closed_caption_
 import ClosedCaption48FilledSvg from "@fluentui/svg-icons/icons/closed_caption_48_filled.svg" with { type: "text" }
 import ClosedCaption48RegularSvg from "@fluentui/svg-icons/icons/closed_caption_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ClosedCaption16Filled = createIcon("ClosedCaption16Filled", ClosedCaption16FilledSvg);
-export const ClosedCaption16Regular = createIcon("ClosedCaption16Regular", ClosedCaption16RegularSvg);
-export const ClosedCaption20Filled = createIcon("ClosedCaption20Filled", ClosedCaption20FilledSvg);
-export const ClosedCaption20Regular = createIcon("ClosedCaption20Regular", ClosedCaption20RegularSvg);
-export const ClosedCaption24Filled = createIcon("ClosedCaption24Filled", ClosedCaption24FilledSvg);
-export const ClosedCaption24Regular = createIcon("ClosedCaption24Regular", ClosedCaption24RegularSvg);
-export const ClosedCaption28Filled = createIcon("ClosedCaption28Filled", ClosedCaption28FilledSvg);
-export const ClosedCaption28Regular = createIcon("ClosedCaption28Regular", ClosedCaption28RegularSvg);
-export const ClosedCaption32Filled = createIcon("ClosedCaption32Filled", ClosedCaption32FilledSvg);
-export const ClosedCaption32Regular = createIcon("ClosedCaption32Regular", ClosedCaption32RegularSvg);
-export const ClosedCaption48Filled = createIcon("ClosedCaption48Filled", ClosedCaption48FilledSvg);
-export const ClosedCaption48Regular = createIcon("ClosedCaption48Regular", ClosedCaption48RegularSvg);
+export const ClosedCaption16Filled = /** #__PURE__ */ createIcon("ClosedCaption16Filled", "16", ClosedCaption16FilledSvg);
+export const ClosedCaption16Regular = /** #__PURE__ */ createIcon("ClosedCaption16Regular", "16", ClosedCaption16RegularSvg);
+export const ClosedCaption20Filled = /** #__PURE__ */ createIcon("ClosedCaption20Filled", "20", ClosedCaption20FilledSvg);
+export const ClosedCaptionFilled = /** #__PURE__ */ createIcon("ClosedCaptionFilled", "1em", ClosedCaption20FilledSvg);
+export const ClosedCaption20Regular = /** #__PURE__ */ createIcon("ClosedCaption20Regular", "20", ClosedCaption20RegularSvg);
+export const ClosedCaptionRegular = /** #__PURE__ */ createIcon("ClosedCaptionRegular", "1em", ClosedCaption20RegularSvg);
+export const ClosedCaption24Filled = /** #__PURE__ */ createIcon("ClosedCaption24Filled", "24", ClosedCaption24FilledSvg);
+export const ClosedCaption24Regular = /** #__PURE__ */ createIcon("ClosedCaption24Regular", "24", ClosedCaption24RegularSvg);
+export const ClosedCaption28Filled = /** #__PURE__ */ createIcon("ClosedCaption28Filled", "28", ClosedCaption28FilledSvg);
+export const ClosedCaption28Regular = /** #__PURE__ */ createIcon("ClosedCaption28Regular", "28", ClosedCaption28RegularSvg);
+export const ClosedCaption32Filled = /** #__PURE__ */ createIcon("ClosedCaption32Filled", "32", ClosedCaption32FilledSvg);
+export const ClosedCaption32Regular = /** #__PURE__ */ createIcon("ClosedCaption32Regular", "32", ClosedCaption32RegularSvg);
+export const ClosedCaption48Filled = /** #__PURE__ */ createIcon("ClosedCaption48Filled", "48", ClosedCaption48FilledSvg);
+export const ClosedCaption48Regular = /** #__PURE__ */ createIcon("ClosedCaption48Regular", "48", ClosedCaption48RegularSvg);

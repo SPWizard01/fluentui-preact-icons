@@ -13,17 +13,19 @@ import PanelRight32RegularSvg from "@fluentui/svg-icons/icons/panel_right_32_reg
 import PanelRight48FilledSvg from "@fluentui/svg-icons/icons/panel_right_48_filled.svg" with { type: "text" }
 import PanelRight48RegularSvg from "@fluentui/svg-icons/icons/panel_right_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PanelRight12Filled = createIcon("PanelRight12Filled", PanelRight12FilledSvg);
-export const PanelRight12Regular = createIcon("PanelRight12Regular", PanelRight12RegularSvg);
-export const PanelRight16Filled = createIcon("PanelRight16Filled", PanelRight16FilledSvg);
-export const PanelRight16Regular = createIcon("PanelRight16Regular", PanelRight16RegularSvg);
-export const PanelRight20Filled = createIcon("PanelRight20Filled", PanelRight20FilledSvg);
-export const PanelRight20Regular = createIcon("PanelRight20Regular", PanelRight20RegularSvg);
-export const PanelRight24Filled = createIcon("PanelRight24Filled", PanelRight24FilledSvg);
-export const PanelRight24Regular = createIcon("PanelRight24Regular", PanelRight24RegularSvg);
-export const PanelRight28Filled = createIcon("PanelRight28Filled", PanelRight28FilledSvg);
-export const PanelRight28Regular = createIcon("PanelRight28Regular", PanelRight28RegularSvg);
-export const PanelRight32Filled = createIcon("PanelRight32Filled", PanelRight32FilledSvg);
-export const PanelRight32Regular = createIcon("PanelRight32Regular", PanelRight32RegularSvg);
-export const PanelRight48Filled = createIcon("PanelRight48Filled", PanelRight48FilledSvg);
-export const PanelRight48Regular = createIcon("PanelRight48Regular", PanelRight48RegularSvg);
+export const PanelRight12Filled = /** #__PURE__ */ createIcon("PanelRight12Filled", "12", PanelRight12FilledSvg);
+export const PanelRight12Regular = /** #__PURE__ */ createIcon("PanelRight12Regular", "12", PanelRight12RegularSvg);
+export const PanelRight16Filled = /** #__PURE__ */ createIcon("PanelRight16Filled", "16", PanelRight16FilledSvg);
+export const PanelRight16Regular = /** #__PURE__ */ createIcon("PanelRight16Regular", "16", PanelRight16RegularSvg);
+export const PanelRight20Filled = /** #__PURE__ */ createIcon("PanelRight20Filled", "20", PanelRight20FilledSvg);
+export const PanelRightFilled = /** #__PURE__ */ createIcon("PanelRightFilled", "1em", PanelRight20FilledSvg);
+export const PanelRight20Regular = /** #__PURE__ */ createIcon("PanelRight20Regular", "20", PanelRight20RegularSvg);
+export const PanelRightRegular = /** #__PURE__ */ createIcon("PanelRightRegular", "1em", PanelRight20RegularSvg);
+export const PanelRight24Filled = /** #__PURE__ */ createIcon("PanelRight24Filled", "24", PanelRight24FilledSvg);
+export const PanelRight24Regular = /** #__PURE__ */ createIcon("PanelRight24Regular", "24", PanelRight24RegularSvg);
+export const PanelRight28Filled = /** #__PURE__ */ createIcon("PanelRight28Filled", "28", PanelRight28FilledSvg);
+export const PanelRight28Regular = /** #__PURE__ */ createIcon("PanelRight28Regular", "28", PanelRight28RegularSvg);
+export const PanelRight32Filled = /** #__PURE__ */ createIcon("PanelRight32Filled", "32", PanelRight32FilledSvg);
+export const PanelRight32Regular = /** #__PURE__ */ createIcon("PanelRight32Regular", "32", PanelRight32RegularSvg);
+export const PanelRight48Filled = /** #__PURE__ */ createIcon("PanelRight48Filled", "48", PanelRight48FilledSvg);
+export const PanelRight48Regular = /** #__PURE__ */ createIcon("PanelRight48Regular", "48", PanelRight48RegularSvg);

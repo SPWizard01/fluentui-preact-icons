@@ -9,13 +9,15 @@ import ArrowRepeatAll28RegularSvg from "@fluentui/svg-icons/icons/arrow_repeat_a
 import ArrowRepeatAll48FilledSvg from "@fluentui/svg-icons/icons/arrow_repeat_all_48_filled.svg" with { type: "text" }
 import ArrowRepeatAll48RegularSvg from "@fluentui/svg-icons/icons/arrow_repeat_all_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ArrowRepeatAll16Filled = createIcon("ArrowRepeatAll16Filled", ArrowRepeatAll16FilledSvg);
-export const ArrowRepeatAll16Regular = createIcon("ArrowRepeatAll16Regular", ArrowRepeatAll16RegularSvg);
-export const ArrowRepeatAll20Filled = createIcon("ArrowRepeatAll20Filled", ArrowRepeatAll20FilledSvg);
-export const ArrowRepeatAll20Regular = createIcon("ArrowRepeatAll20Regular", ArrowRepeatAll20RegularSvg);
-export const ArrowRepeatAll24Filled = createIcon("ArrowRepeatAll24Filled", ArrowRepeatAll24FilledSvg);
-export const ArrowRepeatAll24Regular = createIcon("ArrowRepeatAll24Regular", ArrowRepeatAll24RegularSvg);
-export const ArrowRepeatAll28Filled = createIcon("ArrowRepeatAll28Filled", ArrowRepeatAll28FilledSvg);
-export const ArrowRepeatAll28Regular = createIcon("ArrowRepeatAll28Regular", ArrowRepeatAll28RegularSvg);
-export const ArrowRepeatAll48Filled = createIcon("ArrowRepeatAll48Filled", ArrowRepeatAll48FilledSvg);
-export const ArrowRepeatAll48Regular = createIcon("ArrowRepeatAll48Regular", ArrowRepeatAll48RegularSvg);
+export const ArrowRepeatAll16Filled = /** #__PURE__ */ createIcon("ArrowRepeatAll16Filled", "16", ArrowRepeatAll16FilledSvg);
+export const ArrowRepeatAll16Regular = /** #__PURE__ */ createIcon("ArrowRepeatAll16Regular", "16", ArrowRepeatAll16RegularSvg);
+export const ArrowRepeatAll20Filled = /** #__PURE__ */ createIcon("ArrowRepeatAll20Filled", "20", ArrowRepeatAll20FilledSvg);
+export const ArrowRepeatAllFilled = /** #__PURE__ */ createIcon("ArrowRepeatAllFilled", "1em", ArrowRepeatAll20FilledSvg);
+export const ArrowRepeatAll20Regular = /** #__PURE__ */ createIcon("ArrowRepeatAll20Regular", "20", ArrowRepeatAll20RegularSvg);
+export const ArrowRepeatAllRegular = /** #__PURE__ */ createIcon("ArrowRepeatAllRegular", "1em", ArrowRepeatAll20RegularSvg);
+export const ArrowRepeatAll24Filled = /** #__PURE__ */ createIcon("ArrowRepeatAll24Filled", "24", ArrowRepeatAll24FilledSvg);
+export const ArrowRepeatAll24Regular = /** #__PURE__ */ createIcon("ArrowRepeatAll24Regular", "24", ArrowRepeatAll24RegularSvg);
+export const ArrowRepeatAll28Filled = /** #__PURE__ */ createIcon("ArrowRepeatAll28Filled", "28", ArrowRepeatAll28FilledSvg);
+export const ArrowRepeatAll28Regular = /** #__PURE__ */ createIcon("ArrowRepeatAll28Regular", "28", ArrowRepeatAll28RegularSvg);
+export const ArrowRepeatAll48Filled = /** #__PURE__ */ createIcon("ArrowRepeatAll48Filled", "48", ArrowRepeatAll48FilledSvg);
+export const ArrowRepeatAll48Regular = /** #__PURE__ */ createIcon("ArrowRepeatAll48Regular", "48", ArrowRepeatAll48RegularSvg);

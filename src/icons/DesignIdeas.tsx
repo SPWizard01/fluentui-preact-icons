@@ -17,21 +17,24 @@ import DesignIdeas48ColorSvg from "@fluentui/svg-icons/icons/design_ideas_48_col
 import DesignIdeas48FilledSvg from "@fluentui/svg-icons/icons/design_ideas_48_filled.svg" with { type: "text" }
 import DesignIdeas48RegularSvg from "@fluentui/svg-icons/icons/design_ideas_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const DesignIdeas16Color = createIcon("DesignIdeas16Color", DesignIdeas16ColorSvg);
-export const DesignIdeas16Filled = createIcon("DesignIdeas16Filled", DesignIdeas16FilledSvg);
-export const DesignIdeas16Regular = createIcon("DesignIdeas16Regular", DesignIdeas16RegularSvg);
-export const DesignIdeas20Color = createIcon("DesignIdeas20Color", DesignIdeas20ColorSvg);
-export const DesignIdeas20Filled = createIcon("DesignIdeas20Filled", DesignIdeas20FilledSvg);
-export const DesignIdeas20Regular = createIcon("DesignIdeas20Regular", DesignIdeas20RegularSvg);
-export const DesignIdeas24Color = createIcon("DesignIdeas24Color", DesignIdeas24ColorSvg);
-export const DesignIdeas24Filled = createIcon("DesignIdeas24Filled", DesignIdeas24FilledSvg);
-export const DesignIdeas24Regular = createIcon("DesignIdeas24Regular", DesignIdeas24RegularSvg);
-export const DesignIdeas28Color = createIcon("DesignIdeas28Color", DesignIdeas28ColorSvg);
-export const DesignIdeas28Filled = createIcon("DesignIdeas28Filled", DesignIdeas28FilledSvg);
-export const DesignIdeas28Regular = createIcon("DesignIdeas28Regular", DesignIdeas28RegularSvg);
-export const DesignIdeas32Color = createIcon("DesignIdeas32Color", DesignIdeas32ColorSvg);
-export const DesignIdeas32Filled = createIcon("DesignIdeas32Filled", DesignIdeas32FilledSvg);
-export const DesignIdeas32Regular = createIcon("DesignIdeas32Regular", DesignIdeas32RegularSvg);
-export const DesignIdeas48Color = createIcon("DesignIdeas48Color", DesignIdeas48ColorSvg);
-export const DesignIdeas48Filled = createIcon("DesignIdeas48Filled", DesignIdeas48FilledSvg);
-export const DesignIdeas48Regular = createIcon("DesignIdeas48Regular", DesignIdeas48RegularSvg);
+export const DesignIdeas16Color = /** #__PURE__ */ createIcon("DesignIdeas16Color", "16", DesignIdeas16ColorSvg);
+export const DesignIdeas16Filled = /** #__PURE__ */ createIcon("DesignIdeas16Filled", "16", DesignIdeas16FilledSvg);
+export const DesignIdeas16Regular = /** #__PURE__ */ createIcon("DesignIdeas16Regular", "16", DesignIdeas16RegularSvg);
+export const DesignIdeas20Color = /** #__PURE__ */ createIcon("DesignIdeas20Color", "20", DesignIdeas20ColorSvg);
+export const DesignIdeasColor = /** #__PURE__ */ createIcon("DesignIdeasColor", "1em", DesignIdeas20ColorSvg);
+export const DesignIdeas20Filled = /** #__PURE__ */ createIcon("DesignIdeas20Filled", "20", DesignIdeas20FilledSvg);
+export const DesignIdeasFilled = /** #__PURE__ */ createIcon("DesignIdeasFilled", "1em", DesignIdeas20FilledSvg);
+export const DesignIdeas20Regular = /** #__PURE__ */ createIcon("DesignIdeas20Regular", "20", DesignIdeas20RegularSvg);
+export const DesignIdeasRegular = /** #__PURE__ */ createIcon("DesignIdeasRegular", "1em", DesignIdeas20RegularSvg);
+export const DesignIdeas24Color = /** #__PURE__ */ createIcon("DesignIdeas24Color", "24", DesignIdeas24ColorSvg);
+export const DesignIdeas24Filled = /** #__PURE__ */ createIcon("DesignIdeas24Filled", "24", DesignIdeas24FilledSvg);
+export const DesignIdeas24Regular = /** #__PURE__ */ createIcon("DesignIdeas24Regular", "24", DesignIdeas24RegularSvg);
+export const DesignIdeas28Color = /** #__PURE__ */ createIcon("DesignIdeas28Color", "28", DesignIdeas28ColorSvg);
+export const DesignIdeas28Filled = /** #__PURE__ */ createIcon("DesignIdeas28Filled", "28", DesignIdeas28FilledSvg);
+export const DesignIdeas28Regular = /** #__PURE__ */ createIcon("DesignIdeas28Regular", "28", DesignIdeas28RegularSvg);
+export const DesignIdeas32Color = /** #__PURE__ */ createIcon("DesignIdeas32Color", "32", DesignIdeas32ColorSvg);
+export const DesignIdeas32Filled = /** #__PURE__ */ createIcon("DesignIdeas32Filled", "32", DesignIdeas32FilledSvg);
+export const DesignIdeas32Regular = /** #__PURE__ */ createIcon("DesignIdeas32Regular", "32", DesignIdeas32RegularSvg);
+export const DesignIdeas48Color = /** #__PURE__ */ createIcon("DesignIdeas48Color", "48", DesignIdeas48ColorSvg);
+export const DesignIdeas48Filled = /** #__PURE__ */ createIcon("DesignIdeas48Filled", "48", DesignIdeas48FilledSvg);
+export const DesignIdeas48Regular = /** #__PURE__ */ createIcon("DesignIdeas48Regular", "48", DesignIdeas48RegularSvg);

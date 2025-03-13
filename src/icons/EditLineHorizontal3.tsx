@@ -3,7 +3,9 @@ import EditLineHorizontal320RegularSvg from "@fluentui/svg-icons/icons/edit_line
 import EditLineHorizontal324FilledSvg from "@fluentui/svg-icons/icons/edit_line_horizontal_3_24_filled.svg" with { type: "text" }
 import EditLineHorizontal324RegularSvg from "@fluentui/svg-icons/icons/edit_line_horizontal_3_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const EditLineHorizontal320Filled = createIcon("EditLineHorizontal320Filled", EditLineHorizontal320FilledSvg);
-export const EditLineHorizontal320Regular = createIcon("EditLineHorizontal320Regular", EditLineHorizontal320RegularSvg);
-export const EditLineHorizontal324Filled = createIcon("EditLineHorizontal324Filled", EditLineHorizontal324FilledSvg);
-export const EditLineHorizontal324Regular = createIcon("EditLineHorizontal324Regular", EditLineHorizontal324RegularSvg);
+export const EditLineHorizontal320Filled = /** #__PURE__ */ createIcon("EditLineHorizontal320Filled", "20", EditLineHorizontal320FilledSvg);
+export const EditLineHorizontal3Filled = /** #__PURE__ */ createIcon("EditLineHorizontal3Filled", "1em", EditLineHorizontal320FilledSvg);
+export const EditLineHorizontal320Regular = /** #__PURE__ */ createIcon("EditLineHorizontal320Regular", "20", EditLineHorizontal320RegularSvg);
+export const EditLineHorizontal3Regular = /** #__PURE__ */ createIcon("EditLineHorizontal3Regular", "1em", EditLineHorizontal320RegularSvg);
+export const EditLineHorizontal324Filled = /** #__PURE__ */ createIcon("EditLineHorizontal324Filled", "24", EditLineHorizontal324FilledSvg);
+export const EditLineHorizontal324Regular = /** #__PURE__ */ createIcon("EditLineHorizontal324Regular", "24", EditLineHorizontal324RegularSvg);

@@ -9,13 +9,15 @@ import WeatherMoonOff28RegularSvg from "@fluentui/svg-icons/icons/weather_moon_o
 import WeatherMoonOff48FilledSvg from "@fluentui/svg-icons/icons/weather_moon_off_48_filled.svg" with { type: "text" }
 import WeatherMoonOff48RegularSvg from "@fluentui/svg-icons/icons/weather_moon_off_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const WeatherMoonOff16Filled = createIcon("WeatherMoonOff16Filled", WeatherMoonOff16FilledSvg);
-export const WeatherMoonOff16Regular = createIcon("WeatherMoonOff16Regular", WeatherMoonOff16RegularSvg);
-export const WeatherMoonOff20Filled = createIcon("WeatherMoonOff20Filled", WeatherMoonOff20FilledSvg);
-export const WeatherMoonOff20Regular = createIcon("WeatherMoonOff20Regular", WeatherMoonOff20RegularSvg);
-export const WeatherMoonOff24Filled = createIcon("WeatherMoonOff24Filled", WeatherMoonOff24FilledSvg);
-export const WeatherMoonOff24Regular = createIcon("WeatherMoonOff24Regular", WeatherMoonOff24RegularSvg);
-export const WeatherMoonOff28Filled = createIcon("WeatherMoonOff28Filled", WeatherMoonOff28FilledSvg);
-export const WeatherMoonOff28Regular = createIcon("WeatherMoonOff28Regular", WeatherMoonOff28RegularSvg);
-export const WeatherMoonOff48Filled = createIcon("WeatherMoonOff48Filled", WeatherMoonOff48FilledSvg);
-export const WeatherMoonOff48Regular = createIcon("WeatherMoonOff48Regular", WeatherMoonOff48RegularSvg);
+export const WeatherMoonOff16Filled = /** #__PURE__ */ createIcon("WeatherMoonOff16Filled", "16", WeatherMoonOff16FilledSvg);
+export const WeatherMoonOff16Regular = /** #__PURE__ */ createIcon("WeatherMoonOff16Regular", "16", WeatherMoonOff16RegularSvg);
+export const WeatherMoonOff20Filled = /** #__PURE__ */ createIcon("WeatherMoonOff20Filled", "20", WeatherMoonOff20FilledSvg);
+export const WeatherMoonOffFilled = /** #__PURE__ */ createIcon("WeatherMoonOffFilled", "1em", WeatherMoonOff20FilledSvg);
+export const WeatherMoonOff20Regular = /** #__PURE__ */ createIcon("WeatherMoonOff20Regular", "20", WeatherMoonOff20RegularSvg);
+export const WeatherMoonOffRegular = /** #__PURE__ */ createIcon("WeatherMoonOffRegular", "1em", WeatherMoonOff20RegularSvg);
+export const WeatherMoonOff24Filled = /** #__PURE__ */ createIcon("WeatherMoonOff24Filled", "24", WeatherMoonOff24FilledSvg);
+export const WeatherMoonOff24Regular = /** #__PURE__ */ createIcon("WeatherMoonOff24Regular", "24", WeatherMoonOff24RegularSvg);
+export const WeatherMoonOff28Filled = /** #__PURE__ */ createIcon("WeatherMoonOff28Filled", "28", WeatherMoonOff28FilledSvg);
+export const WeatherMoonOff28Regular = /** #__PURE__ */ createIcon("WeatherMoonOff28Regular", "28", WeatherMoonOff28RegularSvg);
+export const WeatherMoonOff48Filled = /** #__PURE__ */ createIcon("WeatherMoonOff48Filled", "48", WeatherMoonOff48FilledSvg);
+export const WeatherMoonOff48Regular = /** #__PURE__ */ createIcon("WeatherMoonOff48Regular", "48", WeatherMoonOff48RegularSvg);

@@ -5,9 +5,11 @@ import TextSortAscending20RegularSvg from "@fluentui/svg-icons/icons/text_sort_a
 import TextSortAscending24FilledSvg from "@fluentui/svg-icons/icons/text_sort_ascending_24_filled.svg" with { type: "text" }
 import TextSortAscending24RegularSvg from "@fluentui/svg-icons/icons/text_sort_ascending_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TextSortAscending16Filled = createIcon("TextSortAscending16Filled", TextSortAscending16FilledSvg);
-export const TextSortAscending16Regular = createIcon("TextSortAscending16Regular", TextSortAscending16RegularSvg);
-export const TextSortAscending20Filled = createIcon("TextSortAscending20Filled", TextSortAscending20FilledSvg);
-export const TextSortAscending20Regular = createIcon("TextSortAscending20Regular", TextSortAscending20RegularSvg);
-export const TextSortAscending24Filled = createIcon("TextSortAscending24Filled", TextSortAscending24FilledSvg);
-export const TextSortAscending24Regular = createIcon("TextSortAscending24Regular", TextSortAscending24RegularSvg);
+export const TextSortAscending16Filled = /** #__PURE__ */ createIcon("TextSortAscending16Filled", "16", TextSortAscending16FilledSvg);
+export const TextSortAscending16Regular = /** #__PURE__ */ createIcon("TextSortAscending16Regular", "16", TextSortAscending16RegularSvg);
+export const TextSortAscending20Filled = /** #__PURE__ */ createIcon("TextSortAscending20Filled", "20", TextSortAscending20FilledSvg);
+export const TextSortAscendingFilled = /** #__PURE__ */ createIcon("TextSortAscendingFilled", "1em", TextSortAscending20FilledSvg);
+export const TextSortAscending20Regular = /** #__PURE__ */ createIcon("TextSortAscending20Regular", "20", TextSortAscending20RegularSvg);
+export const TextSortAscendingRegular = /** #__PURE__ */ createIcon("TextSortAscendingRegular", "1em", TextSortAscending20RegularSvg);
+export const TextSortAscending24Filled = /** #__PURE__ */ createIcon("TextSortAscending24Filled", "24", TextSortAscending24FilledSvg);
+export const TextSortAscending24Regular = /** #__PURE__ */ createIcon("TextSortAscending24Regular", "24", TextSortAscending24RegularSvg);

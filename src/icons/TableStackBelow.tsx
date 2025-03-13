@@ -7,11 +7,13 @@ import TableStackBelow24RegularSvg from "@fluentui/svg-icons/icons/table_stack_b
 import TableStackBelow28FilledSvg from "@fluentui/svg-icons/icons/table_stack_below_28_filled.svg" with { type: "text" }
 import TableStackBelow28RegularSvg from "@fluentui/svg-icons/icons/table_stack_below_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TableStackBelow16Filled = createIcon("TableStackBelow16Filled", TableStackBelow16FilledSvg);
-export const TableStackBelow16Regular = createIcon("TableStackBelow16Regular", TableStackBelow16RegularSvg);
-export const TableStackBelow20Filled = createIcon("TableStackBelow20Filled", TableStackBelow20FilledSvg);
-export const TableStackBelow20Regular = createIcon("TableStackBelow20Regular", TableStackBelow20RegularSvg);
-export const TableStackBelow24Filled = createIcon("TableStackBelow24Filled", TableStackBelow24FilledSvg);
-export const TableStackBelow24Regular = createIcon("TableStackBelow24Regular", TableStackBelow24RegularSvg);
-export const TableStackBelow28Filled = createIcon("TableStackBelow28Filled", TableStackBelow28FilledSvg);
-export const TableStackBelow28Regular = createIcon("TableStackBelow28Regular", TableStackBelow28RegularSvg);
+export const TableStackBelow16Filled = /** #__PURE__ */ createIcon("TableStackBelow16Filled", "16", TableStackBelow16FilledSvg);
+export const TableStackBelow16Regular = /** #__PURE__ */ createIcon("TableStackBelow16Regular", "16", TableStackBelow16RegularSvg);
+export const TableStackBelow20Filled = /** #__PURE__ */ createIcon("TableStackBelow20Filled", "20", TableStackBelow20FilledSvg);
+export const TableStackBelowFilled = /** #__PURE__ */ createIcon("TableStackBelowFilled", "1em", TableStackBelow20FilledSvg);
+export const TableStackBelow20Regular = /** #__PURE__ */ createIcon("TableStackBelow20Regular", "20", TableStackBelow20RegularSvg);
+export const TableStackBelowRegular = /** #__PURE__ */ createIcon("TableStackBelowRegular", "1em", TableStackBelow20RegularSvg);
+export const TableStackBelow24Filled = /** #__PURE__ */ createIcon("TableStackBelow24Filled", "24", TableStackBelow24FilledSvg);
+export const TableStackBelow24Regular = /** #__PURE__ */ createIcon("TableStackBelow24Regular", "24", TableStackBelow24RegularSvg);
+export const TableStackBelow28Filled = /** #__PURE__ */ createIcon("TableStackBelow28Filled", "28", TableStackBelow28FilledSvg);
+export const TableStackBelow28Regular = /** #__PURE__ */ createIcon("TableStackBelow28Regular", "28", TableStackBelow28RegularSvg);

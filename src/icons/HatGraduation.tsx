@@ -13,17 +13,19 @@ import HatGraduation32RegularSvg from "@fluentui/svg-icons/icons/hat_graduation_
 import HatGraduation48FilledSvg from "@fluentui/svg-icons/icons/hat_graduation_48_filled.svg" with { type: "text" }
 import HatGraduation48RegularSvg from "@fluentui/svg-icons/icons/hat_graduation_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const HatGraduation12Filled = createIcon("HatGraduation12Filled", HatGraduation12FilledSvg);
-export const HatGraduation12Regular = createIcon("HatGraduation12Regular", HatGraduation12RegularSvg);
-export const HatGraduation16Filled = createIcon("HatGraduation16Filled", HatGraduation16FilledSvg);
-export const HatGraduation16Regular = createIcon("HatGraduation16Regular", HatGraduation16RegularSvg);
-export const HatGraduation20Filled = createIcon("HatGraduation20Filled", HatGraduation20FilledSvg);
-export const HatGraduation20Regular = createIcon("HatGraduation20Regular", HatGraduation20RegularSvg);
-export const HatGraduation24Filled = createIcon("HatGraduation24Filled", HatGraduation24FilledSvg);
-export const HatGraduation24Regular = createIcon("HatGraduation24Regular", HatGraduation24RegularSvg);
-export const HatGraduation28Filled = createIcon("HatGraduation28Filled", HatGraduation28FilledSvg);
-export const HatGraduation28Regular = createIcon("HatGraduation28Regular", HatGraduation28RegularSvg);
-export const HatGraduation32Filled = createIcon("HatGraduation32Filled", HatGraduation32FilledSvg);
-export const HatGraduation32Regular = createIcon("HatGraduation32Regular", HatGraduation32RegularSvg);
-export const HatGraduation48Filled = createIcon("HatGraduation48Filled", HatGraduation48FilledSvg);
-export const HatGraduation48Regular = createIcon("HatGraduation48Regular", HatGraduation48RegularSvg);
+export const HatGraduation12Filled = /** #__PURE__ */ createIcon("HatGraduation12Filled", "12", HatGraduation12FilledSvg);
+export const HatGraduation12Regular = /** #__PURE__ */ createIcon("HatGraduation12Regular", "12", HatGraduation12RegularSvg);
+export const HatGraduation16Filled = /** #__PURE__ */ createIcon("HatGraduation16Filled", "16", HatGraduation16FilledSvg);
+export const HatGraduation16Regular = /** #__PURE__ */ createIcon("HatGraduation16Regular", "16", HatGraduation16RegularSvg);
+export const HatGraduation20Filled = /** #__PURE__ */ createIcon("HatGraduation20Filled", "20", HatGraduation20FilledSvg);
+export const HatGraduationFilled = /** #__PURE__ */ createIcon("HatGraduationFilled", "1em", HatGraduation20FilledSvg);
+export const HatGraduation20Regular = /** #__PURE__ */ createIcon("HatGraduation20Regular", "20", HatGraduation20RegularSvg);
+export const HatGraduationRegular = /** #__PURE__ */ createIcon("HatGraduationRegular", "1em", HatGraduation20RegularSvg);
+export const HatGraduation24Filled = /** #__PURE__ */ createIcon("HatGraduation24Filled", "24", HatGraduation24FilledSvg);
+export const HatGraduation24Regular = /** #__PURE__ */ createIcon("HatGraduation24Regular", "24", HatGraduation24RegularSvg);
+export const HatGraduation28Filled = /** #__PURE__ */ createIcon("HatGraduation28Filled", "28", HatGraduation28FilledSvg);
+export const HatGraduation28Regular = /** #__PURE__ */ createIcon("HatGraduation28Regular", "28", HatGraduation28RegularSvg);
+export const HatGraduation32Filled = /** #__PURE__ */ createIcon("HatGraduation32Filled", "32", HatGraduation32FilledSvg);
+export const HatGraduation32Regular = /** #__PURE__ */ createIcon("HatGraduation32Regular", "32", HatGraduation32RegularSvg);
+export const HatGraduation48Filled = /** #__PURE__ */ createIcon("HatGraduation48Filled", "48", HatGraduation48FilledSvg);
+export const HatGraduation48Regular = /** #__PURE__ */ createIcon("HatGraduation48Regular", "48", HatGraduation48RegularSvg);

@@ -5,9 +5,11 @@ import StoreMicrosoft20RegularSvg from "@fluentui/svg-icons/icons/store_microsof
 import StoreMicrosoft24FilledSvg from "@fluentui/svg-icons/icons/store_microsoft_24_filled.svg" with { type: "text" }
 import StoreMicrosoft24RegularSvg from "@fluentui/svg-icons/icons/store_microsoft_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const StoreMicrosoft16Filled = createIcon("StoreMicrosoft16Filled", StoreMicrosoft16FilledSvg);
-export const StoreMicrosoft16Regular = createIcon("StoreMicrosoft16Regular", StoreMicrosoft16RegularSvg);
-export const StoreMicrosoft20Filled = createIcon("StoreMicrosoft20Filled", StoreMicrosoft20FilledSvg);
-export const StoreMicrosoft20Regular = createIcon("StoreMicrosoft20Regular", StoreMicrosoft20RegularSvg);
-export const StoreMicrosoft24Filled = createIcon("StoreMicrosoft24Filled", StoreMicrosoft24FilledSvg);
-export const StoreMicrosoft24Regular = createIcon("StoreMicrosoft24Regular", StoreMicrosoft24RegularSvg);
+export const StoreMicrosoft16Filled = /** #__PURE__ */ createIcon("StoreMicrosoft16Filled", "16", StoreMicrosoft16FilledSvg);
+export const StoreMicrosoft16Regular = /** #__PURE__ */ createIcon("StoreMicrosoft16Regular", "16", StoreMicrosoft16RegularSvg);
+export const StoreMicrosoft20Filled = /** #__PURE__ */ createIcon("StoreMicrosoft20Filled", "20", StoreMicrosoft20FilledSvg);
+export const StoreMicrosoftFilled = /** #__PURE__ */ createIcon("StoreMicrosoftFilled", "1em", StoreMicrosoft20FilledSvg);
+export const StoreMicrosoft20Regular = /** #__PURE__ */ createIcon("StoreMicrosoft20Regular", "20", StoreMicrosoft20RegularSvg);
+export const StoreMicrosoftRegular = /** #__PURE__ */ createIcon("StoreMicrosoftRegular", "1em", StoreMicrosoft20RegularSvg);
+export const StoreMicrosoft24Filled = /** #__PURE__ */ createIcon("StoreMicrosoft24Filled", "24", StoreMicrosoft24FilledSvg);
+export const StoreMicrosoft24Regular = /** #__PURE__ */ createIcon("StoreMicrosoft24Regular", "24", StoreMicrosoft24RegularSvg);

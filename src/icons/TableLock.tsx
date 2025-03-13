@@ -11,15 +11,17 @@ import TableLock32RegularSvg from "@fluentui/svg-icons/icons/table_lock_32_regul
 import TableLock48FilledSvg from "@fluentui/svg-icons/icons/table_lock_48_filled.svg" with { type: "text" }
 import TableLock48RegularSvg from "@fluentui/svg-icons/icons/table_lock_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TableLock16Filled = createIcon("TableLock16Filled", TableLock16FilledSvg);
-export const TableLock16Regular = createIcon("TableLock16Regular", TableLock16RegularSvg);
-export const TableLock20Filled = createIcon("TableLock20Filled", TableLock20FilledSvg);
-export const TableLock20Regular = createIcon("TableLock20Regular", TableLock20RegularSvg);
-export const TableLock24Filled = createIcon("TableLock24Filled", TableLock24FilledSvg);
-export const TableLock24Regular = createIcon("TableLock24Regular", TableLock24RegularSvg);
-export const TableLock28Filled = createIcon("TableLock28Filled", TableLock28FilledSvg);
-export const TableLock28Regular = createIcon("TableLock28Regular", TableLock28RegularSvg);
-export const TableLock32Filled = createIcon("TableLock32Filled", TableLock32FilledSvg);
-export const TableLock32Regular = createIcon("TableLock32Regular", TableLock32RegularSvg);
-export const TableLock48Filled = createIcon("TableLock48Filled", TableLock48FilledSvg);
-export const TableLock48Regular = createIcon("TableLock48Regular", TableLock48RegularSvg);
+export const TableLock16Filled = /** #__PURE__ */ createIcon("TableLock16Filled", "16", TableLock16FilledSvg);
+export const TableLock16Regular = /** #__PURE__ */ createIcon("TableLock16Regular", "16", TableLock16RegularSvg);
+export const TableLock20Filled = /** #__PURE__ */ createIcon("TableLock20Filled", "20", TableLock20FilledSvg);
+export const TableLockFilled = /** #__PURE__ */ createIcon("TableLockFilled", "1em", TableLock20FilledSvg);
+export const TableLock20Regular = /** #__PURE__ */ createIcon("TableLock20Regular", "20", TableLock20RegularSvg);
+export const TableLockRegular = /** #__PURE__ */ createIcon("TableLockRegular", "1em", TableLock20RegularSvg);
+export const TableLock24Filled = /** #__PURE__ */ createIcon("TableLock24Filled", "24", TableLock24FilledSvg);
+export const TableLock24Regular = /** #__PURE__ */ createIcon("TableLock24Regular", "24", TableLock24RegularSvg);
+export const TableLock28Filled = /** #__PURE__ */ createIcon("TableLock28Filled", "28", TableLock28FilledSvg);
+export const TableLock28Regular = /** #__PURE__ */ createIcon("TableLock28Regular", "28", TableLock28RegularSvg);
+export const TableLock32Filled = /** #__PURE__ */ createIcon("TableLock32Filled", "32", TableLock32FilledSvg);
+export const TableLock32Regular = /** #__PURE__ */ createIcon("TableLock32Regular", "32", TableLock32RegularSvg);
+export const TableLock48Filled = /** #__PURE__ */ createIcon("TableLock48Filled", "48", TableLock48FilledSvg);
+export const TableLock48Regular = /** #__PURE__ */ createIcon("TableLock48Regular", "48", TableLock48RegularSvg);

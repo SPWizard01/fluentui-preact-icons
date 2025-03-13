@@ -5,9 +5,11 @@ import ArrowCircleUpLeft20RegularSvg from "@fluentui/svg-icons/icons/arrow_circl
 import ArrowCircleUpLeft24FilledSvg from "@fluentui/svg-icons/icons/arrow_circle_up_left_24_filled.svg" with { type: "text" }
 import ArrowCircleUpLeft24RegularSvg from "@fluentui/svg-icons/icons/arrow_circle_up_left_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ArrowCircleUpLeft16Filled = createIcon("ArrowCircleUpLeft16Filled", ArrowCircleUpLeft16FilledSvg);
-export const ArrowCircleUpLeft16Regular = createIcon("ArrowCircleUpLeft16Regular", ArrowCircleUpLeft16RegularSvg);
-export const ArrowCircleUpLeft20Filled = createIcon("ArrowCircleUpLeft20Filled", ArrowCircleUpLeft20FilledSvg);
-export const ArrowCircleUpLeft20Regular = createIcon("ArrowCircleUpLeft20Regular", ArrowCircleUpLeft20RegularSvg);
-export const ArrowCircleUpLeft24Filled = createIcon("ArrowCircleUpLeft24Filled", ArrowCircleUpLeft24FilledSvg);
-export const ArrowCircleUpLeft24Regular = createIcon("ArrowCircleUpLeft24Regular", ArrowCircleUpLeft24RegularSvg);
+export const ArrowCircleUpLeft16Filled = /** #__PURE__ */ createIcon("ArrowCircleUpLeft16Filled", "16", ArrowCircleUpLeft16FilledSvg);
+export const ArrowCircleUpLeft16Regular = /** #__PURE__ */ createIcon("ArrowCircleUpLeft16Regular", "16", ArrowCircleUpLeft16RegularSvg);
+export const ArrowCircleUpLeft20Filled = /** #__PURE__ */ createIcon("ArrowCircleUpLeft20Filled", "20", ArrowCircleUpLeft20FilledSvg);
+export const ArrowCircleUpLeftFilled = /** #__PURE__ */ createIcon("ArrowCircleUpLeftFilled", "1em", ArrowCircleUpLeft20FilledSvg);
+export const ArrowCircleUpLeft20Regular = /** #__PURE__ */ createIcon("ArrowCircleUpLeft20Regular", "20", ArrowCircleUpLeft20RegularSvg);
+export const ArrowCircleUpLeftRegular = /** #__PURE__ */ createIcon("ArrowCircleUpLeftRegular", "1em", ArrowCircleUpLeft20RegularSvg);
+export const ArrowCircleUpLeft24Filled = /** #__PURE__ */ createIcon("ArrowCircleUpLeft24Filled", "24", ArrowCircleUpLeft24FilledSvg);
+export const ArrowCircleUpLeft24Regular = /** #__PURE__ */ createIcon("ArrowCircleUpLeft24Regular", "24", ArrowCircleUpLeft24RegularSvg);

@@ -12,16 +12,19 @@ import ChatMultiple28RegularSvg from "@fluentui/svg-icons/icons/chat_multiple_28
 import ChatMultiple32FilledSvg from "@fluentui/svg-icons/icons/chat_multiple_32_filled.svg" with { type: "text" }
 import ChatMultiple32RegularSvg from "@fluentui/svg-icons/icons/chat_multiple_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ChatMultiple16Color = createIcon("ChatMultiple16Color", ChatMultiple16ColorSvg);
-export const ChatMultiple16Filled = createIcon("ChatMultiple16Filled", ChatMultiple16FilledSvg);
-export const ChatMultiple16Regular = createIcon("ChatMultiple16Regular", ChatMultiple16RegularSvg);
-export const ChatMultiple20Color = createIcon("ChatMultiple20Color", ChatMultiple20ColorSvg);
-export const ChatMultiple20Filled = createIcon("ChatMultiple20Filled", ChatMultiple20FilledSvg);
-export const ChatMultiple20Regular = createIcon("ChatMultiple20Regular", ChatMultiple20RegularSvg);
-export const ChatMultiple24Color = createIcon("ChatMultiple24Color", ChatMultiple24ColorSvg);
-export const ChatMultiple24Filled = createIcon("ChatMultiple24Filled", ChatMultiple24FilledSvg);
-export const ChatMultiple24Regular = createIcon("ChatMultiple24Regular", ChatMultiple24RegularSvg);
-export const ChatMultiple28Filled = createIcon("ChatMultiple28Filled", ChatMultiple28FilledSvg);
-export const ChatMultiple28Regular = createIcon("ChatMultiple28Regular", ChatMultiple28RegularSvg);
-export const ChatMultiple32Filled = createIcon("ChatMultiple32Filled", ChatMultiple32FilledSvg);
-export const ChatMultiple32Regular = createIcon("ChatMultiple32Regular", ChatMultiple32RegularSvg);
+export const ChatMultiple16Color = /** #__PURE__ */ createIcon("ChatMultiple16Color", "16", ChatMultiple16ColorSvg);
+export const ChatMultiple16Filled = /** #__PURE__ */ createIcon("ChatMultiple16Filled", "16", ChatMultiple16FilledSvg);
+export const ChatMultiple16Regular = /** #__PURE__ */ createIcon("ChatMultiple16Regular", "16", ChatMultiple16RegularSvg);
+export const ChatMultiple20Color = /** #__PURE__ */ createIcon("ChatMultiple20Color", "20", ChatMultiple20ColorSvg);
+export const ChatMultipleColor = /** #__PURE__ */ createIcon("ChatMultipleColor", "1em", ChatMultiple20ColorSvg);
+export const ChatMultiple20Filled = /** #__PURE__ */ createIcon("ChatMultiple20Filled", "20", ChatMultiple20FilledSvg);
+export const ChatMultipleFilled = /** #__PURE__ */ createIcon("ChatMultipleFilled", "1em", ChatMultiple20FilledSvg);
+export const ChatMultiple20Regular = /** #__PURE__ */ createIcon("ChatMultiple20Regular", "20", ChatMultiple20RegularSvg);
+export const ChatMultipleRegular = /** #__PURE__ */ createIcon("ChatMultipleRegular", "1em", ChatMultiple20RegularSvg);
+export const ChatMultiple24Color = /** #__PURE__ */ createIcon("ChatMultiple24Color", "24", ChatMultiple24ColorSvg);
+export const ChatMultiple24Filled = /** #__PURE__ */ createIcon("ChatMultiple24Filled", "24", ChatMultiple24FilledSvg);
+export const ChatMultiple24Regular = /** #__PURE__ */ createIcon("ChatMultiple24Regular", "24", ChatMultiple24RegularSvg);
+export const ChatMultiple28Filled = /** #__PURE__ */ createIcon("ChatMultiple28Filled", "28", ChatMultiple28FilledSvg);
+export const ChatMultiple28Regular = /** #__PURE__ */ createIcon("ChatMultiple28Regular", "28", ChatMultiple28RegularSvg);
+export const ChatMultiple32Filled = /** #__PURE__ */ createIcon("ChatMultiple32Filled", "32", ChatMultiple32FilledSvg);
+export const ChatMultiple32Regular = /** #__PURE__ */ createIcon("ChatMultiple32Regular", "32", ChatMultiple32RegularSvg);

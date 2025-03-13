@@ -14,18 +14,21 @@ import DocumentAdd48ColorSvg from "@fluentui/svg-icons/icons/document_add_48_col
 import DocumentAdd48FilledSvg from "@fluentui/svg-icons/icons/document_add_48_filled.svg" with { type: "text" }
 import DocumentAdd48RegularSvg from "@fluentui/svg-icons/icons/document_add_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const DocumentAdd16Color = createIcon("DocumentAdd16Color", DocumentAdd16ColorSvg);
-export const DocumentAdd16Filled = createIcon("DocumentAdd16Filled", DocumentAdd16FilledSvg);
-export const DocumentAdd16Regular = createIcon("DocumentAdd16Regular", DocumentAdd16RegularSvg);
-export const DocumentAdd20Color = createIcon("DocumentAdd20Color", DocumentAdd20ColorSvg);
-export const DocumentAdd20Filled = createIcon("DocumentAdd20Filled", DocumentAdd20FilledSvg);
-export const DocumentAdd20Regular = createIcon("DocumentAdd20Regular", DocumentAdd20RegularSvg);
-export const DocumentAdd24Color = createIcon("DocumentAdd24Color", DocumentAdd24ColorSvg);
-export const DocumentAdd24Filled = createIcon("DocumentAdd24Filled", DocumentAdd24FilledSvg);
-export const DocumentAdd24Regular = createIcon("DocumentAdd24Regular", DocumentAdd24RegularSvg);
-export const DocumentAdd28Color = createIcon("DocumentAdd28Color", DocumentAdd28ColorSvg);
-export const DocumentAdd28Filled = createIcon("DocumentAdd28Filled", DocumentAdd28FilledSvg);
-export const DocumentAdd28Regular = createIcon("DocumentAdd28Regular", DocumentAdd28RegularSvg);
-export const DocumentAdd48Color = createIcon("DocumentAdd48Color", DocumentAdd48ColorSvg);
-export const DocumentAdd48Filled = createIcon("DocumentAdd48Filled", DocumentAdd48FilledSvg);
-export const DocumentAdd48Regular = createIcon("DocumentAdd48Regular", DocumentAdd48RegularSvg);
+export const DocumentAdd16Color = /** #__PURE__ */ createIcon("DocumentAdd16Color", "16", DocumentAdd16ColorSvg);
+export const DocumentAdd16Filled = /** #__PURE__ */ createIcon("DocumentAdd16Filled", "16", DocumentAdd16FilledSvg);
+export const DocumentAdd16Regular = /** #__PURE__ */ createIcon("DocumentAdd16Regular", "16", DocumentAdd16RegularSvg);
+export const DocumentAdd20Color = /** #__PURE__ */ createIcon("DocumentAdd20Color", "20", DocumentAdd20ColorSvg);
+export const DocumentAddColor = /** #__PURE__ */ createIcon("DocumentAddColor", "1em", DocumentAdd20ColorSvg);
+export const DocumentAdd20Filled = /** #__PURE__ */ createIcon("DocumentAdd20Filled", "20", DocumentAdd20FilledSvg);
+export const DocumentAddFilled = /** #__PURE__ */ createIcon("DocumentAddFilled", "1em", DocumentAdd20FilledSvg);
+export const DocumentAdd20Regular = /** #__PURE__ */ createIcon("DocumentAdd20Regular", "20", DocumentAdd20RegularSvg);
+export const DocumentAddRegular = /** #__PURE__ */ createIcon("DocumentAddRegular", "1em", DocumentAdd20RegularSvg);
+export const DocumentAdd24Color = /** #__PURE__ */ createIcon("DocumentAdd24Color", "24", DocumentAdd24ColorSvg);
+export const DocumentAdd24Filled = /** #__PURE__ */ createIcon("DocumentAdd24Filled", "24", DocumentAdd24FilledSvg);
+export const DocumentAdd24Regular = /** #__PURE__ */ createIcon("DocumentAdd24Regular", "24", DocumentAdd24RegularSvg);
+export const DocumentAdd28Color = /** #__PURE__ */ createIcon("DocumentAdd28Color", "28", DocumentAdd28ColorSvg);
+export const DocumentAdd28Filled = /** #__PURE__ */ createIcon("DocumentAdd28Filled", "28", DocumentAdd28FilledSvg);
+export const DocumentAdd28Regular = /** #__PURE__ */ createIcon("DocumentAdd28Regular", "28", DocumentAdd28RegularSvg);
+export const DocumentAdd48Color = /** #__PURE__ */ createIcon("DocumentAdd48Color", "48", DocumentAdd48ColorSvg);
+export const DocumentAdd48Filled = /** #__PURE__ */ createIcon("DocumentAdd48Filled", "48", DocumentAdd48FilledSvg);
+export const DocumentAdd48Regular = /** #__PURE__ */ createIcon("DocumentAdd48Regular", "48", DocumentAdd48RegularSvg);

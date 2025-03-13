@@ -13,17 +13,19 @@ import CalendarRtl32RegularSvg from "@fluentui/svg-icons/icons/calendar_rtl_32_r
 import CalendarRtl48FilledSvg from "@fluentui/svg-icons/icons/calendar_rtl_48_filled.svg" with { type: "text" }
 import CalendarRtl48RegularSvg from "@fluentui/svg-icons/icons/calendar_rtl_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CalendarRtl12Filled = createIcon("CalendarRtl12Filled", CalendarRtl12FilledSvg);
-export const CalendarRtl12Regular = createIcon("CalendarRtl12Regular", CalendarRtl12RegularSvg);
-export const CalendarRtl16Filled = createIcon("CalendarRtl16Filled", CalendarRtl16FilledSvg);
-export const CalendarRtl16Regular = createIcon("CalendarRtl16Regular", CalendarRtl16RegularSvg);
-export const CalendarRtl20Filled = createIcon("CalendarRtl20Filled", CalendarRtl20FilledSvg);
-export const CalendarRtl20Regular = createIcon("CalendarRtl20Regular", CalendarRtl20RegularSvg);
-export const CalendarRtl24Filled = createIcon("CalendarRtl24Filled", CalendarRtl24FilledSvg);
-export const CalendarRtl24Regular = createIcon("CalendarRtl24Regular", CalendarRtl24RegularSvg);
-export const CalendarRtl28Filled = createIcon("CalendarRtl28Filled", CalendarRtl28FilledSvg);
-export const CalendarRtl28Regular = createIcon("CalendarRtl28Regular", CalendarRtl28RegularSvg);
-export const CalendarRtl32Filled = createIcon("CalendarRtl32Filled", CalendarRtl32FilledSvg);
-export const CalendarRtl32Regular = createIcon("CalendarRtl32Regular", CalendarRtl32RegularSvg);
-export const CalendarRtl48Filled = createIcon("CalendarRtl48Filled", CalendarRtl48FilledSvg);
-export const CalendarRtl48Regular = createIcon("CalendarRtl48Regular", CalendarRtl48RegularSvg);
+export const CalendarRtl12Filled = /** #__PURE__ */ createIcon("CalendarRtl12Filled", "12", CalendarRtl12FilledSvg);
+export const CalendarRtl12Regular = /** #__PURE__ */ createIcon("CalendarRtl12Regular", "12", CalendarRtl12RegularSvg);
+export const CalendarRtl16Filled = /** #__PURE__ */ createIcon("CalendarRtl16Filled", "16", CalendarRtl16FilledSvg);
+export const CalendarRtl16Regular = /** #__PURE__ */ createIcon("CalendarRtl16Regular", "16", CalendarRtl16RegularSvg);
+export const CalendarRtl20Filled = /** #__PURE__ */ createIcon("CalendarRtl20Filled", "20", CalendarRtl20FilledSvg);
+export const CalendarRtlFilled = /** #__PURE__ */ createIcon("CalendarRtlFilled", "1em", CalendarRtl20FilledSvg);
+export const CalendarRtl20Regular = /** #__PURE__ */ createIcon("CalendarRtl20Regular", "20", CalendarRtl20RegularSvg);
+export const CalendarRtlRegular = /** #__PURE__ */ createIcon("CalendarRtlRegular", "1em", CalendarRtl20RegularSvg);
+export const CalendarRtl24Filled = /** #__PURE__ */ createIcon("CalendarRtl24Filled", "24", CalendarRtl24FilledSvg);
+export const CalendarRtl24Regular = /** #__PURE__ */ createIcon("CalendarRtl24Regular", "24", CalendarRtl24RegularSvg);
+export const CalendarRtl28Filled = /** #__PURE__ */ createIcon("CalendarRtl28Filled", "28", CalendarRtl28FilledSvg);
+export const CalendarRtl28Regular = /** #__PURE__ */ createIcon("CalendarRtl28Regular", "28", CalendarRtl28RegularSvg);
+export const CalendarRtl32Filled = /** #__PURE__ */ createIcon("CalendarRtl32Filled", "32", CalendarRtl32FilledSvg);
+export const CalendarRtl32Regular = /** #__PURE__ */ createIcon("CalendarRtl32Regular", "32", CalendarRtl32RegularSvg);
+export const CalendarRtl48Filled = /** #__PURE__ */ createIcon("CalendarRtl48Filled", "48", CalendarRtl48FilledSvg);
+export const CalendarRtl48Regular = /** #__PURE__ */ createIcon("CalendarRtl48Regular", "48", CalendarRtl48RegularSvg);

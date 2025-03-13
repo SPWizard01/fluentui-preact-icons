@@ -5,9 +5,11 @@ import SerialPort20RegularSvg from "@fluentui/svg-icons/icons/serial_port_20_reg
 import SerialPort24FilledSvg from "@fluentui/svg-icons/icons/serial_port_24_filled.svg" with { type: "text" }
 import SerialPort24RegularSvg from "@fluentui/svg-icons/icons/serial_port_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const SerialPort16Filled = createIcon("SerialPort16Filled", SerialPort16FilledSvg);
-export const SerialPort16Regular = createIcon("SerialPort16Regular", SerialPort16RegularSvg);
-export const SerialPort20Filled = createIcon("SerialPort20Filled", SerialPort20FilledSvg);
-export const SerialPort20Regular = createIcon("SerialPort20Regular", SerialPort20RegularSvg);
-export const SerialPort24Filled = createIcon("SerialPort24Filled", SerialPort24FilledSvg);
-export const SerialPort24Regular = createIcon("SerialPort24Regular", SerialPort24RegularSvg);
+export const SerialPort16Filled = /** #__PURE__ */ createIcon("SerialPort16Filled", "16", SerialPort16FilledSvg);
+export const SerialPort16Regular = /** #__PURE__ */ createIcon("SerialPort16Regular", "16", SerialPort16RegularSvg);
+export const SerialPort20Filled = /** #__PURE__ */ createIcon("SerialPort20Filled", "20", SerialPort20FilledSvg);
+export const SerialPortFilled = /** #__PURE__ */ createIcon("SerialPortFilled", "1em", SerialPort20FilledSvg);
+export const SerialPort20Regular = /** #__PURE__ */ createIcon("SerialPort20Regular", "20", SerialPort20RegularSvg);
+export const SerialPortRegular = /** #__PURE__ */ createIcon("SerialPortRegular", "1em", SerialPort20RegularSvg);
+export const SerialPort24Filled = /** #__PURE__ */ createIcon("SerialPort24Filled", "24", SerialPort24FilledSvg);
+export const SerialPort24Regular = /** #__PURE__ */ createIcon("SerialPort24Regular", "24", SerialPort24RegularSvg);

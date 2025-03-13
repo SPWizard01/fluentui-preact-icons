@@ -11,15 +11,17 @@ import HardDrive32RegularSvg from "@fluentui/svg-icons/icons/hard_drive_32_regul
 import HardDrive48FilledSvg from "@fluentui/svg-icons/icons/hard_drive_48_filled.svg" with { type: "text" }
 import HardDrive48RegularSvg from "@fluentui/svg-icons/icons/hard_drive_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const HardDrive16Filled = createIcon("HardDrive16Filled", HardDrive16FilledSvg);
-export const HardDrive16Regular = createIcon("HardDrive16Regular", HardDrive16RegularSvg);
-export const HardDrive20Filled = createIcon("HardDrive20Filled", HardDrive20FilledSvg);
-export const HardDrive20Regular = createIcon("HardDrive20Regular", HardDrive20RegularSvg);
-export const HardDrive24Filled = createIcon("HardDrive24Filled", HardDrive24FilledSvg);
-export const HardDrive24Regular = createIcon("HardDrive24Regular", HardDrive24RegularSvg);
-export const HardDrive28Filled = createIcon("HardDrive28Filled", HardDrive28FilledSvg);
-export const HardDrive28Regular = createIcon("HardDrive28Regular", HardDrive28RegularSvg);
-export const HardDrive32Filled = createIcon("HardDrive32Filled", HardDrive32FilledSvg);
-export const HardDrive32Regular = createIcon("HardDrive32Regular", HardDrive32RegularSvg);
-export const HardDrive48Filled = createIcon("HardDrive48Filled", HardDrive48FilledSvg);
-export const HardDrive48Regular = createIcon("HardDrive48Regular", HardDrive48RegularSvg);
+export const HardDrive16Filled = /** #__PURE__ */ createIcon("HardDrive16Filled", "16", HardDrive16FilledSvg);
+export const HardDrive16Regular = /** #__PURE__ */ createIcon("HardDrive16Regular", "16", HardDrive16RegularSvg);
+export const HardDrive20Filled = /** #__PURE__ */ createIcon("HardDrive20Filled", "20", HardDrive20FilledSvg);
+export const HardDriveFilled = /** #__PURE__ */ createIcon("HardDriveFilled", "1em", HardDrive20FilledSvg);
+export const HardDrive20Regular = /** #__PURE__ */ createIcon("HardDrive20Regular", "20", HardDrive20RegularSvg);
+export const HardDriveRegular = /** #__PURE__ */ createIcon("HardDriveRegular", "1em", HardDrive20RegularSvg);
+export const HardDrive24Filled = /** #__PURE__ */ createIcon("HardDrive24Filled", "24", HardDrive24FilledSvg);
+export const HardDrive24Regular = /** #__PURE__ */ createIcon("HardDrive24Regular", "24", HardDrive24RegularSvg);
+export const HardDrive28Filled = /** #__PURE__ */ createIcon("HardDrive28Filled", "28", HardDrive28FilledSvg);
+export const HardDrive28Regular = /** #__PURE__ */ createIcon("HardDrive28Regular", "28", HardDrive28RegularSvg);
+export const HardDrive32Filled = /** #__PURE__ */ createIcon("HardDrive32Filled", "32", HardDrive32FilledSvg);
+export const HardDrive32Regular = /** #__PURE__ */ createIcon("HardDrive32Regular", "32", HardDrive32RegularSvg);
+export const HardDrive48Filled = /** #__PURE__ */ createIcon("HardDrive48Filled", "48", HardDrive48FilledSvg);
+export const HardDrive48Regular = /** #__PURE__ */ createIcon("HardDrive48Regular", "48", HardDrive48RegularSvg);

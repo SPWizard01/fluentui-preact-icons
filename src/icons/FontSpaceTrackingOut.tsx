@@ -7,11 +7,13 @@ import FontSpaceTrackingOut24RegularSvg from "@fluentui/svg-icons/icons/font_spa
 import FontSpaceTrackingOut28FilledSvg from "@fluentui/svg-icons/icons/font_space_tracking_out_28_filled.svg" with { type: "text" }
 import FontSpaceTrackingOut28RegularSvg from "@fluentui/svg-icons/icons/font_space_tracking_out_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const FontSpaceTrackingOut16Filled = createIcon("FontSpaceTrackingOut16Filled", FontSpaceTrackingOut16FilledSvg);
-export const FontSpaceTrackingOut16Regular = createIcon("FontSpaceTrackingOut16Regular", FontSpaceTrackingOut16RegularSvg);
-export const FontSpaceTrackingOut20Filled = createIcon("FontSpaceTrackingOut20Filled", FontSpaceTrackingOut20FilledSvg);
-export const FontSpaceTrackingOut20Regular = createIcon("FontSpaceTrackingOut20Regular", FontSpaceTrackingOut20RegularSvg);
-export const FontSpaceTrackingOut24Filled = createIcon("FontSpaceTrackingOut24Filled", FontSpaceTrackingOut24FilledSvg);
-export const FontSpaceTrackingOut24Regular = createIcon("FontSpaceTrackingOut24Regular", FontSpaceTrackingOut24RegularSvg);
-export const FontSpaceTrackingOut28Filled = createIcon("FontSpaceTrackingOut28Filled", FontSpaceTrackingOut28FilledSvg);
-export const FontSpaceTrackingOut28Regular = createIcon("FontSpaceTrackingOut28Regular", FontSpaceTrackingOut28RegularSvg);
+export const FontSpaceTrackingOut16Filled = /** #__PURE__ */ createIcon("FontSpaceTrackingOut16Filled", "16", FontSpaceTrackingOut16FilledSvg);
+export const FontSpaceTrackingOut16Regular = /** #__PURE__ */ createIcon("FontSpaceTrackingOut16Regular", "16", FontSpaceTrackingOut16RegularSvg);
+export const FontSpaceTrackingOut20Filled = /** #__PURE__ */ createIcon("FontSpaceTrackingOut20Filled", "20", FontSpaceTrackingOut20FilledSvg);
+export const FontSpaceTrackingOutFilled = /** #__PURE__ */ createIcon("FontSpaceTrackingOutFilled", "1em", FontSpaceTrackingOut20FilledSvg);
+export const FontSpaceTrackingOut20Regular = /** #__PURE__ */ createIcon("FontSpaceTrackingOut20Regular", "20", FontSpaceTrackingOut20RegularSvg);
+export const FontSpaceTrackingOutRegular = /** #__PURE__ */ createIcon("FontSpaceTrackingOutRegular", "1em", FontSpaceTrackingOut20RegularSvg);
+export const FontSpaceTrackingOut24Filled = /** #__PURE__ */ createIcon("FontSpaceTrackingOut24Filled", "24", FontSpaceTrackingOut24FilledSvg);
+export const FontSpaceTrackingOut24Regular = /** #__PURE__ */ createIcon("FontSpaceTrackingOut24Regular", "24", FontSpaceTrackingOut24RegularSvg);
+export const FontSpaceTrackingOut28Filled = /** #__PURE__ */ createIcon("FontSpaceTrackingOut28Filled", "28", FontSpaceTrackingOut28FilledSvg);
+export const FontSpaceTrackingOut28Regular = /** #__PURE__ */ createIcon("FontSpaceTrackingOut28Regular", "28", FontSpaceTrackingOut28RegularSvg);

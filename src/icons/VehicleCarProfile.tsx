@@ -5,9 +5,11 @@ import VehicleCarProfile20RegularSvg from "@fluentui/svg-icons/icons/vehicle_car
 import VehicleCarProfile24FilledSvg from "@fluentui/svg-icons/icons/vehicle_car_profile_24_filled.svg" with { type: "text" }
 import VehicleCarProfile24RegularSvg from "@fluentui/svg-icons/icons/vehicle_car_profile_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const VehicleCarProfile16Filled = createIcon("VehicleCarProfile16Filled", VehicleCarProfile16FilledSvg);
-export const VehicleCarProfile16Regular = createIcon("VehicleCarProfile16Regular", VehicleCarProfile16RegularSvg);
-export const VehicleCarProfile20Filled = createIcon("VehicleCarProfile20Filled", VehicleCarProfile20FilledSvg);
-export const VehicleCarProfile20Regular = createIcon("VehicleCarProfile20Regular", VehicleCarProfile20RegularSvg);
-export const VehicleCarProfile24Filled = createIcon("VehicleCarProfile24Filled", VehicleCarProfile24FilledSvg);
-export const VehicleCarProfile24Regular = createIcon("VehicleCarProfile24Regular", VehicleCarProfile24RegularSvg);
+export const VehicleCarProfile16Filled = /** #__PURE__ */ createIcon("VehicleCarProfile16Filled", "16", VehicleCarProfile16FilledSvg);
+export const VehicleCarProfile16Regular = /** #__PURE__ */ createIcon("VehicleCarProfile16Regular", "16", VehicleCarProfile16RegularSvg);
+export const VehicleCarProfile20Filled = /** #__PURE__ */ createIcon("VehicleCarProfile20Filled", "20", VehicleCarProfile20FilledSvg);
+export const VehicleCarProfileFilled = /** #__PURE__ */ createIcon("VehicleCarProfileFilled", "1em", VehicleCarProfile20FilledSvg);
+export const VehicleCarProfile20Regular = /** #__PURE__ */ createIcon("VehicleCarProfile20Regular", "20", VehicleCarProfile20RegularSvg);
+export const VehicleCarProfileRegular = /** #__PURE__ */ createIcon("VehicleCarProfileRegular", "1em", VehicleCarProfile20RegularSvg);
+export const VehicleCarProfile24Filled = /** #__PURE__ */ createIcon("VehicleCarProfile24Filled", "24", VehicleCarProfile24FilledSvg);
+export const VehicleCarProfile24Regular = /** #__PURE__ */ createIcon("VehicleCarProfile24Regular", "24", VehicleCarProfile24RegularSvg);

@@ -11,15 +11,17 @@ import MoreCircle32RegularSvg from "@fluentui/svg-icons/icons/more_circle_32_reg
 import MoreCircle48FilledSvg from "@fluentui/svg-icons/icons/more_circle_48_filled.svg" with { type: "text" }
 import MoreCircle48RegularSvg from "@fluentui/svg-icons/icons/more_circle_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const MoreCircle16Filled = createIcon("MoreCircle16Filled", MoreCircle16FilledSvg);
-export const MoreCircle16Regular = createIcon("MoreCircle16Regular", MoreCircle16RegularSvg);
-export const MoreCircle20Filled = createIcon("MoreCircle20Filled", MoreCircle20FilledSvg);
-export const MoreCircle20Regular = createIcon("MoreCircle20Regular", MoreCircle20RegularSvg);
-export const MoreCircle24Filled = createIcon("MoreCircle24Filled", MoreCircle24FilledSvg);
-export const MoreCircle24Regular = createIcon("MoreCircle24Regular", MoreCircle24RegularSvg);
-export const MoreCircle28Filled = createIcon("MoreCircle28Filled", MoreCircle28FilledSvg);
-export const MoreCircle28Regular = createIcon("MoreCircle28Regular", MoreCircle28RegularSvg);
-export const MoreCircle32Filled = createIcon("MoreCircle32Filled", MoreCircle32FilledSvg);
-export const MoreCircle32Regular = createIcon("MoreCircle32Regular", MoreCircle32RegularSvg);
-export const MoreCircle48Filled = createIcon("MoreCircle48Filled", MoreCircle48FilledSvg);
-export const MoreCircle48Regular = createIcon("MoreCircle48Regular", MoreCircle48RegularSvg);
+export const MoreCircle16Filled = /** #__PURE__ */ createIcon("MoreCircle16Filled", "16", MoreCircle16FilledSvg);
+export const MoreCircle16Regular = /** #__PURE__ */ createIcon("MoreCircle16Regular", "16", MoreCircle16RegularSvg);
+export const MoreCircle20Filled = /** #__PURE__ */ createIcon("MoreCircle20Filled", "20", MoreCircle20FilledSvg);
+export const MoreCircleFilled = /** #__PURE__ */ createIcon("MoreCircleFilled", "1em", MoreCircle20FilledSvg);
+export const MoreCircle20Regular = /** #__PURE__ */ createIcon("MoreCircle20Regular", "20", MoreCircle20RegularSvg);
+export const MoreCircleRegular = /** #__PURE__ */ createIcon("MoreCircleRegular", "1em", MoreCircle20RegularSvg);
+export const MoreCircle24Filled = /** #__PURE__ */ createIcon("MoreCircle24Filled", "24", MoreCircle24FilledSvg);
+export const MoreCircle24Regular = /** #__PURE__ */ createIcon("MoreCircle24Regular", "24", MoreCircle24RegularSvg);
+export const MoreCircle28Filled = /** #__PURE__ */ createIcon("MoreCircle28Filled", "28", MoreCircle28FilledSvg);
+export const MoreCircle28Regular = /** #__PURE__ */ createIcon("MoreCircle28Regular", "28", MoreCircle28RegularSvg);
+export const MoreCircle32Filled = /** #__PURE__ */ createIcon("MoreCircle32Filled", "32", MoreCircle32FilledSvg);
+export const MoreCircle32Regular = /** #__PURE__ */ createIcon("MoreCircle32Regular", "32", MoreCircle32RegularSvg);
+export const MoreCircle48Filled = /** #__PURE__ */ createIcon("MoreCircle48Filled", "48", MoreCircle48FilledSvg);
+export const MoreCircle48Regular = /** #__PURE__ */ createIcon("MoreCircle48Regular", "48", MoreCircle48RegularSvg);

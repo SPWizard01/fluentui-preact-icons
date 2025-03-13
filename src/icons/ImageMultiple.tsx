@@ -11,15 +11,17 @@ import ImageMultiple32RegularSvg from "@fluentui/svg-icons/icons/image_multiple_
 import ImageMultiple48FilledSvg from "@fluentui/svg-icons/icons/image_multiple_48_filled.svg" with { type: "text" }
 import ImageMultiple48RegularSvg from "@fluentui/svg-icons/icons/image_multiple_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ImageMultiple16Filled = createIcon("ImageMultiple16Filled", ImageMultiple16FilledSvg);
-export const ImageMultiple16Regular = createIcon("ImageMultiple16Regular", ImageMultiple16RegularSvg);
-export const ImageMultiple20Filled = createIcon("ImageMultiple20Filled", ImageMultiple20FilledSvg);
-export const ImageMultiple20Regular = createIcon("ImageMultiple20Regular", ImageMultiple20RegularSvg);
-export const ImageMultiple24Filled = createIcon("ImageMultiple24Filled", ImageMultiple24FilledSvg);
-export const ImageMultiple24Regular = createIcon("ImageMultiple24Regular", ImageMultiple24RegularSvg);
-export const ImageMultiple28Filled = createIcon("ImageMultiple28Filled", ImageMultiple28FilledSvg);
-export const ImageMultiple28Regular = createIcon("ImageMultiple28Regular", ImageMultiple28RegularSvg);
-export const ImageMultiple32Filled = createIcon("ImageMultiple32Filled", ImageMultiple32FilledSvg);
-export const ImageMultiple32Regular = createIcon("ImageMultiple32Regular", ImageMultiple32RegularSvg);
-export const ImageMultiple48Filled = createIcon("ImageMultiple48Filled", ImageMultiple48FilledSvg);
-export const ImageMultiple48Regular = createIcon("ImageMultiple48Regular", ImageMultiple48RegularSvg);
+export const ImageMultiple16Filled = /** #__PURE__ */ createIcon("ImageMultiple16Filled", "16", ImageMultiple16FilledSvg);
+export const ImageMultiple16Regular = /** #__PURE__ */ createIcon("ImageMultiple16Regular", "16", ImageMultiple16RegularSvg);
+export const ImageMultiple20Filled = /** #__PURE__ */ createIcon("ImageMultiple20Filled", "20", ImageMultiple20FilledSvg);
+export const ImageMultipleFilled = /** #__PURE__ */ createIcon("ImageMultipleFilled", "1em", ImageMultiple20FilledSvg);
+export const ImageMultiple20Regular = /** #__PURE__ */ createIcon("ImageMultiple20Regular", "20", ImageMultiple20RegularSvg);
+export const ImageMultipleRegular = /** #__PURE__ */ createIcon("ImageMultipleRegular", "1em", ImageMultiple20RegularSvg);
+export const ImageMultiple24Filled = /** #__PURE__ */ createIcon("ImageMultiple24Filled", "24", ImageMultiple24FilledSvg);
+export const ImageMultiple24Regular = /** #__PURE__ */ createIcon("ImageMultiple24Regular", "24", ImageMultiple24RegularSvg);
+export const ImageMultiple28Filled = /** #__PURE__ */ createIcon("ImageMultiple28Filled", "28", ImageMultiple28FilledSvg);
+export const ImageMultiple28Regular = /** #__PURE__ */ createIcon("ImageMultiple28Regular", "28", ImageMultiple28RegularSvg);
+export const ImageMultiple32Filled = /** #__PURE__ */ createIcon("ImageMultiple32Filled", "32", ImageMultiple32FilledSvg);
+export const ImageMultiple32Regular = /** #__PURE__ */ createIcon("ImageMultiple32Regular", "32", ImageMultiple32RegularSvg);
+export const ImageMultiple48Filled = /** #__PURE__ */ createIcon("ImageMultiple48Filled", "48", ImageMultiple48FilledSvg);
+export const ImageMultiple48Regular = /** #__PURE__ */ createIcon("ImageMultiple48Regular", "48", ImageMultiple48RegularSvg);

@@ -11,15 +11,17 @@ import GlassesOff32RegularSvg from "@fluentui/svg-icons/icons/glasses_off_32_reg
 import GlassesOff48FilledSvg from "@fluentui/svg-icons/icons/glasses_off_48_filled.svg" with { type: "text" }
 import GlassesOff48RegularSvg from "@fluentui/svg-icons/icons/glasses_off_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const GlassesOff16Filled = createIcon("GlassesOff16Filled", GlassesOff16FilledSvg);
-export const GlassesOff16Regular = createIcon("GlassesOff16Regular", GlassesOff16RegularSvg);
-export const GlassesOff20Filled = createIcon("GlassesOff20Filled", GlassesOff20FilledSvg);
-export const GlassesOff20Regular = createIcon("GlassesOff20Regular", GlassesOff20RegularSvg);
-export const GlassesOff24Filled = createIcon("GlassesOff24Filled", GlassesOff24FilledSvg);
-export const GlassesOff24Regular = createIcon("GlassesOff24Regular", GlassesOff24RegularSvg);
-export const GlassesOff28Filled = createIcon("GlassesOff28Filled", GlassesOff28FilledSvg);
-export const GlassesOff28Regular = createIcon("GlassesOff28Regular", GlassesOff28RegularSvg);
-export const GlassesOff32Filled = createIcon("GlassesOff32Filled", GlassesOff32FilledSvg);
-export const GlassesOff32Regular = createIcon("GlassesOff32Regular", GlassesOff32RegularSvg);
-export const GlassesOff48Filled = createIcon("GlassesOff48Filled", GlassesOff48FilledSvg);
-export const GlassesOff48Regular = createIcon("GlassesOff48Regular", GlassesOff48RegularSvg);
+export const GlassesOff16Filled = /** #__PURE__ */ createIcon("GlassesOff16Filled", "16", GlassesOff16FilledSvg);
+export const GlassesOff16Regular = /** #__PURE__ */ createIcon("GlassesOff16Regular", "16", GlassesOff16RegularSvg);
+export const GlassesOff20Filled = /** #__PURE__ */ createIcon("GlassesOff20Filled", "20", GlassesOff20FilledSvg);
+export const GlassesOffFilled = /** #__PURE__ */ createIcon("GlassesOffFilled", "1em", GlassesOff20FilledSvg);
+export const GlassesOff20Regular = /** #__PURE__ */ createIcon("GlassesOff20Regular", "20", GlassesOff20RegularSvg);
+export const GlassesOffRegular = /** #__PURE__ */ createIcon("GlassesOffRegular", "1em", GlassesOff20RegularSvg);
+export const GlassesOff24Filled = /** #__PURE__ */ createIcon("GlassesOff24Filled", "24", GlassesOff24FilledSvg);
+export const GlassesOff24Regular = /** #__PURE__ */ createIcon("GlassesOff24Regular", "24", GlassesOff24RegularSvg);
+export const GlassesOff28Filled = /** #__PURE__ */ createIcon("GlassesOff28Filled", "28", GlassesOff28FilledSvg);
+export const GlassesOff28Regular = /** #__PURE__ */ createIcon("GlassesOff28Regular", "28", GlassesOff28RegularSvg);
+export const GlassesOff32Filled = /** #__PURE__ */ createIcon("GlassesOff32Filled", "32", GlassesOff32FilledSvg);
+export const GlassesOff32Regular = /** #__PURE__ */ createIcon("GlassesOff32Regular", "32", GlassesOff32RegularSvg);
+export const GlassesOff48Filled = /** #__PURE__ */ createIcon("GlassesOff48Filled", "48", GlassesOff48FilledSvg);
+export const GlassesOff48Regular = /** #__PURE__ */ createIcon("GlassesOff48Regular", "48", GlassesOff48RegularSvg);

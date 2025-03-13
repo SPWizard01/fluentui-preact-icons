@@ -11,15 +11,17 @@ import WindowWrench32RegularSvg from "@fluentui/svg-icons/icons/window_wrench_32
 import WindowWrench48FilledSvg from "@fluentui/svg-icons/icons/window_wrench_48_filled.svg" with { type: "text" }
 import WindowWrench48RegularSvg from "@fluentui/svg-icons/icons/window_wrench_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const WindowWrench16Filled = createIcon("WindowWrench16Filled", WindowWrench16FilledSvg);
-export const WindowWrench16Regular = createIcon("WindowWrench16Regular", WindowWrench16RegularSvg);
-export const WindowWrench20Filled = createIcon("WindowWrench20Filled", WindowWrench20FilledSvg);
-export const WindowWrench20Regular = createIcon("WindowWrench20Regular", WindowWrench20RegularSvg);
-export const WindowWrench24Filled = createIcon("WindowWrench24Filled", WindowWrench24FilledSvg);
-export const WindowWrench24Regular = createIcon("WindowWrench24Regular", WindowWrench24RegularSvg);
-export const WindowWrench28Filled = createIcon("WindowWrench28Filled", WindowWrench28FilledSvg);
-export const WindowWrench28Regular = createIcon("WindowWrench28Regular", WindowWrench28RegularSvg);
-export const WindowWrench32Filled = createIcon("WindowWrench32Filled", WindowWrench32FilledSvg);
-export const WindowWrench32Regular = createIcon("WindowWrench32Regular", WindowWrench32RegularSvg);
-export const WindowWrench48Filled = createIcon("WindowWrench48Filled", WindowWrench48FilledSvg);
-export const WindowWrench48Regular = createIcon("WindowWrench48Regular", WindowWrench48RegularSvg);
+export const WindowWrench16Filled = /** #__PURE__ */ createIcon("WindowWrench16Filled", "16", WindowWrench16FilledSvg);
+export const WindowWrench16Regular = /** #__PURE__ */ createIcon("WindowWrench16Regular", "16", WindowWrench16RegularSvg);
+export const WindowWrench20Filled = /** #__PURE__ */ createIcon("WindowWrench20Filled", "20", WindowWrench20FilledSvg);
+export const WindowWrenchFilled = /** #__PURE__ */ createIcon("WindowWrenchFilled", "1em", WindowWrench20FilledSvg);
+export const WindowWrench20Regular = /** #__PURE__ */ createIcon("WindowWrench20Regular", "20", WindowWrench20RegularSvg);
+export const WindowWrenchRegular = /** #__PURE__ */ createIcon("WindowWrenchRegular", "1em", WindowWrench20RegularSvg);
+export const WindowWrench24Filled = /** #__PURE__ */ createIcon("WindowWrench24Filled", "24", WindowWrench24FilledSvg);
+export const WindowWrench24Regular = /** #__PURE__ */ createIcon("WindowWrench24Regular", "24", WindowWrench24RegularSvg);
+export const WindowWrench28Filled = /** #__PURE__ */ createIcon("WindowWrench28Filled", "28", WindowWrench28FilledSvg);
+export const WindowWrench28Regular = /** #__PURE__ */ createIcon("WindowWrench28Regular", "28", WindowWrench28RegularSvg);
+export const WindowWrench32Filled = /** #__PURE__ */ createIcon("WindowWrench32Filled", "32", WindowWrench32FilledSvg);
+export const WindowWrench32Regular = /** #__PURE__ */ createIcon("WindowWrench32Regular", "32", WindowWrench32RegularSvg);
+export const WindowWrench48Filled = /** #__PURE__ */ createIcon("WindowWrench48Filled", "48", WindowWrench48FilledSvg);
+export const WindowWrench48Regular = /** #__PURE__ */ createIcon("WindowWrench48Regular", "48", WindowWrench48RegularSvg);

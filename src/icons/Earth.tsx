@@ -9,13 +9,15 @@ import Earth32RegularSvg from "@fluentui/svg-icons/icons/earth_32_regular.svg" w
 import Earth48FilledSvg from "@fluentui/svg-icons/icons/earth_48_filled.svg" with { type: "text" }
 import Earth48RegularSvg from "@fluentui/svg-icons/icons/earth_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Earth16Filled = createIcon("Earth16Filled", Earth16FilledSvg);
-export const Earth16Regular = createIcon("Earth16Regular", Earth16RegularSvg);
-export const Earth20Filled = createIcon("Earth20Filled", Earth20FilledSvg);
-export const Earth20Regular = createIcon("Earth20Regular", Earth20RegularSvg);
-export const Earth24Filled = createIcon("Earth24Filled", Earth24FilledSvg);
-export const Earth24Regular = createIcon("Earth24Regular", Earth24RegularSvg);
-export const Earth32Filled = createIcon("Earth32Filled", Earth32FilledSvg);
-export const Earth32Regular = createIcon("Earth32Regular", Earth32RegularSvg);
-export const Earth48Filled = createIcon("Earth48Filled", Earth48FilledSvg);
-export const Earth48Regular = createIcon("Earth48Regular", Earth48RegularSvg);
+export const Earth16Filled = /** #__PURE__ */ createIcon("Earth16Filled", "16", Earth16FilledSvg);
+export const Earth16Regular = /** #__PURE__ */ createIcon("Earth16Regular", "16", Earth16RegularSvg);
+export const Earth20Filled = /** #__PURE__ */ createIcon("Earth20Filled", "20", Earth20FilledSvg);
+export const EarthFilled = /** #__PURE__ */ createIcon("EarthFilled", "1em", Earth20FilledSvg);
+export const Earth20Regular = /** #__PURE__ */ createIcon("Earth20Regular", "20", Earth20RegularSvg);
+export const EarthRegular = /** #__PURE__ */ createIcon("EarthRegular", "1em", Earth20RegularSvg);
+export const Earth24Filled = /** #__PURE__ */ createIcon("Earth24Filled", "24", Earth24FilledSvg);
+export const Earth24Regular = /** #__PURE__ */ createIcon("Earth24Regular", "24", Earth24RegularSvg);
+export const Earth32Filled = /** #__PURE__ */ createIcon("Earth32Filled", "32", Earth32FilledSvg);
+export const Earth32Regular = /** #__PURE__ */ createIcon("Earth32Regular", "32", Earth32RegularSvg);
+export const Earth48Filled = /** #__PURE__ */ createIcon("Earth48Filled", "48", Earth48FilledSvg);
+export const Earth48Regular = /** #__PURE__ */ createIcon("Earth48Regular", "48", Earth48RegularSvg);

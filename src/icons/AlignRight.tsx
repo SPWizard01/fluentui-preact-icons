@@ -11,15 +11,17 @@ import AlignRight32RegularSvg from "@fluentui/svg-icons/icons/align_right_32_reg
 import AlignRight48FilledSvg from "@fluentui/svg-icons/icons/align_right_48_filled.svg" with { type: "text" }
 import AlignRight48RegularSvg from "@fluentui/svg-icons/icons/align_right_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const AlignRight16Filled = createIcon("AlignRight16Filled", AlignRight16FilledSvg);
-export const AlignRight16Regular = createIcon("AlignRight16Regular", AlignRight16RegularSvg);
-export const AlignRight20Filled = createIcon("AlignRight20Filled", AlignRight20FilledSvg);
-export const AlignRight20Regular = createIcon("AlignRight20Regular", AlignRight20RegularSvg);
-export const AlignRight24Filled = createIcon("AlignRight24Filled", AlignRight24FilledSvg);
-export const AlignRight24Regular = createIcon("AlignRight24Regular", AlignRight24RegularSvg);
-export const AlignRight28Filled = createIcon("AlignRight28Filled", AlignRight28FilledSvg);
-export const AlignRight28Regular = createIcon("AlignRight28Regular", AlignRight28RegularSvg);
-export const AlignRight32Filled = createIcon("AlignRight32Filled", AlignRight32FilledSvg);
-export const AlignRight32Regular = createIcon("AlignRight32Regular", AlignRight32RegularSvg);
-export const AlignRight48Filled = createIcon("AlignRight48Filled", AlignRight48FilledSvg);
-export const AlignRight48Regular = createIcon("AlignRight48Regular", AlignRight48RegularSvg);
+export const AlignRight16Filled = /** #__PURE__ */ createIcon("AlignRight16Filled", "16", AlignRight16FilledSvg);
+export const AlignRight16Regular = /** #__PURE__ */ createIcon("AlignRight16Regular", "16", AlignRight16RegularSvg);
+export const AlignRight20Filled = /** #__PURE__ */ createIcon("AlignRight20Filled", "20", AlignRight20FilledSvg);
+export const AlignRightFilled = /** #__PURE__ */ createIcon("AlignRightFilled", "1em", AlignRight20FilledSvg);
+export const AlignRight20Regular = /** #__PURE__ */ createIcon("AlignRight20Regular", "20", AlignRight20RegularSvg);
+export const AlignRightRegular = /** #__PURE__ */ createIcon("AlignRightRegular", "1em", AlignRight20RegularSvg);
+export const AlignRight24Filled = /** #__PURE__ */ createIcon("AlignRight24Filled", "24", AlignRight24FilledSvg);
+export const AlignRight24Regular = /** #__PURE__ */ createIcon("AlignRight24Regular", "24", AlignRight24RegularSvg);
+export const AlignRight28Filled = /** #__PURE__ */ createIcon("AlignRight28Filled", "28", AlignRight28FilledSvg);
+export const AlignRight28Regular = /** #__PURE__ */ createIcon("AlignRight28Regular", "28", AlignRight28RegularSvg);
+export const AlignRight32Filled = /** #__PURE__ */ createIcon("AlignRight32Filled", "32", AlignRight32FilledSvg);
+export const AlignRight32Regular = /** #__PURE__ */ createIcon("AlignRight32Regular", "32", AlignRight32RegularSvg);
+export const AlignRight48Filled = /** #__PURE__ */ createIcon("AlignRight48Filled", "48", AlignRight48FilledSvg);
+export const AlignRight48Regular = /** #__PURE__ */ createIcon("AlignRight48Regular", "48", AlignRight48RegularSvg);

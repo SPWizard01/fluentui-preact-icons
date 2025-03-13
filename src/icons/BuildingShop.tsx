@@ -5,9 +5,11 @@ import BuildingShop20RegularSvg from "@fluentui/svg-icons/icons/building_shop_20
 import BuildingShop24FilledSvg from "@fluentui/svg-icons/icons/building_shop_24_filled.svg" with { type: "text" }
 import BuildingShop24RegularSvg from "@fluentui/svg-icons/icons/building_shop_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const BuildingShop16Filled = createIcon("BuildingShop16Filled", BuildingShop16FilledSvg);
-export const BuildingShop16Regular = createIcon("BuildingShop16Regular", BuildingShop16RegularSvg);
-export const BuildingShop20Filled = createIcon("BuildingShop20Filled", BuildingShop20FilledSvg);
-export const BuildingShop20Regular = createIcon("BuildingShop20Regular", BuildingShop20RegularSvg);
-export const BuildingShop24Filled = createIcon("BuildingShop24Filled", BuildingShop24FilledSvg);
-export const BuildingShop24Regular = createIcon("BuildingShop24Regular", BuildingShop24RegularSvg);
+export const BuildingShop16Filled = /** #__PURE__ */ createIcon("BuildingShop16Filled", "16", BuildingShop16FilledSvg);
+export const BuildingShop16Regular = /** #__PURE__ */ createIcon("BuildingShop16Regular", "16", BuildingShop16RegularSvg);
+export const BuildingShop20Filled = /** #__PURE__ */ createIcon("BuildingShop20Filled", "20", BuildingShop20FilledSvg);
+export const BuildingShopFilled = /** #__PURE__ */ createIcon("BuildingShopFilled", "1em", BuildingShop20FilledSvg);
+export const BuildingShop20Regular = /** #__PURE__ */ createIcon("BuildingShop20Regular", "20", BuildingShop20RegularSvg);
+export const BuildingShopRegular = /** #__PURE__ */ createIcon("BuildingShopRegular", "1em", BuildingShop20RegularSvg);
+export const BuildingShop24Filled = /** #__PURE__ */ createIcon("BuildingShop24Filled", "24", BuildingShop24FilledSvg);
+export const BuildingShop24Regular = /** #__PURE__ */ createIcon("BuildingShop24Regular", "24", BuildingShop24RegularSvg);

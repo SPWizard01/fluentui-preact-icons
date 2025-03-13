@@ -5,9 +5,11 @@ import DrinkBeer20RegularSvg from "@fluentui/svg-icons/icons/drink_beer_20_regul
 import DrinkBeer24FilledSvg from "@fluentui/svg-icons/icons/drink_beer_24_filled.svg" with { type: "text" }
 import DrinkBeer24RegularSvg from "@fluentui/svg-icons/icons/drink_beer_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const DrinkBeer16Filled = createIcon("DrinkBeer16Filled", DrinkBeer16FilledSvg);
-export const DrinkBeer16Regular = createIcon("DrinkBeer16Regular", DrinkBeer16RegularSvg);
-export const DrinkBeer20Filled = createIcon("DrinkBeer20Filled", DrinkBeer20FilledSvg);
-export const DrinkBeer20Regular = createIcon("DrinkBeer20Regular", DrinkBeer20RegularSvg);
-export const DrinkBeer24Filled = createIcon("DrinkBeer24Filled", DrinkBeer24FilledSvg);
-export const DrinkBeer24Regular = createIcon("DrinkBeer24Regular", DrinkBeer24RegularSvg);
+export const DrinkBeer16Filled = /** #__PURE__ */ createIcon("DrinkBeer16Filled", "16", DrinkBeer16FilledSvg);
+export const DrinkBeer16Regular = /** #__PURE__ */ createIcon("DrinkBeer16Regular", "16", DrinkBeer16RegularSvg);
+export const DrinkBeer20Filled = /** #__PURE__ */ createIcon("DrinkBeer20Filled", "20", DrinkBeer20FilledSvg);
+export const DrinkBeerFilled = /** #__PURE__ */ createIcon("DrinkBeerFilled", "1em", DrinkBeer20FilledSvg);
+export const DrinkBeer20Regular = /** #__PURE__ */ createIcon("DrinkBeer20Regular", "20", DrinkBeer20RegularSvg);
+export const DrinkBeerRegular = /** #__PURE__ */ createIcon("DrinkBeerRegular", "1em", DrinkBeer20RegularSvg);
+export const DrinkBeer24Filled = /** #__PURE__ */ createIcon("DrinkBeer24Filled", "24", DrinkBeer24FilledSvg);
+export const DrinkBeer24Regular = /** #__PURE__ */ createIcon("DrinkBeer24Regular", "24", DrinkBeer24RegularSvg);

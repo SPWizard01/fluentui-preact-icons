@@ -13,17 +13,19 @@ import SquareHintHexagon32RegularSvg from "@fluentui/svg-icons/icons/square_hint
 import SquareHintHexagon48FilledSvg from "@fluentui/svg-icons/icons/square_hint_hexagon_48_filled.svg" with { type: "text" }
 import SquareHintHexagon48RegularSvg from "@fluentui/svg-icons/icons/square_hint_hexagon_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const SquareHintHexagon12Filled = createIcon("SquareHintHexagon12Filled", SquareHintHexagon12FilledSvg);
-export const SquareHintHexagon12Regular = createIcon("SquareHintHexagon12Regular", SquareHintHexagon12RegularSvg);
-export const SquareHintHexagon16Filled = createIcon("SquareHintHexagon16Filled", SquareHintHexagon16FilledSvg);
-export const SquareHintHexagon16Regular = createIcon("SquareHintHexagon16Regular", SquareHintHexagon16RegularSvg);
-export const SquareHintHexagon20Filled = createIcon("SquareHintHexagon20Filled", SquareHintHexagon20FilledSvg);
-export const SquareHintHexagon20Regular = createIcon("SquareHintHexagon20Regular", SquareHintHexagon20RegularSvg);
-export const SquareHintHexagon24Filled = createIcon("SquareHintHexagon24Filled", SquareHintHexagon24FilledSvg);
-export const SquareHintHexagon24Regular = createIcon("SquareHintHexagon24Regular", SquareHintHexagon24RegularSvg);
-export const SquareHintHexagon28Filled = createIcon("SquareHintHexagon28Filled", SquareHintHexagon28FilledSvg);
-export const SquareHintHexagon28Regular = createIcon("SquareHintHexagon28Regular", SquareHintHexagon28RegularSvg);
-export const SquareHintHexagon32Filled = createIcon("SquareHintHexagon32Filled", SquareHintHexagon32FilledSvg);
-export const SquareHintHexagon32Regular = createIcon("SquareHintHexagon32Regular", SquareHintHexagon32RegularSvg);
-export const SquareHintHexagon48Filled = createIcon("SquareHintHexagon48Filled", SquareHintHexagon48FilledSvg);
-export const SquareHintHexagon48Regular = createIcon("SquareHintHexagon48Regular", SquareHintHexagon48RegularSvg);
+export const SquareHintHexagon12Filled = /** #__PURE__ */ createIcon("SquareHintHexagon12Filled", "12", SquareHintHexagon12FilledSvg);
+export const SquareHintHexagon12Regular = /** #__PURE__ */ createIcon("SquareHintHexagon12Regular", "12", SquareHintHexagon12RegularSvg);
+export const SquareHintHexagon16Filled = /** #__PURE__ */ createIcon("SquareHintHexagon16Filled", "16", SquareHintHexagon16FilledSvg);
+export const SquareHintHexagon16Regular = /** #__PURE__ */ createIcon("SquareHintHexagon16Regular", "16", SquareHintHexagon16RegularSvg);
+export const SquareHintHexagon20Filled = /** #__PURE__ */ createIcon("SquareHintHexagon20Filled", "20", SquareHintHexagon20FilledSvg);
+export const SquareHintHexagonFilled = /** #__PURE__ */ createIcon("SquareHintHexagonFilled", "1em", SquareHintHexagon20FilledSvg);
+export const SquareHintHexagon20Regular = /** #__PURE__ */ createIcon("SquareHintHexagon20Regular", "20", SquareHintHexagon20RegularSvg);
+export const SquareHintHexagonRegular = /** #__PURE__ */ createIcon("SquareHintHexagonRegular", "1em", SquareHintHexagon20RegularSvg);
+export const SquareHintHexagon24Filled = /** #__PURE__ */ createIcon("SquareHintHexagon24Filled", "24", SquareHintHexagon24FilledSvg);
+export const SquareHintHexagon24Regular = /** #__PURE__ */ createIcon("SquareHintHexagon24Regular", "24", SquareHintHexagon24RegularSvg);
+export const SquareHintHexagon28Filled = /** #__PURE__ */ createIcon("SquareHintHexagon28Filled", "28", SquareHintHexagon28FilledSvg);
+export const SquareHintHexagon28Regular = /** #__PURE__ */ createIcon("SquareHintHexagon28Regular", "28", SquareHintHexagon28RegularSvg);
+export const SquareHintHexagon32Filled = /** #__PURE__ */ createIcon("SquareHintHexagon32Filled", "32", SquareHintHexagon32FilledSvg);
+export const SquareHintHexagon32Regular = /** #__PURE__ */ createIcon("SquareHintHexagon32Regular", "32", SquareHintHexagon32RegularSvg);
+export const SquareHintHexagon48Filled = /** #__PURE__ */ createIcon("SquareHintHexagon48Filled", "48", SquareHintHexagon48FilledSvg);
+export const SquareHintHexagon48Regular = /** #__PURE__ */ createIcon("SquareHintHexagon48Regular", "48", SquareHintHexagon48RegularSvg);

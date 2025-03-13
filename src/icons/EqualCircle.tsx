@@ -5,9 +5,11 @@ import EqualCircle20RegularSvg from "@fluentui/svg-icons/icons/equal_circle_20_r
 import EqualCircle24FilledSvg from "@fluentui/svg-icons/icons/equal_circle_24_filled.svg" with { type: "text" }
 import EqualCircle24RegularSvg from "@fluentui/svg-icons/icons/equal_circle_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const EqualCircle16Filled = createIcon("EqualCircle16Filled", EqualCircle16FilledSvg);
-export const EqualCircle16Regular = createIcon("EqualCircle16Regular", EqualCircle16RegularSvg);
-export const EqualCircle20Filled = createIcon("EqualCircle20Filled", EqualCircle20FilledSvg);
-export const EqualCircle20Regular = createIcon("EqualCircle20Regular", EqualCircle20RegularSvg);
-export const EqualCircle24Filled = createIcon("EqualCircle24Filled", EqualCircle24FilledSvg);
-export const EqualCircle24Regular = createIcon("EqualCircle24Regular", EqualCircle24RegularSvg);
+export const EqualCircle16Filled = /** #__PURE__ */ createIcon("EqualCircle16Filled", "16", EqualCircle16FilledSvg);
+export const EqualCircle16Regular = /** #__PURE__ */ createIcon("EqualCircle16Regular", "16", EqualCircle16RegularSvg);
+export const EqualCircle20Filled = /** #__PURE__ */ createIcon("EqualCircle20Filled", "20", EqualCircle20FilledSvg);
+export const EqualCircleFilled = /** #__PURE__ */ createIcon("EqualCircleFilled", "1em", EqualCircle20FilledSvg);
+export const EqualCircle20Regular = /** #__PURE__ */ createIcon("EqualCircle20Regular", "20", EqualCircle20RegularSvg);
+export const EqualCircleRegular = /** #__PURE__ */ createIcon("EqualCircleRegular", "1em", EqualCircle20RegularSvg);
+export const EqualCircle24Filled = /** #__PURE__ */ createIcon("EqualCircle24Filled", "24", EqualCircle24FilledSvg);
+export const EqualCircle24Regular = /** #__PURE__ */ createIcon("EqualCircle24Regular", "24", EqualCircle24RegularSvg);

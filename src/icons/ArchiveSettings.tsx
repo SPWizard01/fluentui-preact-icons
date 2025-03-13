@@ -10,14 +10,16 @@ import ArchiveSettings32FilledSvg from "@fluentui/svg-icons/icons/archive_settin
 import ArchiveSettings32LightSvg from "@fluentui/svg-icons/icons/archive_settings_32_light.svg" with { type: "text" }
 import ArchiveSettings32RegularSvg from "@fluentui/svg-icons/icons/archive_settings_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ArchiveSettings16Filled = createIcon("ArchiveSettings16Filled", ArchiveSettings16FilledSvg);
-export const ArchiveSettings16Regular = createIcon("ArchiveSettings16Regular", ArchiveSettings16RegularSvg);
-export const ArchiveSettings20Filled = createIcon("ArchiveSettings20Filled", ArchiveSettings20FilledSvg);
-export const ArchiveSettings20Regular = createIcon("ArchiveSettings20Regular", ArchiveSettings20RegularSvg);
-export const ArchiveSettings24Filled = createIcon("ArchiveSettings24Filled", ArchiveSettings24FilledSvg);
-export const ArchiveSettings24Regular = createIcon("ArchiveSettings24Regular", ArchiveSettings24RegularSvg);
-export const ArchiveSettings28Filled = createIcon("ArchiveSettings28Filled", ArchiveSettings28FilledSvg);
-export const ArchiveSettings28Regular = createIcon("ArchiveSettings28Regular", ArchiveSettings28RegularSvg);
-export const ArchiveSettings32Filled = createIcon("ArchiveSettings32Filled", ArchiveSettings32FilledSvg);
-export const ArchiveSettings32Light = createIcon("ArchiveSettings32Light", ArchiveSettings32LightSvg);
-export const ArchiveSettings32Regular = createIcon("ArchiveSettings32Regular", ArchiveSettings32RegularSvg);
+export const ArchiveSettings16Filled = /** #__PURE__ */ createIcon("ArchiveSettings16Filled", "16", ArchiveSettings16FilledSvg);
+export const ArchiveSettings16Regular = /** #__PURE__ */ createIcon("ArchiveSettings16Regular", "16", ArchiveSettings16RegularSvg);
+export const ArchiveSettings20Filled = /** #__PURE__ */ createIcon("ArchiveSettings20Filled", "20", ArchiveSettings20FilledSvg);
+export const ArchiveSettingsFilled = /** #__PURE__ */ createIcon("ArchiveSettingsFilled", "1em", ArchiveSettings20FilledSvg);
+export const ArchiveSettings20Regular = /** #__PURE__ */ createIcon("ArchiveSettings20Regular", "20", ArchiveSettings20RegularSvg);
+export const ArchiveSettingsRegular = /** #__PURE__ */ createIcon("ArchiveSettingsRegular", "1em", ArchiveSettings20RegularSvg);
+export const ArchiveSettings24Filled = /** #__PURE__ */ createIcon("ArchiveSettings24Filled", "24", ArchiveSettings24FilledSvg);
+export const ArchiveSettings24Regular = /** #__PURE__ */ createIcon("ArchiveSettings24Regular", "24", ArchiveSettings24RegularSvg);
+export const ArchiveSettings28Filled = /** #__PURE__ */ createIcon("ArchiveSettings28Filled", "28", ArchiveSettings28FilledSvg);
+export const ArchiveSettings28Regular = /** #__PURE__ */ createIcon("ArchiveSettings28Regular", "28", ArchiveSettings28RegularSvg);
+export const ArchiveSettings32Filled = /** #__PURE__ */ createIcon("ArchiveSettings32Filled", "32", ArchiveSettings32FilledSvg);
+export const ArchiveSettings32Light = /** #__PURE__ */ createIcon("ArchiveSettings32Light", "32", ArchiveSettings32LightSvg);
+export const ArchiveSettings32Regular = /** #__PURE__ */ createIcon("ArchiveSettings32Regular", "32", ArchiveSettings32RegularSvg);

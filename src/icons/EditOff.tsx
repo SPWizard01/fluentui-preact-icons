@@ -11,15 +11,17 @@ import EditOff32RegularSvg from "@fluentui/svg-icons/icons/edit_off_32_regular.s
 import EditOff48FilledSvg from "@fluentui/svg-icons/icons/edit_off_48_filled.svg" with { type: "text" }
 import EditOff48RegularSvg from "@fluentui/svg-icons/icons/edit_off_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const EditOff16Filled = createIcon("EditOff16Filled", EditOff16FilledSvg);
-export const EditOff16Regular = createIcon("EditOff16Regular", EditOff16RegularSvg);
-export const EditOff20Filled = createIcon("EditOff20Filled", EditOff20FilledSvg);
-export const EditOff20Regular = createIcon("EditOff20Regular", EditOff20RegularSvg);
-export const EditOff24Filled = createIcon("EditOff24Filled", EditOff24FilledSvg);
-export const EditOff24Regular = createIcon("EditOff24Regular", EditOff24RegularSvg);
-export const EditOff28Filled = createIcon("EditOff28Filled", EditOff28FilledSvg);
-export const EditOff28Regular = createIcon("EditOff28Regular", EditOff28RegularSvg);
-export const EditOff32Filled = createIcon("EditOff32Filled", EditOff32FilledSvg);
-export const EditOff32Regular = createIcon("EditOff32Regular", EditOff32RegularSvg);
-export const EditOff48Filled = createIcon("EditOff48Filled", EditOff48FilledSvg);
-export const EditOff48Regular = createIcon("EditOff48Regular", EditOff48RegularSvg);
+export const EditOff16Filled = /** #__PURE__ */ createIcon("EditOff16Filled", "16", EditOff16FilledSvg);
+export const EditOff16Regular = /** #__PURE__ */ createIcon("EditOff16Regular", "16", EditOff16RegularSvg);
+export const EditOff20Filled = /** #__PURE__ */ createIcon("EditOff20Filled", "20", EditOff20FilledSvg);
+export const EditOffFilled = /** #__PURE__ */ createIcon("EditOffFilled", "1em", EditOff20FilledSvg);
+export const EditOff20Regular = /** #__PURE__ */ createIcon("EditOff20Regular", "20", EditOff20RegularSvg);
+export const EditOffRegular = /** #__PURE__ */ createIcon("EditOffRegular", "1em", EditOff20RegularSvg);
+export const EditOff24Filled = /** #__PURE__ */ createIcon("EditOff24Filled", "24", EditOff24FilledSvg);
+export const EditOff24Regular = /** #__PURE__ */ createIcon("EditOff24Regular", "24", EditOff24RegularSvg);
+export const EditOff28Filled = /** #__PURE__ */ createIcon("EditOff28Filled", "28", EditOff28FilledSvg);
+export const EditOff28Regular = /** #__PURE__ */ createIcon("EditOff28Regular", "28", EditOff28RegularSvg);
+export const EditOff32Filled = /** #__PURE__ */ createIcon("EditOff32Filled", "32", EditOff32FilledSvg);
+export const EditOff32Regular = /** #__PURE__ */ createIcon("EditOff32Regular", "32", EditOff32RegularSvg);
+export const EditOff48Filled = /** #__PURE__ */ createIcon("EditOff48Filled", "48", EditOff48FilledSvg);
+export const EditOff48Regular = /** #__PURE__ */ createIcon("EditOff48Regular", "48", EditOff48RegularSvg);

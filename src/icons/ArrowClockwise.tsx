@@ -14,18 +14,20 @@ import ArrowClockwise32RegularSvg from "@fluentui/svg-icons/icons/arrow_clockwis
 import ArrowClockwise48FilledSvg from "@fluentui/svg-icons/icons/arrow_clockwise_48_filled.svg" with { type: "text" }
 import ArrowClockwise48RegularSvg from "@fluentui/svg-icons/icons/arrow_clockwise_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ArrowClockwise12Filled = createIcon("ArrowClockwise12Filled", ArrowClockwise12FilledSvg);
-export const ArrowClockwise12Regular = createIcon("ArrowClockwise12Regular", ArrowClockwise12RegularSvg);
-export const ArrowClockwise16Filled = createIcon("ArrowClockwise16Filled", ArrowClockwise16FilledSvg);
-export const ArrowClockwise16Regular = createIcon("ArrowClockwise16Regular", ArrowClockwise16RegularSvg);
-export const ArrowClockwise20Filled = createIcon("ArrowClockwise20Filled", ArrowClockwise20FilledSvg);
-export const ArrowClockwise20Regular = createIcon("ArrowClockwise20Regular", ArrowClockwise20RegularSvg);
-export const ArrowClockwise24Filled = createIcon("ArrowClockwise24Filled", ArrowClockwise24FilledSvg);
-export const ArrowClockwise24Regular = createIcon("ArrowClockwise24Regular", ArrowClockwise24RegularSvg);
-export const ArrowClockwise28Filled = createIcon("ArrowClockwise28Filled", ArrowClockwise28FilledSvg);
-export const ArrowClockwise28Regular = createIcon("ArrowClockwise28Regular", ArrowClockwise28RegularSvg);
-export const ArrowClockwise32Filled = createIcon("ArrowClockwise32Filled", ArrowClockwise32FilledSvg);
-export const ArrowClockwise32Light = createIcon("ArrowClockwise32Light", ArrowClockwise32LightSvg);
-export const ArrowClockwise32Regular = createIcon("ArrowClockwise32Regular", ArrowClockwise32RegularSvg);
-export const ArrowClockwise48Filled = createIcon("ArrowClockwise48Filled", ArrowClockwise48FilledSvg);
-export const ArrowClockwise48Regular = createIcon("ArrowClockwise48Regular", ArrowClockwise48RegularSvg);
+export const ArrowClockwise12Filled = /** #__PURE__ */ createIcon("ArrowClockwise12Filled", "12", ArrowClockwise12FilledSvg);
+export const ArrowClockwise12Regular = /** #__PURE__ */ createIcon("ArrowClockwise12Regular", "12", ArrowClockwise12RegularSvg);
+export const ArrowClockwise16Filled = /** #__PURE__ */ createIcon("ArrowClockwise16Filled", "16", ArrowClockwise16FilledSvg);
+export const ArrowClockwise16Regular = /** #__PURE__ */ createIcon("ArrowClockwise16Regular", "16", ArrowClockwise16RegularSvg);
+export const ArrowClockwise20Filled = /** #__PURE__ */ createIcon("ArrowClockwise20Filled", "20", ArrowClockwise20FilledSvg);
+export const ArrowClockwiseFilled = /** #__PURE__ */ createIcon("ArrowClockwiseFilled", "1em", ArrowClockwise20FilledSvg);
+export const ArrowClockwise20Regular = /** #__PURE__ */ createIcon("ArrowClockwise20Regular", "20", ArrowClockwise20RegularSvg);
+export const ArrowClockwiseRegular = /** #__PURE__ */ createIcon("ArrowClockwiseRegular", "1em", ArrowClockwise20RegularSvg);
+export const ArrowClockwise24Filled = /** #__PURE__ */ createIcon("ArrowClockwise24Filled", "24", ArrowClockwise24FilledSvg);
+export const ArrowClockwise24Regular = /** #__PURE__ */ createIcon("ArrowClockwise24Regular", "24", ArrowClockwise24RegularSvg);
+export const ArrowClockwise28Filled = /** #__PURE__ */ createIcon("ArrowClockwise28Filled", "28", ArrowClockwise28FilledSvg);
+export const ArrowClockwise28Regular = /** #__PURE__ */ createIcon("ArrowClockwise28Regular", "28", ArrowClockwise28RegularSvg);
+export const ArrowClockwise32Filled = /** #__PURE__ */ createIcon("ArrowClockwise32Filled", "32", ArrowClockwise32FilledSvg);
+export const ArrowClockwise32Light = /** #__PURE__ */ createIcon("ArrowClockwise32Light", "32", ArrowClockwise32LightSvg);
+export const ArrowClockwise32Regular = /** #__PURE__ */ createIcon("ArrowClockwise32Regular", "32", ArrowClockwise32RegularSvg);
+export const ArrowClockwise48Filled = /** #__PURE__ */ createIcon("ArrowClockwise48Filled", "48", ArrowClockwise48FilledSvg);
+export const ArrowClockwise48Regular = /** #__PURE__ */ createIcon("ArrowClockwise48Regular", "48", ArrowClockwise48RegularSvg);

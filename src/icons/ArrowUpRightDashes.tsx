@@ -13,17 +13,19 @@ import ArrowUpRightDashes32RegularSvg from "@fluentui/svg-icons/icons/arrow_up_r
 import ArrowUpRightDashes48FilledSvg from "@fluentui/svg-icons/icons/arrow_up_right_dashes_48_filled.svg" with { type: "text" }
 import ArrowUpRightDashes48RegularSvg from "@fluentui/svg-icons/icons/arrow_up_right_dashes_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ArrowUpRightDashes12Filled = createIcon("ArrowUpRightDashes12Filled", ArrowUpRightDashes12FilledSvg);
-export const ArrowUpRightDashes12Regular = createIcon("ArrowUpRightDashes12Regular", ArrowUpRightDashes12RegularSvg);
-export const ArrowUpRightDashes16Filled = createIcon("ArrowUpRightDashes16Filled", ArrowUpRightDashes16FilledSvg);
-export const ArrowUpRightDashes16Regular = createIcon("ArrowUpRightDashes16Regular", ArrowUpRightDashes16RegularSvg);
-export const ArrowUpRightDashes20Filled = createIcon("ArrowUpRightDashes20Filled", ArrowUpRightDashes20FilledSvg);
-export const ArrowUpRightDashes20Regular = createIcon("ArrowUpRightDashes20Regular", ArrowUpRightDashes20RegularSvg);
-export const ArrowUpRightDashes24Filled = createIcon("ArrowUpRightDashes24Filled", ArrowUpRightDashes24FilledSvg);
-export const ArrowUpRightDashes24Regular = createIcon("ArrowUpRightDashes24Regular", ArrowUpRightDashes24RegularSvg);
-export const ArrowUpRightDashes28Filled = createIcon("ArrowUpRightDashes28Filled", ArrowUpRightDashes28FilledSvg);
-export const ArrowUpRightDashes28Regular = createIcon("ArrowUpRightDashes28Regular", ArrowUpRightDashes28RegularSvg);
-export const ArrowUpRightDashes32Filled = createIcon("ArrowUpRightDashes32Filled", ArrowUpRightDashes32FilledSvg);
-export const ArrowUpRightDashes32Regular = createIcon("ArrowUpRightDashes32Regular", ArrowUpRightDashes32RegularSvg);
-export const ArrowUpRightDashes48Filled = createIcon("ArrowUpRightDashes48Filled", ArrowUpRightDashes48FilledSvg);
-export const ArrowUpRightDashes48Regular = createIcon("ArrowUpRightDashes48Regular", ArrowUpRightDashes48RegularSvg);
+export const ArrowUpRightDashes12Filled = /** #__PURE__ */ createIcon("ArrowUpRightDashes12Filled", "12", ArrowUpRightDashes12FilledSvg);
+export const ArrowUpRightDashes12Regular = /** #__PURE__ */ createIcon("ArrowUpRightDashes12Regular", "12", ArrowUpRightDashes12RegularSvg);
+export const ArrowUpRightDashes16Filled = /** #__PURE__ */ createIcon("ArrowUpRightDashes16Filled", "16", ArrowUpRightDashes16FilledSvg);
+export const ArrowUpRightDashes16Regular = /** #__PURE__ */ createIcon("ArrowUpRightDashes16Regular", "16", ArrowUpRightDashes16RegularSvg);
+export const ArrowUpRightDashes20Filled = /** #__PURE__ */ createIcon("ArrowUpRightDashes20Filled", "20", ArrowUpRightDashes20FilledSvg);
+export const ArrowUpRightDashesFilled = /** #__PURE__ */ createIcon("ArrowUpRightDashesFilled", "1em", ArrowUpRightDashes20FilledSvg);
+export const ArrowUpRightDashes20Regular = /** #__PURE__ */ createIcon("ArrowUpRightDashes20Regular", "20", ArrowUpRightDashes20RegularSvg);
+export const ArrowUpRightDashesRegular = /** #__PURE__ */ createIcon("ArrowUpRightDashesRegular", "1em", ArrowUpRightDashes20RegularSvg);
+export const ArrowUpRightDashes24Filled = /** #__PURE__ */ createIcon("ArrowUpRightDashes24Filled", "24", ArrowUpRightDashes24FilledSvg);
+export const ArrowUpRightDashes24Regular = /** #__PURE__ */ createIcon("ArrowUpRightDashes24Regular", "24", ArrowUpRightDashes24RegularSvg);
+export const ArrowUpRightDashes28Filled = /** #__PURE__ */ createIcon("ArrowUpRightDashes28Filled", "28", ArrowUpRightDashes28FilledSvg);
+export const ArrowUpRightDashes28Regular = /** #__PURE__ */ createIcon("ArrowUpRightDashes28Regular", "28", ArrowUpRightDashes28RegularSvg);
+export const ArrowUpRightDashes32Filled = /** #__PURE__ */ createIcon("ArrowUpRightDashes32Filled", "32", ArrowUpRightDashes32FilledSvg);
+export const ArrowUpRightDashes32Regular = /** #__PURE__ */ createIcon("ArrowUpRightDashes32Regular", "32", ArrowUpRightDashes32RegularSvg);
+export const ArrowUpRightDashes48Filled = /** #__PURE__ */ createIcon("ArrowUpRightDashes48Filled", "48", ArrowUpRightDashes48FilledSvg);
+export const ArrowUpRightDashes48Regular = /** #__PURE__ */ createIcon("ArrowUpRightDashes48Regular", "48", ArrowUpRightDashes48RegularSvg);

@@ -17,21 +17,24 @@ import ArrowClockwiseDashesSettings48ColorSvg from "@fluentui/svg-icons/icons/ar
 import ArrowClockwiseDashesSettings48FilledSvg from "@fluentui/svg-icons/icons/arrow_clockwise_dashes_settings_48_filled.svg" with { type: "text" }
 import ArrowClockwiseDashesSettings48RegularSvg from "@fluentui/svg-icons/icons/arrow_clockwise_dashes_settings_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ArrowClockwiseDashesSettings16Color = createIcon("ArrowClockwiseDashesSettings16Color", ArrowClockwiseDashesSettings16ColorSvg);
-export const ArrowClockwiseDashesSettings16Filled = createIcon("ArrowClockwiseDashesSettings16Filled", ArrowClockwiseDashesSettings16FilledSvg);
-export const ArrowClockwiseDashesSettings16Regular = createIcon("ArrowClockwiseDashesSettings16Regular", ArrowClockwiseDashesSettings16RegularSvg);
-export const ArrowClockwiseDashesSettings20Color = createIcon("ArrowClockwiseDashesSettings20Color", ArrowClockwiseDashesSettings20ColorSvg);
-export const ArrowClockwiseDashesSettings20Filled = createIcon("ArrowClockwiseDashesSettings20Filled", ArrowClockwiseDashesSettings20FilledSvg);
-export const ArrowClockwiseDashesSettings20Regular = createIcon("ArrowClockwiseDashesSettings20Regular", ArrowClockwiseDashesSettings20RegularSvg);
-export const ArrowClockwiseDashesSettings24Color = createIcon("ArrowClockwiseDashesSettings24Color", ArrowClockwiseDashesSettings24ColorSvg);
-export const ArrowClockwiseDashesSettings24Filled = createIcon("ArrowClockwiseDashesSettings24Filled", ArrowClockwiseDashesSettings24FilledSvg);
-export const ArrowClockwiseDashesSettings24Regular = createIcon("ArrowClockwiseDashesSettings24Regular", ArrowClockwiseDashesSettings24RegularSvg);
-export const ArrowClockwiseDashesSettings28Color = createIcon("ArrowClockwiseDashesSettings28Color", ArrowClockwiseDashesSettings28ColorSvg);
-export const ArrowClockwiseDashesSettings28Filled = createIcon("ArrowClockwiseDashesSettings28Filled", ArrowClockwiseDashesSettings28FilledSvg);
-export const ArrowClockwiseDashesSettings28Regular = createIcon("ArrowClockwiseDashesSettings28Regular", ArrowClockwiseDashesSettings28RegularSvg);
-export const ArrowClockwiseDashesSettings32Color = createIcon("ArrowClockwiseDashesSettings32Color", ArrowClockwiseDashesSettings32ColorSvg);
-export const ArrowClockwiseDashesSettings32Filled = createIcon("ArrowClockwiseDashesSettings32Filled", ArrowClockwiseDashesSettings32FilledSvg);
-export const ArrowClockwiseDashesSettings32Regular = createIcon("ArrowClockwiseDashesSettings32Regular", ArrowClockwiseDashesSettings32RegularSvg);
-export const ArrowClockwiseDashesSettings48Color = createIcon("ArrowClockwiseDashesSettings48Color", ArrowClockwiseDashesSettings48ColorSvg);
-export const ArrowClockwiseDashesSettings48Filled = createIcon("ArrowClockwiseDashesSettings48Filled", ArrowClockwiseDashesSettings48FilledSvg);
-export const ArrowClockwiseDashesSettings48Regular = createIcon("ArrowClockwiseDashesSettings48Regular", ArrowClockwiseDashesSettings48RegularSvg);
+export const ArrowClockwiseDashesSettings16Color = /** #__PURE__ */ createIcon("ArrowClockwiseDashesSettings16Color", "16", ArrowClockwiseDashesSettings16ColorSvg);
+export const ArrowClockwiseDashesSettings16Filled = /** #__PURE__ */ createIcon("ArrowClockwiseDashesSettings16Filled", "16", ArrowClockwiseDashesSettings16FilledSvg);
+export const ArrowClockwiseDashesSettings16Regular = /** #__PURE__ */ createIcon("ArrowClockwiseDashesSettings16Regular", "16", ArrowClockwiseDashesSettings16RegularSvg);
+export const ArrowClockwiseDashesSettings20Color = /** #__PURE__ */ createIcon("ArrowClockwiseDashesSettings20Color", "20", ArrowClockwiseDashesSettings20ColorSvg);
+export const ArrowClockwiseDashesSettingsColor = /** #__PURE__ */ createIcon("ArrowClockwiseDashesSettingsColor", "1em", ArrowClockwiseDashesSettings20ColorSvg);
+export const ArrowClockwiseDashesSettings20Filled = /** #__PURE__ */ createIcon("ArrowClockwiseDashesSettings20Filled", "20", ArrowClockwiseDashesSettings20FilledSvg);
+export const ArrowClockwiseDashesSettingsFilled = /** #__PURE__ */ createIcon("ArrowClockwiseDashesSettingsFilled", "1em", ArrowClockwiseDashesSettings20FilledSvg);
+export const ArrowClockwiseDashesSettings20Regular = /** #__PURE__ */ createIcon("ArrowClockwiseDashesSettings20Regular", "20", ArrowClockwiseDashesSettings20RegularSvg);
+export const ArrowClockwiseDashesSettingsRegular = /** #__PURE__ */ createIcon("ArrowClockwiseDashesSettingsRegular", "1em", ArrowClockwiseDashesSettings20RegularSvg);
+export const ArrowClockwiseDashesSettings24Color = /** #__PURE__ */ createIcon("ArrowClockwiseDashesSettings24Color", "24", ArrowClockwiseDashesSettings24ColorSvg);
+export const ArrowClockwiseDashesSettings24Filled = /** #__PURE__ */ createIcon("ArrowClockwiseDashesSettings24Filled", "24", ArrowClockwiseDashesSettings24FilledSvg);
+export const ArrowClockwiseDashesSettings24Regular = /** #__PURE__ */ createIcon("ArrowClockwiseDashesSettings24Regular", "24", ArrowClockwiseDashesSettings24RegularSvg);
+export const ArrowClockwiseDashesSettings28Color = /** #__PURE__ */ createIcon("ArrowClockwiseDashesSettings28Color", "28", ArrowClockwiseDashesSettings28ColorSvg);
+export const ArrowClockwiseDashesSettings28Filled = /** #__PURE__ */ createIcon("ArrowClockwiseDashesSettings28Filled", "28", ArrowClockwiseDashesSettings28FilledSvg);
+export const ArrowClockwiseDashesSettings28Regular = /** #__PURE__ */ createIcon("ArrowClockwiseDashesSettings28Regular", "28", ArrowClockwiseDashesSettings28RegularSvg);
+export const ArrowClockwiseDashesSettings32Color = /** #__PURE__ */ createIcon("ArrowClockwiseDashesSettings32Color", "32", ArrowClockwiseDashesSettings32ColorSvg);
+export const ArrowClockwiseDashesSettings32Filled = /** #__PURE__ */ createIcon("ArrowClockwiseDashesSettings32Filled", "32", ArrowClockwiseDashesSettings32FilledSvg);
+export const ArrowClockwiseDashesSettings32Regular = /** #__PURE__ */ createIcon("ArrowClockwiseDashesSettings32Regular", "32", ArrowClockwiseDashesSettings32RegularSvg);
+export const ArrowClockwiseDashesSettings48Color = /** #__PURE__ */ createIcon("ArrowClockwiseDashesSettings48Color", "48", ArrowClockwiseDashesSettings48ColorSvg);
+export const ArrowClockwiseDashesSettings48Filled = /** #__PURE__ */ createIcon("ArrowClockwiseDashesSettings48Filled", "48", ArrowClockwiseDashesSettings48FilledSvg);
+export const ArrowClockwiseDashesSettings48Regular = /** #__PURE__ */ createIcon("ArrowClockwiseDashesSettings48Regular", "48", ArrowClockwiseDashesSettings48RegularSvg);

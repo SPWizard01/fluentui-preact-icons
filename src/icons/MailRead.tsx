@@ -12,16 +12,18 @@ import MailRead32RegularSvg from "@fluentui/svg-icons/icons/mail_read_32_regular
 import MailRead48FilledSvg from "@fluentui/svg-icons/icons/mail_read_48_filled.svg" with { type: "text" }
 import MailRead48RegularSvg from "@fluentui/svg-icons/icons/mail_read_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const MailRead16Filled = createIcon("MailRead16Filled", MailRead16FilledSvg);
-export const MailRead16Regular = createIcon("MailRead16Regular", MailRead16RegularSvg);
-export const MailRead20Filled = createIcon("MailRead20Filled", MailRead20FilledSvg);
-export const MailRead20Regular = createIcon("MailRead20Regular", MailRead20RegularSvg);
-export const MailRead24Filled = createIcon("MailRead24Filled", MailRead24FilledSvg);
-export const MailRead24Regular = createIcon("MailRead24Regular", MailRead24RegularSvg);
-export const MailRead28Filled = createIcon("MailRead28Filled", MailRead28FilledSvg);
-export const MailRead28Regular = createIcon("MailRead28Regular", MailRead28RegularSvg);
-export const MailRead32Filled = createIcon("MailRead32Filled", MailRead32FilledSvg);
-export const MailRead32Light = createIcon("MailRead32Light", MailRead32LightSvg);
-export const MailRead32Regular = createIcon("MailRead32Regular", MailRead32RegularSvg);
-export const MailRead48Filled = createIcon("MailRead48Filled", MailRead48FilledSvg);
-export const MailRead48Regular = createIcon("MailRead48Regular", MailRead48RegularSvg);
+export const MailRead16Filled = /** #__PURE__ */ createIcon("MailRead16Filled", "16", MailRead16FilledSvg);
+export const MailRead16Regular = /** #__PURE__ */ createIcon("MailRead16Regular", "16", MailRead16RegularSvg);
+export const MailRead20Filled = /** #__PURE__ */ createIcon("MailRead20Filled", "20", MailRead20FilledSvg);
+export const MailReadFilled = /** #__PURE__ */ createIcon("MailReadFilled", "1em", MailRead20FilledSvg);
+export const MailRead20Regular = /** #__PURE__ */ createIcon("MailRead20Regular", "20", MailRead20RegularSvg);
+export const MailReadRegular = /** #__PURE__ */ createIcon("MailReadRegular", "1em", MailRead20RegularSvg);
+export const MailRead24Filled = /** #__PURE__ */ createIcon("MailRead24Filled", "24", MailRead24FilledSvg);
+export const MailRead24Regular = /** #__PURE__ */ createIcon("MailRead24Regular", "24", MailRead24RegularSvg);
+export const MailRead28Filled = /** #__PURE__ */ createIcon("MailRead28Filled", "28", MailRead28FilledSvg);
+export const MailRead28Regular = /** #__PURE__ */ createIcon("MailRead28Regular", "28", MailRead28RegularSvg);
+export const MailRead32Filled = /** #__PURE__ */ createIcon("MailRead32Filled", "32", MailRead32FilledSvg);
+export const MailRead32Light = /** #__PURE__ */ createIcon("MailRead32Light", "32", MailRead32LightSvg);
+export const MailRead32Regular = /** #__PURE__ */ createIcon("MailRead32Regular", "32", MailRead32RegularSvg);
+export const MailRead48Filled = /** #__PURE__ */ createIcon("MailRead48Filled", "48", MailRead48FilledSvg);
+export const MailRead48Regular = /** #__PURE__ */ createIcon("MailRead48Regular", "48", MailRead48RegularSvg);

@@ -6,10 +6,12 @@ import ImageAltText24FilledSvg from "@fluentui/svg-icons/icons/image_alt_text_24
 import ImageAltText24RegularSvg from "@fluentui/svg-icons/icons/image_alt_text_24_regular.svg" with { type: "text" }
 import ImageAltText32LightSvg from "@fluentui/svg-icons/icons/image_alt_text_32_light.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ImageAltText16Filled = createIcon("ImageAltText16Filled", ImageAltText16FilledSvg);
-export const ImageAltText16Regular = createIcon("ImageAltText16Regular", ImageAltText16RegularSvg);
-export const ImageAltText20Filled = createIcon("ImageAltText20Filled", ImageAltText20FilledSvg);
-export const ImageAltText20Regular = createIcon("ImageAltText20Regular", ImageAltText20RegularSvg);
-export const ImageAltText24Filled = createIcon("ImageAltText24Filled", ImageAltText24FilledSvg);
-export const ImageAltText24Regular = createIcon("ImageAltText24Regular", ImageAltText24RegularSvg);
-export const ImageAltText32Light = createIcon("ImageAltText32Light", ImageAltText32LightSvg);
+export const ImageAltText16Filled = /** #__PURE__ */ createIcon("ImageAltText16Filled", "16", ImageAltText16FilledSvg);
+export const ImageAltText16Regular = /** #__PURE__ */ createIcon("ImageAltText16Regular", "16", ImageAltText16RegularSvg);
+export const ImageAltText20Filled = /** #__PURE__ */ createIcon("ImageAltText20Filled", "20", ImageAltText20FilledSvg);
+export const ImageAltTextFilled = /** #__PURE__ */ createIcon("ImageAltTextFilled", "1em", ImageAltText20FilledSvg);
+export const ImageAltText20Regular = /** #__PURE__ */ createIcon("ImageAltText20Regular", "20", ImageAltText20RegularSvg);
+export const ImageAltTextRegular = /** #__PURE__ */ createIcon("ImageAltTextRegular", "1em", ImageAltText20RegularSvg);
+export const ImageAltText24Filled = /** #__PURE__ */ createIcon("ImageAltText24Filled", "24", ImageAltText24FilledSvg);
+export const ImageAltText24Regular = /** #__PURE__ */ createIcon("ImageAltText24Regular", "24", ImageAltText24RegularSvg);
+export const ImageAltText32Light = /** #__PURE__ */ createIcon("ImageAltText32Light", "32", ImageAltText32LightSvg);

@@ -3,7 +3,9 @@ import BorderTop20RegularSvg from "@fluentui/svg-icons/icons/border_top_20_regul
 import BorderTop24FilledSvg from "@fluentui/svg-icons/icons/border_top_24_filled.svg" with { type: "text" }
 import BorderTop24RegularSvg from "@fluentui/svg-icons/icons/border_top_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const BorderTop20Filled = createIcon("BorderTop20Filled", BorderTop20FilledSvg);
-export const BorderTop20Regular = createIcon("BorderTop20Regular", BorderTop20RegularSvg);
-export const BorderTop24Filled = createIcon("BorderTop24Filled", BorderTop24FilledSvg);
-export const BorderTop24Regular = createIcon("BorderTop24Regular", BorderTop24RegularSvg);
+export const BorderTop20Filled = /** #__PURE__ */ createIcon("BorderTop20Filled", "20", BorderTop20FilledSvg);
+export const BorderTopFilled = /** #__PURE__ */ createIcon("BorderTopFilled", "1em", BorderTop20FilledSvg);
+export const BorderTop20Regular = /** #__PURE__ */ createIcon("BorderTop20Regular", "20", BorderTop20RegularSvg);
+export const BorderTopRegular = /** #__PURE__ */ createIcon("BorderTopRegular", "1em", BorderTop20RegularSvg);
+export const BorderTop24Filled = /** #__PURE__ */ createIcon("BorderTop24Filled", "24", BorderTop24FilledSvg);
+export const BorderTop24Regular = /** #__PURE__ */ createIcon("BorderTop24Regular", "24", BorderTop24RegularSvg);

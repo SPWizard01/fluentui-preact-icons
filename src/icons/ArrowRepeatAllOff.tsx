@@ -5,9 +5,11 @@ import ArrowRepeatAllOff20RegularSvg from "@fluentui/svg-icons/icons/arrow_repea
 import ArrowRepeatAllOff24FilledSvg from "@fluentui/svg-icons/icons/arrow_repeat_all_off_24_filled.svg" with { type: "text" }
 import ArrowRepeatAllOff24RegularSvg from "@fluentui/svg-icons/icons/arrow_repeat_all_off_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ArrowRepeatAllOff16Filled = createIcon("ArrowRepeatAllOff16Filled", ArrowRepeatAllOff16FilledSvg);
-export const ArrowRepeatAllOff16Regular = createIcon("ArrowRepeatAllOff16Regular", ArrowRepeatAllOff16RegularSvg);
-export const ArrowRepeatAllOff20Filled = createIcon("ArrowRepeatAllOff20Filled", ArrowRepeatAllOff20FilledSvg);
-export const ArrowRepeatAllOff20Regular = createIcon("ArrowRepeatAllOff20Regular", ArrowRepeatAllOff20RegularSvg);
-export const ArrowRepeatAllOff24Filled = createIcon("ArrowRepeatAllOff24Filled", ArrowRepeatAllOff24FilledSvg);
-export const ArrowRepeatAllOff24Regular = createIcon("ArrowRepeatAllOff24Regular", ArrowRepeatAllOff24RegularSvg);
+export const ArrowRepeatAllOff16Filled = /** #__PURE__ */ createIcon("ArrowRepeatAllOff16Filled", "16", ArrowRepeatAllOff16FilledSvg);
+export const ArrowRepeatAllOff16Regular = /** #__PURE__ */ createIcon("ArrowRepeatAllOff16Regular", "16", ArrowRepeatAllOff16RegularSvg);
+export const ArrowRepeatAllOff20Filled = /** #__PURE__ */ createIcon("ArrowRepeatAllOff20Filled", "20", ArrowRepeatAllOff20FilledSvg);
+export const ArrowRepeatAllOffFilled = /** #__PURE__ */ createIcon("ArrowRepeatAllOffFilled", "1em", ArrowRepeatAllOff20FilledSvg);
+export const ArrowRepeatAllOff20Regular = /** #__PURE__ */ createIcon("ArrowRepeatAllOff20Regular", "20", ArrowRepeatAllOff20RegularSvg);
+export const ArrowRepeatAllOffRegular = /** #__PURE__ */ createIcon("ArrowRepeatAllOffRegular", "1em", ArrowRepeatAllOff20RegularSvg);
+export const ArrowRepeatAllOff24Filled = /** #__PURE__ */ createIcon("ArrowRepeatAllOff24Filled", "24", ArrowRepeatAllOff24FilledSvg);
+export const ArrowRepeatAllOff24Regular = /** #__PURE__ */ createIcon("ArrowRepeatAllOff24Regular", "24", ArrowRepeatAllOff24RegularSvg);

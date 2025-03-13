@@ -7,11 +7,13 @@ import TableFreezeColumn24RegularSvg from "@fluentui/svg-icons/icons/table_freez
 import TableFreezeColumn28FilledSvg from "@fluentui/svg-icons/icons/table_freeze_column_28_filled.svg" with { type: "text" }
 import TableFreezeColumn28RegularSvg from "@fluentui/svg-icons/icons/table_freeze_column_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TableFreezeColumn16Filled = createIcon("TableFreezeColumn16Filled", TableFreezeColumn16FilledSvg);
-export const TableFreezeColumn16Regular = createIcon("TableFreezeColumn16Regular", TableFreezeColumn16RegularSvg);
-export const TableFreezeColumn20Filled = createIcon("TableFreezeColumn20Filled", TableFreezeColumn20FilledSvg);
-export const TableFreezeColumn20Regular = createIcon("TableFreezeColumn20Regular", TableFreezeColumn20RegularSvg);
-export const TableFreezeColumn24Filled = createIcon("TableFreezeColumn24Filled", TableFreezeColumn24FilledSvg);
-export const TableFreezeColumn24Regular = createIcon("TableFreezeColumn24Regular", TableFreezeColumn24RegularSvg);
-export const TableFreezeColumn28Filled = createIcon("TableFreezeColumn28Filled", TableFreezeColumn28FilledSvg);
-export const TableFreezeColumn28Regular = createIcon("TableFreezeColumn28Regular", TableFreezeColumn28RegularSvg);
+export const TableFreezeColumn16Filled = /** #__PURE__ */ createIcon("TableFreezeColumn16Filled", "16", TableFreezeColumn16FilledSvg);
+export const TableFreezeColumn16Regular = /** #__PURE__ */ createIcon("TableFreezeColumn16Regular", "16", TableFreezeColumn16RegularSvg);
+export const TableFreezeColumn20Filled = /** #__PURE__ */ createIcon("TableFreezeColumn20Filled", "20", TableFreezeColumn20FilledSvg);
+export const TableFreezeColumnFilled = /** #__PURE__ */ createIcon("TableFreezeColumnFilled", "1em", TableFreezeColumn20FilledSvg);
+export const TableFreezeColumn20Regular = /** #__PURE__ */ createIcon("TableFreezeColumn20Regular", "20", TableFreezeColumn20RegularSvg);
+export const TableFreezeColumnRegular = /** #__PURE__ */ createIcon("TableFreezeColumnRegular", "1em", TableFreezeColumn20RegularSvg);
+export const TableFreezeColumn24Filled = /** #__PURE__ */ createIcon("TableFreezeColumn24Filled", "24", TableFreezeColumn24FilledSvg);
+export const TableFreezeColumn24Regular = /** #__PURE__ */ createIcon("TableFreezeColumn24Regular", "24", TableFreezeColumn24RegularSvg);
+export const TableFreezeColumn28Filled = /** #__PURE__ */ createIcon("TableFreezeColumn28Filled", "28", TableFreezeColumn28FilledSvg);
+export const TableFreezeColumn28Regular = /** #__PURE__ */ createIcon("TableFreezeColumn28Regular", "28", TableFreezeColumn28RegularSvg);

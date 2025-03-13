@@ -5,9 +5,11 @@ import PeopleProhibited20RegularSvg from "@fluentui/svg-icons/icons/people_prohi
 import PeopleProhibited24FilledSvg from "@fluentui/svg-icons/icons/people_prohibited_24_filled.svg" with { type: "text" }
 import PeopleProhibited24RegularSvg from "@fluentui/svg-icons/icons/people_prohibited_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PeopleProhibited16Filled = createIcon("PeopleProhibited16Filled", PeopleProhibited16FilledSvg);
-export const PeopleProhibited16Regular = createIcon("PeopleProhibited16Regular", PeopleProhibited16RegularSvg);
-export const PeopleProhibited20Filled = createIcon("PeopleProhibited20Filled", PeopleProhibited20FilledSvg);
-export const PeopleProhibited20Regular = createIcon("PeopleProhibited20Regular", PeopleProhibited20RegularSvg);
-export const PeopleProhibited24Filled = createIcon("PeopleProhibited24Filled", PeopleProhibited24FilledSvg);
-export const PeopleProhibited24Regular = createIcon("PeopleProhibited24Regular", PeopleProhibited24RegularSvg);
+export const PeopleProhibited16Filled = /** #__PURE__ */ createIcon("PeopleProhibited16Filled", "16", PeopleProhibited16FilledSvg);
+export const PeopleProhibited16Regular = /** #__PURE__ */ createIcon("PeopleProhibited16Regular", "16", PeopleProhibited16RegularSvg);
+export const PeopleProhibited20Filled = /** #__PURE__ */ createIcon("PeopleProhibited20Filled", "20", PeopleProhibited20FilledSvg);
+export const PeopleProhibitedFilled = /** #__PURE__ */ createIcon("PeopleProhibitedFilled", "1em", PeopleProhibited20FilledSvg);
+export const PeopleProhibited20Regular = /** #__PURE__ */ createIcon("PeopleProhibited20Regular", "20", PeopleProhibited20RegularSvg);
+export const PeopleProhibitedRegular = /** #__PURE__ */ createIcon("PeopleProhibitedRegular", "1em", PeopleProhibited20RegularSvg);
+export const PeopleProhibited24Filled = /** #__PURE__ */ createIcon("PeopleProhibited24Filled", "24", PeopleProhibited24FilledSvg);
+export const PeopleProhibited24Regular = /** #__PURE__ */ createIcon("PeopleProhibited24Regular", "24", PeopleProhibited24RegularSvg);

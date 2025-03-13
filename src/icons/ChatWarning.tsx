@@ -5,9 +5,11 @@ import ChatWarning20RegularSvg from "@fluentui/svg-icons/icons/chat_warning_20_r
 import ChatWarning24FilledSvg from "@fluentui/svg-icons/icons/chat_warning_24_filled.svg" with { type: "text" }
 import ChatWarning24RegularSvg from "@fluentui/svg-icons/icons/chat_warning_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ChatWarning16Filled = createIcon("ChatWarning16Filled", ChatWarning16FilledSvg);
-export const ChatWarning16Regular = createIcon("ChatWarning16Regular", ChatWarning16RegularSvg);
-export const ChatWarning20Filled = createIcon("ChatWarning20Filled", ChatWarning20FilledSvg);
-export const ChatWarning20Regular = createIcon("ChatWarning20Regular", ChatWarning20RegularSvg);
-export const ChatWarning24Filled = createIcon("ChatWarning24Filled", ChatWarning24FilledSvg);
-export const ChatWarning24Regular = createIcon("ChatWarning24Regular", ChatWarning24RegularSvg);
+export const ChatWarning16Filled = /** #__PURE__ */ createIcon("ChatWarning16Filled", "16", ChatWarning16FilledSvg);
+export const ChatWarning16Regular = /** #__PURE__ */ createIcon("ChatWarning16Regular", "16", ChatWarning16RegularSvg);
+export const ChatWarning20Filled = /** #__PURE__ */ createIcon("ChatWarning20Filled", "20", ChatWarning20FilledSvg);
+export const ChatWarningFilled = /** #__PURE__ */ createIcon("ChatWarningFilled", "1em", ChatWarning20FilledSvg);
+export const ChatWarning20Regular = /** #__PURE__ */ createIcon("ChatWarning20Regular", "20", ChatWarning20RegularSvg);
+export const ChatWarningRegular = /** #__PURE__ */ createIcon("ChatWarningRegular", "1em", ChatWarning20RegularSvg);
+export const ChatWarning24Filled = /** #__PURE__ */ createIcon("ChatWarning24Filled", "24", ChatWarning24FilledSvg);
+export const ChatWarning24Regular = /** #__PURE__ */ createIcon("ChatWarning24Regular", "24", ChatWarning24RegularSvg);

@@ -5,9 +5,11 @@ import CatchUp20RegularSvg from "@fluentui/svg-icons/icons/catch_up_20_regular.s
 import CatchUp24FilledSvg from "@fluentui/svg-icons/icons/catch_up_24_filled.svg" with { type: "text" }
 import CatchUp24RegularSvg from "@fluentui/svg-icons/icons/catch_up_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CatchUp16Filled = createIcon("CatchUp16Filled", CatchUp16FilledSvg);
-export const CatchUp16Regular = createIcon("CatchUp16Regular", CatchUp16RegularSvg);
-export const CatchUp20Filled = createIcon("CatchUp20Filled", CatchUp20FilledSvg);
-export const CatchUp20Regular = createIcon("CatchUp20Regular", CatchUp20RegularSvg);
-export const CatchUp24Filled = createIcon("CatchUp24Filled", CatchUp24FilledSvg);
-export const CatchUp24Regular = createIcon("CatchUp24Regular", CatchUp24RegularSvg);
+export const CatchUp16Filled = /** #__PURE__ */ createIcon("CatchUp16Filled", "16", CatchUp16FilledSvg);
+export const CatchUp16Regular = /** #__PURE__ */ createIcon("CatchUp16Regular", "16", CatchUp16RegularSvg);
+export const CatchUp20Filled = /** #__PURE__ */ createIcon("CatchUp20Filled", "20", CatchUp20FilledSvg);
+export const CatchUpFilled = /** #__PURE__ */ createIcon("CatchUpFilled", "1em", CatchUp20FilledSvg);
+export const CatchUp20Regular = /** #__PURE__ */ createIcon("CatchUp20Regular", "20", CatchUp20RegularSvg);
+export const CatchUpRegular = /** #__PURE__ */ createIcon("CatchUpRegular", "1em", CatchUp20RegularSvg);
+export const CatchUp24Filled = /** #__PURE__ */ createIcon("CatchUp24Filled", "24", CatchUp24FilledSvg);
+export const CatchUp24Regular = /** #__PURE__ */ createIcon("CatchUp24Regular", "24", CatchUp24RegularSvg);

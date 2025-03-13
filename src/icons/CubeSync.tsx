@@ -3,7 +3,9 @@ import CubeSync20RegularSvg from "@fluentui/svg-icons/icons/cube_sync_20_regular
 import CubeSync24FilledSvg from "@fluentui/svg-icons/icons/cube_sync_24_filled.svg" with { type: "text" }
 import CubeSync24RegularSvg from "@fluentui/svg-icons/icons/cube_sync_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CubeSync20Filled = createIcon("CubeSync20Filled", CubeSync20FilledSvg);
-export const CubeSync20Regular = createIcon("CubeSync20Regular", CubeSync20RegularSvg);
-export const CubeSync24Filled = createIcon("CubeSync24Filled", CubeSync24FilledSvg);
-export const CubeSync24Regular = createIcon("CubeSync24Regular", CubeSync24RegularSvg);
+export const CubeSync20Filled = /** #__PURE__ */ createIcon("CubeSync20Filled", "20", CubeSync20FilledSvg);
+export const CubeSyncFilled = /** #__PURE__ */ createIcon("CubeSyncFilled", "1em", CubeSync20FilledSvg);
+export const CubeSync20Regular = /** #__PURE__ */ createIcon("CubeSync20Regular", "20", CubeSync20RegularSvg);
+export const CubeSyncRegular = /** #__PURE__ */ createIcon("CubeSyncRegular", "1em", CubeSync20RegularSvg);
+export const CubeSync24Filled = /** #__PURE__ */ createIcon("CubeSync24Filled", "24", CubeSync24FilledSvg);
+export const CubeSync24Regular = /** #__PURE__ */ createIcon("CubeSync24Regular", "24", CubeSync24RegularSvg);

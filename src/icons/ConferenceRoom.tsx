@@ -9,13 +9,15 @@ import ConferenceRoom28RegularSvg from "@fluentui/svg-icons/icons/conference_roo
 import ConferenceRoom48FilledSvg from "@fluentui/svg-icons/icons/conference_room_48_filled.svg" with { type: "text" }
 import ConferenceRoom48RegularSvg from "@fluentui/svg-icons/icons/conference_room_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ConferenceRoom16Filled = createIcon("ConferenceRoom16Filled", ConferenceRoom16FilledSvg);
-export const ConferenceRoom16Regular = createIcon("ConferenceRoom16Regular", ConferenceRoom16RegularSvg);
-export const ConferenceRoom20Filled = createIcon("ConferenceRoom20Filled", ConferenceRoom20FilledSvg);
-export const ConferenceRoom20Regular = createIcon("ConferenceRoom20Regular", ConferenceRoom20RegularSvg);
-export const ConferenceRoom24Filled = createIcon("ConferenceRoom24Filled", ConferenceRoom24FilledSvg);
-export const ConferenceRoom24Regular = createIcon("ConferenceRoom24Regular", ConferenceRoom24RegularSvg);
-export const ConferenceRoom28Filled = createIcon("ConferenceRoom28Filled", ConferenceRoom28FilledSvg);
-export const ConferenceRoom28Regular = createIcon("ConferenceRoom28Regular", ConferenceRoom28RegularSvg);
-export const ConferenceRoom48Filled = createIcon("ConferenceRoom48Filled", ConferenceRoom48FilledSvg);
-export const ConferenceRoom48Regular = createIcon("ConferenceRoom48Regular", ConferenceRoom48RegularSvg);
+export const ConferenceRoom16Filled = /** #__PURE__ */ createIcon("ConferenceRoom16Filled", "16", ConferenceRoom16FilledSvg);
+export const ConferenceRoom16Regular = /** #__PURE__ */ createIcon("ConferenceRoom16Regular", "16", ConferenceRoom16RegularSvg);
+export const ConferenceRoom20Filled = /** #__PURE__ */ createIcon("ConferenceRoom20Filled", "20", ConferenceRoom20FilledSvg);
+export const ConferenceRoomFilled = /** #__PURE__ */ createIcon("ConferenceRoomFilled", "1em", ConferenceRoom20FilledSvg);
+export const ConferenceRoom20Regular = /** #__PURE__ */ createIcon("ConferenceRoom20Regular", "20", ConferenceRoom20RegularSvg);
+export const ConferenceRoomRegular = /** #__PURE__ */ createIcon("ConferenceRoomRegular", "1em", ConferenceRoom20RegularSvg);
+export const ConferenceRoom24Filled = /** #__PURE__ */ createIcon("ConferenceRoom24Filled", "24", ConferenceRoom24FilledSvg);
+export const ConferenceRoom24Regular = /** #__PURE__ */ createIcon("ConferenceRoom24Regular", "24", ConferenceRoom24RegularSvg);
+export const ConferenceRoom28Filled = /** #__PURE__ */ createIcon("ConferenceRoom28Filled", "28", ConferenceRoom28FilledSvg);
+export const ConferenceRoom28Regular = /** #__PURE__ */ createIcon("ConferenceRoom28Regular", "28", ConferenceRoom28RegularSvg);
+export const ConferenceRoom48Filled = /** #__PURE__ */ createIcon("ConferenceRoom48Filled", "48", ConferenceRoom48FilledSvg);
+export const ConferenceRoom48Regular = /** #__PURE__ */ createIcon("ConferenceRoom48Regular", "48", ConferenceRoom48RegularSvg);

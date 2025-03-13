@@ -9,13 +9,15 @@ import VehicleCarParking32RegularSvg from "@fluentui/svg-icons/icons/vehicle_car
 import VehicleCarParking48FilledSvg from "@fluentui/svg-icons/icons/vehicle_car_parking_48_filled.svg" with { type: "text" }
 import VehicleCarParking48RegularSvg from "@fluentui/svg-icons/icons/vehicle_car_parking_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const VehicleCarParking16Filled = createIcon("VehicleCarParking16Filled", VehicleCarParking16FilledSvg);
-export const VehicleCarParking16Regular = createIcon("VehicleCarParking16Regular", VehicleCarParking16RegularSvg);
-export const VehicleCarParking20Filled = createIcon("VehicleCarParking20Filled", VehicleCarParking20FilledSvg);
-export const VehicleCarParking20Regular = createIcon("VehicleCarParking20Regular", VehicleCarParking20RegularSvg);
-export const VehicleCarParking24Filled = createIcon("VehicleCarParking24Filled", VehicleCarParking24FilledSvg);
-export const VehicleCarParking24Regular = createIcon("VehicleCarParking24Regular", VehicleCarParking24RegularSvg);
-export const VehicleCarParking32Filled = createIcon("VehicleCarParking32Filled", VehicleCarParking32FilledSvg);
-export const VehicleCarParking32Regular = createIcon("VehicleCarParking32Regular", VehicleCarParking32RegularSvg);
-export const VehicleCarParking48Filled = createIcon("VehicleCarParking48Filled", VehicleCarParking48FilledSvg);
-export const VehicleCarParking48Regular = createIcon("VehicleCarParking48Regular", VehicleCarParking48RegularSvg);
+export const VehicleCarParking16Filled = /** #__PURE__ */ createIcon("VehicleCarParking16Filled", "16", VehicleCarParking16FilledSvg);
+export const VehicleCarParking16Regular = /** #__PURE__ */ createIcon("VehicleCarParking16Regular", "16", VehicleCarParking16RegularSvg);
+export const VehicleCarParking20Filled = /** #__PURE__ */ createIcon("VehicleCarParking20Filled", "20", VehicleCarParking20FilledSvg);
+export const VehicleCarParkingFilled = /** #__PURE__ */ createIcon("VehicleCarParkingFilled", "1em", VehicleCarParking20FilledSvg);
+export const VehicleCarParking20Regular = /** #__PURE__ */ createIcon("VehicleCarParking20Regular", "20", VehicleCarParking20RegularSvg);
+export const VehicleCarParkingRegular = /** #__PURE__ */ createIcon("VehicleCarParkingRegular", "1em", VehicleCarParking20RegularSvg);
+export const VehicleCarParking24Filled = /** #__PURE__ */ createIcon("VehicleCarParking24Filled", "24", VehicleCarParking24FilledSvg);
+export const VehicleCarParking24Regular = /** #__PURE__ */ createIcon("VehicleCarParking24Regular", "24", VehicleCarParking24RegularSvg);
+export const VehicleCarParking32Filled = /** #__PURE__ */ createIcon("VehicleCarParking32Filled", "32", VehicleCarParking32FilledSvg);
+export const VehicleCarParking32Regular = /** #__PURE__ */ createIcon("VehicleCarParking32Regular", "32", VehicleCarParking32RegularSvg);
+export const VehicleCarParking48Filled = /** #__PURE__ */ createIcon("VehicleCarParking48Filled", "48", VehicleCarParking48FilledSvg);
+export const VehicleCarParking48Regular = /** #__PURE__ */ createIcon("VehicleCarParking48Regular", "48", VehicleCarParking48RegularSvg);

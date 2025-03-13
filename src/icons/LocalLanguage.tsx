@@ -7,11 +7,13 @@ import LocalLanguage24RegularSvg from "@fluentui/svg-icons/icons/local_language_
 import LocalLanguage28FilledSvg from "@fluentui/svg-icons/icons/local_language_28_filled.svg" with { type: "text" }
 import LocalLanguage28RegularSvg from "@fluentui/svg-icons/icons/local_language_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const LocalLanguage16Filled = createIcon("LocalLanguage16Filled", LocalLanguage16FilledSvg);
-export const LocalLanguage16Regular = createIcon("LocalLanguage16Regular", LocalLanguage16RegularSvg);
-export const LocalLanguage20Filled = createIcon("LocalLanguage20Filled", LocalLanguage20FilledSvg);
-export const LocalLanguage20Regular = createIcon("LocalLanguage20Regular", LocalLanguage20RegularSvg);
-export const LocalLanguage24Filled = createIcon("LocalLanguage24Filled", LocalLanguage24FilledSvg);
-export const LocalLanguage24Regular = createIcon("LocalLanguage24Regular", LocalLanguage24RegularSvg);
-export const LocalLanguage28Filled = createIcon("LocalLanguage28Filled", LocalLanguage28FilledSvg);
-export const LocalLanguage28Regular = createIcon("LocalLanguage28Regular", LocalLanguage28RegularSvg);
+export const LocalLanguage16Filled = /** #__PURE__ */ createIcon("LocalLanguage16Filled", "16", LocalLanguage16FilledSvg);
+export const LocalLanguage16Regular = /** #__PURE__ */ createIcon("LocalLanguage16Regular", "16", LocalLanguage16RegularSvg);
+export const LocalLanguage20Filled = /** #__PURE__ */ createIcon("LocalLanguage20Filled", "20", LocalLanguage20FilledSvg);
+export const LocalLanguageFilled = /** #__PURE__ */ createIcon("LocalLanguageFilled", "1em", LocalLanguage20FilledSvg);
+export const LocalLanguage20Regular = /** #__PURE__ */ createIcon("LocalLanguage20Regular", "20", LocalLanguage20RegularSvg);
+export const LocalLanguageRegular = /** #__PURE__ */ createIcon("LocalLanguageRegular", "1em", LocalLanguage20RegularSvg);
+export const LocalLanguage24Filled = /** #__PURE__ */ createIcon("LocalLanguage24Filled", "24", LocalLanguage24FilledSvg);
+export const LocalLanguage24Regular = /** #__PURE__ */ createIcon("LocalLanguage24Regular", "24", LocalLanguage24RegularSvg);
+export const LocalLanguage28Filled = /** #__PURE__ */ createIcon("LocalLanguage28Filled", "28", LocalLanguage28FilledSvg);
+export const LocalLanguage28Regular = /** #__PURE__ */ createIcon("LocalLanguage28Regular", "28", LocalLanguage28RegularSvg);

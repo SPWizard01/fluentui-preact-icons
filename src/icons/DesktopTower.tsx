@@ -3,7 +3,9 @@ import DesktopTower20RegularSvg from "@fluentui/svg-icons/icons/desktop_tower_20
 import DesktopTower24FilledSvg from "@fluentui/svg-icons/icons/desktop_tower_24_filled.svg" with { type: "text" }
 import DesktopTower24RegularSvg from "@fluentui/svg-icons/icons/desktop_tower_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const DesktopTower20Filled = createIcon("DesktopTower20Filled", DesktopTower20FilledSvg);
-export const DesktopTower20Regular = createIcon("DesktopTower20Regular", DesktopTower20RegularSvg);
-export const DesktopTower24Filled = createIcon("DesktopTower24Filled", DesktopTower24FilledSvg);
-export const DesktopTower24Regular = createIcon("DesktopTower24Regular", DesktopTower24RegularSvg);
+export const DesktopTower20Filled = /** #__PURE__ */ createIcon("DesktopTower20Filled", "20", DesktopTower20FilledSvg);
+export const DesktopTowerFilled = /** #__PURE__ */ createIcon("DesktopTowerFilled", "1em", DesktopTower20FilledSvg);
+export const DesktopTower20Regular = /** #__PURE__ */ createIcon("DesktopTower20Regular", "20", DesktopTower20RegularSvg);
+export const DesktopTowerRegular = /** #__PURE__ */ createIcon("DesktopTowerRegular", "1em", DesktopTower20RegularSvg);
+export const DesktopTower24Filled = /** #__PURE__ */ createIcon("DesktopTower24Filled", "24", DesktopTower24FilledSvg);
+export const DesktopTower24Regular = /** #__PURE__ */ createIcon("DesktopTower24Regular", "24", DesktopTower24RegularSvg);

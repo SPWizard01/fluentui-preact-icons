@@ -11,15 +11,17 @@ import CloudCheckmark32RegularSvg from "@fluentui/svg-icons/icons/cloud_checkmar
 import CloudCheckmark48FilledSvg from "@fluentui/svg-icons/icons/cloud_checkmark_48_filled.svg" with { type: "text" }
 import CloudCheckmark48RegularSvg from "@fluentui/svg-icons/icons/cloud_checkmark_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CloudCheckmark16Filled = createIcon("CloudCheckmark16Filled", CloudCheckmark16FilledSvg);
-export const CloudCheckmark16Regular = createIcon("CloudCheckmark16Regular", CloudCheckmark16RegularSvg);
-export const CloudCheckmark20Filled = createIcon("CloudCheckmark20Filled", CloudCheckmark20FilledSvg);
-export const CloudCheckmark20Regular = createIcon("CloudCheckmark20Regular", CloudCheckmark20RegularSvg);
-export const CloudCheckmark24Filled = createIcon("CloudCheckmark24Filled", CloudCheckmark24FilledSvg);
-export const CloudCheckmark24Regular = createIcon("CloudCheckmark24Regular", CloudCheckmark24RegularSvg);
-export const CloudCheckmark28Filled = createIcon("CloudCheckmark28Filled", CloudCheckmark28FilledSvg);
-export const CloudCheckmark28Regular = createIcon("CloudCheckmark28Regular", CloudCheckmark28RegularSvg);
-export const CloudCheckmark32Filled = createIcon("CloudCheckmark32Filled", CloudCheckmark32FilledSvg);
-export const CloudCheckmark32Regular = createIcon("CloudCheckmark32Regular", CloudCheckmark32RegularSvg);
-export const CloudCheckmark48Filled = createIcon("CloudCheckmark48Filled", CloudCheckmark48FilledSvg);
-export const CloudCheckmark48Regular = createIcon("CloudCheckmark48Regular", CloudCheckmark48RegularSvg);
+export const CloudCheckmark16Filled = /** #__PURE__ */ createIcon("CloudCheckmark16Filled", "16", CloudCheckmark16FilledSvg);
+export const CloudCheckmark16Regular = /** #__PURE__ */ createIcon("CloudCheckmark16Regular", "16", CloudCheckmark16RegularSvg);
+export const CloudCheckmark20Filled = /** #__PURE__ */ createIcon("CloudCheckmark20Filled", "20", CloudCheckmark20FilledSvg);
+export const CloudCheckmarkFilled = /** #__PURE__ */ createIcon("CloudCheckmarkFilled", "1em", CloudCheckmark20FilledSvg);
+export const CloudCheckmark20Regular = /** #__PURE__ */ createIcon("CloudCheckmark20Regular", "20", CloudCheckmark20RegularSvg);
+export const CloudCheckmarkRegular = /** #__PURE__ */ createIcon("CloudCheckmarkRegular", "1em", CloudCheckmark20RegularSvg);
+export const CloudCheckmark24Filled = /** #__PURE__ */ createIcon("CloudCheckmark24Filled", "24", CloudCheckmark24FilledSvg);
+export const CloudCheckmark24Regular = /** #__PURE__ */ createIcon("CloudCheckmark24Regular", "24", CloudCheckmark24RegularSvg);
+export const CloudCheckmark28Filled = /** #__PURE__ */ createIcon("CloudCheckmark28Filled", "28", CloudCheckmark28FilledSvg);
+export const CloudCheckmark28Regular = /** #__PURE__ */ createIcon("CloudCheckmark28Regular", "28", CloudCheckmark28RegularSvg);
+export const CloudCheckmark32Filled = /** #__PURE__ */ createIcon("CloudCheckmark32Filled", "32", CloudCheckmark32FilledSvg);
+export const CloudCheckmark32Regular = /** #__PURE__ */ createIcon("CloudCheckmark32Regular", "32", CloudCheckmark32RegularSvg);
+export const CloudCheckmark48Filled = /** #__PURE__ */ createIcon("CloudCheckmark48Filled", "48", CloudCheckmark48FilledSvg);
+export const CloudCheckmark48Regular = /** #__PURE__ */ createIcon("CloudCheckmark48Regular", "48", CloudCheckmark48RegularSvg);

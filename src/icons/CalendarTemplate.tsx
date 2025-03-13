@@ -5,9 +5,11 @@ import CalendarTemplate24RegularSvg from "@fluentui/svg-icons/icons/calendar_tem
 import CalendarTemplate32FilledSvg from "@fluentui/svg-icons/icons/calendar_template_32_filled.svg" with { type: "text" }
 import CalendarTemplate32RegularSvg from "@fluentui/svg-icons/icons/calendar_template_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CalendarTemplate20Filled = createIcon("CalendarTemplate20Filled", CalendarTemplate20FilledSvg);
-export const CalendarTemplate20Regular = createIcon("CalendarTemplate20Regular", CalendarTemplate20RegularSvg);
-export const CalendarTemplate24Filled = createIcon("CalendarTemplate24Filled", CalendarTemplate24FilledSvg);
-export const CalendarTemplate24Regular = createIcon("CalendarTemplate24Regular", CalendarTemplate24RegularSvg);
-export const CalendarTemplate32Filled = createIcon("CalendarTemplate32Filled", CalendarTemplate32FilledSvg);
-export const CalendarTemplate32Regular = createIcon("CalendarTemplate32Regular", CalendarTemplate32RegularSvg);
+export const CalendarTemplate20Filled = /** #__PURE__ */ createIcon("CalendarTemplate20Filled", "20", CalendarTemplate20FilledSvg);
+export const CalendarTemplateFilled = /** #__PURE__ */ createIcon("CalendarTemplateFilled", "1em", CalendarTemplate20FilledSvg);
+export const CalendarTemplate20Regular = /** #__PURE__ */ createIcon("CalendarTemplate20Regular", "20", CalendarTemplate20RegularSvg);
+export const CalendarTemplateRegular = /** #__PURE__ */ createIcon("CalendarTemplateRegular", "1em", CalendarTemplate20RegularSvg);
+export const CalendarTemplate24Filled = /** #__PURE__ */ createIcon("CalendarTemplate24Filled", "24", CalendarTemplate24FilledSvg);
+export const CalendarTemplate24Regular = /** #__PURE__ */ createIcon("CalendarTemplate24Regular", "24", CalendarTemplate24RegularSvg);
+export const CalendarTemplate32Filled = /** #__PURE__ */ createIcon("CalendarTemplate32Filled", "32", CalendarTemplate32FilledSvg);
+export const CalendarTemplate32Regular = /** #__PURE__ */ createIcon("CalendarTemplate32Regular", "32", CalendarTemplate32RegularSvg);

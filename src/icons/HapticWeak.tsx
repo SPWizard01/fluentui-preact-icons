@@ -5,9 +5,11 @@ import HapticWeak20RegularSvg from "@fluentui/svg-icons/icons/haptic_weak_20_reg
 import HapticWeak24FilledSvg from "@fluentui/svg-icons/icons/haptic_weak_24_filled.svg" with { type: "text" }
 import HapticWeak24RegularSvg from "@fluentui/svg-icons/icons/haptic_weak_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const HapticWeak16Filled = createIcon("HapticWeak16Filled", HapticWeak16FilledSvg);
-export const HapticWeak16Regular = createIcon("HapticWeak16Regular", HapticWeak16RegularSvg);
-export const HapticWeak20Filled = createIcon("HapticWeak20Filled", HapticWeak20FilledSvg);
-export const HapticWeak20Regular = createIcon("HapticWeak20Regular", HapticWeak20RegularSvg);
-export const HapticWeak24Filled = createIcon("HapticWeak24Filled", HapticWeak24FilledSvg);
-export const HapticWeak24Regular = createIcon("HapticWeak24Regular", HapticWeak24RegularSvg);
+export const HapticWeak16Filled = /** #__PURE__ */ createIcon("HapticWeak16Filled", "16", HapticWeak16FilledSvg);
+export const HapticWeak16Regular = /** #__PURE__ */ createIcon("HapticWeak16Regular", "16", HapticWeak16RegularSvg);
+export const HapticWeak20Filled = /** #__PURE__ */ createIcon("HapticWeak20Filled", "20", HapticWeak20FilledSvg);
+export const HapticWeakFilled = /** #__PURE__ */ createIcon("HapticWeakFilled", "1em", HapticWeak20FilledSvg);
+export const HapticWeak20Regular = /** #__PURE__ */ createIcon("HapticWeak20Regular", "20", HapticWeak20RegularSvg);
+export const HapticWeakRegular = /** #__PURE__ */ createIcon("HapticWeakRegular", "1em", HapticWeak20RegularSvg);
+export const HapticWeak24Filled = /** #__PURE__ */ createIcon("HapticWeak24Filled", "24", HapticWeak24FilledSvg);
+export const HapticWeak24Regular = /** #__PURE__ */ createIcon("HapticWeak24Regular", "24", HapticWeak24RegularSvg);

@@ -5,9 +5,11 @@ import PlayCircleHint20RegularSvg from "@fluentui/svg-icons/icons/play_circle_hi
 import PlayCircleHint24FilledSvg from "@fluentui/svg-icons/icons/play_circle_hint_24_filled.svg" with { type: "text" }
 import PlayCircleHint24RegularSvg from "@fluentui/svg-icons/icons/play_circle_hint_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PlayCircleHint16Filled = createIcon("PlayCircleHint16Filled", PlayCircleHint16FilledSvg);
-export const PlayCircleHint16Regular = createIcon("PlayCircleHint16Regular", PlayCircleHint16RegularSvg);
-export const PlayCircleHint20Filled = createIcon("PlayCircleHint20Filled", PlayCircleHint20FilledSvg);
-export const PlayCircleHint20Regular = createIcon("PlayCircleHint20Regular", PlayCircleHint20RegularSvg);
-export const PlayCircleHint24Filled = createIcon("PlayCircleHint24Filled", PlayCircleHint24FilledSvg);
-export const PlayCircleHint24Regular = createIcon("PlayCircleHint24Regular", PlayCircleHint24RegularSvg);
+export const PlayCircleHint16Filled = /** #__PURE__ */ createIcon("PlayCircleHint16Filled", "16", PlayCircleHint16FilledSvg);
+export const PlayCircleHint16Regular = /** #__PURE__ */ createIcon("PlayCircleHint16Regular", "16", PlayCircleHint16RegularSvg);
+export const PlayCircleHint20Filled = /** #__PURE__ */ createIcon("PlayCircleHint20Filled", "20", PlayCircleHint20FilledSvg);
+export const PlayCircleHintFilled = /** #__PURE__ */ createIcon("PlayCircleHintFilled", "1em", PlayCircleHint20FilledSvg);
+export const PlayCircleHint20Regular = /** #__PURE__ */ createIcon("PlayCircleHint20Regular", "20", PlayCircleHint20RegularSvg);
+export const PlayCircleHintRegular = /** #__PURE__ */ createIcon("PlayCircleHintRegular", "1em", PlayCircleHint20RegularSvg);
+export const PlayCircleHint24Filled = /** #__PURE__ */ createIcon("PlayCircleHint24Filled", "24", PlayCircleHint24FilledSvg);
+export const PlayCircleHint24Regular = /** #__PURE__ */ createIcon("PlayCircleHint24Regular", "24", PlayCircleHint24RegularSvg);

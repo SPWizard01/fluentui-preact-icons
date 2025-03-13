@@ -5,9 +5,11 @@ import StarProhibited20RegularSvg from "@fluentui/svg-icons/icons/star_prohibite
 import StarProhibited24FilledSvg from "@fluentui/svg-icons/icons/star_prohibited_24_filled.svg" with { type: "text" }
 import StarProhibited24RegularSvg from "@fluentui/svg-icons/icons/star_prohibited_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const StarProhibited16Filled = createIcon("StarProhibited16Filled", StarProhibited16FilledSvg);
-export const StarProhibited16Regular = createIcon("StarProhibited16Regular", StarProhibited16RegularSvg);
-export const StarProhibited20Filled = createIcon("StarProhibited20Filled", StarProhibited20FilledSvg);
-export const StarProhibited20Regular = createIcon("StarProhibited20Regular", StarProhibited20RegularSvg);
-export const StarProhibited24Filled = createIcon("StarProhibited24Filled", StarProhibited24FilledSvg);
-export const StarProhibited24Regular = createIcon("StarProhibited24Regular", StarProhibited24RegularSvg);
+export const StarProhibited16Filled = /** #__PURE__ */ createIcon("StarProhibited16Filled", "16", StarProhibited16FilledSvg);
+export const StarProhibited16Regular = /** #__PURE__ */ createIcon("StarProhibited16Regular", "16", StarProhibited16RegularSvg);
+export const StarProhibited20Filled = /** #__PURE__ */ createIcon("StarProhibited20Filled", "20", StarProhibited20FilledSvg);
+export const StarProhibitedFilled = /** #__PURE__ */ createIcon("StarProhibitedFilled", "1em", StarProhibited20FilledSvg);
+export const StarProhibited20Regular = /** #__PURE__ */ createIcon("StarProhibited20Regular", "20", StarProhibited20RegularSvg);
+export const StarProhibitedRegular = /** #__PURE__ */ createIcon("StarProhibitedRegular", "1em", StarProhibited20RegularSvg);
+export const StarProhibited24Filled = /** #__PURE__ */ createIcon("StarProhibited24Filled", "24", StarProhibited24FilledSvg);
+export const StarProhibited24Regular = /** #__PURE__ */ createIcon("StarProhibited24Regular", "24", StarProhibited24RegularSvg);

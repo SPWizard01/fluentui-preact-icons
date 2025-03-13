@@ -5,9 +5,11 @@ import ArrowExportRtl20RegularSvg from "@fluentui/svg-icons/icons/arrow_export_r
 import ArrowExportRtl24FilledSvg from "@fluentui/svg-icons/icons/arrow_export_rtl_24_filled.svg" with { type: "text" }
 import ArrowExportRtl24RegularSvg from "@fluentui/svg-icons/icons/arrow_export_rtl_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ArrowExportRtl16Filled = createIcon("ArrowExportRtl16Filled", ArrowExportRtl16FilledSvg);
-export const ArrowExportRtl16Regular = createIcon("ArrowExportRtl16Regular", ArrowExportRtl16RegularSvg);
-export const ArrowExportRtl20Filled = createIcon("ArrowExportRtl20Filled", ArrowExportRtl20FilledSvg);
-export const ArrowExportRtl20Regular = createIcon("ArrowExportRtl20Regular", ArrowExportRtl20RegularSvg);
-export const ArrowExportRtl24Filled = createIcon("ArrowExportRtl24Filled", ArrowExportRtl24FilledSvg);
-export const ArrowExportRtl24Regular = createIcon("ArrowExportRtl24Regular", ArrowExportRtl24RegularSvg);
+export const ArrowExportRtl16Filled = /** #__PURE__ */ createIcon("ArrowExportRtl16Filled", "16", ArrowExportRtl16FilledSvg);
+export const ArrowExportRtl16Regular = /** #__PURE__ */ createIcon("ArrowExportRtl16Regular", "16", ArrowExportRtl16RegularSvg);
+export const ArrowExportRtl20Filled = /** #__PURE__ */ createIcon("ArrowExportRtl20Filled", "20", ArrowExportRtl20FilledSvg);
+export const ArrowExportRtlFilled = /** #__PURE__ */ createIcon("ArrowExportRtlFilled", "1em", ArrowExportRtl20FilledSvg);
+export const ArrowExportRtl20Regular = /** #__PURE__ */ createIcon("ArrowExportRtl20Regular", "20", ArrowExportRtl20RegularSvg);
+export const ArrowExportRtlRegular = /** #__PURE__ */ createIcon("ArrowExportRtlRegular", "1em", ArrowExportRtl20RegularSvg);
+export const ArrowExportRtl24Filled = /** #__PURE__ */ createIcon("ArrowExportRtl24Filled", "24", ArrowExportRtl24FilledSvg);
+export const ArrowExportRtl24Regular = /** #__PURE__ */ createIcon("ArrowExportRtl24Regular", "24", ArrowExportRtl24RegularSvg);

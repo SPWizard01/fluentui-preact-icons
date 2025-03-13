@@ -5,9 +5,11 @@ import PictureInPictureEnter20RegularSvg from "@fluentui/svg-icons/icons/picture
 import PictureInPictureEnter24FilledSvg from "@fluentui/svg-icons/icons/picture_in_picture_enter_24_filled.svg" with { type: "text" }
 import PictureInPictureEnter24RegularSvg from "@fluentui/svg-icons/icons/picture_in_picture_enter_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PictureInPictureEnter16Filled = createIcon("PictureInPictureEnter16Filled", PictureInPictureEnter16FilledSvg);
-export const PictureInPictureEnter16Regular = createIcon("PictureInPictureEnter16Regular", PictureInPictureEnter16RegularSvg);
-export const PictureInPictureEnter20Filled = createIcon("PictureInPictureEnter20Filled", PictureInPictureEnter20FilledSvg);
-export const PictureInPictureEnter20Regular = createIcon("PictureInPictureEnter20Regular", PictureInPictureEnter20RegularSvg);
-export const PictureInPictureEnter24Filled = createIcon("PictureInPictureEnter24Filled", PictureInPictureEnter24FilledSvg);
-export const PictureInPictureEnter24Regular = createIcon("PictureInPictureEnter24Regular", PictureInPictureEnter24RegularSvg);
+export const PictureInPictureEnter16Filled = /** #__PURE__ */ createIcon("PictureInPictureEnter16Filled", "16", PictureInPictureEnter16FilledSvg);
+export const PictureInPictureEnter16Regular = /** #__PURE__ */ createIcon("PictureInPictureEnter16Regular", "16", PictureInPictureEnter16RegularSvg);
+export const PictureInPictureEnter20Filled = /** #__PURE__ */ createIcon("PictureInPictureEnter20Filled", "20", PictureInPictureEnter20FilledSvg);
+export const PictureInPictureEnterFilled = /** #__PURE__ */ createIcon("PictureInPictureEnterFilled", "1em", PictureInPictureEnter20FilledSvg);
+export const PictureInPictureEnter20Regular = /** #__PURE__ */ createIcon("PictureInPictureEnter20Regular", "20", PictureInPictureEnter20RegularSvg);
+export const PictureInPictureEnterRegular = /** #__PURE__ */ createIcon("PictureInPictureEnterRegular", "1em", PictureInPictureEnter20RegularSvg);
+export const PictureInPictureEnter24Filled = /** #__PURE__ */ createIcon("PictureInPictureEnter24Filled", "24", PictureInPictureEnter24FilledSvg);
+export const PictureInPictureEnter24Regular = /** #__PURE__ */ createIcon("PictureInPictureEnter24Regular", "24", PictureInPictureEnter24RegularSvg);

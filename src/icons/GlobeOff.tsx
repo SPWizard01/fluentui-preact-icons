@@ -13,17 +13,19 @@ import GlobeOff32RegularSvg from "@fluentui/svg-icons/icons/globe_off_32_regular
 import GlobeOff48FilledSvg from "@fluentui/svg-icons/icons/globe_off_48_filled.svg" with { type: "text" }
 import GlobeOff48RegularSvg from "@fluentui/svg-icons/icons/globe_off_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const GlobeOff12Filled = createIcon("GlobeOff12Filled", GlobeOff12FilledSvg);
-export const GlobeOff12Regular = createIcon("GlobeOff12Regular", GlobeOff12RegularSvg);
-export const GlobeOff16Filled = createIcon("GlobeOff16Filled", GlobeOff16FilledSvg);
-export const GlobeOff16Regular = createIcon("GlobeOff16Regular", GlobeOff16RegularSvg);
-export const GlobeOff20Filled = createIcon("GlobeOff20Filled", GlobeOff20FilledSvg);
-export const GlobeOff20Regular = createIcon("GlobeOff20Regular", GlobeOff20RegularSvg);
-export const GlobeOff24Filled = createIcon("GlobeOff24Filled", GlobeOff24FilledSvg);
-export const GlobeOff24Regular = createIcon("GlobeOff24Regular", GlobeOff24RegularSvg);
-export const GlobeOff28Filled = createIcon("GlobeOff28Filled", GlobeOff28FilledSvg);
-export const GlobeOff28Regular = createIcon("GlobeOff28Regular", GlobeOff28RegularSvg);
-export const GlobeOff32Filled = createIcon("GlobeOff32Filled", GlobeOff32FilledSvg);
-export const GlobeOff32Regular = createIcon("GlobeOff32Regular", GlobeOff32RegularSvg);
-export const GlobeOff48Filled = createIcon("GlobeOff48Filled", GlobeOff48FilledSvg);
-export const GlobeOff48Regular = createIcon("GlobeOff48Regular", GlobeOff48RegularSvg);
+export const GlobeOff12Filled = /** #__PURE__ */ createIcon("GlobeOff12Filled", "12", GlobeOff12FilledSvg);
+export const GlobeOff12Regular = /** #__PURE__ */ createIcon("GlobeOff12Regular", "12", GlobeOff12RegularSvg);
+export const GlobeOff16Filled = /** #__PURE__ */ createIcon("GlobeOff16Filled", "16", GlobeOff16FilledSvg);
+export const GlobeOff16Regular = /** #__PURE__ */ createIcon("GlobeOff16Regular", "16", GlobeOff16RegularSvg);
+export const GlobeOff20Filled = /** #__PURE__ */ createIcon("GlobeOff20Filled", "20", GlobeOff20FilledSvg);
+export const GlobeOffFilled = /** #__PURE__ */ createIcon("GlobeOffFilled", "1em", GlobeOff20FilledSvg);
+export const GlobeOff20Regular = /** #__PURE__ */ createIcon("GlobeOff20Regular", "20", GlobeOff20RegularSvg);
+export const GlobeOffRegular = /** #__PURE__ */ createIcon("GlobeOffRegular", "1em", GlobeOff20RegularSvg);
+export const GlobeOff24Filled = /** #__PURE__ */ createIcon("GlobeOff24Filled", "24", GlobeOff24FilledSvg);
+export const GlobeOff24Regular = /** #__PURE__ */ createIcon("GlobeOff24Regular", "24", GlobeOff24RegularSvg);
+export const GlobeOff28Filled = /** #__PURE__ */ createIcon("GlobeOff28Filled", "28", GlobeOff28FilledSvg);
+export const GlobeOff28Regular = /** #__PURE__ */ createIcon("GlobeOff28Regular", "28", GlobeOff28RegularSvg);
+export const GlobeOff32Filled = /** #__PURE__ */ createIcon("GlobeOff32Filled", "32", GlobeOff32FilledSvg);
+export const GlobeOff32Regular = /** #__PURE__ */ createIcon("GlobeOff32Regular", "32", GlobeOff32RegularSvg);
+export const GlobeOff48Filled = /** #__PURE__ */ createIcon("GlobeOff48Filled", "48", GlobeOff48FilledSvg);
+export const GlobeOff48Regular = /** #__PURE__ */ createIcon("GlobeOff48Regular", "48", GlobeOff48RegularSvg);

@@ -10,14 +10,16 @@ import Tag32FilledSvg from "@fluentui/svg-icons/icons/tag_32_filled.svg" with { 
 import Tag32LightSvg from "@fluentui/svg-icons/icons/tag_32_light.svg" with { type: "text" }
 import Tag32RegularSvg from "@fluentui/svg-icons/icons/tag_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Tag16Filled = createIcon("Tag16Filled", Tag16FilledSvg);
-export const Tag16Regular = createIcon("Tag16Regular", Tag16RegularSvg);
-export const Tag20Filled = createIcon("Tag20Filled", Tag20FilledSvg);
-export const Tag20Regular = createIcon("Tag20Regular", Tag20RegularSvg);
-export const Tag24Filled = createIcon("Tag24Filled", Tag24FilledSvg);
-export const Tag24Regular = createIcon("Tag24Regular", Tag24RegularSvg);
-export const Tag28Filled = createIcon("Tag28Filled", Tag28FilledSvg);
-export const Tag28Regular = createIcon("Tag28Regular", Tag28RegularSvg);
-export const Tag32Filled = createIcon("Tag32Filled", Tag32FilledSvg);
-export const Tag32Light = createIcon("Tag32Light", Tag32LightSvg);
-export const Tag32Regular = createIcon("Tag32Regular", Tag32RegularSvg);
+export const Tag16Filled = /** #__PURE__ */ createIcon("Tag16Filled", "16", Tag16FilledSvg);
+export const Tag16Regular = /** #__PURE__ */ createIcon("Tag16Regular", "16", Tag16RegularSvg);
+export const Tag20Filled = /** #__PURE__ */ createIcon("Tag20Filled", "20", Tag20FilledSvg);
+export const TagFilled = /** #__PURE__ */ createIcon("TagFilled", "1em", Tag20FilledSvg);
+export const Tag20Regular = /** #__PURE__ */ createIcon("Tag20Regular", "20", Tag20RegularSvg);
+export const TagRegular = /** #__PURE__ */ createIcon("TagRegular", "1em", Tag20RegularSvg);
+export const Tag24Filled = /** #__PURE__ */ createIcon("Tag24Filled", "24", Tag24FilledSvg);
+export const Tag24Regular = /** #__PURE__ */ createIcon("Tag24Regular", "24", Tag24RegularSvg);
+export const Tag28Filled = /** #__PURE__ */ createIcon("Tag28Filled", "28", Tag28FilledSvg);
+export const Tag28Regular = /** #__PURE__ */ createIcon("Tag28Regular", "28", Tag28RegularSvg);
+export const Tag32Filled = /** #__PURE__ */ createIcon("Tag32Filled", "32", Tag32FilledSvg);
+export const Tag32Light = /** #__PURE__ */ createIcon("Tag32Light", "32", Tag32LightSvg);
+export const Tag32Regular = /** #__PURE__ */ createIcon("Tag32Regular", "32", Tag32RegularSvg);

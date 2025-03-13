@@ -14,18 +14,20 @@ import Eye32RegularSvg from "@fluentui/svg-icons/icons/eye_32_regular.svg" with 
 import Eye48FilledSvg from "@fluentui/svg-icons/icons/eye_48_filled.svg" with { type: "text" }
 import Eye48RegularSvg from "@fluentui/svg-icons/icons/eye_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Eye12Filled = createIcon("Eye12Filled", Eye12FilledSvg);
-export const Eye12Regular = createIcon("Eye12Regular", Eye12RegularSvg);
-export const Eye16Filled = createIcon("Eye16Filled", Eye16FilledSvg);
-export const Eye16Regular = createIcon("Eye16Regular", Eye16RegularSvg);
-export const Eye20Filled = createIcon("Eye20Filled", Eye20FilledSvg);
-export const Eye20Regular = createIcon("Eye20Regular", Eye20RegularSvg);
-export const Eye24Filled = createIcon("Eye24Filled", Eye24FilledSvg);
-export const Eye24Regular = createIcon("Eye24Regular", Eye24RegularSvg);
-export const Eye28Filled = createIcon("Eye28Filled", Eye28FilledSvg);
-export const Eye28Regular = createIcon("Eye28Regular", Eye28RegularSvg);
-export const Eye32Filled = createIcon("Eye32Filled", Eye32FilledSvg);
-export const Eye32Light = createIcon("Eye32Light", Eye32LightSvg);
-export const Eye32Regular = createIcon("Eye32Regular", Eye32RegularSvg);
-export const Eye48Filled = createIcon("Eye48Filled", Eye48FilledSvg);
-export const Eye48Regular = createIcon("Eye48Regular", Eye48RegularSvg);
+export const Eye12Filled = /** #__PURE__ */ createIcon("Eye12Filled", "12", Eye12FilledSvg);
+export const Eye12Regular = /** #__PURE__ */ createIcon("Eye12Regular", "12", Eye12RegularSvg);
+export const Eye16Filled = /** #__PURE__ */ createIcon("Eye16Filled", "16", Eye16FilledSvg);
+export const Eye16Regular = /** #__PURE__ */ createIcon("Eye16Regular", "16", Eye16RegularSvg);
+export const Eye20Filled = /** #__PURE__ */ createIcon("Eye20Filled", "20", Eye20FilledSvg);
+export const EyeFilled = /** #__PURE__ */ createIcon("EyeFilled", "1em", Eye20FilledSvg);
+export const Eye20Regular = /** #__PURE__ */ createIcon("Eye20Regular", "20", Eye20RegularSvg);
+export const EyeRegular = /** #__PURE__ */ createIcon("EyeRegular", "1em", Eye20RegularSvg);
+export const Eye24Filled = /** #__PURE__ */ createIcon("Eye24Filled", "24", Eye24FilledSvg);
+export const Eye24Regular = /** #__PURE__ */ createIcon("Eye24Regular", "24", Eye24RegularSvg);
+export const Eye28Filled = /** #__PURE__ */ createIcon("Eye28Filled", "28", Eye28FilledSvg);
+export const Eye28Regular = /** #__PURE__ */ createIcon("Eye28Regular", "28", Eye28RegularSvg);
+export const Eye32Filled = /** #__PURE__ */ createIcon("Eye32Filled", "32", Eye32FilledSvg);
+export const Eye32Light = /** #__PURE__ */ createIcon("Eye32Light", "32", Eye32LightSvg);
+export const Eye32Regular = /** #__PURE__ */ createIcon("Eye32Regular", "32", Eye32RegularSvg);
+export const Eye48Filled = /** #__PURE__ */ createIcon("Eye48Filled", "48", Eye48FilledSvg);
+export const Eye48Regular = /** #__PURE__ */ createIcon("Eye48Regular", "48", Eye48RegularSvg);

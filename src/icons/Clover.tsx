@@ -11,15 +11,17 @@ import Clover32RegularSvg from "@fluentui/svg-icons/icons/clover_32_regular.svg"
 import Clover48FilledSvg from "@fluentui/svg-icons/icons/clover_48_filled.svg" with { type: "text" }
 import Clover48RegularSvg from "@fluentui/svg-icons/icons/clover_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Clover16Filled = createIcon("Clover16Filled", Clover16FilledSvg);
-export const Clover16Regular = createIcon("Clover16Regular", Clover16RegularSvg);
-export const Clover20Filled = createIcon("Clover20Filled", Clover20FilledSvg);
-export const Clover20Regular = createIcon("Clover20Regular", Clover20RegularSvg);
-export const Clover24Filled = createIcon("Clover24Filled", Clover24FilledSvg);
-export const Clover24Regular = createIcon("Clover24Regular", Clover24RegularSvg);
-export const Clover28Filled = createIcon("Clover28Filled", Clover28FilledSvg);
-export const Clover28Regular = createIcon("Clover28Regular", Clover28RegularSvg);
-export const Clover32Filled = createIcon("Clover32Filled", Clover32FilledSvg);
-export const Clover32Regular = createIcon("Clover32Regular", Clover32RegularSvg);
-export const Clover48Filled = createIcon("Clover48Filled", Clover48FilledSvg);
-export const Clover48Regular = createIcon("Clover48Regular", Clover48RegularSvg);
+export const Clover16Filled = /** #__PURE__ */ createIcon("Clover16Filled", "16", Clover16FilledSvg);
+export const Clover16Regular = /** #__PURE__ */ createIcon("Clover16Regular", "16", Clover16RegularSvg);
+export const Clover20Filled = /** #__PURE__ */ createIcon("Clover20Filled", "20", Clover20FilledSvg);
+export const CloverFilled = /** #__PURE__ */ createIcon("CloverFilled", "1em", Clover20FilledSvg);
+export const Clover20Regular = /** #__PURE__ */ createIcon("Clover20Regular", "20", Clover20RegularSvg);
+export const CloverRegular = /** #__PURE__ */ createIcon("CloverRegular", "1em", Clover20RegularSvg);
+export const Clover24Filled = /** #__PURE__ */ createIcon("Clover24Filled", "24", Clover24FilledSvg);
+export const Clover24Regular = /** #__PURE__ */ createIcon("Clover24Regular", "24", Clover24RegularSvg);
+export const Clover28Filled = /** #__PURE__ */ createIcon("Clover28Filled", "28", Clover28FilledSvg);
+export const Clover28Regular = /** #__PURE__ */ createIcon("Clover28Regular", "28", Clover28RegularSvg);
+export const Clover32Filled = /** #__PURE__ */ createIcon("Clover32Filled", "32", Clover32FilledSvg);
+export const Clover32Regular = /** #__PURE__ */ createIcon("Clover32Regular", "32", Clover32RegularSvg);
+export const Clover48Filled = /** #__PURE__ */ createIcon("Clover48Filled", "48", Clover48FilledSvg);
+export const Clover48Regular = /** #__PURE__ */ createIcon("Clover48Regular", "48", Clover48RegularSvg);

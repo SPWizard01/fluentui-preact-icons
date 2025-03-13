@@ -9,13 +9,15 @@ import MicProhibited28RegularSvg from "@fluentui/svg-icons/icons/mic_prohibited_
 import MicProhibited48FilledSvg from "@fluentui/svg-icons/icons/mic_prohibited_48_filled.svg" with { type: "text" }
 import MicProhibited48RegularSvg from "@fluentui/svg-icons/icons/mic_prohibited_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const MicProhibited16Filled = createIcon("MicProhibited16Filled", MicProhibited16FilledSvg);
-export const MicProhibited16Regular = createIcon("MicProhibited16Regular", MicProhibited16RegularSvg);
-export const MicProhibited20Filled = createIcon("MicProhibited20Filled", MicProhibited20FilledSvg);
-export const MicProhibited20Regular = createIcon("MicProhibited20Regular", MicProhibited20RegularSvg);
-export const MicProhibited24Filled = createIcon("MicProhibited24Filled", MicProhibited24FilledSvg);
-export const MicProhibited24Regular = createIcon("MicProhibited24Regular", MicProhibited24RegularSvg);
-export const MicProhibited28Filled = createIcon("MicProhibited28Filled", MicProhibited28FilledSvg);
-export const MicProhibited28Regular = createIcon("MicProhibited28Regular", MicProhibited28RegularSvg);
-export const MicProhibited48Filled = createIcon("MicProhibited48Filled", MicProhibited48FilledSvg);
-export const MicProhibited48Regular = createIcon("MicProhibited48Regular", MicProhibited48RegularSvg);
+export const MicProhibited16Filled = /** #__PURE__ */ createIcon("MicProhibited16Filled", "16", MicProhibited16FilledSvg);
+export const MicProhibited16Regular = /** #__PURE__ */ createIcon("MicProhibited16Regular", "16", MicProhibited16RegularSvg);
+export const MicProhibited20Filled = /** #__PURE__ */ createIcon("MicProhibited20Filled", "20", MicProhibited20FilledSvg);
+export const MicProhibitedFilled = /** #__PURE__ */ createIcon("MicProhibitedFilled", "1em", MicProhibited20FilledSvg);
+export const MicProhibited20Regular = /** #__PURE__ */ createIcon("MicProhibited20Regular", "20", MicProhibited20RegularSvg);
+export const MicProhibitedRegular = /** #__PURE__ */ createIcon("MicProhibitedRegular", "1em", MicProhibited20RegularSvg);
+export const MicProhibited24Filled = /** #__PURE__ */ createIcon("MicProhibited24Filled", "24", MicProhibited24FilledSvg);
+export const MicProhibited24Regular = /** #__PURE__ */ createIcon("MicProhibited24Regular", "24", MicProhibited24RegularSvg);
+export const MicProhibited28Filled = /** #__PURE__ */ createIcon("MicProhibited28Filled", "28", MicProhibited28FilledSvg);
+export const MicProhibited28Regular = /** #__PURE__ */ createIcon("MicProhibited28Regular", "28", MicProhibited28RegularSvg);
+export const MicProhibited48Filled = /** #__PURE__ */ createIcon("MicProhibited48Filled", "48", MicProhibited48FilledSvg);
+export const MicProhibited48Regular = /** #__PURE__ */ createIcon("MicProhibited48Regular", "48", MicProhibited48RegularSvg);

@@ -11,15 +11,17 @@ import MeetNow32RegularSvg from "@fluentui/svg-icons/icons/meet_now_32_regular.s
 import MeetNow48FilledSvg from "@fluentui/svg-icons/icons/meet_now_48_filled.svg" with { type: "text" }
 import MeetNow48RegularSvg from "@fluentui/svg-icons/icons/meet_now_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const MeetNow16Filled = createIcon("MeetNow16Filled", MeetNow16FilledSvg);
-export const MeetNow16Regular = createIcon("MeetNow16Regular", MeetNow16RegularSvg);
-export const MeetNow20Filled = createIcon("MeetNow20Filled", MeetNow20FilledSvg);
-export const MeetNow20Regular = createIcon("MeetNow20Regular", MeetNow20RegularSvg);
-export const MeetNow24Filled = createIcon("MeetNow24Filled", MeetNow24FilledSvg);
-export const MeetNow24Regular = createIcon("MeetNow24Regular", MeetNow24RegularSvg);
-export const MeetNow28Filled = createIcon("MeetNow28Filled", MeetNow28FilledSvg);
-export const MeetNow28Regular = createIcon("MeetNow28Regular", MeetNow28RegularSvg);
-export const MeetNow32Filled = createIcon("MeetNow32Filled", MeetNow32FilledSvg);
-export const MeetNow32Regular = createIcon("MeetNow32Regular", MeetNow32RegularSvg);
-export const MeetNow48Filled = createIcon("MeetNow48Filled", MeetNow48FilledSvg);
-export const MeetNow48Regular = createIcon("MeetNow48Regular", MeetNow48RegularSvg);
+export const MeetNow16Filled = /** #__PURE__ */ createIcon("MeetNow16Filled", "16", MeetNow16FilledSvg);
+export const MeetNow16Regular = /** #__PURE__ */ createIcon("MeetNow16Regular", "16", MeetNow16RegularSvg);
+export const MeetNow20Filled = /** #__PURE__ */ createIcon("MeetNow20Filled", "20", MeetNow20FilledSvg);
+export const MeetNowFilled = /** #__PURE__ */ createIcon("MeetNowFilled", "1em", MeetNow20FilledSvg);
+export const MeetNow20Regular = /** #__PURE__ */ createIcon("MeetNow20Regular", "20", MeetNow20RegularSvg);
+export const MeetNowRegular = /** #__PURE__ */ createIcon("MeetNowRegular", "1em", MeetNow20RegularSvg);
+export const MeetNow24Filled = /** #__PURE__ */ createIcon("MeetNow24Filled", "24", MeetNow24FilledSvg);
+export const MeetNow24Regular = /** #__PURE__ */ createIcon("MeetNow24Regular", "24", MeetNow24RegularSvg);
+export const MeetNow28Filled = /** #__PURE__ */ createIcon("MeetNow28Filled", "28", MeetNow28FilledSvg);
+export const MeetNow28Regular = /** #__PURE__ */ createIcon("MeetNow28Regular", "28", MeetNow28RegularSvg);
+export const MeetNow32Filled = /** #__PURE__ */ createIcon("MeetNow32Filled", "32", MeetNow32FilledSvg);
+export const MeetNow32Regular = /** #__PURE__ */ createIcon("MeetNow32Regular", "32", MeetNow32RegularSvg);
+export const MeetNow48Filled = /** #__PURE__ */ createIcon("MeetNow48Filled", "48", MeetNow48FilledSvg);
+export const MeetNow48Regular = /** #__PURE__ */ createIcon("MeetNow48Regular", "48", MeetNow48RegularSvg);

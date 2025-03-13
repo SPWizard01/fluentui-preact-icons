@@ -13,17 +13,19 @@ import ChevronCircleUp32RegularSvg from "@fluentui/svg-icons/icons/chevron_circl
 import ChevronCircleUp48FilledSvg from "@fluentui/svg-icons/icons/chevron_circle_up_48_filled.svg" with { type: "text" }
 import ChevronCircleUp48RegularSvg from "@fluentui/svg-icons/icons/chevron_circle_up_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ChevronCircleUp12Filled = createIcon("ChevronCircleUp12Filled", ChevronCircleUp12FilledSvg);
-export const ChevronCircleUp12Regular = createIcon("ChevronCircleUp12Regular", ChevronCircleUp12RegularSvg);
-export const ChevronCircleUp16Filled = createIcon("ChevronCircleUp16Filled", ChevronCircleUp16FilledSvg);
-export const ChevronCircleUp16Regular = createIcon("ChevronCircleUp16Regular", ChevronCircleUp16RegularSvg);
-export const ChevronCircleUp20Filled = createIcon("ChevronCircleUp20Filled", ChevronCircleUp20FilledSvg);
-export const ChevronCircleUp20Regular = createIcon("ChevronCircleUp20Regular", ChevronCircleUp20RegularSvg);
-export const ChevronCircleUp24Filled = createIcon("ChevronCircleUp24Filled", ChevronCircleUp24FilledSvg);
-export const ChevronCircleUp24Regular = createIcon("ChevronCircleUp24Regular", ChevronCircleUp24RegularSvg);
-export const ChevronCircleUp28Filled = createIcon("ChevronCircleUp28Filled", ChevronCircleUp28FilledSvg);
-export const ChevronCircleUp28Regular = createIcon("ChevronCircleUp28Regular", ChevronCircleUp28RegularSvg);
-export const ChevronCircleUp32Filled = createIcon("ChevronCircleUp32Filled", ChevronCircleUp32FilledSvg);
-export const ChevronCircleUp32Regular = createIcon("ChevronCircleUp32Regular", ChevronCircleUp32RegularSvg);
-export const ChevronCircleUp48Filled = createIcon("ChevronCircleUp48Filled", ChevronCircleUp48FilledSvg);
-export const ChevronCircleUp48Regular = createIcon("ChevronCircleUp48Regular", ChevronCircleUp48RegularSvg);
+export const ChevronCircleUp12Filled = /** #__PURE__ */ createIcon("ChevronCircleUp12Filled", "12", ChevronCircleUp12FilledSvg);
+export const ChevronCircleUp12Regular = /** #__PURE__ */ createIcon("ChevronCircleUp12Regular", "12", ChevronCircleUp12RegularSvg);
+export const ChevronCircleUp16Filled = /** #__PURE__ */ createIcon("ChevronCircleUp16Filled", "16", ChevronCircleUp16FilledSvg);
+export const ChevronCircleUp16Regular = /** #__PURE__ */ createIcon("ChevronCircleUp16Regular", "16", ChevronCircleUp16RegularSvg);
+export const ChevronCircleUp20Filled = /** #__PURE__ */ createIcon("ChevronCircleUp20Filled", "20", ChevronCircleUp20FilledSvg);
+export const ChevronCircleUpFilled = /** #__PURE__ */ createIcon("ChevronCircleUpFilled", "1em", ChevronCircleUp20FilledSvg);
+export const ChevronCircleUp20Regular = /** #__PURE__ */ createIcon("ChevronCircleUp20Regular", "20", ChevronCircleUp20RegularSvg);
+export const ChevronCircleUpRegular = /** #__PURE__ */ createIcon("ChevronCircleUpRegular", "1em", ChevronCircleUp20RegularSvg);
+export const ChevronCircleUp24Filled = /** #__PURE__ */ createIcon("ChevronCircleUp24Filled", "24", ChevronCircleUp24FilledSvg);
+export const ChevronCircleUp24Regular = /** #__PURE__ */ createIcon("ChevronCircleUp24Regular", "24", ChevronCircleUp24RegularSvg);
+export const ChevronCircleUp28Filled = /** #__PURE__ */ createIcon("ChevronCircleUp28Filled", "28", ChevronCircleUp28FilledSvg);
+export const ChevronCircleUp28Regular = /** #__PURE__ */ createIcon("ChevronCircleUp28Regular", "28", ChevronCircleUp28RegularSvg);
+export const ChevronCircleUp32Filled = /** #__PURE__ */ createIcon("ChevronCircleUp32Filled", "32", ChevronCircleUp32FilledSvg);
+export const ChevronCircleUp32Regular = /** #__PURE__ */ createIcon("ChevronCircleUp32Regular", "32", ChevronCircleUp32RegularSvg);
+export const ChevronCircleUp48Filled = /** #__PURE__ */ createIcon("ChevronCircleUp48Filled", "48", ChevronCircleUp48FilledSvg);
+export const ChevronCircleUp48Regular = /** #__PURE__ */ createIcon("ChevronCircleUp48Regular", "48", ChevronCircleUp48RegularSvg);

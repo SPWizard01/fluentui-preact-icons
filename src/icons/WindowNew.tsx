@@ -5,9 +5,11 @@ import WindowNew20RegularSvg from "@fluentui/svg-icons/icons/window_new_20_regul
 import WindowNew24FilledSvg from "@fluentui/svg-icons/icons/window_new_24_filled.svg" with { type: "text" }
 import WindowNew24RegularSvg from "@fluentui/svg-icons/icons/window_new_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const WindowNew16Filled = createIcon("WindowNew16Filled", WindowNew16FilledSvg);
-export const WindowNew16Regular = createIcon("WindowNew16Regular", WindowNew16RegularSvg);
-export const WindowNew20Filled = createIcon("WindowNew20Filled", WindowNew20FilledSvg);
-export const WindowNew20Regular = createIcon("WindowNew20Regular", WindowNew20RegularSvg);
-export const WindowNew24Filled = createIcon("WindowNew24Filled", WindowNew24FilledSvg);
-export const WindowNew24Regular = createIcon("WindowNew24Regular", WindowNew24RegularSvg);
+export const WindowNew16Filled = /** #__PURE__ */ createIcon("WindowNew16Filled", "16", WindowNew16FilledSvg);
+export const WindowNew16Regular = /** #__PURE__ */ createIcon("WindowNew16Regular", "16", WindowNew16RegularSvg);
+export const WindowNew20Filled = /** #__PURE__ */ createIcon("WindowNew20Filled", "20", WindowNew20FilledSvg);
+export const WindowNewFilled = /** #__PURE__ */ createIcon("WindowNewFilled", "1em", WindowNew20FilledSvg);
+export const WindowNew20Regular = /** #__PURE__ */ createIcon("WindowNew20Regular", "20", WindowNew20RegularSvg);
+export const WindowNewRegular = /** #__PURE__ */ createIcon("WindowNewRegular", "1em", WindowNew20RegularSvg);
+export const WindowNew24Filled = /** #__PURE__ */ createIcon("WindowNew24Filled", "24", WindowNew24FilledSvg);
+export const WindowNew24Regular = /** #__PURE__ */ createIcon("WindowNew24Regular", "24", WindowNew24RegularSvg);

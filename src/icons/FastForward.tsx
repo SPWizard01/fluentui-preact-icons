@@ -7,11 +7,13 @@ import FastForward24RegularSvg from "@fluentui/svg-icons/icons/fast_forward_24_r
 import FastForward28FilledSvg from "@fluentui/svg-icons/icons/fast_forward_28_filled.svg" with { type: "text" }
 import FastForward28RegularSvg from "@fluentui/svg-icons/icons/fast_forward_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const FastForward16Filled = createIcon("FastForward16Filled", FastForward16FilledSvg);
-export const FastForward16Regular = createIcon("FastForward16Regular", FastForward16RegularSvg);
-export const FastForward20Filled = createIcon("FastForward20Filled", FastForward20FilledSvg);
-export const FastForward20Regular = createIcon("FastForward20Regular", FastForward20RegularSvg);
-export const FastForward24Filled = createIcon("FastForward24Filled", FastForward24FilledSvg);
-export const FastForward24Regular = createIcon("FastForward24Regular", FastForward24RegularSvg);
-export const FastForward28Filled = createIcon("FastForward28Filled", FastForward28FilledSvg);
-export const FastForward28Regular = createIcon("FastForward28Regular", FastForward28RegularSvg);
+export const FastForward16Filled = /** #__PURE__ */ createIcon("FastForward16Filled", "16", FastForward16FilledSvg);
+export const FastForward16Regular = /** #__PURE__ */ createIcon("FastForward16Regular", "16", FastForward16RegularSvg);
+export const FastForward20Filled = /** #__PURE__ */ createIcon("FastForward20Filled", "20", FastForward20FilledSvg);
+export const FastForwardFilled = /** #__PURE__ */ createIcon("FastForwardFilled", "1em", FastForward20FilledSvg);
+export const FastForward20Regular = /** #__PURE__ */ createIcon("FastForward20Regular", "20", FastForward20RegularSvg);
+export const FastForwardRegular = /** #__PURE__ */ createIcon("FastForwardRegular", "1em", FastForward20RegularSvg);
+export const FastForward24Filled = /** #__PURE__ */ createIcon("FastForward24Filled", "24", FastForward24FilledSvg);
+export const FastForward24Regular = /** #__PURE__ */ createIcon("FastForward24Regular", "24", FastForward24RegularSvg);
+export const FastForward28Filled = /** #__PURE__ */ createIcon("FastForward28Filled", "28", FastForward28FilledSvg);
+export const FastForward28Regular = /** #__PURE__ */ createIcon("FastForward28Regular", "28", FastForward28RegularSvg);

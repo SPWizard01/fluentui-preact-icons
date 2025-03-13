@@ -11,15 +11,18 @@ import TextBulletListSquareSparkle32ColorSvg from "@fluentui/svg-icons/icons/tex
 import TextBulletListSquareSparkle32FilledSvg from "@fluentui/svg-icons/icons/text_bullet_list_square_sparkle_32_filled.svg" with { type: "text" }
 import TextBulletListSquareSparkle32RegularSvg from "@fluentui/svg-icons/icons/text_bullet_list_square_sparkle_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TextBulletListSquareSparkle16Color = createIcon("TextBulletListSquareSparkle16Color", TextBulletListSquareSparkle16ColorSvg);
-export const TextBulletListSquareSparkle16Filled = createIcon("TextBulletListSquareSparkle16Filled", TextBulletListSquareSparkle16FilledSvg);
-export const TextBulletListSquareSparkle16Regular = createIcon("TextBulletListSquareSparkle16Regular", TextBulletListSquareSparkle16RegularSvg);
-export const TextBulletListSquareSparkle20Color = createIcon("TextBulletListSquareSparkle20Color", TextBulletListSquareSparkle20ColorSvg);
-export const TextBulletListSquareSparkle20Filled = createIcon("TextBulletListSquareSparkle20Filled", TextBulletListSquareSparkle20FilledSvg);
-export const TextBulletListSquareSparkle20Regular = createIcon("TextBulletListSquareSparkle20Regular", TextBulletListSquareSparkle20RegularSvg);
-export const TextBulletListSquareSparkle24Color = createIcon("TextBulletListSquareSparkle24Color", TextBulletListSquareSparkle24ColorSvg);
-export const TextBulletListSquareSparkle24Filled = createIcon("TextBulletListSquareSparkle24Filled", TextBulletListSquareSparkle24FilledSvg);
-export const TextBulletListSquareSparkle24Regular = createIcon("TextBulletListSquareSparkle24Regular", TextBulletListSquareSparkle24RegularSvg);
-export const TextBulletListSquareSparkle32Color = createIcon("TextBulletListSquareSparkle32Color", TextBulletListSquareSparkle32ColorSvg);
-export const TextBulletListSquareSparkle32Filled = createIcon("TextBulletListSquareSparkle32Filled", TextBulletListSquareSparkle32FilledSvg);
-export const TextBulletListSquareSparkle32Regular = createIcon("TextBulletListSquareSparkle32Regular", TextBulletListSquareSparkle32RegularSvg);
+export const TextBulletListSquareSparkle16Color = /** #__PURE__ */ createIcon("TextBulletListSquareSparkle16Color", "16", TextBulletListSquareSparkle16ColorSvg);
+export const TextBulletListSquareSparkle16Filled = /** #__PURE__ */ createIcon("TextBulletListSquareSparkle16Filled", "16", TextBulletListSquareSparkle16FilledSvg);
+export const TextBulletListSquareSparkle16Regular = /** #__PURE__ */ createIcon("TextBulletListSquareSparkle16Regular", "16", TextBulletListSquareSparkle16RegularSvg);
+export const TextBulletListSquareSparkle20Color = /** #__PURE__ */ createIcon("TextBulletListSquareSparkle20Color", "20", TextBulletListSquareSparkle20ColorSvg);
+export const TextBulletListSquareSparkleColor = /** #__PURE__ */ createIcon("TextBulletListSquareSparkleColor", "1em", TextBulletListSquareSparkle20ColorSvg);
+export const TextBulletListSquareSparkle20Filled = /** #__PURE__ */ createIcon("TextBulletListSquareSparkle20Filled", "20", TextBulletListSquareSparkle20FilledSvg);
+export const TextBulletListSquareSparkleFilled = /** #__PURE__ */ createIcon("TextBulletListSquareSparkleFilled", "1em", TextBulletListSquareSparkle20FilledSvg);
+export const TextBulletListSquareSparkle20Regular = /** #__PURE__ */ createIcon("TextBulletListSquareSparkle20Regular", "20", TextBulletListSquareSparkle20RegularSvg);
+export const TextBulletListSquareSparkleRegular = /** #__PURE__ */ createIcon("TextBulletListSquareSparkleRegular", "1em", TextBulletListSquareSparkle20RegularSvg);
+export const TextBulletListSquareSparkle24Color = /** #__PURE__ */ createIcon("TextBulletListSquareSparkle24Color", "24", TextBulletListSquareSparkle24ColorSvg);
+export const TextBulletListSquareSparkle24Filled = /** #__PURE__ */ createIcon("TextBulletListSquareSparkle24Filled", "24", TextBulletListSquareSparkle24FilledSvg);
+export const TextBulletListSquareSparkle24Regular = /** #__PURE__ */ createIcon("TextBulletListSquareSparkle24Regular", "24", TextBulletListSquareSparkle24RegularSvg);
+export const TextBulletListSquareSparkle32Color = /** #__PURE__ */ createIcon("TextBulletListSquareSparkle32Color", "32", TextBulletListSquareSparkle32ColorSvg);
+export const TextBulletListSquareSparkle32Filled = /** #__PURE__ */ createIcon("TextBulletListSquareSparkle32Filled", "32", TextBulletListSquareSparkle32FilledSvg);
+export const TextBulletListSquareSparkle32Regular = /** #__PURE__ */ createIcon("TextBulletListSquareSparkle32Regular", "32", TextBulletListSquareSparkle32RegularSvg);

@@ -13,17 +13,19 @@ import Search32RegularSvg from "@fluentui/svg-icons/icons/search_32_regular.svg"
 import Search48FilledSvg from "@fluentui/svg-icons/icons/search_48_filled.svg" with { type: "text" }
 import Search48RegularSvg from "@fluentui/svg-icons/icons/search_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Search12Filled = createIcon("Search12Filled", Search12FilledSvg);
-export const Search12Regular = createIcon("Search12Regular", Search12RegularSvg);
-export const Search16Filled = createIcon("Search16Filled", Search16FilledSvg);
-export const Search16Regular = createIcon("Search16Regular", Search16RegularSvg);
-export const Search20Filled = createIcon("Search20Filled", Search20FilledSvg);
-export const Search20Regular = createIcon("Search20Regular", Search20RegularSvg);
-export const Search24Filled = createIcon("Search24Filled", Search24FilledSvg);
-export const Search24Regular = createIcon("Search24Regular", Search24RegularSvg);
-export const Search28Filled = createIcon("Search28Filled", Search28FilledSvg);
-export const Search28Regular = createIcon("Search28Regular", Search28RegularSvg);
-export const Search32Filled = createIcon("Search32Filled", Search32FilledSvg);
-export const Search32Regular = createIcon("Search32Regular", Search32RegularSvg);
-export const Search48Filled = createIcon("Search48Filled", Search48FilledSvg);
-export const Search48Regular = createIcon("Search48Regular", Search48RegularSvg);
+export const Search12Filled = /** #__PURE__ */ createIcon("Search12Filled", "12", Search12FilledSvg);
+export const Search12Regular = /** #__PURE__ */ createIcon("Search12Regular", "12", Search12RegularSvg);
+export const Search16Filled = /** #__PURE__ */ createIcon("Search16Filled", "16", Search16FilledSvg);
+export const Search16Regular = /** #__PURE__ */ createIcon("Search16Regular", "16", Search16RegularSvg);
+export const Search20Filled = /** #__PURE__ */ createIcon("Search20Filled", "20", Search20FilledSvg);
+export const SearchFilled = /** #__PURE__ */ createIcon("SearchFilled", "1em", Search20FilledSvg);
+export const Search20Regular = /** #__PURE__ */ createIcon("Search20Regular", "20", Search20RegularSvg);
+export const SearchRegular = /** #__PURE__ */ createIcon("SearchRegular", "1em", Search20RegularSvg);
+export const Search24Filled = /** #__PURE__ */ createIcon("Search24Filled", "24", Search24FilledSvg);
+export const Search24Regular = /** #__PURE__ */ createIcon("Search24Regular", "24", Search24RegularSvg);
+export const Search28Filled = /** #__PURE__ */ createIcon("Search28Filled", "28", Search28FilledSvg);
+export const Search28Regular = /** #__PURE__ */ createIcon("Search28Regular", "28", Search28RegularSvg);
+export const Search32Filled = /** #__PURE__ */ createIcon("Search32Filled", "32", Search32FilledSvg);
+export const Search32Regular = /** #__PURE__ */ createIcon("Search32Regular", "32", Search32RegularSvg);
+export const Search48Filled = /** #__PURE__ */ createIcon("Search48Filled", "48", Search48FilledSvg);
+export const Search48Regular = /** #__PURE__ */ createIcon("Search48Regular", "48", Search48RegularSvg);

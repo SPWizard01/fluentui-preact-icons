@@ -9,13 +9,15 @@ import LeafTwo32RegularSvg from "@fluentui/svg-icons/icons/leaf_two_32_regular.s
 import LeafTwo48FilledSvg from "@fluentui/svg-icons/icons/leaf_two_48_filled.svg" with { type: "text" }
 import LeafTwo48RegularSvg from "@fluentui/svg-icons/icons/leaf_two_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const LeafTwo16Filled = createIcon("LeafTwo16Filled", LeafTwo16FilledSvg);
-export const LeafTwo16Regular = createIcon("LeafTwo16Regular", LeafTwo16RegularSvg);
-export const LeafTwo20Filled = createIcon("LeafTwo20Filled", LeafTwo20FilledSvg);
-export const LeafTwo20Regular = createIcon("LeafTwo20Regular", LeafTwo20RegularSvg);
-export const LeafTwo24Filled = createIcon("LeafTwo24Filled", LeafTwo24FilledSvg);
-export const LeafTwo24Regular = createIcon("LeafTwo24Regular", LeafTwo24RegularSvg);
-export const LeafTwo32Filled = createIcon("LeafTwo32Filled", LeafTwo32FilledSvg);
-export const LeafTwo32Regular = createIcon("LeafTwo32Regular", LeafTwo32RegularSvg);
-export const LeafTwo48Filled = createIcon("LeafTwo48Filled", LeafTwo48FilledSvg);
-export const LeafTwo48Regular = createIcon("LeafTwo48Regular", LeafTwo48RegularSvg);
+export const LeafTwo16Filled = /** #__PURE__ */ createIcon("LeafTwo16Filled", "16", LeafTwo16FilledSvg);
+export const LeafTwo16Regular = /** #__PURE__ */ createIcon("LeafTwo16Regular", "16", LeafTwo16RegularSvg);
+export const LeafTwo20Filled = /** #__PURE__ */ createIcon("LeafTwo20Filled", "20", LeafTwo20FilledSvg);
+export const LeafTwoFilled = /** #__PURE__ */ createIcon("LeafTwoFilled", "1em", LeafTwo20FilledSvg);
+export const LeafTwo20Regular = /** #__PURE__ */ createIcon("LeafTwo20Regular", "20", LeafTwo20RegularSvg);
+export const LeafTwoRegular = /** #__PURE__ */ createIcon("LeafTwoRegular", "1em", LeafTwo20RegularSvg);
+export const LeafTwo24Filled = /** #__PURE__ */ createIcon("LeafTwo24Filled", "24", LeafTwo24FilledSvg);
+export const LeafTwo24Regular = /** #__PURE__ */ createIcon("LeafTwo24Regular", "24", LeafTwo24RegularSvg);
+export const LeafTwo32Filled = /** #__PURE__ */ createIcon("LeafTwo32Filled", "32", LeafTwo32FilledSvg);
+export const LeafTwo32Regular = /** #__PURE__ */ createIcon("LeafTwo32Regular", "32", LeafTwo32RegularSvg);
+export const LeafTwo48Filled = /** #__PURE__ */ createIcon("LeafTwo48Filled", "48", LeafTwo48FilledSvg);
+export const LeafTwo48Regular = /** #__PURE__ */ createIcon("LeafTwo48Regular", "48", LeafTwo48RegularSvg);

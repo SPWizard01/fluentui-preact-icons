@@ -7,11 +7,13 @@ import CompassNorthwest24RegularSvg from "@fluentui/svg-icons/icons/compass_nort
 import CompassNorthwest28FilledSvg from "@fluentui/svg-icons/icons/compass_northwest_28_filled.svg" with { type: "text" }
 import CompassNorthwest28RegularSvg from "@fluentui/svg-icons/icons/compass_northwest_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CompassNorthwest16Filled = createIcon("CompassNorthwest16Filled", CompassNorthwest16FilledSvg);
-export const CompassNorthwest16Regular = createIcon("CompassNorthwest16Regular", CompassNorthwest16RegularSvg);
-export const CompassNorthwest20Filled = createIcon("CompassNorthwest20Filled", CompassNorthwest20FilledSvg);
-export const CompassNorthwest20Regular = createIcon("CompassNorthwest20Regular", CompassNorthwest20RegularSvg);
-export const CompassNorthwest24Filled = createIcon("CompassNorthwest24Filled", CompassNorthwest24FilledSvg);
-export const CompassNorthwest24Regular = createIcon("CompassNorthwest24Regular", CompassNorthwest24RegularSvg);
-export const CompassNorthwest28Filled = createIcon("CompassNorthwest28Filled", CompassNorthwest28FilledSvg);
-export const CompassNorthwest28Regular = createIcon("CompassNorthwest28Regular", CompassNorthwest28RegularSvg);
+export const CompassNorthwest16Filled = /** #__PURE__ */ createIcon("CompassNorthwest16Filled", "16", CompassNorthwest16FilledSvg);
+export const CompassNorthwest16Regular = /** #__PURE__ */ createIcon("CompassNorthwest16Regular", "16", CompassNorthwest16RegularSvg);
+export const CompassNorthwest20Filled = /** #__PURE__ */ createIcon("CompassNorthwest20Filled", "20", CompassNorthwest20FilledSvg);
+export const CompassNorthwestFilled = /** #__PURE__ */ createIcon("CompassNorthwestFilled", "1em", CompassNorthwest20FilledSvg);
+export const CompassNorthwest20Regular = /** #__PURE__ */ createIcon("CompassNorthwest20Regular", "20", CompassNorthwest20RegularSvg);
+export const CompassNorthwestRegular = /** #__PURE__ */ createIcon("CompassNorthwestRegular", "1em", CompassNorthwest20RegularSvg);
+export const CompassNorthwest24Filled = /** #__PURE__ */ createIcon("CompassNorthwest24Filled", "24", CompassNorthwest24FilledSvg);
+export const CompassNorthwest24Regular = /** #__PURE__ */ createIcon("CompassNorthwest24Regular", "24", CompassNorthwest24RegularSvg);
+export const CompassNorthwest28Filled = /** #__PURE__ */ createIcon("CompassNorthwest28Filled", "28", CompassNorthwest28FilledSvg);
+export const CompassNorthwest28Regular = /** #__PURE__ */ createIcon("CompassNorthwest28Regular", "28", CompassNorthwest28RegularSvg);

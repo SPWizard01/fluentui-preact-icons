@@ -5,9 +5,11 @@ import TextIndentDecreaseRtl20RegularSvg from "@fluentui/svg-icons/icons/text_in
 import TextIndentDecreaseRtl24FilledSvg from "@fluentui/svg-icons/icons/text_indent_decrease_rtl_24_filled.svg" with { type: "text" }
 import TextIndentDecreaseRtl24RegularSvg from "@fluentui/svg-icons/icons/text_indent_decrease_rtl_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TextIndentDecreaseRtl16Filled = createIcon("TextIndentDecreaseRtl16Filled", TextIndentDecreaseRtl16FilledSvg);
-export const TextIndentDecreaseRtl16Regular = createIcon("TextIndentDecreaseRtl16Regular", TextIndentDecreaseRtl16RegularSvg);
-export const TextIndentDecreaseRtl20Filled = createIcon("TextIndentDecreaseRtl20Filled", TextIndentDecreaseRtl20FilledSvg);
-export const TextIndentDecreaseRtl20Regular = createIcon("TextIndentDecreaseRtl20Regular", TextIndentDecreaseRtl20RegularSvg);
-export const TextIndentDecreaseRtl24Filled = createIcon("TextIndentDecreaseRtl24Filled", TextIndentDecreaseRtl24FilledSvg);
-export const TextIndentDecreaseRtl24Regular = createIcon("TextIndentDecreaseRtl24Regular", TextIndentDecreaseRtl24RegularSvg);
+export const TextIndentDecreaseRtl16Filled = /** #__PURE__ */ createIcon("TextIndentDecreaseRtl16Filled", "16", TextIndentDecreaseRtl16FilledSvg);
+export const TextIndentDecreaseRtl16Regular = /** #__PURE__ */ createIcon("TextIndentDecreaseRtl16Regular", "16", TextIndentDecreaseRtl16RegularSvg);
+export const TextIndentDecreaseRtl20Filled = /** #__PURE__ */ createIcon("TextIndentDecreaseRtl20Filled", "20", TextIndentDecreaseRtl20FilledSvg);
+export const TextIndentDecreaseRtlFilled = /** #__PURE__ */ createIcon("TextIndentDecreaseRtlFilled", "1em", TextIndentDecreaseRtl20FilledSvg);
+export const TextIndentDecreaseRtl20Regular = /** #__PURE__ */ createIcon("TextIndentDecreaseRtl20Regular", "20", TextIndentDecreaseRtl20RegularSvg);
+export const TextIndentDecreaseRtlRegular = /** #__PURE__ */ createIcon("TextIndentDecreaseRtlRegular", "1em", TextIndentDecreaseRtl20RegularSvg);
+export const TextIndentDecreaseRtl24Filled = /** #__PURE__ */ createIcon("TextIndentDecreaseRtl24Filled", "24", TextIndentDecreaseRtl24FilledSvg);
+export const TextIndentDecreaseRtl24Regular = /** #__PURE__ */ createIcon("TextIndentDecreaseRtl24Regular", "24", TextIndentDecreaseRtl24RegularSvg);

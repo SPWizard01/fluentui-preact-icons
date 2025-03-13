@@ -11,15 +11,17 @@ import PersonHome32RegularSvg from "@fluentui/svg-icons/icons/person_home_32_reg
 import PersonHome48FilledSvg from "@fluentui/svg-icons/icons/person_home_48_filled.svg" with { type: "text" }
 import PersonHome48RegularSvg from "@fluentui/svg-icons/icons/person_home_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PersonHome16Filled = createIcon("PersonHome16Filled", PersonHome16FilledSvg);
-export const PersonHome16Regular = createIcon("PersonHome16Regular", PersonHome16RegularSvg);
-export const PersonHome20Filled = createIcon("PersonHome20Filled", PersonHome20FilledSvg);
-export const PersonHome20Regular = createIcon("PersonHome20Regular", PersonHome20RegularSvg);
-export const PersonHome24Filled = createIcon("PersonHome24Filled", PersonHome24FilledSvg);
-export const PersonHome24Regular = createIcon("PersonHome24Regular", PersonHome24RegularSvg);
-export const PersonHome28Filled = createIcon("PersonHome28Filled", PersonHome28FilledSvg);
-export const PersonHome28Regular = createIcon("PersonHome28Regular", PersonHome28RegularSvg);
-export const PersonHome32Filled = createIcon("PersonHome32Filled", PersonHome32FilledSvg);
-export const PersonHome32Regular = createIcon("PersonHome32Regular", PersonHome32RegularSvg);
-export const PersonHome48Filled = createIcon("PersonHome48Filled", PersonHome48FilledSvg);
-export const PersonHome48Regular = createIcon("PersonHome48Regular", PersonHome48RegularSvg);
+export const PersonHome16Filled = /** #__PURE__ */ createIcon("PersonHome16Filled", "16", PersonHome16FilledSvg);
+export const PersonHome16Regular = /** #__PURE__ */ createIcon("PersonHome16Regular", "16", PersonHome16RegularSvg);
+export const PersonHome20Filled = /** #__PURE__ */ createIcon("PersonHome20Filled", "20", PersonHome20FilledSvg);
+export const PersonHomeFilled = /** #__PURE__ */ createIcon("PersonHomeFilled", "1em", PersonHome20FilledSvg);
+export const PersonHome20Regular = /** #__PURE__ */ createIcon("PersonHome20Regular", "20", PersonHome20RegularSvg);
+export const PersonHomeRegular = /** #__PURE__ */ createIcon("PersonHomeRegular", "1em", PersonHome20RegularSvg);
+export const PersonHome24Filled = /** #__PURE__ */ createIcon("PersonHome24Filled", "24", PersonHome24FilledSvg);
+export const PersonHome24Regular = /** #__PURE__ */ createIcon("PersonHome24Regular", "24", PersonHome24RegularSvg);
+export const PersonHome28Filled = /** #__PURE__ */ createIcon("PersonHome28Filled", "28", PersonHome28FilledSvg);
+export const PersonHome28Regular = /** #__PURE__ */ createIcon("PersonHome28Regular", "28", PersonHome28RegularSvg);
+export const PersonHome32Filled = /** #__PURE__ */ createIcon("PersonHome32Filled", "32", PersonHome32FilledSvg);
+export const PersonHome32Regular = /** #__PURE__ */ createIcon("PersonHome32Regular", "32", PersonHome32RegularSvg);
+export const PersonHome48Filled = /** #__PURE__ */ createIcon("PersonHome48Filled", "48", PersonHome48FilledSvg);
+export const PersonHome48Regular = /** #__PURE__ */ createIcon("PersonHome48Regular", "48", PersonHome48RegularSvg);

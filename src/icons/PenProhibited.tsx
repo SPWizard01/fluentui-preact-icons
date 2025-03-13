@@ -11,15 +11,17 @@ import PenProhibited32RegularSvg from "@fluentui/svg-icons/icons/pen_prohibited_
 import PenProhibited48FilledSvg from "@fluentui/svg-icons/icons/pen_prohibited_48_filled.svg" with { type: "text" }
 import PenProhibited48RegularSvg from "@fluentui/svg-icons/icons/pen_prohibited_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PenProhibited16Filled = createIcon("PenProhibited16Filled", PenProhibited16FilledSvg);
-export const PenProhibited16Regular = createIcon("PenProhibited16Regular", PenProhibited16RegularSvg);
-export const PenProhibited20Filled = createIcon("PenProhibited20Filled", PenProhibited20FilledSvg);
-export const PenProhibited20Regular = createIcon("PenProhibited20Regular", PenProhibited20RegularSvg);
-export const PenProhibited24Filled = createIcon("PenProhibited24Filled", PenProhibited24FilledSvg);
-export const PenProhibited24Regular = createIcon("PenProhibited24Regular", PenProhibited24RegularSvg);
-export const PenProhibited28Filled = createIcon("PenProhibited28Filled", PenProhibited28FilledSvg);
-export const PenProhibited28Regular = createIcon("PenProhibited28Regular", PenProhibited28RegularSvg);
-export const PenProhibited32Filled = createIcon("PenProhibited32Filled", PenProhibited32FilledSvg);
-export const PenProhibited32Regular = createIcon("PenProhibited32Regular", PenProhibited32RegularSvg);
-export const PenProhibited48Filled = createIcon("PenProhibited48Filled", PenProhibited48FilledSvg);
-export const PenProhibited48Regular = createIcon("PenProhibited48Regular", PenProhibited48RegularSvg);
+export const PenProhibited16Filled = /** #__PURE__ */ createIcon("PenProhibited16Filled", "16", PenProhibited16FilledSvg);
+export const PenProhibited16Regular = /** #__PURE__ */ createIcon("PenProhibited16Regular", "16", PenProhibited16RegularSvg);
+export const PenProhibited20Filled = /** #__PURE__ */ createIcon("PenProhibited20Filled", "20", PenProhibited20FilledSvg);
+export const PenProhibitedFilled = /** #__PURE__ */ createIcon("PenProhibitedFilled", "1em", PenProhibited20FilledSvg);
+export const PenProhibited20Regular = /** #__PURE__ */ createIcon("PenProhibited20Regular", "20", PenProhibited20RegularSvg);
+export const PenProhibitedRegular = /** #__PURE__ */ createIcon("PenProhibitedRegular", "1em", PenProhibited20RegularSvg);
+export const PenProhibited24Filled = /** #__PURE__ */ createIcon("PenProhibited24Filled", "24", PenProhibited24FilledSvg);
+export const PenProhibited24Regular = /** #__PURE__ */ createIcon("PenProhibited24Regular", "24", PenProhibited24RegularSvg);
+export const PenProhibited28Filled = /** #__PURE__ */ createIcon("PenProhibited28Filled", "28", PenProhibited28FilledSvg);
+export const PenProhibited28Regular = /** #__PURE__ */ createIcon("PenProhibited28Regular", "28", PenProhibited28RegularSvg);
+export const PenProhibited32Filled = /** #__PURE__ */ createIcon("PenProhibited32Filled", "32", PenProhibited32FilledSvg);
+export const PenProhibited32Regular = /** #__PURE__ */ createIcon("PenProhibited32Regular", "32", PenProhibited32RegularSvg);
+export const PenProhibited48Filled = /** #__PURE__ */ createIcon("PenProhibited48Filled", "48", PenProhibited48FilledSvg);
+export const PenProhibited48Regular = /** #__PURE__ */ createIcon("PenProhibited48Regular", "48", PenProhibited48RegularSvg);

@@ -5,9 +5,11 @@ import CheckmarkUnderlineCircle20RegularSvg from "@fluentui/svg-icons/icons/chec
 import CheckmarkUnderlineCircle24FilledSvg from "@fluentui/svg-icons/icons/checkmark_underline_circle_24_filled.svg" with { type: "text" }
 import CheckmarkUnderlineCircle24RegularSvg from "@fluentui/svg-icons/icons/checkmark_underline_circle_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CheckmarkUnderlineCircle16Filled = createIcon("CheckmarkUnderlineCircle16Filled", CheckmarkUnderlineCircle16FilledSvg);
-export const CheckmarkUnderlineCircle16Regular = createIcon("CheckmarkUnderlineCircle16Regular", CheckmarkUnderlineCircle16RegularSvg);
-export const CheckmarkUnderlineCircle20Filled = createIcon("CheckmarkUnderlineCircle20Filled", CheckmarkUnderlineCircle20FilledSvg);
-export const CheckmarkUnderlineCircle20Regular = createIcon("CheckmarkUnderlineCircle20Regular", CheckmarkUnderlineCircle20RegularSvg);
-export const CheckmarkUnderlineCircle24Filled = createIcon("CheckmarkUnderlineCircle24Filled", CheckmarkUnderlineCircle24FilledSvg);
-export const CheckmarkUnderlineCircle24Regular = createIcon("CheckmarkUnderlineCircle24Regular", CheckmarkUnderlineCircle24RegularSvg);
+export const CheckmarkUnderlineCircle16Filled = /** #__PURE__ */ createIcon("CheckmarkUnderlineCircle16Filled", "16", CheckmarkUnderlineCircle16FilledSvg);
+export const CheckmarkUnderlineCircle16Regular = /** #__PURE__ */ createIcon("CheckmarkUnderlineCircle16Regular", "16", CheckmarkUnderlineCircle16RegularSvg);
+export const CheckmarkUnderlineCircle20Filled = /** #__PURE__ */ createIcon("CheckmarkUnderlineCircle20Filled", "20", CheckmarkUnderlineCircle20FilledSvg);
+export const CheckmarkUnderlineCircleFilled = /** #__PURE__ */ createIcon("CheckmarkUnderlineCircleFilled", "1em", CheckmarkUnderlineCircle20FilledSvg);
+export const CheckmarkUnderlineCircle20Regular = /** #__PURE__ */ createIcon("CheckmarkUnderlineCircle20Regular", "20", CheckmarkUnderlineCircle20RegularSvg);
+export const CheckmarkUnderlineCircleRegular = /** #__PURE__ */ createIcon("CheckmarkUnderlineCircleRegular", "1em", CheckmarkUnderlineCircle20RegularSvg);
+export const CheckmarkUnderlineCircle24Filled = /** #__PURE__ */ createIcon("CheckmarkUnderlineCircle24Filled", "24", CheckmarkUnderlineCircle24FilledSvg);
+export const CheckmarkUnderlineCircle24Regular = /** #__PURE__ */ createIcon("CheckmarkUnderlineCircle24Regular", "24", CheckmarkUnderlineCircle24RegularSvg);

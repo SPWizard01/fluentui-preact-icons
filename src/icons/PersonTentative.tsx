@@ -11,15 +11,18 @@ import PersonTentative32ColorSvg from "@fluentui/svg-icons/icons/person_tentativ
 import PersonTentative32FilledSvg from "@fluentui/svg-icons/icons/person_tentative_32_filled.svg" with { type: "text" }
 import PersonTentative32RegularSvg from "@fluentui/svg-icons/icons/person_tentative_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PersonTentative16Color = createIcon("PersonTentative16Color", PersonTentative16ColorSvg);
-export const PersonTentative16Filled = createIcon("PersonTentative16Filled", PersonTentative16FilledSvg);
-export const PersonTentative16Regular = createIcon("PersonTentative16Regular", PersonTentative16RegularSvg);
-export const PersonTentative20Color = createIcon("PersonTentative20Color", PersonTentative20ColorSvg);
-export const PersonTentative20Filled = createIcon("PersonTentative20Filled", PersonTentative20FilledSvg);
-export const PersonTentative20Regular = createIcon("PersonTentative20Regular", PersonTentative20RegularSvg);
-export const PersonTentative24Color = createIcon("PersonTentative24Color", PersonTentative24ColorSvg);
-export const PersonTentative24Filled = createIcon("PersonTentative24Filled", PersonTentative24FilledSvg);
-export const PersonTentative24Regular = createIcon("PersonTentative24Regular", PersonTentative24RegularSvg);
-export const PersonTentative32Color = createIcon("PersonTentative32Color", PersonTentative32ColorSvg);
-export const PersonTentative32Filled = createIcon("PersonTentative32Filled", PersonTentative32FilledSvg);
-export const PersonTentative32Regular = createIcon("PersonTentative32Regular", PersonTentative32RegularSvg);
+export const PersonTentative16Color = /** #__PURE__ */ createIcon("PersonTentative16Color", "16", PersonTentative16ColorSvg);
+export const PersonTentative16Filled = /** #__PURE__ */ createIcon("PersonTentative16Filled", "16", PersonTentative16FilledSvg);
+export const PersonTentative16Regular = /** #__PURE__ */ createIcon("PersonTentative16Regular", "16", PersonTentative16RegularSvg);
+export const PersonTentative20Color = /** #__PURE__ */ createIcon("PersonTentative20Color", "20", PersonTentative20ColorSvg);
+export const PersonTentativeColor = /** #__PURE__ */ createIcon("PersonTentativeColor", "1em", PersonTentative20ColorSvg);
+export const PersonTentative20Filled = /** #__PURE__ */ createIcon("PersonTentative20Filled", "20", PersonTentative20FilledSvg);
+export const PersonTentativeFilled = /** #__PURE__ */ createIcon("PersonTentativeFilled", "1em", PersonTentative20FilledSvg);
+export const PersonTentative20Regular = /** #__PURE__ */ createIcon("PersonTentative20Regular", "20", PersonTentative20RegularSvg);
+export const PersonTentativeRegular = /** #__PURE__ */ createIcon("PersonTentativeRegular", "1em", PersonTentative20RegularSvg);
+export const PersonTentative24Color = /** #__PURE__ */ createIcon("PersonTentative24Color", "24", PersonTentative24ColorSvg);
+export const PersonTentative24Filled = /** #__PURE__ */ createIcon("PersonTentative24Filled", "24", PersonTentative24FilledSvg);
+export const PersonTentative24Regular = /** #__PURE__ */ createIcon("PersonTentative24Regular", "24", PersonTentative24RegularSvg);
+export const PersonTentative32Color = /** #__PURE__ */ createIcon("PersonTentative32Color", "32", PersonTentative32ColorSvg);
+export const PersonTentative32Filled = /** #__PURE__ */ createIcon("PersonTentative32Filled", "32", PersonTentative32FilledSvg);
+export const PersonTentative32Regular = /** #__PURE__ */ createIcon("PersonTentative32Regular", "32", PersonTentative32RegularSvg);

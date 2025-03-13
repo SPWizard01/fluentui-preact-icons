@@ -5,9 +5,11 @@ import ToggleMultiple20RegularSvg from "@fluentui/svg-icons/icons/toggle_multipl
 import ToggleMultiple24FilledSvg from "@fluentui/svg-icons/icons/toggle_multiple_24_filled.svg" with { type: "text" }
 import ToggleMultiple24RegularSvg from "@fluentui/svg-icons/icons/toggle_multiple_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ToggleMultiple16Filled = createIcon("ToggleMultiple16Filled", ToggleMultiple16FilledSvg);
-export const ToggleMultiple16Regular = createIcon("ToggleMultiple16Regular", ToggleMultiple16RegularSvg);
-export const ToggleMultiple20Filled = createIcon("ToggleMultiple20Filled", ToggleMultiple20FilledSvg);
-export const ToggleMultiple20Regular = createIcon("ToggleMultiple20Regular", ToggleMultiple20RegularSvg);
-export const ToggleMultiple24Filled = createIcon("ToggleMultiple24Filled", ToggleMultiple24FilledSvg);
-export const ToggleMultiple24Regular = createIcon("ToggleMultiple24Regular", ToggleMultiple24RegularSvg);
+export const ToggleMultiple16Filled = /** #__PURE__ */ createIcon("ToggleMultiple16Filled", "16", ToggleMultiple16FilledSvg);
+export const ToggleMultiple16Regular = /** #__PURE__ */ createIcon("ToggleMultiple16Regular", "16", ToggleMultiple16RegularSvg);
+export const ToggleMultiple20Filled = /** #__PURE__ */ createIcon("ToggleMultiple20Filled", "20", ToggleMultiple20FilledSvg);
+export const ToggleMultipleFilled = /** #__PURE__ */ createIcon("ToggleMultipleFilled", "1em", ToggleMultiple20FilledSvg);
+export const ToggleMultiple20Regular = /** #__PURE__ */ createIcon("ToggleMultiple20Regular", "20", ToggleMultiple20RegularSvg);
+export const ToggleMultipleRegular = /** #__PURE__ */ createIcon("ToggleMultipleRegular", "1em", ToggleMultiple20RegularSvg);
+export const ToggleMultiple24Filled = /** #__PURE__ */ createIcon("ToggleMultiple24Filled", "24", ToggleMultiple24FilledSvg);
+export const ToggleMultiple24Regular = /** #__PURE__ */ createIcon("ToggleMultiple24Regular", "24", ToggleMultiple24RegularSvg);

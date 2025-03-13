@@ -7,11 +7,13 @@ import MailDismiss24RegularSvg from "@fluentui/svg-icons/icons/mail_dismiss_24_r
 import MailDismiss28FilledSvg from "@fluentui/svg-icons/icons/mail_dismiss_28_filled.svg" with { type: "text" }
 import MailDismiss28RegularSvg from "@fluentui/svg-icons/icons/mail_dismiss_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const MailDismiss16Filled = createIcon("MailDismiss16Filled", MailDismiss16FilledSvg);
-export const MailDismiss16Regular = createIcon("MailDismiss16Regular", MailDismiss16RegularSvg);
-export const MailDismiss20Filled = createIcon("MailDismiss20Filled", MailDismiss20FilledSvg);
-export const MailDismiss20Regular = createIcon("MailDismiss20Regular", MailDismiss20RegularSvg);
-export const MailDismiss24Filled = createIcon("MailDismiss24Filled", MailDismiss24FilledSvg);
-export const MailDismiss24Regular = createIcon("MailDismiss24Regular", MailDismiss24RegularSvg);
-export const MailDismiss28Filled = createIcon("MailDismiss28Filled", MailDismiss28FilledSvg);
-export const MailDismiss28Regular = createIcon("MailDismiss28Regular", MailDismiss28RegularSvg);
+export const MailDismiss16Filled = /** #__PURE__ */ createIcon("MailDismiss16Filled", "16", MailDismiss16FilledSvg);
+export const MailDismiss16Regular = /** #__PURE__ */ createIcon("MailDismiss16Regular", "16", MailDismiss16RegularSvg);
+export const MailDismiss20Filled = /** #__PURE__ */ createIcon("MailDismiss20Filled", "20", MailDismiss20FilledSvg);
+export const MailDismissFilled = /** #__PURE__ */ createIcon("MailDismissFilled", "1em", MailDismiss20FilledSvg);
+export const MailDismiss20Regular = /** #__PURE__ */ createIcon("MailDismiss20Regular", "20", MailDismiss20RegularSvg);
+export const MailDismissRegular = /** #__PURE__ */ createIcon("MailDismissRegular", "1em", MailDismiss20RegularSvg);
+export const MailDismiss24Filled = /** #__PURE__ */ createIcon("MailDismiss24Filled", "24", MailDismiss24FilledSvg);
+export const MailDismiss24Regular = /** #__PURE__ */ createIcon("MailDismiss24Regular", "24", MailDismiss24RegularSvg);
+export const MailDismiss28Filled = /** #__PURE__ */ createIcon("MailDismiss28Filled", "28", MailDismiss28FilledSvg);
+export const MailDismiss28Regular = /** #__PURE__ */ createIcon("MailDismiss28Regular", "28", MailDismiss28RegularSvg);

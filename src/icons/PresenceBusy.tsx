@@ -4,8 +4,9 @@ import PresenceBusy16FilledSvg from "@fluentui/svg-icons/icons/presence_busy_16_
 import PresenceBusy20FilledSvg from "@fluentui/svg-icons/icons/presence_busy_20_filled.svg" with { type: "text" }
 import PresenceBusy24FilledSvg from "@fluentui/svg-icons/icons/presence_busy_24_filled.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PresenceBusy10Filled = createIcon("PresenceBusy10Filled", PresenceBusy10FilledSvg);
-export const PresenceBusy12Filled = createIcon("PresenceBusy12Filled", PresenceBusy12FilledSvg);
-export const PresenceBusy16Filled = createIcon("PresenceBusy16Filled", PresenceBusy16FilledSvg);
-export const PresenceBusy20Filled = createIcon("PresenceBusy20Filled", PresenceBusy20FilledSvg);
-export const PresenceBusy24Filled = createIcon("PresenceBusy24Filled", PresenceBusy24FilledSvg);
+export const PresenceBusy10Filled = /** #__PURE__ */ createIcon("PresenceBusy10Filled", "10", PresenceBusy10FilledSvg);
+export const PresenceBusy12Filled = /** #__PURE__ */ createIcon("PresenceBusy12Filled", "12", PresenceBusy12FilledSvg);
+export const PresenceBusy16Filled = /** #__PURE__ */ createIcon("PresenceBusy16Filled", "16", PresenceBusy16FilledSvg);
+export const PresenceBusy20Filled = /** #__PURE__ */ createIcon("PresenceBusy20Filled", "20", PresenceBusy20FilledSvg);
+export const PresenceBusyFilled = /** #__PURE__ */ createIcon("PresenceBusyFilled", "1em", PresenceBusy20FilledSvg);
+export const PresenceBusy24Filled = /** #__PURE__ */ createIcon("PresenceBusy24Filled", "24", PresenceBusy24FilledSvg);

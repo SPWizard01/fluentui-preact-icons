@@ -7,11 +7,13 @@ import DatabaseArrowRight24RegularSvg from "@fluentui/svg-icons/icons/database_a
 import DatabaseArrowRight32FilledSvg from "@fluentui/svg-icons/icons/database_arrow_right_32_filled.svg" with { type: "text" }
 import DatabaseArrowRight32RegularSvg from "@fluentui/svg-icons/icons/database_arrow_right_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const DatabaseArrowRight16Filled = createIcon("DatabaseArrowRight16Filled", DatabaseArrowRight16FilledSvg);
-export const DatabaseArrowRight16Regular = createIcon("DatabaseArrowRight16Regular", DatabaseArrowRight16RegularSvg);
-export const DatabaseArrowRight20Filled = createIcon("DatabaseArrowRight20Filled", DatabaseArrowRight20FilledSvg);
-export const DatabaseArrowRight20Regular = createIcon("DatabaseArrowRight20Regular", DatabaseArrowRight20RegularSvg);
-export const DatabaseArrowRight24Filled = createIcon("DatabaseArrowRight24Filled", DatabaseArrowRight24FilledSvg);
-export const DatabaseArrowRight24Regular = createIcon("DatabaseArrowRight24Regular", DatabaseArrowRight24RegularSvg);
-export const DatabaseArrowRight32Filled = createIcon("DatabaseArrowRight32Filled", DatabaseArrowRight32FilledSvg);
-export const DatabaseArrowRight32Regular = createIcon("DatabaseArrowRight32Regular", DatabaseArrowRight32RegularSvg);
+export const DatabaseArrowRight16Filled = /** #__PURE__ */ createIcon("DatabaseArrowRight16Filled", "16", DatabaseArrowRight16FilledSvg);
+export const DatabaseArrowRight16Regular = /** #__PURE__ */ createIcon("DatabaseArrowRight16Regular", "16", DatabaseArrowRight16RegularSvg);
+export const DatabaseArrowRight20Filled = /** #__PURE__ */ createIcon("DatabaseArrowRight20Filled", "20", DatabaseArrowRight20FilledSvg);
+export const DatabaseArrowRightFilled = /** #__PURE__ */ createIcon("DatabaseArrowRightFilled", "1em", DatabaseArrowRight20FilledSvg);
+export const DatabaseArrowRight20Regular = /** #__PURE__ */ createIcon("DatabaseArrowRight20Regular", "20", DatabaseArrowRight20RegularSvg);
+export const DatabaseArrowRightRegular = /** #__PURE__ */ createIcon("DatabaseArrowRightRegular", "1em", DatabaseArrowRight20RegularSvg);
+export const DatabaseArrowRight24Filled = /** #__PURE__ */ createIcon("DatabaseArrowRight24Filled", "24", DatabaseArrowRight24FilledSvg);
+export const DatabaseArrowRight24Regular = /** #__PURE__ */ createIcon("DatabaseArrowRight24Regular", "24", DatabaseArrowRight24RegularSvg);
+export const DatabaseArrowRight32Filled = /** #__PURE__ */ createIcon("DatabaseArrowRight32Filled", "32", DatabaseArrowRight32FilledSvg);
+export const DatabaseArrowRight32Regular = /** #__PURE__ */ createIcon("DatabaseArrowRight32Regular", "32", DatabaseArrowRight32RegularSvg);

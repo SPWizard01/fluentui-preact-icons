@@ -7,11 +7,13 @@ import ShareScreenPersonOverlay24RegularSvg from "@fluentui/svg-icons/icons/shar
 import ShareScreenPersonOverlay28FilledSvg from "@fluentui/svg-icons/icons/share_screen_person_overlay_28_filled.svg" with { type: "text" }
 import ShareScreenPersonOverlay28RegularSvg from "@fluentui/svg-icons/icons/share_screen_person_overlay_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ShareScreenPersonOverlay16Filled = createIcon("ShareScreenPersonOverlay16Filled", ShareScreenPersonOverlay16FilledSvg);
-export const ShareScreenPersonOverlay16Regular = createIcon("ShareScreenPersonOverlay16Regular", ShareScreenPersonOverlay16RegularSvg);
-export const ShareScreenPersonOverlay20Filled = createIcon("ShareScreenPersonOverlay20Filled", ShareScreenPersonOverlay20FilledSvg);
-export const ShareScreenPersonOverlay20Regular = createIcon("ShareScreenPersonOverlay20Regular", ShareScreenPersonOverlay20RegularSvg);
-export const ShareScreenPersonOverlay24Filled = createIcon("ShareScreenPersonOverlay24Filled", ShareScreenPersonOverlay24FilledSvg);
-export const ShareScreenPersonOverlay24Regular = createIcon("ShareScreenPersonOverlay24Regular", ShareScreenPersonOverlay24RegularSvg);
-export const ShareScreenPersonOverlay28Filled = createIcon("ShareScreenPersonOverlay28Filled", ShareScreenPersonOverlay28FilledSvg);
-export const ShareScreenPersonOverlay28Regular = createIcon("ShareScreenPersonOverlay28Regular", ShareScreenPersonOverlay28RegularSvg);
+export const ShareScreenPersonOverlay16Filled = /** #__PURE__ */ createIcon("ShareScreenPersonOverlay16Filled", "16", ShareScreenPersonOverlay16FilledSvg);
+export const ShareScreenPersonOverlay16Regular = /** #__PURE__ */ createIcon("ShareScreenPersonOverlay16Regular", "16", ShareScreenPersonOverlay16RegularSvg);
+export const ShareScreenPersonOverlay20Filled = /** #__PURE__ */ createIcon("ShareScreenPersonOverlay20Filled", "20", ShareScreenPersonOverlay20FilledSvg);
+export const ShareScreenPersonOverlayFilled = /** #__PURE__ */ createIcon("ShareScreenPersonOverlayFilled", "1em", ShareScreenPersonOverlay20FilledSvg);
+export const ShareScreenPersonOverlay20Regular = /** #__PURE__ */ createIcon("ShareScreenPersonOverlay20Regular", "20", ShareScreenPersonOverlay20RegularSvg);
+export const ShareScreenPersonOverlayRegular = /** #__PURE__ */ createIcon("ShareScreenPersonOverlayRegular", "1em", ShareScreenPersonOverlay20RegularSvg);
+export const ShareScreenPersonOverlay24Filled = /** #__PURE__ */ createIcon("ShareScreenPersonOverlay24Filled", "24", ShareScreenPersonOverlay24FilledSvg);
+export const ShareScreenPersonOverlay24Regular = /** #__PURE__ */ createIcon("ShareScreenPersonOverlay24Regular", "24", ShareScreenPersonOverlay24RegularSvg);
+export const ShareScreenPersonOverlay28Filled = /** #__PURE__ */ createIcon("ShareScreenPersonOverlay28Filled", "28", ShareScreenPersonOverlay28FilledSvg);
+export const ShareScreenPersonOverlay28Regular = /** #__PURE__ */ createIcon("ShareScreenPersonOverlay28Regular", "28", ShareScreenPersonOverlay28RegularSvg);

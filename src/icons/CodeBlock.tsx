@@ -17,21 +17,24 @@ import CodeBlock48ColorSvg from "@fluentui/svg-icons/icons/code_block_48_color.s
 import CodeBlock48FilledSvg from "@fluentui/svg-icons/icons/code_block_48_filled.svg" with { type: "text" }
 import CodeBlock48RegularSvg from "@fluentui/svg-icons/icons/code_block_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CodeBlock16Color = createIcon("CodeBlock16Color", CodeBlock16ColorSvg);
-export const CodeBlock16Filled = createIcon("CodeBlock16Filled", CodeBlock16FilledSvg);
-export const CodeBlock16Regular = createIcon("CodeBlock16Regular", CodeBlock16RegularSvg);
-export const CodeBlock20Color = createIcon("CodeBlock20Color", CodeBlock20ColorSvg);
-export const CodeBlock20Filled = createIcon("CodeBlock20Filled", CodeBlock20FilledSvg);
-export const CodeBlock20Regular = createIcon("CodeBlock20Regular", CodeBlock20RegularSvg);
-export const CodeBlock24Color = createIcon("CodeBlock24Color", CodeBlock24ColorSvg);
-export const CodeBlock24Filled = createIcon("CodeBlock24Filled", CodeBlock24FilledSvg);
-export const CodeBlock24Regular = createIcon("CodeBlock24Regular", CodeBlock24RegularSvg);
-export const CodeBlock28Color = createIcon("CodeBlock28Color", CodeBlock28ColorSvg);
-export const CodeBlock28Filled = createIcon("CodeBlock28Filled", CodeBlock28FilledSvg);
-export const CodeBlock28Regular = createIcon("CodeBlock28Regular", CodeBlock28RegularSvg);
-export const CodeBlock32Color = createIcon("CodeBlock32Color", CodeBlock32ColorSvg);
-export const CodeBlock32Filled = createIcon("CodeBlock32Filled", CodeBlock32FilledSvg);
-export const CodeBlock32Regular = createIcon("CodeBlock32Regular", CodeBlock32RegularSvg);
-export const CodeBlock48Color = createIcon("CodeBlock48Color", CodeBlock48ColorSvg);
-export const CodeBlock48Filled = createIcon("CodeBlock48Filled", CodeBlock48FilledSvg);
-export const CodeBlock48Regular = createIcon("CodeBlock48Regular", CodeBlock48RegularSvg);
+export const CodeBlock16Color = /** #__PURE__ */ createIcon("CodeBlock16Color", "16", CodeBlock16ColorSvg);
+export const CodeBlock16Filled = /** #__PURE__ */ createIcon("CodeBlock16Filled", "16", CodeBlock16FilledSvg);
+export const CodeBlock16Regular = /** #__PURE__ */ createIcon("CodeBlock16Regular", "16", CodeBlock16RegularSvg);
+export const CodeBlock20Color = /** #__PURE__ */ createIcon("CodeBlock20Color", "20", CodeBlock20ColorSvg);
+export const CodeBlockColor = /** #__PURE__ */ createIcon("CodeBlockColor", "1em", CodeBlock20ColorSvg);
+export const CodeBlock20Filled = /** #__PURE__ */ createIcon("CodeBlock20Filled", "20", CodeBlock20FilledSvg);
+export const CodeBlockFilled = /** #__PURE__ */ createIcon("CodeBlockFilled", "1em", CodeBlock20FilledSvg);
+export const CodeBlock20Regular = /** #__PURE__ */ createIcon("CodeBlock20Regular", "20", CodeBlock20RegularSvg);
+export const CodeBlockRegular = /** #__PURE__ */ createIcon("CodeBlockRegular", "1em", CodeBlock20RegularSvg);
+export const CodeBlock24Color = /** #__PURE__ */ createIcon("CodeBlock24Color", "24", CodeBlock24ColorSvg);
+export const CodeBlock24Filled = /** #__PURE__ */ createIcon("CodeBlock24Filled", "24", CodeBlock24FilledSvg);
+export const CodeBlock24Regular = /** #__PURE__ */ createIcon("CodeBlock24Regular", "24", CodeBlock24RegularSvg);
+export const CodeBlock28Color = /** #__PURE__ */ createIcon("CodeBlock28Color", "28", CodeBlock28ColorSvg);
+export const CodeBlock28Filled = /** #__PURE__ */ createIcon("CodeBlock28Filled", "28", CodeBlock28FilledSvg);
+export const CodeBlock28Regular = /** #__PURE__ */ createIcon("CodeBlock28Regular", "28", CodeBlock28RegularSvg);
+export const CodeBlock32Color = /** #__PURE__ */ createIcon("CodeBlock32Color", "32", CodeBlock32ColorSvg);
+export const CodeBlock32Filled = /** #__PURE__ */ createIcon("CodeBlock32Filled", "32", CodeBlock32FilledSvg);
+export const CodeBlock32Regular = /** #__PURE__ */ createIcon("CodeBlock32Regular", "32", CodeBlock32RegularSvg);
+export const CodeBlock48Color = /** #__PURE__ */ createIcon("CodeBlock48Color", "48", CodeBlock48ColorSvg);
+export const CodeBlock48Filled = /** #__PURE__ */ createIcon("CodeBlock48Filled", "48", CodeBlock48FilledSvg);
+export const CodeBlock48Regular = /** #__PURE__ */ createIcon("CodeBlock48Regular", "48", CodeBlock48RegularSvg);

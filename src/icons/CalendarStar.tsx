@@ -5,9 +5,11 @@ import CalendarStar20RegularSvg from "@fluentui/svg-icons/icons/calendar_star_20
 import CalendarStar24FilledSvg from "@fluentui/svg-icons/icons/calendar_star_24_filled.svg" with { type: "text" }
 import CalendarStar24RegularSvg from "@fluentui/svg-icons/icons/calendar_star_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CalendarStar16Filled = createIcon("CalendarStar16Filled", CalendarStar16FilledSvg);
-export const CalendarStar16Regular = createIcon("CalendarStar16Regular", CalendarStar16RegularSvg);
-export const CalendarStar20Filled = createIcon("CalendarStar20Filled", CalendarStar20FilledSvg);
-export const CalendarStar20Regular = createIcon("CalendarStar20Regular", CalendarStar20RegularSvg);
-export const CalendarStar24Filled = createIcon("CalendarStar24Filled", CalendarStar24FilledSvg);
-export const CalendarStar24Regular = createIcon("CalendarStar24Regular", CalendarStar24RegularSvg);
+export const CalendarStar16Filled = /** #__PURE__ */ createIcon("CalendarStar16Filled", "16", CalendarStar16FilledSvg);
+export const CalendarStar16Regular = /** #__PURE__ */ createIcon("CalendarStar16Regular", "16", CalendarStar16RegularSvg);
+export const CalendarStar20Filled = /** #__PURE__ */ createIcon("CalendarStar20Filled", "20", CalendarStar20FilledSvg);
+export const CalendarStarFilled = /** #__PURE__ */ createIcon("CalendarStarFilled", "1em", CalendarStar20FilledSvg);
+export const CalendarStar20Regular = /** #__PURE__ */ createIcon("CalendarStar20Regular", "20", CalendarStar20RegularSvg);
+export const CalendarStarRegular = /** #__PURE__ */ createIcon("CalendarStarRegular", "1em", CalendarStar20RegularSvg);
+export const CalendarStar24Filled = /** #__PURE__ */ createIcon("CalendarStar24Filled", "24", CalendarStar24FilledSvg);
+export const CalendarStar24Regular = /** #__PURE__ */ createIcon("CalendarStar24Regular", "24", CalendarStar24RegularSvg);

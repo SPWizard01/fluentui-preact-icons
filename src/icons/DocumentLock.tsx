@@ -17,21 +17,24 @@ import DocumentLock48ColorSvg from "@fluentui/svg-icons/icons/document_lock_48_c
 import DocumentLock48FilledSvg from "@fluentui/svg-icons/icons/document_lock_48_filled.svg" with { type: "text" }
 import DocumentLock48RegularSvg from "@fluentui/svg-icons/icons/document_lock_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const DocumentLock16Color = createIcon("DocumentLock16Color", DocumentLock16ColorSvg);
-export const DocumentLock16Filled = createIcon("DocumentLock16Filled", DocumentLock16FilledSvg);
-export const DocumentLock16Regular = createIcon("DocumentLock16Regular", DocumentLock16RegularSvg);
-export const DocumentLock20Color = createIcon("DocumentLock20Color", DocumentLock20ColorSvg);
-export const DocumentLock20Filled = createIcon("DocumentLock20Filled", DocumentLock20FilledSvg);
-export const DocumentLock20Regular = createIcon("DocumentLock20Regular", DocumentLock20RegularSvg);
-export const DocumentLock24Color = createIcon("DocumentLock24Color", DocumentLock24ColorSvg);
-export const DocumentLock24Filled = createIcon("DocumentLock24Filled", DocumentLock24FilledSvg);
-export const DocumentLock24Regular = createIcon("DocumentLock24Regular", DocumentLock24RegularSvg);
-export const DocumentLock28Color = createIcon("DocumentLock28Color", DocumentLock28ColorSvg);
-export const DocumentLock28Filled = createIcon("DocumentLock28Filled", DocumentLock28FilledSvg);
-export const DocumentLock28Regular = createIcon("DocumentLock28Regular", DocumentLock28RegularSvg);
-export const DocumentLock32Color = createIcon("DocumentLock32Color", DocumentLock32ColorSvg);
-export const DocumentLock32Filled = createIcon("DocumentLock32Filled", DocumentLock32FilledSvg);
-export const DocumentLock32Regular = createIcon("DocumentLock32Regular", DocumentLock32RegularSvg);
-export const DocumentLock48Color = createIcon("DocumentLock48Color", DocumentLock48ColorSvg);
-export const DocumentLock48Filled = createIcon("DocumentLock48Filled", DocumentLock48FilledSvg);
-export const DocumentLock48Regular = createIcon("DocumentLock48Regular", DocumentLock48RegularSvg);
+export const DocumentLock16Color = /** #__PURE__ */ createIcon("DocumentLock16Color", "16", DocumentLock16ColorSvg);
+export const DocumentLock16Filled = /** #__PURE__ */ createIcon("DocumentLock16Filled", "16", DocumentLock16FilledSvg);
+export const DocumentLock16Regular = /** #__PURE__ */ createIcon("DocumentLock16Regular", "16", DocumentLock16RegularSvg);
+export const DocumentLock20Color = /** #__PURE__ */ createIcon("DocumentLock20Color", "20", DocumentLock20ColorSvg);
+export const DocumentLockColor = /** #__PURE__ */ createIcon("DocumentLockColor", "1em", DocumentLock20ColorSvg);
+export const DocumentLock20Filled = /** #__PURE__ */ createIcon("DocumentLock20Filled", "20", DocumentLock20FilledSvg);
+export const DocumentLockFilled = /** #__PURE__ */ createIcon("DocumentLockFilled", "1em", DocumentLock20FilledSvg);
+export const DocumentLock20Regular = /** #__PURE__ */ createIcon("DocumentLock20Regular", "20", DocumentLock20RegularSvg);
+export const DocumentLockRegular = /** #__PURE__ */ createIcon("DocumentLockRegular", "1em", DocumentLock20RegularSvg);
+export const DocumentLock24Color = /** #__PURE__ */ createIcon("DocumentLock24Color", "24", DocumentLock24ColorSvg);
+export const DocumentLock24Filled = /** #__PURE__ */ createIcon("DocumentLock24Filled", "24", DocumentLock24FilledSvg);
+export const DocumentLock24Regular = /** #__PURE__ */ createIcon("DocumentLock24Regular", "24", DocumentLock24RegularSvg);
+export const DocumentLock28Color = /** #__PURE__ */ createIcon("DocumentLock28Color", "28", DocumentLock28ColorSvg);
+export const DocumentLock28Filled = /** #__PURE__ */ createIcon("DocumentLock28Filled", "28", DocumentLock28FilledSvg);
+export const DocumentLock28Regular = /** #__PURE__ */ createIcon("DocumentLock28Regular", "28", DocumentLock28RegularSvg);
+export const DocumentLock32Color = /** #__PURE__ */ createIcon("DocumentLock32Color", "32", DocumentLock32ColorSvg);
+export const DocumentLock32Filled = /** #__PURE__ */ createIcon("DocumentLock32Filled", "32", DocumentLock32FilledSvg);
+export const DocumentLock32Regular = /** #__PURE__ */ createIcon("DocumentLock32Regular", "32", DocumentLock32RegularSvg);
+export const DocumentLock48Color = /** #__PURE__ */ createIcon("DocumentLock48Color", "48", DocumentLock48ColorSvg);
+export const DocumentLock48Filled = /** #__PURE__ */ createIcon("DocumentLock48Filled", "48", DocumentLock48FilledSvg);
+export const DocumentLock48Regular = /** #__PURE__ */ createIcon("DocumentLock48Regular", "48", DocumentLock48RegularSvg);

@@ -19,23 +19,26 @@ import Star48ColorSvg from "@fluentui/svg-icons/icons/star_48_color.svg" with { 
 import Star48FilledSvg from "@fluentui/svg-icons/icons/star_48_filled.svg" with { type: "text" }
 import Star48RegularSvg from "@fluentui/svg-icons/icons/star_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Star12Filled = createIcon("Star12Filled", Star12FilledSvg);
-export const Star12Regular = createIcon("Star12Regular", Star12RegularSvg);
-export const Star16Color = createIcon("Star16Color", Star16ColorSvg);
-export const Star16Filled = createIcon("Star16Filled", Star16FilledSvg);
-export const Star16Regular = createIcon("Star16Regular", Star16RegularSvg);
-export const Star20Color = createIcon("Star20Color", Star20ColorSvg);
-export const Star20Filled = createIcon("Star20Filled", Star20FilledSvg);
-export const Star20Regular = createIcon("Star20Regular", Star20RegularSvg);
-export const Star24Color = createIcon("Star24Color", Star24ColorSvg);
-export const Star24Filled = createIcon("Star24Filled", Star24FilledSvg);
-export const Star24Regular = createIcon("Star24Regular", Star24RegularSvg);
-export const Star28Color = createIcon("Star28Color", Star28ColorSvg);
-export const Star28Filled = createIcon("Star28Filled", Star28FilledSvg);
-export const Star28Regular = createIcon("Star28Regular", Star28RegularSvg);
-export const Star32Color = createIcon("Star32Color", Star32ColorSvg);
-export const Star32Filled = createIcon("Star32Filled", Star32FilledSvg);
-export const Star32Regular = createIcon("Star32Regular", Star32RegularSvg);
-export const Star48Color = createIcon("Star48Color", Star48ColorSvg);
-export const Star48Filled = createIcon("Star48Filled", Star48FilledSvg);
-export const Star48Regular = createIcon("Star48Regular", Star48RegularSvg);
+export const Star12Filled = /** #__PURE__ */ createIcon("Star12Filled", "12", Star12FilledSvg);
+export const Star12Regular = /** #__PURE__ */ createIcon("Star12Regular", "12", Star12RegularSvg);
+export const Star16Color = /** #__PURE__ */ createIcon("Star16Color", "16", Star16ColorSvg);
+export const Star16Filled = /** #__PURE__ */ createIcon("Star16Filled", "16", Star16FilledSvg);
+export const Star16Regular = /** #__PURE__ */ createIcon("Star16Regular", "16", Star16RegularSvg);
+export const Star20Color = /** #__PURE__ */ createIcon("Star20Color", "20", Star20ColorSvg);
+export const StarColor = /** #__PURE__ */ createIcon("StarColor", "1em", Star20ColorSvg);
+export const Star20Filled = /** #__PURE__ */ createIcon("Star20Filled", "20", Star20FilledSvg);
+export const StarFilled = /** #__PURE__ */ createIcon("StarFilled", "1em", Star20FilledSvg);
+export const Star20Regular = /** #__PURE__ */ createIcon("Star20Regular", "20", Star20RegularSvg);
+export const StarRegular = /** #__PURE__ */ createIcon("StarRegular", "1em", Star20RegularSvg);
+export const Star24Color = /** #__PURE__ */ createIcon("Star24Color", "24", Star24ColorSvg);
+export const Star24Filled = /** #__PURE__ */ createIcon("Star24Filled", "24", Star24FilledSvg);
+export const Star24Regular = /** #__PURE__ */ createIcon("Star24Regular", "24", Star24RegularSvg);
+export const Star28Color = /** #__PURE__ */ createIcon("Star28Color", "28", Star28ColorSvg);
+export const Star28Filled = /** #__PURE__ */ createIcon("Star28Filled", "28", Star28FilledSvg);
+export const Star28Regular = /** #__PURE__ */ createIcon("Star28Regular", "28", Star28RegularSvg);
+export const Star32Color = /** #__PURE__ */ createIcon("Star32Color", "32", Star32ColorSvg);
+export const Star32Filled = /** #__PURE__ */ createIcon("Star32Filled", "32", Star32FilledSvg);
+export const Star32Regular = /** #__PURE__ */ createIcon("Star32Regular", "32", Star32RegularSvg);
+export const Star48Color = /** #__PURE__ */ createIcon("Star48Color", "48", Star48ColorSvg);
+export const Star48Filled = /** #__PURE__ */ createIcon("Star48Filled", "48", Star48FilledSvg);
+export const Star48Regular = /** #__PURE__ */ createIcon("Star48Regular", "48", Star48RegularSvg);

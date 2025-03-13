@@ -12,16 +12,18 @@ import Filter32FilledSvg from "@fluentui/svg-icons/icons/filter_32_filled.svg" w
 import Filter32LightSvg from "@fluentui/svg-icons/icons/filter_32_light.svg" with { type: "text" }
 import Filter32RegularSvg from "@fluentui/svg-icons/icons/filter_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Filter12Filled = createIcon("Filter12Filled", Filter12FilledSvg);
-export const Filter12Regular = createIcon("Filter12Regular", Filter12RegularSvg);
-export const Filter16Filled = createIcon("Filter16Filled", Filter16FilledSvg);
-export const Filter16Regular = createIcon("Filter16Regular", Filter16RegularSvg);
-export const Filter20Filled = createIcon("Filter20Filled", Filter20FilledSvg);
-export const Filter20Regular = createIcon("Filter20Regular", Filter20RegularSvg);
-export const Filter24Filled = createIcon("Filter24Filled", Filter24FilledSvg);
-export const Filter24Regular = createIcon("Filter24Regular", Filter24RegularSvg);
-export const Filter28Filled = createIcon("Filter28Filled", Filter28FilledSvg);
-export const Filter28Regular = createIcon("Filter28Regular", Filter28RegularSvg);
-export const Filter32Filled = createIcon("Filter32Filled", Filter32FilledSvg);
-export const Filter32Light = createIcon("Filter32Light", Filter32LightSvg);
-export const Filter32Regular = createIcon("Filter32Regular", Filter32RegularSvg);
+export const Filter12Filled = /** #__PURE__ */ createIcon("Filter12Filled", "12", Filter12FilledSvg);
+export const Filter12Regular = /** #__PURE__ */ createIcon("Filter12Regular", "12", Filter12RegularSvg);
+export const Filter16Filled = /** #__PURE__ */ createIcon("Filter16Filled", "16", Filter16FilledSvg);
+export const Filter16Regular = /** #__PURE__ */ createIcon("Filter16Regular", "16", Filter16RegularSvg);
+export const Filter20Filled = /** #__PURE__ */ createIcon("Filter20Filled", "20", Filter20FilledSvg);
+export const FilterFilled = /** #__PURE__ */ createIcon("FilterFilled", "1em", Filter20FilledSvg);
+export const Filter20Regular = /** #__PURE__ */ createIcon("Filter20Regular", "20", Filter20RegularSvg);
+export const FilterRegular = /** #__PURE__ */ createIcon("FilterRegular", "1em", Filter20RegularSvg);
+export const Filter24Filled = /** #__PURE__ */ createIcon("Filter24Filled", "24", Filter24FilledSvg);
+export const Filter24Regular = /** #__PURE__ */ createIcon("Filter24Regular", "24", Filter24RegularSvg);
+export const Filter28Filled = /** #__PURE__ */ createIcon("Filter28Filled", "28", Filter28FilledSvg);
+export const Filter28Regular = /** #__PURE__ */ createIcon("Filter28Regular", "28", Filter28RegularSvg);
+export const Filter32Filled = /** #__PURE__ */ createIcon("Filter32Filled", "32", Filter32FilledSvg);
+export const Filter32Light = /** #__PURE__ */ createIcon("Filter32Light", "32", Filter32LightSvg);
+export const Filter32Regular = /** #__PURE__ */ createIcon("Filter32Regular", "32", Filter32RegularSvg);

@@ -7,11 +7,13 @@ import PanelLeftExpand24RegularSvg from "@fluentui/svg-icons/icons/panel_left_ex
 import PanelLeftExpand28FilledSvg from "@fluentui/svg-icons/icons/panel_left_expand_28_filled.svg" with { type: "text" }
 import PanelLeftExpand28RegularSvg from "@fluentui/svg-icons/icons/panel_left_expand_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PanelLeftExpand16Filled = createIcon("PanelLeftExpand16Filled", PanelLeftExpand16FilledSvg);
-export const PanelLeftExpand16Regular = createIcon("PanelLeftExpand16Regular", PanelLeftExpand16RegularSvg);
-export const PanelLeftExpand20Filled = createIcon("PanelLeftExpand20Filled", PanelLeftExpand20FilledSvg);
-export const PanelLeftExpand20Regular = createIcon("PanelLeftExpand20Regular", PanelLeftExpand20RegularSvg);
-export const PanelLeftExpand24Filled = createIcon("PanelLeftExpand24Filled", PanelLeftExpand24FilledSvg);
-export const PanelLeftExpand24Regular = createIcon("PanelLeftExpand24Regular", PanelLeftExpand24RegularSvg);
-export const PanelLeftExpand28Filled = createIcon("PanelLeftExpand28Filled", PanelLeftExpand28FilledSvg);
-export const PanelLeftExpand28Regular = createIcon("PanelLeftExpand28Regular", PanelLeftExpand28RegularSvg);
+export const PanelLeftExpand16Filled = /** #__PURE__ */ createIcon("PanelLeftExpand16Filled", "16", PanelLeftExpand16FilledSvg);
+export const PanelLeftExpand16Regular = /** #__PURE__ */ createIcon("PanelLeftExpand16Regular", "16", PanelLeftExpand16RegularSvg);
+export const PanelLeftExpand20Filled = /** #__PURE__ */ createIcon("PanelLeftExpand20Filled", "20", PanelLeftExpand20FilledSvg);
+export const PanelLeftExpandFilled = /** #__PURE__ */ createIcon("PanelLeftExpandFilled", "1em", PanelLeftExpand20FilledSvg);
+export const PanelLeftExpand20Regular = /** #__PURE__ */ createIcon("PanelLeftExpand20Regular", "20", PanelLeftExpand20RegularSvg);
+export const PanelLeftExpandRegular = /** #__PURE__ */ createIcon("PanelLeftExpandRegular", "1em", PanelLeftExpand20RegularSvg);
+export const PanelLeftExpand24Filled = /** #__PURE__ */ createIcon("PanelLeftExpand24Filled", "24", PanelLeftExpand24FilledSvg);
+export const PanelLeftExpand24Regular = /** #__PURE__ */ createIcon("PanelLeftExpand24Regular", "24", PanelLeftExpand24RegularSvg);
+export const PanelLeftExpand28Filled = /** #__PURE__ */ createIcon("PanelLeftExpand28Filled", "28", PanelLeftExpand28FilledSvg);
+export const PanelLeftExpand28Regular = /** #__PURE__ */ createIcon("PanelLeftExpand28Regular", "28", PanelLeftExpand28RegularSvg);

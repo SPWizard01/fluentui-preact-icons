@@ -10,14 +10,16 @@ import PersonAdd32FilledSvg from "@fluentui/svg-icons/icons/person_add_32_filled
 import PersonAdd32LightSvg from "@fluentui/svg-icons/icons/person_add_32_light.svg" with { type: "text" }
 import PersonAdd32RegularSvg from "@fluentui/svg-icons/icons/person_add_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PersonAdd16Filled = createIcon("PersonAdd16Filled", PersonAdd16FilledSvg);
-export const PersonAdd16Regular = createIcon("PersonAdd16Regular", PersonAdd16RegularSvg);
-export const PersonAdd20Filled = createIcon("PersonAdd20Filled", PersonAdd20FilledSvg);
-export const PersonAdd20Regular = createIcon("PersonAdd20Regular", PersonAdd20RegularSvg);
-export const PersonAdd24Filled = createIcon("PersonAdd24Filled", PersonAdd24FilledSvg);
-export const PersonAdd24Regular = createIcon("PersonAdd24Regular", PersonAdd24RegularSvg);
-export const PersonAdd28Filled = createIcon("PersonAdd28Filled", PersonAdd28FilledSvg);
-export const PersonAdd28Regular = createIcon("PersonAdd28Regular", PersonAdd28RegularSvg);
-export const PersonAdd32Filled = createIcon("PersonAdd32Filled", PersonAdd32FilledSvg);
-export const PersonAdd32Light = createIcon("PersonAdd32Light", PersonAdd32LightSvg);
-export const PersonAdd32Regular = createIcon("PersonAdd32Regular", PersonAdd32RegularSvg);
+export const PersonAdd16Filled = /** #__PURE__ */ createIcon("PersonAdd16Filled", "16", PersonAdd16FilledSvg);
+export const PersonAdd16Regular = /** #__PURE__ */ createIcon("PersonAdd16Regular", "16", PersonAdd16RegularSvg);
+export const PersonAdd20Filled = /** #__PURE__ */ createIcon("PersonAdd20Filled", "20", PersonAdd20FilledSvg);
+export const PersonAddFilled = /** #__PURE__ */ createIcon("PersonAddFilled", "1em", PersonAdd20FilledSvg);
+export const PersonAdd20Regular = /** #__PURE__ */ createIcon("PersonAdd20Regular", "20", PersonAdd20RegularSvg);
+export const PersonAddRegular = /** #__PURE__ */ createIcon("PersonAddRegular", "1em", PersonAdd20RegularSvg);
+export const PersonAdd24Filled = /** #__PURE__ */ createIcon("PersonAdd24Filled", "24", PersonAdd24FilledSvg);
+export const PersonAdd24Regular = /** #__PURE__ */ createIcon("PersonAdd24Regular", "24", PersonAdd24RegularSvg);
+export const PersonAdd28Filled = /** #__PURE__ */ createIcon("PersonAdd28Filled", "28", PersonAdd28FilledSvg);
+export const PersonAdd28Regular = /** #__PURE__ */ createIcon("PersonAdd28Regular", "28", PersonAdd28RegularSvg);
+export const PersonAdd32Filled = /** #__PURE__ */ createIcon("PersonAdd32Filled", "32", PersonAdd32FilledSvg);
+export const PersonAdd32Light = /** #__PURE__ */ createIcon("PersonAdd32Light", "32", PersonAdd32LightSvg);
+export const PersonAdd32Regular = /** #__PURE__ */ createIcon("PersonAdd32Regular", "32", PersonAdd32RegularSvg);

@@ -19,23 +19,26 @@ import Clipboard48ColorSvg from "@fluentui/svg-icons/icons/clipboard_48_color.sv
 import Clipboard48FilledSvg from "@fluentui/svg-icons/icons/clipboard_48_filled.svg" with { type: "text" }
 import Clipboard48RegularSvg from "@fluentui/svg-icons/icons/clipboard_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Clipboard12Filled = createIcon("Clipboard12Filled", Clipboard12FilledSvg);
-export const Clipboard12Regular = createIcon("Clipboard12Regular", Clipboard12RegularSvg);
-export const Clipboard16Color = createIcon("Clipboard16Color", Clipboard16ColorSvg);
-export const Clipboard16Filled = createIcon("Clipboard16Filled", Clipboard16FilledSvg);
-export const Clipboard16Regular = createIcon("Clipboard16Regular", Clipboard16RegularSvg);
-export const Clipboard20Color = createIcon("Clipboard20Color", Clipboard20ColorSvg);
-export const Clipboard20Filled = createIcon("Clipboard20Filled", Clipboard20FilledSvg);
-export const Clipboard20Regular = createIcon("Clipboard20Regular", Clipboard20RegularSvg);
-export const Clipboard24Color = createIcon("Clipboard24Color", Clipboard24ColorSvg);
-export const Clipboard24Filled = createIcon("Clipboard24Filled", Clipboard24FilledSvg);
-export const Clipboard24Regular = createIcon("Clipboard24Regular", Clipboard24RegularSvg);
-export const Clipboard28Color = createIcon("Clipboard28Color", Clipboard28ColorSvg);
-export const Clipboard28Filled = createIcon("Clipboard28Filled", Clipboard28FilledSvg);
-export const Clipboard28Regular = createIcon("Clipboard28Regular", Clipboard28RegularSvg);
-export const Clipboard32Color = createIcon("Clipboard32Color", Clipboard32ColorSvg);
-export const Clipboard32Filled = createIcon("Clipboard32Filled", Clipboard32FilledSvg);
-export const Clipboard32Regular = createIcon("Clipboard32Regular", Clipboard32RegularSvg);
-export const Clipboard48Color = createIcon("Clipboard48Color", Clipboard48ColorSvg);
-export const Clipboard48Filled = createIcon("Clipboard48Filled", Clipboard48FilledSvg);
-export const Clipboard48Regular = createIcon("Clipboard48Regular", Clipboard48RegularSvg);
+export const Clipboard12Filled = /** #__PURE__ */ createIcon("Clipboard12Filled", "12", Clipboard12FilledSvg);
+export const Clipboard12Regular = /** #__PURE__ */ createIcon("Clipboard12Regular", "12", Clipboard12RegularSvg);
+export const Clipboard16Color = /** #__PURE__ */ createIcon("Clipboard16Color", "16", Clipboard16ColorSvg);
+export const Clipboard16Filled = /** #__PURE__ */ createIcon("Clipboard16Filled", "16", Clipboard16FilledSvg);
+export const Clipboard16Regular = /** #__PURE__ */ createIcon("Clipboard16Regular", "16", Clipboard16RegularSvg);
+export const Clipboard20Color = /** #__PURE__ */ createIcon("Clipboard20Color", "20", Clipboard20ColorSvg);
+export const ClipboardColor = /** #__PURE__ */ createIcon("ClipboardColor", "1em", Clipboard20ColorSvg);
+export const Clipboard20Filled = /** #__PURE__ */ createIcon("Clipboard20Filled", "20", Clipboard20FilledSvg);
+export const ClipboardFilled = /** #__PURE__ */ createIcon("ClipboardFilled", "1em", Clipboard20FilledSvg);
+export const Clipboard20Regular = /** #__PURE__ */ createIcon("Clipboard20Regular", "20", Clipboard20RegularSvg);
+export const ClipboardRegular = /** #__PURE__ */ createIcon("ClipboardRegular", "1em", Clipboard20RegularSvg);
+export const Clipboard24Color = /** #__PURE__ */ createIcon("Clipboard24Color", "24", Clipboard24ColorSvg);
+export const Clipboard24Filled = /** #__PURE__ */ createIcon("Clipboard24Filled", "24", Clipboard24FilledSvg);
+export const Clipboard24Regular = /** #__PURE__ */ createIcon("Clipboard24Regular", "24", Clipboard24RegularSvg);
+export const Clipboard28Color = /** #__PURE__ */ createIcon("Clipboard28Color", "28", Clipboard28ColorSvg);
+export const Clipboard28Filled = /** #__PURE__ */ createIcon("Clipboard28Filled", "28", Clipboard28FilledSvg);
+export const Clipboard28Regular = /** #__PURE__ */ createIcon("Clipboard28Regular", "28", Clipboard28RegularSvg);
+export const Clipboard32Color = /** #__PURE__ */ createIcon("Clipboard32Color", "32", Clipboard32ColorSvg);
+export const Clipboard32Filled = /** #__PURE__ */ createIcon("Clipboard32Filled", "32", Clipboard32FilledSvg);
+export const Clipboard32Regular = /** #__PURE__ */ createIcon("Clipboard32Regular", "32", Clipboard32RegularSvg);
+export const Clipboard48Color = /** #__PURE__ */ createIcon("Clipboard48Color", "48", Clipboard48ColorSvg);
+export const Clipboard48Filled = /** #__PURE__ */ createIcon("Clipboard48Filled", "48", Clipboard48FilledSvg);
+export const Clipboard48Regular = /** #__PURE__ */ createIcon("Clipboard48Regular", "48", Clipboard48RegularSvg);

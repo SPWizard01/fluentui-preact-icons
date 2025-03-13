@@ -11,15 +11,17 @@ import RoadCone32RegularSvg from "@fluentui/svg-icons/icons/road_cone_32_regular
 import RoadCone48FilledSvg from "@fluentui/svg-icons/icons/road_cone_48_filled.svg" with { type: "text" }
 import RoadCone48RegularSvg from "@fluentui/svg-icons/icons/road_cone_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const RoadCone16Filled = createIcon("RoadCone16Filled", RoadCone16FilledSvg);
-export const RoadCone16Regular = createIcon("RoadCone16Regular", RoadCone16RegularSvg);
-export const RoadCone20Filled = createIcon("RoadCone20Filled", RoadCone20FilledSvg);
-export const RoadCone20Regular = createIcon("RoadCone20Regular", RoadCone20RegularSvg);
-export const RoadCone24Filled = createIcon("RoadCone24Filled", RoadCone24FilledSvg);
-export const RoadCone24Regular = createIcon("RoadCone24Regular", RoadCone24RegularSvg);
-export const RoadCone28Filled = createIcon("RoadCone28Filled", RoadCone28FilledSvg);
-export const RoadCone28Regular = createIcon("RoadCone28Regular", RoadCone28RegularSvg);
-export const RoadCone32Filled = createIcon("RoadCone32Filled", RoadCone32FilledSvg);
-export const RoadCone32Regular = createIcon("RoadCone32Regular", RoadCone32RegularSvg);
-export const RoadCone48Filled = createIcon("RoadCone48Filled", RoadCone48FilledSvg);
-export const RoadCone48Regular = createIcon("RoadCone48Regular", RoadCone48RegularSvg);
+export const RoadCone16Filled = /** #__PURE__ */ createIcon("RoadCone16Filled", "16", RoadCone16FilledSvg);
+export const RoadCone16Regular = /** #__PURE__ */ createIcon("RoadCone16Regular", "16", RoadCone16RegularSvg);
+export const RoadCone20Filled = /** #__PURE__ */ createIcon("RoadCone20Filled", "20", RoadCone20FilledSvg);
+export const RoadConeFilled = /** #__PURE__ */ createIcon("RoadConeFilled", "1em", RoadCone20FilledSvg);
+export const RoadCone20Regular = /** #__PURE__ */ createIcon("RoadCone20Regular", "20", RoadCone20RegularSvg);
+export const RoadConeRegular = /** #__PURE__ */ createIcon("RoadConeRegular", "1em", RoadCone20RegularSvg);
+export const RoadCone24Filled = /** #__PURE__ */ createIcon("RoadCone24Filled", "24", RoadCone24FilledSvg);
+export const RoadCone24Regular = /** #__PURE__ */ createIcon("RoadCone24Regular", "24", RoadCone24RegularSvg);
+export const RoadCone28Filled = /** #__PURE__ */ createIcon("RoadCone28Filled", "28", RoadCone28FilledSvg);
+export const RoadCone28Regular = /** #__PURE__ */ createIcon("RoadCone28Regular", "28", RoadCone28RegularSvg);
+export const RoadCone32Filled = /** #__PURE__ */ createIcon("RoadCone32Filled", "32", RoadCone32FilledSvg);
+export const RoadCone32Regular = /** #__PURE__ */ createIcon("RoadCone32Regular", "32", RoadCone32RegularSvg);
+export const RoadCone48Filled = /** #__PURE__ */ createIcon("RoadCone48Filled", "48", RoadCone48FilledSvg);
+export const RoadCone48Regular = /** #__PURE__ */ createIcon("RoadCone48Regular", "48", RoadCone48RegularSvg);

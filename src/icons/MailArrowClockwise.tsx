@@ -8,12 +8,14 @@ import MailArrowClockwise32FilledSvg from "@fluentui/svg-icons/icons/mail_arrow_
 import MailArrowClockwise32LightSvg from "@fluentui/svg-icons/icons/mail_arrow_clockwise_32_light.svg" with { type: "text" }
 import MailArrowClockwise32RegularSvg from "@fluentui/svg-icons/icons/mail_arrow_clockwise_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const MailArrowClockwise16Filled = createIcon("MailArrowClockwise16Filled", MailArrowClockwise16FilledSvg);
-export const MailArrowClockwise16Regular = createIcon("MailArrowClockwise16Regular", MailArrowClockwise16RegularSvg);
-export const MailArrowClockwise20Filled = createIcon("MailArrowClockwise20Filled", MailArrowClockwise20FilledSvg);
-export const MailArrowClockwise20Regular = createIcon("MailArrowClockwise20Regular", MailArrowClockwise20RegularSvg);
-export const MailArrowClockwise24Filled = createIcon("MailArrowClockwise24Filled", MailArrowClockwise24FilledSvg);
-export const MailArrowClockwise24Regular = createIcon("MailArrowClockwise24Regular", MailArrowClockwise24RegularSvg);
-export const MailArrowClockwise32Filled = createIcon("MailArrowClockwise32Filled", MailArrowClockwise32FilledSvg);
-export const MailArrowClockwise32Light = createIcon("MailArrowClockwise32Light", MailArrowClockwise32LightSvg);
-export const MailArrowClockwise32Regular = createIcon("MailArrowClockwise32Regular", MailArrowClockwise32RegularSvg);
+export const MailArrowClockwise16Filled = /** #__PURE__ */ createIcon("MailArrowClockwise16Filled", "16", MailArrowClockwise16FilledSvg);
+export const MailArrowClockwise16Regular = /** #__PURE__ */ createIcon("MailArrowClockwise16Regular", "16", MailArrowClockwise16RegularSvg);
+export const MailArrowClockwise20Filled = /** #__PURE__ */ createIcon("MailArrowClockwise20Filled", "20", MailArrowClockwise20FilledSvg);
+export const MailArrowClockwiseFilled = /** #__PURE__ */ createIcon("MailArrowClockwiseFilled", "1em", MailArrowClockwise20FilledSvg);
+export const MailArrowClockwise20Regular = /** #__PURE__ */ createIcon("MailArrowClockwise20Regular", "20", MailArrowClockwise20RegularSvg);
+export const MailArrowClockwiseRegular = /** #__PURE__ */ createIcon("MailArrowClockwiseRegular", "1em", MailArrowClockwise20RegularSvg);
+export const MailArrowClockwise24Filled = /** #__PURE__ */ createIcon("MailArrowClockwise24Filled", "24", MailArrowClockwise24FilledSvg);
+export const MailArrowClockwise24Regular = /** #__PURE__ */ createIcon("MailArrowClockwise24Regular", "24", MailArrowClockwise24RegularSvg);
+export const MailArrowClockwise32Filled = /** #__PURE__ */ createIcon("MailArrowClockwise32Filled", "32", MailArrowClockwise32FilledSvg);
+export const MailArrowClockwise32Light = /** #__PURE__ */ createIcon("MailArrowClockwise32Light", "32", MailArrowClockwise32LightSvg);
+export const MailArrowClockwise32Regular = /** #__PURE__ */ createIcon("MailArrowClockwise32Regular", "32", MailArrowClockwise32RegularSvg);

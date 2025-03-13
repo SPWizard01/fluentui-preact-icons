@@ -5,9 +5,11 @@ import CameraArrowUp20RegularSvg from "@fluentui/svg-icons/icons/camera_arrow_up
 import CameraArrowUp24FilledSvg from "@fluentui/svg-icons/icons/camera_arrow_up_24_filled.svg" with { type: "text" }
 import CameraArrowUp24RegularSvg from "@fluentui/svg-icons/icons/camera_arrow_up_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CameraArrowUp16Filled = createIcon("CameraArrowUp16Filled", CameraArrowUp16FilledSvg);
-export const CameraArrowUp16Regular = createIcon("CameraArrowUp16Regular", CameraArrowUp16RegularSvg);
-export const CameraArrowUp20Filled = createIcon("CameraArrowUp20Filled", CameraArrowUp20FilledSvg);
-export const CameraArrowUp20Regular = createIcon("CameraArrowUp20Regular", CameraArrowUp20RegularSvg);
-export const CameraArrowUp24Filled = createIcon("CameraArrowUp24Filled", CameraArrowUp24FilledSvg);
-export const CameraArrowUp24Regular = createIcon("CameraArrowUp24Regular", CameraArrowUp24RegularSvg);
+export const CameraArrowUp16Filled = /** #__PURE__ */ createIcon("CameraArrowUp16Filled", "16", CameraArrowUp16FilledSvg);
+export const CameraArrowUp16Regular = /** #__PURE__ */ createIcon("CameraArrowUp16Regular", "16", CameraArrowUp16RegularSvg);
+export const CameraArrowUp20Filled = /** #__PURE__ */ createIcon("CameraArrowUp20Filled", "20", CameraArrowUp20FilledSvg);
+export const CameraArrowUpFilled = /** #__PURE__ */ createIcon("CameraArrowUpFilled", "1em", CameraArrowUp20FilledSvg);
+export const CameraArrowUp20Regular = /** #__PURE__ */ createIcon("CameraArrowUp20Regular", "20", CameraArrowUp20RegularSvg);
+export const CameraArrowUpRegular = /** #__PURE__ */ createIcon("CameraArrowUpRegular", "1em", CameraArrowUp20RegularSvg);
+export const CameraArrowUp24Filled = /** #__PURE__ */ createIcon("CameraArrowUp24Filled", "24", CameraArrowUp24FilledSvg);
+export const CameraArrowUp24Regular = /** #__PURE__ */ createIcon("CameraArrowUp24Regular", "24", CameraArrowUp24RegularSvg);

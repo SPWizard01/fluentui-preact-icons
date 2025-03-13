@@ -3,7 +3,9 @@ import Drag20RegularSvg from "@fluentui/svg-icons/icons/drag_20_regular.svg" wit
 import Drag24FilledSvg from "@fluentui/svg-icons/icons/drag_24_filled.svg" with { type: "text" }
 import Drag24RegularSvg from "@fluentui/svg-icons/icons/drag_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Drag20Filled = createIcon("Drag20Filled", Drag20FilledSvg);
-export const Drag20Regular = createIcon("Drag20Regular", Drag20RegularSvg);
-export const Drag24Filled = createIcon("Drag24Filled", Drag24FilledSvg);
-export const Drag24Regular = createIcon("Drag24Regular", Drag24RegularSvg);
+export const Drag20Filled = /** #__PURE__ */ createIcon("Drag20Filled", "20", Drag20FilledSvg);
+export const DragFilled = /** #__PURE__ */ createIcon("DragFilled", "1em", Drag20FilledSvg);
+export const Drag20Regular = /** #__PURE__ */ createIcon("Drag20Regular", "20", Drag20RegularSvg);
+export const DragRegular = /** #__PURE__ */ createIcon("DragRegular", "1em", Drag20RegularSvg);
+export const Drag24Filled = /** #__PURE__ */ createIcon("Drag24Filled", "24", Drag24FilledSvg);
+export const Drag24Regular = /** #__PURE__ */ createIcon("Drag24Regular", "24", Drag24RegularSvg);

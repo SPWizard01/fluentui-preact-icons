@@ -11,15 +11,17 @@ import BuildingLighthouse32RegularSvg from "@fluentui/svg-icons/icons/building_l
 import BuildingLighthouse48FilledSvg from "@fluentui/svg-icons/icons/building_lighthouse_48_filled.svg" with { type: "text" }
 import BuildingLighthouse48RegularSvg from "@fluentui/svg-icons/icons/building_lighthouse_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const BuildingLighthouse16Filled = createIcon("BuildingLighthouse16Filled", BuildingLighthouse16FilledSvg);
-export const BuildingLighthouse16Regular = createIcon("BuildingLighthouse16Regular", BuildingLighthouse16RegularSvg);
-export const BuildingLighthouse20Filled = createIcon("BuildingLighthouse20Filled", BuildingLighthouse20FilledSvg);
-export const BuildingLighthouse20Regular = createIcon("BuildingLighthouse20Regular", BuildingLighthouse20RegularSvg);
-export const BuildingLighthouse24Filled = createIcon("BuildingLighthouse24Filled", BuildingLighthouse24FilledSvg);
-export const BuildingLighthouse24Regular = createIcon("BuildingLighthouse24Regular", BuildingLighthouse24RegularSvg);
-export const BuildingLighthouse28Filled = createIcon("BuildingLighthouse28Filled", BuildingLighthouse28FilledSvg);
-export const BuildingLighthouse28Regular = createIcon("BuildingLighthouse28Regular", BuildingLighthouse28RegularSvg);
-export const BuildingLighthouse32Filled = createIcon("BuildingLighthouse32Filled", BuildingLighthouse32FilledSvg);
-export const BuildingLighthouse32Regular = createIcon("BuildingLighthouse32Regular", BuildingLighthouse32RegularSvg);
-export const BuildingLighthouse48Filled = createIcon("BuildingLighthouse48Filled", BuildingLighthouse48FilledSvg);
-export const BuildingLighthouse48Regular = createIcon("BuildingLighthouse48Regular", BuildingLighthouse48RegularSvg);
+export const BuildingLighthouse16Filled = /** #__PURE__ */ createIcon("BuildingLighthouse16Filled", "16", BuildingLighthouse16FilledSvg);
+export const BuildingLighthouse16Regular = /** #__PURE__ */ createIcon("BuildingLighthouse16Regular", "16", BuildingLighthouse16RegularSvg);
+export const BuildingLighthouse20Filled = /** #__PURE__ */ createIcon("BuildingLighthouse20Filled", "20", BuildingLighthouse20FilledSvg);
+export const BuildingLighthouseFilled = /** #__PURE__ */ createIcon("BuildingLighthouseFilled", "1em", BuildingLighthouse20FilledSvg);
+export const BuildingLighthouse20Regular = /** #__PURE__ */ createIcon("BuildingLighthouse20Regular", "20", BuildingLighthouse20RegularSvg);
+export const BuildingLighthouseRegular = /** #__PURE__ */ createIcon("BuildingLighthouseRegular", "1em", BuildingLighthouse20RegularSvg);
+export const BuildingLighthouse24Filled = /** #__PURE__ */ createIcon("BuildingLighthouse24Filled", "24", BuildingLighthouse24FilledSvg);
+export const BuildingLighthouse24Regular = /** #__PURE__ */ createIcon("BuildingLighthouse24Regular", "24", BuildingLighthouse24RegularSvg);
+export const BuildingLighthouse28Filled = /** #__PURE__ */ createIcon("BuildingLighthouse28Filled", "28", BuildingLighthouse28FilledSvg);
+export const BuildingLighthouse28Regular = /** #__PURE__ */ createIcon("BuildingLighthouse28Regular", "28", BuildingLighthouse28RegularSvg);
+export const BuildingLighthouse32Filled = /** #__PURE__ */ createIcon("BuildingLighthouse32Filled", "32", BuildingLighthouse32FilledSvg);
+export const BuildingLighthouse32Regular = /** #__PURE__ */ createIcon("BuildingLighthouse32Regular", "32", BuildingLighthouse32RegularSvg);
+export const BuildingLighthouse48Filled = /** #__PURE__ */ createIcon("BuildingLighthouse48Filled", "48", BuildingLighthouse48FilledSvg);
+export const BuildingLighthouse48Regular = /** #__PURE__ */ createIcon("BuildingLighthouse48Regular", "48", BuildingLighthouse48RegularSvg);

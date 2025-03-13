@@ -18,22 +18,25 @@ import History48ColorSvg from "@fluentui/svg-icons/icons/history_48_color.svg" w
 import History48FilledSvg from "@fluentui/svg-icons/icons/history_48_filled.svg" with { type: "text" }
 import History48RegularSvg from "@fluentui/svg-icons/icons/history_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const History16Color = createIcon("History16Color", History16ColorSvg);
-export const History16Filled = createIcon("History16Filled", History16FilledSvg);
-export const History16Regular = createIcon("History16Regular", History16RegularSvg);
-export const History20Color = createIcon("History20Color", History20ColorSvg);
-export const History20Filled = createIcon("History20Filled", History20FilledSvg);
-export const History20Regular = createIcon("History20Regular", History20RegularSvg);
-export const History24Color = createIcon("History24Color", History24ColorSvg);
-export const History24Filled = createIcon("History24Filled", History24FilledSvg);
-export const History24Regular = createIcon("History24Regular", History24RegularSvg);
-export const History28Color = createIcon("History28Color", History28ColorSvg);
-export const History28Filled = createIcon("History28Filled", History28FilledSvg);
-export const History28Regular = createIcon("History28Regular", History28RegularSvg);
-export const History32Color = createIcon("History32Color", History32ColorSvg);
-export const History32Filled = createIcon("History32Filled", History32FilledSvg);
-export const History32Light = createIcon("History32Light", History32LightSvg);
-export const History32Regular = createIcon("History32Regular", History32RegularSvg);
-export const History48Color = createIcon("History48Color", History48ColorSvg);
-export const History48Filled = createIcon("History48Filled", History48FilledSvg);
-export const History48Regular = createIcon("History48Regular", History48RegularSvg);
+export const History16Color = /** #__PURE__ */ createIcon("History16Color", "16", History16ColorSvg);
+export const History16Filled = /** #__PURE__ */ createIcon("History16Filled", "16", History16FilledSvg);
+export const History16Regular = /** #__PURE__ */ createIcon("History16Regular", "16", History16RegularSvg);
+export const History20Color = /** #__PURE__ */ createIcon("History20Color", "20", History20ColorSvg);
+export const HistoryColor = /** #__PURE__ */ createIcon("HistoryColor", "1em", History20ColorSvg);
+export const History20Filled = /** #__PURE__ */ createIcon("History20Filled", "20", History20FilledSvg);
+export const HistoryFilled = /** #__PURE__ */ createIcon("HistoryFilled", "1em", History20FilledSvg);
+export const History20Regular = /** #__PURE__ */ createIcon("History20Regular", "20", History20RegularSvg);
+export const HistoryRegular = /** #__PURE__ */ createIcon("HistoryRegular", "1em", History20RegularSvg);
+export const History24Color = /** #__PURE__ */ createIcon("History24Color", "24", History24ColorSvg);
+export const History24Filled = /** #__PURE__ */ createIcon("History24Filled", "24", History24FilledSvg);
+export const History24Regular = /** #__PURE__ */ createIcon("History24Regular", "24", History24RegularSvg);
+export const History28Color = /** #__PURE__ */ createIcon("History28Color", "28", History28ColorSvg);
+export const History28Filled = /** #__PURE__ */ createIcon("History28Filled", "28", History28FilledSvg);
+export const History28Regular = /** #__PURE__ */ createIcon("History28Regular", "28", History28RegularSvg);
+export const History32Color = /** #__PURE__ */ createIcon("History32Color", "32", History32ColorSvg);
+export const History32Filled = /** #__PURE__ */ createIcon("History32Filled", "32", History32FilledSvg);
+export const History32Light = /** #__PURE__ */ createIcon("History32Light", "32", History32LightSvg);
+export const History32Regular = /** #__PURE__ */ createIcon("History32Regular", "32", History32RegularSvg);
+export const History48Color = /** #__PURE__ */ createIcon("History48Color", "48", History48ColorSvg);
+export const History48Filled = /** #__PURE__ */ createIcon("History48Filled", "48", History48FilledSvg);
+export const History48Regular = /** #__PURE__ */ createIcon("History48Regular", "48", History48RegularSvg);

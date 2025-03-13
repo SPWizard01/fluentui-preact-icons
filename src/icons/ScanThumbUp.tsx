@@ -9,13 +9,15 @@ import ScanThumbUp28RegularSvg from "@fluentui/svg-icons/icons/scan_thumb_up_28_
 import ScanThumbUp48FilledSvg from "@fluentui/svg-icons/icons/scan_thumb_up_48_filled.svg" with { type: "text" }
 import ScanThumbUp48RegularSvg from "@fluentui/svg-icons/icons/scan_thumb_up_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ScanThumbUp16Filled = createIcon("ScanThumbUp16Filled", ScanThumbUp16FilledSvg);
-export const ScanThumbUp16Regular = createIcon("ScanThumbUp16Regular", ScanThumbUp16RegularSvg);
-export const ScanThumbUp20Filled = createIcon("ScanThumbUp20Filled", ScanThumbUp20FilledSvg);
-export const ScanThumbUp20Regular = createIcon("ScanThumbUp20Regular", ScanThumbUp20RegularSvg);
-export const ScanThumbUp24Filled = createIcon("ScanThumbUp24Filled", ScanThumbUp24FilledSvg);
-export const ScanThumbUp24Regular = createIcon("ScanThumbUp24Regular", ScanThumbUp24RegularSvg);
-export const ScanThumbUp28Filled = createIcon("ScanThumbUp28Filled", ScanThumbUp28FilledSvg);
-export const ScanThumbUp28Regular = createIcon("ScanThumbUp28Regular", ScanThumbUp28RegularSvg);
-export const ScanThumbUp48Filled = createIcon("ScanThumbUp48Filled", ScanThumbUp48FilledSvg);
-export const ScanThumbUp48Regular = createIcon("ScanThumbUp48Regular", ScanThumbUp48RegularSvg);
+export const ScanThumbUp16Filled = /** #__PURE__ */ createIcon("ScanThumbUp16Filled", "16", ScanThumbUp16FilledSvg);
+export const ScanThumbUp16Regular = /** #__PURE__ */ createIcon("ScanThumbUp16Regular", "16", ScanThumbUp16RegularSvg);
+export const ScanThumbUp20Filled = /** #__PURE__ */ createIcon("ScanThumbUp20Filled", "20", ScanThumbUp20FilledSvg);
+export const ScanThumbUpFilled = /** #__PURE__ */ createIcon("ScanThumbUpFilled", "1em", ScanThumbUp20FilledSvg);
+export const ScanThumbUp20Regular = /** #__PURE__ */ createIcon("ScanThumbUp20Regular", "20", ScanThumbUp20RegularSvg);
+export const ScanThumbUpRegular = /** #__PURE__ */ createIcon("ScanThumbUpRegular", "1em", ScanThumbUp20RegularSvg);
+export const ScanThumbUp24Filled = /** #__PURE__ */ createIcon("ScanThumbUp24Filled", "24", ScanThumbUp24FilledSvg);
+export const ScanThumbUp24Regular = /** #__PURE__ */ createIcon("ScanThumbUp24Regular", "24", ScanThumbUp24RegularSvg);
+export const ScanThumbUp28Filled = /** #__PURE__ */ createIcon("ScanThumbUp28Filled", "28", ScanThumbUp28FilledSvg);
+export const ScanThumbUp28Regular = /** #__PURE__ */ createIcon("ScanThumbUp28Regular", "28", ScanThumbUp28RegularSvg);
+export const ScanThumbUp48Filled = /** #__PURE__ */ createIcon("ScanThumbUp48Filled", "48", ScanThumbUp48FilledSvg);
+export const ScanThumbUp48Regular = /** #__PURE__ */ createIcon("ScanThumbUp48Regular", "48", ScanThumbUp48RegularSvg);

@@ -7,11 +7,13 @@ import ArrowNext20RegularSvg from "@fluentui/svg-icons/icons/arrow_next_20_regul
 import ArrowNext24FilledSvg from "@fluentui/svg-icons/icons/arrow_next_24_filled.svg" with { type: "text" }
 import ArrowNext24RegularSvg from "@fluentui/svg-icons/icons/arrow_next_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ArrowNext12Filled = createIcon("ArrowNext12Filled", ArrowNext12FilledSvg);
-export const ArrowNext12Regular = createIcon("ArrowNext12Regular", ArrowNext12RegularSvg);
-export const ArrowNext16Filled = createIcon("ArrowNext16Filled", ArrowNext16FilledSvg);
-export const ArrowNext16Regular = createIcon("ArrowNext16Regular", ArrowNext16RegularSvg);
-export const ArrowNext20Filled = createIcon("ArrowNext20Filled", ArrowNext20FilledSvg);
-export const ArrowNext20Regular = createIcon("ArrowNext20Regular", ArrowNext20RegularSvg);
-export const ArrowNext24Filled = createIcon("ArrowNext24Filled", ArrowNext24FilledSvg);
-export const ArrowNext24Regular = createIcon("ArrowNext24Regular", ArrowNext24RegularSvg);
+export const ArrowNext12Filled = /** #__PURE__ */ createIcon("ArrowNext12Filled", "12", ArrowNext12FilledSvg);
+export const ArrowNext12Regular = /** #__PURE__ */ createIcon("ArrowNext12Regular", "12", ArrowNext12RegularSvg);
+export const ArrowNext16Filled = /** #__PURE__ */ createIcon("ArrowNext16Filled", "16", ArrowNext16FilledSvg);
+export const ArrowNext16Regular = /** #__PURE__ */ createIcon("ArrowNext16Regular", "16", ArrowNext16RegularSvg);
+export const ArrowNext20Filled = /** #__PURE__ */ createIcon("ArrowNext20Filled", "20", ArrowNext20FilledSvg);
+export const ArrowNextFilled = /** #__PURE__ */ createIcon("ArrowNextFilled", "1em", ArrowNext20FilledSvg);
+export const ArrowNext20Regular = /** #__PURE__ */ createIcon("ArrowNext20Regular", "20", ArrowNext20RegularSvg);
+export const ArrowNextRegular = /** #__PURE__ */ createIcon("ArrowNextRegular", "1em", ArrowNext20RegularSvg);
+export const ArrowNext24Filled = /** #__PURE__ */ createIcon("ArrowNext24Filled", "24", ArrowNext24FilledSvg);
+export const ArrowNext24Regular = /** #__PURE__ */ createIcon("ArrowNext24Regular", "24", ArrowNext24RegularSvg);

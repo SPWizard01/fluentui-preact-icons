@@ -5,9 +5,11 @@ import PersonQuestionMark20RegularSvg from "@fluentui/svg-icons/icons/person_que
 import PersonQuestionMark24FilledSvg from "@fluentui/svg-icons/icons/person_question_mark_24_filled.svg" with { type: "text" }
 import PersonQuestionMark24RegularSvg from "@fluentui/svg-icons/icons/person_question_mark_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PersonQuestionMark16Filled = createIcon("PersonQuestionMark16Filled", PersonQuestionMark16FilledSvg);
-export const PersonQuestionMark16Regular = createIcon("PersonQuestionMark16Regular", PersonQuestionMark16RegularSvg);
-export const PersonQuestionMark20Filled = createIcon("PersonQuestionMark20Filled", PersonQuestionMark20FilledSvg);
-export const PersonQuestionMark20Regular = createIcon("PersonQuestionMark20Regular", PersonQuestionMark20RegularSvg);
-export const PersonQuestionMark24Filled = createIcon("PersonQuestionMark24Filled", PersonQuestionMark24FilledSvg);
-export const PersonQuestionMark24Regular = createIcon("PersonQuestionMark24Regular", PersonQuestionMark24RegularSvg);
+export const PersonQuestionMark16Filled = /** #__PURE__ */ createIcon("PersonQuestionMark16Filled", "16", PersonQuestionMark16FilledSvg);
+export const PersonQuestionMark16Regular = /** #__PURE__ */ createIcon("PersonQuestionMark16Regular", "16", PersonQuestionMark16RegularSvg);
+export const PersonQuestionMark20Filled = /** #__PURE__ */ createIcon("PersonQuestionMark20Filled", "20", PersonQuestionMark20FilledSvg);
+export const PersonQuestionMarkFilled = /** #__PURE__ */ createIcon("PersonQuestionMarkFilled", "1em", PersonQuestionMark20FilledSvg);
+export const PersonQuestionMark20Regular = /** #__PURE__ */ createIcon("PersonQuestionMark20Regular", "20", PersonQuestionMark20RegularSvg);
+export const PersonQuestionMarkRegular = /** #__PURE__ */ createIcon("PersonQuestionMarkRegular", "1em", PersonQuestionMark20RegularSvg);
+export const PersonQuestionMark24Filled = /** #__PURE__ */ createIcon("PersonQuestionMark24Filled", "24", PersonQuestionMark24FilledSvg);
+export const PersonQuestionMark24Regular = /** #__PURE__ */ createIcon("PersonQuestionMark24Regular", "24", PersonQuestionMark24RegularSvg);

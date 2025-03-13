@@ -5,9 +5,11 @@ import ProtocolHandler20RegularSvg from "@fluentui/svg-icons/icons/protocol_hand
 import ProtocolHandler24FilledSvg from "@fluentui/svg-icons/icons/protocol_handler_24_filled.svg" with { type: "text" }
 import ProtocolHandler24RegularSvg from "@fluentui/svg-icons/icons/protocol_handler_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ProtocolHandler16Filled = createIcon("ProtocolHandler16Filled", ProtocolHandler16FilledSvg);
-export const ProtocolHandler16Regular = createIcon("ProtocolHandler16Regular", ProtocolHandler16RegularSvg);
-export const ProtocolHandler20Filled = createIcon("ProtocolHandler20Filled", ProtocolHandler20FilledSvg);
-export const ProtocolHandler20Regular = createIcon("ProtocolHandler20Regular", ProtocolHandler20RegularSvg);
-export const ProtocolHandler24Filled = createIcon("ProtocolHandler24Filled", ProtocolHandler24FilledSvg);
-export const ProtocolHandler24Regular = createIcon("ProtocolHandler24Regular", ProtocolHandler24RegularSvg);
+export const ProtocolHandler16Filled = /** #__PURE__ */ createIcon("ProtocolHandler16Filled", "16", ProtocolHandler16FilledSvg);
+export const ProtocolHandler16Regular = /** #__PURE__ */ createIcon("ProtocolHandler16Regular", "16", ProtocolHandler16RegularSvg);
+export const ProtocolHandler20Filled = /** #__PURE__ */ createIcon("ProtocolHandler20Filled", "20", ProtocolHandler20FilledSvg);
+export const ProtocolHandlerFilled = /** #__PURE__ */ createIcon("ProtocolHandlerFilled", "1em", ProtocolHandler20FilledSvg);
+export const ProtocolHandler20Regular = /** #__PURE__ */ createIcon("ProtocolHandler20Regular", "20", ProtocolHandler20RegularSvg);
+export const ProtocolHandlerRegular = /** #__PURE__ */ createIcon("ProtocolHandlerRegular", "1em", ProtocolHandler20RegularSvg);
+export const ProtocolHandler24Filled = /** #__PURE__ */ createIcon("ProtocolHandler24Filled", "24", ProtocolHandler24FilledSvg);
+export const ProtocolHandler24Regular = /** #__PURE__ */ createIcon("ProtocolHandler24Regular", "24", ProtocolHandler24RegularSvg);

@@ -7,11 +7,13 @@ import TableResizeColumn24RegularSvg from "@fluentui/svg-icons/icons/table_resiz
 import TableResizeColumn28FilledSvg from "@fluentui/svg-icons/icons/table_resize_column_28_filled.svg" with { type: "text" }
 import TableResizeColumn28RegularSvg from "@fluentui/svg-icons/icons/table_resize_column_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TableResizeColumn16Filled = createIcon("TableResizeColumn16Filled", TableResizeColumn16FilledSvg);
-export const TableResizeColumn16Regular = createIcon("TableResizeColumn16Regular", TableResizeColumn16RegularSvg);
-export const TableResizeColumn20Filled = createIcon("TableResizeColumn20Filled", TableResizeColumn20FilledSvg);
-export const TableResizeColumn20Regular = createIcon("TableResizeColumn20Regular", TableResizeColumn20RegularSvg);
-export const TableResizeColumn24Filled = createIcon("TableResizeColumn24Filled", TableResizeColumn24FilledSvg);
-export const TableResizeColumn24Regular = createIcon("TableResizeColumn24Regular", TableResizeColumn24RegularSvg);
-export const TableResizeColumn28Filled = createIcon("TableResizeColumn28Filled", TableResizeColumn28FilledSvg);
-export const TableResizeColumn28Regular = createIcon("TableResizeColumn28Regular", TableResizeColumn28RegularSvg);
+export const TableResizeColumn16Filled = /** #__PURE__ */ createIcon("TableResizeColumn16Filled", "16", TableResizeColumn16FilledSvg);
+export const TableResizeColumn16Regular = /** #__PURE__ */ createIcon("TableResizeColumn16Regular", "16", TableResizeColumn16RegularSvg);
+export const TableResizeColumn20Filled = /** #__PURE__ */ createIcon("TableResizeColumn20Filled", "20", TableResizeColumn20FilledSvg);
+export const TableResizeColumnFilled = /** #__PURE__ */ createIcon("TableResizeColumnFilled", "1em", TableResizeColumn20FilledSvg);
+export const TableResizeColumn20Regular = /** #__PURE__ */ createIcon("TableResizeColumn20Regular", "20", TableResizeColumn20RegularSvg);
+export const TableResizeColumnRegular = /** #__PURE__ */ createIcon("TableResizeColumnRegular", "1em", TableResizeColumn20RegularSvg);
+export const TableResizeColumn24Filled = /** #__PURE__ */ createIcon("TableResizeColumn24Filled", "24", TableResizeColumn24FilledSvg);
+export const TableResizeColumn24Regular = /** #__PURE__ */ createIcon("TableResizeColumn24Regular", "24", TableResizeColumn24RegularSvg);
+export const TableResizeColumn28Filled = /** #__PURE__ */ createIcon("TableResizeColumn28Filled", "28", TableResizeColumn28FilledSvg);
+export const TableResizeColumn28Regular = /** #__PURE__ */ createIcon("TableResizeColumn28Regular", "28", TableResizeColumn28RegularSvg);

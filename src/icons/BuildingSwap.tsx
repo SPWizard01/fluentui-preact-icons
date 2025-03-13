@@ -9,13 +9,15 @@ import BuildingSwap32RegularSvg from "@fluentui/svg-icons/icons/building_swap_32
 import BuildingSwap48FilledSvg from "@fluentui/svg-icons/icons/building_swap_48_filled.svg" with { type: "text" }
 import BuildingSwap48RegularSvg from "@fluentui/svg-icons/icons/building_swap_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const BuildingSwap16Filled = createIcon("BuildingSwap16Filled", BuildingSwap16FilledSvg);
-export const BuildingSwap16Regular = createIcon("BuildingSwap16Regular", BuildingSwap16RegularSvg);
-export const BuildingSwap20Filled = createIcon("BuildingSwap20Filled", BuildingSwap20FilledSvg);
-export const BuildingSwap20Regular = createIcon("BuildingSwap20Regular", BuildingSwap20RegularSvg);
-export const BuildingSwap24Filled = createIcon("BuildingSwap24Filled", BuildingSwap24FilledSvg);
-export const BuildingSwap24Regular = createIcon("BuildingSwap24Regular", BuildingSwap24RegularSvg);
-export const BuildingSwap32Filled = createIcon("BuildingSwap32Filled", BuildingSwap32FilledSvg);
-export const BuildingSwap32Regular = createIcon("BuildingSwap32Regular", BuildingSwap32RegularSvg);
-export const BuildingSwap48Filled = createIcon("BuildingSwap48Filled", BuildingSwap48FilledSvg);
-export const BuildingSwap48Regular = createIcon("BuildingSwap48Regular", BuildingSwap48RegularSvg);
+export const BuildingSwap16Filled = /** #__PURE__ */ createIcon("BuildingSwap16Filled", "16", BuildingSwap16FilledSvg);
+export const BuildingSwap16Regular = /** #__PURE__ */ createIcon("BuildingSwap16Regular", "16", BuildingSwap16RegularSvg);
+export const BuildingSwap20Filled = /** #__PURE__ */ createIcon("BuildingSwap20Filled", "20", BuildingSwap20FilledSvg);
+export const BuildingSwapFilled = /** #__PURE__ */ createIcon("BuildingSwapFilled", "1em", BuildingSwap20FilledSvg);
+export const BuildingSwap20Regular = /** #__PURE__ */ createIcon("BuildingSwap20Regular", "20", BuildingSwap20RegularSvg);
+export const BuildingSwapRegular = /** #__PURE__ */ createIcon("BuildingSwapRegular", "1em", BuildingSwap20RegularSvg);
+export const BuildingSwap24Filled = /** #__PURE__ */ createIcon("BuildingSwap24Filled", "24", BuildingSwap24FilledSvg);
+export const BuildingSwap24Regular = /** #__PURE__ */ createIcon("BuildingSwap24Regular", "24", BuildingSwap24RegularSvg);
+export const BuildingSwap32Filled = /** #__PURE__ */ createIcon("BuildingSwap32Filled", "32", BuildingSwap32FilledSvg);
+export const BuildingSwap32Regular = /** #__PURE__ */ createIcon("BuildingSwap32Regular", "32", BuildingSwap32RegularSvg);
+export const BuildingSwap48Filled = /** #__PURE__ */ createIcon("BuildingSwap48Filled", "48", BuildingSwap48FilledSvg);
+export const BuildingSwap48Regular = /** #__PURE__ */ createIcon("BuildingSwap48Regular", "48", BuildingSwap48RegularSvg);

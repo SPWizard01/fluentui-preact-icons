@@ -11,15 +11,17 @@ import CalendarLock32RegularSvg from "@fluentui/svg-icons/icons/calendar_lock_32
 import CalendarLock48FilledSvg from "@fluentui/svg-icons/icons/calendar_lock_48_filled.svg" with { type: "text" }
 import CalendarLock48RegularSvg from "@fluentui/svg-icons/icons/calendar_lock_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CalendarLock16Filled = createIcon("CalendarLock16Filled", CalendarLock16FilledSvg);
-export const CalendarLock16Regular = createIcon("CalendarLock16Regular", CalendarLock16RegularSvg);
-export const CalendarLock20Filled = createIcon("CalendarLock20Filled", CalendarLock20FilledSvg);
-export const CalendarLock20Regular = createIcon("CalendarLock20Regular", CalendarLock20RegularSvg);
-export const CalendarLock24Filled = createIcon("CalendarLock24Filled", CalendarLock24FilledSvg);
-export const CalendarLock24Regular = createIcon("CalendarLock24Regular", CalendarLock24RegularSvg);
-export const CalendarLock28Filled = createIcon("CalendarLock28Filled", CalendarLock28FilledSvg);
-export const CalendarLock28Regular = createIcon("CalendarLock28Regular", CalendarLock28RegularSvg);
-export const CalendarLock32Filled = createIcon("CalendarLock32Filled", CalendarLock32FilledSvg);
-export const CalendarLock32Regular = createIcon("CalendarLock32Regular", CalendarLock32RegularSvg);
-export const CalendarLock48Filled = createIcon("CalendarLock48Filled", CalendarLock48FilledSvg);
-export const CalendarLock48Regular = createIcon("CalendarLock48Regular", CalendarLock48RegularSvg);
+export const CalendarLock16Filled = /** #__PURE__ */ createIcon("CalendarLock16Filled", "16", CalendarLock16FilledSvg);
+export const CalendarLock16Regular = /** #__PURE__ */ createIcon("CalendarLock16Regular", "16", CalendarLock16RegularSvg);
+export const CalendarLock20Filled = /** #__PURE__ */ createIcon("CalendarLock20Filled", "20", CalendarLock20FilledSvg);
+export const CalendarLockFilled = /** #__PURE__ */ createIcon("CalendarLockFilled", "1em", CalendarLock20FilledSvg);
+export const CalendarLock20Regular = /** #__PURE__ */ createIcon("CalendarLock20Regular", "20", CalendarLock20RegularSvg);
+export const CalendarLockRegular = /** #__PURE__ */ createIcon("CalendarLockRegular", "1em", CalendarLock20RegularSvg);
+export const CalendarLock24Filled = /** #__PURE__ */ createIcon("CalendarLock24Filled", "24", CalendarLock24FilledSvg);
+export const CalendarLock24Regular = /** #__PURE__ */ createIcon("CalendarLock24Regular", "24", CalendarLock24RegularSvg);
+export const CalendarLock28Filled = /** #__PURE__ */ createIcon("CalendarLock28Filled", "28", CalendarLock28FilledSvg);
+export const CalendarLock28Regular = /** #__PURE__ */ createIcon("CalendarLock28Regular", "28", CalendarLock28RegularSvg);
+export const CalendarLock32Filled = /** #__PURE__ */ createIcon("CalendarLock32Filled", "32", CalendarLock32FilledSvg);
+export const CalendarLock32Regular = /** #__PURE__ */ createIcon("CalendarLock32Regular", "32", CalendarLock32RegularSvg);
+export const CalendarLock48Filled = /** #__PURE__ */ createIcon("CalendarLock48Filled", "48", CalendarLock48FilledSvg);
+export const CalendarLock48Regular = /** #__PURE__ */ createIcon("CalendarLock48Regular", "48", CalendarLock48RegularSvg);

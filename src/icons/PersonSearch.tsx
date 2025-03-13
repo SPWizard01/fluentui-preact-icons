@@ -7,11 +7,13 @@ import PersonSearch24RegularSvg from "@fluentui/svg-icons/icons/person_search_24
 import PersonSearch32FilledSvg from "@fluentui/svg-icons/icons/person_search_32_filled.svg" with { type: "text" }
 import PersonSearch32RegularSvg from "@fluentui/svg-icons/icons/person_search_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PersonSearch16Filled = createIcon("PersonSearch16Filled", PersonSearch16FilledSvg);
-export const PersonSearch16Regular = createIcon("PersonSearch16Regular", PersonSearch16RegularSvg);
-export const PersonSearch20Filled = createIcon("PersonSearch20Filled", PersonSearch20FilledSvg);
-export const PersonSearch20Regular = createIcon("PersonSearch20Regular", PersonSearch20RegularSvg);
-export const PersonSearch24Filled = createIcon("PersonSearch24Filled", PersonSearch24FilledSvg);
-export const PersonSearch24Regular = createIcon("PersonSearch24Regular", PersonSearch24RegularSvg);
-export const PersonSearch32Filled = createIcon("PersonSearch32Filled", PersonSearch32FilledSvg);
-export const PersonSearch32Regular = createIcon("PersonSearch32Regular", PersonSearch32RegularSvg);
+export const PersonSearch16Filled = /** #__PURE__ */ createIcon("PersonSearch16Filled", "16", PersonSearch16FilledSvg);
+export const PersonSearch16Regular = /** #__PURE__ */ createIcon("PersonSearch16Regular", "16", PersonSearch16RegularSvg);
+export const PersonSearch20Filled = /** #__PURE__ */ createIcon("PersonSearch20Filled", "20", PersonSearch20FilledSvg);
+export const PersonSearchFilled = /** #__PURE__ */ createIcon("PersonSearchFilled", "1em", PersonSearch20FilledSvg);
+export const PersonSearch20Regular = /** #__PURE__ */ createIcon("PersonSearch20Regular", "20", PersonSearch20RegularSvg);
+export const PersonSearchRegular = /** #__PURE__ */ createIcon("PersonSearchRegular", "1em", PersonSearch20RegularSvg);
+export const PersonSearch24Filled = /** #__PURE__ */ createIcon("PersonSearch24Filled", "24", PersonSearch24FilledSvg);
+export const PersonSearch24Regular = /** #__PURE__ */ createIcon("PersonSearch24Regular", "24", PersonSearch24RegularSvg);
+export const PersonSearch32Filled = /** #__PURE__ */ createIcon("PersonSearch32Filled", "32", PersonSearch32FilledSvg);
+export const PersonSearch32Regular = /** #__PURE__ */ createIcon("PersonSearch32Regular", "32", PersonSearch32RegularSvg);

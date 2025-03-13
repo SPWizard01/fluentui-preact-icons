@@ -11,15 +11,17 @@ import AlignBottom32RegularSvg from "@fluentui/svg-icons/icons/align_bottom_32_r
 import AlignBottom48FilledSvg from "@fluentui/svg-icons/icons/align_bottom_48_filled.svg" with { type: "text" }
 import AlignBottom48RegularSvg from "@fluentui/svg-icons/icons/align_bottom_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const AlignBottom16Filled = createIcon("AlignBottom16Filled", AlignBottom16FilledSvg);
-export const AlignBottom16Regular = createIcon("AlignBottom16Regular", AlignBottom16RegularSvg);
-export const AlignBottom20Filled = createIcon("AlignBottom20Filled", AlignBottom20FilledSvg);
-export const AlignBottom20Regular = createIcon("AlignBottom20Regular", AlignBottom20RegularSvg);
-export const AlignBottom24Filled = createIcon("AlignBottom24Filled", AlignBottom24FilledSvg);
-export const AlignBottom24Regular = createIcon("AlignBottom24Regular", AlignBottom24RegularSvg);
-export const AlignBottom28Filled = createIcon("AlignBottom28Filled", AlignBottom28FilledSvg);
-export const AlignBottom28Regular = createIcon("AlignBottom28Regular", AlignBottom28RegularSvg);
-export const AlignBottom32Filled = createIcon("AlignBottom32Filled", AlignBottom32FilledSvg);
-export const AlignBottom32Regular = createIcon("AlignBottom32Regular", AlignBottom32RegularSvg);
-export const AlignBottom48Filled = createIcon("AlignBottom48Filled", AlignBottom48FilledSvg);
-export const AlignBottom48Regular = createIcon("AlignBottom48Regular", AlignBottom48RegularSvg);
+export const AlignBottom16Filled = /** #__PURE__ */ createIcon("AlignBottom16Filled", "16", AlignBottom16FilledSvg);
+export const AlignBottom16Regular = /** #__PURE__ */ createIcon("AlignBottom16Regular", "16", AlignBottom16RegularSvg);
+export const AlignBottom20Filled = /** #__PURE__ */ createIcon("AlignBottom20Filled", "20", AlignBottom20FilledSvg);
+export const AlignBottomFilled = /** #__PURE__ */ createIcon("AlignBottomFilled", "1em", AlignBottom20FilledSvg);
+export const AlignBottom20Regular = /** #__PURE__ */ createIcon("AlignBottom20Regular", "20", AlignBottom20RegularSvg);
+export const AlignBottomRegular = /** #__PURE__ */ createIcon("AlignBottomRegular", "1em", AlignBottom20RegularSvg);
+export const AlignBottom24Filled = /** #__PURE__ */ createIcon("AlignBottom24Filled", "24", AlignBottom24FilledSvg);
+export const AlignBottom24Regular = /** #__PURE__ */ createIcon("AlignBottom24Regular", "24", AlignBottom24RegularSvg);
+export const AlignBottom28Filled = /** #__PURE__ */ createIcon("AlignBottom28Filled", "28", AlignBottom28FilledSvg);
+export const AlignBottom28Regular = /** #__PURE__ */ createIcon("AlignBottom28Regular", "28", AlignBottom28RegularSvg);
+export const AlignBottom32Filled = /** #__PURE__ */ createIcon("AlignBottom32Filled", "32", AlignBottom32FilledSvg);
+export const AlignBottom32Regular = /** #__PURE__ */ createIcon("AlignBottom32Regular", "32", AlignBottom32RegularSvg);
+export const AlignBottom48Filled = /** #__PURE__ */ createIcon("AlignBottom48Filled", "48", AlignBottom48FilledSvg);
+export const AlignBottom48Regular = /** #__PURE__ */ createIcon("AlignBottom48Regular", "48", AlignBottom48RegularSvg);

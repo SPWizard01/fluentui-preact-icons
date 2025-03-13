@@ -5,9 +5,11 @@ import NotepadPerson20RegularSvg from "@fluentui/svg-icons/icons/notepad_person_
 import NotepadPerson24FilledSvg from "@fluentui/svg-icons/icons/notepad_person_24_filled.svg" with { type: "text" }
 import NotepadPerson24RegularSvg from "@fluentui/svg-icons/icons/notepad_person_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const NotepadPerson16Filled = createIcon("NotepadPerson16Filled", NotepadPerson16FilledSvg);
-export const NotepadPerson16Regular = createIcon("NotepadPerson16Regular", NotepadPerson16RegularSvg);
-export const NotepadPerson20Filled = createIcon("NotepadPerson20Filled", NotepadPerson20FilledSvg);
-export const NotepadPerson20Regular = createIcon("NotepadPerson20Regular", NotepadPerson20RegularSvg);
-export const NotepadPerson24Filled = createIcon("NotepadPerson24Filled", NotepadPerson24FilledSvg);
-export const NotepadPerson24Regular = createIcon("NotepadPerson24Regular", NotepadPerson24RegularSvg);
+export const NotepadPerson16Filled = /** #__PURE__ */ createIcon("NotepadPerson16Filled", "16", NotepadPerson16FilledSvg);
+export const NotepadPerson16Regular = /** #__PURE__ */ createIcon("NotepadPerson16Regular", "16", NotepadPerson16RegularSvg);
+export const NotepadPerson20Filled = /** #__PURE__ */ createIcon("NotepadPerson20Filled", "20", NotepadPerson20FilledSvg);
+export const NotepadPersonFilled = /** #__PURE__ */ createIcon("NotepadPersonFilled", "1em", NotepadPerson20FilledSvg);
+export const NotepadPerson20Regular = /** #__PURE__ */ createIcon("NotepadPerson20Regular", "20", NotepadPerson20RegularSvg);
+export const NotepadPersonRegular = /** #__PURE__ */ createIcon("NotepadPersonRegular", "1em", NotepadPerson20RegularSvg);
+export const NotepadPerson24Filled = /** #__PURE__ */ createIcon("NotepadPerson24Filled", "24", NotepadPerson24FilledSvg);
+export const NotepadPerson24Regular = /** #__PURE__ */ createIcon("NotepadPerson24Regular", "24", NotepadPerson24RegularSvg);

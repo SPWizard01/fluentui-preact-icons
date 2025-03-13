@@ -6,10 +6,12 @@ import Lasso28FilledSvg from "@fluentui/svg-icons/icons/lasso_28_filled.svg" wit
 import Lasso28RegularSvg from "@fluentui/svg-icons/icons/lasso_28_regular.svg" with { type: "text" }
 import Lasso32LightSvg from "@fluentui/svg-icons/icons/lasso_32_light.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Lasso20Filled = createIcon("Lasso20Filled", Lasso20FilledSvg);
-export const Lasso20Regular = createIcon("Lasso20Regular", Lasso20RegularSvg);
-export const Lasso24Filled = createIcon("Lasso24Filled", Lasso24FilledSvg);
-export const Lasso24Regular = createIcon("Lasso24Regular", Lasso24RegularSvg);
-export const Lasso28Filled = createIcon("Lasso28Filled", Lasso28FilledSvg);
-export const Lasso28Regular = createIcon("Lasso28Regular", Lasso28RegularSvg);
-export const Lasso32Light = createIcon("Lasso32Light", Lasso32LightSvg);
+export const Lasso20Filled = /** #__PURE__ */ createIcon("Lasso20Filled", "20", Lasso20FilledSvg);
+export const LassoFilled = /** #__PURE__ */ createIcon("LassoFilled", "1em", Lasso20FilledSvg);
+export const Lasso20Regular = /** #__PURE__ */ createIcon("Lasso20Regular", "20", Lasso20RegularSvg);
+export const LassoRegular = /** #__PURE__ */ createIcon("LassoRegular", "1em", Lasso20RegularSvg);
+export const Lasso24Filled = /** #__PURE__ */ createIcon("Lasso24Filled", "24", Lasso24FilledSvg);
+export const Lasso24Regular = /** #__PURE__ */ createIcon("Lasso24Regular", "24", Lasso24RegularSvg);
+export const Lasso28Filled = /** #__PURE__ */ createIcon("Lasso28Filled", "28", Lasso28FilledSvg);
+export const Lasso28Regular = /** #__PURE__ */ createIcon("Lasso28Regular", "28", Lasso28RegularSvg);
+export const Lasso32Light = /** #__PURE__ */ createIcon("Lasso32Light", "32", Lasso32LightSvg);

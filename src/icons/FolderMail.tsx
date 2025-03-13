@@ -10,14 +10,16 @@ import FolderMail32FilledSvg from "@fluentui/svg-icons/icons/folder_mail_32_fill
 import FolderMail32LightSvg from "@fluentui/svg-icons/icons/folder_mail_32_light.svg" with { type: "text" }
 import FolderMail32RegularSvg from "@fluentui/svg-icons/icons/folder_mail_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const FolderMail16Filled = createIcon("FolderMail16Filled", FolderMail16FilledSvg);
-export const FolderMail16Regular = createIcon("FolderMail16Regular", FolderMail16RegularSvg);
-export const FolderMail20Filled = createIcon("FolderMail20Filled", FolderMail20FilledSvg);
-export const FolderMail20Regular = createIcon("FolderMail20Regular", FolderMail20RegularSvg);
-export const FolderMail24Filled = createIcon("FolderMail24Filled", FolderMail24FilledSvg);
-export const FolderMail24Regular = createIcon("FolderMail24Regular", FolderMail24RegularSvg);
-export const FolderMail28Filled = createIcon("FolderMail28Filled", FolderMail28FilledSvg);
-export const FolderMail28Regular = createIcon("FolderMail28Regular", FolderMail28RegularSvg);
-export const FolderMail32Filled = createIcon("FolderMail32Filled", FolderMail32FilledSvg);
-export const FolderMail32Light = createIcon("FolderMail32Light", FolderMail32LightSvg);
-export const FolderMail32Regular = createIcon("FolderMail32Regular", FolderMail32RegularSvg);
+export const FolderMail16Filled = /** #__PURE__ */ createIcon("FolderMail16Filled", "16", FolderMail16FilledSvg);
+export const FolderMail16Regular = /** #__PURE__ */ createIcon("FolderMail16Regular", "16", FolderMail16RegularSvg);
+export const FolderMail20Filled = /** #__PURE__ */ createIcon("FolderMail20Filled", "20", FolderMail20FilledSvg);
+export const FolderMailFilled = /** #__PURE__ */ createIcon("FolderMailFilled", "1em", FolderMail20FilledSvg);
+export const FolderMail20Regular = /** #__PURE__ */ createIcon("FolderMail20Regular", "20", FolderMail20RegularSvg);
+export const FolderMailRegular = /** #__PURE__ */ createIcon("FolderMailRegular", "1em", FolderMail20RegularSvg);
+export const FolderMail24Filled = /** #__PURE__ */ createIcon("FolderMail24Filled", "24", FolderMail24FilledSvg);
+export const FolderMail24Regular = /** #__PURE__ */ createIcon("FolderMail24Regular", "24", FolderMail24RegularSvg);
+export const FolderMail28Filled = /** #__PURE__ */ createIcon("FolderMail28Filled", "28", FolderMail28FilledSvg);
+export const FolderMail28Regular = /** #__PURE__ */ createIcon("FolderMail28Regular", "28", FolderMail28RegularSvg);
+export const FolderMail32Filled = /** #__PURE__ */ createIcon("FolderMail32Filled", "32", FolderMail32FilledSvg);
+export const FolderMail32Light = /** #__PURE__ */ createIcon("FolderMail32Light", "32", FolderMail32LightSvg);
+export const FolderMail32Regular = /** #__PURE__ */ createIcon("FolderMail32Regular", "32", FolderMail32RegularSvg);

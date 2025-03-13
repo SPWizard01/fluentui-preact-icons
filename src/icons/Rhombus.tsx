@@ -11,15 +11,17 @@ import Rhombus32RegularSvg from "@fluentui/svg-icons/icons/rhombus_32_regular.sv
 import Rhombus48FilledSvg from "@fluentui/svg-icons/icons/rhombus_48_filled.svg" with { type: "text" }
 import Rhombus48RegularSvg from "@fluentui/svg-icons/icons/rhombus_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Rhombus16Filled = createIcon("Rhombus16Filled", Rhombus16FilledSvg);
-export const Rhombus16Regular = createIcon("Rhombus16Regular", Rhombus16RegularSvg);
-export const Rhombus20Filled = createIcon("Rhombus20Filled", Rhombus20FilledSvg);
-export const Rhombus20Regular = createIcon("Rhombus20Regular", Rhombus20RegularSvg);
-export const Rhombus24Filled = createIcon("Rhombus24Filled", Rhombus24FilledSvg);
-export const Rhombus24Regular = createIcon("Rhombus24Regular", Rhombus24RegularSvg);
-export const Rhombus28Filled = createIcon("Rhombus28Filled", Rhombus28FilledSvg);
-export const Rhombus28Regular = createIcon("Rhombus28Regular", Rhombus28RegularSvg);
-export const Rhombus32Filled = createIcon("Rhombus32Filled", Rhombus32FilledSvg);
-export const Rhombus32Regular = createIcon("Rhombus32Regular", Rhombus32RegularSvg);
-export const Rhombus48Filled = createIcon("Rhombus48Filled", Rhombus48FilledSvg);
-export const Rhombus48Regular = createIcon("Rhombus48Regular", Rhombus48RegularSvg);
+export const Rhombus16Filled = /** #__PURE__ */ createIcon("Rhombus16Filled", "16", Rhombus16FilledSvg);
+export const Rhombus16Regular = /** #__PURE__ */ createIcon("Rhombus16Regular", "16", Rhombus16RegularSvg);
+export const Rhombus20Filled = /** #__PURE__ */ createIcon("Rhombus20Filled", "20", Rhombus20FilledSvg);
+export const RhombusFilled = /** #__PURE__ */ createIcon("RhombusFilled", "1em", Rhombus20FilledSvg);
+export const Rhombus20Regular = /** #__PURE__ */ createIcon("Rhombus20Regular", "20", Rhombus20RegularSvg);
+export const RhombusRegular = /** #__PURE__ */ createIcon("RhombusRegular", "1em", Rhombus20RegularSvg);
+export const Rhombus24Filled = /** #__PURE__ */ createIcon("Rhombus24Filled", "24", Rhombus24FilledSvg);
+export const Rhombus24Regular = /** #__PURE__ */ createIcon("Rhombus24Regular", "24", Rhombus24RegularSvg);
+export const Rhombus28Filled = /** #__PURE__ */ createIcon("Rhombus28Filled", "28", Rhombus28FilledSvg);
+export const Rhombus28Regular = /** #__PURE__ */ createIcon("Rhombus28Regular", "28", Rhombus28RegularSvg);
+export const Rhombus32Filled = /** #__PURE__ */ createIcon("Rhombus32Filled", "32", Rhombus32FilledSvg);
+export const Rhombus32Regular = /** #__PURE__ */ createIcon("Rhombus32Regular", "32", Rhombus32RegularSvg);
+export const Rhombus48Filled = /** #__PURE__ */ createIcon("Rhombus48Filled", "48", Rhombus48FilledSvg);
+export const Rhombus48Regular = /** #__PURE__ */ createIcon("Rhombus48Regular", "48", Rhombus48RegularSvg);

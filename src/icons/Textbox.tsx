@@ -11,15 +11,17 @@ import Textbox32RegularSvg from "@fluentui/svg-icons/icons/textbox_32_regular.sv
 import Textbox48FilledSvg from "@fluentui/svg-icons/icons/textbox_48_filled.svg" with { type: "text" }
 import Textbox48RegularSvg from "@fluentui/svg-icons/icons/textbox_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Textbox16Filled = createIcon("Textbox16Filled", Textbox16FilledSvg);
-export const Textbox16Regular = createIcon("Textbox16Regular", Textbox16RegularSvg);
-export const Textbox20Filled = createIcon("Textbox20Filled", Textbox20FilledSvg);
-export const Textbox20Regular = createIcon("Textbox20Regular", Textbox20RegularSvg);
-export const Textbox24Filled = createIcon("Textbox24Filled", Textbox24FilledSvg);
-export const Textbox24Regular = createIcon("Textbox24Regular", Textbox24RegularSvg);
-export const Textbox28Filled = createIcon("Textbox28Filled", Textbox28FilledSvg);
-export const Textbox28Regular = createIcon("Textbox28Regular", Textbox28RegularSvg);
-export const Textbox32Filled = createIcon("Textbox32Filled", Textbox32FilledSvg);
-export const Textbox32Regular = createIcon("Textbox32Regular", Textbox32RegularSvg);
-export const Textbox48Filled = createIcon("Textbox48Filled", Textbox48FilledSvg);
-export const Textbox48Regular = createIcon("Textbox48Regular", Textbox48RegularSvg);
+export const Textbox16Filled = /** #__PURE__ */ createIcon("Textbox16Filled", "16", Textbox16FilledSvg);
+export const Textbox16Regular = /** #__PURE__ */ createIcon("Textbox16Regular", "16", Textbox16RegularSvg);
+export const Textbox20Filled = /** #__PURE__ */ createIcon("Textbox20Filled", "20", Textbox20FilledSvg);
+export const TextboxFilled = /** #__PURE__ */ createIcon("TextboxFilled", "1em", Textbox20FilledSvg);
+export const Textbox20Regular = /** #__PURE__ */ createIcon("Textbox20Regular", "20", Textbox20RegularSvg);
+export const TextboxRegular = /** #__PURE__ */ createIcon("TextboxRegular", "1em", Textbox20RegularSvg);
+export const Textbox24Filled = /** #__PURE__ */ createIcon("Textbox24Filled", "24", Textbox24FilledSvg);
+export const Textbox24Regular = /** #__PURE__ */ createIcon("Textbox24Regular", "24", Textbox24RegularSvg);
+export const Textbox28Filled = /** #__PURE__ */ createIcon("Textbox28Filled", "28", Textbox28FilledSvg);
+export const Textbox28Regular = /** #__PURE__ */ createIcon("Textbox28Regular", "28", Textbox28RegularSvg);
+export const Textbox32Filled = /** #__PURE__ */ createIcon("Textbox32Filled", "32", Textbox32FilledSvg);
+export const Textbox32Regular = /** #__PURE__ */ createIcon("Textbox32Regular", "32", Textbox32RegularSvg);
+export const Textbox48Filled = /** #__PURE__ */ createIcon("Textbox48Filled", "48", Textbox48FilledSvg);
+export const Textbox48Regular = /** #__PURE__ */ createIcon("Textbox48Regular", "48", Textbox48RegularSvg);

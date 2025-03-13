@@ -9,13 +9,15 @@ import StarOff24RegularSvg from "@fluentui/svg-icons/icons/star_off_24_regular.s
 import StarOff28FilledSvg from "@fluentui/svg-icons/icons/star_off_28_filled.svg" with { type: "text" }
 import StarOff28RegularSvg from "@fluentui/svg-icons/icons/star_off_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const StarOff12Filled = createIcon("StarOff12Filled", StarOff12FilledSvg);
-export const StarOff12Regular = createIcon("StarOff12Regular", StarOff12RegularSvg);
-export const StarOff16Filled = createIcon("StarOff16Filled", StarOff16FilledSvg);
-export const StarOff16Regular = createIcon("StarOff16Regular", StarOff16RegularSvg);
-export const StarOff20Filled = createIcon("StarOff20Filled", StarOff20FilledSvg);
-export const StarOff20Regular = createIcon("StarOff20Regular", StarOff20RegularSvg);
-export const StarOff24Filled = createIcon("StarOff24Filled", StarOff24FilledSvg);
-export const StarOff24Regular = createIcon("StarOff24Regular", StarOff24RegularSvg);
-export const StarOff28Filled = createIcon("StarOff28Filled", StarOff28FilledSvg);
-export const StarOff28Regular = createIcon("StarOff28Regular", StarOff28RegularSvg);
+export const StarOff12Filled = /** #__PURE__ */ createIcon("StarOff12Filled", "12", StarOff12FilledSvg);
+export const StarOff12Regular = /** #__PURE__ */ createIcon("StarOff12Regular", "12", StarOff12RegularSvg);
+export const StarOff16Filled = /** #__PURE__ */ createIcon("StarOff16Filled", "16", StarOff16FilledSvg);
+export const StarOff16Regular = /** #__PURE__ */ createIcon("StarOff16Regular", "16", StarOff16RegularSvg);
+export const StarOff20Filled = /** #__PURE__ */ createIcon("StarOff20Filled", "20", StarOff20FilledSvg);
+export const StarOffFilled = /** #__PURE__ */ createIcon("StarOffFilled", "1em", StarOff20FilledSvg);
+export const StarOff20Regular = /** #__PURE__ */ createIcon("StarOff20Regular", "20", StarOff20RegularSvg);
+export const StarOffRegular = /** #__PURE__ */ createIcon("StarOffRegular", "1em", StarOff20RegularSvg);
+export const StarOff24Filled = /** #__PURE__ */ createIcon("StarOff24Filled", "24", StarOff24FilledSvg);
+export const StarOff24Regular = /** #__PURE__ */ createIcon("StarOff24Regular", "24", StarOff24RegularSvg);
+export const StarOff28Filled = /** #__PURE__ */ createIcon("StarOff28Filled", "28", StarOff28FilledSvg);
+export const StarOff28Regular = /** #__PURE__ */ createIcon("StarOff28Regular", "28", StarOff28RegularSvg);

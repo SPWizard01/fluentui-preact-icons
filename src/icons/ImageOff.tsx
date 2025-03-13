@@ -14,18 +14,21 @@ import ImageOff48ColorSvg from "@fluentui/svg-icons/icons/image_off_48_color.svg
 import ImageOff48FilledSvg from "@fluentui/svg-icons/icons/image_off_48_filled.svg" with { type: "text" }
 import ImageOff48RegularSvg from "@fluentui/svg-icons/icons/image_off_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ImageOff20Color = createIcon("ImageOff20Color", ImageOff20ColorSvg);
-export const ImageOff20Filled = createIcon("ImageOff20Filled", ImageOff20FilledSvg);
-export const ImageOff20Regular = createIcon("ImageOff20Regular", ImageOff20RegularSvg);
-export const ImageOff24Color = createIcon("ImageOff24Color", ImageOff24ColorSvg);
-export const ImageOff24Filled = createIcon("ImageOff24Filled", ImageOff24FilledSvg);
-export const ImageOff24Regular = createIcon("ImageOff24Regular", ImageOff24RegularSvg);
-export const ImageOff28Color = createIcon("ImageOff28Color", ImageOff28ColorSvg);
-export const ImageOff28Filled = createIcon("ImageOff28Filled", ImageOff28FilledSvg);
-export const ImageOff28Regular = createIcon("ImageOff28Regular", ImageOff28RegularSvg);
-export const ImageOff32Color = createIcon("ImageOff32Color", ImageOff32ColorSvg);
-export const ImageOff32Filled = createIcon("ImageOff32Filled", ImageOff32FilledSvg);
-export const ImageOff32Regular = createIcon("ImageOff32Regular", ImageOff32RegularSvg);
-export const ImageOff48Color = createIcon("ImageOff48Color", ImageOff48ColorSvg);
-export const ImageOff48Filled = createIcon("ImageOff48Filled", ImageOff48FilledSvg);
-export const ImageOff48Regular = createIcon("ImageOff48Regular", ImageOff48RegularSvg);
+export const ImageOff20Color = /** #__PURE__ */ createIcon("ImageOff20Color", "20", ImageOff20ColorSvg);
+export const ImageOffColor = /** #__PURE__ */ createIcon("ImageOffColor", "1em", ImageOff20ColorSvg);
+export const ImageOff20Filled = /** #__PURE__ */ createIcon("ImageOff20Filled", "20", ImageOff20FilledSvg);
+export const ImageOffFilled = /** #__PURE__ */ createIcon("ImageOffFilled", "1em", ImageOff20FilledSvg);
+export const ImageOff20Regular = /** #__PURE__ */ createIcon("ImageOff20Regular", "20", ImageOff20RegularSvg);
+export const ImageOffRegular = /** #__PURE__ */ createIcon("ImageOffRegular", "1em", ImageOff20RegularSvg);
+export const ImageOff24Color = /** #__PURE__ */ createIcon("ImageOff24Color", "24", ImageOff24ColorSvg);
+export const ImageOff24Filled = /** #__PURE__ */ createIcon("ImageOff24Filled", "24", ImageOff24FilledSvg);
+export const ImageOff24Regular = /** #__PURE__ */ createIcon("ImageOff24Regular", "24", ImageOff24RegularSvg);
+export const ImageOff28Color = /** #__PURE__ */ createIcon("ImageOff28Color", "28", ImageOff28ColorSvg);
+export const ImageOff28Filled = /** #__PURE__ */ createIcon("ImageOff28Filled", "28", ImageOff28FilledSvg);
+export const ImageOff28Regular = /** #__PURE__ */ createIcon("ImageOff28Regular", "28", ImageOff28RegularSvg);
+export const ImageOff32Color = /** #__PURE__ */ createIcon("ImageOff32Color", "32", ImageOff32ColorSvg);
+export const ImageOff32Filled = /** #__PURE__ */ createIcon("ImageOff32Filled", "32", ImageOff32FilledSvg);
+export const ImageOff32Regular = /** #__PURE__ */ createIcon("ImageOff32Regular", "32", ImageOff32RegularSvg);
+export const ImageOff48Color = /** #__PURE__ */ createIcon("ImageOff48Color", "48", ImageOff48ColorSvg);
+export const ImageOff48Filled = /** #__PURE__ */ createIcon("ImageOff48Filled", "48", ImageOff48FilledSvg);
+export const ImageOff48Regular = /** #__PURE__ */ createIcon("ImageOff48Regular", "48", ImageOff48RegularSvg);

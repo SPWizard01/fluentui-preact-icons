@@ -11,15 +11,18 @@ import PhoneLaptop32ColorSvg from "@fluentui/svg-icons/icons/phone_laptop_32_col
 import PhoneLaptop32FilledSvg from "@fluentui/svg-icons/icons/phone_laptop_32_filled.svg" with { type: "text" }
 import PhoneLaptop32RegularSvg from "@fluentui/svg-icons/icons/phone_laptop_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PhoneLaptop16Color = createIcon("PhoneLaptop16Color", PhoneLaptop16ColorSvg);
-export const PhoneLaptop16Filled = createIcon("PhoneLaptop16Filled", PhoneLaptop16FilledSvg);
-export const PhoneLaptop16Regular = createIcon("PhoneLaptop16Regular", PhoneLaptop16RegularSvg);
-export const PhoneLaptop20Color = createIcon("PhoneLaptop20Color", PhoneLaptop20ColorSvg);
-export const PhoneLaptop20Filled = createIcon("PhoneLaptop20Filled", PhoneLaptop20FilledSvg);
-export const PhoneLaptop20Regular = createIcon("PhoneLaptop20Regular", PhoneLaptop20RegularSvg);
-export const PhoneLaptop24Color = createIcon("PhoneLaptop24Color", PhoneLaptop24ColorSvg);
-export const PhoneLaptop24Filled = createIcon("PhoneLaptop24Filled", PhoneLaptop24FilledSvg);
-export const PhoneLaptop24Regular = createIcon("PhoneLaptop24Regular", PhoneLaptop24RegularSvg);
-export const PhoneLaptop32Color = createIcon("PhoneLaptop32Color", PhoneLaptop32ColorSvg);
-export const PhoneLaptop32Filled = createIcon("PhoneLaptop32Filled", PhoneLaptop32FilledSvg);
-export const PhoneLaptop32Regular = createIcon("PhoneLaptop32Regular", PhoneLaptop32RegularSvg);
+export const PhoneLaptop16Color = /** #__PURE__ */ createIcon("PhoneLaptop16Color", "16", PhoneLaptop16ColorSvg);
+export const PhoneLaptop16Filled = /** #__PURE__ */ createIcon("PhoneLaptop16Filled", "16", PhoneLaptop16FilledSvg);
+export const PhoneLaptop16Regular = /** #__PURE__ */ createIcon("PhoneLaptop16Regular", "16", PhoneLaptop16RegularSvg);
+export const PhoneLaptop20Color = /** #__PURE__ */ createIcon("PhoneLaptop20Color", "20", PhoneLaptop20ColorSvg);
+export const PhoneLaptopColor = /** #__PURE__ */ createIcon("PhoneLaptopColor", "1em", PhoneLaptop20ColorSvg);
+export const PhoneLaptop20Filled = /** #__PURE__ */ createIcon("PhoneLaptop20Filled", "20", PhoneLaptop20FilledSvg);
+export const PhoneLaptopFilled = /** #__PURE__ */ createIcon("PhoneLaptopFilled", "1em", PhoneLaptop20FilledSvg);
+export const PhoneLaptop20Regular = /** #__PURE__ */ createIcon("PhoneLaptop20Regular", "20", PhoneLaptop20RegularSvg);
+export const PhoneLaptopRegular = /** #__PURE__ */ createIcon("PhoneLaptopRegular", "1em", PhoneLaptop20RegularSvg);
+export const PhoneLaptop24Color = /** #__PURE__ */ createIcon("PhoneLaptop24Color", "24", PhoneLaptop24ColorSvg);
+export const PhoneLaptop24Filled = /** #__PURE__ */ createIcon("PhoneLaptop24Filled", "24", PhoneLaptop24FilledSvg);
+export const PhoneLaptop24Regular = /** #__PURE__ */ createIcon("PhoneLaptop24Regular", "24", PhoneLaptop24RegularSvg);
+export const PhoneLaptop32Color = /** #__PURE__ */ createIcon("PhoneLaptop32Color", "32", PhoneLaptop32ColorSvg);
+export const PhoneLaptop32Filled = /** #__PURE__ */ createIcon("PhoneLaptop32Filled", "32", PhoneLaptop32FilledSvg);
+export const PhoneLaptop32Regular = /** #__PURE__ */ createIcon("PhoneLaptop32Regular", "32", PhoneLaptop32RegularSvg);

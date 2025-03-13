@@ -15,19 +15,21 @@ import DocumentSparkle48FilledSvg from "@fluentui/svg-icons/icons/document_spark
 import DocumentSparkle48LightSvg from "@fluentui/svg-icons/icons/document_sparkle_48_light.svg" with { type: "text" }
 import DocumentSparkle48RegularSvg from "@fluentui/svg-icons/icons/document_sparkle_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const DocumentSparkle16Filled = createIcon("DocumentSparkle16Filled", DocumentSparkle16FilledSvg);
-export const DocumentSparkle16Regular = createIcon("DocumentSparkle16Regular", DocumentSparkle16RegularSvg);
-export const DocumentSparkle20Filled = createIcon("DocumentSparkle20Filled", DocumentSparkle20FilledSvg);
-export const DocumentSparkle20Regular = createIcon("DocumentSparkle20Regular", DocumentSparkle20RegularSvg);
-export const DocumentSparkle24Filled = createIcon("DocumentSparkle24Filled", DocumentSparkle24FilledSvg);
-export const DocumentSparkle24Light = createIcon("DocumentSparkle24Light", DocumentSparkle24LightSvg);
-export const DocumentSparkle24Regular = createIcon("DocumentSparkle24Regular", DocumentSparkle24RegularSvg);
-export const DocumentSparkle28Filled = createIcon("DocumentSparkle28Filled", DocumentSparkle28FilledSvg);
-export const DocumentSparkle28Light = createIcon("DocumentSparkle28Light", DocumentSparkle28LightSvg);
-export const DocumentSparkle28Regular = createIcon("DocumentSparkle28Regular", DocumentSparkle28RegularSvg);
-export const DocumentSparkle32Filled = createIcon("DocumentSparkle32Filled", DocumentSparkle32FilledSvg);
-export const DocumentSparkle32Light = createIcon("DocumentSparkle32Light", DocumentSparkle32LightSvg);
-export const DocumentSparkle32Regular = createIcon("DocumentSparkle32Regular", DocumentSparkle32RegularSvg);
-export const DocumentSparkle48Filled = createIcon("DocumentSparkle48Filled", DocumentSparkle48FilledSvg);
-export const DocumentSparkle48Light = createIcon("DocumentSparkle48Light", DocumentSparkle48LightSvg);
-export const DocumentSparkle48Regular = createIcon("DocumentSparkle48Regular", DocumentSparkle48RegularSvg);
+export const DocumentSparkle16Filled = /** #__PURE__ */ createIcon("DocumentSparkle16Filled", "16", DocumentSparkle16FilledSvg);
+export const DocumentSparkle16Regular = /** #__PURE__ */ createIcon("DocumentSparkle16Regular", "16", DocumentSparkle16RegularSvg);
+export const DocumentSparkle20Filled = /** #__PURE__ */ createIcon("DocumentSparkle20Filled", "20", DocumentSparkle20FilledSvg);
+export const DocumentSparkleFilled = /** #__PURE__ */ createIcon("DocumentSparkleFilled", "1em", DocumentSparkle20FilledSvg);
+export const DocumentSparkle20Regular = /** #__PURE__ */ createIcon("DocumentSparkle20Regular", "20", DocumentSparkle20RegularSvg);
+export const DocumentSparkleRegular = /** #__PURE__ */ createIcon("DocumentSparkleRegular", "1em", DocumentSparkle20RegularSvg);
+export const DocumentSparkle24Filled = /** #__PURE__ */ createIcon("DocumentSparkle24Filled", "24", DocumentSparkle24FilledSvg);
+export const DocumentSparkle24Light = /** #__PURE__ */ createIcon("DocumentSparkle24Light", "24", DocumentSparkle24LightSvg);
+export const DocumentSparkle24Regular = /** #__PURE__ */ createIcon("DocumentSparkle24Regular", "24", DocumentSparkle24RegularSvg);
+export const DocumentSparkle28Filled = /** #__PURE__ */ createIcon("DocumentSparkle28Filled", "28", DocumentSparkle28FilledSvg);
+export const DocumentSparkle28Light = /** #__PURE__ */ createIcon("DocumentSparkle28Light", "28", DocumentSparkle28LightSvg);
+export const DocumentSparkle28Regular = /** #__PURE__ */ createIcon("DocumentSparkle28Regular", "28", DocumentSparkle28RegularSvg);
+export const DocumentSparkle32Filled = /** #__PURE__ */ createIcon("DocumentSparkle32Filled", "32", DocumentSparkle32FilledSvg);
+export const DocumentSparkle32Light = /** #__PURE__ */ createIcon("DocumentSparkle32Light", "32", DocumentSparkle32LightSvg);
+export const DocumentSparkle32Regular = /** #__PURE__ */ createIcon("DocumentSparkle32Regular", "32", DocumentSparkle32RegularSvg);
+export const DocumentSparkle48Filled = /** #__PURE__ */ createIcon("DocumentSparkle48Filled", "48", DocumentSparkle48FilledSvg);
+export const DocumentSparkle48Light = /** #__PURE__ */ createIcon("DocumentSparkle48Light", "48", DocumentSparkle48LightSvg);
+export const DocumentSparkle48Regular = /** #__PURE__ */ createIcon("DocumentSparkle48Regular", "48", DocumentSparkle48RegularSvg);

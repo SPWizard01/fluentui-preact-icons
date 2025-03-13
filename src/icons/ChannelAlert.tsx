@@ -9,13 +9,15 @@ import ChannelAlert28RegularSvg from "@fluentui/svg-icons/icons/channel_alert_28
 import ChannelAlert48FilledSvg from "@fluentui/svg-icons/icons/channel_alert_48_filled.svg" with { type: "text" }
 import ChannelAlert48RegularSvg from "@fluentui/svg-icons/icons/channel_alert_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ChannelAlert16Filled = createIcon("ChannelAlert16Filled", ChannelAlert16FilledSvg);
-export const ChannelAlert16Regular = createIcon("ChannelAlert16Regular", ChannelAlert16RegularSvg);
-export const ChannelAlert20Filled = createIcon("ChannelAlert20Filled", ChannelAlert20FilledSvg);
-export const ChannelAlert20Regular = createIcon("ChannelAlert20Regular", ChannelAlert20RegularSvg);
-export const ChannelAlert24Filled = createIcon("ChannelAlert24Filled", ChannelAlert24FilledSvg);
-export const ChannelAlert24Regular = createIcon("ChannelAlert24Regular", ChannelAlert24RegularSvg);
-export const ChannelAlert28Filled = createIcon("ChannelAlert28Filled", ChannelAlert28FilledSvg);
-export const ChannelAlert28Regular = createIcon("ChannelAlert28Regular", ChannelAlert28RegularSvg);
-export const ChannelAlert48Filled = createIcon("ChannelAlert48Filled", ChannelAlert48FilledSvg);
-export const ChannelAlert48Regular = createIcon("ChannelAlert48Regular", ChannelAlert48RegularSvg);
+export const ChannelAlert16Filled = /** #__PURE__ */ createIcon("ChannelAlert16Filled", "16", ChannelAlert16FilledSvg);
+export const ChannelAlert16Regular = /** #__PURE__ */ createIcon("ChannelAlert16Regular", "16", ChannelAlert16RegularSvg);
+export const ChannelAlert20Filled = /** #__PURE__ */ createIcon("ChannelAlert20Filled", "20", ChannelAlert20FilledSvg);
+export const ChannelAlertFilled = /** #__PURE__ */ createIcon("ChannelAlertFilled", "1em", ChannelAlert20FilledSvg);
+export const ChannelAlert20Regular = /** #__PURE__ */ createIcon("ChannelAlert20Regular", "20", ChannelAlert20RegularSvg);
+export const ChannelAlertRegular = /** #__PURE__ */ createIcon("ChannelAlertRegular", "1em", ChannelAlert20RegularSvg);
+export const ChannelAlert24Filled = /** #__PURE__ */ createIcon("ChannelAlert24Filled", "24", ChannelAlert24FilledSvg);
+export const ChannelAlert24Regular = /** #__PURE__ */ createIcon("ChannelAlert24Regular", "24", ChannelAlert24RegularSvg);
+export const ChannelAlert28Filled = /** #__PURE__ */ createIcon("ChannelAlert28Filled", "28", ChannelAlert28FilledSvg);
+export const ChannelAlert28Regular = /** #__PURE__ */ createIcon("ChannelAlert28Regular", "28", ChannelAlert28RegularSvg);
+export const ChannelAlert48Filled = /** #__PURE__ */ createIcon("ChannelAlert48Filled", "48", ChannelAlert48FilledSvg);
+export const ChannelAlert48Regular = /** #__PURE__ */ createIcon("ChannelAlert48Regular", "48", ChannelAlert48RegularSvg);

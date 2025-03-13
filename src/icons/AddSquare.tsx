@@ -11,15 +11,17 @@ import AddSquare32RegularSvg from "@fluentui/svg-icons/icons/add_square_32_regul
 import AddSquare48FilledSvg from "@fluentui/svg-icons/icons/add_square_48_filled.svg" with { type: "text" }
 import AddSquare48RegularSvg from "@fluentui/svg-icons/icons/add_square_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const AddSquare16Filled = createIcon("AddSquare16Filled", AddSquare16FilledSvg);
-export const AddSquare16Regular = createIcon("AddSquare16Regular", AddSquare16RegularSvg);
-export const AddSquare20Filled = createIcon("AddSquare20Filled", AddSquare20FilledSvg);
-export const AddSquare20Regular = createIcon("AddSquare20Regular", AddSquare20RegularSvg);
-export const AddSquare24Filled = createIcon("AddSquare24Filled", AddSquare24FilledSvg);
-export const AddSquare24Regular = createIcon("AddSquare24Regular", AddSquare24RegularSvg);
-export const AddSquare28Filled = createIcon("AddSquare28Filled", AddSquare28FilledSvg);
-export const AddSquare28Regular = createIcon("AddSquare28Regular", AddSquare28RegularSvg);
-export const AddSquare32Filled = createIcon("AddSquare32Filled", AddSquare32FilledSvg);
-export const AddSquare32Regular = createIcon("AddSquare32Regular", AddSquare32RegularSvg);
-export const AddSquare48Filled = createIcon("AddSquare48Filled", AddSquare48FilledSvg);
-export const AddSquare48Regular = createIcon("AddSquare48Regular", AddSquare48RegularSvg);
+export const AddSquare16Filled = /** #__PURE__ */ createIcon("AddSquare16Filled", "16", AddSquare16FilledSvg);
+export const AddSquare16Regular = /** #__PURE__ */ createIcon("AddSquare16Regular", "16", AddSquare16RegularSvg);
+export const AddSquare20Filled = /** #__PURE__ */ createIcon("AddSquare20Filled", "20", AddSquare20FilledSvg);
+export const AddSquareFilled = /** #__PURE__ */ createIcon("AddSquareFilled", "1em", AddSquare20FilledSvg);
+export const AddSquare20Regular = /** #__PURE__ */ createIcon("AddSquare20Regular", "20", AddSquare20RegularSvg);
+export const AddSquareRegular = /** #__PURE__ */ createIcon("AddSquareRegular", "1em", AddSquare20RegularSvg);
+export const AddSquare24Filled = /** #__PURE__ */ createIcon("AddSquare24Filled", "24", AddSquare24FilledSvg);
+export const AddSquare24Regular = /** #__PURE__ */ createIcon("AddSquare24Regular", "24", AddSquare24RegularSvg);
+export const AddSquare28Filled = /** #__PURE__ */ createIcon("AddSquare28Filled", "28", AddSquare28FilledSvg);
+export const AddSquare28Regular = /** #__PURE__ */ createIcon("AddSquare28Regular", "28", AddSquare28RegularSvg);
+export const AddSquare32Filled = /** #__PURE__ */ createIcon("AddSquare32Filled", "32", AddSquare32FilledSvg);
+export const AddSquare32Regular = /** #__PURE__ */ createIcon("AddSquare32Regular", "32", AddSquare32RegularSvg);
+export const AddSquare48Filled = /** #__PURE__ */ createIcon("AddSquare48Filled", "48", AddSquare48FilledSvg);
+export const AddSquare48Regular = /** #__PURE__ */ createIcon("AddSquare48Regular", "48", AddSquare48RegularSvg);

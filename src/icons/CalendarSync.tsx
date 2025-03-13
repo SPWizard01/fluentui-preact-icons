@@ -8,12 +8,15 @@ import CalendarSync24ColorSvg from "@fluentui/svg-icons/icons/calendar_sync_24_c
 import CalendarSync24FilledSvg from "@fluentui/svg-icons/icons/calendar_sync_24_filled.svg" with { type: "text" }
 import CalendarSync24RegularSvg from "@fluentui/svg-icons/icons/calendar_sync_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CalendarSync16Color = createIcon("CalendarSync16Color", CalendarSync16ColorSvg);
-export const CalendarSync16Filled = createIcon("CalendarSync16Filled", CalendarSync16FilledSvg);
-export const CalendarSync16Regular = createIcon("CalendarSync16Regular", CalendarSync16RegularSvg);
-export const CalendarSync20Color = createIcon("CalendarSync20Color", CalendarSync20ColorSvg);
-export const CalendarSync20Filled = createIcon("CalendarSync20Filled", CalendarSync20FilledSvg);
-export const CalendarSync20Regular = createIcon("CalendarSync20Regular", CalendarSync20RegularSvg);
-export const CalendarSync24Color = createIcon("CalendarSync24Color", CalendarSync24ColorSvg);
-export const CalendarSync24Filled = createIcon("CalendarSync24Filled", CalendarSync24FilledSvg);
-export const CalendarSync24Regular = createIcon("CalendarSync24Regular", CalendarSync24RegularSvg);
+export const CalendarSync16Color = /** #__PURE__ */ createIcon("CalendarSync16Color", "16", CalendarSync16ColorSvg);
+export const CalendarSync16Filled = /** #__PURE__ */ createIcon("CalendarSync16Filled", "16", CalendarSync16FilledSvg);
+export const CalendarSync16Regular = /** #__PURE__ */ createIcon("CalendarSync16Regular", "16", CalendarSync16RegularSvg);
+export const CalendarSync20Color = /** #__PURE__ */ createIcon("CalendarSync20Color", "20", CalendarSync20ColorSvg);
+export const CalendarSyncColor = /** #__PURE__ */ createIcon("CalendarSyncColor", "1em", CalendarSync20ColorSvg);
+export const CalendarSync20Filled = /** #__PURE__ */ createIcon("CalendarSync20Filled", "20", CalendarSync20FilledSvg);
+export const CalendarSyncFilled = /** #__PURE__ */ createIcon("CalendarSyncFilled", "1em", CalendarSync20FilledSvg);
+export const CalendarSync20Regular = /** #__PURE__ */ createIcon("CalendarSync20Regular", "20", CalendarSync20RegularSvg);
+export const CalendarSyncRegular = /** #__PURE__ */ createIcon("CalendarSyncRegular", "1em", CalendarSync20RegularSvg);
+export const CalendarSync24Color = /** #__PURE__ */ createIcon("CalendarSync24Color", "24", CalendarSync24ColorSvg);
+export const CalendarSync24Filled = /** #__PURE__ */ createIcon("CalendarSync24Filled", "24", CalendarSync24FilledSvg);
+export const CalendarSync24Regular = /** #__PURE__ */ createIcon("CalendarSync24Regular", "24", CalendarSync24RegularSvg);

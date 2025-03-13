@@ -5,9 +5,11 @@ import WindowDevTools20RegularSvg from "@fluentui/svg-icons/icons/window_dev_too
 import WindowDevTools24FilledSvg from "@fluentui/svg-icons/icons/window_dev_tools_24_filled.svg" with { type: "text" }
 import WindowDevTools24RegularSvg from "@fluentui/svg-icons/icons/window_dev_tools_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const WindowDevTools16Filled = createIcon("WindowDevTools16Filled", WindowDevTools16FilledSvg);
-export const WindowDevTools16Regular = createIcon("WindowDevTools16Regular", WindowDevTools16RegularSvg);
-export const WindowDevTools20Filled = createIcon("WindowDevTools20Filled", WindowDevTools20FilledSvg);
-export const WindowDevTools20Regular = createIcon("WindowDevTools20Regular", WindowDevTools20RegularSvg);
-export const WindowDevTools24Filled = createIcon("WindowDevTools24Filled", WindowDevTools24FilledSvg);
-export const WindowDevTools24Regular = createIcon("WindowDevTools24Regular", WindowDevTools24RegularSvg);
+export const WindowDevTools16Filled = /** #__PURE__ */ createIcon("WindowDevTools16Filled", "16", WindowDevTools16FilledSvg);
+export const WindowDevTools16Regular = /** #__PURE__ */ createIcon("WindowDevTools16Regular", "16", WindowDevTools16RegularSvg);
+export const WindowDevTools20Filled = /** #__PURE__ */ createIcon("WindowDevTools20Filled", "20", WindowDevTools20FilledSvg);
+export const WindowDevToolsFilled = /** #__PURE__ */ createIcon("WindowDevToolsFilled", "1em", WindowDevTools20FilledSvg);
+export const WindowDevTools20Regular = /** #__PURE__ */ createIcon("WindowDevTools20Regular", "20", WindowDevTools20RegularSvg);
+export const WindowDevToolsRegular = /** #__PURE__ */ createIcon("WindowDevToolsRegular", "1em", WindowDevTools20RegularSvg);
+export const WindowDevTools24Filled = /** #__PURE__ */ createIcon("WindowDevTools24Filled", "24", WindowDevTools24FilledSvg);
+export const WindowDevTools24Regular = /** #__PURE__ */ createIcon("WindowDevTools24Regular", "24", WindowDevTools24RegularSvg);

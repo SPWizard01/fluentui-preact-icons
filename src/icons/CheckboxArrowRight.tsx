@@ -3,7 +3,9 @@ import CheckboxArrowRight20RegularSvg from "@fluentui/svg-icons/icons/checkbox_a
 import CheckboxArrowRight24FilledSvg from "@fluentui/svg-icons/icons/checkbox_arrow_right_24_filled.svg" with { type: "text" }
 import CheckboxArrowRight24RegularSvg from "@fluentui/svg-icons/icons/checkbox_arrow_right_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CheckboxArrowRight20Filled = createIcon("CheckboxArrowRight20Filled", CheckboxArrowRight20FilledSvg);
-export const CheckboxArrowRight20Regular = createIcon("CheckboxArrowRight20Regular", CheckboxArrowRight20RegularSvg);
-export const CheckboxArrowRight24Filled = createIcon("CheckboxArrowRight24Filled", CheckboxArrowRight24FilledSvg);
-export const CheckboxArrowRight24Regular = createIcon("CheckboxArrowRight24Regular", CheckboxArrowRight24RegularSvg);
+export const CheckboxArrowRight20Filled = /** #__PURE__ */ createIcon("CheckboxArrowRight20Filled", "20", CheckboxArrowRight20FilledSvg);
+export const CheckboxArrowRightFilled = /** #__PURE__ */ createIcon("CheckboxArrowRightFilled", "1em", CheckboxArrowRight20FilledSvg);
+export const CheckboxArrowRight20Regular = /** #__PURE__ */ createIcon("CheckboxArrowRight20Regular", "20", CheckboxArrowRight20RegularSvg);
+export const CheckboxArrowRightRegular = /** #__PURE__ */ createIcon("CheckboxArrowRightRegular", "1em", CheckboxArrowRight20RegularSvg);
+export const CheckboxArrowRight24Filled = /** #__PURE__ */ createIcon("CheckboxArrowRight24Filled", "24", CheckboxArrowRight24FilledSvg);
+export const CheckboxArrowRight24Regular = /** #__PURE__ */ createIcon("CheckboxArrowRight24Regular", "24", CheckboxArrowRight24RegularSvg);

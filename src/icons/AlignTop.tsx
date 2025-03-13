@@ -11,15 +11,17 @@ import AlignTop32RegularSvg from "@fluentui/svg-icons/icons/align_top_32_regular
 import AlignTop48FilledSvg from "@fluentui/svg-icons/icons/align_top_48_filled.svg" with { type: "text" }
 import AlignTop48RegularSvg from "@fluentui/svg-icons/icons/align_top_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const AlignTop16Filled = createIcon("AlignTop16Filled", AlignTop16FilledSvg);
-export const AlignTop16Regular = createIcon("AlignTop16Regular", AlignTop16RegularSvg);
-export const AlignTop20Filled = createIcon("AlignTop20Filled", AlignTop20FilledSvg);
-export const AlignTop20Regular = createIcon("AlignTop20Regular", AlignTop20RegularSvg);
-export const AlignTop24Filled = createIcon("AlignTop24Filled", AlignTop24FilledSvg);
-export const AlignTop24Regular = createIcon("AlignTop24Regular", AlignTop24RegularSvg);
-export const AlignTop28Filled = createIcon("AlignTop28Filled", AlignTop28FilledSvg);
-export const AlignTop28Regular = createIcon("AlignTop28Regular", AlignTop28RegularSvg);
-export const AlignTop32Filled = createIcon("AlignTop32Filled", AlignTop32FilledSvg);
-export const AlignTop32Regular = createIcon("AlignTop32Regular", AlignTop32RegularSvg);
-export const AlignTop48Filled = createIcon("AlignTop48Filled", AlignTop48FilledSvg);
-export const AlignTop48Regular = createIcon("AlignTop48Regular", AlignTop48RegularSvg);
+export const AlignTop16Filled = /** #__PURE__ */ createIcon("AlignTop16Filled", "16", AlignTop16FilledSvg);
+export const AlignTop16Regular = /** #__PURE__ */ createIcon("AlignTop16Regular", "16", AlignTop16RegularSvg);
+export const AlignTop20Filled = /** #__PURE__ */ createIcon("AlignTop20Filled", "20", AlignTop20FilledSvg);
+export const AlignTopFilled = /** #__PURE__ */ createIcon("AlignTopFilled", "1em", AlignTop20FilledSvg);
+export const AlignTop20Regular = /** #__PURE__ */ createIcon("AlignTop20Regular", "20", AlignTop20RegularSvg);
+export const AlignTopRegular = /** #__PURE__ */ createIcon("AlignTopRegular", "1em", AlignTop20RegularSvg);
+export const AlignTop24Filled = /** #__PURE__ */ createIcon("AlignTop24Filled", "24", AlignTop24FilledSvg);
+export const AlignTop24Regular = /** #__PURE__ */ createIcon("AlignTop24Regular", "24", AlignTop24RegularSvg);
+export const AlignTop28Filled = /** #__PURE__ */ createIcon("AlignTop28Filled", "28", AlignTop28FilledSvg);
+export const AlignTop28Regular = /** #__PURE__ */ createIcon("AlignTop28Regular", "28", AlignTop28RegularSvg);
+export const AlignTop32Filled = /** #__PURE__ */ createIcon("AlignTop32Filled", "32", AlignTop32FilledSvg);
+export const AlignTop32Regular = /** #__PURE__ */ createIcon("AlignTop32Regular", "32", AlignTop32RegularSvg);
+export const AlignTop48Filled = /** #__PURE__ */ createIcon("AlignTop48Filled", "48", AlignTop48FilledSvg);
+export const AlignTop48Regular = /** #__PURE__ */ createIcon("AlignTop48Regular", "48", AlignTop48RegularSvg);

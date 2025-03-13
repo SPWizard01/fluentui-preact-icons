@@ -11,15 +11,17 @@ import ContractUpRight32RegularSvg from "@fluentui/svg-icons/icons/contract_up_r
 import ContractUpRight48FilledSvg from "@fluentui/svg-icons/icons/contract_up_right_48_filled.svg" with { type: "text" }
 import ContractUpRight48RegularSvg from "@fluentui/svg-icons/icons/contract_up_right_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ContractUpRight16Filled = createIcon("ContractUpRight16Filled", ContractUpRight16FilledSvg);
-export const ContractUpRight16Regular = createIcon("ContractUpRight16Regular", ContractUpRight16RegularSvg);
-export const ContractUpRight20Filled = createIcon("ContractUpRight20Filled", ContractUpRight20FilledSvg);
-export const ContractUpRight20Regular = createIcon("ContractUpRight20Regular", ContractUpRight20RegularSvg);
-export const ContractUpRight24Filled = createIcon("ContractUpRight24Filled", ContractUpRight24FilledSvg);
-export const ContractUpRight24Regular = createIcon("ContractUpRight24Regular", ContractUpRight24RegularSvg);
-export const ContractUpRight28Filled = createIcon("ContractUpRight28Filled", ContractUpRight28FilledSvg);
-export const ContractUpRight28Regular = createIcon("ContractUpRight28Regular", ContractUpRight28RegularSvg);
-export const ContractUpRight32Filled = createIcon("ContractUpRight32Filled", ContractUpRight32FilledSvg);
-export const ContractUpRight32Regular = createIcon("ContractUpRight32Regular", ContractUpRight32RegularSvg);
-export const ContractUpRight48Filled = createIcon("ContractUpRight48Filled", ContractUpRight48FilledSvg);
-export const ContractUpRight48Regular = createIcon("ContractUpRight48Regular", ContractUpRight48RegularSvg);
+export const ContractUpRight16Filled = /** #__PURE__ */ createIcon("ContractUpRight16Filled", "16", ContractUpRight16FilledSvg);
+export const ContractUpRight16Regular = /** #__PURE__ */ createIcon("ContractUpRight16Regular", "16", ContractUpRight16RegularSvg);
+export const ContractUpRight20Filled = /** #__PURE__ */ createIcon("ContractUpRight20Filled", "20", ContractUpRight20FilledSvg);
+export const ContractUpRightFilled = /** #__PURE__ */ createIcon("ContractUpRightFilled", "1em", ContractUpRight20FilledSvg);
+export const ContractUpRight20Regular = /** #__PURE__ */ createIcon("ContractUpRight20Regular", "20", ContractUpRight20RegularSvg);
+export const ContractUpRightRegular = /** #__PURE__ */ createIcon("ContractUpRightRegular", "1em", ContractUpRight20RegularSvg);
+export const ContractUpRight24Filled = /** #__PURE__ */ createIcon("ContractUpRight24Filled", "24", ContractUpRight24FilledSvg);
+export const ContractUpRight24Regular = /** #__PURE__ */ createIcon("ContractUpRight24Regular", "24", ContractUpRight24RegularSvg);
+export const ContractUpRight28Filled = /** #__PURE__ */ createIcon("ContractUpRight28Filled", "28", ContractUpRight28FilledSvg);
+export const ContractUpRight28Regular = /** #__PURE__ */ createIcon("ContractUpRight28Regular", "28", ContractUpRight28RegularSvg);
+export const ContractUpRight32Filled = /** #__PURE__ */ createIcon("ContractUpRight32Filled", "32", ContractUpRight32FilledSvg);
+export const ContractUpRight32Regular = /** #__PURE__ */ createIcon("ContractUpRight32Regular", "32", ContractUpRight32RegularSvg);
+export const ContractUpRight48Filled = /** #__PURE__ */ createIcon("ContractUpRight48Filled", "48", ContractUpRight48FilledSvg);
+export const ContractUpRight48Regular = /** #__PURE__ */ createIcon("ContractUpRight48Regular", "48", ContractUpRight48RegularSvg);

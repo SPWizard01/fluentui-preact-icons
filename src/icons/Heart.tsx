@@ -19,23 +19,26 @@ import Heart48ColorSvg from "@fluentui/svg-icons/icons/heart_48_color.svg" with 
 import Heart48FilledSvg from "@fluentui/svg-icons/icons/heart_48_filled.svg" with { type: "text" }
 import Heart48RegularSvg from "@fluentui/svg-icons/icons/heart_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Heart12Filled = createIcon("Heart12Filled", Heart12FilledSvg);
-export const Heart12Regular = createIcon("Heart12Regular", Heart12RegularSvg);
-export const Heart16Color = createIcon("Heart16Color", Heart16ColorSvg);
-export const Heart16Filled = createIcon("Heart16Filled", Heart16FilledSvg);
-export const Heart16Regular = createIcon("Heart16Regular", Heart16RegularSvg);
-export const Heart20Color = createIcon("Heart20Color", Heart20ColorSvg);
-export const Heart20Filled = createIcon("Heart20Filled", Heart20FilledSvg);
-export const Heart20Regular = createIcon("Heart20Regular", Heart20RegularSvg);
-export const Heart24Color = createIcon("Heart24Color", Heart24ColorSvg);
-export const Heart24Filled = createIcon("Heart24Filled", Heart24FilledSvg);
-export const Heart24Regular = createIcon("Heart24Regular", Heart24RegularSvg);
-export const Heart28Color = createIcon("Heart28Color", Heart28ColorSvg);
-export const Heart28Filled = createIcon("Heart28Filled", Heart28FilledSvg);
-export const Heart28Regular = createIcon("Heart28Regular", Heart28RegularSvg);
-export const Heart32Color = createIcon("Heart32Color", Heart32ColorSvg);
-export const Heart32Filled = createIcon("Heart32Filled", Heart32FilledSvg);
-export const Heart32Regular = createIcon("Heart32Regular", Heart32RegularSvg);
-export const Heart48Color = createIcon("Heart48Color", Heart48ColorSvg);
-export const Heart48Filled = createIcon("Heart48Filled", Heart48FilledSvg);
-export const Heart48Regular = createIcon("Heart48Regular", Heart48RegularSvg);
+export const Heart12Filled = /** #__PURE__ */ createIcon("Heart12Filled", "12", Heart12FilledSvg);
+export const Heart12Regular = /** #__PURE__ */ createIcon("Heart12Regular", "12", Heart12RegularSvg);
+export const Heart16Color = /** #__PURE__ */ createIcon("Heart16Color", "16", Heart16ColorSvg);
+export const Heart16Filled = /** #__PURE__ */ createIcon("Heart16Filled", "16", Heart16FilledSvg);
+export const Heart16Regular = /** #__PURE__ */ createIcon("Heart16Regular", "16", Heart16RegularSvg);
+export const Heart20Color = /** #__PURE__ */ createIcon("Heart20Color", "20", Heart20ColorSvg);
+export const HeartColor = /** #__PURE__ */ createIcon("HeartColor", "1em", Heart20ColorSvg);
+export const Heart20Filled = /** #__PURE__ */ createIcon("Heart20Filled", "20", Heart20FilledSvg);
+export const HeartFilled = /** #__PURE__ */ createIcon("HeartFilled", "1em", Heart20FilledSvg);
+export const Heart20Regular = /** #__PURE__ */ createIcon("Heart20Regular", "20", Heart20RegularSvg);
+export const HeartRegular = /** #__PURE__ */ createIcon("HeartRegular", "1em", Heart20RegularSvg);
+export const Heart24Color = /** #__PURE__ */ createIcon("Heart24Color", "24", Heart24ColorSvg);
+export const Heart24Filled = /** #__PURE__ */ createIcon("Heart24Filled", "24", Heart24FilledSvg);
+export const Heart24Regular = /** #__PURE__ */ createIcon("Heart24Regular", "24", Heart24RegularSvg);
+export const Heart28Color = /** #__PURE__ */ createIcon("Heart28Color", "28", Heart28ColorSvg);
+export const Heart28Filled = /** #__PURE__ */ createIcon("Heart28Filled", "28", Heart28FilledSvg);
+export const Heart28Regular = /** #__PURE__ */ createIcon("Heart28Regular", "28", Heart28RegularSvg);
+export const Heart32Color = /** #__PURE__ */ createIcon("Heart32Color", "32", Heart32ColorSvg);
+export const Heart32Filled = /** #__PURE__ */ createIcon("Heart32Filled", "32", Heart32FilledSvg);
+export const Heart32Regular = /** #__PURE__ */ createIcon("Heart32Regular", "32", Heart32RegularSvg);
+export const Heart48Color = /** #__PURE__ */ createIcon("Heart48Color", "48", Heart48ColorSvg);
+export const Heart48Filled = /** #__PURE__ */ createIcon("Heart48Filled", "48", Heart48FilledSvg);
+export const Heart48Regular = /** #__PURE__ */ createIcon("Heart48Regular", "48", Heart48RegularSvg);

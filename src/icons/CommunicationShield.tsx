@@ -5,9 +5,11 @@ import CommunicationShield20RegularSvg from "@fluentui/svg-icons/icons/communica
 import CommunicationShield24FilledSvg from "@fluentui/svg-icons/icons/communication_shield_24_filled.svg" with { type: "text" }
 import CommunicationShield24RegularSvg from "@fluentui/svg-icons/icons/communication_shield_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CommunicationShield16Filled = createIcon("CommunicationShield16Filled", CommunicationShield16FilledSvg);
-export const CommunicationShield16Regular = createIcon("CommunicationShield16Regular", CommunicationShield16RegularSvg);
-export const CommunicationShield20Filled = createIcon("CommunicationShield20Filled", CommunicationShield20FilledSvg);
-export const CommunicationShield20Regular = createIcon("CommunicationShield20Regular", CommunicationShield20RegularSvg);
-export const CommunicationShield24Filled = createIcon("CommunicationShield24Filled", CommunicationShield24FilledSvg);
-export const CommunicationShield24Regular = createIcon("CommunicationShield24Regular", CommunicationShield24RegularSvg);
+export const CommunicationShield16Filled = /** #__PURE__ */ createIcon("CommunicationShield16Filled", "16", CommunicationShield16FilledSvg);
+export const CommunicationShield16Regular = /** #__PURE__ */ createIcon("CommunicationShield16Regular", "16", CommunicationShield16RegularSvg);
+export const CommunicationShield20Filled = /** #__PURE__ */ createIcon("CommunicationShield20Filled", "20", CommunicationShield20FilledSvg);
+export const CommunicationShieldFilled = /** #__PURE__ */ createIcon("CommunicationShieldFilled", "1em", CommunicationShield20FilledSvg);
+export const CommunicationShield20Regular = /** #__PURE__ */ createIcon("CommunicationShield20Regular", "20", CommunicationShield20RegularSvg);
+export const CommunicationShieldRegular = /** #__PURE__ */ createIcon("CommunicationShieldRegular", "1em", CommunicationShield20RegularSvg);
+export const CommunicationShield24Filled = /** #__PURE__ */ createIcon("CommunicationShield24Filled", "24", CommunicationShield24FilledSvg);
+export const CommunicationShield24Regular = /** #__PURE__ */ createIcon("CommunicationShield24Regular", "24", CommunicationShield24RegularSvg);

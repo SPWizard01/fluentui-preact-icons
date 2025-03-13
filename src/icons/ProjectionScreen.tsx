@@ -7,11 +7,13 @@ import ProjectionScreen24RegularSvg from "@fluentui/svg-icons/icons/projection_s
 import ProjectionScreen28FilledSvg from "@fluentui/svg-icons/icons/projection_screen_28_filled.svg" with { type: "text" }
 import ProjectionScreen28RegularSvg from "@fluentui/svg-icons/icons/projection_screen_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const ProjectionScreen16Filled = createIcon("ProjectionScreen16Filled", ProjectionScreen16FilledSvg);
-export const ProjectionScreen16Regular = createIcon("ProjectionScreen16Regular", ProjectionScreen16RegularSvg);
-export const ProjectionScreen20Filled = createIcon("ProjectionScreen20Filled", ProjectionScreen20FilledSvg);
-export const ProjectionScreen20Regular = createIcon("ProjectionScreen20Regular", ProjectionScreen20RegularSvg);
-export const ProjectionScreen24Filled = createIcon("ProjectionScreen24Filled", ProjectionScreen24FilledSvg);
-export const ProjectionScreen24Regular = createIcon("ProjectionScreen24Regular", ProjectionScreen24RegularSvg);
-export const ProjectionScreen28Filled = createIcon("ProjectionScreen28Filled", ProjectionScreen28FilledSvg);
-export const ProjectionScreen28Regular = createIcon("ProjectionScreen28Regular", ProjectionScreen28RegularSvg);
+export const ProjectionScreen16Filled = /** #__PURE__ */ createIcon("ProjectionScreen16Filled", "16", ProjectionScreen16FilledSvg);
+export const ProjectionScreen16Regular = /** #__PURE__ */ createIcon("ProjectionScreen16Regular", "16", ProjectionScreen16RegularSvg);
+export const ProjectionScreen20Filled = /** #__PURE__ */ createIcon("ProjectionScreen20Filled", "20", ProjectionScreen20FilledSvg);
+export const ProjectionScreenFilled = /** #__PURE__ */ createIcon("ProjectionScreenFilled", "1em", ProjectionScreen20FilledSvg);
+export const ProjectionScreen20Regular = /** #__PURE__ */ createIcon("ProjectionScreen20Regular", "20", ProjectionScreen20RegularSvg);
+export const ProjectionScreenRegular = /** #__PURE__ */ createIcon("ProjectionScreenRegular", "1em", ProjectionScreen20RegularSvg);
+export const ProjectionScreen24Filled = /** #__PURE__ */ createIcon("ProjectionScreen24Filled", "24", ProjectionScreen24FilledSvg);
+export const ProjectionScreen24Regular = /** #__PURE__ */ createIcon("ProjectionScreen24Regular", "24", ProjectionScreen24RegularSvg);
+export const ProjectionScreen28Filled = /** #__PURE__ */ createIcon("ProjectionScreen28Filled", "28", ProjectionScreen28FilledSvg);
+export const ProjectionScreen28Regular = /** #__PURE__ */ createIcon("ProjectionScreen28Regular", "28", ProjectionScreen28RegularSvg);

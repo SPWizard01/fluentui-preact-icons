@@ -5,9 +5,11 @@ import FolderSearch20RegularSvg from "@fluentui/svg-icons/icons/folder_search_20
 import FolderSearch24FilledSvg from "@fluentui/svg-icons/icons/folder_search_24_filled.svg" with { type: "text" }
 import FolderSearch24RegularSvg from "@fluentui/svg-icons/icons/folder_search_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const FolderSearch16Filled = createIcon("FolderSearch16Filled", FolderSearch16FilledSvg);
-export const FolderSearch16Regular = createIcon("FolderSearch16Regular", FolderSearch16RegularSvg);
-export const FolderSearch20Filled = createIcon("FolderSearch20Filled", FolderSearch20FilledSvg);
-export const FolderSearch20Regular = createIcon("FolderSearch20Regular", FolderSearch20RegularSvg);
-export const FolderSearch24Filled = createIcon("FolderSearch24Filled", FolderSearch24FilledSvg);
-export const FolderSearch24Regular = createIcon("FolderSearch24Regular", FolderSearch24RegularSvg);
+export const FolderSearch16Filled = /** #__PURE__ */ createIcon("FolderSearch16Filled", "16", FolderSearch16FilledSvg);
+export const FolderSearch16Regular = /** #__PURE__ */ createIcon("FolderSearch16Regular", "16", FolderSearch16RegularSvg);
+export const FolderSearch20Filled = /** #__PURE__ */ createIcon("FolderSearch20Filled", "20", FolderSearch20FilledSvg);
+export const FolderSearchFilled = /** #__PURE__ */ createIcon("FolderSearchFilled", "1em", FolderSearch20FilledSvg);
+export const FolderSearch20Regular = /** #__PURE__ */ createIcon("FolderSearch20Regular", "20", FolderSearch20RegularSvg);
+export const FolderSearchRegular = /** #__PURE__ */ createIcon("FolderSearchRegular", "1em", FolderSearch20RegularSvg);
+export const FolderSearch24Filled = /** #__PURE__ */ createIcon("FolderSearch24Filled", "24", FolderSearch24FilledSvg);
+export const FolderSearch24Regular = /** #__PURE__ */ createIcon("FolderSearch24Regular", "24", FolderSearch24RegularSvg);

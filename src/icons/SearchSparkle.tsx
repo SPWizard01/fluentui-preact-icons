@@ -11,15 +11,17 @@ import SearchSparkle32RegularSvg from "@fluentui/svg-icons/icons/search_sparkle_
 import SearchSparkle48FilledSvg from "@fluentui/svg-icons/icons/search_sparkle_48_filled.svg" with { type: "text" }
 import SearchSparkle48RegularSvg from "@fluentui/svg-icons/icons/search_sparkle_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const SearchSparkle16Filled = createIcon("SearchSparkle16Filled", SearchSparkle16FilledSvg);
-export const SearchSparkle16Regular = createIcon("SearchSparkle16Regular", SearchSparkle16RegularSvg);
-export const SearchSparkle20Filled = createIcon("SearchSparkle20Filled", SearchSparkle20FilledSvg);
-export const SearchSparkle20Regular = createIcon("SearchSparkle20Regular", SearchSparkle20RegularSvg);
-export const SearchSparkle24Filled = createIcon("SearchSparkle24Filled", SearchSparkle24FilledSvg);
-export const SearchSparkle24Regular = createIcon("SearchSparkle24Regular", SearchSparkle24RegularSvg);
-export const SearchSparkle28Filled = createIcon("SearchSparkle28Filled", SearchSparkle28FilledSvg);
-export const SearchSparkle28Regular = createIcon("SearchSparkle28Regular", SearchSparkle28RegularSvg);
-export const SearchSparkle32Filled = createIcon("SearchSparkle32Filled", SearchSparkle32FilledSvg);
-export const SearchSparkle32Regular = createIcon("SearchSparkle32Regular", SearchSparkle32RegularSvg);
-export const SearchSparkle48Filled = createIcon("SearchSparkle48Filled", SearchSparkle48FilledSvg);
-export const SearchSparkle48Regular = createIcon("SearchSparkle48Regular", SearchSparkle48RegularSvg);
+export const SearchSparkle16Filled = /** #__PURE__ */ createIcon("SearchSparkle16Filled", "16", SearchSparkle16FilledSvg);
+export const SearchSparkle16Regular = /** #__PURE__ */ createIcon("SearchSparkle16Regular", "16", SearchSparkle16RegularSvg);
+export const SearchSparkle20Filled = /** #__PURE__ */ createIcon("SearchSparkle20Filled", "20", SearchSparkle20FilledSvg);
+export const SearchSparkleFilled = /** #__PURE__ */ createIcon("SearchSparkleFilled", "1em", SearchSparkle20FilledSvg);
+export const SearchSparkle20Regular = /** #__PURE__ */ createIcon("SearchSparkle20Regular", "20", SearchSparkle20RegularSvg);
+export const SearchSparkleRegular = /** #__PURE__ */ createIcon("SearchSparkleRegular", "1em", SearchSparkle20RegularSvg);
+export const SearchSparkle24Filled = /** #__PURE__ */ createIcon("SearchSparkle24Filled", "24", SearchSparkle24FilledSvg);
+export const SearchSparkle24Regular = /** #__PURE__ */ createIcon("SearchSparkle24Regular", "24", SearchSparkle24RegularSvg);
+export const SearchSparkle28Filled = /** #__PURE__ */ createIcon("SearchSparkle28Filled", "28", SearchSparkle28FilledSvg);
+export const SearchSparkle28Regular = /** #__PURE__ */ createIcon("SearchSparkle28Regular", "28", SearchSparkle28RegularSvg);
+export const SearchSparkle32Filled = /** #__PURE__ */ createIcon("SearchSparkle32Filled", "32", SearchSparkle32FilledSvg);
+export const SearchSparkle32Regular = /** #__PURE__ */ createIcon("SearchSparkle32Regular", "32", SearchSparkle32RegularSvg);
+export const SearchSparkle48Filled = /** #__PURE__ */ createIcon("SearchSparkle48Filled", "48", SearchSparkle48FilledSvg);
+export const SearchSparkle48Regular = /** #__PURE__ */ createIcon("SearchSparkle48Regular", "48", SearchSparkle48RegularSvg);

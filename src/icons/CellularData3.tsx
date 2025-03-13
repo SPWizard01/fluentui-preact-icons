@@ -3,7 +3,9 @@ import CellularData320RegularSvg from "@fluentui/svg-icons/icons/cellular_data_3
 import CellularData324FilledSvg from "@fluentui/svg-icons/icons/cellular_data_3_24_filled.svg" with { type: "text" }
 import CellularData324RegularSvg from "@fluentui/svg-icons/icons/cellular_data_3_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CellularData320Filled = createIcon("CellularData320Filled", CellularData320FilledSvg);
-export const CellularData320Regular = createIcon("CellularData320Regular", CellularData320RegularSvg);
-export const CellularData324Filled = createIcon("CellularData324Filled", CellularData324FilledSvg);
-export const CellularData324Regular = createIcon("CellularData324Regular", CellularData324RegularSvg);
+export const CellularData320Filled = /** #__PURE__ */ createIcon("CellularData320Filled", "20", CellularData320FilledSvg);
+export const CellularData3Filled = /** #__PURE__ */ createIcon("CellularData3Filled", "1em", CellularData320FilledSvg);
+export const CellularData320Regular = /** #__PURE__ */ createIcon("CellularData320Regular", "20", CellularData320RegularSvg);
+export const CellularData3Regular = /** #__PURE__ */ createIcon("CellularData3Regular", "1em", CellularData320RegularSvg);
+export const CellularData324Filled = /** #__PURE__ */ createIcon("CellularData324Filled", "24", CellularData324FilledSvg);
+export const CellularData324Regular = /** #__PURE__ */ createIcon("CellularData324Regular", "24", CellularData324RegularSvg);

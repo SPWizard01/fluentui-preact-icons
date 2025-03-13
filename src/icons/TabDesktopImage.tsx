@@ -5,9 +5,11 @@ import TabDesktopImage20RegularSvg from "@fluentui/svg-icons/icons/tab_desktop_i
 import TabDesktopImage24FilledSvg from "@fluentui/svg-icons/icons/tab_desktop_image_24_filled.svg" with { type: "text" }
 import TabDesktopImage24RegularSvg from "@fluentui/svg-icons/icons/tab_desktop_image_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const TabDesktopImage16Filled = createIcon("TabDesktopImage16Filled", TabDesktopImage16FilledSvg);
-export const TabDesktopImage16Regular = createIcon("TabDesktopImage16Regular", TabDesktopImage16RegularSvg);
-export const TabDesktopImage20Filled = createIcon("TabDesktopImage20Filled", TabDesktopImage20FilledSvg);
-export const TabDesktopImage20Regular = createIcon("TabDesktopImage20Regular", TabDesktopImage20RegularSvg);
-export const TabDesktopImage24Filled = createIcon("TabDesktopImage24Filled", TabDesktopImage24FilledSvg);
-export const TabDesktopImage24Regular = createIcon("TabDesktopImage24Regular", TabDesktopImage24RegularSvg);
+export const TabDesktopImage16Filled = /** #__PURE__ */ createIcon("TabDesktopImage16Filled", "16", TabDesktopImage16FilledSvg);
+export const TabDesktopImage16Regular = /** #__PURE__ */ createIcon("TabDesktopImage16Regular", "16", TabDesktopImage16RegularSvg);
+export const TabDesktopImage20Filled = /** #__PURE__ */ createIcon("TabDesktopImage20Filled", "20", TabDesktopImage20FilledSvg);
+export const TabDesktopImageFilled = /** #__PURE__ */ createIcon("TabDesktopImageFilled", "1em", TabDesktopImage20FilledSvg);
+export const TabDesktopImage20Regular = /** #__PURE__ */ createIcon("TabDesktopImage20Regular", "20", TabDesktopImage20RegularSvg);
+export const TabDesktopImageRegular = /** #__PURE__ */ createIcon("TabDesktopImageRegular", "1em", TabDesktopImage20RegularSvg);
+export const TabDesktopImage24Filled = /** #__PURE__ */ createIcon("TabDesktopImage24Filled", "24", TabDesktopImage24FilledSvg);
+export const TabDesktopImage24Regular = /** #__PURE__ */ createIcon("TabDesktopImage24Regular", "24", TabDesktopImage24RegularSvg);

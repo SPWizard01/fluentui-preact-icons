@@ -11,15 +11,17 @@ import SquareMultiple32RegularSvg from "@fluentui/svg-icons/icons/square_multipl
 import SquareMultiple48FilledSvg from "@fluentui/svg-icons/icons/square_multiple_48_filled.svg" with { type: "text" }
 import SquareMultiple48RegularSvg from "@fluentui/svg-icons/icons/square_multiple_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const SquareMultiple16Filled = createIcon("SquareMultiple16Filled", SquareMultiple16FilledSvg);
-export const SquareMultiple16Regular = createIcon("SquareMultiple16Regular", SquareMultiple16RegularSvg);
-export const SquareMultiple20Filled = createIcon("SquareMultiple20Filled", SquareMultiple20FilledSvg);
-export const SquareMultiple20Regular = createIcon("SquareMultiple20Regular", SquareMultiple20RegularSvg);
-export const SquareMultiple24Filled = createIcon("SquareMultiple24Filled", SquareMultiple24FilledSvg);
-export const SquareMultiple24Regular = createIcon("SquareMultiple24Regular", SquareMultiple24RegularSvg);
-export const SquareMultiple28Filled = createIcon("SquareMultiple28Filled", SquareMultiple28FilledSvg);
-export const SquareMultiple28Regular = createIcon("SquareMultiple28Regular", SquareMultiple28RegularSvg);
-export const SquareMultiple32Filled = createIcon("SquareMultiple32Filled", SquareMultiple32FilledSvg);
-export const SquareMultiple32Regular = createIcon("SquareMultiple32Regular", SquareMultiple32RegularSvg);
-export const SquareMultiple48Filled = createIcon("SquareMultiple48Filled", SquareMultiple48FilledSvg);
-export const SquareMultiple48Regular = createIcon("SquareMultiple48Regular", SquareMultiple48RegularSvg);
+export const SquareMultiple16Filled = /** #__PURE__ */ createIcon("SquareMultiple16Filled", "16", SquareMultiple16FilledSvg);
+export const SquareMultiple16Regular = /** #__PURE__ */ createIcon("SquareMultiple16Regular", "16", SquareMultiple16RegularSvg);
+export const SquareMultiple20Filled = /** #__PURE__ */ createIcon("SquareMultiple20Filled", "20", SquareMultiple20FilledSvg);
+export const SquareMultipleFilled = /** #__PURE__ */ createIcon("SquareMultipleFilled", "1em", SquareMultiple20FilledSvg);
+export const SquareMultiple20Regular = /** #__PURE__ */ createIcon("SquareMultiple20Regular", "20", SquareMultiple20RegularSvg);
+export const SquareMultipleRegular = /** #__PURE__ */ createIcon("SquareMultipleRegular", "1em", SquareMultiple20RegularSvg);
+export const SquareMultiple24Filled = /** #__PURE__ */ createIcon("SquareMultiple24Filled", "24", SquareMultiple24FilledSvg);
+export const SquareMultiple24Regular = /** #__PURE__ */ createIcon("SquareMultiple24Regular", "24", SquareMultiple24RegularSvg);
+export const SquareMultiple28Filled = /** #__PURE__ */ createIcon("SquareMultiple28Filled", "28", SquareMultiple28FilledSvg);
+export const SquareMultiple28Regular = /** #__PURE__ */ createIcon("SquareMultiple28Regular", "28", SquareMultiple28RegularSvg);
+export const SquareMultiple32Filled = /** #__PURE__ */ createIcon("SquareMultiple32Filled", "32", SquareMultiple32FilledSvg);
+export const SquareMultiple32Regular = /** #__PURE__ */ createIcon("SquareMultiple32Regular", "32", SquareMultiple32RegularSvg);
+export const SquareMultiple48Filled = /** #__PURE__ */ createIcon("SquareMultiple48Filled", "48", SquareMultiple48FilledSvg);
+export const SquareMultiple48Regular = /** #__PURE__ */ createIcon("SquareMultiple48Regular", "48", SquareMultiple48RegularSvg);

@@ -9,13 +9,15 @@ import CameraDome28RegularSvg from "@fluentui/svg-icons/icons/camera_dome_28_reg
 import CameraDome48FilledSvg from "@fluentui/svg-icons/icons/camera_dome_48_filled.svg" with { type: "text" }
 import CameraDome48RegularSvg from "@fluentui/svg-icons/icons/camera_dome_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CameraDome16Filled = createIcon("CameraDome16Filled", CameraDome16FilledSvg);
-export const CameraDome16Regular = createIcon("CameraDome16Regular", CameraDome16RegularSvg);
-export const CameraDome20Filled = createIcon("CameraDome20Filled", CameraDome20FilledSvg);
-export const CameraDome20Regular = createIcon("CameraDome20Regular", CameraDome20RegularSvg);
-export const CameraDome24Filled = createIcon("CameraDome24Filled", CameraDome24FilledSvg);
-export const CameraDome24Regular = createIcon("CameraDome24Regular", CameraDome24RegularSvg);
-export const CameraDome28Filled = createIcon("CameraDome28Filled", CameraDome28FilledSvg);
-export const CameraDome28Regular = createIcon("CameraDome28Regular", CameraDome28RegularSvg);
-export const CameraDome48Filled = createIcon("CameraDome48Filled", CameraDome48FilledSvg);
-export const CameraDome48Regular = createIcon("CameraDome48Regular", CameraDome48RegularSvg);
+export const CameraDome16Filled = /** #__PURE__ */ createIcon("CameraDome16Filled", "16", CameraDome16FilledSvg);
+export const CameraDome16Regular = /** #__PURE__ */ createIcon("CameraDome16Regular", "16", CameraDome16RegularSvg);
+export const CameraDome20Filled = /** #__PURE__ */ createIcon("CameraDome20Filled", "20", CameraDome20FilledSvg);
+export const CameraDomeFilled = /** #__PURE__ */ createIcon("CameraDomeFilled", "1em", CameraDome20FilledSvg);
+export const CameraDome20Regular = /** #__PURE__ */ createIcon("CameraDome20Regular", "20", CameraDome20RegularSvg);
+export const CameraDomeRegular = /** #__PURE__ */ createIcon("CameraDomeRegular", "1em", CameraDome20RegularSvg);
+export const CameraDome24Filled = /** #__PURE__ */ createIcon("CameraDome24Filled", "24", CameraDome24FilledSvg);
+export const CameraDome24Regular = /** #__PURE__ */ createIcon("CameraDome24Regular", "24", CameraDome24RegularSvg);
+export const CameraDome28Filled = /** #__PURE__ */ createIcon("CameraDome28Filled", "28", CameraDome28FilledSvg);
+export const CameraDome28Regular = /** #__PURE__ */ createIcon("CameraDome28Regular", "28", CameraDome28RegularSvg);
+export const CameraDome48Filled = /** #__PURE__ */ createIcon("CameraDome48Filled", "48", CameraDome48FilledSvg);
+export const CameraDome48Regular = /** #__PURE__ */ createIcon("CameraDome48Regular", "48", CameraDome48RegularSvg);

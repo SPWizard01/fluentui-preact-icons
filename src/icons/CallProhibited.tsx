@@ -9,13 +9,15 @@ import CallProhibited28RegularSvg from "@fluentui/svg-icons/icons/call_prohibite
 import CallProhibited48FilledSvg from "@fluentui/svg-icons/icons/call_prohibited_48_filled.svg" with { type: "text" }
 import CallProhibited48RegularSvg from "@fluentui/svg-icons/icons/call_prohibited_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CallProhibited16Filled = createIcon("CallProhibited16Filled", CallProhibited16FilledSvg);
-export const CallProhibited16Regular = createIcon("CallProhibited16Regular", CallProhibited16RegularSvg);
-export const CallProhibited20Filled = createIcon("CallProhibited20Filled", CallProhibited20FilledSvg);
-export const CallProhibited20Regular = createIcon("CallProhibited20Regular", CallProhibited20RegularSvg);
-export const CallProhibited24Filled = createIcon("CallProhibited24Filled", CallProhibited24FilledSvg);
-export const CallProhibited24Regular = createIcon("CallProhibited24Regular", CallProhibited24RegularSvg);
-export const CallProhibited28Filled = createIcon("CallProhibited28Filled", CallProhibited28FilledSvg);
-export const CallProhibited28Regular = createIcon("CallProhibited28Regular", CallProhibited28RegularSvg);
-export const CallProhibited48Filled = createIcon("CallProhibited48Filled", CallProhibited48FilledSvg);
-export const CallProhibited48Regular = createIcon("CallProhibited48Regular", CallProhibited48RegularSvg);
+export const CallProhibited16Filled = /** #__PURE__ */ createIcon("CallProhibited16Filled", "16", CallProhibited16FilledSvg);
+export const CallProhibited16Regular = /** #__PURE__ */ createIcon("CallProhibited16Regular", "16", CallProhibited16RegularSvg);
+export const CallProhibited20Filled = /** #__PURE__ */ createIcon("CallProhibited20Filled", "20", CallProhibited20FilledSvg);
+export const CallProhibitedFilled = /** #__PURE__ */ createIcon("CallProhibitedFilled", "1em", CallProhibited20FilledSvg);
+export const CallProhibited20Regular = /** #__PURE__ */ createIcon("CallProhibited20Regular", "20", CallProhibited20RegularSvg);
+export const CallProhibitedRegular = /** #__PURE__ */ createIcon("CallProhibitedRegular", "1em", CallProhibited20RegularSvg);
+export const CallProhibited24Filled = /** #__PURE__ */ createIcon("CallProhibited24Filled", "24", CallProhibited24FilledSvg);
+export const CallProhibited24Regular = /** #__PURE__ */ createIcon("CallProhibited24Regular", "24", CallProhibited24RegularSvg);
+export const CallProhibited28Filled = /** #__PURE__ */ createIcon("CallProhibited28Filled", "28", CallProhibited28FilledSvg);
+export const CallProhibited28Regular = /** #__PURE__ */ createIcon("CallProhibited28Regular", "28", CallProhibited28RegularSvg);
+export const CallProhibited48Filled = /** #__PURE__ */ createIcon("CallProhibited48Filled", "48", CallProhibited48FilledSvg);
+export const CallProhibited48Regular = /** #__PURE__ */ createIcon("CallProhibited48Regular", "48", CallProhibited48RegularSvg);

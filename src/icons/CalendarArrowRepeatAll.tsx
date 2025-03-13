@@ -11,15 +11,17 @@ import CalendarArrowRepeatAll32RegularSvg from "@fluentui/svg-icons/icons/calend
 import CalendarArrowRepeatAll48FilledSvg from "@fluentui/svg-icons/icons/calendar_arrow_repeat_all_48_filled.svg" with { type: "text" }
 import CalendarArrowRepeatAll48RegularSvg from "@fluentui/svg-icons/icons/calendar_arrow_repeat_all_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CalendarArrowRepeatAll16Filled = createIcon("CalendarArrowRepeatAll16Filled", CalendarArrowRepeatAll16FilledSvg);
-export const CalendarArrowRepeatAll16Regular = createIcon("CalendarArrowRepeatAll16Regular", CalendarArrowRepeatAll16RegularSvg);
-export const CalendarArrowRepeatAll20Filled = createIcon("CalendarArrowRepeatAll20Filled", CalendarArrowRepeatAll20FilledSvg);
-export const CalendarArrowRepeatAll20Regular = createIcon("CalendarArrowRepeatAll20Regular", CalendarArrowRepeatAll20RegularSvg);
-export const CalendarArrowRepeatAll24Filled = createIcon("CalendarArrowRepeatAll24Filled", CalendarArrowRepeatAll24FilledSvg);
-export const CalendarArrowRepeatAll24Regular = createIcon("CalendarArrowRepeatAll24Regular", CalendarArrowRepeatAll24RegularSvg);
-export const CalendarArrowRepeatAll28Filled = createIcon("CalendarArrowRepeatAll28Filled", CalendarArrowRepeatAll28FilledSvg);
-export const CalendarArrowRepeatAll28Regular = createIcon("CalendarArrowRepeatAll28Regular", CalendarArrowRepeatAll28RegularSvg);
-export const CalendarArrowRepeatAll32Filled = createIcon("CalendarArrowRepeatAll32Filled", CalendarArrowRepeatAll32FilledSvg);
-export const CalendarArrowRepeatAll32Regular = createIcon("CalendarArrowRepeatAll32Regular", CalendarArrowRepeatAll32RegularSvg);
-export const CalendarArrowRepeatAll48Filled = createIcon("CalendarArrowRepeatAll48Filled", CalendarArrowRepeatAll48FilledSvg);
-export const CalendarArrowRepeatAll48Regular = createIcon("CalendarArrowRepeatAll48Regular", CalendarArrowRepeatAll48RegularSvg);
+export const CalendarArrowRepeatAll16Filled = /** #__PURE__ */ createIcon("CalendarArrowRepeatAll16Filled", "16", CalendarArrowRepeatAll16FilledSvg);
+export const CalendarArrowRepeatAll16Regular = /** #__PURE__ */ createIcon("CalendarArrowRepeatAll16Regular", "16", CalendarArrowRepeatAll16RegularSvg);
+export const CalendarArrowRepeatAll20Filled = /** #__PURE__ */ createIcon("CalendarArrowRepeatAll20Filled", "20", CalendarArrowRepeatAll20FilledSvg);
+export const CalendarArrowRepeatAllFilled = /** #__PURE__ */ createIcon("CalendarArrowRepeatAllFilled", "1em", CalendarArrowRepeatAll20FilledSvg);
+export const CalendarArrowRepeatAll20Regular = /** #__PURE__ */ createIcon("CalendarArrowRepeatAll20Regular", "20", CalendarArrowRepeatAll20RegularSvg);
+export const CalendarArrowRepeatAllRegular = /** #__PURE__ */ createIcon("CalendarArrowRepeatAllRegular", "1em", CalendarArrowRepeatAll20RegularSvg);
+export const CalendarArrowRepeatAll24Filled = /** #__PURE__ */ createIcon("CalendarArrowRepeatAll24Filled", "24", CalendarArrowRepeatAll24FilledSvg);
+export const CalendarArrowRepeatAll24Regular = /** #__PURE__ */ createIcon("CalendarArrowRepeatAll24Regular", "24", CalendarArrowRepeatAll24RegularSvg);
+export const CalendarArrowRepeatAll28Filled = /** #__PURE__ */ createIcon("CalendarArrowRepeatAll28Filled", "28", CalendarArrowRepeatAll28FilledSvg);
+export const CalendarArrowRepeatAll28Regular = /** #__PURE__ */ createIcon("CalendarArrowRepeatAll28Regular", "28", CalendarArrowRepeatAll28RegularSvg);
+export const CalendarArrowRepeatAll32Filled = /** #__PURE__ */ createIcon("CalendarArrowRepeatAll32Filled", "32", CalendarArrowRepeatAll32FilledSvg);
+export const CalendarArrowRepeatAll32Regular = /** #__PURE__ */ createIcon("CalendarArrowRepeatAll32Regular", "32", CalendarArrowRepeatAll32RegularSvg);
+export const CalendarArrowRepeatAll48Filled = /** #__PURE__ */ createIcon("CalendarArrowRepeatAll48Filled", "48", CalendarArrowRepeatAll48FilledSvg);
+export const CalendarArrowRepeatAll48Regular = /** #__PURE__ */ createIcon("CalendarArrowRepeatAll48Regular", "48", CalendarArrowRepeatAll48RegularSvg);

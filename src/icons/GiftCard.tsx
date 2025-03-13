@@ -8,12 +8,15 @@ import GiftCard24ColorSvg from "@fluentui/svg-icons/icons/gift_card_24_color.svg
 import GiftCard24FilledSvg from "@fluentui/svg-icons/icons/gift_card_24_filled.svg" with { type: "text" }
 import GiftCard24RegularSvg from "@fluentui/svg-icons/icons/gift_card_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const GiftCard16Color = createIcon("GiftCard16Color", GiftCard16ColorSvg);
-export const GiftCard16Filled = createIcon("GiftCard16Filled", GiftCard16FilledSvg);
-export const GiftCard16Regular = createIcon("GiftCard16Regular", GiftCard16RegularSvg);
-export const GiftCard20Color = createIcon("GiftCard20Color", GiftCard20ColorSvg);
-export const GiftCard20Filled = createIcon("GiftCard20Filled", GiftCard20FilledSvg);
-export const GiftCard20Regular = createIcon("GiftCard20Regular", GiftCard20RegularSvg);
-export const GiftCard24Color = createIcon("GiftCard24Color", GiftCard24ColorSvg);
-export const GiftCard24Filled = createIcon("GiftCard24Filled", GiftCard24FilledSvg);
-export const GiftCard24Regular = createIcon("GiftCard24Regular", GiftCard24RegularSvg);
+export const GiftCard16Color = /** #__PURE__ */ createIcon("GiftCard16Color", "16", GiftCard16ColorSvg);
+export const GiftCard16Filled = /** #__PURE__ */ createIcon("GiftCard16Filled", "16", GiftCard16FilledSvg);
+export const GiftCard16Regular = /** #__PURE__ */ createIcon("GiftCard16Regular", "16", GiftCard16RegularSvg);
+export const GiftCard20Color = /** #__PURE__ */ createIcon("GiftCard20Color", "20", GiftCard20ColorSvg);
+export const GiftCardColor = /** #__PURE__ */ createIcon("GiftCardColor", "1em", GiftCard20ColorSvg);
+export const GiftCard20Filled = /** #__PURE__ */ createIcon("GiftCard20Filled", "20", GiftCard20FilledSvg);
+export const GiftCardFilled = /** #__PURE__ */ createIcon("GiftCardFilled", "1em", GiftCard20FilledSvg);
+export const GiftCard20Regular = /** #__PURE__ */ createIcon("GiftCard20Regular", "20", GiftCard20RegularSvg);
+export const GiftCardRegular = /** #__PURE__ */ createIcon("GiftCardRegular", "1em", GiftCard20RegularSvg);
+export const GiftCard24Color = /** #__PURE__ */ createIcon("GiftCard24Color", "24", GiftCard24ColorSvg);
+export const GiftCard24Filled = /** #__PURE__ */ createIcon("GiftCard24Filled", "24", GiftCard24FilledSvg);
+export const GiftCard24Regular = /** #__PURE__ */ createIcon("GiftCard24Regular", "24", GiftCard24RegularSvg);

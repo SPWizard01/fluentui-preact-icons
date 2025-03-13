@@ -9,13 +9,15 @@ import FullScreenMaximize28RegularSvg from "@fluentui/svg-icons/icons/full_scree
 import FullScreenMaximize32FilledSvg from "@fluentui/svg-icons/icons/full_screen_maximize_32_filled.svg" with { type: "text" }
 import FullScreenMaximize32RegularSvg from "@fluentui/svg-icons/icons/full_screen_maximize_32_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const FullScreenMaximize16Filled = createIcon("FullScreenMaximize16Filled", FullScreenMaximize16FilledSvg);
-export const FullScreenMaximize16Regular = createIcon("FullScreenMaximize16Regular", FullScreenMaximize16RegularSvg);
-export const FullScreenMaximize20Filled = createIcon("FullScreenMaximize20Filled", FullScreenMaximize20FilledSvg);
-export const FullScreenMaximize20Regular = createIcon("FullScreenMaximize20Regular", FullScreenMaximize20RegularSvg);
-export const FullScreenMaximize24Filled = createIcon("FullScreenMaximize24Filled", FullScreenMaximize24FilledSvg);
-export const FullScreenMaximize24Regular = createIcon("FullScreenMaximize24Regular", FullScreenMaximize24RegularSvg);
-export const FullScreenMaximize28Filled = createIcon("FullScreenMaximize28Filled", FullScreenMaximize28FilledSvg);
-export const FullScreenMaximize28Regular = createIcon("FullScreenMaximize28Regular", FullScreenMaximize28RegularSvg);
-export const FullScreenMaximize32Filled = createIcon("FullScreenMaximize32Filled", FullScreenMaximize32FilledSvg);
-export const FullScreenMaximize32Regular = createIcon("FullScreenMaximize32Regular", FullScreenMaximize32RegularSvg);
+export const FullScreenMaximize16Filled = /** #__PURE__ */ createIcon("FullScreenMaximize16Filled", "16", FullScreenMaximize16FilledSvg);
+export const FullScreenMaximize16Regular = /** #__PURE__ */ createIcon("FullScreenMaximize16Regular", "16", FullScreenMaximize16RegularSvg);
+export const FullScreenMaximize20Filled = /** #__PURE__ */ createIcon("FullScreenMaximize20Filled", "20", FullScreenMaximize20FilledSvg);
+export const FullScreenMaximizeFilled = /** #__PURE__ */ createIcon("FullScreenMaximizeFilled", "1em", FullScreenMaximize20FilledSvg);
+export const FullScreenMaximize20Regular = /** #__PURE__ */ createIcon("FullScreenMaximize20Regular", "20", FullScreenMaximize20RegularSvg);
+export const FullScreenMaximizeRegular = /** #__PURE__ */ createIcon("FullScreenMaximizeRegular", "1em", FullScreenMaximize20RegularSvg);
+export const FullScreenMaximize24Filled = /** #__PURE__ */ createIcon("FullScreenMaximize24Filled", "24", FullScreenMaximize24FilledSvg);
+export const FullScreenMaximize24Regular = /** #__PURE__ */ createIcon("FullScreenMaximize24Regular", "24", FullScreenMaximize24RegularSvg);
+export const FullScreenMaximize28Filled = /** #__PURE__ */ createIcon("FullScreenMaximize28Filled", "28", FullScreenMaximize28FilledSvg);
+export const FullScreenMaximize28Regular = /** #__PURE__ */ createIcon("FullScreenMaximize28Regular", "28", FullScreenMaximize28RegularSvg);
+export const FullScreenMaximize32Filled = /** #__PURE__ */ createIcon("FullScreenMaximize32Filled", "32", FullScreenMaximize32FilledSvg);
+export const FullScreenMaximize32Regular = /** #__PURE__ */ createIcon("FullScreenMaximize32Regular", "32", FullScreenMaximize32RegularSvg);

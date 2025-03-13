@@ -19,23 +19,26 @@ import Shield48ColorSvg from "@fluentui/svg-icons/icons/shield_48_color.svg" wit
 import Shield48FilledSvg from "@fluentui/svg-icons/icons/shield_48_filled.svg" with { type: "text" }
 import Shield48RegularSvg from "@fluentui/svg-icons/icons/shield_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Shield12Filled = createIcon("Shield12Filled", Shield12FilledSvg);
-export const Shield12Regular = createIcon("Shield12Regular", Shield12RegularSvg);
-export const Shield16Color = createIcon("Shield16Color", Shield16ColorSvg);
-export const Shield16Filled = createIcon("Shield16Filled", Shield16FilledSvg);
-export const Shield16Regular = createIcon("Shield16Regular", Shield16RegularSvg);
-export const Shield20Color = createIcon("Shield20Color", Shield20ColorSvg);
-export const Shield20Filled = createIcon("Shield20Filled", Shield20FilledSvg);
-export const Shield20Regular = createIcon("Shield20Regular", Shield20RegularSvg);
-export const Shield24Color = createIcon("Shield24Color", Shield24ColorSvg);
-export const Shield24Filled = createIcon("Shield24Filled", Shield24FilledSvg);
-export const Shield24Regular = createIcon("Shield24Regular", Shield24RegularSvg);
-export const Shield28Color = createIcon("Shield28Color", Shield28ColorSvg);
-export const Shield28Filled = createIcon("Shield28Filled", Shield28FilledSvg);
-export const Shield28Regular = createIcon("Shield28Regular", Shield28RegularSvg);
-export const Shield32Color = createIcon("Shield32Color", Shield32ColorSvg);
-export const Shield32Filled = createIcon("Shield32Filled", Shield32FilledSvg);
-export const Shield32Regular = createIcon("Shield32Regular", Shield32RegularSvg);
-export const Shield48Color = createIcon("Shield48Color", Shield48ColorSvg);
-export const Shield48Filled = createIcon("Shield48Filled", Shield48FilledSvg);
-export const Shield48Regular = createIcon("Shield48Regular", Shield48RegularSvg);
+export const Shield12Filled = /** #__PURE__ */ createIcon("Shield12Filled", "12", Shield12FilledSvg);
+export const Shield12Regular = /** #__PURE__ */ createIcon("Shield12Regular", "12", Shield12RegularSvg);
+export const Shield16Color = /** #__PURE__ */ createIcon("Shield16Color", "16", Shield16ColorSvg);
+export const Shield16Filled = /** #__PURE__ */ createIcon("Shield16Filled", "16", Shield16FilledSvg);
+export const Shield16Regular = /** #__PURE__ */ createIcon("Shield16Regular", "16", Shield16RegularSvg);
+export const Shield20Color = /** #__PURE__ */ createIcon("Shield20Color", "20", Shield20ColorSvg);
+export const ShieldColor = /** #__PURE__ */ createIcon("ShieldColor", "1em", Shield20ColorSvg);
+export const Shield20Filled = /** #__PURE__ */ createIcon("Shield20Filled", "20", Shield20FilledSvg);
+export const ShieldFilled = /** #__PURE__ */ createIcon("ShieldFilled", "1em", Shield20FilledSvg);
+export const Shield20Regular = /** #__PURE__ */ createIcon("Shield20Regular", "20", Shield20RegularSvg);
+export const ShieldRegular = /** #__PURE__ */ createIcon("ShieldRegular", "1em", Shield20RegularSvg);
+export const Shield24Color = /** #__PURE__ */ createIcon("Shield24Color", "24", Shield24ColorSvg);
+export const Shield24Filled = /** #__PURE__ */ createIcon("Shield24Filled", "24", Shield24FilledSvg);
+export const Shield24Regular = /** #__PURE__ */ createIcon("Shield24Regular", "24", Shield24RegularSvg);
+export const Shield28Color = /** #__PURE__ */ createIcon("Shield28Color", "28", Shield28ColorSvg);
+export const Shield28Filled = /** #__PURE__ */ createIcon("Shield28Filled", "28", Shield28FilledSvg);
+export const Shield28Regular = /** #__PURE__ */ createIcon("Shield28Regular", "28", Shield28RegularSvg);
+export const Shield32Color = /** #__PURE__ */ createIcon("Shield32Color", "32", Shield32ColorSvg);
+export const Shield32Filled = /** #__PURE__ */ createIcon("Shield32Filled", "32", Shield32FilledSvg);
+export const Shield32Regular = /** #__PURE__ */ createIcon("Shield32Regular", "32", Shield32RegularSvg);
+export const Shield48Color = /** #__PURE__ */ createIcon("Shield48Color", "48", Shield48ColorSvg);
+export const Shield48Filled = /** #__PURE__ */ createIcon("Shield48Filled", "48", Shield48FilledSvg);
+export const Shield48Regular = /** #__PURE__ */ createIcon("Shield48Regular", "48", Shield48RegularSvg);

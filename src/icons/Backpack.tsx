@@ -13,17 +13,19 @@ import Backpack32RegularSvg from "@fluentui/svg-icons/icons/backpack_32_regular.
 import Backpack48FilledSvg from "@fluentui/svg-icons/icons/backpack_48_filled.svg" with { type: "text" }
 import Backpack48RegularSvg from "@fluentui/svg-icons/icons/backpack_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Backpack12Filled = createIcon("Backpack12Filled", Backpack12FilledSvg);
-export const Backpack12Regular = createIcon("Backpack12Regular", Backpack12RegularSvg);
-export const Backpack16Filled = createIcon("Backpack16Filled", Backpack16FilledSvg);
-export const Backpack16Regular = createIcon("Backpack16Regular", Backpack16RegularSvg);
-export const Backpack20Filled = createIcon("Backpack20Filled", Backpack20FilledSvg);
-export const Backpack20Regular = createIcon("Backpack20Regular", Backpack20RegularSvg);
-export const Backpack24Filled = createIcon("Backpack24Filled", Backpack24FilledSvg);
-export const Backpack24Regular = createIcon("Backpack24Regular", Backpack24RegularSvg);
-export const Backpack28Filled = createIcon("Backpack28Filled", Backpack28FilledSvg);
-export const Backpack28Regular = createIcon("Backpack28Regular", Backpack28RegularSvg);
-export const Backpack32Filled = createIcon("Backpack32Filled", Backpack32FilledSvg);
-export const Backpack32Regular = createIcon("Backpack32Regular", Backpack32RegularSvg);
-export const Backpack48Filled = createIcon("Backpack48Filled", Backpack48FilledSvg);
-export const Backpack48Regular = createIcon("Backpack48Regular", Backpack48RegularSvg);
+export const Backpack12Filled = /** #__PURE__ */ createIcon("Backpack12Filled", "12", Backpack12FilledSvg);
+export const Backpack12Regular = /** #__PURE__ */ createIcon("Backpack12Regular", "12", Backpack12RegularSvg);
+export const Backpack16Filled = /** #__PURE__ */ createIcon("Backpack16Filled", "16", Backpack16FilledSvg);
+export const Backpack16Regular = /** #__PURE__ */ createIcon("Backpack16Regular", "16", Backpack16RegularSvg);
+export const Backpack20Filled = /** #__PURE__ */ createIcon("Backpack20Filled", "20", Backpack20FilledSvg);
+export const BackpackFilled = /** #__PURE__ */ createIcon("BackpackFilled", "1em", Backpack20FilledSvg);
+export const Backpack20Regular = /** #__PURE__ */ createIcon("Backpack20Regular", "20", Backpack20RegularSvg);
+export const BackpackRegular = /** #__PURE__ */ createIcon("BackpackRegular", "1em", Backpack20RegularSvg);
+export const Backpack24Filled = /** #__PURE__ */ createIcon("Backpack24Filled", "24", Backpack24FilledSvg);
+export const Backpack24Regular = /** #__PURE__ */ createIcon("Backpack24Regular", "24", Backpack24RegularSvg);
+export const Backpack28Filled = /** #__PURE__ */ createIcon("Backpack28Filled", "28", Backpack28FilledSvg);
+export const Backpack28Regular = /** #__PURE__ */ createIcon("Backpack28Regular", "28", Backpack28RegularSvg);
+export const Backpack32Filled = /** #__PURE__ */ createIcon("Backpack32Filled", "32", Backpack32FilledSvg);
+export const Backpack32Regular = /** #__PURE__ */ createIcon("Backpack32Regular", "32", Backpack32RegularSvg);
+export const Backpack48Filled = /** #__PURE__ */ createIcon("Backpack48Filled", "48", Backpack48FilledSvg);
+export const Backpack48Regular = /** #__PURE__ */ createIcon("Backpack48Regular", "48", Backpack48RegularSvg);

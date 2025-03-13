@@ -5,9 +5,11 @@ import CheckboxIndeterminate20RegularSvg from "@fluentui/svg-icons/icons/checkbo
 import CheckboxIndeterminate24FilledSvg from "@fluentui/svg-icons/icons/checkbox_indeterminate_24_filled.svg" with { type: "text" }
 import CheckboxIndeterminate24RegularSvg from "@fluentui/svg-icons/icons/checkbox_indeterminate_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const CheckboxIndeterminate16Filled = createIcon("CheckboxIndeterminate16Filled", CheckboxIndeterminate16FilledSvg);
-export const CheckboxIndeterminate16Regular = createIcon("CheckboxIndeterminate16Regular", CheckboxIndeterminate16RegularSvg);
-export const CheckboxIndeterminate20Filled = createIcon("CheckboxIndeterminate20Filled", CheckboxIndeterminate20FilledSvg);
-export const CheckboxIndeterminate20Regular = createIcon("CheckboxIndeterminate20Regular", CheckboxIndeterminate20RegularSvg);
-export const CheckboxIndeterminate24Filled = createIcon("CheckboxIndeterminate24Filled", CheckboxIndeterminate24FilledSvg);
-export const CheckboxIndeterminate24Regular = createIcon("CheckboxIndeterminate24Regular", CheckboxIndeterminate24RegularSvg);
+export const CheckboxIndeterminate16Filled = /** #__PURE__ */ createIcon("CheckboxIndeterminate16Filled", "16", CheckboxIndeterminate16FilledSvg);
+export const CheckboxIndeterminate16Regular = /** #__PURE__ */ createIcon("CheckboxIndeterminate16Regular", "16", CheckboxIndeterminate16RegularSvg);
+export const CheckboxIndeterminate20Filled = /** #__PURE__ */ createIcon("CheckboxIndeterminate20Filled", "20", CheckboxIndeterminate20FilledSvg);
+export const CheckboxIndeterminateFilled = /** #__PURE__ */ createIcon("CheckboxIndeterminateFilled", "1em", CheckboxIndeterminate20FilledSvg);
+export const CheckboxIndeterminate20Regular = /** #__PURE__ */ createIcon("CheckboxIndeterminate20Regular", "20", CheckboxIndeterminate20RegularSvg);
+export const CheckboxIndeterminateRegular = /** #__PURE__ */ createIcon("CheckboxIndeterminateRegular", "1em", CheckboxIndeterminate20RegularSvg);
+export const CheckboxIndeterminate24Filled = /** #__PURE__ */ createIcon("CheckboxIndeterminate24Filled", "24", CheckboxIndeterminate24FilledSvg);
+export const CheckboxIndeterminate24Regular = /** #__PURE__ */ createIcon("CheckboxIndeterminate24Regular", "24", CheckboxIndeterminate24RegularSvg);

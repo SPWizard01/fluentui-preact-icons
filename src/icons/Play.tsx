@@ -13,17 +13,19 @@ import Play32RegularSvg from "@fluentui/svg-icons/icons/play_32_regular.svg" wit
 import Play48FilledSvg from "@fluentui/svg-icons/icons/play_48_filled.svg" with { type: "text" }
 import Play48RegularSvg from "@fluentui/svg-icons/icons/play_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Play12Filled = createIcon("Play12Filled", Play12FilledSvg);
-export const Play12Regular = createIcon("Play12Regular", Play12RegularSvg);
-export const Play16Filled = createIcon("Play16Filled", Play16FilledSvg);
-export const Play16Regular = createIcon("Play16Regular", Play16RegularSvg);
-export const Play20Filled = createIcon("Play20Filled", Play20FilledSvg);
-export const Play20Regular = createIcon("Play20Regular", Play20RegularSvg);
-export const Play24Filled = createIcon("Play24Filled", Play24FilledSvg);
-export const Play24Regular = createIcon("Play24Regular", Play24RegularSvg);
-export const Play28Filled = createIcon("Play28Filled", Play28FilledSvg);
-export const Play28Regular = createIcon("Play28Regular", Play28RegularSvg);
-export const Play32Filled = createIcon("Play32Filled", Play32FilledSvg);
-export const Play32Regular = createIcon("Play32Regular", Play32RegularSvg);
-export const Play48Filled = createIcon("Play48Filled", Play48FilledSvg);
-export const Play48Regular = createIcon("Play48Regular", Play48RegularSvg);
+export const Play12Filled = /** #__PURE__ */ createIcon("Play12Filled", "12", Play12FilledSvg);
+export const Play12Regular = /** #__PURE__ */ createIcon("Play12Regular", "12", Play12RegularSvg);
+export const Play16Filled = /** #__PURE__ */ createIcon("Play16Filled", "16", Play16FilledSvg);
+export const Play16Regular = /** #__PURE__ */ createIcon("Play16Regular", "16", Play16RegularSvg);
+export const Play20Filled = /** #__PURE__ */ createIcon("Play20Filled", "20", Play20FilledSvg);
+export const PlayFilled = /** #__PURE__ */ createIcon("PlayFilled", "1em", Play20FilledSvg);
+export const Play20Regular = /** #__PURE__ */ createIcon("Play20Regular", "20", Play20RegularSvg);
+export const PlayRegular = /** #__PURE__ */ createIcon("PlayRegular", "1em", Play20RegularSvg);
+export const Play24Filled = /** #__PURE__ */ createIcon("Play24Filled", "24", Play24FilledSvg);
+export const Play24Regular = /** #__PURE__ */ createIcon("Play24Regular", "24", Play24RegularSvg);
+export const Play28Filled = /** #__PURE__ */ createIcon("Play28Filled", "28", Play28FilledSvg);
+export const Play28Regular = /** #__PURE__ */ createIcon("Play28Regular", "28", Play28RegularSvg);
+export const Play32Filled = /** #__PURE__ */ createIcon("Play32Filled", "32", Play32FilledSvg);
+export const Play32Regular = /** #__PURE__ */ createIcon("Play32Regular", "32", Play32RegularSvg);
+export const Play48Filled = /** #__PURE__ */ createIcon("Play48Filled", "48", Play48FilledSvg);
+export const Play48Regular = /** #__PURE__ */ createIcon("Play48Regular", "48", Play48RegularSvg);

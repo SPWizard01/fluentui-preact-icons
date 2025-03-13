@@ -5,9 +5,11 @@ import MountainLocationBottom24RegularSvg from "@fluentui/svg-icons/icons/mounta
 import MountainLocationBottom28FilledSvg from "@fluentui/svg-icons/icons/mountain_location_bottom_28_filled.svg" with { type: "text" }
 import MountainLocationBottom28RegularSvg from "@fluentui/svg-icons/icons/mountain_location_bottom_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const MountainLocationBottom20Filled = createIcon("MountainLocationBottom20Filled", MountainLocationBottom20FilledSvg);
-export const MountainLocationBottom20Regular = createIcon("MountainLocationBottom20Regular", MountainLocationBottom20RegularSvg);
-export const MountainLocationBottom24Filled = createIcon("MountainLocationBottom24Filled", MountainLocationBottom24FilledSvg);
-export const MountainLocationBottom24Regular = createIcon("MountainLocationBottom24Regular", MountainLocationBottom24RegularSvg);
-export const MountainLocationBottom28Filled = createIcon("MountainLocationBottom28Filled", MountainLocationBottom28FilledSvg);
-export const MountainLocationBottom28Regular = createIcon("MountainLocationBottom28Regular", MountainLocationBottom28RegularSvg);
+export const MountainLocationBottom20Filled = /** #__PURE__ */ createIcon("MountainLocationBottom20Filled", "20", MountainLocationBottom20FilledSvg);
+export const MountainLocationBottomFilled = /** #__PURE__ */ createIcon("MountainLocationBottomFilled", "1em", MountainLocationBottom20FilledSvg);
+export const MountainLocationBottom20Regular = /** #__PURE__ */ createIcon("MountainLocationBottom20Regular", "20", MountainLocationBottom20RegularSvg);
+export const MountainLocationBottomRegular = /** #__PURE__ */ createIcon("MountainLocationBottomRegular", "1em", MountainLocationBottom20RegularSvg);
+export const MountainLocationBottom24Filled = /** #__PURE__ */ createIcon("MountainLocationBottom24Filled", "24", MountainLocationBottom24FilledSvg);
+export const MountainLocationBottom24Regular = /** #__PURE__ */ createIcon("MountainLocationBottom24Regular", "24", MountainLocationBottom24RegularSvg);
+export const MountainLocationBottom28Filled = /** #__PURE__ */ createIcon("MountainLocationBottom28Filled", "28", MountainLocationBottom28FilledSvg);
+export const MountainLocationBottom28Regular = /** #__PURE__ */ createIcon("MountainLocationBottom28Regular", "28", MountainLocationBottom28RegularSvg);

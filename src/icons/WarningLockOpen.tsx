@@ -5,9 +5,11 @@ import WarningLockOpen20RegularSvg from "@fluentui/svg-icons/icons/warning_lock_
 import WarningLockOpen24FilledSvg from "@fluentui/svg-icons/icons/warning_lock_open_24_filled.svg" with { type: "text" }
 import WarningLockOpen24RegularSvg from "@fluentui/svg-icons/icons/warning_lock_open_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const WarningLockOpen16Filled = createIcon("WarningLockOpen16Filled", WarningLockOpen16FilledSvg);
-export const WarningLockOpen16Regular = createIcon("WarningLockOpen16Regular", WarningLockOpen16RegularSvg);
-export const WarningLockOpen20Filled = createIcon("WarningLockOpen20Filled", WarningLockOpen20FilledSvg);
-export const WarningLockOpen20Regular = createIcon("WarningLockOpen20Regular", WarningLockOpen20RegularSvg);
-export const WarningLockOpen24Filled = createIcon("WarningLockOpen24Filled", WarningLockOpen24FilledSvg);
-export const WarningLockOpen24Regular = createIcon("WarningLockOpen24Regular", WarningLockOpen24RegularSvg);
+export const WarningLockOpen16Filled = /** #__PURE__ */ createIcon("WarningLockOpen16Filled", "16", WarningLockOpen16FilledSvg);
+export const WarningLockOpen16Regular = /** #__PURE__ */ createIcon("WarningLockOpen16Regular", "16", WarningLockOpen16RegularSvg);
+export const WarningLockOpen20Filled = /** #__PURE__ */ createIcon("WarningLockOpen20Filled", "20", WarningLockOpen20FilledSvg);
+export const WarningLockOpenFilled = /** #__PURE__ */ createIcon("WarningLockOpenFilled", "1em", WarningLockOpen20FilledSvg);
+export const WarningLockOpen20Regular = /** #__PURE__ */ createIcon("WarningLockOpen20Regular", "20", WarningLockOpen20RegularSvg);
+export const WarningLockOpenRegular = /** #__PURE__ */ createIcon("WarningLockOpenRegular", "1em", WarningLockOpen20RegularSvg);
+export const WarningLockOpen24Filled = /** #__PURE__ */ createIcon("WarningLockOpen24Filled", "24", WarningLockOpen24FilledSvg);
+export const WarningLockOpen24Regular = /** #__PURE__ */ createIcon("WarningLockOpen24Regular", "24", WarningLockOpen24RegularSvg);

@@ -5,9 +5,11 @@ import PlayCircleSparkle20RegularSvg from "@fluentui/svg-icons/icons/play_circle
 import PlayCircleSparkle24FilledSvg from "@fluentui/svg-icons/icons/play_circle_sparkle_24_filled.svg" with { type: "text" }
 import PlayCircleSparkle24RegularSvg from "@fluentui/svg-icons/icons/play_circle_sparkle_24_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const PlayCircleSparkle16Filled = createIcon("PlayCircleSparkle16Filled", PlayCircleSparkle16FilledSvg);
-export const PlayCircleSparkle16Regular = createIcon("PlayCircleSparkle16Regular", PlayCircleSparkle16RegularSvg);
-export const PlayCircleSparkle20Filled = createIcon("PlayCircleSparkle20Filled", PlayCircleSparkle20FilledSvg);
-export const PlayCircleSparkle20Regular = createIcon("PlayCircleSparkle20Regular", PlayCircleSparkle20RegularSvg);
-export const PlayCircleSparkle24Filled = createIcon("PlayCircleSparkle24Filled", PlayCircleSparkle24FilledSvg);
-export const PlayCircleSparkle24Regular = createIcon("PlayCircleSparkle24Regular", PlayCircleSparkle24RegularSvg);
+export const PlayCircleSparkle16Filled = /** #__PURE__ */ createIcon("PlayCircleSparkle16Filled", "16", PlayCircleSparkle16FilledSvg);
+export const PlayCircleSparkle16Regular = /** #__PURE__ */ createIcon("PlayCircleSparkle16Regular", "16", PlayCircleSparkle16RegularSvg);
+export const PlayCircleSparkle20Filled = /** #__PURE__ */ createIcon("PlayCircleSparkle20Filled", "20", PlayCircleSparkle20FilledSvg);
+export const PlayCircleSparkleFilled = /** #__PURE__ */ createIcon("PlayCircleSparkleFilled", "1em", PlayCircleSparkle20FilledSvg);
+export const PlayCircleSparkle20Regular = /** #__PURE__ */ createIcon("PlayCircleSparkle20Regular", "20", PlayCircleSparkle20RegularSvg);
+export const PlayCircleSparkleRegular = /** #__PURE__ */ createIcon("PlayCircleSparkleRegular", "1em", PlayCircleSparkle20RegularSvg);
+export const PlayCircleSparkle24Filled = /** #__PURE__ */ createIcon("PlayCircleSparkle24Filled", "24", PlayCircleSparkle24FilledSvg);
+export const PlayCircleSparkle24Regular = /** #__PURE__ */ createIcon("PlayCircleSparkle24Regular", "24", PlayCircleSparkle24RegularSvg);

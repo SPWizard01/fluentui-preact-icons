@@ -5,9 +5,11 @@ import Dust24RegularSvg from "@fluentui/svg-icons/icons/dust_24_regular.svg" wit
 import Dust28FilledSvg from "@fluentui/svg-icons/icons/dust_28_filled.svg" with { type: "text" }
 import Dust28RegularSvg from "@fluentui/svg-icons/icons/dust_28_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Dust20Filled = createIcon("Dust20Filled", Dust20FilledSvg);
-export const Dust20Regular = createIcon("Dust20Regular", Dust20RegularSvg);
-export const Dust24Filled = createIcon("Dust24Filled", Dust24FilledSvg);
-export const Dust24Regular = createIcon("Dust24Regular", Dust24RegularSvg);
-export const Dust28Filled = createIcon("Dust28Filled", Dust28FilledSvg);
-export const Dust28Regular = createIcon("Dust28Regular", Dust28RegularSvg);
+export const Dust20Filled = /** #__PURE__ */ createIcon("Dust20Filled", "20", Dust20FilledSvg);
+export const DustFilled = /** #__PURE__ */ createIcon("DustFilled", "1em", Dust20FilledSvg);
+export const Dust20Regular = /** #__PURE__ */ createIcon("Dust20Regular", "20", Dust20RegularSvg);
+export const DustRegular = /** #__PURE__ */ createIcon("DustRegular", "1em", Dust20RegularSvg);
+export const Dust24Filled = /** #__PURE__ */ createIcon("Dust24Filled", "24", Dust24FilledSvg);
+export const Dust24Regular = /** #__PURE__ */ createIcon("Dust24Regular", "24", Dust24RegularSvg);
+export const Dust28Filled = /** #__PURE__ */ createIcon("Dust28Filled", "28", Dust28FilledSvg);
+export const Dust28Regular = /** #__PURE__ */ createIcon("Dust28Regular", "28", Dust28RegularSvg);

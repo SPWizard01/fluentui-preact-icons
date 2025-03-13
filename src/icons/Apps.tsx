@@ -17,21 +17,24 @@ import Apps48ColorSvg from "@fluentui/svg-icons/icons/apps_48_color.svg" with { 
 import Apps48FilledSvg from "@fluentui/svg-icons/icons/apps_48_filled.svg" with { type: "text" }
 import Apps48RegularSvg from "@fluentui/svg-icons/icons/apps_48_regular.svg" with { type: "text" }
 import { createIcon } from "../utils/createIcon"
-export const Apps16Color = createIcon("Apps16Color", Apps16ColorSvg);
-export const Apps16Filled = createIcon("Apps16Filled", Apps16FilledSvg);
-export const Apps16Regular = createIcon("Apps16Regular", Apps16RegularSvg);
-export const Apps20Color = createIcon("Apps20Color", Apps20ColorSvg);
-export const Apps20Filled = createIcon("Apps20Filled", Apps20FilledSvg);
-export const Apps20Regular = createIcon("Apps20Regular", Apps20RegularSvg);
-export const Apps24Color = createIcon("Apps24Color", Apps24ColorSvg);
-export const Apps24Filled = createIcon("Apps24Filled", Apps24FilledSvg);
-export const Apps24Regular = createIcon("Apps24Regular", Apps24RegularSvg);
-export const Apps28Color = createIcon("Apps28Color", Apps28ColorSvg);
-export const Apps28Filled = createIcon("Apps28Filled", Apps28FilledSvg);
-export const Apps28Regular = createIcon("Apps28Regular", Apps28RegularSvg);
-export const Apps32Color = createIcon("Apps32Color", Apps32ColorSvg);
-export const Apps32Filled = createIcon("Apps32Filled", Apps32FilledSvg);
-export const Apps32Regular = createIcon("Apps32Regular", Apps32RegularSvg);
-export const Apps48Color = createIcon("Apps48Color", Apps48ColorSvg);
-export const Apps48Filled = createIcon("Apps48Filled", Apps48FilledSvg);
-export const Apps48Regular = createIcon("Apps48Regular", Apps48RegularSvg);
+export const Apps16Color = /** #__PURE__ */ createIcon("Apps16Color", "16", Apps16ColorSvg);
+export const Apps16Filled = /** #__PURE__ */ createIcon("Apps16Filled", "16", Apps16FilledSvg);
+export const Apps16Regular = /** #__PURE__ */ createIcon("Apps16Regular", "16", Apps16RegularSvg);
+export const Apps20Color = /** #__PURE__ */ createIcon("Apps20Color", "20", Apps20ColorSvg);
+export const AppsColor = /** #__PURE__ */ createIcon("AppsColor", "1em", Apps20ColorSvg);
+export const Apps20Filled = /** #__PURE__ */ createIcon("Apps20Filled", "20", Apps20FilledSvg);
+export const AppsFilled = /** #__PURE__ */ createIcon("AppsFilled", "1em", Apps20FilledSvg);
+export const Apps20Regular = /** #__PURE__ */ createIcon("Apps20Regular", "20", Apps20RegularSvg);
+export const AppsRegular = /** #__PURE__ */ createIcon("AppsRegular", "1em", Apps20RegularSvg);
+export const Apps24Color = /** #__PURE__ */ createIcon("Apps24Color", "24", Apps24ColorSvg);
+export const Apps24Filled = /** #__PURE__ */ createIcon("Apps24Filled", "24", Apps24FilledSvg);
+export const Apps24Regular = /** #__PURE__ */ createIcon("Apps24Regular", "24", Apps24RegularSvg);
+export const Apps28Color = /** #__PURE__ */ createIcon("Apps28Color", "28", Apps28ColorSvg);
+export const Apps28Filled = /** #__PURE__ */ createIcon("Apps28Filled", "28", Apps28FilledSvg);
+export const Apps28Regular = /** #__PURE__ */ createIcon("Apps28Regular", "28", Apps28RegularSvg);
+export const Apps32Color = /** #__PURE__ */ createIcon("Apps32Color", "32", Apps32ColorSvg);
+export const Apps32Filled = /** #__PURE__ */ createIcon("Apps32Filled", "32", Apps32FilledSvg);
+export const Apps32Regular = /** #__PURE__ */ createIcon("Apps32Regular", "32", Apps32RegularSvg);
+export const Apps48Color = /** #__PURE__ */ createIcon("Apps48Color", "48", Apps48ColorSvg);
+export const Apps48Filled = /** #__PURE__ */ createIcon("Apps48Filled", "48", Apps48FilledSvg);
+export const Apps48Regular = /** #__PURE__ */ createIcon("Apps48Regular", "48", Apps48RegularSvg);
