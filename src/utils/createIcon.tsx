@@ -1,4 +1,10 @@
 const parser = new DOMParser();
+export interface IconProps {
+  primaryFill?: string;
+  className?: string;
+  filled?: boolean;
+  title?: string;
+}
 export function createIcon(name: string, svgSource: string) {
   const doc = parser.parseFromString(svgSource, "text/xml");
   const svgElem = doc.querySelector("svg");
@@ -10,8 +16,8 @@ export function createIcon(name: string, svgSource: string) {
   const heightStr = svgElem.getAttribute("height") ?? "";
   const xmlnsStr =
     svgElem.getAttribute("xmlns") ?? "http://www.w3.org/2000/svg";
-  const paths = Array.from(svgElem.querySelectorAll("path")).map((path) => (
-    <path d={path.getAttribute("d") ?? ""} />
+  const paths = Array.from(svgElem.querySelectorAll("path")).map((path, idx) => (
+    <path key={`${name}${idx}`} d={path.getAttribute("d") ?? ""} />
   ));
   const SvgIcon = (props: any) => {
     return (
