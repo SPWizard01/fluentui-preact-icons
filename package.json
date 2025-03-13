@@ -6,6 +6,9 @@
     "build": "bun run build.ts",
     "serve": "bun run serve.ts"
   },
+  "exports": {
+    ".": "./dist/index.js"
+  },
   "devDependencies": {
     "@fluentui/react-icons": "^2.0.279",
     "@fluentui/svg-icons": "^1.1.279",

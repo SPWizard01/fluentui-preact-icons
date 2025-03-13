@@ -9,6 +9,7 @@ interface IconDefinition {
     Variant: string;
     FileName: string;
 }
+console.log("Building icons", new DOMParser())
 function toCamelCase(str: string) {
     return str
         .split('_') // Split the string by underscores
@@ -70,7 +71,7 @@ for (const key in grouped) {
 }
 await write(`src/index.ts`, indexTsContent)
 
-let AppTsxContent = ``
+let AppTsxContent = `import React from "preact";\n`
 let AppTsxRenderContent = ``
 for (const key in grouped) {
     const icons = grouped[key]!;
@@ -86,7 +87,7 @@ export function App() {
     </div>
   );
 }`
-await write(`src/App.tsx`, AppTsxContent)
+await write(`showcase/App.tsx`, AppTsxContent)
 
 const result = await build({
     entrypoints: ["./src/index.ts"],
@@ -104,7 +105,7 @@ const result = await build({
         "BUILD_DATE": JSON.stringify(new Date().toISOString()),
     },
     drop: ["console.debug", "console.log"],
-
+    external: ["preact"]
 })
 function printOutput(result: BuildOutput) {
     console.table(result.outputs.map((bldArt) => {
