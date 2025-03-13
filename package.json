@@ -25,10 +25,10 @@
     "@fluentui/react-icons": "^2.0.279",
     "@fluentui/svg-icons": "^1.1.279",
     "@types/bun": "latest",
-    "fast-xml-parser": "^5.0.8",
-    "preact": "^10.26.4"
+    "fast-xml-parser": "^5.0.8"
   },
   "peerDependencies": {
-    "typescript": "^5"
+    "preact": "^10.26.4",
+    "typescript": "^5.8.2"
   }
 }
