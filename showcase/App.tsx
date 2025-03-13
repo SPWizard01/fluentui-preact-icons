@@ -1,3 +1,4 @@
+import React from "preact";
 import { Accessibility16Filled, Accessibility16Regular, Accessibility20Filled, Accessibility20Regular, Accessibility24Filled, Accessibility24Regular, Accessibility28Filled, Accessibility28Regular, Accessibility32Filled, Accessibility32Regular, Accessibility48Filled, Accessibility48Regular } from "./icons/Accessibility";
 import { AccessibilityCheckmark20Filled, AccessibilityCheckmark20Regular, AccessibilityCheckmark24Filled, AccessibilityCheckmark24Regular, AccessibilityCheckmark28Filled, AccessibilityCheckmark28Regular, AccessibilityCheckmark32Filled, AccessibilityCheckmark32Light, AccessibilityCheckmark32Regular, AccessibilityCheckmark48Filled, AccessibilityCheckmark48Regular } from "./icons/AccessibilityCheckmark";
 import { AccessibilityError20Filled, AccessibilityError20Regular, AccessibilityError24Filled, AccessibilityError24Regular } from "./icons/AccessibilityError";
